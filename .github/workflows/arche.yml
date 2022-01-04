@@ -41,4 +41,5 @@ jobs:
     #   if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.debugEnabled}}
     - name: ingest to arche
       run: |
+        php -f ingestion_script.php html/arche-cols.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
         php -f ingestion_script.php html/arche.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}

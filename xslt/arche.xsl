@@ -18,44 +18,17 @@
         <xsl:variable name="TopColId">
             <xsl:value-of select="data(.//acdh:TopCollection/@rdf:about)"/>
         </xsl:variable>
-        <rdf:RDF xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#">
-            <acdh:TopCollection>
-                <xsl:attribute name="rdf:about">
-                    <xsl:value-of select=".//acdh:TopCollection/@rdf:about"/>
-                </xsl:attribute>
-                <xsl:copy-of select="$constants"/>
-                <xsl:for-each select=".//node()[parent::acdh:TopCollection]">
-                    <xsl:copy-of select="."/>
-                </xsl:for-each>
-            </acdh:TopCollection>
-            
-            
-            <xsl:for-each select=".//node()[parent::acdh:MetaAgents]">
-                <xsl:copy-of select="."/>
-            </xsl:for-each>
-            <xsl:for-each select=".//acdh:Collection">
-                <acdh:Collection>
-                    <xsl:attribute name="rdf:about"><xsl:value-of select="@rdf:about"/></xsl:attribute>
-                    <xsl:copy-of select="$constants"/>
-                    <xsl:for-each select=".//node()">
-                        <xsl:copy-of select="."/>
-                    </xsl:for-each>
-                </acdh:Collection>
-            </xsl:for-each>
+        <rdf:RDF xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#">            
             <xsl:for-each select="collection('../data/editions')//tei:TEI">
-
+                
                 <xsl:variable name="partOf">
-                    <xsl:value-of select="@xml:base"/>
-                </xsl:variable>
-                <xsl:variable name="id">
-                    <xsl:value-of select="concat($partOf, '/', @xml:id)"/>
+                    <xsl:value-of select="data(.//tei:seriesStmt/tei:title[@type='collection']/@ref)"/>
                 </xsl:variable>
                 <xsl:variable name="flatId">
                     <xsl:value-of select="concat($TopColId, '/', @xml:id)"/>
                 </xsl:variable>
                 
-                <acdh:Resource rdf:about="{$id}">
-                    <acdh:hasIdentifier rdf:resource="{$flatId}"/>
+                <acdh:Resource rdf:about="{$flatId}">
                     <!--<acdh:hasPid><xsl:value-of select=".//tei:idno[@type='handle']/text()"/></acdh:hasPid>-->
                     <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/></acdh:hasTitle>
                     <!--<acdh:hasCoverage xml:lang="de"><xsl:value-of select="$datum"/></acdh:hasCoverage>-->
@@ -65,7 +38,7 @@
                     <acdh:isPartOf rdf:resource="{$partOf}"/>
 <!--                    <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"><xsl:value-of select="$datum"/></acdh:hasCoverageStartDate>-->
                     <xsl:copy-of select="$constants"/>
-                    <xsl:for-each select=".//tei:place[@xml:id]">
+                    <!--<xsl:for-each select=".//tei:place[@xml:id]">
                         <xsl:variable name="entId">
                             <xsl:choose>
                                 <xsl:when test=".//tei:idno[@type='geonames']">
@@ -82,8 +55,8 @@
                                 <acdh:hasTitle xml:lang="und"><xsl:value-of select=".//tei:placeName[1]/text()"/></acdh:hasTitle>
                             </acdh:Place>
                         </acdh:hasSpatialCoverage>
-                    </xsl:for-each>
-                    <xsl:for-each select=".//tei:person[@xml:id]">
+                    </xsl:for-each>-->
+                    <!--<xsl:for-each select=".//tei:person[@xml:id]">
                         <xsl:variable name="entId">
                             <xsl:choose>
                                 <xsl:when test=".//tei:idno[@type='gnd']">
@@ -100,8 +73,8 @@
                                 <acdh:hasTitle xml:lang="und"><xsl:value-of select=".//tei:forename[1]/text()||' '||.//tei:surname[1]/text()"/></acdh:hasTitle>
                             </acdh:Person>
                         </acdh:hasActor>
-                    </xsl:for-each>
-                    <xsl:for-each select=".//tei:org[@xml:id]">
+                    </xsl:for-each>-->
+                    <!--<xsl:for-each select=".//tei:org[@xml:id]">
                         <xsl:variable name="entId">
                             <xsl:value-of select="concat('https://id.acdh.oeaw.ac.at/pmb/', @xml:id)"/>
                         </xsl:variable>
@@ -111,7 +84,7 @@
                                 <acdh:hasTitle xml:lang="und"><xsl:value-of select=".//tei:orgName[1]/text()"/></acdh:hasTitle>
                             </acdh:Organisation>
                         </acdh:hasActor>
-                    </xsl:for-each>
+                    </xsl:for-each>-->
                 </acdh:Resource>
             </xsl:for-each>
         </rdf:RDF>

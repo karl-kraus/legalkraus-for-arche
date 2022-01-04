@@ -5,12 +5,9 @@
     <property name="target_xml" value="./html/xml-view"/>
     <delete>
         <fileset dir="${target}" includes="*.html"/>
+        <fileset dir="${target}" includes="*.rdf"/>
     </delete>
     <delete dir="${target}/static-search"/>
-    <!-- <xslt style="./xslt/editions-xml.xsl"  basedir="./data/editions" destdir="${target_xml}" includes="*.xml">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt> -->
     <xslt style="./xslt/editions.xsl"  basedir="./data/editions" destdir="${target}" includes="*.xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
@@ -47,6 +44,10 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt> -->
+    <xslt in="./data/meta/arche_constants.rdf" out="${target}/arche-cols.rdf" style="./xslt/arche-cols.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
     <xslt in="./data/meta/arche_constants.rdf" out="${target}/arche.rdf" style="./xslt/arche.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
