@@ -1,0 +1,822 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000068-074-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-065-002.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-075-000.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Schriftsatz in Sachen Kraus ./. Kerr (Alfred Kerr an das Amtsgericht
+                    Charlottenburg, G. Z. B.2 27)</title>
+                <editor ref="#AR">Alexandra Rausch</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name full="yes" instant="false">Austrian Centre for Digital Humanities and
+                        Cultural Heritage, Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name full="yes" instant="false">Ludwig Boltzmann Institut für Digital
+                        History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name full="yes" instant="false">Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date instant="false">2021</date>
+                <availability default="false">
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000068-074-000.xml</idno>
+                <idno type="URL" subtype="krausonline">https://www.kraus.wienbibliothek.at/content/schriftsatz-sachen-kraus-kerr-alfred-kerr-das-amtsgericht-charlottenburg-g-z-44b22227-0</idno>
+                <idno type="ID" subtype="transkribus">207914</idno>
+            </publicationStmt>
+            <seriesStmt default="false">
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000068">Karl
+                    Kraus ca. Alfred Kerr</title>
+            </seriesStmt>
+            <sourceDesc default="false">
+                <listWit>
+                    <witness xml:id="D_000068-074-000-wit01" facs="#D_000068-074-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" notAfter-iso="1928-02-01" subtype="produced" instant="false"/>
+            </creation>
+            <langUsage default="false">
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass default="false">
+                <keywords>
+                    <term/>
+                </keywords>
+                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/"/>
+            </textClass>
+            <particDesc default="false"/>
+            <handNotes>
+                <!-- AR: HS sind noch nicht vollständig eingearbeitet -->
+                <handNote xml:id="D_000068-074-000-hand01" source="#D_000068-074-000-wit01" scribeRef="#11910" medium="brown-ink" cert="high" resp="#AR"/>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2021-09-13" resp="#LU" status="draft">created XML Document</change>
+            <change when-iso="2021-09-13" resp="#LU" status="draft">Replaced Text with Transcription
+                of Transkribus Document 207914.</change>
+            <change type="header" when-iso="2022-01-03" who="#AR" status="draft"/>
+            <change type="structure" when-iso="2022-01-03" who="#AR" status="draft"/>
+            <change type="references" when-iso="2022-01-03" who="#AR" status="draft"/>
+            <change type="typography" when-iso="2022-01-03" who="#AR" status="draft"/>
+            <change type="intertexts" when-iso="2022-01-03" who="#AR" status="draft"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000068-074-000-facs001">
+        <!-- surfaces, graphics -->
+        <!-- AR: Achtung: letzte Seite = 1. Seite! In Transkription bereits richtig gestellt. -->
+        <surface type="">
+            <graphic url="" source="wienbibliothek"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body><!-- lb uuids -->
+            <pb facs="" n="1"/>
+            <p xml:id="uuid_82b51c56-bd92-478c-b741-cdeb1c4396d1" part="N"><lb/>Schriftsatz <lb/>in
+                Sachen <lb/><rs type="person" ref="#11988">Kraus</rs> ./. <rs type="person" ref="#11910">Kerr</rs>
+                <lb/>44 B. 222/27 </p><p xml:id="uuid_61d03485-e0db-422d-8e00-c883fe0b375a" part="N"><lb/>Erst jetzt ist die Antwort auf den zuletzt <lb/>eingereichten gegnerischen <rs type="work" ref="#D_000068-062-000.xml">Schriftsatz</rs> möglich: <lb/>weil Herr
+                    <rs type="person" ref="#11988">Kraus</rs> den Prozeß des bestochenen Musikkri<lb break="no"/>tikers <rs type="person" ref="#38336">Tappert</rs> heranzieht, und
+                weil die 31 Jahre <lb/>alten Zeitungsausschnitte, welche diesen Prozeß be<lb break="no"/>treffen, schwer und mit grosser Verzögerung aufzu<lb break="no"/>treiben waren. Ich kann sie nun dem <rs type="institution" ref="#36362">Gericht</rs> vorle<lb break="no"/>gen. Der <rs type="person" ref="#11988">Kläger</rs> hat auch hier einen kaum noch wahr<lb break="no"/>scheinlichen
+                Umdrehungsversuch unternommen. </p><p xml:id="uuid_7f857664-0a26-44f4-88bb-244786ef00d6" part="N"><lb/>Die folgenden
+                Zahlen beziehen sich auf die <lb/>Seiten des klägerischen <rs type="work" ref="#D_000068-062-000.xml">Schriftsatzes</rs>. </p><p xml:id="uuid_7f5f8e1d-6822-4df0-9cea-b04be3c68a5f" part="N"><lb/><hi rend="underlined">S. 3</hi>. – Um die Tatsache meines sofortigen Erwi<lb break="no"/>derns auf seine Beleidigungsversuche zu entkräften, <lb/>behauptet
+                der <rs type="person" ref="#11988">Kläger</rs>, ich sei ständiger Leser der
+                    <lb/>„<rs type="work" ref="#41244">Fackel</rs>“. Ich habe sie in 15 Jahren fast
+                nie gese<lb break="no"/>hen. Ich musste dann erst fast sämtliche Bände <lb/>der „<rs type="work" ref="#41244">Fackel</rs>“ auf der <rs type="institution" ref="#55758">Preussischen Staatsbibliothek</rs>
+                <lb/>leider durchlesen, als Herr <rs type="person" ref="#11988">Kraus</rs> mich zu
+                diesem <lb/>zeitraubenden und öden Tun veranlasste. (Beleg für <lb/>Entleihungen
+                liegt vor.) </p><p xml:id="uuid_70a5e34e-c1f0-4bb0-8b21-39738ee2acb2" part="N"><lb/>Herr <rs type="person" ref="#11988">Kraus</rs> nimmt in Selbstüberschätzung
+                an, <lb/>ich werde auf seine Antwort „<quote xml:id="uuid_5a966460-48e4-4626-931e-9ef20af70222" source="#D_000068-062-000.xml">gewartet</quote>“ haben. Aber <lb/>warten kann
+                man auf etwas, was wenigstens alle Mona<lb break="no"/>te regelmässig erscheint –
+                nicht auf ein Heft, das <lb/>im Zeitraum von drei Monaten ungefähr ein Mal irgend
+                </p><p xml:id="uuid_de09eee6-c627-4573-9679-c9d74f09e3d3" part="N"><lb/>An das
+                    <lb/><rs type="institution" ref="#36362">Amtsgericht <lb/>Charlottenburg</rs>
+                <pb facs="" n="2"/>
+            </p><p xml:id="uuid_5d3a6ab1-65e9-4435-886c-86dc403a23b6" part="N"><lb/>wann ganz
+                unregelmässig herauskommt und bei <lb/>uns kaum aufzutreiben ist. In drei Monaten
+                hat <lb/>unsereins schliesslich an anderes zu denken, als an <lb/>Herrn <rs type="person" ref="#11988">Kraus</rs> in <rs type="place" ref="#50">Wien</rs>.
+                Ich bin durch Arbeit bean<lb break="no"/>sprucht, oft verreist. Gelegentlich, sehr
+                viel <lb/>später, erfährt man durch einen kuriosen Zufall, <lb/>dass vor längerer
+                Zeit wieder ein Angriff des Herrn <lb/><rs type="person" ref="#11988">Karl
+                    Kraus</rs> erfolgt sein soll – man wird des ein<lb break="no"/>schlägigen Heftes
+                nach einer Weile habhaft und rea<lb break="no"/>giert sofort. So geschah es hier. Es
+                ist die <lb/>simple Wahrheit. </p><p xml:id="uuid_a91b222e-4c8d-403c-a581-17d73daa1687" part="N"><lb/>Wenn ich in einem
+                solchen Fall schrieb: „<quote xml:id="uuid_1280f38b-461e-4b6a-a737-d932ef0053df" source="https://fackel.oeaw.ac.at/f/735,078">Man <lb/>muss ihn wieder mal
+                    vornehmen</quote>“, so heisst das: <lb/>gelegentlich. Folgendes kommt hierbei in
+                Betracht: <lb/>Im allgemeinen kehrt man sich wenig an die Angriffe <lb/>des <rs type="person" ref="#11988">Kraus</rs>, da sie ja maschinell, berufsmässig, in
+                <lb/>ermüdender Gleichförmigkeit und ziemlich gegen jeden <lb/>erfolgen. Er hat fast
+                alle Wertvollen in <rs type="place" ref="#151">Deutschland</rs>
+                <lb/>zu schmähen versucht, ohne viel Beachtung zu finden. <lb/>(Ein <rs type="person" ref="#11527">österreichischer Landsmann</rs> des <rs type="person" ref="#11988">Klägers</rs> hat es <lb/>so ausgedrückt: „<quote xml:id="uuid_be5022ae-3a12-49cd-b03b-4621e717518e" source="https://fackel.oeaw.ac.at/F/613,033">Kein Lebendiger grösseren Formats,
+                    <lb/>dem der Zwerg nicht … Beschimpfungen nachschmisse.</quote>“) <lb/>Die
+                Beschäftigung mit ihm ist unter solchen Umstän<lb break="no"/>den so dringend nicht,
+                dass man auf einen neuen An<lb break="no"/>griff eigens „warten“ sollte. Der <rs type="person" ref="#11988">Kläger</rs> selbst <lb/>bestätigt unfreiwillig diese
+                Tatsache, indem er <lb/>sagt, dass ich schon früher, als er mein <rs type="work" ref="https://fackel.oeaw.ac.at/f/735,081">Rumänen<lb break="no"/>liedchen</rs>
+                (wider einen Kriegsgegner <rs type="place" ref="#151">Deutschlands</rs> ge- <pb facs="" n="3"/>
+                <lb/>richtet) in einer seiner unbeachteten <rs type="place" ref="#168">Berliner</rs>
+                    Vorlesun<lb break="no"/>gen höhnisch aufgesagt hatte, – dass ich erst viel
+                    spä<lb break="no"/>ter eine Gegenbemerkung äusserte: eben auch erst, als
+                <lb/>ich davon durch einen Zufall viel später erfuhr. </p><p xml:id="uuid_3f95d8b1-9e5b-4942-87df-356ffcf89e9a" part="N"><lb/>Herr <rs type="person" ref="#11988">Kraus</rs> wirkt in <rs type="place" ref="https://pmb.acdh.oeaw.ac.at/entity/168">Berlin</rs> so gut wie incognito;
+                was <lb/>er selber knirschend feststellt. Ich wohne draussen im <lb/><rs type="place" ref="#129">Grunewald</rs>, komme wochenlang nicht in die Stadt,
+                niemals in <lb/>ein Caféhaus, wo vielleicht ein paar Intellektualitäts<lb break="no"/>jobber von ihm reden. Die Bekundung der <rs type="work" ref="#42406">Neuen Zürcher
+                    <lb/>Zeitung</rs> (März 1924): „<quote xml:id="uuid_4903e385-6d53-4a96-8ca2-7a0012b854ef" source="https://fackel.oeaw.ac.at/f/649,038">Von tausend Menschen an der Spree
+                    <lb/>dürfte kaum einer die ‚<rs type="work" ref="#41244">Fackel</rs>‘ auch nur
+                    dem Namen nach <lb/>kennen, geschweige denn, dass er sie je in der Hand ge<lb break="no"/>halten hat</quote>“, entspricht völlig der Wahrheit. </p><p xml:id="uuid_160e5671-82e3-4df6-a6f3-cbac10cf9abe" part="N"><lb/>Endlich: es besteht
+                gar kein Grund, <lb/>weshalb ich die <rs type="person" ref="#11988">Kraus’schen</rs>
+                Beschimpfungsversuche nicht <lb/>früher erwidert haben sollte – wenn ich sie früher
+                    ge<lb break="no"/>kannt hätte. </p><p xml:id="uuid_167863e5-c762-429e-bec5-dd2614180ca7" part="N"><lb/><hi rend="underlined">S. 7</hi>. – Er behauptet, um den Wert meiner freiwilligen
+                <lb/>Meldung als Soldat 1914 herabzusetzen, ich wäre gewiss <lb/>„<quote xml:id="uuid_5f277cbf-1eb9-4c65-a1df-d0437fc33704" source="#D_000068-062-000.xml">in das hinterste Pressequartier</quote>“
+                gekommen, und zwar, <lb/>sagt er irrig, „<quote xml:id="uuid_012918ae-8712-4bb3-93b3-27ef1e070dff" source="#D_000068-062-000.xml">als Redakteur des <rs type="institution" ref="#29329">Berliner Tageblatts</rs></quote>“. <lb/>Der war ich nicht. Er
+                hat kurz zuvor behauptet, dass <lb/>ich die <rs type="person" ref="#3765">Scherlsche</rs> „<quote xml:id="uuid_68faafa9-dc06-4c73-b202-be6058b43f8c" source="https://fackel.oeaw.ac.at/f/735,087">Livree</quote>“ trug. Er macht mich
+                aber zur <lb/>selben Zeit zum „<quote xml:id="uuid_fa516184-9ae1-47fe-ba5a-32f0d9150d18" source="#D_000068-062-000.xml">Redakteur des <rs type="institution" ref="#29329">Berliner Tageblatts</rs></quote>“. <lb/>Wohl nur ein Schreibfehler. </p><p xml:id="uuid_2612c31b-f17a-4a35-9175-db7cc3625b1a" part="N"><lb/><hi rend="underlined">S. 11</hi>. – In dem Wort „<quote xml:id="uuid_6c4d4b32-07cb-418a-bf31-239dfd8289ad" source="https://fackel.oeaw.ac.at/f/735,087">Livree</quote>“, „<quote xml:id="uuid_48191023-277a-4b23-bd82-6420f83b8a1e" source="https://fackel.oeaw.ac.at/f/735,085">Kriegslivree</quote>“ liegt die <pb facs="" n="4"/>
+                <lb/>Verleumdung. <rs type="person" ref="#11988">Kraus</rs> schreibt über mich
+                (Oktober 1926 S. 87): <lb/>„<quote xml:id="uuid_76fe2ac3-3ec2-49e3-b4f9-426d2691825b" source="https://fackel.oeaw.ac.at/f/735,087">Er hat gewusst, dass die nationalen
+                    Kunden der <rs type="institution" ref="#37065">Firma <lb/>(Anm.: Scherl)</rs>,
+                    die beim Frühstück als Ersatz für Bohnen<lb break="no"/>kaffee blutige Witze
+                    haben wollten</quote>“, … die unter ‚Gott<lb break="no"/>lieb‘ geäusserte
+                Gesinnung „<quote xml:id="uuid_c72d8dcd-46de-447e-8ff7-683da719f366" source="https://fackel.oeaw.ac.at/f/735,087">goutierten</quote>“. Er legt also
+                <lb/>nahe, dass ich mich diesen „<quote xml:id="uuid_79a460ae-35ab-4069-9ad7-484d8e830878" source="https://fackel.oeaw.ac.at/f/735,087">Kunden</quote>“ angepasst habe.
+                Jetzt <lb/>hingegen sagt er: „<quote xml:id="uuid_2de5fb9b-c55f-4be4-a3d9-36820233ca07" source="#D_000068-062-000.xml">Es ist aber mit keinem Wort von mir
+                    <lb/>angedeutet worden, dass Herr <rs type="person" ref="#11910">Kerr</rs> seine
+                    Haltung nach die<lb break="no"/>sen Wünschen erst gerichtet …</quote>“; <rs type="person" ref="#11988">Kraus</rs> habe gar nicht be<lb break="no"/>hauptet,
+                dass ich „<quote xml:id="uuid_d4cb7348-7859-414d-b7f8-766f4538e14b" source="#D_000068-044-000.xml">im Frondienst der <rs type="institution" ref="#37065">Firma</rs> als Kriegshetzer <lb/>gewirkt</quote>“ – er will das
+                nicht gesagt haben, obwohl er von <lb/>Livree, also von der Tracht eines
+                kommandierten Lakaien <lb/>spricht. Das ist kennzeichnend für seine Methode, sich
+                <lb/>hinterdrein herauszureden. </p><p xml:id="uuid_241ba6db-6b64-4298-a4ce-1bd93ae2151e" part="N"><lb/><hi rend="underlined">S. 13ff</hi>. – Der Fall <rs type="person" ref="#38336">Tappert</rs>. </p><p xml:id="uuid_7176a22f-71a1-48e9-b951-2c7a7db2df2a" part="N"><lb/>Eine der Verleumdungen des <rs type="person" ref="#11988">Kraus</rs>
+                gegen mich hatte <lb/>darin bestanden, dass er („<rs type="work" ref="#41244">Fackel</rs>“ <rs type="work" ref="https://fackel.oeaw.ac.at/f/649,080">Juni
+                    1924 S. 80</rs>) <lb/>schrieb, er wisse, „<quote xml:id="uuid_b39956b1-e7e3-49f8-afc1-06563c82b30a" source="https://fackel.oeaw.ac.at/f/649,080">dass ich mit ihm (Anm.: nämlich <rs type="person" ref="#11910">Kerr</rs>) <lb/><hi rend="underlined">nie</hi>,
+                    auch nicht 1897, in einer anderen persönlichen Verbin<lb break="no"/>dung
+                    gestanden bin, als dass ich ihn <hi rend="underlined">einmal</hi> vor der
+                    <lb/>scheusslichen Gerichtsverhandlung, durch die er den grei<lb break="no"/>sen
+                    Musikschriftsteller <rs type="person" ref="#38336">Tappert</rs> um sein Brot
+                    brachte, <lb/><hi rend="underlined">einen Moment</hi> sah und dann <hi rend="underlined">angewidert nicht mehr kannte</hi>.</quote>“ <lb/>Die kaum
+                vorstellbare Unwahrheit dieser Behauptungen ist <lb/>in meinem letzten <rs type="work" ref="#D_000068-044-000.xml">Schriftsatz</rs> (S. 4ff.) dargetan. Zu
+                <lb/>ihr fügt Herr <rs type="person" ref="#11988">Kraus</rs> jetzt eine neue: indem
+                er, mit ver<lb break="no"/>blüffender Umdrehung des Tatbestands, den notorisch be-
+                    <pb facs="" n="5"/>
+                <lb/>stochenen <rs type="person" ref="#38336">Musikkritiker</rs> zu einem rührenden
+                Greis maskiert, <lb/>der um sein Brot (nämlich um die Bestechungsgelder) durch
+                <lb/>den Prozeß gebracht worden sei, – den er gegen mich ange<lb break="no"/>strengt
+                hatte. Herr <rs type="person" ref="#11988">Kraus</rs> zitiert zu seiner Hilfe
+                    wirk<lb break="no"/>lich und wahrhaftig Äusserungen des damals mitkompromit<lb break="no"/>tierten Blattes (es war „<rs type="institution" ref="#62216">Das
+                    Kleine Journal</rs>“ des <rs type="person" ref="#62585">Dr. Leo
+                    <lb/>Leipziger</rs>) – des Blattes, das einen der Bestochenheit völ<lb break="no"/>lig Überführten trotzdem als Kritikstar behielt. </p><p xml:id="uuid_fb2209b7-0422-431c-a6ba-e09062021479" part="N"><lb/>Stets wieder taucht
+                vor dem gerührten Auge des sonst <lb/>berufsmässigen Korruptionsenthüllers <rs type="person" ref="#11988">Kraus</rs> im <rs type="work" ref="#D_000068-062-000.xml">Schriftsatz</rs>
+                <lb/>der „<quote xml:id="uuid_70fdca23-bb30-45b4-be69-b30bc5d6017f" source="#D_000068-062-000.xml">greise Musiklehrer</quote>“ auf, d.h. jemand, der
+                die Unsau<lb break="no"/>berkeit bis zu einer ziemlich hohen Altersgrenze fortge<lb break="no"/>setzt hat. <rs type="person" ref="#11988">Kraus</rs> hat mir von
+                seiner Rührung nie etwas <lb/>mitgeteilt; auch nie ahnen lassen, dass er mich
+                    „<quote xml:id="uuid_26b9f456-8276-4519-990e-27f9865c8e6a" source="https://fackel.oeaw.ac.at/f/649,080">angewi<lb break="no"/>dert nicht
+                    mehr kannte</quote>“ denn er wollte <add hand="D_000068-074-000-hand01" instant="false" status="unremarkable">ja</add> nachher mit mir <lb/>zusammen
+                sein, er schrieb mir, er bat mich um Mitarbeit, <lb/>er druckte Äusserungen von mir
+                rühmend nach. Das nennt <lb/>er: mich angewidert nicht mehr gekannt haben, nachdem
+                er <lb/>mich nur einmal einen Moment gesehen haben will. Die <lb/>Beweise für sein
+                Verhalten werden vorgelegt. </p><p xml:id="uuid_06562ada-0219-4187-aad4-5f56aab2c486" part="N"><lb/><rs type="person" ref="#38336">Tappert</rs> war vor 31 Jahren der gefürchteste und gröbste
+                <lb/>Rhadamanthys der <rs type="place" ref="#168">Berliner</rs> Musikkritik, der
+                sich von <lb/>Spielern und Sängern vor dem Auftreten „schmieren“ liess. <lb/>Das
+                ganze Heer der anständigen <rs type="place" ref="#168">Berliner</rs> Kritik hat
+                    da<lb break="no"/>mals unter Eid vernichtende Gutachten über sein Tun abge<lb break="no"/>geben. Ich lege dem <rs type="institution" ref="#36362">Gericht</rs>
+                Zeitungsausschnitte über <lb/>den Prozeß vor. Das Schlußergebnis beleuchtet die
+                    Sach<lb break="no"/>lage: „<quote xml:id="uuid_ea711c2d-3c4f-4cc6-bf66-61e8396819ed" source="">Der Kläger <rs type="person" ref="#38336">Tappert</rs> nimmt die Klage zurück und <pb facs="" n="6"/>
+                    <lb/>trägt sämtliche Kosten, auch diejenigen des <rs type="person">Privatklä<lb break="no"/>gers</rs>, worauf letzterer gleichfalls die Klage zurück<lb break="no"/>nimmt</quote>“. Was das Zurücknehmen der Klage durch die zwei
+                <lb/>Bestochenen, <rs type="person" ref="#38336">Tappert</rs> und <rs type="person" ref="#62551">Lackowitz</rs>, bedeutet, ergibt sich <lb/>aus dem Wortlaut meiner
+                vorausgegangenen öffentlichen <lb/>Anschuldigung; sie lautete: </p><p xml:id="uuid_a814842c-eca8-4107-a892-a3a0202eb485" part="N"><lb/>„<quote xml:id="uuid_92fe7e6f-87e0-4441-b6f7-5298c4026b04" source="">Die empörende
+                    Tatsache besteht, dass gewisse Kritiker <lb/>in der deutschen Hauptstadt sich
+                    von Denen mästen, <lb/>die sie beurteilen sollen; dass sie selbst Anfän<lb break="no"/>ger, die für ihr erstes Konzert das Letzte hinge<lb break="no"/>ben, frech ausbeuten; dass sie Bestechungsgelder <lb/>annehmen und indirekt
+                    erpresserisch vorgehen. Es <lb/>ist unnötig zuzufügen, dass diese nur eine
+                    winzige <lb/>Minderheit gegenüber der anständigen <rs type="place" ref="#168">Berliner</rs> Mu<lb break="no"/>sikkritik bilden … Erbarmungsloses
+                    Aufdecken kann <lb/>hier einzig helfen. Und so will ich den Anfang ma<lb break="no"/>chen: </quote></p><quote xml:id="uuid_0e7da9c0-6255-4adb-8c83-816cfd4fa778" source="">
+                <p xml:id="uuid_b0a7b446-bbd0-481d-8f44-ef89a4e59fc3" part="N"><lb/>Ich klage
+                    hiermit <rs type="person" ref="#38336">Wilhelm Tappert</rs>, wohnhaft <lb/>zu
+                        <rs type="place" ref="https://pmb.acdh.oeaw.ac.at/entity/168">Berlin</rs>,
+                        <rs type="place" subtype="address" ref="#62633">Bellealliancestrasse
+                    68</rs>, der unlauteren <lb/>Zugänglichkeit für Geldgaben und Missbrauches
+                    seines <lb/>Amtes an. </p>
+                <p xml:id="uuid_b9c0fd10-a370-4ba1-a437-e4a3d200179d" part="N"><lb/>Desgleichen
+                    bezichtige ich <rs type="person" ref="#62551">Wilhelm Lackowitz</rs>,
+                    <lb/>wohnhaft zu <rs type="place" ref="https://pmb.acdh.oeaw.ac.at/entity/168">Berlin</rs>, <rs type="place" subtype="address" ref="#62893">Weissenburgerstrasse 56</rs>, der <lb/>gemeinen Bestechlichkeit durch Geld.
+                </p>
+            </quote><p xml:id="uuid_8b8e9bc4-a730-480d-ac8a-2672e99d1a56" part="N"><quote xml:id="uuid_1b3e2b31-9b1d-4da5-91bd-d5caea6573d7" source=""><lb/>Ich erkläre
+                    zugleich, dass ich bereit bin, ih<lb break="no"/>nen vor dem Richter wegen
+                    dieser Beschuldigungen <lb/>Rede zu stehen. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11910">Alfred Kerr</rs></quote>“
+                </p><p xml:id="uuid_f90876ab-9ff8-4831-877c-7a6e82f4e3d4" part="N"><lb/>Ich lege
+                Zeitungsstimmen aller Parteien vor, von rechts wie <lb/>von links, welche das
+                niederschmetternde Ergebnis der Be<lb break="no"/>weisaufnahme für die zwei
+                bestochenen Kritiker feststellen. <lb/>Es war eine Reinigungsaktion, zum besten
+                meines eigenen kri<lb break="no"/>tischen Berufs unternommen, von der ganzen
+                sauberen Kritik <lb/>dankbar anerkannt – von Herrn <rs type="person" ref="#11988">Kraus</rs> angefochten, doch erst <lb/>jetzt nach 31 Jahren angefochten; vorher
+                kein Wort. Um <lb/>seine grotesk unwahre Darstellung zu stützen, hat Herr <lb/><rs type="person" ref="#11988">Kraus</rs> den Mut, sogar das später erfolgte „<quote xml:id="uuid_3d182bee-c680-4ca1-bb8d-9378d1b1b855" source="#D_000068-062-000.xml">Ableben</quote>“ des der <lb/>passiven Bestechung
+                reichlich Überführten mir beweislos <lb/>und flink in die Schuhe zu schieben. Es
+                kennzeichnet ihn. <pb facs="" n="7"/>
+            </p><p xml:id="uuid_56d2bc8b-cd72-4b2a-824c-70253db5cf4c" part="N"><lb/>Herr <rs type="person" ref="#11988">Kraus</rs> versucht als letztes Mittel, einen
+                    Unter<lb break="no"/>schied zwischen der ersten und der zweiten Prozeßverhand<lb break="no"/>lung zu konstruieren. Er will mir blos nach der ersten
+                <lb/>freundschaftlich geschrieben haben usw. Die passive Be<lb break="no"/>stechung
+                beider Musiker stand jedoch nach der ersten Ver<lb break="no"/>handlung bereits
+                fest; die zweite Verhandlung war – bis <lb/>auf die Zurücknahme der Klage durch <rs type="person" ref="#38336">Tappert</rs> und Übernahme <lb/>sämtlicher Kosten,
+                auch für mich, – belanglos. Der <rs type="work">Bericht</rs>
+                <lb/>sagt von diesem Abschluß des Prozesses (23.XII.1897): <lb/>„<quote xml:id="uuid_84865efa-cae1-49a3-89b5-21f231f25a40">Die (zweite) Verhandlung
+                    selbst ergab nicht viel Neues. <lb/>Es stellte sich u.a. noch heraus, dass Herr
+                        <rs type="person" ref="#62593">Bötel</rs> – <rs type="place" ref="https://pmb.acdh.oeaw.ac.at/entity/506">Hamburg</rs>
+                    <lb/>bei einem seiner <rs type="place" ref="#168">Berliner</rs> Gastspiele an
+                        <rs type="person" ref="#38336">Tappert</rs> 50 M ge<lb break="no"/>schickt
+                    hat</quote>“. Weiter: „<quote xml:id="uuid_f9be3d7b-8221-46ae-9e26-c6f2974d8510">Der Konzertagent <rs type="person" ref="#62569">Eugen Stern</rs> bekun<lb break="no"/>det, dass er von dem Klaviervirtuosen <rs type="person" ref="#62896">Zoetsch</rs> Geld erhalten <lb/>habe, um es an die Kritiker zu
+                    verteilen. Dies sei gesche<lb break="no"/>hen. Alle Kritiker hätten das Geld
+                    zurückgeschickt, <rs type="person" ref="#38336">Tap<lb break="no"/>pert</rs> und
+                        <rs type="person" ref="#62551">Lackowitz</rs> aber nicht</quote>“. Dies war
+                der letzte Gruss <lb/>an den rührenden Greis, bevor er nach diesem Beweisergebnis
+                <lb/>die Klage fallen liess und alle Kosten übernahm, um sich <lb/>auf das durch
+                Herrn <rs type="person" ref="#11988">Kraus</rs> jetzt festgestellte viel spätere
+                <lb/>Ableben zurückzuziehen. Er blieb weiterhin Kritiker an dem <lb/><rs type="institution" ref="#62216">Kleinen Journal</rs>! … </p><p xml:id="uuid_ec6c2edb-a498-4085-b8eb-78c9fd4026b1" part="N"><lb/>Aus dem damaligen
+                Bericht deutscher Zeitungen. – <lb/>Die <hi rend="underlined"><rs type="work" ref="#41572">Deutsche Tageszeitung</rs></hi> schrieb schon nach der ersten
+                    aus<lb break="no"/>schlaggebenden Verhandlung: „<quote xml:id="uuid_58e0754d-e55d-49ef-babd-8caed3d64750" source="">Der Prozess <rs type="person" ref="#38336">Tappert</rs> ist ver<lb break="no"/>tagt worden,
+                    aber es ist doch klar, dass der Beklagte <lb/><rs type="person" ref="#11910">Dr.
+                        Kempner (Kerr)</rs> als <hi rend="underlined">moralischer Sieger</hi> aus
+                    dem gericht<lb break="no"/>lichen Kampf hervorgehen wird. Es hat sich
+                    unzweifelhaft <pb facs="" n="8"/>
+                    <lb/>ergeben, dass die Kläger <rs type="person" ref="#38336">Tappert</rs> und
+                        <rs type="person" ref="#62551">Lackowitz</rs> in verschie<lb break="no"/>denen Fällen ganz ansehnliche Geldsummen von Künstlern ge<lb break="no"/>nommen haben, die sie zu beurteilen hatten … Die Erklä<lb break="no"/>rung der
+                    Kläger, dass sie diese Zuwendungen als Entgelt für <lb/>Spesen (Nachtdroschken,
+                    Abendessen usw.) aufgefasst hät<lb break="no"/>ten, ist völlig haltlos, denn der
+                    Kritiker wird für alles <lb/>das von seiner Zeitung entschädigt, so dass zum
+                    mindesten <lb/>eine doppelte Honorierung erfolgt</quote>“. </p><p xml:id="uuid_31452c9a-f4b8-4fb6-8eee-4da99bbc13ea" part="N"><lb/>Die „<hi rend="underlined"><rs type="work" ref="#62897">Nationalzeitung</rs></hi>“
+                urteilte folgendermassen: <lb/>„<quote xml:id="uuid_5c17f1da-44ee-4ebb-92e7-4185f3880bb9" source="">Wenn über die
+                    juristische Frage der Beleidigung die Ent<lb break="no"/>scheidung noch
+                    aussteht, so kann über das tatsächliche <lb/>Ergebnis der Verhandlung und über
+                    die moralische Beurtei<lb break="no"/>lung desselben doch kein Zweifel sein. Die
+                    Herren <rs type="person" ref="#38336">Tappert</rs>
+                    <lb/>und <rs type="person" ref="#62551">Lackowitz</rs> haben von Künstlern, über
+                    deren Leistungen <lb/>sie zu berichten hatten, Geld genommen, und was sie zur
+                    <lb/>Rechtfertigung dieses ihres Verfahrens vorbrachten, muss <lb/>als leere
+                    Ausflucht bezeichnet werden</quote>“ … Es „<quote xml:id="uuid_15a31d47-c187-4352-9a02-17ba90beaeda">darf <lb/>über die
+                    Verurteilung des vor Gericht festgestellten Ver<lb break="no"/>fahrens der
+                    Herren <rs type="person" ref="#38336">Tappert</rs> und <rs type="person" ref="#62551">Lackowitz</rs> und über die Zu<lb break="no"/>rückweisung der
+                    von ihnen versuchten Entschuldigung des<lb break="no"/>selben seitens der Presse
+                    kein Zweifel gelassen werden. <lb/>Wir sehen unsererseits keinen Grund, damit
+                    bis zur gericht<lb break="no"/>lichen Entscheidung der ganz untergeordneten
+                    Frage, ob <lb/>juristisch ‚Beleidigungen‘ vorliegen, zu warten</quote>“. </p><p xml:id="uuid_7a0b640c-9e64-4af9-a2c7-ea8d5dfb5e77" part="N"><lb/>Die Österreichische
+                    „<hi rend="underlined"><rs type="work" ref="#62899">Zeit</rs></hi>“ kam zu
+                folgendem schar<lb break="no"/>fen Endurteil: „<quote xml:id="uuid_0f4830f3-feb9-48d2-94f5-55a0babb45f5" source="">Die <hi rend="underlined">Zeugenaussagen</hi> sind für jeden, der <lb/>das Gefühl
+                    für <hi rend="underlined">journalistischen Anstand</hi> nicht total ver<lb break="no"/>loren hat, <hi rend="underlined">einfach niederschmetternd</hi>
+                    … Herr <rs type="person" ref="#38336">Tappert</rs> hatte <pb facs="" n="9"/>
+                    <lb/>die Stirn, <hi rend="underlined">die vielen unsauberen Vorgänge</hi>, in
+                    die er verwik<lb break="no"/>kelt war, einfach als etwas ganz
+                    Selbstverständliches hin<lb break="no"/>zustellen</quote>“ usw. </p><p xml:id="uuid_a59caf38-c7fa-4ff6-a63c-62baaee7084a" part="N"><lb/>Das „<rs type="institution" ref="#62216">Kleine Journal</rs>“ (gegen das Herr <rs type="person" ref="#11988">Kraus</rs> später <lb/>prozessiert hat, auf das er
+                sich hier jedoch beruft), bekam <lb/>vor 31 Jahren folgende Zensur: „<quote xml:id="uuid_1599d1d7-3072-4d6b-b8b7-b11918995c44" source="">Das ‚<rs type="institution" ref="#62216">Kleine Journal</rs>‘ hat <lb/>trotz der für
+                    Herrn <rs type="person" ref="#38336">Tappert</rs>
+                    <hi rend="underlined">hervorragend ungünstigen Ergeb<lb break="no"/>nisse der
+                        Verhandlung</hi>, trotzdem der Ankläger <rs type="person" ref="#38336">Tapperts</rs>, Herr <lb/><rs type="person" ref="#11910">Dr. Kerr</rs>, <hi rend="underlined">straf- und kostenfrei</hi> aus dem Prozeß hervorgeht,
+                        <lb/><hi rend="underlined">den absonderlichen Mut</hi>, seinen Lesern die
+                    Mitteilung zu ma<lb break="no"/>chen, es habe dem Ersuchen des Herrn <rs type="person" ref="#38336">Tappert</rs>, ihn von der <lb/>Stellung als
+                    Musikkritiker entheben zu wollen, nicht statt<lb break="no"/>gegeben. Das <rs type="institution" ref="#62216">Blatt</rs> gibt zwar zu, dass Herr <rs type="person" ref="#38336">Tappert</rs> leicht<lb break="no"/>sinnig und
+                    unkorrekt verfahren sei, dass seine Handlungs<lb break="no"/>weise mit der
+                    Berufsehre eines vornehmen Kritikers in bedau<lb break="no"/>erlicher Weise
+                    kollidiere, will ihm aber trotzdem verzeihen <lb/>und den Fall <rs type="person" ref="#38336">Tappert</rs> vergessen.</quote>“ Die Öffentlichkeit werde
+                <lb/>das nicht tun … Aber Herr <rs type="person" ref="#11988">Kraus</rs> verzeiht
+                ihm – plötzlich <lb/>heut, um eine nachweislich unwahre Behauptung über mich et<lb break="no"/>was zu stützen. </p><p xml:id="uuid_978942a4-b1ed-4935-b6fa-a055280987da"><lb/>„<rs type="work"><hi rend="underlined">Ehrengerichtliches Verfahren</hi> gegen den Musik-
+                    <lb/>schriftsteller <rs type="person" ref="#62551">Lackowitz</rs></rs>“, (15.
+                VII. 1397) also bereits <lb/>nach der ersten Verhandlung): „<quote xml:id="uuid_dd3c670b-65a8-41a0-8a85-c5a4377bbd2b" source="">Der
+                    Musikschriftsteller <lb/><rs type="person" ref="#62551">Wilhelm Lackowitz</rs>
+                    ist am 12. d.M. aus dem <rs type="institution" ref="#29508">Verein Berliner
+                        <lb/>Presse</rs> ausgeschieden, nachdem gegen ihn auf Grund des Ergeb<lb break="no"/>nisses des Prozesses <rs type="person" ref="#38336">Tappert</rs>-<rs type="person" ref="#62551">Lackowitz</rs> das
+                        ehrengerichtli<lb break="no"/>che Verfahren gemäß § 8 der Statuten Abs. 23
+                    Nr. 2 auf ein<lb break="no"/>stimmigen Beschluß des Vorstandes genannten <rs type="institution" ref="#29508">Vereins</rs> eröffnet <pb facs="" n="10"/>
+                    <lb/>worden war</quote>“. Man vergleiche mit diesen Tatsachen die Dar<lb break="no"/>stellung des Herrn <rs type="person" ref="#11988">Kraus</rs> – und
+                man hat ein allgemeines Bild <lb/>seiner Art. </p><p xml:id="uuid_846fcda8-734a-4b19-a8e7-994c2c34f5e3"><lb/>Das Ganze bleibt ein
+                Ablenkungsversuch. Es handelt <lb/>sich gar nicht darum, ob Herr <rs type="person" ref="#11988">Kraus</rs> den bestochenen gefürch<lb break="no"/>testen <rs type="person" ref="#38336">Musikkritiker</rs> des damaligen <rs type="place" ref="https://pmb.acdh.oeaw.ac.at/entity/168">Berlin</rs> rührend findet
+                <lb/>oder nicht – das ist sehr gleichgültig. Sondern darum: <lb/>dass er schrieb, er
+                habe nach meiner Säuberungsaktion <lb/>(die ihm also widerstrebt) mich „<quote xml:id="uuid_da8fa8a5-3237-4528-a6de-b08a04b87bfd" source="https://fackel.oeaw.ac.at/f/649,080">angewidert nicht mehr ge<lb break="no"/>kannt</quote>“, nachdem er mich nur „<quote xml:id="uuid_2c0b29cd-2e53-4a5a-8813-f2470b30dc0d" source="https://fackel.oeaw.ac.at/f/649,080">einmal</quote>“ „<quote xml:id="uuid_fa2a0af6-7305-4be4-b961-558373355c01" source="https://fackel.oeaw.ac.at/f/649,080">einen Moment</quote>“ <lb/>gesehen
+                habe. Wahr ist, dass er nach der ersten <hi rend="underlined">und</hi> nach <lb/>der
+                zweiten Verhandlung die besten Beziehungen zu mir auf<lb break="no"/>recht erhielt;
+                dass er nur zum Zwecke der verleumderischen <lb/>Herabsetzung das Gegenteil
+                behauptet hat. Ich kann bewei<lb break="no"/>sen, dass er nicht nur nach der
+                ausschlaggebenden ersten <lb/>Verhandlung, sondern auch nach der zweiten mir Zeichen
+                    sei<lb break="no"/>ner durch Rührung ungetrübten Herzlichkeit gab, noch im
+                    Jah<lb break="no"/>re nach dem Prozeß, 1898, mit mir zusammenzukommen wünschte,
+                <lb/>in einem Bündel alter Literatenbriefe an mich findet sich <lb/>noch aus dem
+                Jahre 1898 die Versicherung, er würde sich <lb/>(zwei Mal von ihm unterstrichen)
+                    „<quote xml:id="uuid_dfed1803-fb5f-454c-b048-272b061a1493" source=""><hi rend="underlined">sehr</hi> freuen</quote>“, mich in <rs type="place" ref="#50">Wien</rs>
+                <lb/>zu einer bestimmten Stunde im <rs type="place" ref="#119">Café Scheidl</rs>
+                (natürlich ein <lb/>Caféhaus!) zu sehen. „<quote xml:id="uuid_46f4aedc-9d95-4d2a-bc9d-1f1f69ffea1b" source="">Bin soeben aus <rs type="place" ref="https://pmb.acdh.oeaw.ac.at/entity/860">Graz</rs>
+                    zurückgekommen</quote>“. <lb/>Dann, zur Sicherheit dringlich: „<quote xml:id="uuid_785202ba-3aeb-4b11-9c3b-649a9b697cdd" source="">Bitte mich event.
+                        schrift<lb break="no"/>lich zu verständigen, wann ich Sie sprechen
+                    kann</quote>“. In die<lb break="no"/>ser Art. Solche Zuschriften werden
+                vorgelegt. Und jetzt <lb/>folgen seine weiteren Näherungsversuche an den vorgeblich
+                <lb/>angewidert nicht mehr Gekannten, den er nur einmal einen Mo- <pb facs="" n="11"/>
+                <lb/>ent gesehen haben will. </p><p xml:id="uuid_b33800cb-11ba-47be-a33e-eac900be85d2"><lb/>Wieviel Zeit in dazwischen
+                verging, ist belanglos. <lb/>Hauptpunkt: er hat sogar noch zehn Jahre nach dem <rs type="person" ref="#38336">Tappert</rs><lb break="no"/>prozeß wiederholte
+                Näherungen versucht an einen verleumderisch <lb/>als verachtenswert Hingestellten,
+                den er angewidert nach <lb/>dem <rs type="person" ref="#38336">Tappert</rs>prozeß
+                nicht mehr kannte. <rs type="person" ref="#11988">Karl Kraus</rs> hat mich <lb/>1907
+                telegraphisch um Mitarbeit an seiner <rs type="work" ref="#41244">Zeitschrift</rs>
+                <lb/>(gegen <rs type="person" ref="#11581">Harden</rs>) gebeten, freilich erfolglos;
+                Beweis wird <lb/>vorgelegt. Er hat mein <rs type="work" ref="https://fackel.oeaw.ac.at/F/270,019"><rs type="person" ref="#11441">Girardi</rs>-Gedicht</rs> mit schmeichelnden <lb/>Worten in seinem <rs type="work" ref="#41244">Blatt</rs> nachgedruckt. Er „<quote xml:id="uuid_5040aada-ec73-4d2f-a6a9-91b1ee66108c" source="#D_000068-062-000.xml">erinnerte</quote>“ sich <lb/>halt nicht an die
+                Zusammenkünfte nach dem Prozeß, an die <lb/>freundschaftlichen Briefäusserungen, an
+                die Bitte um Mitar<lb break="no"/>beit, an den rühmend glossierten Nachdruck, – an
+                alles <lb/>das „<quote xml:id="uuid_bbfdf71c-bf1d-4754-8897-06b8d2c779cb" source="#D_000068-062-000.xml">erinnert</quote>“ er sich nicht mehr, sondern
+                weiss, dass er <lb/>mich angewidert nach dem <rs type="person" ref="#38336">Tappert</rs>Prozeß nicht mehr gekannt <lb/>hat. Das alles ist nicht nur
+                unglaubhaft, sondern unwahr – <lb/>bei dem pedantisch die kleinste Kleinigkeit
+                registrierenden <lb/>Charakter dieses Literatenhirns. Er hat wieder bewusst zum
+                <lb/>Zwecke der Herabsetzung Unwahres über mich behauptet. </p><p xml:id="uuid_979f0373-6f85-400e-b80c-bc43fb9be1ae"><lb/>Nachtrag zu den
+                Presseäusserungen über den Prozeß <lb/>Tappert: „<quote xml:id="uuid_eb90f6af-f705-4a11-bfdf-512ea3d19605" source="#62904"><hi rend="underlined">Die Berliner Tagespresse kommt denn auch jetzt
+                        <lb/>schon</hi> (Anm.: nach der <hi rend="underlined">ersten</hi>
+                    Verhandlung) <hi rend="underlined">zu einer voll<lb break="no"/>ständigen
+                        Verurteilung der genannten beiden Rezensenten, <lb/>welche mit seltener
+                        Einmütigkeit als gerichtet hingestellt <lb/>werden.</hi></quote><hi rend="underlined">“</hi> (<rs type="work" ref="#62901">Breslauer
+                    Generalanzeiger</rs>
+                <rs type="work" ref="#62902">25.VI.1897</rs>) </p><p xml:id="uuid_886663ec-415d-4a2e-accb-aced526ee2c8"><lb/><hi rend="underlined">S.
+                    22.</hi> – Das Urteil des hochstehenden Sozialistenführers <lb/><rs type="person" ref="#10749">Viktor Adler</rs> über <subst hand="D_000068-074-000-hand01">
+                    <del>unanständige</del>
+                    <add>anfechtbare</add>
+                </subst> Methoden des Herrn <rs type="person" ref="#11988">Karl Kraus</rs>
+                <pb facs="" n="12"/>
+                <lb/>wird dadurch nicht entwertet, dass die Anständigkeit <rs type="person" ref="#10749">Adlers</rs>
+                <lb/>bei völlig anderem Anlass für <rs type="person" ref="#11988">Kraus</rs>
+                eintrat. <rs type="person" ref="#10749">Adler</rs> hat in <lb/>einem einschlägigen
+                Fall über <rs type="person" ref="#11988">Kraus</rs> folgendes geschrieben:
+                    <lb/>„<quote xml:id="uuid_ce4318b5-b158-4555-a05b-4a27ecacb640" source="">Er
+                    weiss, dass er <hi rend="underlined">gemein entstellt</hi>, lügt und <subst hand="D_000068-074-000-hand01">
+                        <del>verleugnet</del>
+                        <add>verleumdet</add>
+                    </subst>, <lb/><hi rend="underlined">obwohl er keine Tatsache anführt, die an
+                        sich als unwahr <lb/>berichtigt werden könnte. Das ist nämlich die Kunst des
+                        <lb/>Virtuosen der Ehrabschneiderei</hi>.</quote>“ Ich kann mir diesen
+                    Wort<lb break="no"/>laut nicht zu eigen machen, aber die Tatsachen stimmen mit
+                <lb/>meiner Erfahrung überein. Das nebenher. </p><p xml:id="uuid_a2b8aafa-26f4-441e-8680-40263b3fb6dd"><lb/><hi rend="underlined">S.
+                    26</hi>. – Ich habe bei der Berufung auf den Fall <rs type="person" ref="#10815">Bahr</rs> vor<lb break="no"/>her gewissenhaft bei dem <rs type="person" ref="#10815">Hauptbeteiligten</rs> angefragt – und <lb/>von ihm die Tatsache
+                bestätigt bekommen, dass Herr <rs type="person" ref="#11988">Kraus</rs>
+                <lb/>wegen unwahrer Behauptungen über ihn, <rs type="person" ref="#10815">Hermann
+                    Bahr</rs>, „ein<lb break="no"/>stimmig“ verurteilt worden ist. Es war schon im
+                Beginn <lb/>seiner Laufbahn, nämlich 1901. Der Fall stimmt. </p><p xml:id="uuid_4ba4fa2f-09ca-4197-80cf-6511ae75f6a9"><lb/><hi rend="underlined">S.
+                    28</hi>. – Da mein Stil, wie er andeutet, so leicht zu un<lb break="no"/>terscheiden ist, beweist das ungerechte Zuschreiben jenes <rs type="work" ref="https://fackel.oeaw.ac.at/f/717,055">Ma<lb break="no"/>surengedichts</rs>
+                (welches Sterbende höhnt) die „<quote xml:id="uuid_f9feb958-2377-4b4f-95a8-cf822d60f5bf" source="#D_000068-044-000.xml">Bedenkenlosig<lb break="no"/>keit</quote>“ des
+                    <rs type="person" ref="#11988">Kraus</rs>. Er behauptet nachträglich, ein
+                Unrecht <lb/>sei mir durch die willkürliche Zuschreibung jener Verse <lb/>nicht
+                widerfahren. Zweifellos durch den schmähenden <lb/>Zusatz: „<quote xml:id="uuid_fd9082d0-3fd7-45f0-b29a-f900f369c058" source="https://fackel.oeaw.ac.at/f/717,055">Vor dieser Scheußlichkeit bleibt
+                    wohl alles im <lb/>Hintertreffen …</quote>“ </p><p xml:id="uuid_7d9bf5d7-aa18-491e-b44b-c60b7e3ee2ed"><lb/><hi rend="underlined">S.
+                    29</hi>. – <rs type="person" ref="#11988">Kraus</rs> fragt (da er um meine
+                Haltung im Krieg so <lb/>besorgt ist – nicht um seine deutschfeindliche), weshalb
+                    <pb facs="" n="13"/>
+                <lb/>ich damals gegen jenes <rs type="work" ref="https://fackel.oeaw.ac.at/f/717,055">Masurengedicht</rs> nicht Einspruch
+                erhob. <lb/>Er hat jetzt gut fragen. Damals hatte man mehr zu tun, als <lb/>jede
+                Entgleisung bei dem Tempo jener Zeit festzunageln. <lb/>Überdies war bekannt, dass
+                unter „Gottlieb“ sehr Viele <lb/>mitarbeiteten, auch Laien, nämlich Leser des „<rs type="work" ref="#41560">Tags</rs>“. Man <lb/>könnte, nur wenig übertreibend,
+                sagen, dass unter „Gottlieb“ <lb/>eine Zeitlang – der Herkunft nach – halb <rs type="place" ref="#151">Deutschland</rs> mit<lb break="no"/>gearbeitet hat. Die
+                Form dieser Stehgreifgedichte konnte, <lb/>wie gesagt, nicht immer ersten Ranges
+                sein. „Literatur“ <lb/>war es nicht; und darum blieb der Sammelname „Gottlieb“
+                <lb/>sehr angebracht für so rasch Entstandenes, in den Tumult <lb/>Gerufenes. Der
+                Name Gottlieb war jedoch nicht etwa ein <lb/>Versteck für die Gesinnung. Ich habe
+                z.B. das besonders <lb/>stark von Herrn <rs type="person" ref="#11988">Kraus</rs>
+                Zerworfene und häufig denunzierte <lb/><rs type="work">Ostpreussengedicht</rs> gegen
+                die Russen („<quote xml:id="uuid_b5bbc7d2-d188-4a4c-8f4b-58ccc2af9c6e" source="">Peitscht sie weg, <lb/>peitscht sie weg</quote>“) unter meinem vollen Namen
+                damals in <lb/>der <rs type="work" ref="#36344">Frankfurter Zeitung</rs>, nur dort,
+                veröffentlicht und es <lb/>1925 in meine <rs type="work">Gedichtsammlung</rs>
+                übernommen: weil ich seine <lb/>Form vertreten konnte. Das nennt Herr <rs type="person" ref="#11988">Kraus</rs>: die <lb/>Scherlsche Kriegslivree tragen.
+                </p><p xml:id="uuid_64f9b8d3-2344-4e75-a3d7-dea4979670e2"><lb/><hi rend="underlined">S. 33</hi>. – „<quote xml:id="uuid_7ca82916-e48d-4a5a-84d2-b538ba0cd269" source="#D_000068-062-000.xml">… als er (<rs type="person" ref="#11910">Kerr</rs>) in <rs type="place" ref="https://pmb.acdh.oeaw.ac.at/entity/182">Paris</rs> seine menschheitliche <lb/>Wendung produzierte</quote>“ <rs type="person" ref="#11988">Kraus</rs> verleumdet wieder bewusst; denn <lb/>er
+                weiss (<rs type="work" ref="#36156">Neue Rundschau</rs> September 1914 usw.) , dass
+                ich <lb/>diese „<quote xml:id="uuid_01f5d073-ccab-416e-ba31-8c74e6b5121a" source="#D_000068-062-000.xml">Wendung</quote>“ bereits im August 1914 „<quote xml:id="uuid_a3811f5c-38ad-454c-89e8-87320121482a" source="#D_000068-062-000.xml">produzierte</quote>“. </p><lb/>S. 34 – „Da nun
+            zugestanden wurde, dass er (Kerr) natür- <lb/>lich 'gegen den Krieg war und eine
+            Premiere bei Reinhard <pb facs="" n="14"/>
+            <lb/>ihm lieber“ … Ich habe die von mir unterstrichenen Worte nie <lb/>gesagt – er fügt
+            sie ein. Es wirkt, als ob ich sie ge- <lb/>sagt hätte. <lb/>S.35. – Alle Rabbulistik
+            beiseite gelassen, so hat Herr <lb/>Kraus meine Versuche, dem bedrängten Land nach
+            meiner Fähig- <lb/>keit zu helfen, eine Ordinärheit genannt. <lb/>Er behauptet, von mir
+            werde ein „Kunstgriff“ ange- <lb/>wandt, „durch den dem Gericht die Gesinnung des
+            Gegners an- <lb/>rüchig gemacht werden soll“. Aber dazu bedarf es keines
+            <lb/>Kunstgriffs, nachdem er im Hinblick auf diesen Krieg ohne <lb/>Respekt vor dem
+            Unglück die zusammengebrochenen Deutschen <lb/>und Österreicher hämisch „Räuber“ und
+            „Diebe“ genannt <lb/>S. 36. – Um seine verleumderische Andeutung, ich hätte den
+            <lb/>deutschen Gesandten um seiner Weine willen zu den Wertvollen <lb/>gezählt,
+            hinterher zu leugnen, gibt Herr Kraus vor, ich hät- <lb/>te gesagt, „der Tischnachbar
+            Hösch zähle für uns Künstler <lb/>zu den Wertvollen“. (S. 36 seines Schriftsatzes). Das
+            ist <lb/>eine Unwahrheit, erreicht durch eine Umgruppierung. <lb/>Ich habe den deutschen
+            Botschafter Herrn von Hoesch <lb/>in diesem Zusammenhang überhaupt nicht als
+            Tischnachbarn <lb/>genannt. Ich hatte gesagt, dass er bei einem anderen Anlaß <lb/>(bei
+            dem mir gegebenen Bankett des französischen Kultus- <lb/>ministers) mein Tischnachbar
+            war und sich dort über die gros- <lb/>se Herzlichkeit der Franzosen erfreut zu mir
+            aussprach. <lb/>Daraus macht Herr Kraus in der „Fackel“ die Wendung (S.77), <pb facs="" n="15"/>
+            <lb/>ich hätte Herrn von Hoesch zu den Wertvollen gezählt <lb/>„weil er etwas von
+            unserem Saft in seinen Adern führt, während <lb/>wir etwas von seinem Saft, den bekanten
+            fabelhaf- <lb/>ten Weinen der deutschen Gesandtschaft, übernehmen.“ <lb/>In der
+            zweideutigen Darstellungsform ist hier unverkennbar <lb/>ausgedrückt, ich hätte den
+            deutschen Botschafter um seiner <lb/>Weine willen zu den Wertvollen gezählt. Herr Kraus
+            äus- <lb/>sert zur Vervollständigung die Unwahrheit, Kerr habe <lb/>„den Wert dieser
+            Weine wörtlich so hervorgehoben, ehe er <lb/>den Gastgeber selbst wertvoll nannte.“ Das
+            ist wieder wahr. <lb/>Ich hatte vielmehr (in einem österreichischen Interview)
+            <lb/>Weine auf dem Bankett des französischen Kultusministers <lb/>erwähnt. Aus alledem
+            macht Herr Kraus den schielenden und <lb/>verdächtigenden Satz, ich hätte den deutschen
+            Botschafter <lb/>zu den Wertvollen gezählt, „‚weil er etwas von unserem Saft <lb/>in
+            seinen Adern führt‘, während wir etwas von seinem Saft, <lb/>den bekannten fabelhaften
+            Weinen der deutschen Gesandtschaft, <lb/>übernehmen“. Es ist seine Methode. <lb/>S.
+            37ff. – Ich habe stets betont, dass ich, als ich die <lb/>französische Einladung zu zwei
+            Vorträgen (über Möglich- <lb/>keiten des Dramas) annahm, nicht eine politische Handlung
+            <lb/>vollzog; sondern es war ein menschlich-künstleri- <lb/>scher Versuch, die Stimmung
+            zu heben. Ich stellte nach- <lb/>drücklich fest, dass unser Tun, nämlich dass der
+            Künstler, <lb/>getrennt sei vom Tun der Politiker. Herr Karl Kraus ent- <lb/>stellt
+            wiederum verleumderisch die Wahrheit mit der bewusst <lb/>falschen Behauptung, ich hätte
+            hier in <rs type="place" ref="https://pmb.acdh.oeaw.ac.at/entity/182">Paris</rs> „die
+            Zeitungs- <pb facs="" n="16"/>
+            <lb/>fahne nach dem Weltenwind gedreht“. Er wusste, dass ich <lb/>schon im Kriege den
+            Krieg auf das heftigste verdammt hatte. <lb/>In ganz ähnlicher Lage befand sich der
+            (deutschfreundliche) <lb/>Minister Painlevé, mit dem ich auf seinen Wunsch (nicht
+            <lb/>auf meinen) in <rs type="place" ref="https://pmb.acdh.oeaw.ac.at/entity/182">Paris</rs> gesellschaftlich zusamenkam. Dieser pazifistische,
+            <lb/>deutschfreundliche Painlevé war ja selber im Kriege Kriegs- <lb/>minister gewesen –
+            und vertritt heut versöhnende Ziele; <lb/>menschliche, den Krieg verdammende Ziele. Herr
+            Kraus <lb/>spricht in diesem Zusammenhang von einer Ausnutzung der <lb/>„Konjunktur“ (S.
+            38) und von „Versuchen der ‚Näherung‘, die <lb/>da Herr Kerr unternimmt“. Bedenkenlose
+            Unwahrheit. Die <lb/>Franzosen haben sie unternommen. Ich war eingeladen. Vom
+            <lb/>Vertreter der Sorbonne schon auf dem Bahnhöfe empfangen, <lb/>durch den Rektor und
+            die Dekane feierlich begrüsst, durch <lb/>jenes Bankett unter dem Präsidium des
+            Kultusministers ge- <lb/>ehrt. Ich habe weder Painlevé noch einen anderen Minister
+            <lb/>weder vorher noch nachher aufgesucht, keine einzige Karte <lb/>abgegeben. Ich traf
+            in der deutschen Botschaft auf Wunsch <lb/>des Herrn von Hoesch ausser diesem
+            Kultusminister Daladier <lb/>noch die Staatsmänner Berthelot und de Monzie – und wieder
+            <lb/>Painlevé. Ich habe keinen dieser Franzosen je aufgesucht. Die <lb/>französische
+            Ehrung galt einem deutschen Schriftsteller. <lb/>Ich habe ruhig und sachgemäss, Monate
+            danach, in dem einzi- <lb/>gen Aufsatz, den ich über meinen Pariser Besuch schrieb,
+            <lb/>festgestellt, dass mit ein paar deutschfreundlichen Politi- <lb/>kern in
+            Frankreich, eben diesen, wohl ein Auskommen möglich <lb/>wäre. Ich hob das ohne jeden
+            stürmischen Enthusiasmus her- <lb/>vor – Herr Kraus sagt sofort verleumderisch, dass ich
+            „ihnen <pb facs="" n="17"/>
+            <lb/>hineinkrieche“. Er unternimmt im Schriftstaz eine vertuschende <lb/>Umdeutung –
+            vergisst aber die Kleinigkeit zu erwäh- <lb/>nen, dass er von diesen Staatsmännern
+            gesagt hat, ich <lb/>„krieche ihnen hinein“. („Fackel“ Oktober 1926 S. 76) <lb/>Da nicht
+            der geringste Anlass für diese Behauptung vorlag, <lb/>hat er wieder bewusst verleumdet.
+            <lb/>S.39. – Nur beiläufig sei erwähnt, dass er, um meinen Pari- <lb/>ser Besuch
+            herabzusetzen, sich aus den Fingern saugt, ich <lb/>sei von der Firma Rosse nach <rs type="place" ref="https://pmb.acdh.oeaw.ac.at/entity/182">Paris</rs> „gesandt“
+            worden. Nach- <lb/>dem ich von deutschfreundlichen und friedensfreundlichen
+            <lb/>Franzosen amtlich eingeladen war. Es bleibt trotz allem <lb/>seinem Gerede
+            bestehen, dass er hier bedenkenfrei drauflos- <lb/>fabelt. Kennzeichnend für seine
+            Methode der Herabsetzung: <lb/>er schreibt auf gut Glück solche Unwahrheiten hin. Er
+            will <lb/>mich in einer Herzensangelegenheit offenbar wiederum als <lb/>Träger einer
+            Livree darstellen. Er hat wieder, rein auf gut <lb/>Glück, Unwahres behauptet.
+            <lb/>S.38. – Dass die Angaben der „Fackel“ über meinen Aufent- <lb/>halt in <rs type="place" ref="https://pmb.acdh.oeaw.ac.at/entity/182">Paris</rs> spasshaft
+            unwahr sind, ergibt sich sofort <lb/>aus einem Vergleich mit fast allen
+            Zeitungsberichten, deut- <lb/>schen, schweizerischen, französischen. Bezeichnend für
+            <lb/>die Methoden des Kraus ist folgende Tatsache. Bei meinem <lb/>zweiten Pariser
+            Vortrag gab es einen Störungsversuch, der <lb/>erfolglos verlief: ein serbischer Student
+            behauptete <lb/>fälschlich, ich hätte die Verse „Jeder Schuss ein Russ“ <lb/>usw.
+            verfasst. Dieser junge Serbe, durch meinen Vortrag <pb facs="" n="18"/>
+            <lb/>bekehrt, hat aus freiem Willen mir brieflich mitgeteilt: <lb/>er sei zu diesem
+            Störungsversuch angestiftet worden – von <lb/>deutschen Landsleuten gegen einen
+            Deutschen: nämlich von <lb/>der Gruppe des Kraus, der mit ihr von Wien aus in telegrafi-
+            <lb/>scher Verbindung stand. Das Bekenntnis des jungen serbi- <lb/>sehen Dichters mit
+            dem Bericht über diese Tatsache <lb/>wird dem Gericht vorgelegt. <lb/>Auf S. 39 reisst
+            Herr Kraus einen Satz Paul Blocks <lb/>(er ist Korrespondent des Berliner Tageblatts)
+            entstel- <lb/>lend so aus dem Zusammenhang, dass alles einer Lüge gleich- <lb/>kommt. Er
+            verschweigt, dass dieser Paul Block den starken <lb/>Erfolg meines Pariser Besuchs
+            meldet – (den auch der vor- <lb/>sichtige Botschafter Herr von Hoesch festgestellt hat).
+            <lb/>S. 40. – Herr Kraus wagt mir die „Absicht einer Irreführung <lb/>der Behörde“
+            unterzuschieben, weil ich der Wahrheit gemäss <lb/>behaupte, dass die Angriffsversuche
+            des Kraus erst nach mei- <lb/>ner (massvollen, aber nicht zustimmenden) Kritik über
+            einen <lb/>seiner Berliner Vorträge „intensiv und systematisch“ wur- <lb/>den. Das ist
+            der Fall. Vorher waren sie nur: und <lb/>selten gewesen – seit meinem Zwist mit dem
+            Polizeipräsiden- <lb/>ten von Jagow 1911; was eine unbefugte Einmischung des <lb/>Kraus
+            von Wien her nach sich zog. Diese damalige Polemik, <lb/>(1911) hatte sich in heftigen
+            Ausdrücken, auch meinerseits, <lb/>abgespielt. Darüber war längst Gras gewachsen,
+            dreizehn <lb/>Jahre vergangen. Jetzt aber, nach meiner glimpflichen Kritik seiner Vor-
+            <lb/>lesung, hat Herr Kraus sofort intensiv und systematisch <lb/>gelogen, dass er seit
+            dem Tappert-Prozeß mich an- <pb facs="" n="19"/>
+            <lb/>gewidert nie mehr gekannt habe, nachdem er mich überhaupt <lb/>nur einmal einen
+            Moment lang gesehen habe (siehe oben). <lb/>Und als ich, nach dieser zum Zweck der
+            Herabsetzung un- <lb/>ternommenen Lüge, später in drei Zeilen gelegentlich seine
+            <lb/>Art gekennzeichnet hatte, – erst dann hat er wieder lange <lb/>Aufsätze gegen mich
+            verfasst, nicht mehr nur sporadische <lb/>Bemerkungen getan, sogar in hämischer Absicht
+            mein Bild ver- <lb/>öffentlicht. Nun erst kamen die langwierigen Beschimpfungen ge-
+            <lb/>gen mich. Nun erst war seine sogenannte Polemik intensiv <lb/>und systematisch.
+            Daran ist nicht zu rütteln. Ausgangspunkt <lb/>war meine nicht ganz günstige Kritik
+            seines Vortrags … Ich <lb/>habe mit drei oder vier Zeilen quittiert, wenn ich von sei-
+            <lb/>nen Angriffen erfuhr. Sein „geistiger Kampf“, von dem er <lb/>spricht, (eine
+            pathetische Benennung), ging wirklich <lb/>erst jetzt, nach der nur halbgünstig
+            kritisierten Vorlesung, <lb/>wieder systematisch und intensiv an. Will sagen: er
+            <lb/>schimpfte besinnungs- und masslos wider mich. Ich hatte <lb/>sein Blatt ungefähr
+            ein Jahrzehnt mit keinem Buchstaben zu <lb/>Gesicht bekommen. (Wer möchte diese
+            langwierigen Haarspal- <lb/>tereien dauernd lesen.) Erst lange nachher wurde mir be-
+            <lb/>kannt, was hier ausschlaggebend ist: dass er, wie gesagt, über eine <lb/>recht
+            glimpfliche Kritik seines Vortrags jene tobsüchtige <lb/>Wut in der „Fackel“ geäussert;
+            er habe mich angewidert <lb/>nie gekannt und so weiter. Man erfuhr solche Züge immer
+            <lb/>erst spät und durch einen Zufall. <lb/>S. 42. – In meinem Zwist mit dem
+            Polizeipräsidenten von <lb/>Jagow (worin Männer wie Ludwig Thoma mir öffentlich zu-
+            <lb/>stimmten) hatte sich gerr Kraus in Wien unbefugt einzumi- <pb facs="" n="20"/>
+            <lb/>sehen versucht und eine, allerdings grobe Abfuhr von mir <lb/>besehen; 1911.
+            Seitdem war ich viel in der Welt herumgekom- <lb/>men und hatte rund zehn Bände
+            geschrieben. Dreizehn Jahre <lb/>nach diesem Zwist, 1925, hat ein österreichisches
+            Blatt, <lb/>„<rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/29470">Die
+                Stunde</rs>“ meine damalige polemische Erwiderung an Kraus <lb/>ohne mein Wissen
+            abgedruckt. Dass es ohne mein Wissen ge- <lb/>schah (ich befand mich in Italien) beweist
+            eine schriftli- <lb/>che Bekundung, welche dem Gericht vorgelegt wird. Herr <lb/>Kraus
+            bestätigt es. Ich sträube mich gegen den Versuch, <lb/>fünfzehn Jahr alte, mit dem
+            vorliegenden Streit garnicht <lb/>zusammenhängende Sätze meiner damaligen Polemik
+            hineinzu- <lb/>ziehen. Der damals heftige Ton war die Antwort auf üble
+            <lb/>Beschimpfungen durch Kraus. Alles liegt fünfzehn Jahre <lb/>zurück – und ich erhebe
+            Einspruch, dass Herr Kraus diese <lb/>verschollenen Dinge jetzt zu bestimmtem Zweck dem
+            Gericht <lb/>überreicht. <lb/>S. 43 – Auffallend ist die zur Entschuldigung von ihm an-
+            <lb/>geführte Behauptung, er habe mein bei Scherl im Krieg er- <lb/>schienenes
+            Versöhnungsgedicht, mit der Begegnung <lb/>eines Holsteiners und eines Franzosen beim
+            Einscharren der <lb/>Leichname – er habe gerade dieses Gedicht „erst jetzt“ <lb/>kennen
+            gelernt. Wieso? es steht in demselben Blatt in <lb/>denselben Jahrgängen wie die andren,
+            die er „gegen“ mich <lb/>anzuführen sucht. <lb/>S. 45 – Herr Kraus schreibt mit Bezug
+            auf mich: „Die Ge- <lb/>sinnung ‚für Deutschland‘, mit deren dickster Unterstrei- <pb facs="" n="21"/>
+            <lb/>chung er sichtlich auf nationale Antriebe bei der Recht- <lb/>sprechung in einer
+            Beleidigungssache abzielt“. Die Gesin- <lb/>nung des Kraus, der meine lange vorher und
+            immer in Vers <lb/>wie Prosa bekundete Liebe zu Deutschland kennt, zeigt sich <lb/>in
+            diesem Satz. <lb/>S. 49 – Herr Karl Kraus glaubt etwas Satirisches zu sagen, <lb/>wenn
+            er von meiner Mischung aus vaterländischen und mensch- <lb/>lichen Eigenschaften spricht
+            (er nennt es deutschnationale <lb/>und kosmopolitische Eigenschaften). Er weiss nicht,
+            dass <lb/>er hier die Wahrheit sagt. <lb/>S. 49 – Er behauptet, dass ich mich „für das
+            Gericht“ als <lb/>Patrioten „darstelle“ und mich „als Musterdeutschen offe- <lb/>riere“
+            – weil ich (rechtens!) in meinem früheren Schrift- <lb/>satz gesagt habe, dass es mir
+            widerstreben würde, empfun- <lb/>dene Strophen aus Kot und Bedrängnis diesem Herrn Kraus
+            zu <lb/>unterbreiten; sondern dass ich es für die Richter tue. <lb/>Ich „offeriere“ mich
+            also nicht als Musterdeutschen <lb/>– sondern blos als jemanden, der damals einen
+            schweren Kon- <lb/>flikt erfuhr. Ich würde ja auch einen Einbrecher oder je-
+            <lb/>manden, der etwa meine Kinder bedroht, mit Axthieben un- <lb/>schädlich machen,
+            nötigenfalls Andre durch jedes Mittel dazu <lb/>anfeuern – aber zugleich die tiefste
+            Erschütterung füh- <lb/>len, dass es geschehen muss. Dies war, gleichnismässig, <lb/>die
+            Grundempfindung im Krieg – kaum die Grundempfindung <lb/>für eiskalte Routiniers.
+            <lb/>Ich vermerke hier die von Herrn Kraus stets wieder- <lb/>holten Versuche, meine
+            Darlegung des wirklichen Sachverhalts <pb facs="" n="22"/>
+            <lb/>als „Spekulation“ auf das Gericht, als eine captitio, eine <lb/>Umschmeichelung
+            oder Irreführung hinzustellen. Ich will <lb/>solche Andeutungen des Herrn Karl Kraus
+            glossenlos hier zu- <lb/>sammenstellen: <lb/>48. Kerrs „Zuversicht, auf das von mir
+            bemühte Gericht <lb/>Eindruck zu machen“. <lb/>49. Kerrs „Erwartung, die Justiz werde
+            solchen Trug nicht <lb/>„durchschauen“. – Der sich offerierende Musterdeutsche, <lb/>der
+            mit solchen Argumenten „sich extra um ihren Eindruck <lb/>auf das Gericht bemüht“. Eine
+            „Tatsache, die allein ihm <lb/>vor jedem Forum zur Verurteilung verhelfen müsste“.
+            <lb/>67. „… so weiss er (Kerr) Stimmung für ein Gerichts- <lb/>verfahren zu machen“ – –
+            „um dem vaterländischen Mann <lb/>zu einem Erfolg zu verhelfen“ usw. <lb/>S. 51. – Mein
+            voriger Schriftsatz sagte mit Bezug auf Kraus: <lb/>„Er hat österreichische
+            Schriftsteller des Plagiats beschul- <lb/>digt, während er selbst Plagiate beging“.
+            <lb/>Beweis: er hat die Mystifikation, die ein junger <lb/>österreichischer
+            Schriftsteller, Kulka, mit Stellen aus <lb/>Jean Paul vornahm, indem er sie in ein
+            Burgtheaterprogramm <lb/>unter seinem Namen schmuggelte – Kraus hat dies mit wilde-
+            <lb/>#ter Schärfe als Plagiat gegeisselt. Danach wurde von dem <lb/>österreichischen
+            Dichter Albert Ehrenstein ihm selber nach- <lb/>gewiesen, dass er Ähnliches getan; dass
+            er das Neue Testa- <lb/>ment zu kräftigen Entlehnungen verwendet hat. (Kraus be-
+            <lb/>diente sich dazu nicht der leicht erkennbaren Luther-Über- <lb/>setzung, sondern
+            einer wenig bekannten mit andrem Wortlaut). <lb/>Dabei hatte Kulka vor dem Druck seinen
+            Freunden Mitteilung <lb/>von dem beabsichtigten Streich gemacht. Kraus, auf die Her-
+            <lb/>kunft aus Jean Paul anscheinend von dritter Seite hingewie- <lb/>sen, hat den
+            jungen Kulka deshalb förmlich in der Luft zer- <lb/>rissen. Einige Proben, wie Kraus
+            Kulkas Verhalten benannt <pb facs="" n="23"/>
+            <lb/>hat – diese Benennungen gelten also auch für ihn: <lb/>Der Staat müsse„zum Teufel
+            gehen“, wenn ein „Ethos, <lb/>das den impotenten Literaten zur Plünderung eines Klassi-
+            <lb/>kers verleitet, ungestraft bliebe“. Kraus erblickt hier <lb/> „einen zivilen
+            Betrugsfall, der nur zufällig in der li- <lb/>terarischen Sphäre spielt“. Er geisselt
+            moralisch den <lb/>Versuch „eine Kunstwirkung zu schaffen, die nicht selten <lb/>der
+            Dieberei sich zuneigt“ … „hinter einem, der sich <lb/>nicht mehr schützen kann“. Das
+            kann der Verfasser der <lb/>Offenbarung Johannis auch nicht. Lichtenberg und Rückert
+            <lb/>auch nicht. <lb/>Mag man die von Kraus vorgenommenen Entlehnungen scharf oder
+            <lb/>mild beurteilen: wesentlich ist, dass Herr Kraus sie nach <lb/>seinem eigenen
+            Vorgehen als Plagiat betrachten muss. Herr <lb/>Karl Kraus betont ja mit komischer
+            Nachdrücklichkeit jede <lb/>kleine Übereinstimmung, etwa beim Professor Gundolf, ja so-
+            <lb/>bald nur eine „Anlehnung“ an ihn selber vorzuliegen scheint. <lb/>Als er jedoch der
+            Bibelverwertung in dem wenig bekannten <lb/>Wortlaut des Leander von Ess überführt war –
+            er hatte unge- <lb/>fähr dasselbe begangen wie der von ihm als Plagiator gepfähl-
+            <lb/>te junge Kulka – da erklärte Kraus die „Verwendung von Bi- <lb/>belmotiven“
+            (nämlich Abschreiben und ein bischen Versifizie- <lb/>ren langer Strecken) sehr
+            vorurteilsfrei als Nichtplagiat. <lb/>Er sprach davon erst, als er überführt worden war
+            – und als <lb/>er einen Andren bei verwandter Tätigkeit „entlarvt“ und <lb/>zermalmt
+            hatte. Er hat also, wenn sein eigenes Urteil gel- <lb/>ten soll, hier ein Plagiat
+            begangen. Auch anderswo. Ich <lb/>sehe von dem ab, was Hermann Bahr auf diesem Gebiet
+            vorge- <lb/>rechnet hat, und was Herr Kraus jetzt leugnet. Kraus <lb/>schreibt in einer
+            Polemik („Fackel“ 1924 S. 162) den Satz: <lb/>„Aber wenn es schon hohl klingt, wo ein
+            Kopf mit einem Buch <lb/>… zusammenstösst“ usw. – er vergisst jedoch leider mit- <pb facs="" n="24"/>
+            <lb/>zuteilen, dass dieses Witzwort von Lichtenberg stammt. <lb/>Nicht von ihm.
+            (Lichtenberg: „Wenn es hohl klingt, wo ein <lb/>Kopf mit einem Buch zusammenstösst, muss
+            es dann immer das <lb/>Buch gewesen sein?“ Die „Leistung“ des Kraus bestand in sol-
+            <lb/>chen Fällen, wie er euphemistisch sagt, in der von ihm un- <lb/>ternommenen
+            „Einschöpfung“. Er leistet diese Einschöpfung <lb/>still und macht kein Aufhebens davon,
+            bis er betroffen <lb/>wird. „Die Plünderung eines Klassikers“, hat er vorhin ge-
+            <lb/>sagt, dürfe „nicht ungestraft bleiben“. Er sah hierin <lb/>(bei Andren) einen
+            „zivilen Betrugsfall“. Ist Lichtenbergs <lb/>Wort ihm nur „angeflogen“? Kraus hatte
+            prophetisch geschrie- <lb/>ben: <lb/>„Die gefährlichsten Literaten sind die, welche ein
+            gu- <lb/>tes Gedächtnis aller Verantwortung enthebt. Sie kön- <lb/>nen nichts dafür und
+            nichts dagegen, dass ihnen etwas <lb/>angeflogen kommt. Da ist mir ein ehrlicher
+            Plagiator <lb/>schon lieber“. Wie wahr! <lb/>Als ihm nachgewiesen wird, dass er Rückert
+            erleichtert hat, <lb/>der in der „Weisheit des Brahmanen“ schrieb: <lb/>„Man lebt nicht
+            zweimal, und wie gross ist deren Zahl, <lb/>Die leben auf der Welt auch einmal nicht
+            einmal“ <lb/>was Herm Kraus zu dem alleinstehenden schlichten Aphoris- <lb/>mus
+            veranlasst: „Man lebt nicht einmal einmal“, der Satz <lb/>steht bei ihm anspruchsvoll,
+            wie aus der Tiefe des Gemüts <lb/>geschöpft, am Schlusse eines Buches – sodass Rückert
+            jeden- <lb/>falls zweimal lebt, nämlich noch einmal im Kraus … Als <lb/>Herr Kraus bei
+            dieser stummen Einschöpfung ertappt worden <lb/>ist, hat er den Mut zu der Äusserung: „…
+            dass meine fünf <lb/>Worte besser und überhaupt etwas andres sind, als die zwei
+            <lb/>schlechten Verse Rückerts“. <pb facs="" n="25"/>
+            <lb/>S. 54. – Er unterstellt wieder, dass ich „die juristi- <lb/>sche Sachlage durch
+            Hervorhebung meiner strahlenden patrio- <lb/>tischen Rolle zu verdunkeln“ beabsichtige –
+            wenn ich mich <lb/>gegen seine Verleumdungen wehren muss. <lb/>S. 56. – Nachträgliches
+            Leugnen des Herrn Kraus hindert die <lb/>Feststellung nicht, dass dieser Kriegsgegner
+            zunächst den <lb/>Kriegserlass des Kaisers Franz Joseph hymnisch begrüsst hat. <lb/>Er
+            schrieb rühmend über jenes „erhabene Manifest, <lb/>jenes Gedicht, dass die tatenvolle
+            Zeit eingeleitet, das <lb/>einzige Gedicht, dass sie bis nun hervorgebracht hat“, er
+            <lb/>sprach bewundernd von „dem menschlichsten Anschlag, den die <lb/>Strasse unserem
+            Auge widerfahren (!) lassen konnte“. Das <lb/>hat er nachträglich (mit Schimpfworten
+            gegen Andre) als <lb/>blosse Bewunderung für die … Sprache gedeutet. Ein plötz-
+            <lb/>licher Sprachenthusiast. Und nachdem er den Kaiser Franz <lb/>Joseph hochgepriesen
+            (nicht nur wegen seines merkwürdigen <lb/>Sprachtalents in dem Kriegsmanifest für die
+            tatenvolle <lb/>Zeit); nachdem er den Thronfolger Franz Ferdinand schmei- <lb/>chelnd
+            gerühmt hatte: nachdem hat er (in einem andren <lb/>Zeitpunkt) witzelnd angedeutet, wie
+            der eine sich auf den <lb/>Tod des andren gefreut haben mag. Und wie der andre statt
+            <lb/>auf dem Thron auf dem Nachstuhl sass. Herr Kraus hat <lb/>wegen solcher kleinen
+            Abweichungen in der eignen Haltung <lb/>niemals einen moralgestopften Enthüllungsartikel
+            gegen sich <lb/>verfasst – sucht aber mir den so begreiflichen inneren <lb/>Konflikt im
+            Krieg als Gesinnungsmangel anzuheften. Ich <lb/>werfe ihm seinen höfischen … Dualismus
+            nicht vor. Er sagt <pb facs="" n="26"/>
+            <lb/>nur von sich keineswegs, dass er „zwei Eisen im Feuer“ <lb/>je nach der
+            „Konjunktur“ hatte. Das sagt er von Andren. <lb/>Er nennt Hermann Bahr (nachdem er wegen
+            jener unwahren Be- <lb/>hauptungen über ihn bestraft worden) – er nennt Bahr <lb/>streng
+            einen „damals (1914) national, jetzt katholisch spe- <lb/>kulierenden Literaturfilou“.
+            Was hätte Herr Kraus gegen <lb/>sich dann zu sagen gehabt. <lb/>Weiter S. 56. Bei
+            alledem tut er, als ob, wenn man <lb/>sein nachträgliches Leugnen nicht gelten läßt, man
+            wissent- <lb/>lich die Unwahrheit spräche. Es ist jedoch trotz seinem <lb/>aggressiven
+            Leugnen garkeine Frage, dass Kraus (siehe <lb/>S. 57 seines Schriftsatzes) im Weltkrieg
+            vorwiegend gegen <lb/>das eigne Land und gegen Deutschland gewitzelt hat. Mein
+            <lb/>voriger Schriftsatz belegt es; ich verweise dort auf S. 15 <lb/>ff. <lb/>S. 60. –
+            Abermals Irreführung; er tut, als zitiere ich die <lb/>widerlichen antideutschen Verse
+            des Kraus aus seinem <lb/>„Kriegsdrama“ (einer nachträglichen Zusammenstellung von
+            <lb/>Artikeln aus der „Fackel“) – ich habe jedoch diese deutsch- <lb/>feindlichen Verse
+            des Kraus in Wahrheit aus der „Fackel“ <lb/>selber zitiert, wo sie noch nicht
+            hinterdrein zugestutzt <lb/>und anders hergerichtet waren. In der „Fackel“ stand
+            <lb/>keineswegs, dass ein „extremster Schwerindustrieller“ <lb/>diese gegen Deutschland
+            hetzenden Verse spricht. Etwa: <lb/>Nehmt Gift für Brot, gebt Gold für Eisen <lb/>Und
+            lasst den deutschen Gott uns preisen! usw. <lb/>Sondern Kraus, der noch in Kriegsnot
+            (Oktober 1918) hämisch <pb facs="" n="27"/>
+            <lb/>von „jener deutschen Taktik der verfolgenden Unschuld“ <lb/>gesprochen hatte, nennt
+            zwar in der „Fackel“ sein Hetzge- <lb/>dicht „Lied des Alldeutschen“, es ist jedoch, was
+            er jetzt <lb/>leugnet, in Wahrheit ein kläglicher Hassgesang gegen <lb/>Deutschland.
+            Herr Kraus lügt hier, wenn er, was soviel <lb/>wie Lügen ist, seinen ausdrücklichen,
+            alles erklären- <lb/>den Zusatz aus der Fackel zu diesen „Versen“ verschweigt,
+            <lb/>nämlich: „Das Diplet erschöpft das Problem Deutschlands <lb/>annähernd so sehr wie
+            Deutschland die Welt“. Kraus fügte <lb/>damals ein Notenbeispiel zu und schrieb: dies
+            musikali- <lb/>sche Nachspiel „stellt das Gelächter des Auslands dar“. <lb/>Es war ein
+            Gejuchz in Sechzehntelnoten. Alles das kann <lb/>Herr Karl Kraus durch gewundene
+            Darstellungen im Schrift- <lb/>satz auf Seite 61 nicht leugnen, nicht nullen. Auch nicht
+            <lb/>die Tatsache, dass er dies deutschfeindliche Hetzgedicht <lb/>im Dezember 1917,
+            somit im, im, im Krieg, öffentlich vor- <lb/>getragen hat. Indes er mir ein paar gegen
+            die uns über- <lb/>fallenden Rumänen gerichteten Verse jahrelang höhnisch <lb/>vorhielt.
+            Das ist seine Art. <lb/>Er behauptet von sich, auf derselben Seite 60 des
+            <lb/>Schriftsatzes, es habe „Mut“ dazu gehört, „im eignen Hause <lb/>die Wahrheit zu
+            sagen“. Doch erstens hat er sie nichtg ge- <lb/>sagt. Zweitens gehört zu solchen Kuplets
+            kein Mut in einem <lb/>Lande, wo die Stimmung gegen die „Preussen“ ohnehin schon <lb/>in
+            gewissen Augenblicken für Hetzendes empfänglich war. <lb/>Kraus kann die beschämende
+            Tatsache durch keinerlei Dar- <lb/>stellungskniffe des Schriftsatzes aus der Welt
+            schaffen, <lb/>dass er glattweg und plattweg deutschfeindliche Hetze wäh- <pb facs="" n="28"/>
+            <lb/>rend des Kriegs getrieben hat. Herr Kraus ist der geeignete <lb/>Mann, mir meine
+            Haltung im Krieg vorzuwerfen. <lb/>S. 62.ff. – Der Herr Kläger führt lobende Worte des
+            Bür- <lb/>germeisters Seitz für sich aus einem Glückwunsch usw. an. <lb/>Ich will Herrn
+            Zeitz nicht herabsetzen. Aber das Deutsch- <lb/>feindliche des Kraus war anscheinend
+            vergessen, nur das Pa- <lb/>zifistische nicht. Herr Zeitz ist ihm dankbar für die
+            <lb/>Verdammung des Krieges. Ich selbst habe die Schädlichkeit <lb/>der Krausschen
+            Artikel nicht darin gefunden, dass er (wie <lb/>ich) den Krieg verdammt hat; sondern
+            darin: dass er ihn <lb/>vorwiegend gegen die eignen Landsleute geführt hat. Darüber
+            <lb/>hat Herr Bürgermeister Zeitz andere Anschauungen? die <lb/>meinen sind hiervon
+            unberührt. <lb/>Wozu das alles? Ich empfing ebenfalls rühmende <lb/>Glückwünsche vom
+            Bürgermeister Berlins, von deutschen Mini- <lb/>stern, deutschen Behörden, vom
+            österreichischen Gesandten <lb/>(ich produziere sie nicht) – die würden wieder Herrn
+            Kraus <lb/>widerlegen. Also! … Der gute Glaube des Herrn Zeitz in <lb/>Wien wird nicht
+            angefochten. <lb/>S. 66. – Kraus äussert, ich betone seine „Eitelkeit“ – <lb/>weil er
+            nach einer durch die Deutsche Tageszeitung ver- <lb/>höhnten oder verrisenen Vorlesung
+            den grauenhaften Satz <lb/>schrieb: <lb/>„Alles in allem geht meine Ansicht dahin, dass
+            die <lb/>Entente halbe Arbeit geleistet hat.“ <lb/>Ich betone hier jedoch nicht seine
+            Eitelkeit, sondern ganz was <lb/>Andres. Wer bedauerte wohl (wegen eines nicht
+            erwünschten <pb facs="" n="29"/>
+            <lb/>Zeitungsberichts), dass ein unglückliches Land nur zur Hälf- <lb/>te misshandelt
+            worden ist?Und dieser Herr Kraus hat nach <lb/>mir mit Ausdrücken geworfen, wie „Häuferl
+            Dreck“, „Unflat“, <lb/>„Schamfreiheit“, „Vorkämpfer des Bestialischen“, „Tritt ver-
+            <lb/>setzen“, „An den Pranger gestellt“, „Brechreiz“. <lb/>Ich wolle, sagt er (S. 67)
+            durch Erwähnung dieser <lb/>Tatsache (seines Wunsches nach gründlicherer Niedertretung
+            <lb/>durch die Entente), „Stimmung für ein Gerichtsverfahren ma- <lb/>chen“. Aber wer
+            muss nach diesen Worten Stimmung machen? <lb/>Kraus gruppiert, deutelt, rabbuliert – und
+            entkräftet <lb/>nichts. Der Wunsch nach weiteren Taten der Entente soll <lb/>sich, gibt
+            er jetzt vor, nur auf diese Zeitung bezogen ha- <lb/>ben. Der Beweis soll in dem
+            Nachsatz liegen: „So unbesiegt <lb/>wie die Deutsche Tageszeitung war noch nie ein
+            Besiegter!“ <lb/>Die Unwahrheit des Herausredens ergibt sein damals geschrie-
+            <lb/>bener, sehr deutlicher Zusatz: <lb/>„Wie der deutsche Gott Bomben auf Nürnberg
+            regnen <lb/>liess, so lügen und fälschen sie wie eh und je. Wie <lb/>ihre
+            Generalstabsberichte, so ihre Darstellungen von <lb/>einem Vortrag … <lb/>Alles in allem
+            geht meine Ansicht dahin, dass die <lb/>Entente halbe Arbeit geleistet hat“. <lb/>Das
+            bezieht sich auf ein Land, nicht auf eine Zeitung. <lb/>Das wegen einer abfälligen
+            Besprechung seines rezitatori- <lb/>schen Auftretens. Und gegen diesen Moralisten muss
+            ich mich <lb/>wehren. <lb/>Es ist ein Merkmal seiner Methode. So wie er hin-
+            <lb/>terdrein vorgeblich nur die Schwerindustriellen in jenem <lb/>Kuplet gemeint haben
+            will, obschon er deutlich <lb/>gesagt hat, das Kuplet „erschöpfe das Problem
+            Deutschlands <lb/>annähernd so sehr wie Deutschland die Welt“ – ebenso hat <pb facs="" n="30"/>
+            <lb/>er hier nachträglich blos die Deutsche Tageszeitung ge- <lb/>meint. Es ist seine
+            Methode. Vermutlich waren seine Verse <lb/>(erwähnt in meinem vorigen Schriftsatz S.
+            16): <lb/>„Von den deutschen Chemikalien <lb/>Scheint das Gas allein gediegen,
+            <lb/>Während durch durch die Viktualien <lb/>Der, den’s trifft, sofort bleibt liegen.“
+            <lb/>– vermutlich waren diese Verse harmlos auf einen einzigen <lb/>deutschen
+            Viktualienhändler gemünzt. Das ist seine Methode. <lb/>So saggt er hinterher (S. 70 des
+            Schriftsatzes), er <lb/>habe mir garnicht Feigheit vorwerfen wollen; – – er hatte
+            <lb/>nämlich nur gesagt, dass ich in jener scheusslich gewitzten <lb/>Grausamkeit
+            versiert war, „die das eigne Leibeswohl hinter <lb/>der Schanze eines Schreibtische
+            deckt“. Also nicht Feig- <lb/>heit. Es ist seine Methode. <lb/>S. 69. – Kraus spricht
+            verleumderisch von der „defaitisti- <lb/>schen Gesinnung“ eines meiner Gedichte, nämlich
+            des Versöh- <lb/>nungsgedichts, wo ein Holsteiner und ein Franzos in vor-
+            <lb/>übergehender menschlicher Wallung einander die Hand drücken. <lb/>Es ist glatt
+            erfunden, dass ich hier oder je ein „defaiti- <lb/>stisches“ Gedicht verfasst hätte.
+            (Dieses erschien, wie <lb/>erwähnt, im Scherlschen „Tag“). Er schreibt: defaitistisch.
+            <lb/>Das ist seine Methode. <lb/>Mein im vorigen Schriftsatz angeführtes ernstes Ge-
+            <lb/>dicht „Wir wollen in den Tagen der steilsten Lebensfahrt …“ <lb/>mit den
+            Schlusszeilen: <lb/>„Deutschland kämpft um sein Leben, <lb/>Es wird nicht untergehn“
+            <lb/>ist, wie er zweideutig schreibt, „vom Kriegsbeginn datiert“. <pb facs="" n="31"/>
+            <lb/>Es ist nicht vom Kriegsbegimn „datiert“, sondern es stand <lb/>an dem
+            verhängnisschweren 2. August frühmorgens im „Tag“; <lb/>was leicht festzustellen ist.
+            Vom Kriegsheginn „datiert“, <lb/>sagt er harmlos. <lb/>S.70. – Dass Herr Kraus Strophen
+            von innerstem Anteil, <lb/>wie der grauenhafte Krieg sie entstehen liess, – dass er
+            <lb/>auch diese Strophen witzelnd zu zerklauben versucht, geht <lb/>ihn mehr an als
+            mich. <lb/>„Ehrfurchtlosigkeit“ rügt er jedoch an meinen <lb/>Gedichten im Krieg, – als
+            Verfasser der genannten Ku- <lb/>plets. <lb/>Immer von neuem unternimmt er den billigen
+            Versuch: <lb/>eine Gesinnungslosigkeit zu konstruieren aus dem Gegensatz <lb/>des
+            Helfenwollens im Krieg – und der Erkenntnis von dem <lb/>tiefen Unwert des Kriegs als
+            Einrichtung. Er versucht das <lb/>auch hier (S. 70), indem er das Wort „Blutschwindel“
+            (acht <lb/>Jahre nach Friedensschluss gedruckt) anführt. Dabei weiss <lb/>er genau, dass
+            ich mitten im Krieg ähnliche und stärkere <lb/>Worte für den Krieg als Einrichtung ge-
+            <lb/>braucht habe. <lb/>S. 71. – Kraus hat, wie er sagt, dem Gericht Verse über-
+            <lb/>reicht, die ich gemacht haben soll und die er bisher noch <lb/>nicht abgedruckt
+            hat. Da ich nicht weiss, welche, kann ich <lb/>vorläufig nicht feststellen, ob sie von
+            mir sind (er wird <lb/>es zu beweisen haben) – oder ob er einfach wieder be-
+            <lb/>schlossen hat, dass sie von mir sind. <pb facs="" n="32"/>
+            <lb/>S. 71ff. – Herr Kraus sagt Unwahres in der Behauptung, dass <lb/>es „niemals zu
+            einer Anklage gegen den Verfasser (Anm.: <lb/>Kraus) kommt“. Schon die Fälle der Frau
+            Alice Schalek und <lb/>des Bühnenschriftstellers Hans Müller beweisen das Falsche
+            <lb/>der Behauptung. Herr Kraus irrt überdies, wenn er nicht-er- <lb/>hobene Klagen als
+            Beweis für den Wert seiner Angriffe be- <lb/>trachtet – statt für den Wert, den man
+            ihnen beilegt. <lb/>S. 73. – Ein Schöffengericht habe 1903, sagt er, als man <lb/>aus
+            fremden Zeugnissen etwas gegen ihn beweisen wollte, – <lb/>ein Schöffengericht habe
+            damals erklärt, es sei „selbst- <lb/>verständlich, dass ein im öffentlichen Kampfe
+            stehender <lb/>Schriftsteller … Freunde und Feinde hat“. Das stellt er <lb/>mit
+            Genugtuung fest – verzeichnet aber, weil es ihm da in <lb/>den Kram passt, auf den
+            folgenden Seiten erstens das Lob <lb/>eines Herrn Hader über Kraus, zweitens den Angriff
+            eines <lb/>unbekannten Herrn Reifferscheidt gegen Kerr. Obschon ich <lb/>doch, im
+            öffentlichen Kampfe stehend, gleichfalls Feinde <lb/>und Freunde haben muss – nicht?
+            Dieser von ihm reprodu- <lb/>zierte Angriff (ich kann ihm viel zeigen) be- <lb/>weist
+            allerdings, dass Herr Reifferscheid einer der (selte- <lb/>nen) deutschen Leser der
+            „Fackel“ ist. <lb/>Nur der Symmetrie halber will ich ihm für diesen <lb/>Fall Bescheid
+            tun – und Stimmen aus Tirol über Kraus wie- <lb/>dergeben. Sie sagten, als er in
+            Innsbruck sprechen <lb/>wollte, dass Kraus „seinen ganzen Hohn und Spott über unser
+            <lb/>hamenloses Unglück, über den furchtbaren moralischen Zu- <lb/>sammenbruch des
+            deutschen (Volkes ergossen hat“; dass <pb facs="" n="33"/>
+            <lb/>„dieser Deutschenhasser“, so schrieben sie, „nur seine <lb/>teuflischen Hass-,
+            Spott- und Rachegelüste befriedigt“. <lb/>Herr Reifferscheidt wird hierdurch aufgewogen.
+            Belanglos <lb/>ist bei dieser Symmetrie, ob Antisemitismus gegen Kraus <lb/>mitsprach
+            oder nicht. Herr Kraus musste damals unverrich- <lb/>teter Sache aus Innsbruck abziehen:
+            die zweite Vorlesung <lb/>fand nicht mehr statt – – ohne dass ich sie hätte stören
+            <lb/>lassen; weder durch einen Serben noch durch sonstwen … <lb/>S. 76 – Am Schlusse
+            zitiert Herr Kraus drei Sätzchen <lb/>aus einer (1897!) voh mir veröffentlichten
+            Theaterkritik. <lb/>Ich sprach einem schwachen Stück Hermann Bahrs die litera-
+            <lb/>rischen Qualitäten ab (nicht aber dem Verfasser die morali- <lb/>schen). Ich wies
+            damit auf das rein literarkritische <lb/>Schriftchen des Herrn Kraus „Die demolierte
+            Literatur“, <lb/>das nicht lange vorher erschienen war, – und schrieb von <lb/>dem
+            Bahrschen Stück: „Um es genügend zu verspotten, müss- <lb/>te man sich einen eignen Karl
+            Kraus verschreiben“. Aber <lb/>das war vier Jahre, bevor Kraus wegen seiner
+            Verdächtigung <lb/>Bahrs verurteilt wurde. Und das setzt Herr Kraus in Sperr- <lb/>druck
+            wie etwas Beweisendes an den Schluss seines Schrift- <lb/>satzes. Als ob man 1897 nicht
+            ein Stück Bahrs schlecht fin- <lb/>den konnte – bevor Kraus (1901) wegen der
+            Behauptungen <lb/>über Hermann Bahr verurteilt wurde. <lb/>Zusammengefasst: es liegt der
+            immerhin denkwürdige Fall <lb/>vor, dass jemand, weil er sich im Kriege verhielt wie ich
+            – <lb/>dass ein solcher vom Urheber deutschfeindlicher Rohheiten, <pb facs="" n="34"/>
+            <lb/>der noch hinterher die Entente zur ganzen Arbeit herbei- <lb/>wünscht, beschimpft
+            werden kann, mit Ausdrücken wie <lb/>„Ordinärheit“, „Vorkämpfer des Bestialischen“, „An
+            den <lb/>Pranger gestellt“, „Häuferl Dreck“ usw. und, wenn der <lb/>Angegriffene in
+            anderthalb Zeilen den Urheber dieses Vor- <lb/>gehens einen Verleumder nennt, von ihm
+            vor einem deutschen <lb/>Gericht verklagt wird. <lb/>Herr Kraus hat auf den 77 Seiten
+            seines Schrift- <lb/>satzes vieles vorgebracht – eines aber vergisst er zu be-
+            <lb/>rühren: die nicht widerlegte Feststellung aus meinem vori- <lb/>gen Schriftsatz,
+            worin (unter Hinweis auf das Heft der <lb/>„Fackel“ vom November 1918, S. 33) folgendes
+            stand. <lb/>Kraus behauptet, das „einzig wahre Wort“, das in <lb/>diesen Zeitläuften
+            gesprochen wurde, sei folgendes, das <lb/>„ein russischer Minister am Kriegsbeginn
+            gesprochen hat: <lb/>dass dieser Krieg Österreichs eine Keckheit ist“ – und er,
+            <lb/>Kraus, habe es <lb/>„nur durch die Feststellung ergänzt, dass dieser <lb/>Krieg
+            Deutschlands eine Frechheit ist, damit das <lb/>bundesbrüderliche Verhältnis zwischen
+            Räuber und <lb/>Dieb, Gehasstem und Verachtetem auch im Punkt der <lb/>Kriegsschuld zur
+            vollen Anschauung komme“. <lb/>Ich wiederhole, dass ich meinen kurzen inkriminier-
+            <lb/>ten Abwehrsatz am selben Tage drucken liesse, an dem ich <lb/>von den neuen
+            schweren Beschimpfungsversuchen des Kraus <lb/>Kenntnis bekam. <lb/>Dr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11910">Alfred Kerr</rs>
+        </body>
+    </text>
+</TEI>

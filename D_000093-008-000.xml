@@ -1,0 +1,149 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000093-008-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000093-006-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000093-009-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Antrag auf Kostenbestimmung</title>
+                <editor ref="#JK">Johannes Knüchel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthyanystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000093-008-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2905</idno>
+                <idno type="ID" subtype="transkribus">232304</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000093">Karl
+                    Kraus ca. Wiener Neueste Nachrichten</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <ab type="stamp">
+                        <stamp source="#50491"/>
+                    </ab>
+                </msDesc>
+                <listWit>
+                    <witness xml:id="D_000093-008-000-wit01" facs="D_000093-008-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1927-10-08" subtype="produced">8. Oktober
+                    1927</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>Antrag</term>
+                </keywords>
+                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.J.ANT</classCode>
+            </textClass>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="intertexts" when-iso="2021-03-01" who="#JK"/>
+            <change type="typography" when-iso="2021-03-01" who="#JK"/>
+            <change type="references" when-iso="2021-03-01" who="#JK"/>
+            <change type="structure" when-iso="2021-03-01" who="#JK"/>
+            <change when-iso="2020-10-08T12:20:39.459Z" who="#IB">created by API</change>
+            <change when-iso="2020-10-08T12:21:54.254Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 232304.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000093-008-000-facs001">
+        <surfaceGrp xml:id="D_000093-008-000-facs001-l001">
+            <surface xml:id="D_000093-008-000-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000112_37.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554598/full/full/0/default.jpg" source="wienbibliothek"/>
+                <graphic url="ZPH_1545-6/92_97/00000112.jpg" source="scans"/>
+            </surface>
+            <surface xml:id="D_000093-008-000-facs001-l001-p002" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000113_33.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554599/full/full/0/default.jpg" source="wienbibliothek"/>
+                <graphic url="ZPH_1545-6/92_97/00000113.jpg" source="scans"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="D_000093-008-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_532b6ce3-46b7-47b6-aadb-a907528dc0ff">
+                <lb xml:id="uuid_f70e0f4c-fa46-40f3-8e0f-4cfa4620f3d6"/>G.Z. U I 404/27 </p>
+            <p xml:id="uuid_c1c5db71-59dd-4baf-bb0a-bf4cb5567b75">
+                <lb xml:id="uuid_bb61985e-f42a-46c1-a198-5ef42a36c104"/>An das <lb xml:id="uuid_c6b122a1-82ac-4a7c-b122-a182ac2a7cdf"/><rs type="institution" ref="#50491"><hi rend="spaced">Strafbezirksgericht</hi> I <lb xml:id="uuid_0fa79a6a-07ae-41d9-a79a-6a07ae61d968"/><hi rend="spaced">Wien</hi></rs>. </p>
+            <p xml:id="uuid_78746355-2043-4e54-9348-75e09d9a27f4">
+                <lb xml:id="uuid_2b4e383f-563c-454c-8e38-3f563ca54c9c"/>Privatankläger: <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl <hi rend="spaced">Kraus</hi></rs>, Schriftsteller <lb xml:id="uuid_739fbfd7-d585-4ff4-9fbf-d7d585dff4c7"/>in <rs type="place" subtype="address" ref="#50496">Wien III. Hintere Zollamtsstrasse <lb xml:id="uuid_ead7479e-cac5-4432-9747-9ecac54432a9"/>Nr. 3</rs>, <lb xml:id="uuid_4c94102c-1e6a-4283-9410-2c1e6af283c2"/>durch: </p>
+            <p xml:id="uuid_f7e2d4a5-592b-47e2-951f-7f23edea6b29">
+                <lb xml:id="uuid_e0f726e9-2528-4194-b726-e92528b19414"/>Beschuldigter: Dr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/51590">Ernst <hi rend="spaced">Holzmann</hi></rs>, ver<lb xml:id="uuid_3df3ef3e-748a-45d9-b3ef-3e748a45d98b" break="no"/>antwortlicher
+                Redakteur der „<rs type="institution" ref="#37566">Wiener <lb xml:id="uuid_7b0ae399-6b6c-402d-8ae3-996b6c102d50"/>Neuesten
+                    Nachrichten</rs>“ in <rs type="place" subtype="address" ref="#52980">Wien VIII. <lb xml:id="uuid_eb6f9e2d-be18-47a3-af9e-2dbe1877a36d"/>Josefsgasse Nr. 4/6</rs>
+            </p>
+            <p xml:id="uuid_774dc4f5-5606-4b61-bb2e-a45fd6b5f6d2"><lb xml:id="uuid_a15b5ff8-caa8-4a48-9b5f-f8caa89a487b"/>wegen <rs type="law" ref="">§ 24 Pr.G.</rs> 1 fach </p>
+            <p xml:id="uuid_2cc53d3b-ef22-4a22-ac8d-55749fddd432">
+                <lb xml:id="uuid_200a8021-9fe1-44c0-8a80-219fe184c0d1"/><hi rend="underlined"><hi rend="spaced">Antrag</hi> auf Kostenbestimmung.</hi>
+            </p>
+            <pb facs="D_000093-008-000-facs001-l001-p002" n="2"/>
+            <p xml:id="uuid_0551bf7c-fe0a-4907-9663-4701d9bc57e3">
+                <lb xml:id="uuid_8d576aa2-b5ed-4aef-976a-a2b5ed8aefb3"/>Ich beantrage die in diesen
+                Verfahren auf<lb xml:id="uuid_5ae146e6-54ed-4faa-a146-e654ed5faab6" break="no"/>gelaufenen Kosten zu bestimmen und dem <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/51590">Beschuldigten</rs> und <lb xml:id="uuid_6755afdc-b621-4552-95af-dcb621355256"/>den mit ihm zur ungeteilten
+                Hand haftenden die Zahlung <lb xml:id="uuid_2edd3fde-1fe4-407c-9d3f-de1fe4c07cd0"/>binnen 3 Tagen aufzutragen. </p>
+            <p xml:id="uuid_c5232c67-dfb7-4e10-b687-63042850b740">
+                <lb xml:id="uuid_29c8236a-766e-4fc8-8823-6a766effc842"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl <hi rend="spaced">Kraus</hi></rs>. </p>
+            <p xml:id="uuid_e835ff6b-70b6-4369-a82d-309e10526cb3">
+                <lb xml:id="uuid_0cbc74ca-11b3-44c7-bc74-ca11b344c721"/><hi rend="underlined">Kostenverzeichnis.</hi>
+            </p>
+            <p xml:id="uuid_ff487417-0b13-4000-9af9-90af6d745a50">
+                <lb xml:id="uuid_585a29ef-9003-44ba-9a29-ef9003f4ba51"/>26./IX.1927 Privatanklage.S
+                20.– <lb xml:id="uuid_430dbf8d-3606-4da2-8dbf-8d3606eda21b"/>25% Einheitssatz S 5.–
+                    <lb xml:id="uuid_5393658f-e338-4d1b-9365-8fe3389d1b37"/>Stempel S 3.– <lb xml:id="uuid_52baf1a1-6dd8-47c5-baf1-a16dd837c57e"/>zu den Beilagen S 1.– <lb xml:id="uuid_f1012c47-db09-4aec-812c-47db09caec5c"/>28./IX.1927 Hauptverhandlung
+                S 40.– <lb xml:id="uuid_8f96466b-df80-42b8-9646-6bdf8012b83b"/>25% Einheitssatz S
+                10.– <lb xml:id="uuid_57d882a1-4146-453a-9882-a14146053afd"/>Stempel zum Protokoll S
+                1.– <lb xml:id="uuid_620885a9-4482-4415-8885-a94482741576"/>Stempel zum Urteil S 5.–
+                    <lb xml:id="uuid_a95851ef-cb5f-4153-9851-efcb5fb15388"/>Fahrt und Entfernungsgeb
+                S 3.– S –.48 <lb xml:id="uuid_a07b039a-68f6-49be-bb03-9a68f689bee7"/>5./X.1927
+                Antrag auf Kostenbestimm. S 5.– <lb xml:id="uuid_4b62e00e-afea-48fb-a2e0-0eafea78fb46"/>25% Einheitssatz S 1.25 <lb xml:id="uuid_a1e965b3-cb72-403c-a965-b3cb72003cee"/>Stempel S 1.– <lb xml:id="uuid_c86a5143-18fc-4466-aa51-4318fc5466dc"/>S 84.25 S 11.48 <lb xml:id="uuid_3dfd4d02-7f75-48e7-bd4d-027f7598e722"/>2% Warenumsatzs teuer S 1.68
+                    <lb xml:id="uuid_ffe3f27a-fa0d-4b2a-a3f2-7afa0dbb2a57"/>Barauslagen S 11.48 <lb xml:id="uuid_c6bebda1-3993-4228-bebd-a139933228be"/>S 97.41 </p>
+            <p xml:id="uuid_f0c35608-e7dd-41d2-bb19-12da936c95cb">
+                <lb xml:id="uuid_a58b4beb-fb3f-4081-8b4b-ebfb3f3081b4"/><note type="paratext" resp="law-firm"><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs> – <rs type="institution" ref="#37566">Wr. N. Nachr.</rs></note>
+            </p>
+        </body>
+    </text>
+</TEI>

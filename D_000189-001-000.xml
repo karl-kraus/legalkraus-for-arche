@@ -1,0 +1,132 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000189-001-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-030-002.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-006-000.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Zeitungsartikel aus: Gegen-Angriff</title>
+                <editor ref="#JK">Johannes Knüchel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000189-001-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4559</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000189">Karl
+                    Kraus ca. Gegen-Angriff</title>
+            </seriesStmt>
+            <!--JK: Datierung überprüfen, in 189.11 wird vom 26.11. als Veröffentlichungsdatum der Nummer gesprochen-->
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000189-001-000-wit01" facs="D_000189-001-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1933-11-19" subtype="produced">19. November
+                    1933</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>Zeitungsartikel</term>
+                </keywords>
+            </textClass>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2020-10-11T08:21:20.32Z" who="#IB">created by API</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000189-001-000.xml-facs001">
+        <surfaceGrp xml:id="D_000189-001-000.xml-facs001-l001">
+            <surface xml:id="D_000189-001-000.xml-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000002_17.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544511/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="D_000189-001-000.xml-facs001-l001-p001" n="1"/>
+        </body>
+        <div xml:id="uuid_e2c5e3cb-f05e-4949-85e3-cbf05eb94979" part="N" org="uniform" sample="complete">
+            <p xml:id="uuid_4eb405a7-7609-4a4b-b405-a776090a4b6e">
+                <hi rend="bold">Nachruf auf Karl Kraus</hi>
+            </p>
+            <p xml:id="uuid_d92d8fd2-89a0-4f63-ad8f-d289a07f6329">In Herzeleid verstummend hat auch
+                während des Weltkrieges Karl Kraus gewünscht, dass man von ihm kein eigenes Wort
+                erwarte. Erst als der Zusammenbruch der Mittelmächte entschieden war, hat sie keiner
+                so beredt verflucht wie er. Auch heute sucht er — dreiviertel Jahre nach dem
+                Ausbruch des Hitlertums — sein Schweigen, das zum Himmel schreit, zu erklären. Er
+                leidet zu tief und hat auch sonst Rücksicht zu nehmen. </p>
+            <p xml:id="uuid_51e01a52-df39-438a-a01a-52df39138aee">Im letzten Fackelheft begnügt er
+                sich mit einer Grabrede auf den grossen Baumeister Adolf Loos. Und auf der letzten
+                Seite besingt er sein Schweigen: </p>
+            <p xml:id="uuid_806192dc-5d8e-4366-a192-dc5d8ef36639">„Man frage nicht, was all die Zeit
+                ich machte. Ich bleibe stumm; Und sage nicht, warum. Und Stille gibt es, da die Erde
+                krachte. Kein Wort das traf; Man spricht nur aus dem Schlaf . Und träumt von einer
+                Sonne, welche lachte. Es geht vorbei; Nachher war’s einerlei. Das Wort entschlief,
+                als jene Welt erwachte.“ </p>
+            <p xml:id="uuid_cfe5820b-1a02-4b08-a582-0b1a021b085a">Umso nötiger, dass uns das Wort
+                nicht entschläft. Man frage nicht, was all die Zeit er machte? — Nicht mitgemacht
+                hat er. Er bleibet stumm, und saget nicht warum? — Die Tatsache genügt. </p>
+            <p xml:id="uuid_d1cc2e14-6e61-48d4-8c2e-146e6188d4c2">Wir haben ihn gekannt, als er noch
+                gar nicht stumm war. Mit seinen Fackelheften und Vorlesungen hat er jahrzehntelang
+                junge, unzufriedene Intellektuelle zu einer ebenso heulmeierischen wie
+                selbstgefälligen Passivität verleitet. Eine Erweckerkreuzung von Jeremias, jungem
+                Hauptmann, altem Goethe, Apokalyptiker und Kierkegard [!] mit einem tüchtigen Schuss
+                Jean Jacques Offenbach. — Er war ein Diener am Wort. Ein hinreissender
+                Sprachvirtuose. Ein fanatischer Sprachlehrer. Und unermüdlich las er uns sprachliche
+                Meisterwerke vor. Aber, als das Gewitter heraufzog, lieber Offenbachsche
+                Operettenlibrettos. Und jetzt, da das Verderben rast, und Tausende nach einem
+                tapferen Wort von ihm hungern, da erlaubt er sich von einer Sonne zu </p>
+            <p xml:id="uuid_e7695420-ce75-429c-a954-20ce75129cc7">träumen, welche lachte? „Es geht
+                vorbei; nachher war’s einerlei“? — Hier irrt er. Karl Kraus ist vorbei.</p>
+            <p xml:id="uuid_75fc52f3-3a2d-49a2-bc52-f33a2d19a29c">Vielleicht ist Karl Kraus schon
+                längst tot, nur wir merkten es nicht. Als Moritz Benedikt starb, verblich auch sein
+                Schatten.</p>
+            <p xml:id="uuid_f9f9d9f2-47da-4226-b9d9-f247dac226ba">Arnold </p>
+        </div>
+    </text>
+</TEI>

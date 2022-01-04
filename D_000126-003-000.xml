@@ -1,0 +1,138 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000126-003-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-002-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-004-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Privatanklage von Karl Kraus gegen Der Tag (verantw. Red. Josef Koller) wegen §§ 23, 24 Pr. G.</title>
+                <editor ref=""/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000126-003-000.xml</idno>
+                <idno type="URL" subtype="krausonline">https://www.kraus.wienbibliothek.at/content/privatanklage-von-karl-kraus-gegen-der-tag-verantw-red-josef-koller-wegen-ssss-23-24-pr-g</idno>
+                <idno type="ID" subtype="transkribus">333196</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000126">Karl Kraus ca. Der Tag</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000126-002-000-wit01" facs="#D_000126-002-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date type="sortDate" subtype="produced" when-iso=""/>
+                <date source="krausonline">23.05.1929</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/"/>
+            </textClass>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2021-09-13" resp="#LU">created XML Document</change>
+            <change when-iso="2021-09-13" resp="#LU">Replaced Text with Transcription of Transkribus
+                Document 333196.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000126-002-000-facs001"><!-- surfaces, graphics -->
+        <surface type="">
+            <graphic url="" source="wienbibliothek"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body><!-- lb uuids -->
+            <pb facs="" n="1"/>
+                <lb/>An das
+                <lb/>Strafbezirksgericht I
+                <lb/>Wien.
+                <lb/>Privatankläger: Karl Kraus, Schriftsteller in Wien
+                <lb/>III., Hintere Zollamtsstrasse Nr. 3,
+                <lb/>durch:
+                <lb/>Beschuldigter: <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/51602">Josef Koller</rs>, verantwortlicher Redakteur
+                <lb/>des „Tag“ in Wien IX., <rs type="place" ref="https://pmb.acdh.oeaw.ac.at/entity/50643">Canisiusgasse</rs> Nr. 8–10,
+                <lb/>wegen §§ 23/24 Pr.G. 1 fach
+                <lb/>2 Beilagen.
+                <lb/>Privatanklage.
+            <pb facs="" n="2"/>
+                <lb/>In der Nummer der Tageszeitung „<rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37568">Der Tag</rs>“
+                <lb/>vom 7. Mai 1929 wurde in einer Notiz „Theaterskandal in Dresden“
+                <lb/>über die Premiere meines Stückes „Die Unüberwindlichen“ folgende
+                <lb/>mich betreffenden Tatsachen unrichtig mitgeteilt:
+                <lb/>1.) Dass dem Publikum mitgeteilt wurde, dass Camillo
+                <lb/>Castiglione gegen die Verwendung einer Figur, durch die er ver-
+                <lb/>körpert werden sollte, Einspruch erhoben habe und dass diesem
+                <lb/>Einspruch stattgegeben worden sei;
+                <lb/>2.) dass ein Pfeifkonzert stattfand und Stinkbomben ge-
+                <lb/>worfen wurden;
+                <lb/>3.) dass die Vorstellung unter allgemeinem Lärm zu Ende
+                <lb/>geführt wurde.
+                <lb/>Ich habe den Beschuldigten durch meinen
+                <lb/>Anwalt Dr. Oskar Samek mit Schreiben vom 13. Mai 1929 aufge-
+                <lb/>fordert, diese Stellen der Notiz zu berichtigen. Ich schliesse
+                <lb/>das Berichtigungsschreiben in Abschrift bei. Die Berichtigung
+                <lb/>wurde dem Beschuldigten am 16. Mai 1929 zugestellt. In den
+                <lb/>folgenden Nummern vom 17. und 18. Mai 1929 ist die Berichtigung
+                <lb/>nicht erschienen.
+                <lb/>Beweis: Die Nummer des „Tag“ vom 7. Mai 1929, das
+                <lb/>Berichtigungsschreiben vom 14. Mai 1929,
+                <lb/>(Postrezepisse und Rückschein werden zur
+                <lb/>Hauptverhandlung mitgebracht werden).
+                <lb/>Ich stelle durch meinen zur G.Z. 1 U 20/29
+                <lb/>ausgewiesenen Anwalt folgende
+                <lb/>Anträge:
+                <lb/>1.) Anberaumung einer Hauptverhandlung,
+                <lb/>2.) Ladung des Beschuldigten,
+                <lb/>3.) Verlesung des Berichtigungsschreibens und der vor-
+                <lb/>gelegten Zeitungsnummer,
+                <lb/>4.) Bestrafung des Beschuldigten und Erkenntnis auf Ver-
+                <lb/>öffentlichung der Berichtigung.
+                <lb/>5.) Verpflichtung des Beschuldigten und zur ungeteilten
+                <lb/>Hand mit ihm des Herausgebers und Eigentümers „<rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37568">Der Tag</rs>“ Verlag
+                <lb/>A.G., Wien IX., <rs type="place" ref="https://pmb.acdh.oeaw.ac.at/entity/50643">Canisiusgasse</rs> 8–10.
+                <lb/>Karl Kraus.
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,118 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000061-001-001.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000060-004-003.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000061-001-002.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Zeitungsartikel aus: Arbeiter-Zeitung</title>
+                <editor ref="#JK">Johannes Knüchel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000061-001-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2425</idno>
+                <idno type="ID" subtype="transkribus">200691</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000061">Karl Kraus ca. Arbeiter-Zeitung</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000061-001-001-wit01" facs="D_000061-001-001-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation> <date type="sortDate" when-iso="1926-04-28" subtype="produced">28. April 1926</date> </creation>
+            <langUsage> <language ident="de">Deutsch</language> </langUsage>
+            <textClass/>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2020-02-18T10:00:47.171Z" who="#IB">created by API</change>
+            <change when-iso="2020-02-18T10:11:45.34Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-18T10:11:54.772Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-18T10:12:03.852Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-18T10:12:13.852Z" who="#JM">Checked Images Wienbibliothek</change>
+        <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of Transkribus Document 200691.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000410_3.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551612/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000411_3.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551613/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000412_4.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551614/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000413_4.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551615/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="" n="1"/>
+            <lb xml:id="uuid_b0893eee-9c95-4c45-893e-ee9c95fc4539"/>30. April 1926.
+<lb xml:id="uuid_d92f0aa2-989e-42ec-af0a-a2989e62ec6b"/>Dr.S./W. Betrifft Kraus – Arbeiterzeitung
+<lb xml:id="uuid_433e032d-1b3f-47f1-be03-2d1b3fb7f1c6"/>An den verantwortlichen
+<lb xml:id="uuid_55f4bc44-a348-403e-b4bc-44a348603e09"/>Schriftleiter der Arbeiterzeitung
+<lb xml:id="uuid_9b795933-1b01-4c95-b959-331b017c9501"/>Herrn Hugo Schulz
+<lb xml:id="uuid_52adb8d5-4525-454a-adb8-d54525854a68"/>Wien V.
+<lb xml:id="uuid_c98b4560-4a79-4da1-8b45-604a791da1b4"/>Rechte Wienzeile 97
+<lb xml:id="uuid_6dc588a3-240c-457a-8588-a3240cb57a49"/>Im Vollmachtsnamen des Herrn <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs> ersuche
+<lb xml:id="uuid_82286362-8886-4048-a863-62888680486b"/>ich Sie um die Aufnahme der nachfolgenden Berichtigung
+<lb xml:id="uuid_bc6e756c-8d8e-4e15-ae75-6c8d8ece1576"/>der am Mittwoch den April 1926 in No. 117, Seite 10
+<lb xml:id="uuid_58409a8d-690b-4b51-809a-8d690bdb51a8"/>in dem Verhandlungsberichte <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs> gegen
+<lb xml:id="uuid_c455a297-bff5-4b34-95a2-97bff54b347a"/>
+            <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/8363">Anton Kuh</rs> mitgeteilten Tatsache:
+<lb xml:id="uuid_35280f2e-bba0-4d6b-a80f-2ebba03d6b8a"/>Es ist unrichtig, dass <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs> wegen der Be-
+<lb xml:id="uuid_fd2efb1b-4b8b-4196-aefb-1b4b8b1196b1"/>zeichnung Vortragsaffe zunächst nur gegen Kuh eine Klage
+<lb xml:id="uuid_6e8574f9-e70d-41b2-8574-f9e70d91b26b"/>einbrachte, richtig ist vielmehr, dass die eingebrachte
+<lb xml:id="uuid_ff844019-b4f2-4c8e-8440-19b4f2ac8e55"/>Klage sowohl gegen Kuh, als auch gegen den verantwort-
+<lb xml:id="uuid_51b6d0d3-04e8-4d33-b6d0-d304e87d3380"/>lichen Redakteur Dr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/50431">Fritz Kaufmann</rs> gerichtet war.
+<lb xml:id="uuid_0dd0ea2c-16c6-43a4-90ea-2c16c643a42f"/>Hochachtungsvoll
+<pb facs="" n="2"/>
+            <lb xml:id="uuid_c7a2c15c-f76f-41af-a2c1-5cf76fd1afeb"/>Betrifft: Kraus – Arbeiterzeitung
+<lb xml:id="uuid_6bd40583-2105-4de0-9405-832105fde062"/>expediert am 30. April 1926.
+</body>
+    </text>
+</TEI>

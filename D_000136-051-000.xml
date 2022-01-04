@@ -1,0 +1,66 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000136-051-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000136-040-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000136-056-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief Volksbühne Berlin an Verlag Die Fackel</title>
+                <editor ref="#PE">Pia Ebner</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <availability default="false">
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000136-051-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3807</idno>
+                <idno type="ID" subtype="transkribus">452055</idno>
+            </publicationStmt>
+            <seriesStmt default="false">
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000136">Karl
+                    Kraus ca. Volksbühne Berlin</title>
+            </seriesStmt>
+            <sourceDesc default="false">
+                <listWit>
+                    <witness xml:id="D_000136-051-000-wit01" facs="#D_000136-051-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date type="sortDate" when-iso="1931-12-16" subtype="produced"> 16. Dezember 1931</date></creation>
+            <langUsage default="false"><language ident="german">Deutsch</language></langUsage>
+            <textClass default="false"/>
+            <particDesc default="false"/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="references" when-iso="2021-09-25" who="#PE" status="draft"/>
+            <change when-iso="2020-10-08T14:03:55.882Z" who="#IB" status="draft">created by
+                API</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000136-051-000-facs001">
+        <surfaceGrp xml:id="D_000136-051-000-facs001-l001">
+            <surface xml:id="D_000136-051-000-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000318_13.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000136-051-000-facs001-l001-p002" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000319_15.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="#D_000136-051-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_22ce502a-c83d-4ac4-9793-c8dd7ed0103b"><lb xml:id="uuid_0d703bdd-2d98-4c20-ba65-f6b0d528ad32"/>16. Dez. 1931. </p>
+            <p xml:id="uuid_e0c4a04e-7027-47bb-b670-31c6a27bf952"><lb xml:id="uuid_d27eea43-d447-4e11-936a-bad586a832df"/>Verlag „Die Fackel“ <lb xml:id="uuid_b0eaa409-d745-4116-a412-398049b9b28b"/>Wien. <lb xml:id="uuid_b000801d-24e5-47b8-a51c-7e6a511e84fe"/>Hintere Zollamtsgasse 3. </p>
+            <p xml:id="uuid_6ff48fcf-5829-461a-bcd8-2585f5885c73"><lb xml:id="uuid_a08b0380-e214-4fd2-8a91-3a16be905415"/>Wir überweisen ihnen
+                nachfolgend den Betrag von <lb xml:id="uuid_0ecf52f9-4933-4ca2-9440-b10c2c2d9adf"/><hi rend="underlined">Mk. 49.50 </hi><lb xml:id="uuid_a24b72a1-c179-4f81-8803-ee5fb9c7ac2d"/>(i.W.: Mk. Neunundvierzig
+                und 50 Pfg.) <lb xml:id="uuid_cdcb346d-c1e6-4f08-b85b-2429c6ea21bf"/>Tantieme für
+                die am13.d.Mts. stattgefundene Vorstellung von „<rs type="work" ref="#53397">Die <lb xml:id="uuid_df4d2679-2998-463e-95fc-88880ad7ef05"/>Unüberwindlichen</rs>“
+                lt. umstehender Aufstellung </p>
+            <p xml:id="uuid_028e6892-d247-4330-9692-512857ea0e43"><lb xml:id="uuid_6f50eb72-ce8b-4591-b944-0391b819016e"/>Hochachtungsvoll <lb xml:id="uuid_58fa238f-5f6e-41eb-9755-5229e0e07250"/><rs type="person" ref="#39016">Mankeben</rs>
+            </p>
+            <pb n="2"/>
+            <p xml:id="uuid_7741eb4c-2a60-4511-81e9-acad1a8379f0"><lb xml:id="uuid_7843f85b-64ea-4130-9e22-57bbf496d37d"/>Datum: Kasse: Verein: <lb xml:id="uuid_95f51fc6-e723-42ea-b923-d5d1a82e2de3"/>13. Dez. 183.85 311</p>
+            <p xml:id="uuid_6559559f-8e88-4878-ae07-775af84c64a3"><lb xml:id="uuid_6fb4946f-97db-4149-85e5-3bdc0d1c99a4"/>Kasse: = Mk. 183.85 <lb xml:id="uuid_87049903-6a9f-4ef2-86d6-b5c8711f33c7"/>Verein: 311 Karten <lb xml:id="uuid_3fe8cf30-40fa-46e6-8f02-920f47376988"/>à Mk. 1.– Mk. 311.– <lb xml:id="uuid_4024de82-09ad-48a3-aab0-57c5f30ebd10"/>Mk.: 494.85 <lb xml:id="uuid_7879a40f-d0c4-4366-8e82-0f8839fd1422"/>davon 10% = <hi rend="underlined">Mk. 49.50</hi></p>
+        </body>
+    </text>
+</TEI>

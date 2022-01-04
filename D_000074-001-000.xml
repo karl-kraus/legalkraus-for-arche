@@ -1,0 +1,111 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000074-001-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000073-003-002.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000074-002-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief Samek an Egon Friedell</title>
+                <editor ref=""/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000074-001-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/content/brief-samek-egon-friedell</idno>
+                <idno type="ID" subtype="transkribus">226328</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000074">Korrespondenz mit Egon Friedell betr. eines von Anton Kuh unternommenen Plagiatsversuches</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000074-001-000-wit01" facs="#D_000074-001-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date type="sortDate" subtype="produced" when-iso=""/>
+                <date source="krausonline">18.03.1926</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/"/>
+            </textClass>
+            <particDesc/>
+            <correspDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2021-09-13" resp="#LU">created XML Document</change>
+            <change when-iso="2021-09-13" resp="#LU">Replaced Text with Transcription of Transkribus
+                Document 226328.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000074-001-000-facs001"><!-- surfaces, graphics -->
+        <surface type="">
+            <graphic url="" source="wienbibliothek"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body><!-- lb uuids -->
+            <pb facs="" n="1"/>
+                <lb/>18. März
+                <lb/>Dr. S./W. Betrifft: Kraus – Kuh.
+                <lb/>Wohlgeboren
+                <lb/>Herrn Dr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/2771">Egon Friedell</rs>,
+                <lb/>Wien XVIII.
+                <lb/>Gentzgasse No. 7.
+                <lb/>Sehr geehrter Herr Doktor.
+                <lb/>Vor einigen Jahren soll in der „Stunde“ eine
+                <lb/>von Ihnen verfasst Novelette unter dem Titel „Kaiser
+                <lb/>Josef II. und seine Geliebte“, oder „… und die
+                <lb/>Prostituierte erschienen sein, welche Herrn <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/8363">Anton Kuh</rs>
+                <lb/>im Jahre 1924 in „Querschnitt“ unter seinem Namen
+                <lb/>nachdrucken liess. In den Prozess den ich für Herrn
+                <lb/>Kraus gegen Herrn Kuh führe, dürfte vielleicht diese
+                <lb/>Tatsache von einiger Bedeutung sein und ich würde sie
+                <lb/>vielmals ersuchen, mir die Nummer der „Stunde“ be-
+                <lb/>kanntzugeben, in der die Veröffentlichung Ihres Wer-
+                <lb/>kes erfolgte.
+                <lb/>Mit besten Dank im Voraus zeichne ich
+                <lb/>hochachtungsvoll
+        </body>
+    </text>
+</TEI>

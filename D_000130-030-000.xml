@@ -1,0 +1,105 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000130-030-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-029-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-031-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief RA E. Lion an Samek</title>
+                <editor ref="#"/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000130-030-000.xml</idno>
+                <idno type="URL" subtype="krausonline">https://www.kraus.wienbibliothek.at/content/brief-ra-e-lion-samek-7</idno>
+                <idno type="ID" subtype="transkribus">399787</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000130">Karl
+                    Kraus ca. Hamburger Nachrichten</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000130-030-000-wit01" facs=""/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc/>
+            <creation>
+                <date type="sortDate" when-iso="1929-11-29" subtype=""/>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass/>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2020-11-03" who="#LU">created XML-Document</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><!-- LU: fehlt noch -->
+        <surface type="">
+            <graphic/>
+        </surface>
+    </facsimile>
+    <text>
+        <body><!-- LU: IDs von lb fehlen noch, bitte im Framework nachtragen -->
+            <pb facs="" n="1"/>
+                <lb/><rs type="place" ref="https://pmb.acdh.oeaw.ac.at/entity/506">Hamburg</rs> 36, den 25. November 1929.
+                <lb/>– E.
+                <lb/>Herrn Rechtsanwalt
+                <lb/>Dr. Samek,
+                <lb/>Wien I.
+                <lb/><rs type="place" ref="https://pmb.acdh.oeaw.ac.at/entity/50493">Schottenring 14</rs>.
+                <lb/>Sache: Kraus ./. <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37346">Hamburger Nachrichten</rs>
+                <lb/>Ihre Zuschrift vom ./.
+                <lb/>Sehr geehrter Herr Kollege!
+                <lb/>In der Privatklagesache des Herrn Kraus ./. gegen
+                <lb/>den Schriftleiter Schabbel ist Hauptverhandlung auf den
+                <lb/>7. Dezember 12 1/2 Uhr angesetzt worden.
+                <lb/>In der Zivilsache steht Termin am 4. Dezember an.
+                <lb/>In dieser Sache hat bisher die Gegenseite noch keine Klagbe-
+                <lb/>antwortung eingereicht.
+                <lb/>Mit kolleg. Hochachtung
+            <pb facs="" n="2"/>
+                <lb/>Kraus – Hamburger
+                <lb/>Nachrichten
+                <lb/>27. NOV. 1929
+        </body>
+    </text>
+</TEI>

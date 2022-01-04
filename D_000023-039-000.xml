@@ -1,0 +1,520 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000023-039-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-038-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-040-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Antrag auf Ablehnung des verhandelnden Richters (Strafbezirksgerichts I
+                    Wien)</title>
+                <editor ref="#JK">Johannes Knüchel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthyanystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000023-039-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/1847</idno>
+                <idno type="ID" subtype="transkribus">180560</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000023">Karl
+                    Kraus ca. Die Stunde</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <ab type="stamp">
+                        <stamp source="#50491"/>
+                    </ab>
+                </msDesc>
+                <listWit>
+                    <witness xml:id="D_000023-039-000-wit01" facs="D_000023-039-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1926-10-19" subtype="produced">19. Oktober
+                    1926</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>Antrag</term>
+                </keywords>
+                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.J.ANT</classCode>
+            </textClass>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="intertexts" when-iso="2021-10-12" who="#JK"/>
+            <change type="typography" when-iso="2021-10-12" who="#JK"/>
+            <change type="references" when-iso="2021-10-12" who="#JK"/>
+            <change type="structure" when-iso="2021-10-12" who="#JK"/>
+            <change when-iso="2020-02-05T14:37:48.638Z" who="#IB">created by API</change>
+            <change when-iso="2020-02-05T14:42:00.866Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-05T14:42:02.896Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-05T14:42:05.201Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-05T14:42:07.041Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-05T14:42:09.057Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-05T14:42:10.418Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-05T14:42:11.617Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-05T14:42:12.993Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-05T14:42:14.937Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-05T14:42:16.209Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-05T14:42:17.344Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-05T14:42:18.6Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 180560.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000023-039-000-facs001">
+        <surfaceGrp xml:id="D_000023-039-000-facs001-l001">
+            <surface xml:id="D_000023-039-000-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000185_5.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541514/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000185.jpg" source="scans"/>
+            </surface>
+            <surface xml:id="D_000023-039-000-facs001-l001-p002" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000186_7.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541515/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000186.jpg" source="scans"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000023-039-000-facs001-l002">
+            <surface xml:id="D_000023-039-000-facs001-l002-p003" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000187_7.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541516/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000187.jpg" source="scans"/>
+            </surface>
+            <surface xml:id="D_000023-039-000-facs001-l002-p004" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000188_8.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541517/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000188.jpg" source="scans"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000023-039-000-facs001-l003">
+            <surface xml:id="D_000023-039-000-facs001-l003-p005" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000189_8.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541518/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000189.jpg" source="scans"/>
+            </surface>
+            <surface xml:id="D_000023-039-000-facs001-l003-p006" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000190_7.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541519/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000190.jpg" source="scans"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000023-039-000-facs001-l004">
+            <surface xml:id="D_000023-039-000-facs001-l004-p007" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000191_6.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541520/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000191.jpg" source="scans"/>
+            </surface>
+            <surface xml:id="D_000023-039-000-facs001-l004-p008" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000192_7.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541521/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000192.jpg" source="scans"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000023-039-000-facs001-l005">
+            <surface xml:id="D_000023-039-000-facs001-l005-p009" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000193_5.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541522/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000193.jpg" source="scans"/>
+            </surface>
+            <surface xml:id="D_000023-039-000-facs001-l005-p010" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000194_6.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541523/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000194.jpg" source="scans"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000023-039-000-facs001-l006">
+            <surface xml:id="D_000023-039-000-facs001-l006-p011" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000195_4.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541524/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000195.jpg" source="scans"/>
+            </surface>
+            <surface xml:id="D_000023-039-000-facs001-l006-p012" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000196_6.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541525/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000196.jpg" source="scans"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="D_000023-039-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_2e4c9495-c59d-49d0-ba44-850a468f70b7">
+                <lb xml:id="uuid_589a36cc-0f38-4bff-9a36-cc0f382bffa4"/>G.Zl. U I 224/26 </p>
+            <p xml:id="uuid_6342cdef-3d6d-4527-9c3f-2d180224f4f3">
+                <lb xml:id="uuid_9eac39f6-9646-40ee-ac39-f69646b0ee3d"/>An das <lb xml:id="uuid_8d21cdc1-e43c-475a-a1cd-c1e43c475ad1"/><rs type="institution" ref="#50491"><hi rend="spaced">Strafbezirksgericht I</hi>
+                    <lb xml:id="uuid_e0bb0fd0-b7c1-4be2-bb0f-d0b7c12be2d6"/>in <hi rend="spaced">Wien</hi></rs>. </p>
+            <p xml:id="uuid_172c764a-cc56-4720-9523-8d77342f3f5a">
+                <lb xml:id="uuid_8ab99637-c956-4e41-b996-37c9566e41af"/>Privatankläger: <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl <hi rend="spaced">Kraus</hi></rs>, <lb xml:id="uuid_184b9f61-615f-4d4d-8b9f-61615ffd4d29"/>durch: </p>
+            <p xml:id="uuid_cfd9979c-c2bf-4db8-8612-ea4982268759">
+                <lb xml:id="uuid_0b8b03dc-3af2-453c-8b03-dc3af2753c8e"/>Beschuldigter: Dr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/50431">Fritz <hi rend="spaced">Kaufmann</hi></rs>, </p>
+            <p xml:id="uuid_555a9709-8270-4e30-a06f-63a89b202c27"><lb xml:id="uuid_bb0b431c-d197-4e61-8b43-1cd1973e617e"/>wegen <rs type="law" ref="">§ 30 P.G.</rs> 1 fach <lb xml:id="uuid_4bc8d973-0ab1-4afb-88d9-730ab18afb0a"/>2
+                Beilagen </p>
+            <p xml:id="uuid_933d7c64-bf4b-41cb-ba1e-c6918e3542e3">
+                <lb xml:id="uuid_15c30df4-50dc-46a7-830d-f450dc16a753"/>Antrag auf Ablehnung des
+                verhandelnden <rs type="person" ref="#50480">Richters</rs>. </p>
+            <pb facs="D_000023-039-000-facs001-l001-p002" n="2"/>
+            <p xml:id="uuid_2d67676f-1637-48ff-a402-1af3c822128e">
+                <lb xml:id="uuid_b144c811-dfe0-4036-84c8-11dfe0603650"/>Ich lehne den Richter Hofrat
+                    <rs type="person" ref="#50480">Christoph Höflmayr</rs>, der <lb xml:id="uuid_97546813-f500-4677-9468-13f500167711"/>die auf den 21.Oktober vor
+                dem <rs type="institution" ref="#50491">Strafbezirksgericht I</rs> angesetz<lb xml:id="uuid_4bde814d-9565-48de-9e81-4d956548de83" break="no"/>te Verhandlung
+                gegen den <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/50431">verantwortlichen Redakteur der „<rs type="institution" ref="#29470">Stun<lb xml:id="uuid_d4e39c25-17f9-4e26-a39c-2517f96e263f" break="no"/>de</rs>“</rs> wegen Uebertretung nach <rs type="law" ref="">§ 30 P.G.</rs>
+                leiten soll, wegen Befan<lb xml:id="uuid_f6f3e548-b0c4-4e51-b3e5-48b0c4ae5188" break="no"/>genheit ab und ersuche, einen anderen Richter mit der Durch<lb xml:id="uuid_c5f4aa9f-9aa4-49ae-b4aa-9f9aa439aeed" break="no"/>führung dieser
+                Verhandlung zu betrauen. Ich begründe diese Ab<lb xml:id="uuid_ce1b41de-1490-46a1-9b41-de149066a146" break="no"/>lehnung und
+                dieses Ersuchen durch den Hinweis auf die Argu<lb xml:id="uuid_a34dfe4e-aa1d-43c9-8dfe-4eaa1da3c97f" break="no"/>mente, die ich in
+                der beigelegten Schrift „<rs type="work" ref="https://fackel.oeaw.ac.at/f/732,001"><rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/29470">Die
+                        Stunde</rs> des To<lb xml:id="uuid_34729300-908e-4c90-b293-00908ecc90dc" break="no"/>des</rs>“ (<rs type="work" ref="https://fackel.oeaw.ac.at/f/732,0u1">„Die Fackel“ Nr. 732–34</rs>, August
+                1926, <rs type="work" ref="https://fackel.oeaw.ac.at/f/732,050">S. 50 und 51</rs>)
+                    aus<lb xml:id="uuid_66273cb1-8ed6-474d-a73c-b18ed6274d6a" break="no"/>geführt
+                habe. Ich habe dort die enormen Schwierigkeiten dar<lb xml:id="uuid_83bd53e1-e341-4812-bd53-e1e341d81249" break="no"/>gestellt, die der
+                unerlässliche juristische Kleinkampf inner<lb xml:id="uuid_0119988a-e109-4c15-9998-8ae1098c1553" break="no"/>halb jener
+                Polemik gegen das Uebel der „<rs type="institution" ref="#29470">Stunde</rs>“ mit
+                sich ge<lb xml:id="uuid_567e2160-40cc-41e4-be21-6040cc61e41b" break="no"/>bracht
+                hat, innerhalb des grossen Kampfes, der nunmehr durch <lb xml:id="uuid_0d86cff6-5a32-46f8-86cf-f65a32b6f8d9"/>die Verhaftung der
+                Erpresser, die Vertreibung ihres <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/37843">Auftrag<lb xml:id="uuid_e8e9b91a-12c4-4bdc-a9b9-1a12c4ebdc56" break="no"/>gebers</rs>
+                und die Bändigung der Infamie zu einem siegreichen <lb xml:id="uuid_4ab21da2-6121-448c-b21d-a26121148c88"/>Abschluss geführt erscheint.
+                Dieser unerlässliche juristische <lb xml:id="uuid_4abb787d-abc5-4fcc-bb78-7dabc56fccbb"/>Kleinkampf bezog sich auf
+                die vielfachen Gesetzesübertretun<lb xml:id="uuid_db339716-d9f1-4902-b397-16d9f139024d" break="no"/>gen der „<rs type="institution" ref="#29470">Stunde</rs>“, die in Gestalt der bekannten
+                    Vernachlässi<lb xml:id="uuid_e3f392ae-84e6-4a0e-b392-ae84e6ca0ec5" break="no"/>gung der Obsorge wie wegen Nichtaufnahme einer Berichtigung <lb xml:id="uuid_8d411c16-6e77-498c-811c-166e77898ca7"/>vor das <rs type="institution" ref="#50491">Bezirksgericht</rs> kamen, vor allem aber auf
+                jenen schänd<lb xml:id="uuid_cc3d4d01-7b99-4753-bd4d-017b99a75329" break="no"/>lichen Bilderunfug, den man infolge der Ausflucht der vor <lb xml:id="uuid_bea2ef50-ad20-4057-a2ef-50ad2060578a"/>Gericht leugnenden und
+                hinterher mit der Tat renommierenden <lb xml:id="uuid_d54017ee-5bbe-4dbb-8017-ee5bbe6dbb61"/>Täter wieder bloss an dem
+                verantwortlichen Redakteur fassen <lb xml:id="uuid_c4489872-fc1d-4284-8898-72fc1db28495"/>konnte. Diese Prozesse sind
+                vor dem <rs type="institution" ref="#50491">Strafbezirksgericht I</rs> ent<lb xml:id="uuid_806e2728-3b7b-4515-ae27-283b7b1515e6" break="no"/>weder schon zur
+                Austragung gelangt oder dortselbst noch anhängig. <lb xml:id="uuid_7cc83017-e090-4111-8830-17e09041117d"/>In den Fällen nun, wo die
+                Entscheidung in den Händen des Rich<lb xml:id="uuid_a65c0e81-c3d4-40bd-9c0e-81c3d470bdba" break="no"/>ters <rs type="person" ref="#50480">Hofrat Höflmayr</rs> gelegen war, hat er durch seine
+                Haltung <lb xml:id="uuid_358caaa8-1150-44d4-8caa-a81150f4d434"/>bis zum Urteil
+                unverkennbar zu verstehen gegeben – wofür Zu<lb xml:id="uuid_b04a5134-3430-428e-8a51-343430628e54" break="no"/>hörer der
+                Verhandlung als Zeugen namhaft gemacht werden kön<lb xml:id="uuid_8b2dc91a-a8d6-4e3c-adc9-1aa8d62e3ca4" break="no"/>nen –, zu welcher
+                Partei hin sich seine Sympathien zuneigten. <pb facs="D_000023-039-000-facs001-l002-p003" n="3"/>
+                <lb xml:id="uuid_b03b0f6e-2ba3-459b-bb0f-6e2ba3c59b8a"/>Er hat – so absurd
+                angesichts der Gemeinverständlichkeit <lb xml:id="uuid_39e7cff7-b3af-4120-a7cf-f7b3afb120f3"/>des Uebels auch nur der
+                Gedanke an eine Voreingenommenheit <lb xml:id="uuid_6dbc0d63-648f-4790-bc0d-63648f079038"/>zu dessen Gunsten berühren
+                musste – unverkennbar dargetan, <lb xml:id="uuid_469b6a42-11db-45d3-9b6a-4211dbc5d340"/>dass er diese Klagen als
+                Querelen, diese Prozesse nicht als <lb xml:id="uuid_b0a868a0-e56b-4b9c-a868-a0e56b6b9c39"/>den kärglichsten Ausdruck
+                der Notwehr gegen eine Kulturpest, <lb xml:id="uuid_056ab916-65ea-4666-aab9-1665eac66656"/>nicht als Verdienst in einer
+                wahrhaft patriotischen Aktion <lb xml:id="uuid_d6292251-31d8-46ef-a922-5131d886ef17"/>zur Befreiung <rs type="place" ref="#50">Wiens</rs>, sondern einfach als
+                Behelligung der Justiz <lb xml:id="uuid_ffc59818-f714-4d11-8598-18f7143d116f"/>empfand. Er hat dies nicht nur durch seine Haltung während <lb xml:id="uuid_abdcbdc5-528f-4ec6-9cbd-c5528f6ec680"/>der Verhandlung dargetan:
+                durch völlige Indulgenz gegenüber <lb xml:id="uuid_317760a6-c451-47e5-b760-a6c45157e5b9"/>den in der Verhandlung
+                fortgesetzten bübischen Attaken, durch <lb xml:id="uuid_1ddc5ebe-676a-4c2d-9c5e-be676a0c2ded"/>eine Art sichtlich
+                schonungsvoller Vermahnung, die eher ein <lb xml:id="uuid_e53316d1-b770-4f38-b316-d1b7701f3897"/>Gewährenlassen des Angriffes
+                bei gelindem Tadel der Form zu <lb xml:id="uuid_07c07064-9f36-41d3-8070-649f3631d3ff"/>bekunden schien und die im
+                Bericht des <rs type="work" ref="#50611">Revolverblattes</rs> als <lb xml:id="uuid_73b56044-3a42-4a33-b560-443a423a33ed"/>richterliche Zustimmung
+                verzeichnet werden konnte, ohne dass <lb xml:id="uuid_1eb93fe0-7af6-4833-b93f-e07af62833de"/>sich der <rs type="person" ref="#50480">Richter</rs> zu einer amtlichen Richtigstellung bewogen <lb xml:id="uuid_b2fbabdc-613a-41ed-bbab-dc613ab1edc7"/>gefühlt hätte. Dieser
+                Haltung entsprach auch ganz und gar <lb xml:id="uuid_7fe2b52b-7cd5-432d-a2b5-2b7cd5d32d78"/>das Urteil, das innerhalb
+                der leider so dürftigen Sanktionen <lb xml:id="uuid_63b32b10-14bf-484d-b32b-1014bfc84d04"/>des Pressgesetzes oft noch
+                unter das Minimum einer Strafbe<lb xml:id="uuid_fda47324-d4a3-48be-a473-24d4a328beb1" break="no"/>messung
+                hinabging, deren Maximum doch als die mässige Remedur <lb xml:id="uuid_0056b2d2-8c91-489b-96b2-d28c91489b7d"/>für die Verleugnung der Tat
+                und für den Mutwillen der Vertei<lb xml:id="uuid_9b712aa3-5549-45f8-b12a-a3554985f8d2" break="no"/>digung erschienen
+                wäre. In einem Falle, wo der <rs type="person">beeidete Sach<lb xml:id="uuid_39e0c311-f089-482a-a0c3-11f089482a10" break="no"/>verständige</rs> die dolose Entstellung von urteilsmässig zu ver<lb xml:id="uuid_c4cd575e-ed7a-4aab-8d57-5eed7adaabca" break="no"/>öffentlichenden
+                Photographien klipp und klar bestätigt und <lb xml:id="uuid_6425cd5d-8d0a-4405-a5cd-5d8d0ac4051a"/>die windigen Ausreden auf
+                Zufälle des Rotationsdrucks glatt <lb xml:id="uuid_cf39add8-b7dd-4399-b9ad-d8b7dd7399ab"/>zurückgewiesen hatte, ging
+                Herr <rs type="person" ref="#50480">Hofrat Höflmayr</rs> unter das ge<lb xml:id="uuid_7b4b7cb1-97fa-4e6d-8b7c-b197fade6d90" break="no"/>setzliche Minimum
+                auf eine Strafe von sage 3 Schilling her<lb xml:id="uuid_e1a924a7-c361-4fe4-a924-a7c361dfe448" break="no"/>unter, wofür er
+                    „<quote xml:id="uuid_29eecbe6-5756-43ca-97bb-cb543d9f1cb2" source="#D_000014-011-000">als erschwerend nichts</quote>“, „<quote xml:id="uuid_c6d31c61-e8ff-43d6-8f78-3a58ee7613de" source="#D_000014-011-000">als mildernd das <lb xml:id="uuid_2ef1d1a7-deee-4fcd-b1d1-a7deeebfcd77"/>Geständnis</quote>“ annahm, wiewohl das diametrale Gegenteil eines <lb xml:id="uuid_5ea08008-5e70-42aa-a080-085e70e2aa10"/>solchen vorlag und als
+                erschwerend alles anzurechnen gewesen <lb xml:id="uuid_e0042df9-d5bd-4470-842d-f9d5bda47056"/>wäre. Denn „gestanden“ hatte
+                der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/50431">Angeklagte</rs>
+                lediglich, was nicht <pb facs="D_000023-039-000-facs001-l002-p004" n="4"/>
+                <lb xml:id="uuid_876f2e8c-377f-41e8-af2e-8c377f41e8a4"/>zu leugnen war, weil es der
+                Augenschein ergab: dass die Bil<lb xml:id="uuid_9ff8fd2a-7281-4ab8-b8fd-2a72816ab836" break="no"/>der entstellt
+                erschienen waren. Nicht gestanden, ja geleugnet <lb xml:id="uuid_b9efef87-f090-459a-afef-87f090059acc"/>hat er, dass die Entstellung
+                planmässig herbeigeführt war. <lb xml:id="uuid_789315d4-fbfa-4c7a-9315-d4fbfadc7aa0"/>Somit hat Herr <rs type="person" ref="#50480">Hofrat Höflmayr</rs> in diesem Falle
+                eine Ableug<lb xml:id="uuid_1732964a-f504-490c-b296-4af504c90cfb" break="no"/>nung
+                als Geständnis gewertet. Dass diese Verhandlungen den <lb xml:id="uuid_70ee63b2-3644-431e-ae63-b23644231ec7"/>Eindruck machten,als wäre
+                die Justiz den Schlichen und Finten <lb xml:id="uuid_1c0e43c2-5708-4a3d-8e43-c257085a3d52"/>des Presswesens wehrlos
+                ausgeliefert und der Spielball einer <lb xml:id="uuid_904f5aa9-5593-493e-8f5a-a95593f93ee3"/>neuen Spezies, für die keine
+                der vorhandenen Normen zulangt: <lb xml:id="uuid_82ac63d3-522a-4c8c-ac63-d3522aec8c93"/>das mag auf die richterliche
+                Individualität zurückzuführen <lb xml:id="uuid_0bef4bba-9a74-41e9-af4b-ba9a7421e927"/>sein und auf die oft bemerkte Fremdheit, mit der dieser <rs type="person" ref="#50480">Rich<lb xml:id="uuid_fcff9eb1-9897-42b0-bf9e-b1989712b0b6" break="no"/>ter</rs> einem grossstädtischen und mit allen Schikanen
+                arbeitenden <lb xml:id="uuid_d4aaa625-8b11-4d82-aaa6-258b11ed82f9"/>Gewerbe
+                gegenübersteht und die ihm menschlich gewiss nicht <lb xml:id="uuid_f8288367-6dd2-4acb-a883-676dd23acbdb"/>zum Tadel gereichen soll.
+                Dass er aber auch – so unvorstell<lb xml:id="uuid_3774cb19-86de-401f-b4cb-1986de701ff7" break="no"/>bar diese
+                Erscheinung ist – von einer sichtlichen Befangenheit <lb xml:id="uuid_4ab1d670-07f4-4edc-b1d6-7007f46edcb3"/>in allem geleitet war, was
+                die Leute der „<rs type="institution" ref="#29470">Stunde</rs>“ betraf, ist <lb xml:id="uuid_af01cadc-090d-49f5-81ca-dc090d09f585"/>keinem Zuhörer der
+                Verhandlungen verborgen geblieben. Diese <lb xml:id="uuid_292b7d74-bcec-49e4-ab7d-74bcec29e4b2"/>Erscheinung musste umsomehr
+                auffallen und umso sonderbarer <lb xml:id="uuid_b069adf2-144d-4f0f-a9ad-f2144d5f0ff5"/>berühren, als damals die
+                Haltung des ganzen offiziellen <rs type="place" ref="#50">Wien</rs>
+                <lb xml:id="uuid_ed6be8eb-3ad2-4629-abe8-eb3ad2162985"/>zwar von der Furcht vor der
+                    „<rs type="institution" ref="#29470">Stunde</rs>“ und deren unberechen<lb xml:id="uuid_957df223-2ed4-4e6e-bdf2-232ed4ae6e76" break="no"/>barer
+                Schurkenhaftigkeit bestimmt wurde, aber diese Empfin<lb xml:id="uuid_d33b4515-a8be-4f29-bb45-15a8beff295b" break="no"/>dung doch
+                keineswegs mit Sympathie gepaart war, sondern im <lb xml:id="uuid_afbb5b5d-b12c-4019-bb5b-5db12c3019ea"/>Gegenteil mit unverkennbarer
+                Verachtung. Man hätte sich in <lb xml:id="uuid_b4d0899f-d615-40b2-9089-9fd61540b2a7"/>jener Zeit eher nicht gewundert, wenn einem Richter bei aller <lb xml:id="uuid_19747167-eba1-4b6a-b471-67eba10b6ace"/>Neutralität, die ihm sein
+                Amt zur Pflicht macht, die Geduld <lb xml:id="uuid_ea89a994-f416-4abb-89a9-94f416babbe4"/>gerissen wäre, und
+                vermutlich hätte ein Mann wie der einstige <lb xml:id="uuid_f4f28b04-38cf-4fa5-b28b-0438cfafa564"/>Vorstand des <rs type="institution" ref="#50491">Strafbezirksgerichtes I</rs>
+                <rs type="person" ref="#52199">Hofrat Heidt</rs> dem mensch<lb xml:id="uuid_d8a503b6-08ed-471a-a503-b608ed271a98" break="no"/>lichen und
+                moralischen Antrieb nicht widerstanden, angesichts <lb xml:id="uuid_90491adb-b801-4ca3-891a-dbb8015ca356"/>des in die Verhandlung
+                fortgesetzten Treibens, in Führung und <lb xml:id="uuid_c7e104be-88e9-4855-a104-be88e99855ce"/>Urteil auch der Empörung
+                einer ganzen Stadt gerecht zu werden. <lb xml:id="uuid_6f6cbad2-02eb-4377-acba-d202eb637796"/>Der Richter <rs type="person" ref="#50480">Hofrat Höflmayr</rs> hat nie verborgen, dass er im
+                    <pb facs="D_000023-039-000-facs001-l003-p005" n="5"/>
+                <lb xml:id="uuid_0fb71b62-9c83-4308-b71b-629c83d3087e"/>Gegenteil eben die
+                Journalistik als öffentliche Meinung ernst <lb xml:id="uuid_8d8c7bb5-f6fc-4295-8c7b-b5f6fca2952e"/>nahm, von der kürzlich,
+                wenngleich spät genug, ein bürgerliches <lb xml:id="uuid_799b6748-a54a-4c91-9b67-48a54a5c91a4"/>Blatt wie die <rs type="institution" ref="#29351">Neue freie Presse</rs> schreiben konnte, sie sei
+                    <lb xml:id="uuid_92be6808-a3b8-4b0c-be68-08a3b88b0c74"/>„<quote xml:id="uuid_90c02a17-66d7-4e2d-a805-c5248b75fa5f" source="">die infamste
+                    Publizistik, die zu irgend einer Zeit und in <lb xml:id="uuid_7cd3d36e-3b8f-475f-93d3-6e3b8fd75f1c"/>irgend einem Lande
+                    jemals am Werke war</quote>“. Der Richter <rs type="person" ref="#50480">Hofrat
+                        <lb xml:id="uuid_a07dc559-0b35-471e-bdc5-590b35e71e0f"/>Höflmayr</rs> hat
+                nicht erkannt, welches <hi rend="underlined">System</hi> da vor seinen <lb xml:id="uuid_fd93e790-5b6a-4a54-93e7-905b6a5a542b"/>Richterstuhl gestellt war,
+                dessen Vertreter zwar ihre Taten, so<lb xml:id="uuid_7fd1ad80-b5b4-44e0-91ad-80b5b464e08d" break="no"/>lange sie ihnen
+                nicht verjährt schienen, in Abrede stellten, <lb xml:id="uuid_8827ba8a-5065-4a6f-a7ba-8a50658a6fbf"/>welches aber durch das
+                nachträgliche und stolze Bekenntnis <lb xml:id="uuid_61ade658-24a3-40b2-ade6-5824a330b21c"/>eines solchen treffend
+                charakterisiert erscheint, er sei „<quote xml:id="uuid_2c2337b2-f710-4b9f-95ef-7fd80fa80655">der <lb xml:id="uuid_524733b9-d15b-4c3a-8733-b9d15b2c3a30"/>Generalissimus der
+                    Rotzbüberei</quote>“ gewesen. In keinem der Fälle, <lb xml:id="uuid_2b67a5da-2e9c-431a-a7a5-da2e9c431a6f"/>wo eben diese vor ihrem
+                Richter stand, hat er sich für befangen <lb xml:id="uuid_c6f636e2-8fdc-4bd4-b636-e28fdc7bd4f0"/>erklärt, wohl aber zuweilen
+                für unzuständig und auf eine Art, <lb xml:id="uuid_7cc9af1c-b9b6-4124-89af-1cb9b6e124e4"/>dass der Abbruch der
+                Verhandlung dem Sensationsgeschäft in <lb xml:id="uuid_b6e9932b-d96c-4081-a993-2bd96c8081f1"/>heilloser Art Vorschub
+                geleistet hat, bis das <rs type="institution" ref="#36842">Landesgericht</rs>
+                <lb xml:id="uuid_68a1dbd0-10dd-4de5-a1db-d010dd8de5bb"/>zum Rechten sah und die
+                Rückleitung an das <rs type="institution" ref="#50491">Bezirksgericht</rs>
+                <lb xml:id="uuid_f76552c7-e044-4ebd-a552-c7e044eebdf5"/>anordnete. <rs type="person" ref="#50480">Hofrat Höflmayr</rs> hat, da seine Instanz fast ausschliess<lb xml:id="uuid_50a98c07-a31a-460f-a98c-07a31ac60f69" break="no"/>lich mit den
+                Angelegenheiten des verantwortlichen Redakteurs <lb xml:id="uuid_d12ecefe-7e2c-4fce-aece-fe7e2cafcece"/>der „<rs type="institution" ref="#29470">Stunde</rs>“ zu tun hatte – denn ausser den meinigen liefen und <lb xml:id="uuid_9325cc56-61f8-443c-a5cc-5661f8f43cb5"/>laufen ja noch zahllose
+                andere, auf alle mögliche Weise ver<lb xml:id="uuid_0c021350-1b26-4692-8213-501b2686926a" break="no"/>schleppte
+                Pressprozesse gegen dieses <rs type="institution" ref="#29470">Blatt</rs> –, eines
+                Tages den <lb xml:id="uuid_13f3dea5-0dd7-4c02-b3de-a50dd7ec0223"/>Beschluss gefasst,
+                diese divergentesten Fälle samt und sonders <lb xml:id="uuid_47c3dead-6bb7-4763-83de-ad6bb7976343"/>an einen laufenden
+                Schwurgerichtsprozess anzuschliessen. Wiewohl <lb xml:id="uuid_61c8ebaf-4724-4f56-88eb-af4724af56ca"/>nun die Ratskammer diesem
+                Schritt entgegentrat, hat er bei einer <lb xml:id="uuid_6451468b-3ca3-48e5-9146-8b3ca318e57b"/>neuen Gelegenheit ihn
+                wiederholt, der bis zur Wiederholung der <lb xml:id="uuid_0e5e53bf-fbb3-494e-9e53-bffbb3d94efe"/>Zurückweisung nichts
+                bewirken kann als den Aufschub des Urteils<lb xml:id="uuid_f1d69f12-8fe6-4419-969f-128fe62419fd" break="no"/>spruches über den
+                verantwortlichen Redakteur der „<rs type="institution" ref="#29470">Stunde</rs>“.
+                Ich <lb xml:id="uuid_b60f93f5-ecf1-4c47-8f93-f5ecf13c47dd"/>glaube nicht, dass
+                angesichts der unmissverständlichen Meinung <lb xml:id="uuid_57857c82-d9cc-4309-857c-82d9cc830937"/>des <rs type="institution" ref="#36842">Landesgerichtes</rs> und des klaren Wortlautes des <rs type="law" ref="">§ 57 StPO.</rs>
+                <lb xml:id="uuid_2e3849b1-6fa3-4410-b849-b16fa30410f0"/>spezielle juristische
+                Bedenken des Herrn <rs type="person" ref="#50480">Hofrats Höflmayr</rs>
+                <pb facs="D_000023-039-000-facs001-l003-p006" n="6"/>
+                <lb xml:id="uuid_8bd740cf-3c6e-4e47-9740-cf3c6eee47d4"/>hier in Erscheinung traten,
+                sondern vielmehr die prinzipielle <lb xml:id="uuid_6c0f86da-1b7f-48d5-8f86-da1b7fd8d5a9"/>Abneigung, Richter in so
+                vielen Prozessen gegen die „<rs type="institution" ref="#29470">Stunde</rs>“ <lb xml:id="uuid_639bff44-75cf-458d-9bff-4475cf258d49"/>zu sein, was ihm eben, aus
+                welchem Grunde immer, lästig ist. Aus<lb xml:id="uuid_18cc5714-a821-4709-8c57-14a82117097f" break="no"/>nahmsweise hat er
+                sich freilich in jenen Fällen, wo die <rs type="institution" ref="#36869">Staats<lb xml:id="uuid_b081995d-b913-4d84-8199-5db913ad8403" break="no"/>anwaltschaft</rs> nach <rs type="law" ref="">§ 26</rs> wegen
+                Nichtkenntlichmachung bezahlter <lb xml:id="uuid_bb9158f2-cdc6-4b3e-9158-f2cdc69b3e3f"/>redaktioneller
+                Einschaltungen anklagte, für kompetent erklärt, <lb xml:id="uuid_8b3bc9cf-2a03-4a8a-bbc9-cf2a03ca8ab2"/>hier einen Anschluss an das
+                Verfahren beim <rs type="institution" ref="#36842">Landesgerichte</rs>
+                <lb xml:id="uuid_3d889f5a-3495-4bf9-889f-5a34958bf9c4"/>nicht verfügt und jedesmal
+                den verantwortlichen Redakteur der <lb xml:id="uuid_1db889d4-78ca-4b13-b889-d478ca1b13c6"/>„<rs type="institution" ref="#29470">Stunde</rs>“ freigesprochen. Wesentlich anders wieder verhielt sich
+                    <lb xml:id="uuid_fa774c58-b082-4673-b74c-58b082767369"/>Herr <rs type="person" ref="#50480">Hofrat Höflmayr</rs> in einem andern Offizialfall, nämlich <lb xml:id="uuid_0651fa64-2650-4a58-91fa-6426501a589e"/>gegen den verantwortlichen
+                Redakteur der „<rs type="institution" ref="#37525">Roten Fahne</rs>“. Die<lb xml:id="uuid_b30900de-c0d5-485c-8900-dec0d5385c90" break="no"/>sem hat er wegen
+                Vernachlässigung der pflichtgemässen Obsorge <lb xml:id="uuid_b3686083-337b-479d-a860-83337b479df1"/>8 Tage Arrest gegeben, nicht
+                ohne auch während der Verhandlung <lb xml:id="uuid_6b00d2df-6a06-4d9e-80d2-df6a06dd9e5f"/>gegenüber dem Angeklagten
+                einen Ton privater Ironie anzu<lb xml:id="uuid_717fecd7-8024-4a62-bfec-d78024ba626f" break="no"/>schlagen, die bei Verlesung des inkriminierten Artikels in <lb xml:id="uuid_c9903db7-0ecb-4ffe-903d-b70ecb5ffe2f"/>Randbemerkungen wie „Sehr
+                geistreich!“ zum Ausdruck kam. Der <lb xml:id="uuid_6a6e98d4-dab4-47d0-ae98-d4dab427d0c7"/>Umstand, dass hier ein
+                Offizialdelikt vorlag, war bei der <lb xml:id="uuid_09343b9f-7736-4de0-b43b-9f77365de05b"/>Strafbemessung gewiss mit
+                Recht erschwerend, wenngleich für <lb xml:id="uuid_05d01a78-ade8-4491-901a-78ade84491e0"/><rs type="person" ref="#50480">Hofrat Höflmayr</rs> nicht bestimmend, der in einem Fall, welcher
+                    <lb xml:id="uuid_e048d67e-a905-45a3-88d6-7ea905d5a36b"/>die Beleidigung der
+                Regierung und öffentlicher Körperschaften <lb xml:id="uuid_a24eb45b-ca52-4cf2-8eb4-5bca522cf2f3"/>betraf, einem anderen
+                verantwortlichen Redakteur die wohldo<lb xml:id="uuid_2ec358b9-f2cf-4dae-8358-b9f2cfddae30" break="no"/>sierte Strafe von
+                9 Schilling zuerkannt hat. Ganz gewiss ist <lb xml:id="uuid_4eff3c2c-f083-450e-bf3c-2cf083a50e6b"/>es aber nie vorgekommen,
+                dass er bei Verlesung von inkriminier<lb xml:id="uuid_c883d4dc-9307-47c9-83d4-dc9307a7c90d" break="no"/>ten Artikeln der
+                    „<rs type="institution" ref="#29470">Stunde</rs>“, die doch das Aeusserste an
+                    Unflätig<lb xml:id="uuid_154818ba-3f79-4caf-8818-ba3f79ecaf0c" break="no"/>keit
+                enthielten, wie in jenem Fall der „<rs type="institution" ref="#37525">Roten
+                    Fahne</rs>“ Stellen, <lb xml:id="uuid_5598d5ad-ba68-4108-98d5-adba68510889"/>die
+                ihm wider das persönliche Gefühl gingen, ausgelassen oder <lb xml:id="uuid_3abe5c6e-4c6f-479a-be5c-6e4c6fa79a2a"/>mit geringschätzigen
+                Randbemerkungen versehen hätte. </p>
+            <p xml:id="uuid_0d1bd51c-f51d-4217-803f-0e15909e23f5">
+                <lb xml:id="uuid_d81bf12b-a12e-4a49-9bf1-2ba12efa49b7"/>Ob Herr <rs type="person" ref="#50480">Hofrat Höflmayr</rs> überhaupt die notwendige press<lb xml:id="uuid_2538bea6-b26a-4559-b8be-a6b26ac55947" break="no"/>richterliche
+                Energie für eine so <rs type="place" ref="#50">grosse Stadt</rs> mit so ver<lb xml:id="uuid_e48ebdcd-2395-4ac4-8ebd-cd2395fac40a" break="no"/>wilderten
+                Presssitten vorstellt, hat in diesem Antrag nicht <pb facs="D_000023-039-000-facs001-l004-p007" n="7"/>
+                <lb xml:id="uuid_9b421963-e678-4a62-8219-63e6785a62a7"/>erörtert zu werden. Dass er
+                in Verhandlungen gegen den ver<lb xml:id="uuid_9a43a02d-265f-48f5-83a0-2d265f38f527" break="no"/>antwortlichen Redakteur der „<rs type="institution" ref="#29470">Stunde</rs>“ nicht als der geeignete <lb xml:id="uuid_7ae0a207-9191-464e-a0a2-079191264e84"/>Richter erscheint, obwohl er
+                sich bisher zwar für inkompetent, <lb xml:id="uuid_48b27c97-f3ef-4d5b-b27c-97f3ef1d5b30"/>aber noch nicht für befangen
+                erklärt hat, ist nicht nur mein, <lb xml:id="uuid_83b8d9a2-bc1f-4394-b8d9-a2bc1f0394a7"/>einer Prozesspartei,
+                Eindruck, sondern der Eindruck aller, die <lb xml:id="uuid_e075d88b-a3c0-4e2c-b5d8-8ba3c06e2c5d"/>den Verhandlungen und nicht
+                bloss meinen Verhandlungen beige<lb xml:id="uuid_eed689a0-bf85-487c-9689-a0bf85887c17" break="no"/>wohnt haben. Dies
+                habe ich in der beigelegten <rs type="work" ref="https://fackel.oeaw.ac.at/f/732,001">Schrift</rs> auf eine <lb xml:id="uuid_8ee312e0-f7b7-427b-a312-e0f7b7027bfd"/>Art zum Ausdruck gebracht,
+                die an Deutlichkeit nichts zu wün<lb xml:id="uuid_6d409996-cdb5-4d27-8099-96cdb57d2764" break="no"/>schen übrig
+                lässt. Der Schlusssatz des Passus, der sich auf die <lb xml:id="uuid_d9680be8-885f-4435-a80b-e8885f14353a"/>Rechtsprechung des <rs type="person" ref="#50480">Hofrats Höflmayr</rs> bezieht, spricht die Hoff<lb xml:id="uuid_0897d75d-261a-4bdb-97d7-5d261a4bdb74" break="no"/>nung aus, „<quote xml:id="uuid_5e8ab8fa-05a4-450e-bb44-844af37b6dad" source="https://fackel.oeaw.ac.at/f/732,051">dass er nach dieser Klarlegung, für
+                    noch ausstehende <lb xml:id="uuid_3dfd62dc-0da7-477b-bd62-dc0da7f77b3f"/>Urteile
+                    seine Befangenheit erkennen wird</quote>“. Herr <rs type="person" ref="#50480">Hofrat Höflmayr</rs>
+                <lb xml:id="uuid_f4cdbeb1-5ef5-4fbf-8dbe-b15ef5bfbfb6"/>hat diese Hoffnung bisher
+                nicht erfüllt, sondern abermals die <lb xml:id="uuid_1f017f6d-465a-43c2-817f-6d465a73c29e"/>Leitung eines Prozesses
+                gegen die „<rs type="institution" ref="#29470">Stunde</rs>“ übernommen. Wäre <lb xml:id="uuid_cff3dd57-e2b8-404a-b3dd-57e2b8704ac8"/>aber selbst alles, was in
+                jener Schrift gesagt ist, unrichtig <lb xml:id="uuid_6f03d68b-3a07-4291-83d6-8b3a07e2910f"/>und auf meine Befangenheit
+                gegen den <rs type="person" ref="#50480">Richter</rs> zurückzuführen, <lb xml:id="uuid_d51f9567-39b8-41b9-9f95-6739b8b1b972"/>so müsste doch die
+                Veröffentlichung den behaupteten Zustand <lb xml:id="uuid_4bf5b9c5-3340-47a4-b5b9-c5334047a4e7"/>seiner Befangenheit
+                herstellen. Es ist schlechterdings undenkbar, <lb xml:id="uuid_f5af2fae-a318-416a-af2f-aea318a16add"/>dass, wenn Herr <rs type="person" ref="#50480">Hofrat Höflmayr</rs> selbst den ausgesprochenen
+                    Wil<lb xml:id="uuid_8fa6982e-6a6a-4fd1-a698-2e6a6a9fd165" break="no"/>len hätte,
+                dem verantwortlichen Redakteur der „<rs type="institution" ref="#29470">Stunde</rs>“
+                mit dem <lb xml:id="uuid_b0aac1bf-3958-4f83-aac1-bf39580f83c2"/>juristischen und
+                moralischen Mass, das ihm ehrlich angepasst <lb xml:id="uuid_30e1c547-537c-46d4-a1c5-47537c36d4e5"/>scheint, zuzumessen, er dem
+                Sprecher jener Worte gegenüber weiter<lb xml:id="uuid_ee890252-e9db-4140-8902-52e9db4140cb" break="no"/>hin unbefangen
+                sein sollte. Es ist aber auch schlechterdings <lb xml:id="uuid_9f77c5df-2965-46f9-b7c5-df296546f96b"/>undenkbar, dass er nicht
+                selbst die menschliche Unmöglichkeit <lb xml:id="uuid_fdf1ae5b-80e8-4737-b1ae-5b80e82737fc"/>erkennt, nach einer solchen
+                Auseinandersetzung und vollends nach <lb xml:id="uuid_00647740-6d54-4619-a477-406d54b619b1"/>diesem Antrag noch
+                unbefangen zu richten, und nicht die gesell<lb xml:id="uuid_30737a82-d6cb-4fa1-b37a-82d6cbffa143" break="no"/>schaftliche
+                Unmöglichkeit, noch richten zu wollen. Der auf den <lb xml:id="uuid_68521b6a-fe38-459f-921b-6afe38659f95"/>21. Oktober angesetzte
+                Prozess betrifft einen Fall, der wie kein <lb xml:id="uuid_a51b87b5-372d-40ce-9b87-b5372d90ce87"/>vorhergegangener den
+                moralischen Abgrund dieser „<rs type="institution" ref="#29470">Stunden</rs>“-Welt
+                    <lb xml:id="uuid_34f53561-56b1-4c47-b535-6156b1cc47e0"/>demonstriert, vollends
+                dadurch, dass die ungeheuerliche Beschul- <pb facs="D_000023-039-000-facs001-l004-p008" n="8"/>
+                <lb xml:id="uuid_871bbc5a-7dc4-478c-9bbc-5a7dc4178cd7"/>digung – meines Versuchs der
+                Beamtenbestechung – von der <lb xml:id="uuid_bc3ded51-76f9-4a40-bded-5176f90a4044"/>„<rs type="institution" ref="#29470">Stunde</rs>“ wider besseres Wissen und
+                mit vollkommener Plan<lb xml:id="uuid_0e3783d1-76cb-4c88-b783-d176cbec8827" break="no"/>haftigkeit aufgestellt, wieder nur auf eine Vernachlässigung <lb xml:id="uuid_fa54f2f0-8e3a-4e26-94f2-f08e3a8e260e"/>der Obsorge hinausläuft, die
+                niemals weniger vernachlässigt <lb xml:id="uuid_30706d26-051b-4acf-b06d-26051b7acf07"/>wurde, und dies nach allen
+                Listen und Hilfen einer Ver<lb xml:id="uuid_f61d6dd2-9746-43c1-9d6d-d2974673c15e" break="no"/>schleppung durch ein volles Jahr. Der Richter <rs type="person" ref="#50480">Hofrat Höflmayr</rs>
+                <lb xml:id="uuid_6ed69c81-391e-4b69-969c-81391ecb6930"/>hat gegenüber der
+                offenkundigen Verlogenheit einen „Wahr<lb xml:id="uuid_12eaf7b4-255f-4520-aaf7-b4255f352099" break="no"/>heitsbeweis“
+                gegen mich fast angeregt, und in einer Sache, <lb xml:id="uuid_004ccf18-1582-45e5-8ccf-181582b5e5cc"/>deren Untersuchung
+                schliesslich ergeben hat, dass die mir <lb xml:id="uuid_fe00e096-5c32-4997-80e0-965c32799715"/>vorgeworfene Tat eben den
+                Kreisen zur Last fällt, die den <lb xml:id="uuid_61158ee5-cb5a-4aff-958e-e5cb5a8aff15"/>Vorwurf in der Absicht der
+                Verdunkelung, der Sensation wie <lb xml:id="uuid_fa2b30c6-fb15-4259-ab30-c6fb150259fe"/>aus purer Lust an der
+                Büberei gegen mich erhoben hatten. Ich <lb xml:id="uuid_62f2f59c-7003-4846-b2f5-9c7003c84695"/>hege die Befürchtung, dass
+                diese Schandtat, die selbst in der <lb xml:id="uuid_5146716b-d40b-42ec-8671-6bd40b62ec7c"/>Geschichte der
+                Revolverjournalistik einzig dasteht und deren <lb xml:id="uuid_05becad5-2ce9-4fea-beca-d52ce94fea55"/>Brandmarkung im Gerichtssaal
+                die Erkenntnis der Sphäre we<lb xml:id="uuid_3a65beae-1520-43b0-a5be-ae152063b0cb" break="no"/>sentlich fördern könnte, wieder mit ein paar Schilling davon <lb xml:id="uuid_cfdbb542-a1ca-4340-9bb5-42a1ca834012"/>kommen werde, ohne dass der
+                Oeffentlichkeit von den Ergebnis<lb xml:id="uuid_f2df1ca5-bc89-44ca-9f1c-a5bc8974ca23" break="no"/>sen des
+                Beweisverfahrens die erwünschte Kenntnis in der Ver<lb xml:id="uuid_d7500f48-31e9-4c05-900f-4831e95c0543" break="no"/>handlung selbst
+                zuteil wird. Ja ich muss befürchten, dass nicht <lb xml:id="uuid_20477368-b575-496c-8773-68b575196c02"/>einmal dieses Resultat
+                erzielt wird, sondern dass Herr <rs type="person" ref="#50480">Hofrat <lb xml:id="uuid_acc079f5-0bf9-4352-8079-f50bf91352b2"/>Höflmayr</rs> dem zu
+                erwartenden Antrag der Verteidigung auf An<lb xml:id="uuid_cb416b2d-7f46-4ce1-816b-2d7f464ce1da" break="no"/>schluss an jenes
+                Schwurgerichtsverfahren stattgibt und so <lb xml:id="uuid_c06fbbf8-1722-49b8-afbb-f81722c9b83a"/>bis zur sicheren Abweisung
+                durch die Ratskammer eine neuer<lb xml:id="uuid_ca37947a-a39a-47bf-b794-7aa39a47bf14" break="no"/>liche
+                Verschleppung herbeigeführt wird. Ich stelle den Antrag, <lb xml:id="uuid_7a6fd94e-d32d-405d-afd9-4ed32db05df9"/>den <rs type="person" ref="#50480">Richter</rs>, dessen bisheriges, durch meinen ganzen Kampf hin<lb xml:id="uuid_3d067738-0bc0-43df-8677-380bc043dfc4" break="no"/>durch
+                beobachtetes Verhalten solche Befürchtungen zulässt, <lb xml:id="uuid_b3c8764f-fed6-4e11-8876-4ffed6ae1143"/>von der Funktion in dieser
+                Sache zu entheben. Ich stelle den <lb xml:id="uuid_00fa1850-7a6c-4612-ba18-507a6cf612f9"/>Antrag, sie einem Richter zu
+                übertragen, vor den ich als An<lb xml:id="uuid_f428bb42-46b6-431c-a8bb-4246b6031c92" break="no"/>kläger nicht mit der unmöglichen Empfindung treten muss, ihn <lb xml:id="uuid_b6e5873a-6d2f-4e07-a587-3a6d2f4e0757"/>durch die Anklage zu
+                verstimmen, sondern in dem Bewusstsein, <pb facs="D_000023-039-000-facs001-l005-p009" n="9"/>
+                <lb xml:id="uuid_62bf6729-6da9-4cb0-bf67-296da99cb007"/>dass in der Verfolgung eines
+                sittlichen Zieles die Justiz <lb xml:id="uuid_225fad39-caee-4384-9fad-39caee13844b"/>eine Hilfe ist und kein Hindernis. Sollte sich durch einen so <lb xml:id="uuid_b0cbd106-7d98-4859-8bd1-067d98a8591f"/>natürlichen Wunsch und durch
+                den Antrag, der sich auf ihn <lb xml:id="uuid_c0fcb9c3-409a-4d81-bcb9-c3409add81f1"/>gründet, der Richter <rs type="person" ref="#50480">Herr Höflmayr</rs> zwar nicht
+                in seiner rich<lb xml:id="uuid_9e5496f5-53aa-4a42-9496-f553aa2a425b" break="no"/>terlichen Unbefangenheit, aber wider Erwarten in seiner per<lb xml:id="uuid_dfa50eb4-e6e5-4749-a50e-b4e6e5c749a9" break="no"/>sönlichen Ehre
+                berührt fühlen, der nahezutreten der wahrhaften <lb xml:id="uuid_e6a9b14f-7a4a-4e86-a9b1-4f7a4a7e8605"/>Darstellung einer leider
+                vorhandenen Tatsächlichkeit fernliegt, <lb xml:id="uuid_02888e9c-5eca-41b5-888e-9c5eca41b552"/>so erwarte ich die Erhebung
+                der Anklage, um vor der Oeffent<lb xml:id="uuid_12060841-26e4-41a6-8608-4126e411a615" break="no"/>lichkeit zu
+                beweisen, dass die Annahme seiner Befangenheit <lb xml:id="uuid_c5f6dd9f-59b7-48a1-b6dd-9f59b768a141"/>begründet war. Ich werde zu
+                diesem Zweck, mit dessen Erfüllung <lb xml:id="uuid_0a379a2f-f851-4eea-b79a-2ff8517eea64"/>ich durchaus in der Linie
+                meines Kampfes gegen die Entartung <lb xml:id="uuid_1664d056-ee7a-4deb-a4d0-56ee7a2deb79"/>des Presswesens bleibe, alle
+                erforderlichen Beweismittel bei<lb xml:id="uuid_065e05da-702a-4635-9e05-da702ac63508" break="no"/>bringen: die
+                Protokolle der Verhandlungen, die Urteile, die Be<lb xml:id="uuid_c72d42a6-10cd-4b9c-ad42-a610cd1b9c0f" break="no"/>richte des
+                Blattes, dessen verantwortlicher Redakteur der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/50431">Ange<lb xml:id="uuid_9d47b00e-0b6b-4fe5-87b0-0e0b6bdfe573" break="no"/>klagte</rs>
+                ist, die Aussagen von Zeugen über die sichtbare Haltung <lb xml:id="uuid_3c2b0700-9df6-41c6-ab07-009df651c61e"/>des <rs type="person" ref="#50480">Richters</rs> und von solchen, denen Aeusserungen seiner sym<lb xml:id="uuid_4bbb5e29-7d9f-414d-bb5e-297d9f014d19" break="no"/>pathischen
+                Gesinnung für die Person dieses <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/50431">Angeklagten</rs> bekannt <lb xml:id="uuid_c00014ff-99aa-4cbf-8014-ff99aa2cbf5f"/>geworden sind. </p>
+            <p xml:id="uuid_9618152b-ce44-47c3-be3d-831d45d59aec">
+                <lb xml:id="uuid_d58d61d5-1050-4752-8d61-d51050d75254"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs>
+            </p>
+            <p xml:id="uuid_d96d8bc7-3957-481e-9541-256476824b07">
+                <lb xml:id="uuid_fa63ba48-416b-4b50-a3ba-48416b5b50ce"/>Als Beweis für die in diesem
+                Antrage behaupteten Tat<lb xml:id="uuid_0638b6e9-4800-4932-b8b6-e948005932f5" break="no"/>sachen führe ich an: </p>
+            <p xml:id="uuid_0f43426e-9c71-4d80-9a66-c5cd31adbe8c">
+                <lb xml:id="uuid_1198f71d-2004-41dd-98f7-1d200441dd5c"/>1.) Zum Nachweis der
+                völligen Indulgenz gegenüber <lb xml:id="uuid_0a2f1f37-8ae4-48b6-af1f-378ae468b657"/>den in der Verhandlung fortgesetzten bübischen Attaken den <lb xml:id="uuid_e358b027-441d-4324-98b0-27441d632412"/><rs type="work" ref="#52204">Bericht</rs> in der „<rs type="work" ref="#50611">Stunde</rs>“ über die
+                Verhandlung vom 26.IV.1925 <lb xml:id="uuid_1fd15417-1ae4-4369-9154-171ae443692a"/>veröffentlicht in der <rs type="work" ref="#52201">Nummer vom 28.IV.1925</rs>,
+                laut welchem <lb xml:id="uuid_96382b57-f87a-4a89-b82b-57f87aea891e"/>der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/50431">Beschuldigte</rs>
+                es wagen durfte, die entstellende Retouche <lb xml:id="uuid_0849feda-cc01-42e7-89fe-dacc0182e73c"/>des Bildes als die
+                individuelle Auffassung des Reproduzieren<lb xml:id="uuid_51823eb8-9925-449e-823e-b89925f49e5a" break="no"/>den darzustellen
+                und zur Vertretung seiner Ansicht, dass es <pb facs="D_000023-039-000-facs001-l005-p010" n="10"/>
+                <lb xml:id="uuid_367e9c0b-d79a-4277-be9c-0bd79a5277fa"/>sich hienach um eine Meinung
+                und nicht um einen Tatsachenbe<lb xml:id="uuid_8445f237-5662-4bd4-85f2-3756628bd426" break="no"/>richt handle,
+                folgendes zu sagen: „<quote xml:id="uuid_002d7f65-3453-4f52-9a3e-042fd09add6c" source="#52204"><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs> war schon in <lb xml:id="uuid_f50716d2-35b0-4171-8716-d235b0d171b2"/>seiner frühesten Jugend
+                    ein ausgesprochen miesser Bocher. Er <lb xml:id="uuid_60275c3d-ea5a-4c7e-a75c-3dea5a6c7e26"/>hatte einen Mund, der
+                    schier von einem Ohr zum andern reichte, <lb xml:id="uuid_13661547-1d28-40a9-a615-471d28a0a999"/>eine auffallend
+                    hässliche Nase und abnormal grosse Plattfüsse. <lb xml:id="uuid_38ec11bf-fd1b-402e-ac11-bffd1b202ef2"/>Man könnte natürlich
+                    das, was das Bild zeigt, noch weiter fort<lb xml:id="uuid_b24f61c9-8803-4d49-8f61-c988033d49fd" break="no"/>spinnen
+                    …</quote>“ Diese Ungeheuerlichkeit, die mit dem Sinn der <lb xml:id="uuid_0e93cbec-1aee-479e-93cb-ec1aee779e77"/>Verantwortung gar nichts zu
+                tun hatte, wurde von dem Vorsitzen<lb xml:id="uuid_6d0db9ca-02da-46cd-8db9-ca02da36cddb" break="no"/>den <rs type="person" ref="#50480">Hofrat Höflmayr</rs> nicht etwa disziplinär
+                behandelt, sondern <lb xml:id="uuid_2c939ef8-e6d7-477a-939e-f8e6d7377a5d"/>nur mit
+                der Bemerkung unterbrochen, dass das „<q>bisher vom Ange<lb xml:id="uuid_2c0faef8-6858-4f29-8fae-f868589f296a" break="no"/>klagten
+                    Gesagte zur Exemplisierung genügen dürfte</q>“; als der <lb xml:id="uuid_5e0ded46-52a2-45d5-8ded-4652a285d544"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/50431">Angeklagte</rs> in demselben Ton
+                weiter fortfuhr, wurde er überhaupt <lb xml:id="uuid_1809f72b-ba6c-477b-89f7-2bba6cd77bf8"/>nicht mehr zurecht gewiesen. </p>
+            <p xml:id="uuid_f48cd38d-0acb-4b5d-8bc9-687c5590310e">
+                <lb xml:id="uuid_e3b6a154-eeed-4124-b6a1-54eeed212408"/>2.) Zum Nachweise des
+                Herabgehens unter das gesetzliche <lb xml:id="uuid_5b7d127f-e87f-4593-bd12-7fe87fa593b5"/>Strafminimum und die
+                befangene Anwendung von Milderungsgründen <lb xml:id="uuid_f8c4255a-265a-4810-8425-5a265ad8102a"/>verweise ich auf das <rs type="work" ref="#D_000017-006-000">Urteil</rs> gegen den Angeklagten <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38106">Ernst Ely</rs>, <lb xml:id="uuid_5ac7039f-235f-47d1-8703-9f235f17d1ee"/>vertreten durch seinen
+                Machthaber Dr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/50431">Fritz Kaufmann</rs> vom 7. Ok<lb xml:id="uuid_5c60665c-f23e-48f4-a066-5cf23e48f4db" break="no"/>tober 1925, G.ZI.
+                U I 223/25 und die vorhergehenden Verhand<lb xml:id="uuid_b70a1432-9a62-4be2-8a14-329a62ebe2e0" break="no"/>lungsprotokolle. </p>
+            <p xml:id="uuid_1f7a5056-2edb-48e1-ac94-cb6fc5ea8a0f">
+                <lb xml:id="uuid_5c0a9c92-5104-47b6-8a9c-92510447b62a"/>3.) Zum Nachweise des
+                Umstandes, dass Herr <rs type="person" ref="#50480">Hofrat Höflmayr</rs>
+                <lb xml:id="uuid_5cecee69-4cb8-4c42-acee-694cb81c4258"/>trotz einer einmal bereits
+                erfolgten Ausscheidung aus einem <lb xml:id="uuid_fbc4d639-151a-4164-84d6-39151a816404"/>landesgerichtlichen Akt eine
+                bei ihm anhängige Angelegenheit <lb xml:id="uuid_bc129421-27b8-4b88-9294-2127b89b8817"/>neuerlich einem
+                landesgerichtlichen Akt anzuschliessen versuch<lb xml:id="uuid_303327e7-463d-4f88-b327-e7463d6f88e9" break="no"/>te, wo es sich um
+                eine für den Beschuldigten Dr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/50431">Fritz Kaufmann</rs>
+                <lb xml:id="uuid_c89eabf1-be12-4109-9eab-f1be1231099a"/>voraussichtlich mit einer
+                Verurteilung endende Strafsache <lb xml:id="uuid_4c0684dd-4d2c-4fec-8684-dd4d2cefecf3"/>handelte, während er eine
+                nach <rs type="law" ref="">§ 26 P.G.</rs> anhängige Angelegenheit <lb xml:id="uuid_8fee7771-ff97-4aa4-ae77-71ff97baa46f"/>nicht dem <rs type="institution" ref="#36842">Landesgericht</rs> abtrat, führe ich die zu
+                beschaffenden <lb xml:id="uuid_5d6e8b6a-9acf-4f13-ae8b-6a9acfdf13af"/>Akten der
+                Abteilung I an, die in den letzten drei Monaten zur <lb xml:id="uuid_738a63b4-4f71-4231-8a63-b44f71b23123"/>Verhandlung gekommen sind. </p>
+            <p xml:id="uuid_8dddcee9-9926-493c-9de8-2ff3a5b429e1">
+                <lb xml:id="uuid_aa8539c2-92dd-4de0-8539-c292dd1de004"/>4.) Zum Nachweis, dass <rs type="person" ref="#50480">Hofrat Höflmayr</rs> einen mir im übri- <pb facs="D_000023-039-000-facs001-l006-p011" n="11"/>
+                <lb xml:id="uuid_9c11fef5-d963-485d-91fe-f5d963d85df7"/>gen äusserst erwünschten
+                    „<q>Wahrheitsbeweis</q>“ trotz Fehlen ei<lb xml:id="uuid_2be56e64-93f0-41be-a56e-6493f0b1bec5" break="no"/>ner klaren
+                Behauptung des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/50431">Beschuldigten</rs>, was er beweisen <lb xml:id="uuid_b06c13c6-29c7-4eb6-ac13-c629c74eb65c"/>wolle, gegen mich fast
+                angeregt hat, verweise ich auf den ge<lb xml:id="uuid_4dc20b1e-2037-4762-820b-1e20378762fc" break="no"/>genständlichen
+                Prozessakt und insbes. auf die Divergenz in <lb xml:id="uuid_f177b30d-dcdb-406d-b7b3-0ddcdb606d61"/>der Haltung des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/50431">Beschuldigten</rs>,
+                der vor dem <rs type="institution" ref="#36842">Landesgerichte</rs>
+                <lb xml:id="uuid_6421d4df-1400-42f3-a1d4-df1400f2f339"/>sich damit verantwortete,
+                dass „<quote xml:id="uuid_f07d50c2-95c9-440e-a426-7866b5c73cbb">Herrn <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs>
+                    in dem Arti<lb xml:id="uuid_56364c1c-3f26-41c6-b64c-1c3f2681c6de" break="no"/>kel die in der Anzeige beanständete unehrenhafte und angeb<lb xml:id="uuid_6f22fe8d-c0c7-425e-a2fe-8dc0c7a25e89"/>lich unwahre Handlung
+                    gar nicht vorgeworfen</quote>“ sei. In der Ver<lb xml:id="uuid_b36885f8-c727-4c31-a885-f8c727bc313e" break="no"/>handlung vor <rs type="person" ref="#50480">Hofrat Höflmayr</rs> aber sagte er zuerst, er „<quote xml:id="uuid_e511f8d5-bbcc-4e92-ad9c-1312cbbb94f4">könne <lb xml:id="uuid_b58013ec-fbba-4875-8013-ecfbbaa8754e"/>wohl nicht beweisen,
+                    dass <rs type="person" ref="#11988">Herr Kraus</rs> jenem <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/39166">Dr. Rosenberg</rs> eine <lb xml:id="uuid_a7821aef-ae59-40c6-821a-efae59a0c661"/>Vollmacht gegeben habe,
+                    wohl aber wolle er beweisen, dass <lb xml:id="uuid_8bc514cd-e3d2-45a9-8514-cde3d225a9d1"/>sich <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/39166">Dr. Rosenberg</rs> auf eine
+                    Vollmacht des <rs type="person" ref="#11988">Herrn Kraus</rs> berufen <lb xml:id="uuid_2fbbef1f-3e3f-4084-bbef-1f3e3f6084d1"/>habe</quote>“: – was ja
+                selbst, wenn es wahr gewesen wäre, zum Beweise <lb xml:id="uuid_81655aee-65b7-49b7-a55a-ee65b799b7a0"/>der in den inkriminierten
+                Artikeln <rs type="person" ref="#11988">Herrn Kraus</rs> zum Vorwurf <lb xml:id="uuid_5ea5ce70-793d-4b15-a5ce-70793d6b1557"/>gemachten Handlungen niemals
+                genügen könnte. – Erst als der <lb xml:id="uuid_82df5487-a772-4198-9f54-87a7727198d7"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/50431">Beschuldigte</rs> sah, dass
+                eventuell Herrn <rs type="person" ref="#50480">Hofrat Höflmayr</rs> dieser <lb xml:id="uuid_32e4bb41-34bc-403a-a4bb-4134bc703a32"/>Antrag zur Zulassung des
+                Wahrheitsbeweises doch nicht genü<lb xml:id="uuid_afc9b830-7945-4c13-89b8-3079454c1372" break="no"/>gen könnte, was
+                aus der Art seiner Stellungnahme zu dem An<lb xml:id="uuid_1b114469-8e96-4193-9144-698e96819329" break="no"/>trag ersichtlich
+                war, ergänzte er seine Verantwortung dahin, <lb xml:id="uuid_4c7a5f48-aa10-4485-ba5f-48aa10948546"/>dass er mit Hilfe des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/39166">Dr. Rosenberg</rs>
+                einen Zusammenhang mit <lb xml:id="uuid_07c8fb78-3cb1-4786-88fb-783cb1478644"/><rs type="person" ref="#11988">Herrn Kraus</rs> herstellen wolle, was dem <rs type="person" ref="#50480">Richter</rs> bereits zur <lb xml:id="uuid_c7abe76d-ca56-45ca-abe7-6dca5655ca5b"/>Deckung der inkriminierten
+                Beleidigungen genügt hat. </p>
+            <p xml:id="uuid_27e383ed-ebc7-4a68-abdb-8f2f7ebd78dc">
+                <lb xml:id="uuid_71bab83c-a43d-4628-bab8-3ca43d862836"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs>
+                <lb xml:id="uuid_b89e02b0-398f-4229-9e02-b0398f422978"/>durch Dr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38909">Oskar Samek</rs>
+            </p>
+            <pb facs="D_000023-039-000-facs001-l006-p012" n="12"/>
+            <p xml:id="uuid_1ede4e24-5d05-4b60-a600-61bf2fc18e0d">
+                <lb xml:id="uuid_16ff5784-5099-4986-bf57-845099b986f5"/><note type="paratext" resp="law-firm"><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs> – <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/50431">Kaufmann</rs></note>
+            </p>
+        </body>
+    </text>
+</TEI>

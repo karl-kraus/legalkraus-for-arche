@@ -1,0 +1,89 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000001-003-002.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000001-003-001.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-001-000.xml">
+<teiHeader><!-- LU: entspricht alles (außer Titel und IDs) 1.3.0 -> ggf. korrigieren -->
+        <fileDesc>
+            <titleStmt>
+                <title>Aktenvermerk Oskar Samek - Akt 1</title>
+                <editor ref=""/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000001-003-002.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/1535</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000001">Karl Kraus ca. Neues Wiener Journal</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000001-003-002-wit01" facs="#D_000001-003-002-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" subtype="produced" when-iso=""/>
+                <date source="krausonline">25.11.1922</date>
+            </creation>
+            <langUsage><language ident="de">Deutsch</language></langUsage>
+            <textClass>
+                <keywords>
+                    <term>Zeitungsartikel</term>
+                </keywords>
+            </textClass>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2020-02-03T10:43:13.965Z" who="#IB">created by API</change>
+            <change when-iso="2020-02-04T14:08:01.755Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+        </revisionDesc>
+    </teiHeader>
+    <surfaceGrp xml:id="D_000001-003-002-facs001-l001">
+        <facsimile xml:id="D_000001-003-002-facs001">
+            <surface xml:id="D_000001-003-002-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000012_1.jpg" source="krausonline"/>
+                <graphic url="ZPH_1545-1/001_010/00000012.jpg" source="scans"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2564257/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            </surface>
+        </facsimile>
+    </surfaceGrp>
+    <text>
+        <div xml:id="uuid_3fb641e7-84a2-40e6-b641-e784a2b0e6e1" part="N" org="uniform" sample="complete"/>
+    </text>
+</TEI>

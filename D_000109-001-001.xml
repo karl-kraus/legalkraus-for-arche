@@ -1,0 +1,107 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000109-001-001.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000109-001-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000109-002-001.xml">
+<teiHeader>
+        <!-- LU: entspricht alles (außer Titel und IDs) 109.1.0; JK: Faksimile auf KKO bei Originalmappe -->
+        <fileDesc>
+            <titleStmt>
+                <title>Notizzettel</title>
+                <editor ref="#JK">Johannes Knüchel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000109-001-001.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000109">Karl
+                    Kraus ca. Neues Wiener Tagblatt</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000109-001-001-wit01" facs="D_000109-001-001-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1928-09-08" subtype="received">8. September
+                    1928</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>Notizzettel</term>
+                </keywords>
+            </textClass>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2020-07-21T14:12:52.861Z" who="#IB">created by API</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000109-001-001-facs001">
+        <surface xml:id="D_000109-001-001-facs001-l001-p001" type="recto">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000147_39.jpg" source="krausonline"/>
+            <!--<graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555640/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-7/106_111/00000088.jpg" source="scans"/>-->
+        </surface>
+        <surface xml:id="D_000109-001-001-facs001-l001-p002" type="verso">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000148_38.jpg" source="krausonline"/>
+        </surface>
+    </facsimile>
+    <text>
+        <div xml:id="uuid_1b932e37-3f99-4372-932e-373f99c37249" part="N" org="uniform" sample="complete"/>
+        <body>
+            <pb facs="D_000109-001-001-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_752e305a-e28a-428c-a9bb-a0353050c1d5"><lb/>Vielen Dank für die köstliche
+                Sache im <rs type="work" ref="#41321">N.W.Tgbl.</rs><lb/>Bitte gf. die <rs type="work" ref="#53365">Nr. (Montag 3. Sept.)</rs>
+                <rs type="person" ref="#38909">Dr. Samek</rs> zu<lb/>schicken. Er möge gf.
+                Berichtigung senden, die<lb/>ich folgendermaßen vorschlage:</p>
+            <p xml:id="uuid_1cb294ea-00e6-4347-bbe7-bbb5b7d3d557"><lb/>Zu Ihrer Notiz „<rs type="work" ref="#53367">Skandalszenen bei einer <rs type="person" ref="#11988">Kraus</rs>-Vorlesung</rs>“<lb/>verlange ich … Sie veröffentlichen (folgt
+                    ganze<lb/><rs type="work" ref="#53367">Notiz</rs>): (Skandalszenen …)
+                …<lb/>fortgesetzt werden.<lb/>Die in dieser <rs type="work" ref="#53367">Nachricht</rs> enthaltenen Behauptungen<lb/>sind, soweit sie sich auf <rs type="person" ref="#11988">Karl Kraus</rs> beziehen, unwahr.<lb/>Wahr ist, daß
+                    <rs type="person" ref="#11988">Karl Kraus</rs> weder am 2.d. noch
+                überhaupt<lb/>jemals eine Vorlesung im <rs type="institution" ref="#37007">Neuen
+                    Theater am Zoo</rs> gehalten hat.</p>
+            <pb facs="D_000109-001-001-facs001-l001-p002" n="2"/>
+            <p xml:id="uuid_60f43998-4a24-4536-bfc0-4c10caa6a012"><lb/><note type="paratext" resp="law-firm">8. SEP. 1928</note></p>
+        </body>
+    </text>
+</TEI>

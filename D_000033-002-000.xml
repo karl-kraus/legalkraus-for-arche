@@ -1,0 +1,82 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000033-002-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000033-001-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000033-003-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Zeitungsartikel aus: Die Fackel, Nr. 691-696</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000033-002-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/1987</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000033">Stefan Padajaunig ca. Karl Kraus</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000033-002-000-wit01" facs=""/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date type="sortDate" subtype="produced" when-iso=""/></creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass/>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2020-02-10T11:44:16.489Z" who="#IB">created by API</change>
+            <change when-iso="2020-02-10T11:52:52.734Z" who="#JM">Checked Images Wienbibliothek</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000004_14.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548274/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-2/033_035/00000004.jpg" source="scans"/>
+        </surface>
+    </facsimile>
+    <text>
+        <div xml:id="uuid_ae14742f-9205-40d9-9474-2f920510d964" part="N" org="uniform" sample="complete">
+            <p xml:id="uuid_fb5c583e-050e-4ed9-9c58-3e050eded99d">[…] Könnte man sich vorstellen, daß ein menschliches Hirn aus Erwägung, auch nur pour passer le temps und nicht in der Automatik der grundsätzlichen Schamlosigkeit den Einfall aushecken, auf der Rückseite des Blattes, das mich als Erbeuter unrechten Gutes entlarvt, für den „bekannten Monarchisten Padajaunig“, „der ein innerlich vornehmer Mensch ist“, nämlich der mich bedroht hat, das Mitleid wachzurufen?</p>
+        </div>
+    </text>
+</TEI>

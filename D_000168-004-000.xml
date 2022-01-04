@@ -1,0 +1,208 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000168-004-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000168-003-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000168-005-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief Samek an RA Willy Katz</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name full="yes" instant="false">Austrian Centre for Digital Humanities and
+                        Cultural Heritage, Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name full="yes" instant="false">Ludwig Boltzmann Institut für Digital
+                        History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name full="yes" instant="false">Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date instant="false">2021</date>
+                <availability default="false">
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000168-004-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4232</idno>
+                <idno type="ID" subtype="transkribus">751031</idno>
+            </publicationStmt>
+            <seriesStmt default="false">
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000168">Karl
+                    Kraus ca. Otto Landsberg</title>
+            </seriesStmt>
+            <sourceDesc default="false">
+                <listWit>
+                    <witness xml:id="D_000168-004-000-wit01" facs="#D_000168-004-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1932-02-10" subtype="produced">10. Februar
+                    1932</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass default="false"/>
+            <particDesc default="false"/>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#38909"/>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#50493"/>
+                    </address>
+                    <placeName ref="#51"/>
+                    <date when-iso="1932-02-10">10. Februar 1932</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#51596">Dr. Willy Katz, | Rechtsanwalt</persName>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#482">Friedrichstrasse Nr. 204</rs>
+                    </address>
+                    <placeName ref="#168">Berlin SW 68.</placeName>
+                    <date when-iso=""/>
+                </correspAction>
+                <noteGrp>
+                    <note type="subject">Betrifft: Kraus – Landsberg.</note>
+                    <note type="dictation">Dr. S/Fa.</note>
+                    <note type="appendix" xml:id="D_000168-001-000">1 Beilage</note>
+                </noteGrp>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="intertexts" when-iso="2021-10-07" who="#IL"/>
+            <change type="header_facsimile" when-iso="2021-10-11" who="#IL"/>
+            <change type="structure" when-iso="2021-10-01" who="#IL"/>
+            <change type="references" when-iso="2021-10-11" who="#IL"/>
+            <change type="typography" when-iso="021-10-07" who="#IL"/>
+            <change when-iso="2020-10-09T13:54:27.432Z" who="#IB" status="draft">created by
+                API</change>
+            <change when-iso="2021-09-06" who="#LU">Replaced Text with Transcription of Transkribus
+                Document 751031.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000168-004-000-facs001">
+        <surfaceGrp xml:id="D_000168-004-000-facs001-l001">
+            <surface xml:id="D_000168-004-000-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000266_18.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000168-004-000-facs001-l001-p002" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000267_16.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000168-004-000-facs001-l002">
+            <surface xml:id="D_000168-004-000-facs001-l002-p003" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000268_17.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000168-004-000-facs001-l002-p004" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000269_13.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <facsimile type="furtherwitnesses">
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000270_15.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000271_14.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000272_15.jpg" source="krausonline"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="D_000168-004-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_74071afc-03af-4114-a9bf-2963056ea3eb"><lb xml:id="uuid_2ceef1cb-5ca8-4fd9-8945-8d4efde2562c"/>Sehr geehrter Herr <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/51596">Kollege</rs>!</p>
+            <p xml:id="uuid_869c5067-b4cb-443c-8592-a0d4672ea75b"><lb xml:id="uuid_267094b0-8d5b-4964-9e2e-e4fe5ea1c4cf"/>Wie Sie wissen, hat Herr <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs> gegen
+                den <lb xml:id="uuid_927b7c94-d136-4f25-a12c-0f3e121048c0"/>Rechtsanwalt <rs type="person" ref="#38962">Otto Landsberg</rs> eine Beleidigungsklage
+                eingebracht, <lb xml:id="uuid_677aea92-2d0b-4a8b-80aa-530b61ba8cd6"/>die mit einem
+                beigelegten, Herrn <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs> gestern, den 9. Februar <lb xml:id="uuid_a5e3168e-543a-4749-aa73-810e737ab441"/>1932 zugestellten <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000168-001-000">Beschluss</rs>, abgetan wurde. Ich glaube, dass <lb xml:id="uuid_ed229d30-c804-453b-bdae-8c93330e2c9e"/>diese <rs type="work">Klage</rs> noch von Herrn Dr. <rs type="person" ref="#38969">Laserstein</rs>
+                verfasst, und weiss <lb xml:id="uuid_04a30fff-630a-460a-939b-99987914681e"/>nicht,
+                ob der gleiche <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000168-001-000">Beschluss</rs>
+                nicht ihm schon vor längerer <lb xml:id="uuid_9dfc9632-cf68-4de6-b611-6dabad61f052"/>Zeit zugestellt worden ist, so dass ein Rechtsmittel nicht mehr <lb xml:id="uuid_9a2df8e1-1424-4ddd-af60-d005ab7bfa42"/>eingebracht werden kann. Sie
+                müssen dies aus dem Gerichtsakt er<lb xml:id="uuid_d461bd4e-034c-4e47-b166-92943a733e6d" break="no"/>heben. Wenn aber
+                die Rechtskraft dieses Beschlusses noch nicht <lb xml:id="uuid_22684b95-5bc2-4251-8c5d-a2a92cafc081"/>eingetreten ist, sei es,
+                dass Herr Dr. <rs type="person" ref="#38969">Laserstein</rs> oder Sie einen <lb xml:id="uuid_7d54edd9-cecf-4ef9-8128-8dc465d3a1f3"/>solchen Beschluss nicht
+                erhalten haben oder die Rechtsmittel<lb xml:id="uuid_5ea730c0-1a9f-46df-bb7e-e895a12710ec" break="no"/>frist vom Tage
+                der Zustellung an den <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatankläger</rs> selbst zu <lb xml:id="uuid_5b14282d-8119-433d-b70b-d87d58d41a8e"/>laufen beginnt, so bittet
+                Sie Herr <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs>, gegen diese absonder<lb xml:id="uuid_94d96701-53be-4749-833d-ed61c933dd2d" break="no"/>liche
+                Entscheidung ein Rechtsmittel zu erheben. Besonders erlaube <lb xml:id="uuid_b6725af3-7bba-49be-ab3f-4765c9e9dcb1"/>ich mir Ihre Aufmerksamkeit
+                auf die am Rand rot angestrichenen <lb xml:id="uuid_10905f2e-14e0-4d95-b0e5-ddcd5be885c1"/>Stellen zu lenken, die wohl
+                eine absurde Begründung für die <lb xml:id="uuid_0083ab8c-fd61-4fac-8f4f-edd320719e97"/>Geringfügigkeit der
+                Beleidigung darstellen. Auch wäre es in<lb xml:id="uuid_54f94bd2-4069-49bf-ba70-fbc1a0931d23" break="no"/>teressant, zu
+                wissen, welche Ermittlungen das <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/36735">Gericht</rs> vorge<lb xml:id="uuid_2990dee0-e68c-46a7-87cd-63e8b2031e9a" break="no"/>nommen hat, um
+                sich über den Verlauf der Berufungsverhandlung <lb xml:id="uuid_231a1e66-0c04-4f9c-ae42-837cf300a2c9"/>vom 19. Oktober 1931 zu
+                orientieren. Herr <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs> will auch Ihre <lb xml:id="uuid_bc093b67-7779-4643-baa6-cc536e584df2"/>Aufmerksamkeit darauf
+                lenken, dass der Unterzeichnete Dr. <rs type="person" ref="#55006">Bues</rs>
+                <pb facs="D_000168-004-000-facs001-l001-p002" n="2"/>
+                <lb xml:id="uuid_dc30d02c-8a67-4e63-8eaa-2786e66df588"/>nach seinem Erinnern der
+                Richter erster Instanz war, dessen <lb xml:id="uuid_dc9901ae-8772-4fb7-8087-0061c137ba9e"/><rs type="work">Urteil</rs>
+                von der zweiten Instanz aufgehoben wurde und er ver<lb xml:id="uuid_210650d6-fee0-49f0-881b-282e029ee664" break="no"/>mutet, wenn dies
+                der Fall sein sollte, dass die jetzige Ein<lb xml:id="uuid_456258e4-1f96-45fb-a5af-6d5e39a7ed4f" break="no"/>stellung eine
+                Reaktion auf die Abänderung des <rs type="work">Urteils</rs> in der <lb xml:id="uuid_6a40cba8-19cd-4125-8ad1-df0d7caa6603"/>Hauptsache darstellt.</p>
+            <p xml:id="uuid_f72107b6-a175-4b5c-9a52-1f8f9b0501aa"><lb xml:id="uuid_7f9b6105-1a64-4720-9820-fed63d4e3d20"/>Merkwürdig erscheint auch
+                die Wendung, dass <lb xml:id="uuid_7f8f80ad-a0de-4a0b-be29-fe4deb0f8ab6"/>Herr <rs type="person" ref="#38962">Landsberg</rs> „<quote xml:id="uuid_9126f0bb-0811-4493-b262-bd5274fbfad9" source="https://legalkraus.acdh.oeaw.ac.at/id/D_000168-001-000">als
+                    gewissenhafter Anwalt von seinem Stand<lb xml:id="uuid_b802cd25-b556-4f3f-b104-f305be469ad4" break="no"/>punkte aus
+                    die Beweisanträge des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatklägers</rs> als
+                        Verschleppungs<lb xml:id="uuid_bfb3d306-ee57-4a8c-88ba-d7f49d462efb" break="no"/>anträge und rücksichtslose Ausnützung der strafrechtlichen
+                        Ver<lb xml:id="uuid_8c1143e8-0556-4433-b1bd-d23371c44d39" break="no"/>fahrensvorschriften empfinden konnte, zumal diese Anträge von <lb xml:id="uuid_96bd792c-03b0-4a53-ac9f-2a572985b9bf"/>der herausfordernden
+                    Miene des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatklägers</rs> begleitet wurden.</quote>“ <lb xml:id="uuid_36a08be1-2d66-409f-9d50-705f9645d7ff"/>Wenn Herr <rs type="person" ref="#38962">Landsberg</rs> Anträge des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatklägers</rs> als
+                    Verschleppungs<lb xml:id="uuid_61f0e573-6678-4d15-88de-8133a3f76d3c" break="no"/>anträge betrachtete, so konnte er sich gegen die Zulassung der <lb xml:id="uuid_2c8f1acd-99fc-4e1c-8b40-d54da961d270"/>Anträge aussprechen. Das hat
+                mit seiner Gewissenhaftigkeit gar <lb xml:id="uuid_790c35f9-fa14-40c8-b970-ea21ca8b2292"/>nichts zu tun, im Gegenteil,
+                wenn es auf Gewissenhaftigkeit <lb xml:id="uuid_cac016fd-e8e6-4a54-93e8-33cf2a04a684"/>überhaupt ankommt, so hatte
+                er sachlich zu prüfen, ob die Anträge <lb xml:id="uuid_853700fb-43c1-4b00-a5bf-fd417c6f571f"/>des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatklägers</rs> berechtigt
+                waren oder nicht. Es wäre eine ab<lb xml:id="uuid_9dbe1b02-9e50-4b6f-a4b9-fceb20fda534" break="no"/>surde Meinung,
+                jemanden, dem Anträge der Gegenseite nicht pas<lb xml:id="uuid_49703ee5-d351-4345-9f95-937463561ee7" break="no"/>sen, das Recht
+                zuzugestehen, anstatt mit sachlichen Gegenargu<lb xml:id="uuid_68538389-cb83-4857-bc39-8597902db813" break="no"/>menten, mit
+                Beleidigungen zu reagieren, am allerwenigsten aber <lb xml:id="uuid_206d52b1-b96d-44a8-8f95-e4be57f21c32"/>mit Formalbeleidigungen. Die
+                Gewissenhaftigkeit eines Anwaltes <lb xml:id="uuid_aa0bf889-3980-410c-a90d-baeff91d9448"/>müsste sich doch in erster
+                Linie dahin ausdrücken, dass ihm <lb xml:id="uuid_b4c06126-a324-467a-b1fc-46609e5db449"/>„<quote xml:id="uuid_7f09502f-9aab-467c-a58a-4e36146e1636" source="https://legalkraus.acdh.oeaw.ac.at/id/D_000168-001-000">solche
+                    Entgleisungen</quote>“ nicht passieren. Ferner möchte ich darauf <lb xml:id="uuid_23f62fcf-921d-41d8-aa0e-23866ad74ec2"/>hinweisen, dass das <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/36735">Gericht</rs>
+                in seinem <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000168-001-000">Beschluss</rs>
+                sagt, dass die <lb xml:id="uuid_24b577c7-b114-41ed-995b-1a39004999cb"/>Worte des <rs type="person" ref="#38962">Beschuldigten</rs> „<quote xml:id="uuid_0beaf681-5dfe-4829-855d-cf14b5e35b60" source="https://legalkraus.acdh.oeaw.ac.at/id/D_000168-001-000">als
+                    offensichtliche, nicht streng zu <lb xml:id="uuid_d7f5e18d-291a-42b7-9e0d-b2b7ac98c157"/>ahndende
+                    Entgleisungen</quote>“ zu würdigen sind, durch die Einstellung <lb xml:id="uuid_95acca94-324b-4cbc-a3c0-4a3b7c240043"/>des Verfahrens aber nicht
+                einmal eine milde Ahndung dieser Ent<lb xml:id="uuid_6d1cd9fa-3989-4571-97ef-681923cacae2" break="no"/>gleisungen
+                vornimmt. Da Sie ja selbst bei dieser Berufungsver<lb xml:id="uuid_6b0dda42-3790-40fb-8059-e35bda038a1c" break="no"/>handlung
+                interveniert haben, werden Sie sich ja auch über das <pb facs="D_000168-004-000-facs001-l002-p003" n="3"/>
+                <lb xml:id="uuid_60d39b8c-bb15-4d46-9efd-31ebe0896ef0"/>„<quote xml:id="uuid_dc15bb8b-debb-4949-a423-0d0d02bce84e" source="https://legalkraus.acdh.oeaw.ac.at/id/D_000168-001-000">eigene Verhalten
+                    des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatklägers</rs></quote>“, das ihm einer straflosen <lb xml:id="uuid_c6a1a1bd-206d-430f-9726-2a1270b2b6af"/>Beleidigung ausgesetzt hat,
+                ja ein Bild machen können und <lb xml:id="uuid_973958e8-e859-42b1-9209-bb10ea34a8b8"/>darauf entsprechend reagieren.</p>
+            <p xml:id="uuid_c3278b6f-a1d8-404a-8d5d-606c596c9500"><lb xml:id="uuid_a3c8f574-fede-4247-b4cd-88a9b04cf0b1"/>Indem ich Sie bitte, mir
+                Ihre Ansicht über <lb xml:id="uuid_2e1692eb-3547-4f84-a723-fa3758c02330"/>die Sache
+                mitzuteilen, zeichne ich mit den besten Grüssen und vor<lb xml:id="uuid_a4591419-5ab0-4248-bcd2-402bf3fc37a4" break="no"/>züglicher
+                kollegialer Hochachtung</p>
+            <p xml:id="uuid_e9c35919-5aa3-443d-8be4-a5c6b1c98e8b"><lb xml:id="uuid_cf31af52-5bf0-45ce-bd3e-fe934deae1d2"/>Ihr ergebener</p>
+            <p xml:id="uuid_679f3f3d-e227-496b-91e0-2e79ce2075ae">
+                <lb xml:id="uuid_67ed1808-feeb-44be-875e-9160148c5292"/>Rekommandiert.</p>
+            <pb facs="D_000168-004-000-facs001-l002-p004" n="4"/>
+            <p xml:id="uuid_7b3aeb41-044d-4549-9809-bfde4763c73f"><lb xml:id="uuid_44dbc697-9398-405d-8388-d7773cc34acb"/><note type="paratext" resp="law-firm"><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs> – <rs type="person" ref="#38962">Landsberg</rs></note></p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000189-118-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-113-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-131-001.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Zeitungsartikel aus: Gegen-Angriff, Nr. 24</title>
+                <editor ref="#JK">Johannes Knüchel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000189-118-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4671</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000189">Karl
+                    Kraus ca. Gegen-Angriff</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000189-118-000-wit01" facs="D_000189-118-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1935-06-15" subtype="produced">15. Juni 1935</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>Zeitungsartikel</term>
+                </keywords>
+            </textClass>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="header-facsimile" when-iso="2021-12-02" who="#JK"/>
+            <change when-iso="2020-10-11T08:21:20.32Z" who="#IB">created by API</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000189-118-000.xml-facs001">
+        <surfaceGrp xml:id="D_000189-118-000.xml-facs001-l001">
+            <surface xml:id="D_000189-118-000.xml-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000170_10.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000189-118-000.xml-facs001-l001-p002" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000171_9.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="D_000189-118-000.xml-facs001-l001-p001" n="1"/>
+            <pb facs="D_000189-118-000.xml-facs001-l001-p002" n="2"/>
+        </body>
+        <!--<div xml:id="uuid_a57c50e0-4f1c-4a85-bc50-e04f1c2a854c" part="N" org="uniform" sample="complete">
+            <p xml:id="uuid_316553d8-4878-44eb-a553-d8487854eba8">ÜBER KARL KRAUS die Wahrheit zu schreiben, ist fast so schwer, wie es seinerzeit gewesen ist, die Wahrheit über Franz Josef zu schreiben. Polizei und Paragrafen schützen bekanntlich nicht die Wahrheit, sondern vor ihr. Leute, die ihr eigenes Ende überleben, gleichgültig ob Kaiser oder Schriftsteller, pﬂegen von diesen bewährten Wahrheitsverhinderungsmitteln erhöhten Gebrauch zu machen. So sehr wir den Wunsch des vaterländischen Dichters Karl Kraus begreifen, dass die Kulturwelt ausserhalb des Machtbereichs der Wiener Polizeidirektion ihm die Konfrontierung mit sich selbst erspare, so können wir ihm diesen Gefallen trotz aller mit der Gestapo erfolgreich konkurrierenden Einschüchterungsmethoden gewisser Leute nicht tun. Nun wollen wir, gewitzigt durch Erfahrungen mit Staats- und Krausanwälten Karl Kraus über Karl Kraus die Wahrheit schreiben lassen. In der neuen zeitentrückten Nummer der „Fackel“ (Ende Mai 1935), findet sich die folgende zeitnahe Betrachtung, die den vor einiger Zeit geäusserten Vergleich Starhembergs mit Lassalle ergänzt […] </p>
+            <p xml:id="uuid_503cc106-2b9b-423c-bcc1-062b9b023c85">Oberst Adam ist, was hervorgehoben zu werden verdient, Propagandachef der Schuschnigg-Regierung. Von seinem Wohlwollen hängt es ab, ob die „Fackel“ erscheinen kann. Die Behauptung, Karl Kraus lecke dem österreichischen Goebbels sagen wir den Schuh, würde auf Grund des Pressegesetzes berichtigt werden. Karl Kraus’ literarisches Urteil ist auch nicht etwa käuﬂich. Wir sind fest davon überzeugt, dass es völlig unentgeltlich abgegeben wird. </p>
+            <p xml:id="uuid_1ddb10ea-0556-4e91-9b10-ea0556ce918a">Die Rede, deren sprachliche Schönheit es Karl Kraus angetan hat, beschäftigt sich mit der Emigration, die „aus der Behaglichkeit eines Kaffeehauses oder einer Redaktionsstube“ „den österreichischen Arbeiter zu neuen sinnlosen Kämpfen aufhetzen will“. </p>
+            <p xml:id="uuid_f7f78817-242b-45a6-b788-17242b05a6f6">„Inhaltlich und formal richtig“ nennt Karl Kraus diese Rede im Gegensatz zu dem Manifest Franz Josefs an seine Völker, dessen Inhalt seiner Stilschönheit etwas Abbruch getan hat. </p>
+            <p xml:id="uuid_712ea3b3-1492-4af6-aea3-b314926af6e9">A propos Franz Josef. Der Unterschied, nicht zu Oberst Adam, sondern zu Karl Kraus ist der, dass das Couplet „Der wird noch hundert Jahre alt“ auf diesen nicht anzuwenden ist. </p>
+            <p xml:id="uuid_9fdd061c-81b7-4bfc-9d06-1c81b73bfc6c">Dass es diesmal keine Berichtigung geben wird, dafür haben wir durch sorgfältige Korrektur der Satzzeichen vorgesorgt, aber ob Karl Kraus sich selbst wegen Beleidigung verklagen wird, wissen wir nicht. Optimisten seien ge</p> <p xml:id="uuid_b4284d04-6a95-4da1-a84d-046a957da1b0">warnt. Mit dem Mut ist das so eine Sache. Bis zum Selbstmord reicht es — aber weiter geht es nicht. </p>
+        </div>-->
+    </text>
+</TEI>

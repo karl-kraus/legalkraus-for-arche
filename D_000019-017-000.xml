@@ -1,0 +1,473 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000019-017-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-015-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-019-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Urteilsabschriften und Schriftverkehr eines Präzedenzfalles (Diwald ca. Wlassak)</title>
+                <editor ref="#JK">Johannes Knüchel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000019-017-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/1763</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000019">Karl Kraus ca. Fritz Kaufmann und Anton Kuh</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000019-017-000-wit01" facs="D_000019-017-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation> <date type="sortDate" when-iso="1926-01-25" subtype="produced">25. Januar 1926</date> 
+            </creation>
+            <langUsage> <language ident="de">Deutsch</language> </langUsage>
+            <textClass>
+                <keywords>
+                    <term>Urteilsabschriften</term>
+                </keywords>
+            </textClass>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2020-02-05T11:48:08.883Z" who="#IB">created by API</change>
+            <change when-iso="2020-02-05T12:01:26.671Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:01:28.596Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:01:31.071Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:01:32.457Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:01:34.1Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:01:35.557Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:01:37.093Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:01:39.349Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:01:40.917Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:01:42.3Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:01:43.734Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:01:45.334Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:01:47.102Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:01:48.67Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:01:50.182Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:01:52.191Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:01:53.798Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:01:55.605Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:01:57.165Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:01:58.653Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:00.356Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:01.966Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:03.903Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:05.925Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:07.742Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:09.91Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:11.365Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:12.829Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:14.422Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:16.205Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:17.557Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:18.735Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:20.109Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:22.949Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:24.576Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:26.493Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:28.246Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:29.822Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:31.621Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:33.421Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:35.014Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:36.557Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:38.455Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:41.454Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:42.254Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:44.112Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:46.438Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:48.054Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:49.558Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:51.047Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:53.022Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:54.567Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:56.326Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:02:58.166Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:03:00.077Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:03:01.783Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:03:03.518Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:03:05.199Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:03:07.103Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:03:08.75Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:03:10.351Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:03:11.936Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:03:13.526Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:03:15.094Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:03:17.176Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-05T12:03:18.646Z" who="#JM">Checked Images Wienbibliothek</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000078_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541093/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000078.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000079_6.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541094/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000079.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000080_7.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541095/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000080.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000081_6.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541096/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000081.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000082_6.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541097/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000082.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000083_7.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541098/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000083.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000084_7.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541099/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000084.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000085_7.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541100/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000085.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000088_6.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541103/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000088.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000089_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541104/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000089.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000092_6.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541107/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000092.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000093_4.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541108/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000093.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000094_6.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541109/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000094.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000095_4.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541110/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000095.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000096_6.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541111/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000096.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000097_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541112/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000097.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000098_4.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541113/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000098.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000100_6.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541115/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000100.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000101_3.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541116/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000101.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000102_4.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541117/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000102.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000103_4.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541118/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000103.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000104_4.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541119/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000104.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000105_4.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541120/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000105.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000106_6.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541121/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000106.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000108_4.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541123/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000108.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000109_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541124/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000109.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000110_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541125/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000110.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000111_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541126/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000111.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000112_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541127/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000112.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000113_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541128/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000113.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000114_4.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541129/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000114.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000116_4.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541131/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000116.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000117_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541132/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000117.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000120_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541135/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000120.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000121_3.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541136/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000121.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000122_3.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541137/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000122.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000123_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541138/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000123.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000124_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541139/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000124.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000125_3.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541140/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000125.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000126_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541141/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000126.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000127_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541142/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000127.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000128_4.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541143/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000128.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000129_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541144/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000129.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000130_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541145/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000130.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000132_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541147/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000132.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000133_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541148/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000133.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000134_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541149/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000134.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000135_6.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541150/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000135.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000136_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541151/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000136.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000137_4.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541152/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000137.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000138_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541153/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000138.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000139_6.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541154/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000139.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000140_6.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541155/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000140.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000141_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541156/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000141.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000142_4.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541157/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000142.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000144_4.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541159/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000144.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000145_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541160/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000145.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000146_1.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541161/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000146.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000147_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541162/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000147.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000148_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541163/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000148.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000149_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541164/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000149.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000150_4.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541165/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000150.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000151_4.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541166/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000151.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000152_4.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541167/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000152.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000153_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541168/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000153.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000154_3.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541169/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-1/019_022/00000154.jpg" source="scans"/>
+        </surface>
+    </facsimile>
+    <text>
+        <div xml:id="uuid_01851d8f-3e7e-4aad-851d-8f3e7e1aad96" part="N" org="uniform" sample="complete"/>
+    </text>
+</TEI>

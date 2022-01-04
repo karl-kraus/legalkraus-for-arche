@@ -1,0 +1,109 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000176-041-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-040-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-042-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief Samek an RA […] Gierlich</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <availability default="false">
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000176-041-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4391</idno>
+                <idno type="ID" subtype="transkribus">349127</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000176">Karl
+                    Kraus ca. Städtische Bühnen Essen</title>
+            </seriesStmt>
+            <sourceDesc default="false">
+                <listWit>
+                    <witness xml:id="D_000176-041-000-wit01" facs="#D_000176-041-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1932-12-15" subtype="produced">15. Dezember 1932
+                    1932</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <particDesc/>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#38909"/>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#50493"/>
+                    </address>
+                    <placeName ref="#51">Wien I</placeName>
+                    <date when-iso="1932-12-15">den 15. Dezember 1932</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#60565">Herrn | Dr. Gierlich | Rechtsanwalt</persName>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#60424">Hansastrasse 50 II</rs>
+                    </address>
+                    <placeName ref="#915">Dortmund</placeName>
+                    <date when-iso=""/>
+                </correspAction>
+                <noteGrp>
+                    <note type="subject">Dr.Sa/Fa.</note>
+                    <note type="dictation"/>
+                    <note type="appendix"/>
+                </noteGrp>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="intertexts" when-iso="2021-10-07" who="#IL"/>
+            <change type="header_facsimile" when-iso="2021-10-27" who="#IL"/>
+            <change type="structure" when-iso="2021-10-01" who="#IL"/>
+            <change type="references" when-iso="2021-10-11" who="#IL"/>
+            <change type="typography" when-iso="021-10-19" who="#IL"/>
+            <change when-iso="2020-10-09T14:32:15.76Z" who="#IB" status="draft">created by
+                API</change>
+            <change when-iso="2021-09-06" who="#LU">Replaced Text with Transcription of Transkribus
+                Document 349127.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000176-041-000-facs001">
+        <surfaceGrp xml:id="D_000176-041-000-facs001-l001">
+            <surface xml:id="D_000176-041-000-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000298_9.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000176-041-000-facs001-l001-p002" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000299_8.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="D_000176-041-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_7db8a55e-3188-43fd-b86d-85ec7f6b3d6f"><lb xml:id="uuid_1bc947c1-d1ca-4283-8dbf-82b0b9a02c5c"/>Sehr geehrter Herr <rs type="person" ref="#60565">Kollege</rs>!</p>
+            <p xml:id="uuid_b37b8d16-0432-4273-a95f-cf7f6b731808"><lb xml:id="uuid_379c5783-3038-4b36-a95f-a16259aa0f2c"/>Ihr <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000176-040-000">Schreiben</rs> vom
+                12. Dezember 1932 habe <lb xml:id="uuid_34448f3a-db7e-4888-88b1-a6a7a1b44a63"/>ich
+                Herrn <rs type="person" ref="#11988">Kraus</rs> mitgeteilt. Da wir nicht in der Lage
+                sind, <lb xml:id="uuid_dbe35159-1e9a-4298-a8d9-f1d3d773489c"/>die Aussichten des
+                Prozesses zu beurteilen, zumal der <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000176-043-000">Bescheid</rs>
+                <lb xml:id="uuid_c86de6d1-201d-4d0f-b1ff-cfc60d13ebdc"/>des Herrn <rs type="person">Generalstaatsanwaltes</rs> vom 1. Dezember 1932 Ihrem <lb xml:id="uuid_30edb426-b854-40cd-b417-1cb754509204"/><rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000176-040-000">Schreiben</rs>
+                offenbar versehentlich nicht angeschlossen war, <lb xml:id="uuid_833ad808-675c-45ff-881c-189318a7733b"/>müssen wir die Entscheidung,
+                ob die Privatanklage eingebracht <lb xml:id="uuid_85838bfa-8226-44cb-bdde-099d4e6febc2"/>werden soll, Ihnen
+                überlassen. Wenn sie Aussicht auf Erfolg <lb xml:id="uuid_96aaaddb-beac-4024-9374-e47cf44b3f10"/>hat, so bitten wir Sie, sie
+                einzubringen. </p>
+            <p xml:id="uuid_51a4caf2-5844-40f3-be8e-a7e2f7ef9615"><lb xml:id="uuid_f794c466-230b-48b9-8353-1a1e0be383ea"/>Bei dieser Gelegenheit lässt
+                Herr <rs type="person" ref="#11988">Kraus</rs>
+                <lb xml:id="uuid_2bd2007f-ef96-469e-9aac-9b9ddc7830aa"/>Herrn Dr. <rs type="person" ref="#38103">Elias</rs> und Ihnen für die Mühewaltung danken und Herrn <lb xml:id="uuid_1b6655c8-ec23-4ba9-9116-0a94a396d165"/>Dr. <rs type="person" ref="#38103">Elias</rs> insbesondere baldige Genesung wünschen.</p>
+            <p xml:id="uuid_17966ab8-3c29-49f6-aae6-c4d29d27ab05"><lb xml:id="uuid_8bb742b1-1e2a-4840-bf8c-49a24341aed6"/>Ich zeichne mit vorzüglicher
+                kollegialer <lb xml:id="uuid_4d4390a2-4846-4bc8-833b-4f0527dec806"/>Hochachtung</p>
+            <pb facs="D_000176-041-000-facs001-l001-p002" n="2"/>
+            <p xml:id="uuid_a5ddfff2-69dd-4cd8-bbc1-ee30521d7d33"><lb xml:id="uuid_be92fdea-eb1f-4d70-a2cf-f6d0136649fd"/><note type="paratext" resp="law-firm">Betr. <rs type="person" ref="#11988">Kraus</rs> – <rs type="institution" ref="#37029">Essener städt. <lb xml:id="uuid_5f09a4c0-d28b-401e-96c2-8a6df084247c"/>Bühnen</rs>
+                    <lb xml:id="uuid_3d2f5d34-4202-4533-9e30-84d9011c8560"/>exp.
+                15.12.1932.</note></p>
+        </body>
+    </text>
+</TEI>

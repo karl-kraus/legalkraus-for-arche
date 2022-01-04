@@ -1,0 +1,143 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000124-002-001.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000124-002-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000124-002-002.xml">
+<teiHeader><!-- LU: entspricht alles (außer Titel und IDs) 124.2.0 -> ggf. korrigieren -->
+        <fileDesc>
+            <titleStmt>
+                <title>Originalmappe Oskar Samek - Akt 124</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000124-002-001.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3363</idno>
+                <idno type="ID" subtype="transkribus">472755</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000124">Karl Kraus ca. Der Abend</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000124-002-001-wit01" facs=""/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1929-05-13" subtype="produced">13. Mai 1929</date>
+            </creation>
+            <langUsage> <language ident="de">Deutsch</language> </langUsage>
+            <textClass/>
+            <particDesc/>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#38909"/>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#50493"/>
+                    </address>
+                    <placeName ref="#51"/>
+                    <date when-iso="1929-05-13">13. Mai 1929.</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#51599">An den | verantwortlichen Redakteur des „Abend“ | Herrn Dr. Siegfried Klausner</persName>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#653">Universitätsstrasse 6–8</rs>
+                    </address>
+                    <placeName ref="#59">Wien IX.</placeName>
+                    <date when-iso=""/>
+                </correspAction>
+                <noteGrp>
+                    <note type="subject">Betrifft: Kraus – Abend III.</note>
+                    <note type="dictation">Dr.S./Fa.</note>                   
+                    <note type="appendix" xml:id="D_000120-001-000"/>
+                </noteGrp>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="typography" when-iso="2021-07-21" who="#IL"/>
+            <change type="header_facsimile" when-iso="2021-07-14" who="#IL"/>
+            <change type="structure" when-iso="2021-07-05" who="#IL"/>
+            <change type="intertexts" when-iso="2021-07-05" who="#IL"/>
+            <change type="references" when-iso="2021-07-05" who="#IL"/>
+            <change when-iso="2020-10-08T13:12:22.731Z" who="#IB">created by API</change>
+            <change when-iso="2020-10-08T13:12:52.868Z" who="#IB">Replaced Text with Transcription of Transkribus Document 472755.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000297_23.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000298_26.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000299_26.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000300_30.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000300_30_0.jpg" source="krausonline"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="" n="1"/>
+            <p xml:id="uuid_a0e9ef52-fcaa-4703-b6a2-2ba2d90ddbdf"><lb xml:id="uuid_cbaf3076-991d-4450-af30-76991dd450a5"/>Im Vollmachtsnamen des Herrn
+                <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs>
+                ver<lb xml:id="uuid_578e8264-7483-4c69-8e82-6474839c6983" break="no"/>lange ich
+                die Aufnahme der Berichtigung der in der <rs type="work" ref="#56874">Nummer vom 29.
+                    <lb xml:id="uuid_899b7162-e952-4605-9b71-62e952e60517"/>April 1929</rs>
+                mitgeteilten meinen <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Mandanten</rs> betreffenden Tatsache ge<lb xml:id="uuid_110fd2fe-ecf5-48a7-8fd2-feecf508a781" break="no"/>mäss <rs type="law" ref="">§ 23 Pr.G.</rs></p>
+            <p xml:id="uuid_674e5e65-23e2-4b80-a012-a54facfb02a2"><lb xml:id="uuid_d046d0ce-002c-455f-86d0-ce002ca55f9b"/>Sie veröffentlichen in der
+                Rubrik<!--#IL doppelt unterstrichen--> „<quote xml:id="uuid_f21dfac4-85c0-48fe-92ff-f6e21e8e9084" source="#56874"><hi rend="underlined">Theater von<lb xml:id="uuid_90acab5d-3410-4907-acab-5d3410c907ce"/>heute und
+                        morgen</hi>.</quote>“ die folgende Mitteilung: „<quote xml:id="uuid_57fe0bb0-463c-4916-9d41-0e908371d4a1" source="#56877">Konzerte von
+                            heute. <lb xml:id="uuid_9fe49d9d-0753-4e0c-a49d-9d0753ee0c01"/>Konzerthaus:
+                            Kl.S. Jessie King (Gesang) 7.30.</quote>“ <lb xml:id="uuid_53d5708b-3851-474a-9570-8b3851874a3f"/>Die in dieser Ankündigung
+                enthaltene Mitteilung, <lb xml:id="uuid_ef7cde90-b164-4564-bcde-90b16465643e"/>dass
+                am 29. April 1929 im <rs type="place" ref="#240 ">Wiener Konzerthaus</rs> lediglich
+                der Lieder<lb xml:id="uuid_2b4057f9-2597-4524-8057-f92597752475" break="no"/>abend
+                Jessie King im kleinen Saal stattfand, ist unwahr. Wahr ist, <lb xml:id="uuid_6b07b187-3eca-4960-87b1-873eca2960cf"/>dass an diesem Tage im
+                grossen Saale des <rs type="place" ref="#240 ">Wiener Konzerthauses</rs> auch <lb xml:id="uuid_b83368fb-9c8b-41a6-b368-fb9c8be1a645"/>eine Vorlesung von <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs>
+                stattgefunden hat.</p>
+            <pb facs="" n="2"/>
+            <p xml:id="uuid_b14342b1-6927-4250-8083-347a2c02a94e"><lb xml:id="uuid_55ca2d00-a49a-4ec8-8a2d-00a49a0ec809"/><note type="paratext" resp="law-firm"><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs> – <rs type="institution" ref="#29712">Abend III</rs>
+                    <lb xml:id="uuid_d9e92424-608b-4707-a924-24608b770717"/>exp. 14.5.29.</note></p>
+        </body>
+    </text>
+</TEI>

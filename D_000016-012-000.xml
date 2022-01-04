@@ -1,0 +1,89 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000016-012-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000016-011-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000016-012-001.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>B. [Kostenbestimmungsbeschluss] des Strafbezirksgerichts I Wien</title>
+                <editor ref="#JK">Johannes Knüchel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000016-012-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/1725</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000016">Karl Kraus ca. Die Stunde</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000016-012-000-wit01" facs="D_000016-012-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation> <date type="sortDate" when-iso="1925-12-07" subtype="produced">7. Dezember 1925</date> 
+            </creation>
+            <langUsage> <language ident="de">Deutsch</language> </langUsage>
+            <textClass>
+                <keywords>
+                    <term>B.</term>
+                </keywords>
+            </textClass>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2020-02-04T13:34:03.45Z" who="#IB">created by API</change>
+            <change when-iso="2020-02-04T13:46:36.77Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-04T13:46:37.864Z" who="#JM">Checked Images Wienbibliothek</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000217_42.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540920/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000218_44.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540921/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+        </surface>
+    </facsimile>
+    <text>
+        <div xml:id="uuid_78250a47-494f-4ecc-a50a-47494fbecc06" part="N" org="uniform" sample="complete">
+            <p xml:id="uuid_d3aad7b9-d503-4bee-aad7-b9d5034beeaf">Kostenantrag wird in voller Höhe bestätigt.</p>
+        </div>
+    </text>
+</TEI>

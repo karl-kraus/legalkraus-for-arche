@@ -1,0 +1,177 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000031-005-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000031-004-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000031-006-000.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief Samek an Hans Liebstöckl</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000031-005-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/1963</idno>
+                <idno type="ID" subtype="transkribus">186800</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000031">Karl
+                    Kraus ca. Hans Liebstöckl</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000031-005-000-wit01" facs=""/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date type="sortDate" subtype="produced" when-iso=""/>
+                <date source="krausonline">28.07.1925</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.K.BRF</classCode>
+            </textClass>
+            <particDesc/>
+            <correspDesc>
+                <correspAction type="sent">
+                    <rs type="person" ref="">Oskar Samek</rs>
+                </correspAction>
+                <correspAction type="received">
+                    <rs type="person" ref="">Hans Liebstöckl</rs>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2020-02-10T11:18:47.248Z" who="#IB">created by API</change>
+            <change when-iso="2020-02-10T11:30:57.41Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-10T11:30:59.193Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-10T11:31:01.449Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-07-13T12:38:25.964Z" who="#IB">Linked to Document in Transkribus
+                by API</change>
+            <change when-iso="2020-07-13T12:38:34.436Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 186800.</change>
+            <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 186800.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000310_7.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548153/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-2/027_032/00000310.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000311_4.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548154/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-2/027_032/00000311.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000312_5.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548155/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-2/027_032/00000312.jpg" source="scans"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="" n="1"/>
+            <p xml:id="uuid_93749513-1507-4070-a7a8-51dbdf75fac0"><lb xml:id="uuid_3e9d8ace-daed-42d7-9879-70658b70f4fd"/>28. Juli <lb xml:id="uuid_51f0af3d-0d90-41f4-a529-8d96b77ff5b4"/>Betr: <rs type="person" ref="#11988">Kraus</rs> – <rs type="person" ref="#20424">Liebstöckl</rs>
+            </p>
+            <p xml:id="uuid_c4aa1a48-e5b1-4fff-83b8-cc00d816015c">
+                <lb xml:id="uuid_c7611bb3-311e-4983-9f2b-3fc31515b57c"/>Sie schicken Herrn <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs>
+                eine dem Press-Gesetz ent<lb xml:id="uuid_11890599-329c-473c-9731-a66df9183270" break="no"/>prechende <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000031-004-000">Berichtigung</rs>,
+                der Sie gleichzeitig die „<quote xml:id="uuid_c8d26009-3004-4954-b49d-7a5dd51254fe">kollegiale Bitte</quote>” <lb xml:id="uuid_0a6b5f57-a9fe-4584-b85b-5d37c3d6bfd0"/>beifügen, freundlichst
+                festzusteilen, dass Sie die in der <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000031-004-000">Berichtigung</rs>
+                <lb xml:id="uuid_5c2988dc-838e-4456-8131-4e9491e3537b"/>bestrittene Aeusserung
+                    „<quote xml:id="uuid_e9228ea7-7bf1-4bf7-a581-935e076a9b27">niemals nirgends und
+                    vor keinerlei Ohren <lb xml:id="uuid_0ac4cfdc-e5de-424a-916f-bdfee0935657"/>getan haben</quote>”. In dem gleichen <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000031-003-000">Schreiben</rs>
+                nehmen Sie Gelegenheit, „<quote xml:id="uuid_cfd37105-4392-4847-99de-81258f445e17">dem <lb xml:id="uuid_e86fb1bd-36bd-41e2-b4cc-d473ae84c063"/>Unmut Raum zu
+                    geben, den Ihre (des Herrn <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs>)
+                    leichtfertige <lb xml:id="uuid_791540d5-5aa4-46de-ad89-4cbd6c88185a"/>und mich
+                    herabsetzende Behauptung in mir und bei meinen Freunden <lb xml:id="uuid_c99cd81b-532b-4b54-8bf4-4081e3f9d0df"/>geweckt hat</quote>”. So
+                bedauerlich es nun Herr <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs> findet, dass eine
+                    <lb xml:id="uuid_10e0bca1-a9bd-49c6-9490-479b6037b271"/>seiner Behauptungen in
+                Ihnen und bei Ihren Freunden Unmut geweckt <lb xml:id="uuid_709558ce-b554-4f13-80ca-3795bbe5b793"/>hat, als so wahrscheinlich
+                geht aus dieser Stelle Ihres <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000031-003-000">Schreibens</rs>
+                <lb xml:id="uuid_f7b70867-62f9-4d08-b881-a3d9e2477076"/>hervor, dass Sie auch über
+                die Reaktion auf Ihren Unmut Ihre Freunde <lb xml:id="uuid_f588670a-d017-43bf-b636-90d42ba931cd"/>verständigt und dass also
+                diese von Ihrem <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000031-003-000">Schreiben</rs>
+                Kenntnis bekom<lb xml:id="uuid_b69a4802-5e40-4595-be50-91ba6259c7c3" break="no"/>men haben. In diesem Fall würde Ihr Schreiben, das ohnedies die Per<lb xml:id="uuid_bddc5cbe-4b3c-492c-a351-ca7f20f0bd0d" break="no"/>son, der es in
+                die Schreibmaschine diktiert ist, zum Mitwisser hat, die <lb xml:id="uuid_e39df20c-b78f-44f9-9e22-6ced97a8e0df"/>Bedingungen einer
+                gerichtlich zu überprüfenden Ehrenbeleidigung (be<lb xml:id="uuid_e565098d-9c23-471d-a4c4-1b4021e5d472" break="no"/>gangen durch den
+                Vorwurf der Leichtfertigkeit) durchaus erfüllen, <lb xml:id="uuid_945b1d4b-81ac-44da-9567-476b2b31eb9e"/>während es anderenfalls
+                bloss eine polizeilich zu ahndende Ehren<lb xml:id="uuid_3157b78c-1234-471c-9d1e-a3979c6638af" break="no"/>kränkung
+                darstellen würde, die eine Erforschung der Wahrheit, wie sie <lb xml:id="uuid_ca18be17-23e8-4380-bea3-fd3beaab8e6f"/>das gerichtliche Verfahren
+                durch den Zeugniszwang ermöglicht, nicht <lb xml:id="uuid_5876455c-332d-4171-9bb5-61fe3f8558f6"/>gewährleistet. Ich zweifle
+                nicht, dass Ihnen die Möglichkeit, durch eine <lb xml:id="uuid_f72007e0-9897-4668-a192-b882f2b2fd7a"/>Vernehmung von Zeugen die
+                Leichtfertigkeit und Unwahrheit der Be<lb xml:id="uuid_90aa89f7-3f9e-45c6-9156-05b596851fd8" break="no"/>hauptung des
+                Herrn <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl
+                    Kraus</rs> zu beweisen, auch sympathischer sein <pb facs="" n="2"/>
+                <lb xml:id="uuid_4d4bb66f-6f56-4749-b9cc-1f31d26a2e3d"/>wird als die rein formale
+                Berichtigung im Wege des Pressgesetzes, <lb xml:id="uuid_c1ea793c-b03e-4c7c-81ec-2fcbb736d969"/>die mein <rs type="person" ref="#11988">Mandant</rs> seinerseits der von Ihnen kollegial erbetenen <lb xml:id="uuid_245de895-4645-4d5d-a00d-b62a4a4ef53d"/>Feststellung, dass Sie die
+                Aeusserung niemals und nirgends und vor <lb xml:id="uuid_5bedd920-d583-455c-8ea7-10b92d4b3b68"/>keinerlei Ohren getan haben
+                vorziehen würde. Wiewohl ich mir in <lb xml:id="uuid_3c507ab8-855a-449e-a9a1-6fe2b3002412"/>jedem Falle vorbehalten
+                möchte, an Ihrem <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000031-003-000">Schreiben</rs> das
+                vom Straf<lb xml:id="uuid_9152358a-6626-49f8-8b55-22cd227e29d2" break="no"/>gesetz
+                erforderte Merkmal der Oeffentlichkeit darzutun, stelle ich <lb xml:id="uuid_8ac30272-4876-4b92-95b1-83073ffe8f2c"/>an Sie das Ersuchen, den Weg
+                zur richterlichen Entscheidung über <lb xml:id="uuid_e6986fb3-fd6a-4c2f-a09c-1b374b17e5d8"/>eine Beweismaterie, deren
+                Erörterung Ihnen doch am Herzen liegt, <lb xml:id="uuid_fc4be401-88e2-45d7-a146-8744cf0bba2b"/>zu erleichtern und binnen
+                acht Tagen nach Empfang dieses <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000031-005-000">Briefes</rs>
+                <lb xml:id="uuid_37a53ac2-ddb4-41f1-90f0-b936f9d95bd1"/>sich zum öffentlichen
+                Charakter Ihres <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000031-003-000">Schreibens</rs> zu
+                bekennen, wenn <lb xml:id="uuid_62f0f4a2-bea1-4b25-b781-bb7fc3b405c3"/>Sie nicht
+                innerhalb derselben Frist lieber die Erklärung abgeben <lb xml:id="uuid_7b7cac1d-66d5-4a05-a850-d8f1de6db247"/>wollten, dass Sie den gegen
+                Herrn <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl
+                    Kraus</rs> erhobenen Vorwurf, <lb xml:id="uuid_3b474b76-11c5-44fc-9236-50d41d3d2f25"/>eine leichtfertige
+                Behauptung geschrieben zu haben, zurückzuziehen.</p>
+            <p xml:id="uuid_b836827c-d797-4d67-86f6-5297605d4f86"><lb xml:id="uuid_fc6b19bd-72c2-45e9-bdec-b429acaca540"/>Hochachtungsvoll <lb xml:id="uuid_aff3372f-1a9c-43cb-a7a2-3e82645b585f"/><rs type="person" ref="#11988">Kraus</rs> – <rs type="person" ref="#20424">Liebstöckl</rs>
+                <lb xml:id="uuid_1bd412bf-cf13-4504-9674-1feca70cd877"/>28.VII.25. </p>
+        </body>
+    </text>
+    <!--
+    <div xml:id="uuid_12611d98-1c17-4146-a11d-981c17f14632">
+            <p xml:id="uuid_0c67545c-36cc-4bff-a754-5c36cc1bffdd">Sie schicken Herrn Karl Kraus eine dem Press-Gesetz entsprechende Berichtigung, der Sie gleichzeitig die „kollegiale Bitte“ beifügen, freundlichst festzustellen‚ dass Sie die in der Berichtigung bestrittene Aeusserung „niemals nirgends und vor keinerlei Ohren getan haben“. In dem gleichen Schreiben nehmen Sie Gelegenheit, „dem Unmut Raum zu geben, den Ihre (des Herrn Karl Kraus) <hi rend="underline">leichtfertige</hi> und mich herabsetzende Behauptung in mir und bei meinen Freunden geweckt hat“. So bedauerlich es nun Herr Karl Kraus findet, dass eine seiner Behauptungen in Ihnen und bei Ihren Freunden Unmut geweckt hat, als so wahrscheinlich geht aus dieser Stelle Ihres Schreibens hervor, dass Sie auch über die Reaktion auf Ihren Unmut Ihre Freunde verständigt und dass also diese von Ihrem Schreiben Kenntnis bekommen haben. In diesem Falle würde Ihr Schreiben‚ das ohnedies die Person, der es in die Schreibmaschine diktiert ist, zum Mitwisser hat, die Bedingungen einer gerichtlich zu überprüfenden Ehrenbeleidigung (begangen durch den Vorwurf der Leichtfertigkeit) durchaus erfüllen, während es anderenfalls bloss eine polizeilich zu ahndende Ehrenkränkung darstellen würde, die eine Erforschung der Wahrheit, wie sie das gerichtliche Verfahren durch den Zeugniszwang ermöglicht, nicht gewährleistet. Ich zweiﬂe nicht, dass Ihnen die Möglichkeit, durch eine Vernehmung von Zeugen die Leichtfertigkeit und Unwahrheit der Behauptung des Herrn</p> <p xml:id="uuid_4ff2ad82-38f8-40b5-b2ad-8238f800b52f">Karl Kraus zu beweisen, auch sympathischer sein wird als die rein formale Berichtigung im Wege des Pressgesetzes, die mein Mandant seinerseits der von Ihnen kollegial erbetenen Feststellung, dass Sie die Aeusserung niemals und nirgends und vor keinerlei Ohren getan haben vorziehen würde. Wiewohl ich mir in jedem Falle vorbehalten möchte, an Ihrem Schreiben das vom Strafgesetz erforderte Merkmal der Oeffentlichkeit darzutun, stelle ich an Sie das Ersuchen, den Weg zur richterlichen Entscheidung über eine Beweismaterie, deren Erörterung Ihnen doch am Herzen liegt, zu erleichtern und binnen acht Tagen nach Empfang dieses Briefes sich zum öffentlichen Charakter Ihres Schreibens zu bekennen, wenn Sie nicht innerhalb derselben Frist lieber die Erklärung abgeben wollten, dass Sie den gegen Herrn Karl Kraus erhobenen Vorwurf, eine leichtfertige Behauptung geschrieben zu haben, zurückzuziehen.</p>
+        </div>
+        -->
+</TEI>

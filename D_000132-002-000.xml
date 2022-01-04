@@ -1,0 +1,193 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000132-002-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-001-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-002-001.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Privatanklage von Karl Kraus gegen Neues Wiener Journal (verantw. Red.
+                    Desiderius Papp) wegen §§ 23, 24 Pr. G.</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000132-002-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3639</idno>
+                <idno type="ID" subtype="transkribus">411895</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000132">Karl
+                    Kraus ca. Neues Wiener Journal</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <ab type="stamp">
+                        <stamp source="#50491"/>
+                    </ab>
+                </msDesc>
+                <listWit>
+                    <witness xml:id="D_000132-002-000-wit01" facs=""/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1929-07-21" subtype="received">21. Juli 1929</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass/>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="header_facsimile" when-iso="2021-07-27" who="#IL"/>
+            <change type="structure" when-iso="2021-07-27" who="#IL"/>
+            <change type="references" when-iso="2021-07-27" who="#IL"/>
+            <change type="typography" when-iso="2021-07-27" who="#IL"/>
+            <change type="intertexts" when-iso="2021-07-27" who="#IL"/>
+            <change when-iso="2020-10-08T13:38:00.976Z" who="#IB">created by API</change>
+            <change when-iso="2020-10-08T13:39:54.286Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 411895.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000132-002-000-facs001">
+        <surfaceGrp xml:id="D_000132-002-000-facs001-l001">
+            <surface xml:id="D_000132-002-000-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000296_22.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000132-002-000-facs001-l001-p002" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000297_21.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000132-002-000-facs001-l002">
+            <surface xml:id="D_000132-002-000-facs001-l002-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000298_23.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000132-002-000-facs001-l002-p002" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000299_24.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <facsimile>
+    <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000300_27.jpg" source="krausonline"/>
+    <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000301_23.jpg" source="krausonline"/>
+    <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000302_27.jpg" source="krausonline"/>
+    </facsimile>
+    <text>
+        <body>
+            <pb n="1" facs="D_000132-002-000-facs001-l001-p001"/>
+            <p xml:id="uuid_42403c81-5ffd-49fe-b444-508a98688b9b"><lb xml:id="uuid_25747667-c7f2-4b08-b476-67c7f2ab08c1"/>An das <lb xml:id="uuid_fbfba190-8f36-4d80-bba1-908f365d8011"/><rs type="institution" ref="#50491"><hi rend="spaced">Strafbezirksgericht</hi> I <lb xml:id="uuid_598ece6e-73a4-425c-8ece-6e73a4725cc2"/><hi rend="underlined"><hi rend="spaced">Wien</hi></hi></rs>.</p>
+            <p xml:id="uuid_494ea258-7627-4be0-b207-8be8e851f2d7"><lb xml:id="uuid_f021ad9a-57f3-4ade-a1ad-9a57f37ade93"/>Privatankläger: <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl <hi rend="spaced">Kraus</hi></rs>, Schriftsteller in <rs type="place" ref="#50496">Wien III., <lb xml:id="uuid_2b3b9641-5e17-4f29-bb96-415e17df2994"/>Hintere Zollamtsstrasse Nr. 3</rs>, <lb xml:id="uuid_17fde95d-9fd3-4e94-bde9-5d9fd32e94de"/>durch: <lb xml:id="uuid_372af20d-d670-4fbe-aaf2-0dd670dfbe08"/>Vollmacht zu 1 U 186/29
+                bereits ausgewiesen <lb xml:id="uuid_12a41ca8-106f-4406-a41c-a8106f840695"/>Beschuldigter: Dr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/36371">Desiderius Papp</rs>,
+                verantwortlicher <lb xml:id="uuid_aa25b385-11ea-4852-a5b3-8511ea785226"/>Schriftleiter des „<rs type="institution" ref="#29320">Neuen Wiener Journals</rs>“
+                    <lb xml:id="uuid_5543fb92-a4bf-4ef9-83fb-92a4bf3ef900"/><rs type="place" ref="#52670">Wien I., Biberstrasse Nr. 5</rs>. <lb xml:id="uuid_a410d1d2-f560-4381-90d1-d2f560d38149"/>wegen <rs type="law" ref="">§§ 23</rs>/<rs type="law" ref="">24 Pr.G.</rs> 1 fach</p>
+            <p xml:id="uuid_22d2f0a3-5263-499d-957f-59c407956fb7"><lb xml:id="uuid_22027f22-d5bd-4c81-827f-22d5bd5c8166"/>2 Beilagen</p>
+            <p xml:id="uuid_a5331c48-7312-44f7-ab6c-1c2350078389"><lb xml:id="uuid_f047200a-9a39-4f57-8720-0a9a39cf572d"/><hi rend="spaced">Privatanklage</hi>.</p>
+            <pb n="2" facs="D_000132-002-000-facs001-l001-p002"/>
+            <p xml:id="uuid_bace35e9-f8d7-42dd-bacd-590037ecea1c"><lb xml:id="uuid_132722d5-d4af-48f4-a722-d5d4af28f407"/>Ich habe gegen den
+                verantwortlichen Schrift<lb xml:id="uuid_e6f56ff8-c2d2-42a1-b56f-f8c2d2a2a191" break="no"/>leiter der „<rs type="institution" ref="#29351">Neuen Freien
+                    Presse</rs>“ Dr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/3021">Julian Sternberg</rs> zur G.Z. <lb xml:id="uuid_5652c796-ff5d-4a70-92c7-96ff5d8a70ac"/>1 U 187/29 des <rs type="institution" ref="#50491">Strafbezirksgerichtes I in Wien</rs> und gegen
+                den <lb xml:id="uuid_2c535faf-166e-4376-935f-af166ed37633"/>verantwortlichen
+                Schriftleiter des „<rs type="institution" ref="#29650">Tag</rs>“ <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/51602">Josef Koller</rs> zur G.Z. <lb xml:id="uuid_e4ab7c50-46bb-4992-ab7c-5046bbf9922e"/>1 U 186/29
+                Berichtigungsklagen eingebracht gehabt. Der Sach<lb xml:id="uuid_a6d42b29-0405-4f63-942b-290405ef63f9" break="no"/>verhalt des
+                ersteren Prozesses war eine Ankündigung der „<rs type="work" ref="#36374">Neuen <lb xml:id="uuid_7a2a0f5d-47ee-45a8-aa0f-5d47ee75a861"/>Freien Presse</rs>“,
+                dass am 29. April 1929 im <rs type="place" ref="#240">Wiener Konzerthaus</rs>
+                <lb xml:id="uuid_0ca6c1c5-c3c0-4d34-a6c1-c5c3c09d34aa"/>im Kleinen Saal ein
+                Liederabend stattgefunden hat, wobei ver<lb xml:id="uuid_ec28cdfc-2331-4152-a8cd-fc233161520d" break="no"/>schwiegen worden
+                war, dass am selben Tag im Grossen Saal eine <lb xml:id="uuid_fe98d801-3cad-4ee0-98d8-013cadbee0ed"/>Vorlesung, die ich abhielt,
+                stattfand. Der Gegenstand des zweiten <lb xml:id="uuid_8a8cccc7-85bb-4c0b-8ccc-c785bbfc0b84"/>Prozesses war ein Bericht
+                über einen Theaterskandal in <rs type="place" ref="#866">Dresden</rs>
+                <lb xml:id="uuid_c6de7db1-6b8d-4643-9e7d-b16b8d56434f"/>bei der Premiere meines
+                Dramas „<rs type="work" ref="#53397">Die Unüberwindlichen</rs>“. Die <lb xml:id="uuid_455db9ff-5390-4797-9db9-ff5390e79784"/>Hauptverhandlungen in beiden
+                Angelegenheiten fanden am 28. Mai <lb xml:id="uuid_bbb23648-0ba1-43c4-b236-480ba153c478"/>1929 statt. Der
+                verantwortliche <rs type="person">Redakteur</rs> der „<rs type="institution" ref="#29351">Neuen Freien <lb xml:id="uuid_c768df59-2267-4b73-a8df-5922676b7389"/>Presse</rs>“ wurde von der Anklage mit der Begründung freigesprochen, <lb xml:id="uuid_f115b3ca-ae9f-4d4c-95b3-caae9f1d4c66"/>dass die verlangte
+                Berichtigung den pressgesetzlichen Bestimmun<lb xml:id="uuid_aa37fd05-4d6c-451c-b7fd-054d6c651c59" break="no"/>gen über das
+                Berichtigungsrecht nicht entspricht, „<quote xml:id="uuid_ce96a361-91d2-4240-914d-efc3fda6a0d5" source="">weil in der <lb xml:id="uuid_9ce806ff-c766-4100-a806-ffc76631009b"/>berichtigten Stelle
+                    nicht davon die Rede ist, dass an diesem <lb xml:id="uuid_493429d0-4d64-49dc-b429-d04d6489dc0f"/>Tage lediglich der
+                    Liederabend Jessie King und nicht auch andere <lb xml:id="uuid_b6733e59-a2d8-4b58-b33e-59a2d8bb58bd"/>Veranstaltungen im
+                    Konzerthause stattfanden,</quote>“ der verantwortliche <lb xml:id="uuid_9c8d8207-17f1-4270-8d82-0717f1727022"/>Redakteur des „<rs type="institution" ref="#29650">Tag</rs>“ mit der Begründung, dass zwei Punkte
+                des Be<lb xml:id="uuid_ea4fe6b1-ccb0-4dcf-8fe6-b1ccb03dcfb4" break="no"/>richtigungsschreibens dem Pressgesetz nicht entsprechen, weil zu <lb xml:id="uuid_166f2d3d-bf2b-4e82-af2d-3dbf2b1e82ba"/>einer Antithese die
+                bezügliche Behauptung in dem berichtigten <lb xml:id="uuid_180a8f5a-bbad-4ba5-8a8f-5abbad3ba5e8"/>Aufsatz fehle, in dem
+                berichtigten <rs type="work">Aufsatz</rs> behauptet wurde, dass <lb xml:id="uuid_d62959af-cb62-495c-a959-afcb62195c8f"/>dem Publikum etwas
+                mitgeteilt wurde und nur diese Mitteilung nicht <lb xml:id="uuid_66b44e75-e350-4226-b44e-75e350a2265a"/>aber der Inhalt der
+                Mitteilung berichtigt werden könnte und dass <lb xml:id="uuid_d5ee319b-84b1-4a51-ae31-9b84b12a51da"/>in der berichtigten
+                Mitteilung für einen Satz der Berichtigung <lb xml:id="uuid_5089b74c-79de-4be4-89b7-4c79debbe463"/>keine Rechtfertigung
+                enthalten sei.</p>
+            <p xml:id="uuid_f6260426-468e-4974-b09a-c4428db20c85"><lb xml:id="uuid_b801d013-3e92-4f57-81d0-133e925f57dd"/>Am 29. Mai 1929 in der <rs type="work" ref="#57251">Nr. 12757</rs> veröffentlicht <lb xml:id="uuid_dab8b82e-eb56-43fb-b8b8-2eeb56f3fb8c"/>das „<rs type="institution" ref="#29320">Neue Wiener Journal</rs>“ einen Prozessbericht, in dem fälschlich
+                    <lb xml:id="uuid_808df588-efd9-4faf-8df5-88efd91fafc1"/>behauptet wurde, dass
+                ich die unentgeltliche Ankündigung meiner <lb xml:id="uuid_5a7b4d46-c7e4-4c4a-bb4d-46c7e40c4a8e"/>Vorträge erzwingen wolle,
+                dass der Prozess sowohl gegen den Schrift<lb xml:id="uuid_d1bd660a-d15f-4543-bd66-0ad15fa543f6" break="no"/>leiter der „<rs type="institution" ref="#29351">Neuen Freien Presse</rs>“ als auch des „<rs type="institution" ref="#29650">Tag</rs>“ wegen der Nicht- <pb n="3" facs="D_000132-002-000-facs001-l002-p003"/>
+                <lb xml:id="uuid_f2ca9234-327b-4ea3-8a92-34327b4ea355"/>ankündigung meines Vortrages
+                geführt wurde und dass das <rs type="institution" ref="#50491">Gericht</rs>
+                <lb xml:id="uuid_eed6d55a-4c73-4e53-96d5-5a4c73ee53fa"/>in beiden Fällen einen
+                Freispruch fällte, weil es sich um eine <lb xml:id="uuid_09126e9a-f166-415a-926e-9af166115a6b"/>bezahlte Einschaltung einer
+                    <rs type="institution" ref="#57230">Konzertdirektion</rs> handle.</p>
+            <p xml:id="uuid_b91ae69a-b4c8-4825-958f-eee0bee8e1bc"><lb xml:id="uuid_fae84d81-79e5-471b-a84d-8179e5c71bc4"/>Ferner war behauptet worden,
+                dass der Sammeltitel, aus <lb xml:id="uuid_7b244844-7b9d-4781-a448-447b9dd781b6"/>dem ich die Vollständigkeit des Berichtes geschlossen und die <lb xml:id="uuid_c898ba30-8d73-405c-98ba-308d73705ce6"/>Berechtigung zur
+                Berichtigung abgeleitet habe, „<quote xml:id="uuid_e31278a5-08c0-4085-b76c-025ce3a11c6a" source="#57281">Im
+                    Konzerthaus</quote>“ <lb xml:id="uuid_d1261ba1-8780-4973-a61b-a18780b973be"/>gelautet hat. </p>
+            <p xml:id="uuid_b5d48b1c-31c4-4784-99ba-8fa72da88bce"><lb xml:id="uuid_8876b167-524d-4db1-b6b1-67524dedb1ae"/>Ich habe diesen
+                Prozessbericht des „<rs type="work" ref="#36376">Neuen Wiener Jour<lb xml:id="uuid_d7b82425-c761-40ac-b824-25c761e0acaa" break="no"/>nals</rs>“
+                durch meinen <rs type="person" ref="#38909">Anwalt</rs> mit <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000132-001-000">Berichtigungsschreiben</rs> vom 12. <lb xml:id="uuid_dca1f22a-6e7e-4bf1-a1f2-2a6e7eebf1fd"/>Juni 1929 berichtigen
+                lassen. Die <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000132-001-000">Berichtigung</rs>
+                wurde dem <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/36371">Be<lb xml:id="uuid_2b362c91-2156-4c04-b62c-9121561c0413" break="no"/>schuldigten</rs> am 18. Juni 1929 zugestellt. Die <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000132-001-000">Berichtigung</rs>
+                wurde <lb xml:id="uuid_8906c63a-d8b0-41ca-86c6-3ad8b091ca02"/>in den Nummern vom 19.
+                und 20. Juni nicht veröffentlicht.</p>
+            <p xml:id="uuid_79fc7aaa-9138-4277-b3fc-8fcd28a1e5ef"><lb xml:id="uuid_0cf242b3-5a40-49ea-b242-b35a4049ea5e"/><hi rend="underlined"><hi rend="spaced">Beweis</hi></hi>: Das <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000132-001-000">Berichtigungsschreiben</rs> vom 12. Juni 1929 <lb xml:id="uuid_fe60db71-6c1b-4863-a0db-716c1bf86385"/>(Rückschein wird zur
+                Verhandlung mitgebracht <lb xml:id="uuid_843f1fac-e9fb-4e38-bf1f-ace9fb4e3801"/>werden). die <rs type="work" ref="#57251">Nr. des „Neuen Wiener Journals“ vom
+                    29.5.1929</rs>.</p>
+            <p xml:id="uuid_2065553a-6938-43aa-9620-105e37febb52"><lb xml:id="uuid_8cdf1dee-8d79-4843-9f1d-ee8d79a843e2"/>Ich stelle durch meinen zur
+                G.Z. 1 U 20/29 aus<lb xml:id="uuid_a1c0d539-64e9-401d-80d5-3964e9801dbb" break="no"/>gewiesenen <rs type="person" ref="#38909">Anwalt</rs> folgende <lb xml:id="uuid_ea17d06f-6d73-4d79-97d0-6f6d732d7966"/><hi rend="spaced">Anträge</hi>, <lb xml:id="uuid_4b04e792-89d6-4790-84e7-9289d61790f5"/>1.)
+                Anberaumung einer Hauptverhandlung; <lb xml:id="uuid_df40bfe3-428f-4c95-80bf-e3428f3c953c"/>2.) Ladung des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/36371">Beschuldigten</rs>;
+                    <lb xml:id="uuid_68b0da29-c75b-45fb-b0da-29c75ba5fbf4"/>3.) Verlesung des <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000132-001-000">Berichtigungsschreibens</rs> und der vorgelegten <lb xml:id="uuid_b2a9714c-efe6-4fa8-a971-4cefe6efa8a0"/><rs type="work" ref="#57251">Zeitungsnummer</rs>; <lb xml:id="uuid_20f71042-071c-4e20-b710-42071c0e2043"/>4.) Bestrafung des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/36371">Beschuldigten</rs> und Erkenntnis
+                auf Veröffent<lb xml:id="uuid_8e17a599-23e9-4a3d-97a5-9923e9aa3d59" break="no"/>lichung der <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000132-001-000">Berichtigung</rs>;
+                    <lb xml:id="uuid_d02d1d48-a571-4136-ad1d-48a571e136f9"/>5.) Verpflichtung des
+                    <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/36371">Beschuldigten</rs> und zur ungeteilten Hand <lb xml:id="uuid_2b9ce7f1-23ad-4990-9ce7-f123ad09909a"/>mit ihm des <rs type="person">Herausgebers und Eigentümers</rs> des „<rs type="institution" ref="#29320">Neuen Wiener <lb xml:id="uuid_d6449f15-b725-4e37-849f-15b7257e375a"/>Journals</rs>“ <rs type="institution" ref="#52667">Lippowitz &amp; Co.</rs>,
+                vertreten durch Dr. <rs type="person" ref="#57323">Karl Reichl</rs>
+                <rs type="place" subtype="address" ref="#52670">Wien I., <lb xml:id="uuid_7cd869fa-1b2c-4454-9869-fa1b2c4454e9"/>Biberstrasse Nr. 5</rs>
+                zum Ersatz der Verfahrenskosten.</p>
+            <p xml:id="uuid_be151aa3-8402-4c97-8a7e-082d4df26932"><lb xml:id="uuid_2026537a-abab-4ace-a653-7aabab8ace56"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988"><hi rend="spaced">Karl
+                    Kraus</hi></rs>.</p>
+            <p xml:id="uuid_bfa1c99c-0adf-4813-bfc4-82b11781a0ca"><lb xml:id="uuid_5b8fa7e9-c0d6-4c1a-8fa7-e9c0d69c1a0a"/>Ich bitte, die Verhandlung
+                nicht <lb xml:id="uuid_48346fb9-aa21-4f60-b46f-b9aa217f6089"/>für den 2. Juli 1929
+                auzuberaumen.</p>
+            <pb n="4" facs="D_000132-002-000-facs001-l002-p004"/>
+            <p xml:id="uuid_f57342e6-d0b4-43d7-882b-d7b1c6a67d34"><note type="paratext" resp="law-firm"><lb xml:id="uuid_5f4ee949-173a-4153-8ee9-49173ad15327"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs> –
+                        <lb xml:id="uuid_9c37b17e-7d55-4dd6-b7b1-7e7d55bdd6f2"/><rs type="institution" ref="#29320">Neues Wr. Journal</rs></note></p>
+        </body>
+    </text>
+</TEI>

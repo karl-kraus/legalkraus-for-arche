@@ -1,0 +1,409 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000100-006-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000100-005-002.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000100-007-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G. Z. 1U 337/28, Richter: Karl Korst)</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000100-006-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3012</idno>
+                <idno type="ID" subtype="transkribus">232373</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000100">Karl Kraus ca. Johann Schober (Polizeipräsident von Wien)</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000100-006-000-wit01" facs=""/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1928-04-20" subtype="produced">20. April 1928</date>
+            </creation>
+            <langUsage> <language ident="de">Deutsch</language> </langUsage>
+            <textClass>
+                <keywords>
+                    <term>Protokoll</term>
+                </keywords>
+                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.J.PKL</classCode>
+            </textClass>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="header_facsimile" when-iso="2021-04-29" who="#IL"/>
+            <change type="structure" when-iso="2021-04-26" who="#IL"/>
+            <change type="references" when-iso="2021-04-28" who="#IL"/>
+            <change type="typography" when-iso="2021-04-28" who="#IL"/>
+            <change type="intertexts" when-iso="2021-04-28" who="#IL"/>
+            <change when-iso="2020-07-16T14:57:22.646Z" who="#IB">created by API</change>
+        <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of Transkribus Document 232373.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000043_36.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554986/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-7/100_117/00000043.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000044_40.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554987/full/full/0/default.jpg" source="wienbibliothek"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000049_33.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554992/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-7/100_117/00000049.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000050_39.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554993/full/full/0/default.jpg" source="wienbibliothek"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000045_33.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554988/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-7/100_117/00000045.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000051_34.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554994/full/full/0/default.jpg" source="wienbibliothek"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000052_36.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554995/full/full/0/default.jpg" source="wienbibliothek"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000053_32.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554996/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-7/100_117/00000053.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000054_38.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554997/full/full/0/default.jpg" source="wienbibliothek"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000055_38.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554998/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-7/100_117/00000055.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000059_37.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555002/full/full/0/default.jpg" source="wienbibliothek"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000060_38.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555003/full/full/0/default.jpg" source="wienbibliothek"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000061_39.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555004/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-7/100_117/00000061.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000062_40.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555005/full/full/0/default.jpg" source="wienbibliothek"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000063_40.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555006/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-7/100_117/00000063.jpg" source="scans"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="" n="1"/>
+            <p xml:id="uuid_118e813e-a8de-4dd1-b246-379257e646dc">
+                <lb xml:id="uuid_df9004ed-90aa-4211-9004-ed90aab21126"/>Abschrift. </p>
+            <p xml:id="uuid_f939e38a-a167-4b56-8718-c7d53614e84b">
+                <lb xml:id="uuid_40676f69-08bd-482e-a76f-6908bdc82ee8"/>Stempelgebühr Protokoll 2.–
+                S</p>
+            <p xml:id="uuid_c5a7e379-f6d1-4a3b-9fd3-b86a194383ea">
+                <lb xml:id="uuid_3054990e-f888-4e5e-9499-0ef888ee5ed5"/>Urteil 5.– S <lb xml:id="uuid_66ae4c59-4800-47dc-ae4c-59480037dcf7"/>von <rs type="person" ref="#38909">P.A.V.</rs> beigebracht <lb xml:id="uuid_1f4fcfbb-892a-4750-8fcf-bb892a9750a4"/>Geschäftszahl U 12 U 337/28
+                    <lb xml:id="uuid_2aa6f03c-d0ed-4df4-a6f0-3cd0ed2df4b5"/>Stempel 20.000 K <lb xml:id="uuid_21ff88dc-a840-4700-bf88-dca840e700d6"/>50.000 K </p>
+            <p xml:id="uuid_36550eba-b693-4799-94ac-b31b7392d4fe">
+                <lb xml:id="uuid_56da039f-9dd4-4e80-9a03-9f9dd43e807b"/>Oeffentliche
+                Hauptverhandlung <lb xml:id="uuid_4aa3dbc5-5677-4fc4-a3db-c556778fc484"/>in <rs type="place" ref="#50">Wien</rs> am 20. April 1928 Beginn 11.50 Uhr.</p>
+            <p xml:id="uuid_9352e915-af6d-4a76-b405-676b6eb271dd">
+                <lb xml:id="uuid_24e4527d-246e-4205-a452-7d246eb2053d"/>Gegenwärtig: <lb xml:id="uuid_ad526116-5236-4e68-9261-165236ae687f"/>Richter: LGR. Dr. <rs type="person" ref="#51604">Korst</rs> Schriftführer: <rs type="person" ref="#55036">Schlöser</rs>
+                <lb xml:id="uuid_adb53a8b-1b22-41ec-b53a-8b1b2221ec1b"/>staatsanw. Funktionär: <lb xml:id="uuid_1665d046-b2d7-4a35-a5d0-46b2d76a3502"/>Privatankläger: <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs>
+                n.e.Z.a. sein Vertreter <lb xml:id="uuid_6ef23ab4-752d-46b2-b23a-b4752d46b2be"/>Dr.
+                    <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38909">Oskar
+                    Samek</rs> O/V. v. 10.3.1928 </p>
+            <p xml:id="uuid_006bcab2-2139-41c6-a4e2-3863b965dd5f">
+                <lb xml:id="uuid_a2fe0211-bd52-4713-be02-11bd52f71378"/>Privatbeteiligter: sein
+                Vertreter: <lb xml:id="uuid_2d20fa4e-2bc3-40e0-a0fa-4e2bc340e09a"/>Angeklagter (der
+                Name folgt unten) Verteidiger: <lb xml:id="uuid_db959445-5b06-40cf-9594-455b0620cfa0"/>
+                <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Johann Schober</rs> n.e.Z.a. Dr.
+                    <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/3618">Adolf
+                    Bachrach</rs> O.V. v. 20.4.1928 <lb xml:id="uuid_0640f86f-54ce-4978-80f8-6f54ce097848"/>14.11.74 PergO. Oe. nach <rs type="place" ref="#50">Wien</rs> zust. k.v. <lb xml:id="uuid_4f9f9584-ff2e-4571-9f95-84ff2eb57160"/>Bundeskanzler a.D.u.
+                Präsident der <rs type="institution" ref="#37843">Pol.Dion. Wien</rs>
+                <lb xml:id="uuid_16074d9d-bae0-4fe7-874d-9dbae0dfe7fe"/>
+                <rs type="place" subtype="address" ref="#50493">I. Schottenring 11</rs> Franz-Klara unbescholten <lb xml:id="uuid_c725cab5-52a5-4465-a5ca-b552a5046582"/>Beschluss: Durchführung der
+                Verhandlung gem. <rs type="law" ref="">§ 459 StPO</rs>
+                <lb xml:id="uuid_d633fc00-b132-424f-b3fc-00b132524f66"/>Die Anklage wird
+                vorgetragen. Der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Angeklagte</rs> gibt <lb xml:id="uuid_6b7b4907-4775-4f0a-bb49-074775af0a95"/>über seine persönlichen Verhältnissen <lb xml:id="uuid_9b7df7b0-4e57-4f82-bdf7-b04e575f82be"/>und die Anklage an:</p>
+                <p xml:id="uuid_ad85191f-1a22-4afe-b133-4a88082fc20b">
+                <lb xml:id="uuid_e2f03fe7-af47-4147-b03f-e7af47d147df"/>Der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/3618">Verteidiger</rs> bringt zur
+                Verantwortung des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Angeklagten</rs> fol<lb xml:id="uuid_b80b539a-3eb1-4d0b-8b53-9a3eb1ad0b0a" break="no"/>gendes vor: Am 11.2. l.J. erschien eine Abordnung des <rs type="institution" ref="#37200">n.ö. Ge<lb xml:id="uuid_68bae726-544e-4598-bae7-26544e75984a" break="no"/>werbevereines</rs> bei Pol.Präs. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Schober</rs> mit der Bitte, einen
+                    Vor<lb xml:id="uuid_f6825484-9530-4c31-8254-8495303c31af" break="no"/>trag im
+                    <rs type="institution" ref="#37200">Gewerbeverein</rs> zu halten, wobei die Wahl
+                des Themas frei<lb xml:id="uuid_2f7ebbda-5d2e-45f8-bebb-da5d2e15f8d2" break="no"/>gestellt wurde. Präs. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Schober</rs> hat zugesagt und hat
+                sich, eine <lb xml:id="uuid_ddbe517f-e731-432e-be51-7fe731432e58"/>kurze Disposition
+                für sich allein gemacht. Am 23.2. l.J. erfolgten <lb xml:id="uuid_fb80fa51-1a5f-4af0-80fa-511a5f4af098"/>im <rs type="institution" ref="#55038">Parlament</rs> und in Zeitungen Angriffe gegen den <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Polizei<lb xml:id="uuid_9a98dd4f-a2cd-4800-98dd-4fa2cd3800e1" break="no"/>präsidenten</rs> und er dachte, in dem Vortrage darzustellen, welches <lb xml:id="uuid_ec1f4dd8-b460-4f38-9f4d-d8b4601f38db"/>Zerrbild von ihm entworfen
+                werde und hat seine zu haltende <lb xml:id="uuid_b6c3f9ae-03da-491a-83f9-ae03da091a8a"/>Rede ins Stenogramm
+                diktiert, welche in drei Ausfertigungen an<lb xml:id="uuid_b7e84389-96f0-4423-a843-8996f0b42392" break="no"/>gefertigt wurde.
+                Ein Exemplar behielt er für sich und hat er <lb xml:id="uuid_9407b128-1d1a-4667-87b1-281d1a566788"/>den Vortrag Wort für Wort,
+                wie er im Konzept niedergelegt war, ge<lb xml:id="uuid_911d1e7b-5d3c-4691-9d1e-7b5d3c9691f9" break="no"/>halten, nicht,
+                dass er ihn abgelesen hätte, doch hat er immer <lb xml:id="uuid_effe899f-144f-41ed-be89-9f144f51edaf"/>hinein geblickt, wie man es
+                eben bei Vorträgen, die einen be<lb xml:id="uuid_aaed73cb-3f46-420a-ad73-cb3f46c20a70" break="no"/>stimmten Wortlaut
+                haben sollen, zu tun pflegt. Ein Exemplar <lb xml:id="uuid_56d4518f-9e14-45d7-9451-8f9e14a5d701"/>hat ein <rs type="person">Stenograph</rs>, welcher anwesend war, um zu kontrollieren, <lb xml:id="uuid_6a8ed9f2-9271-4b17-8ed9-f292714b1748"/>ob die <rs type="work" ref="#55033">Rede</rs> so gehalten wurde, wie sie im Manuskript festge<lb xml:id="uuid_28e1ba80-2846-49d6-a1ba-80284659d6a0" break="no"/>legt war,
+                erhalten und dieser hat nachträglich über Befragen <lb xml:id="uuid_19b3af1d-1c54-4814-b3af-1d1c54d814f2"/>die Feststellung gemacht,
+                dass die <rs type="work" ref="#55033">Rede</rs> des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Präsidenten</rs> mit <lb xml:id="uuid_e7a9e47e-01ad-4443-a9e4-7e01ad2443d4"/>dem Manuskript
+                übereinstimmt. Die <rs type="work" ref="#55033">Rede</rs> wurde auch in den <lb xml:id="uuid_f7aaab6f-b574-4816-aaab-6fb574c81603"/>Zeitungen abgedruckt und
+                enthalten im Wesentlichen alles <pb facs="" n="2"/>
+                <lb xml:id="uuid_e310a427-ee50-4af3-90a4-27ee50aaf3eb"/>was der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Präsident</rs> gesagt hat. Es
+                wurde über Wirtschaft und öffent<lb xml:id="uuid_e4558991-e879-42f9-9589-91e87912f9be" break="no"/>liche Sicherheit
+                gesprochen. Der <rs type="work" ref="#55033">Vortrag</rs> stützt sich auf trockene
+                    <lb xml:id="uuid_4fc1c858-70d0-4244-81c8-5870d0c24413"/>Daten und führt die
+                Leistungen der <rs type="institution" ref="#37843">Polizeidirektion</rs>
+                <lb xml:id="uuid_48433bd9-4b03-457a-833b-d94b03157a07"/>und ihre Bedeutung für die
+                Wirtschaft an. Auf Seite 24 des in <lb xml:id="uuid_8a691a41-b459-49fd-a91a-41b45969fdf0"/>Druck erschienenen <rs type="work" ref="#55033">Vortrages</rs> heisst es: „Wenn man die von mir ge<lb xml:id="uuid_e3d1c204-33d0-46de-91c2-0433d076de17" break="no"/>leitete <rs type="institution" ref="#37843">Behörde</rs> Monate hindurch wider besseres
+                Wissen, Tag für <lb xml:id="uuid_825d9d50-0b1d-489f-9d9d-500b1df89f7d"/>Tag
+                verspottet und verhöhnt, wenn man sie als die unfähigste, bös<lb xml:id="uuid_3afd831e-8a28-4a75-bd83-1e8a285a75e1" break="no"/>artigste und
+                volksfeindlichste Institution hinstellt, dann war es <lb xml:id="uuid_ddb82364-6d31-479e-b823-646d31579eed"/>meiner Meinung nach an der
+                Zeit, dass bei dem Mangel aller anderen <lb xml:id="uuid_46be8de9-ea37-402a-be8d-e9ea37002acd"/>Abwehrmassnahmen, beim
+                Versagen der Gesetze, beim Versagen der <lb xml:id="uuid_106191d4-7d35-439d-a191-d47d35739d22"/>Geschworenengerichte, der
+                Chef dieser <rs type="institution" ref="#37843">Behörde</rs> endlich einmal selbst
+                    <lb xml:id="uuid_8ec9161f-281d-41bf-8916-1f281da1bfdf"/>den Mund aufmacht, um
+                vor einem unvoreingenommenen Forum, wie es <lb xml:id="uuid_a9b6e205-e5f1-4efa-b6e2-05e5f17efa5d"/>der <rs type="institution" ref="#37200">n.ö. Gewerbeverein</rs> mit seiner stolzen Tradition ist, in
+                ruhiger <lb xml:id="uuid_60c4f4fc-cdae-42b2-84f4-fccdae32b275"/>und
+                leidenschaftsloser Weise darzulegen, wie es in Wahrheit mit <lb xml:id="uuid_0e12989e-d0af-448f-9298-9ed0af448f83"/>dieser <rs type="institution" ref="#37843">Sicherheitsbehörde</rs> bestellt ist. Ich bin
+                dies meinen Mit<lb xml:id="uuid_f48c4579-ce69-451e-8c45-79ce69951e11" break="no"/>arbeitern und allen den braven Männern vom <rs type="person">Vizepräsidenten</rs>
+                    ange<lb xml:id="uuid_568ad24a-1045-40f9-8ad2-4a104590f978" break="no"/>fangen
+                bis zum jüngsten Wachebeamten schuldig, die die <rs type="institution" ref="#37843">Wiener <lb xml:id="uuid_daa59db0-3933-41c1-a59d-b0393311c1f1"/>Polizeidirektion</rs>, welche schon von meinen Vorgängern als ein Hort <lb xml:id="uuid_c5b5d1dc-e0fa-4832-b5d1-dce0fa7832c8"/>der Ordnung und Sicherheit
+                dieser schönen <rs type="place" ref="#50">Stadt</rs> betrachtet und <lb xml:id="uuid_1bbb97ef-fb06-4f94-bb97-effb06ef94d5"/>stets so gehalten wurde,
+                durch den Krieg und durch das Elend der <lb xml:id="uuid_636f093b-01eb-4b32-af09-3b01eb7b32ce"/>Nachkriegszeit hindurch mit
+                mir als jenes Instrument unversehrt <lb xml:id="uuid_6f5d8d93-57a1-46f8-9d8d-9357a156f82e"/>bewahrt haben, das keiner
+                anderen Devise gehorcht als: Saluti <lb xml:id="uuid_6bc16295-f538-4eac-8162-95f5389eac51"/>Publicaae, dem öffentlichen
+                Wohle. Ist mir dies gelungen, meine <lb xml:id="uuid_d820835e-b774-41d0-a083-5eb774d1d088"/>Herren und habe ich Sie
+                überzeugt, dann kann ich über alle An<lb xml:id="uuid_f059379e-e06b-4554-9937-9ee06b055499" break="no"/>griffe hinweg
+                beruhigt zur Tagesordnung schreiten und ich kann <lb xml:id="uuid_823115c6-1c61-49bd-b115-c61c6129bdc9"/>mich an jenem alten
+                Wahrspruch halten, der mir schon über viel <lb xml:id="uuid_72ae5bff-5453-434a-ae5b-ff5453334aa8"/>Trauriges und viele
+                Enttäuschungen in den letzten 10 Jahren meines <lb xml:id="uuid_f3109092-4e67-41e0-9090-924e67a1e0d0"/>Lebens hinweggeholfen hat,
+                der auch heute, trotz Missfallens, <lb xml:id="uuid_837670b5-a162-4999-b670-b5a162e99923"/>dass meine Zitate schon
+                wiederholt erregt haben, angeführt werden <lb xml:id="uuid_e8ae83be-2160-4664-ae83-be21602664e0"/>soll und der da lautet:
+                    „<quote xml:id="uuid_6630708c-60ce-4a0a-b768-8b533be7f452" source="#55033">Ich
+                    kehre mich nicht dran, Ich lass die <lb xml:id="uuid_0b3e29fd-e933-4d92-be29-fde9338d9269"/>Leute klügeln. Wer kann
+                    denn jedermann das lose Maul verriegeln? <lb xml:id="uuid_bdaf6d3d-9492-4d47-af6d-3d94925d47cb"/>Ich kann nicht besser
+                    Leben als dass ich dazu lach, dann haben <lb xml:id="uuid_dd2b802a-1cf0-406f-ab80-2a1cf0106ffc"/>die vergeben sich so
+                    viel Müh’ gemacht!</quote>“ Diese Schlussausführungen <lb xml:id="uuid_1ffedf69-5a87-48ba-bedf-695a8778ba73"/>leitete der Herr <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Polizeipräsident</rs> im Hinblick auf die am Vortage <lb xml:id="uuid_44bcb9fa-82e6-4693-bcb9-fa82e636939d"/>im <rs type="institution" ref="#55038">Parlament</rs> und in einigen Zeitungen erfolgten Angriffe mit den
+                    <lb xml:id="uuid_3ed485d0-af98-4d92-9485-d0af982d9253"/>Worten (<rs type="work" ref="#55033">Seite 23</rs> der <rs type="work" ref="#55033">Broschüre</rs>) ein:
+                    „<quote xml:id="uuid_002757ce-7d2a-489c-b5b4-f712728c84d9" source="#55033">Vielleicht genügen diese <lb xml:id="uuid_5457910a-d6c1-4ad7-9791-0ad6c12ad75a"/>meine Ausführungen und die hiebei unvermeidlich gewesenen stati<lb xml:id="uuid_a3f3f267-d00e-4ac4-b3f2-67d00eeac4c1" break="no"/>stischen
+                    Daten, um Ihnen in kurz gedrängter Weise ein einiger<lb xml:id="uuid_48266d5a-1469-4d60-a66d-5a14697d6028" break="no"/>massen
+                    anschauliches Bild des Zustandes der öffentlichen Sicher<lb xml:id="uuid_bd5b99d4-917f-4138-9b99-d4917fc1383c" break="no"/>heit in Wien
+                    zu geben, ein Bild, das erheblich abweicht von dem <lb xml:id="uuid_e7b5f5e0-64ba-4540-b5f5-e064bae54053"/>Zerrbilde, das einige
+                    Zeitungen und einige Parlamentarier zu zeichnen <lb xml:id="uuid_dc348f43-4c7f-4fc2-b48f-434c7fbfc2d9"/>versucht haben.</quote>“
+                Wenn in der <rs type="work" ref="#36374">N.Fr.Pr.</rs> etwas anderes steht, müsste
+                    <lb xml:id="uuid_bb8bd5a4-ffd8-46c7-8bd5-a4ffd806c7a5"/>eigentlich festgestellt
+                werden, wieso die Wiedergabe der Rede von <lb xml:id="uuid_d8e89e5f-ea45-42a0-a89e-5fea4512a0e5"/>dem tatsächlichen Wortlaut
+                abweicht. Wie aus dem Wortlaut schon klar <lb xml:id="uuid_919862f8-d711-4d92-9862-f8d711cd92ac"/>hervorgeht, war es dem Herrn
+                    <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Polizeipräsidenten</rs> darum zu tun, <pb facs="" n="3"/>
+                <!--#IL Kanzleimarkierungen?-->
+                <lb xml:id="uuid_4a09b24a-ce75-4aff-89b2-4ace752affcd"/>abzuwehren, was Zeitungen
+                und Parlamentarier über ihn ausgesprochen <lb xml:id="uuid_b68fd8f6-d8ee-48cd-8fd8-f6d8eea8cd5b"/>hatten, es ist ihm ferne
+                gelegen, jemanden anzugreifen, an den <lb xml:id="uuid_dd0b4c41-d995-43ca-8b4c-41d995d3ca13"/>Privatankläger bei diesem
+                Anlass irgendwie zu denken, hatte er <lb xml:id="uuid_4271d3be-c4ad-48b9-b1d3-bec4ad98b9cc"/>keinen Anlass und auch in
+                dem Saal in dem die <rs type="work" ref="#55033">Rede</rs> gehalten wor<lb xml:id="uuid_40d726ac-b951-43e8-9726-acb951b3e8e7" break="no"/>den ist, hat
+                sicher niemand daran gedacht, dass <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs> damit <lb xml:id="uuid_3a92b195-1814-44e2-92b1-95181494e2dc"/>gemeint sein könnte. Herr
+                Präsident <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Schober</rs> wollte nur darauf <lb xml:id="uuid_9e1343f6-c34a-4496-9343-f6c34a94964d"/>hinweisen, dass durch seine
+                Ausführungen die gegen ihn erhobenen <lb xml:id="uuid_0323afdc-c8d6-4e23-a3af-dcc8d6be2304"/>Angriffe widerlegt seien. In
+                früheren Reden hat Präs. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Schober</rs>
+                <lb xml:id="uuid_24416f11-6491-44cd-816f-11649134cd67"/>allerdings Angriffe erhoben,
+                welche aber in keinem Zusammenhang <lb xml:id="uuid_f9e2a561-10ef-4ce9-a2a5-6110ef0ce95a"/>mit dem gegenständlichen
+                Vortrage stehen. Präsident <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Schober</rs>
+                <lb xml:id="uuid_1e5da5e3-f559-49bf-9da5-e3f559f9bf66"/>hat seiner vorgesetzten
+                Stelle von den Angriffen des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">P.A.</rs> in <lb xml:id="uuid_3957fe9c-f617-4b4d-97fe-9cf617bb4d5b"/>der Sache <rs type="person" ref="#37843">Bekessy</rs> Meldung erstattet und betrachtete die Ange<lb xml:id="uuid_24c4a568-741b-418d-84a5-68741b618d94" break="no"/>legenheit als
+                erledigt. <rs type="person" ref="#38909">P.A.V.</rs> führt aus: Wenn der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/3618">Verteidiger</rs> von
+                    <lb xml:id="uuid_db255fbc-97d5-45bf-a55f-bc97d555bf63"/>„<quote xml:id="uuid_8b45d608-fe5c-4ca6-abf5-e4df7c553320" source="">Zeitungen und
+                    Parlamentariern</quote>“ spricht, so findet die Verant<lb xml:id="uuid_2a313b33-1770-4287-b13b-331770c2872f" break="no"/>wortung der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Besch.</rs> zu
+                seiner Exkulpierung allerdings eine starke <lb xml:id="uuid_8da6faf6-739b-4c4c-a6fa-f6739bfc4cdb"/>Stütze. Es wäre daher durch
+                Vernehmung der vom <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">P.A.</rs> beantragter <lb xml:id="uuid_b28916fd-4209-4790-8916-fd4209e7902a"/>Zeugen und des, die <rs type="work" ref="#55033">Rede</rs> des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Polizeipräsidenten</rs> an Hand
+                des <lb xml:id="uuid_9d411c87-01ee-4ee9-811c-8701eeaee979"/>Manuskriptes
+                kontrollierenden <rs type="person">Stenographen</rs>, festzustellen, wie der <lb xml:id="uuid_e15f7ca0-4802-45a4-9f7c-a0480275a44c"/>genaue Wortlaut der
+                Schlussausführungen gelautet hat. Der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/3618">Vert.</rs> hat <lb xml:id="uuid_3579d687-2ce3-41a4-b9d6-872ce361a435"/>ausgeführt, dass der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Polizeipräsident</rs> aus Anlass der am Tage <lb xml:id="uuid_ba121f78-2eab-417b-921f-782eab717b71"/>vorher im <rs type="institution" ref="#55038">Parlament</rs> erfolgten Angriffe, sich
+                sozusagen in der <lb xml:id="uuid_6ce69fa8-4cea-4779-a69f-a84cea1779ad"/>Oeffentlichkeit verteidigen bezw. rechtfertigen wollte. Aber ge<lb xml:id="uuid_5cd2eec5-1964-4f64-92ee-c51964af648a" break="no"/>rade dieser
+                Umstand spricht dafür, dass Präsident Schober mit <lb xml:id="uuid_4317772f-e9af-4fb4-9777-2fe9af6fb4e2"/>seinen Ausführungen auch den
+                P.A. gemeint hat, weil Dr. Eisler <lb xml:id="uuid_0f56ab5d-7119-44ac-96ab-5d711994ac2b"/>in seiner Rede im <rs type="institution" ref="#55038">Parlament</rs> auf die Angriffe <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs>
+                    hinge<lb xml:id="uuid_5217f842-ad21-4c55-97f8-42ad217c559f" break="no"/>wiesen
+                hat. Es wird der Antrag gestellt die Verhandlung zur Be<lb xml:id="uuid_bad3bc5d-a3c7-4823-93bc-5da3c7782374" break="no"/>kanntgabe des
+                Namens des kontrollierenden <rs type="person">Stenographen</rs> und dessen <lb xml:id="uuid_3e3d4694-3e1f-4bc6-bd46-943e1f2bc622"/>Ladung zu vertagen. Wenn von
+                Personen gesprochen wird, kann es <lb xml:id="uuid_117cdf0e-76df-4c6b-bcdf-0e76df9c6b99"/>sich nicht um Parlamentarier
+                handeln, sondern müssen Privat<lb xml:id="uuid_6b3bff0f-7c3b-444f-bbff-0f7c3be44f05" break="no"/>personen gemeint sein. In diesem Falle kann es sich daher nur <lb xml:id="uuid_fb00aab0-b1a8-4edb-80aa-b0b1a8bedbb8"/>um Personen handeln, die
+                ausserhalb der Politik stehen und <lb xml:id="uuid_401a9a65-2802-4690-9a9a-652802e690c0"/>muss darauf hingewiesen
+                werden, dass keine andere Privatperson <lb xml:id="uuid_1b667872-c49e-4a80-a678-72c49e7a8038"/>sich mit den Ereignissen des
+                17. Juli 1927 und mit der Be<lb xml:id="uuid_84d21c43-d3e3-4d50-921c-43d3e31d504f" break="no"/>günstigung des Erpressers <rs type="person" ref="#37843">Bekesy</rs>
+                befasst und gewisse Angriffe <lb xml:id="uuid_5b777b70-c9e3-44ef-b77b-70c9e384ef08"/>gegen die <rs type="institution" ref="#37843">Polizei</rs> erhoben hat als <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs>. Es
+                gehört auch <lb xml:id="uuid_4a94d73f-4152-46d8-94d7-3f415286d815"/>zur öffentlichen
+                Sicherheit, ob ein Verbrecher ein richtiges <lb xml:id="uuid_2cc2df05-3b55-4196-82df-053b55019648"/>Leumundszeugnis bekommt oder
+                ein gefärbtes Zeugnis. Der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Poli<lb xml:id="uuid_d280e7fb-b1ea-48ed-80e7-fbb1eab8ed95" break="no"/>zeipräsident</rs> konnte nur im Rahmen eines fachlichen Vortrages <lb xml:id="uuid_c406ec5f-9904-4f04-86ec-5f9904af045d"/>über Sicherheit sprechen, er
+                führte aber an, warum er diesen Vor<lb xml:id="uuid_3787e5b2-07c3-44d3-87e5-b207c3c4d3c3" break="no"/>trag hält und
+                begründete dies damit, weil die Gesetze und die <lb xml:id="uuid_13d9eac5-1e67-4520-99ea-c51e674520af"/>Geschworenengerichte
+                versagen. Es ergibt sich daraus, dass ihm <lb xml:id="uuid_912f820b-3bde-475d-af82-0b3bde275dd3"/>eine Verteidigung vor einem
+                Gerichte nicht möglich war und er <lb xml:id="uuid_6b15b386-9ff3-4fc6-95b3-869ff3cfc639"/>diesen Weg wählte. Es kann
+                daher, wenn die Rede Dr. <rs type="person">Eisler</rs> im <lb xml:id="uuid_7246c0b8-4b95-4102-86c0-b84b9551027e"/>
+                <rs type="institution" ref="#55038">Parlament</rs>, die Beschuldigungen durch den Schriftsteller <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl <lb xml:id="uuid_93b3423e-8afe-40fe-b342-3e8afe30fe78"/>Kraus</rs> behandelt,
+                und der am nächsten Tage erfolgten Verteidigungs<lb xml:id="uuid_17a9fd95-b5ed-40a4-a9fd-95b5ed70a4ab" break="no"/>rede des Herrn
+                    <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Polizeipräsidenten</rs> in Zusammenhang gebracht wer- <pb facs="" n="4"/>
+                <lb xml:id="uuid_26752f11-f786-4514-b52f-11f786c514ed"/>den – und darüber kann nach
+                den Ausführungen der <rs type="person">Verteidigung</rs> kein <lb xml:id="uuid_df9fd9ed-77ea-436c-9fd9-ed77ea236c34"/>Zweifel sein –, als sicher
+                angenommen werden, dass der Herr <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Präsi<lb xml:id="uuid_6de349b5-ef21-4b41-a349-b5ef21ab41ec" break="no"/>dent</rs> den
+                    <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatankläger</rs> in seine <rs type="work" ref="#55033">Rede</rs> mit
+                einbezogen hat. <lb xml:id="uuid_d3a3b515-4a12-4cf7-a3b5-154a129cf742"/>
+                <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/3618">
+                    <hi rend="underlined">Verteidiger</hi>
+                </rs> spricht sich gegen eine Vertagung
+                aus. Es wird be<lb xml:id="uuid_01ce978c-8588-4c2d-8e97-8c85885c2d94" break="no"/>stritten, dass es in der <rs type="work" ref="#55033">Rede</rs> heisst: „<quote xml:id="uuid_5583415a-226a-4c35-8c10-c46bdcd34c82" source="">Personen</quote>“
+                und zum Nachweis, <lb xml:id="uuid_f7fdf24c-bc83-463a-bdf2-4cbc83a63ac6"/>dass der
+                    <rs type="work" ref="#55033">Vortrag</rs> tatsächlich so gehalten wurde wie im
+                Manuskript <lb xml:id="uuid_9cfc5e55-00ee-4787-bc5e-5500ee2787ca"/>festgelegt, wird
+                der beim Vortrage anwesende Reg.Rat. Dr. <rs type="person" ref="#55040">Heinrich <lb xml:id="uuid_4ad41e40-294c-4a06-941e-40294c7a0615"/>Feigl</rs>, welcher im
+                    <rs type="institution" ref="#50491">Gerichtshaus</rs> anwesend ist, geführt. Ich
+                gehe <lb xml:id="uuid_95fc00eb-cea0-43cf-bc00-ebcea063cf5b"/>gar nicht darauf ein,
+                dass wenn von Parlamentariern gesprochen <lb xml:id="uuid_c2a8c9eb-9d04-45c2-a8c9-eb9d0475c2a2"/>wird, nicht von Personen
+                gesprochen werde. Nun soll deduziert <lb xml:id="uuid_9a19e367-40f4-40f6-99e3-6740f410f6ae"/>werden, dass gerade <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs> in der
+                Rede gemeint war. Aber gerade <lb xml:id="uuid_d0c11bba-ff6d-4dbe-811b-baff6d9dbe3e"/>
+                <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs>
+                war nicht gemeint, denn Präsident <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Schober</rs> hätte Gelegen<lb xml:id="uuid_e745992e-8c60-4221-8599-2e8c608221aa" break="no"/>heit gehabt,
+                hierüber in der Oeffentlichkeit zu sprechen und <lb xml:id="uuid_1e69b5f6-00bf-483b-a9b5-f600bf083bbe"/>hätte nicht notwendig
+                gehabt, davon im <rs type="institution" ref="#37200">n.ö. Gewerbeverin</rs> zu <lb xml:id="uuid_dcd72c33-7dd0-4bea-972c-337dd07bea67"/>sprechen. Der <rs type="work" ref="#55033">Vortrag</rs> ist, wie bereits gesagt, schon 14 Tage
+                vorher <lb xml:id="uuid_1d1a9f39-212c-4e29-9a9f-39212c1e29ac"/>über Ersuchen einer
+                Abordnung des <rs type="institution" ref="#37200">n.ö. Gewerbevereines</rs> zugesagt
+                    <lb xml:id="uuid_5bfaf8f7-809a-4e05-baf8-f7809a9e05fe"/>worden und stand auch
+                das Thema bereits fest. Erst mit Rücksicht <lb xml:id="uuid_f21d7c2d-7e12-4844-9d7c-2d7e12884419"/>auf die am Vortage erfolgten
+                Angriffe ist der Schluss mit auf<lb xml:id="uuid_bdf0db58-c26c-4645-b0db-58c26ca64537" break="no"/>genommen worden,
+                um einen Vergleich zu ziehen, zwischen den Zerr<lb xml:id="uuid_a37983f9-3d99-4ac6-b983-f93d993ac62b" break="no"/>bildern die in
+                Zeitungen und durch Parlamentarier wiedergegeben <lb xml:id="uuid_b0e07973-6ca5-49ee-a079-736ca519ee4f"/>wurden und den Tatsachen auf
+                Grund des Vortrages. Ich spreche <lb xml:id="uuid_6b5b0211-a008-43cf-9b02-11a00803cf0b"/>mich entschieden gegen eine
+                Vertagung und dass diese groteske, <lb xml:id="uuid_62b67210-3afe-4001-b672-103afef001b7"/>bei den Haaren herbei
+                gezogene Sache noch weiter verfolgt werde, <lb xml:id="uuid_53f6ca8a-5565-4f6e-b6ca-8a55654f6ebb"/>aus.</p>
+            <p xml:id="uuid_0f0e66ab-ce79-4f9b-80b3-a86d1db41d47">
+                <lb xml:id="uuid_10047cb4-476b-4d20-847c-b4476b5d20bc"/>
+                <rs type="person" ref="#38909">
+                    <hi rend="underlined">P.A.V.</hi>
+                </rs> beantragt Vorlesung der
+                Parlamentsberichte <lb xml:id="uuid_e2c2b240-c2bb-4ea4-82b2-40c2bb0ea4ad"/>Beschluss: Vernehmung des als Zeugen beantragten Dr. <rs type="person" ref="#55040">Heinrich <lb xml:id="uuid_387354a5-06df-4986-b354-a506dfb98633"/>Feigl</rs>
+            </p>
+            <p xml:id="uuid_cfe4af71-3b51-4d7e-9afd-865b6bca1ca6">
+                <lb xml:id="uuid_88d43d5f-581f-4ced-943d-5f581f2cede9"/>
+                <hi rend="underlined">Zeuge
+                    Dr. <rs type="person" ref="#55040">Heinrich Feigl</rs>
+                </hi> 40 <rs type="place" ref="#50">Wien</rs> k.v. Reg.rat bei der <rs type="institution" ref="#37843">Pol.Dion</rs> V. <lb xml:id="uuid_dccf65dd-ddbc-4171-8f65-ddddbc317158"/>
+                <rs type="place" subtype="address" ref="#55044">Thielgasse 52</rs> nach W.E. gibt an:
+                Ich war während des ganzen Vortra<lb xml:id="uuid_ca16ec69-d980-4c3e-96ec-69d9802c3e74" break="no"/>ges des Herrn
+                Pol.präsidenten <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Schober</rs> im <rs type="institution" ref="#37200">Gewerbeverein</rs> anwesend
+                    <lb xml:id="uuid_4fb1da3b-88a8-4649-b1da-3b88a8f649a9"/>und hatte das Konzept,
+                welches ich am Vortage bereits erhalten <lb xml:id="uuid_5763b5b6-ed67-427b-a3b5-b6ed67b27b14"/>hatte 3–4 mal durch gelesen
+                und habe verfolgt, ob die <rs type="work" ref="#55033">Rede</rs> mit <lb xml:id="uuid_a0a4fd8d-2149-469b-a4fd-8d2149c69b88"/>dem Konzept übereinstimmt.
+                Ich war vom <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Redner</rs> ca 20 Schritte ent<lb xml:id="uuid_60ed33f3-cf68-4f8c-ad33-f3cf687f8cf0" break="no"/>fernt und konnte
+                alles deutlich hören.</p>
+            <p xml:id="uuid_c892087d-3653-4923-8121-cbdab0ed9777">
+                <lb xml:id="uuid_c74bd1c9-83e4-4e14-8bd1-c983e4ee149c"/>
+                <hi rend="underlined">Ueber
+                    Befragen des <rs type="person" ref="#51604">Richters</rs>
+                </hi> über den auf
+                Seite <rs type="work" ref="#55033">23</rs> u. <rs type="work" ref="#55033">24</rs>
+                der <lb xml:id="uuid_b2670f8a-830d-421b-a70f-8a830d421bda"/>
+                <rs type="work" ref="#55033">Broschüre</rs> angeführten Wortlaut, gibt <rs type="person" ref="#55040">Zeuge</rs> an: Die <rs type="work" ref="#55033">Rede</rs> war ganz
+                    <lb xml:id="uuid_99d621b9-9b48-4795-9621-b99b48f795fc"/>allgemein gehalten über
+                die Presskampagne – die Aeusserungen dem <lb xml:id="uuid_4c62d117-70b0-492e-a2d1-1770b0192e19"/>Wortlaut nach könnte ich
+                heute nicht genau sagen – es war auch <lb xml:id="uuid_8221c586-20ac-4fd0-a1c5-8620acefd0e1"/>von Angriffen im <rs type="institution" ref="#55038">Parlament</rs> die Rede. Der Sinn war der: „es
+                    <lb xml:id="uuid_e4d95f64-213c-43c3-995f-64213c83c359"/>ist unmöglich jedermann
+                recht zu tun, man müsse seine Pflicht <lb xml:id="uuid_b31352a7-726a-4217-9352-a7726a321747"/>erfüllen“. Wer Angriffe
+                gegen die <rs type="institution" ref="#37843">Polizei</rs> erhebt, ist nicht <lb xml:id="uuid_2a939390-8ebb-4221-9393-908ebbb22111"/>gesagt worden.</p>
+            <p xml:id="uuid_9aa69dbd-3b69-4261-b5c8-6a19edf7d502">
+                <lb xml:id="uuid_8cdd773f-f0af-4ad7-9d77-3ff0af5ad7c1"/>Ueber Befragen des <rs type="person" ref="#38909">P.A.V.</rs> ob er der <rs type="person">Stenograph</rs> sei, der an Hand <lb xml:id="uuid_2fd2e124-cb4c-480b-92e1-24cb4cc80b3c"/>das Konzeptes den <rs type="work" ref="#55033">Vortrag</rs> kontrolliert habe? gibt <rs type="person" ref="#55040">Zeuge</rs> an: <lb xml:id="uuid_3929d606-c1d0-4235-a9d6-06c1d032352b"/>Dies müsste jemand vom <rs type="institution" ref="#37200">Gewerbeverein</rs> gewesen sein. <lb xml:id="uuid_916d5495-a534-4710-ad54-95a534871086"/>
+                <rs type="person" ref="#38909">P.A.V.</rs> auf Befragen des <rs type="person" ref="#51604">Richters</rs>, woraus er entnehme, dass der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">P.A.</rs>
+                <pb facs="" n="5"/>
+                <lb xml:id="uuid_f98ecc20-0fb6-4adc-8ecc-200fb6badc58"/>in der <rs type="work" ref="#55033">Rede</rs> des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Besch.</rs> gekennzeichnet ist?
+                Das Objekt des An<lb xml:id="uuid_6ddd6648-458c-4ec8-9d66-48458cdec8a1" break="no"/>griffes solle zwar anonym bleiben. Aber aus den vorher gehenden <lb xml:id="uuid_807ec056-39b2-482f-bec0-5639b2e82f78"/>Vorgängen ist dies zu
+                entnehmen. </p>
+            <p xml:id="uuid_50341724-2074-4ba7-becc-bd97ac83f348">
+                <lb xml:id="uuid_dc994683-1a58-4ec4-9946-831a584ec48b"/>Zeuge Dr. <rs type="person" ref="#55040">Heinrich Feigl</rs> über Befragen des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/3618">Vert.</rs>, ob der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Präsident</rs>
+                <lb xml:id="uuid_f33d7ede-afe8-4216-bd7e-deafe85216fd"/>von Zeitungen und einigen
+                Parlamentariern gesprochen hat, oder <lb xml:id="uuid_ab3d8102-965b-4082-bd81-02965b2082c1"/>von Zeitungen und „<quote xml:id="uuid_b6ae507f-ace9-41e0-8f81-420ffee20282" source="">einigen
+                    Personen</quote>“? gibt an: Das könnte ich <lb xml:id="uuid_c7601db4-d048-4e78-a01d-b4d048ee785e"/>heute nicht mehr sagen. Auf
+                die Frage des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">P.A.</rs> wann der letzte <lb xml:id="uuid_38838f05-1207-4dd3-838f-0512073dd353"/>Vortrag vom <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Polizeipräsidenten</rs> im <rs type="institution" ref="#37200">Gewerbeverein</rs> gehalten wurde? <lb xml:id="uuid_18acd808-8ed1-4239-acd8-088ed1e23988"/>gibt Zeuge Dr. <rs type="person">Feigl</rs> an: Im Jahre 1922 oder 1923 und wurde damals <lb xml:id="uuid_0e888e7f-adc1-4027-888e-7fadc12027f9"/>auch über die
+                Sicherheitsverhältnisse gesprochen. </p>
+            <p xml:id="uuid_83875895-709e-4c5b-b876-afa59476010c">
+                <lb xml:id="uuid_fb9ad6ea-135d-4abb-9ad6-ea135dcabbff"/>
+                <rs type="person" ref="#38909">P.A.V.</rs> beantragt Vernehmung der beantragten Zeugen zur
+                    Feststel<lb xml:id="uuid_0eaaf281-c607-4853-aaf2-81c607b853b3" break="no"/>lung
+                des objektiven Tatbestandes zum Nachweis darüber, ob der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Besch.</rs>
+                <lb xml:id="uuid_0e57c48e-cc56-40af-97c4-8ecc56c0af90"/>sich in seiner <rs type="work" ref="#55033">Rede</rs> auf den <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">P.A.</rs> bezogen haben
+                konnte.</p>
+            <p xml:id="uuid_4d999ab2-6b24-4317-9db7-8533853a456c">
+                <lb xml:id="uuid_956dc824-6340-4577-adc8-246340b57740"/>Beschluss: Ablehnung
+                sämtlicher Beweisanträge wegen Unerheblich<lb xml:id="uuid_d0710d9b-23e9-4071-b10d-9b23e9f07198" break="no"/>keit <lb xml:id="uuid_6625b1d0-a046-4f54-a5b1-d0a046ff54e1"/>Beweisverfahren beschlossen </p>
+            <p xml:id="uuid_fc56c0f5-3eba-4e45-8202-d32f4942f0d9">
+                <lb xml:id="uuid_3bd1bc7d-adc1-4f38-91bc-7dadc11f386a"/>Der <rs type="person" ref="#38909">P.A.V.</rs> beantragt Bestrafung des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/24444">Angeklagten</rs>
+                <lb xml:id="uuid_a0fae559-52d9-402b-bae5-5952d9502b1e"/>Der <rs type="person" ref="#38909">P.A.V.</rs> gebraucht während seiner Ausführungen die Worte: „<q type="spoken" who="#38909">In <lb xml:id="uuid_d06a074d-541d-4f03-aa07-4d541ddf0315"/>die Leumundnote des <rs type="person" ref="#37843">Bekesy</rs> wurden die Worte: ‚– laut eigener <lb xml:id="uuid_ba36afb1-806b-42b4-b6af-b1806b22b449"/>Angabe –‘
+                    hineingeschmuggelt</q>“ Der <rs type="person" ref="#51604">Richter</rs> weist
+                diesen Ausdruck <lb xml:id="uuid_75ae3b8f-1f55-4aaf-ae3b-8f1f556aaf6f"/>zurück,
+                worauf der <rs type="person" ref="#38909">P.A.V.</rs> diese Worte zurück nimmt und
+                sich mit: <lb xml:id="uuid_7978de67-a609-4ab2-b8de-67a6095ab2b5"/>„<q type="spoken" who="#38909">hineingebracht</q>“ verbessert.</p>
+            <p xml:id="uuid_7a54d05a-947f-48f0-a02a-3102d70e9280">
+                <lb xml:id="uuid_2963687e-a236-4a0a-a368-7ea2362a0ac2"/>
+                <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/3618">Vert.</rs> beantragt
+                Freispruch</p>
+            <p xml:id="uuid_702a670f-8d49-4947-9242-7dc0fc5bb0c8">
+                <lb xml:id="uuid_919a88dd-4bf5-4c9e-9a88-dd4bf55c9e32"/>Verhandlung geschlossen</p>
+            <p xml:id="uuid_11cec4e5-569e-44d6-998a-47dcea910a93">
+                <lb xml:id="uuid_9ad56fb1-d983-4d94-956f-b1d9839d94c4"/>Urteilsverkündung </p>
+            <p xml:id="uuid_c710a9e0-041d-4150-b944-bed4eca1b2f4">
+                <lb xml:id="uuid_1e028493-77d9-4d2e-8284-9377d99d2e9a"/>Der <rs type="person" ref="#38909">P.A.V.</rs> erklärt, sich [drei Tage] Bedenkzeit vorzubehalten</p>
+            <p xml:id="uuid_7679f698-edcd-42b8-8505-cbf0e51500ad">
+                <lb xml:id="uuid_e9030dda-8748-4cdf-830d-da87483cdfc2"/>Richter: 12 Uhr Dauer 45
+                Minuten Schriftführer: <lb xml:id="uuid_69eab84e-fc9f-4825-aab8-4efc9f982568"/>Dr.
+                    <rs type="person" ref="#51604">Korst</rs>
+                <rs type="person" ref="#55036">Schlöser</rs>.</p>
+        </body>
+    </text>
+</TEI>

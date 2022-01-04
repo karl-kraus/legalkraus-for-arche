@@ -1,0 +1,546 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000025-003-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-002-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-004-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Protokolle der Zeugenvernehmungen (Strafbezirksgericht I Wien, G. Z. U XII
+                    71/26)</title>
+                <editor ref="#JK">Johannes Knüchel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthyanystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000025-003-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/1881</idno>
+                <idno type="ID" subtype="transkribus">180631</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000025">Karl
+                    Kraus ca. Die Stunde</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000025-003-000-wit01" facs="D_000025-003-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1926-02-13" subtype="produced">13. Februar 1926 bis
+                    10. September 1926</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>Protokoll</term>
+                </keywords>
+                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.J.PKL</classCode>
+            </textClass>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="intertexts" when-iso="2021-10-13" who="#JK"/>
+            <change type="typography" when-iso="2021-10-13" who="#JK"/>
+            <change type="references" when-iso="2021-10-13" who="#JK"/>
+            <change type="structure" when-iso="2021-10-13" who="#JK"/>
+            <change when-iso="2020-02-06T08:49:55.407Z" who="#IB">created by API</change>
+            <change when-iso="2020-02-06T08:52:40.94Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-06T08:52:42.14Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-06T08:52:43.555Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-06T08:52:45.204Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-06T08:52:47.011Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-06T08:52:48.987Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-06T08:52:51.724Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-06T08:52:53.555Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-06T08:52:54.853Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-06T08:52:56.18Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-06T08:52:57.595Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-06T08:52:59.159Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-06T08:53:00.507Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-06T08:53:01.836Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-06T08:53:03.013Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-06T08:53:04.244Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 180631.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000025-003-000-facs001">
+        <surfaceGrp xml:id="D_000025-003-000-facs001-l001">
+            <surface xml:id="D_000025-003-000-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000345_2.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541674/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000345.jpg" source="scans"/>
+            </surface>
+            <surface xml:id="D_000025-003-000-facs001-l001-p002" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000346_3.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541675/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000346.jpg" source="scans"/>
+            </surface>
+            <surface xml:id="D_000025-003-000-facs001-l001-p003" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000347_2.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541676/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000347.jpg" source="scans"/>
+            </surface>
+            <surface xml:id="D_000025-003-000-facs001-l001-p004" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000348_1.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541677/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000348.jpg" source="scans"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000025-003-000-facs001-l002">
+            <surface xml:id="D_000025-003-000-facs001-l002-p005" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000349_2.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541678/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000349.jpg" source="scans"/>
+            </surface>
+            <surface xml:id="D_000025-003-000-facs001-l002-p006" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000350_2.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541679/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000350.jpg" source="scans"/>
+            </surface>
+            <surface xml:id="D_000025-003-000-facs001-l002-p007" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000351_2.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541680/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000351.jpg" source="scans"/>
+            </surface>
+            <surface xml:id="D_000025-003-000-facs001-l002-p008" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000352_2.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541681/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000352.jpg" source="scans"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000025-003-000-facs001-l003">
+            <surface xml:id="D_000025-003-000-facs001-l003-p009" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000353_2.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541682/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000353.jpg" source="scans"/>
+            </surface>
+            <surface xml:id="D_000025-003-000-facs001-l003-p010" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000354_2.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541683/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000354.jpg" source="scans"/>
+            </surface>
+            <surface xml:id="D_000025-003-000-facs001-l003-p011" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000355_1.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541684/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000355.jpg" source="scans"/>
+            </surface>
+            <surface xml:id="D_000025-003-000-facs001-l003-p012" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000356_3.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541685/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000356.jpg" source="scans"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000025-003-000-facs001-l004">
+            <surface xml:id="D_000025-003-000-facs001-l004-p013" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000357_0.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541686/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000357.jpg" source="scans"/>
+            </surface>
+            <surface xml:id="D_000025-003-000-facs001-l004-p014" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000358_2.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541687/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000358.jpg" source="scans"/>
+            </surface>
+            <surface xml:id="D_000025-003-000-facs001-l004-p015" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000359_1.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541688/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000359.jpg" source="scans"/>
+            </surface>
+            <surface xml:id="D_000025-003-000-facs001-l004-p016" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000360_3.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541689/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+                <graphic url="ZPH_1545-1/023_026/00000360.jpg" source="scans"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="D_000025-003-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_c91d7dff-601a-49ba-8fe9-be86c78adf3c">
+                <lb xml:id="uuid_a84bcd5a-fb43-4c30-8bcd-5afb438c3018"/>G.Z. U XII 71/26 <lb xml:id="uuid_e4231a09-c395-4ffc-a31a-09c3950ffc9f"/>5 </p>
+            <p xml:id="uuid_8be7c0cd-756a-47b8-8611-cb7ac4d0e0df">
+                <lb xml:id="uuid_f2d56625-6251-4eb4-9566-2562511eb43b"/>Zeugenvernehmung <lb xml:id="uuid_c18b0cbb-6cae-49c4-8b0c-bb6caec9c4d5"/>13.II.1926 11h <lb xml:id="uuid_eff5819a-945c-4baa-b581-9a945c4baac8"/>Dr. <rs type="person" ref="#43599">Desider Szilagyi</rs>. <lb xml:id="uuid_8a7fac48-dfd1-43d5-bfac-48dfd123d508"/>35 J. <lb xml:id="uuid_ce9066f9-560a-415b-9066-f9560a215b35"/><rs type="place" ref="#47361">Ungvar, C.Sl.</rs>
+                <lb xml:id="uuid_529444ab-cad3-4687-9444-abcad3268775"/>mos. <lb xml:id="uuid_0f96550c-c53d-4412-9655-0cc53dc412a0"/>ledig <lb xml:id="uuid_5d32fa28-86ac-49dd-b2fa-2886ace9ddf3"/>Redakteur der „<rs type="institution" ref="#29470">Stunde</rs>“ <lb xml:id="uuid_975b1c45-b24a-46b4-9b1c-45b24a96b49a"/><rs type="place" ref="#41831">III. Reisnerstrasse 5</rs>
+            </p>
+            <p xml:id="uuid_8d711195-d9cd-42fc-bab9-e872a077bb68">
+                <lb xml:id="uuid_02303263-3658-4226-b032-633658022670"/>Ich weiß nichts drüber,
+                wieso <lb xml:id="uuid_c59c4461-680b-43a2-9c44-61680b93a2dc"/>der gegenständliche
+                Brief in der <lb xml:id="uuid_13834bef-edde-4f4e-834b-efeddecf4e3d"/>„<rs type="work" ref="#50611">Stunde</rs>“ publiziert wurde, weiß <lb xml:id="uuid_4d9499c5-936a-47a4-9499-c5936a87a402"/>nichts über die Personen,
+                die diese <lb xml:id="uuid_06f4c9fb-e5d0-4ef6-b4c9-fbe5d09ef6ce"/>Publikation
+                verfügt oder veranlaßt <lb xml:id="uuid_00232e68-9d55-464c-a32e-689d55064ccc"/>haben
+                oder dabei beteiligt waren. <lb xml:id="uuid_e6811efb-09a3-4799-811e-fb09a30799d8"/>Auch der Verfasser des <rs type="work" ref="#52378">Artikels</rs> ist <lb xml:id="uuid_7fec4553-a96d-4216-ac45-53a96d621628"/>mir nicht bekannt. </p>
+            <p xml:id="uuid_3398f20f-11e0-4d65-992a-a2fd5da0e1ba">
+                <lb xml:id="uuid_1635f376-8b8c-4020-b5f3-768b8cf0205d"/>V.g.g. <lb xml:id="uuid_52c43a61-a64b-4d52-843a-61a64b1d527a"/>Dr. <rs type="person" ref="#43599">Desider Szilagyi</rs> m.p. <lb xml:id="uuid_35923db2-7179-4036-923d-b27179a0362f"/><rs type="person">Dr. K</rs>
+                <rs type="person" ref="#52409">F</rs>
+            </p>
+            <pb facs="D_000025-003-000-facs001-l001-p002" n="2"/>
+            <p xml:id="uuid_d50045fd-f221-496b-9d7d-34107446d266">
+                <lb xml:id="uuid_491caa64-fad4-4d72-9caa-64fad4ad72b9"/>G.Z. U XII 71/26/6 </p>
+            <p xml:id="uuid_ff1f927f-980c-49ec-a42c-ac3f883c3c5b">
+                <lb xml:id="uuid_8f13fd64-93d0-4de1-93fd-6493d07de1f2"/>Zeugenvernehmung <lb xml:id="uuid_881c9b7b-232c-45de-9c9b-7b232cd5dea5"/>13.II.1926 3/4 12h <lb xml:id="uuid_a1496a22-8105-466b-896a-228105266b6c"/><rs type="person" ref="#50543">Ludwig Hoffenreich</rs>
+                <lb xml:id="uuid_47e701a2-dc40-4670-a701-a2dc408670e3"/>23 J. <lb xml:id="uuid_fbfa8fef-9d03-43e0-ba8f-ef9d0363e09d"/><rs type="place" ref="#50">Wien</rs>
+                <lb xml:id="uuid_7d841a0b-8fd5-4295-841a-0b8fd5e295e3"/>r.k. <lb xml:id="uuid_1d1a71d1-12e6-456c-9a71-d112e6156c52"/>l. <lb xml:id="uuid_baf9c852-3a1c-4871-b9c8-523a1c0871fa"/>Redakteur der „<rs type="institution" ref="#29470">Stunde</rs>“ <lb xml:id="uuid_329a6a77-0c90-4581-9a6a-770c9015811c"/><rs type="place" ref="#50572">XVII. Sautergasse 56</rs>
+            </p>
+            <p xml:id="uuid_b09b8b53-124d-46fd-b99e-aaac01997487">
+                <lb xml:id="uuid_3ca1ca54-9e79-4ee0-a1ca-549e79aee000"/>Ich bin lediglich <hi rend="underlined">Bilder</hi>redakteur <lb xml:id="uuid_fc8b1499-0d90-41ca-8b14-990d90c1ca99"/>der <rs type="institution" ref="#29470">Stunde</rs> und habe mit dem redak<lb xml:id="uuid_25da6724-296f-461f-9a67-24296f161fe3" break="no"/>tionellen Teil
+                des Blattes nur inso<lb xml:id="uuid_2e3d5320-a83a-4a05-bd53-20a83a7a055d" break="no"/>weit zu tun, als es sich um Beschaffung <lb xml:id="uuid_75450aaf-9f9e-4f17-850a-af9f9e7f173c"/>von Bildern für Artikel, die
+                im re<lb xml:id="uuid_66f72b68-c597-4b23-b72b-68c5974b230b" break="no"/>daktionellen Teil der Zeitung erscheinen, <lb xml:id="uuid_67017419-e23c-40d6-8174-19e23c10d656"/>handelt. </p>
+            <p xml:id="uuid_23e035fb-8650-49ef-a983-309ace2cfcd4">
+                <lb xml:id="uuid_84c8ebaa-f56d-4cd5-88eb-aaf56dfcd555"/>Da die Bilderredaktion sich
+                    <lb xml:id="uuid_23b1f7b9-7bad-4319-b1f7-b97badb31958"/>im 5. Stockwerk der
+                Druckerei befindet <lb xml:id="uuid_86e9fcb5-68d3-43d3-a9fc-b568d313d3f0"/>und die
+                Redaktion des <rs type="institution" ref="#29470">Blattes</rs> im <lb xml:id="uuid_950bff09-21a5-4a44-8bff-0921a54a4431"/>1. Stockwerk untergebracht
+                ist, habe <lb xml:id="uuid_029f8161-b53d-40db-9f81-61b53d50db49"/>ich wenig
+                Gelegenheit die Wahr<lb xml:id="uuid_2f0aaf10-2496-4997-8aaf-10249689972d" break="no"/>nehmung zu machen, die jedem andern <lb xml:id="uuid_524247f6-548f-4800-8247-f6548f78003a"/>Redakteur des Blattes als
+                    Selbstver<lb xml:id="uuid_cdb97329-6c62-433a-b973-296c62c33a83" break="no"/>ständlichkeit vorkommen. </p>
+            <p xml:id="uuid_57a7ff40-d742-4f8e-99cb-e5e275576eaf">
+                <lb xml:id="uuid_95fd60f0-2b88-4280-bd60-f02b8872803d"/>Aus diesem Grunde ist es mir
+                    <lb xml:id="uuid_665c8038-6e69-4dfa-9c80-386e690dfa2d"/>gänzlich unbekannt, wer
+                der <pb facs="D_000025-003-000-facs001-l001-p003" n="3"/>
+                <lb xml:id="uuid_42195d30-a206-436b-995d-30a206836beb"/>Verfasser des fraglichen
+                Artikels ist, <lb xml:id="uuid_7dce9637-0719-4a3c-8e96-3707191a3c79"/>insbesonders
+                ist es mir nicht bekannt, <lb xml:id="uuid_25c2d863-9581-4794-82d8-6395815794f7"/>wer den fraglichen Brief über<lb xml:id="uuid_0466c897-b8ee-4dcf-a6c8-97b8eeedcf4f" break="no"/>bracht hat, bezw.
+                wer ihn in der <lb xml:id="uuid_ddfee753-9622-481a-bee7-539622181a67"/>Redaktion
+                übernommen hat. </p>
+            <p xml:id="uuid_873970c7-e2aa-4dea-bd80-5abbd340d4b3">
+                <lb xml:id="uuid_2587c4e2-7873-4fb0-87c4-e278735fb076"/>Über die Angelegenheit ist
+                    <lb xml:id="uuid_b625b896-38da-4891-a5b8-9638dad891f4"/>mir weiters nichts
+                bekannt. </p>
+            <p xml:id="uuid_f5fd4e0c-18c8-4805-ac2f-a783dffa79fd">
+                <lb xml:id="uuid_7badc5db-91ff-4b8f-adc5-db91ffcb8f06"/>Vgg. <lb xml:id="uuid_e961edc8-db2a-425b-a1ed-c8db2a225b9c"/><rs type="person">Dr. K</rs>
+                <rs type="person" ref="#52409">F</rs>
+                <lb xml:id="uuid_91800cfe-4651-4360-800c-fe4651536075"/><rs type="person" ref="#50543">Ludwig Hoffenreich</rs> m.p. </p>
+            <pb facs="D_000025-003-000-facs001-l001-p004" n="4"/>
+            <p xml:id="uuid_40be14c1-b4d4-4efd-b6f3-d8f44a625265">
+                <lb xml:id="uuid_52fef58a-15c5-49b0-bef5-8a15c5a9b08b"/>U XII 71/26 <lb xml:id="uuid_695857dd-e43c-4be9-9857-dde43c7be9c9"/>7. </p>
+            <p xml:id="uuid_09830116-9f65-4486-96a5-40bc8f423e62">
+                <lb xml:id="uuid_12e21c7d-ccdb-4797-a21c-7dccdbb797d7"/>Zeugenvernehmung <lb xml:id="uuid_a387242c-e1f0-4652-8724-2ce1f08652cb"/>13.II.1926 1220 <lb xml:id="uuid_739a65bf-ad0a-432f-9a65-bfad0a832f99"/><rs type="person" ref="#39372">Michael Biro</rs>
+                <lb xml:id="uuid_f489ee44-ed7c-4b2d-89ee-44ed7ceb2d81"/>39 J. <lb xml:id="uuid_26dc3d33-62f6-4085-9c3d-3362f63085ea"/><rs type="place" ref="#43471">Budapest</rs>
+                <lb xml:id="uuid_93b799b9-91a5-49b1-b799-b991a509b14a"/>konf.los <lb xml:id="uuid_17a375cc-c1cf-4c1d-a375-ccc1cf9c1d59"/>verh. <lb xml:id="uuid_575768f5-9258-486f-9768-f59258286fa9"/>akad. Maler, künstl. Leiter
+                    <lb xml:id="uuid_b3519457-f93b-4647-9194-57f93bc647e9"/>der <rs type="institution" ref="#37298">Bühne</rs>
+                <lb xml:id="uuid_8d5b7492-ce6b-4252-9b74-92ce6bf252b1"/><rs type="place" ref="#51242">Hotel Müller</rs>
+                <rs type="place" ref="#39599">I. Graben 19</rs>. </p>
+            <p xml:id="uuid_d814b985-cfd0-4f37-864e-6430cd052cb8">
+                <lb xml:id="uuid_bb8970ee-4f97-4374-8970-ee4f972374dc"/>Da ich mit dem
+                redaktionellen <lb xml:id="uuid_6670f414-302f-4c20-b0f4-14302f8c2088"/>Teil der „<rs type="institution" ref="#29470">Stunde</rs>“ nichts zu tun <lb xml:id="uuid_bfc485a4-9264-44cb-8485-a49264d4cb2a"/>habe, ist mir über die
+                    Täter<lb xml:id="uuid_b0fee965-ea64-4901-bee9-65ea64590133" break="no"/>schaft
+                resp. Mittäterschaft derjenigen <lb xml:id="uuid_ef8bf60a-af0c-4901-8bf6-0aaf0ce90152"/>Personen, die den <rs type="work" ref="#52378">betreffenden Ar<lb xml:id="uuid_24bbbfa7-5a21-4d7e-bbbf-a75a215d7e82"/>tikel</rs> verfaßt und
+                zum Druck <lb xml:id="uuid_06eac938-bd2b-4c2a-aac9-38bd2bdc2a2e"/>befördert haben,
+                absolut nichts <lb xml:id="uuid_d4ffaa98-90b7-4384-bfaa-9890b79384c3"/>bekannt. </p>
+            <p xml:id="uuid_0efdaae1-8253-4cad-a2eb-717a04424af1">
+                <lb xml:id="uuid_6dda03d3-238f-419d-9a03-d3238f719dca"/><rs type="person" ref="#39372">Michael Biro</rs>. m.p. <lb xml:id="uuid_1dba776d-6280-4399-ba77-6d6280239917"/><rs type="person">Dr. K</rs>
+                <lb xml:id="uuid_8cb8107c-c375-4fc8-b810-7cc3750fc87a"/><rs type="person">F</rs>
+                V.g.g. </p>
+            <pb facs="D_000025-003-000-facs001-l002-p005" n="5"/>
+            <p xml:id="uuid_907b1b2e-f423-4652-a3ae-57d000d4954f">
+                <lb xml:id="uuid_d5757d1b-5999-4217-b57d-1b5999d217ae"/>G.Z. U XII 71/26 <lb xml:id="uuid_4df73275-b6d1-43fe-b732-75b6d163fee5"/>8 </p>
+            <p xml:id="uuid_b7d8511d-0483-4c0e-91bd-e746eb504c58">
+                <lb xml:id="uuid_dff4735a-c7a1-457a-b473-5ac7a1b57ad6"/>Zeugenvernehmung <lb xml:id="uuid_fec1ecde-e1d8-48f7-81ec-dee1d838f709"/>13./2. 1926 Beginn 1 Uhr <lb xml:id="uuid_4cc040a6-924e-418b-8040-a6924e118b45"/><rs type="person" ref="#50550">Bela Köhalmi</rs>
+                <lb xml:id="uuid_a3b4b9b8-fed9-4252-b4b9-b8fed9a25225"/>41 Jahre <lb xml:id="uuid_b68bb279-fbf2-4fec-8bb2-79fbf2ffec72"/><rs type="place" ref="#43471">Budapest</rs>
+                <lb xml:id="uuid_05aa9daf-4ca3-41e3-aa9d-af4ca3c1e37e"/>r.k. <lb xml:id="uuid_af847704-6051-411c-8477-046051511cc4"/>verh. <lb xml:id="uuid_496fc9d8-6d57-4148-afc9-d86d57814826"/>Redakteur der „<rs type="institution" ref="#37298">Bühne</rs>“ <lb xml:id="uuid_33a9c433-adb8-4354-a9c4-33adb85354db"/><rs type="place" ref="#312 ">XVIII. Währingerstrasse 121</rs>
+            </p>
+            <p xml:id="uuid_a33780bc-fcca-4415-af96-96beaa7e0332">
+                <lb xml:id="uuid_8d979991-a81c-4b8a-9799-91a81c6b8a09"/>Über das gegenständliche <lb xml:id="uuid_2be39d68-7da0-44c2-a39d-687da004c282"/>Faktum kann ich nichts
+                angeben, <lb xml:id="uuid_32dee3e3-093f-4408-9ee3-e3093fc40861"/>da ich lediglich
+                Bilderredakteur <lb xml:id="uuid_aef2eb97-003c-478c-b2eb-97003c078cda"/>der „<rs type="institution" ref="#37298">Bühne</rs>“ bin und dem redak<lb xml:id="uuid_0b9ae6f0-7098-4619-9ae6-f070980619b7" break="no"/>tionellen Teile
+                der „<rs type="institution" ref="#29470">Stunde</rs>“ fern <lb xml:id="uuid_d12a977c-5977-4ad8-aa97-7c5977aad8c1"/>stehe. </p>
+            <p xml:id="uuid_a718bb2e-6365-405e-809c-a24034ecdccb">
+                <lb xml:id="uuid_0f5c6646-64e6-4e0f-9c66-4664e65e0f51"/><rs type="person" ref="#50550">Bela Köhalmi</rs> m.p. <lb xml:id="uuid_f82f8ac8-0184-45c4-af8a-c80184c5c45d"/><rs type="person">Dr K</rs>
+                <rs type="person">F</rs>
+            </p>
+            <p xml:id="uuid_67bbec0c-4ad4-4b40-b230-bf210e57522a">
+                <lb xml:id="uuid_b9e7d977-9603-4479-a7d9-7796030479c3"/>a tergo: <lb xml:id="uuid_fee7dbfd-aef3-4030-a7db-fdaef3403070"/>Ges. <lb xml:id="uuid_bd0fa26a-9063-431f-8fa2-6a9063e31f83"/>Zeuge <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38106">Ernst Ely</rs> u. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/37843">Emmerich
+                    Bekessy</rs> u.u. <lb xml:id="uuid_a9c370bc-88f5-4c6a-8370-bc88f5fc6a1a"/>(Zu U
+                XII 1902/25 entschuldigt) – </p>
+            <p xml:id="uuid_52a7295f-7880-4be4-973c-c09276ddb5c1">
+                <lb xml:id="uuid_a55af235-dcfa-4901-9af2-35dcfaa90186"/>Zeugin <rs type="person" ref="#50549">Leopoldine Greif</rs> u.u. <lb xml:id="uuid_dd3f44c3-4264-4395-bf44-c34264e395b0"/><rs type="person" ref="#52409">F</rs>
+            </p>
+            <pb facs="D_000025-003-000-facs001-l002-p006" n="6"/>
+            <p xml:id="uuid_7df5b1af-dcfb-4022-a758-bf41a628c9e6">
+                <lb xml:id="uuid_ca8248f6-647e-4808-8248-f6647ec808c8"/>G.Z. U XII 71/26 <lb xml:id="uuid_84e471aa-1772-47df-a471-aa1772a7df98"/>9 </p>
+            <p xml:id="uuid_cd426c96-b536-4b99-b15c-c24bcf25cec0">
+                <lb xml:id="uuid_6097a909-556b-4e87-97a9-09556b2e87ad"/>Zeugenvernehmung <lb xml:id="uuid_21543416-ff4f-443e-9434-16ff4f343e5b"/>16./II 1926 3/4 2 Uhr <lb xml:id="uuid_43aabd44-a45a-4b21-aabd-44a45afb2126"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/37843">Emmerich Bekessy</rs>
+                <lb xml:id="uuid_fce5be2a-a9a0-45dc-a5be-2aa9a0c5dce1"/>38 J. <lb xml:id="uuid_857cc4a5-bd3a-4250-bcc4-a5bd3a6250d7"/><rs type="place" ref="#43471">Budapest</rs>
+                <lb xml:id="uuid_acadc5c4-772c-45e2-adc5-c4772c75e294"/>evang. A.B. <lb xml:id="uuid_55101776-6317-48eb-9017-76631738eb75"/>verh. <lb xml:id="uuid_7d341a4f-bcea-41d1-b41a-4fbceab1d1c0"/>Herausgeber der „<rs type="work" ref="#50611">Stunde</rs>“ <lb xml:id="uuid_2bbea91c-8fe5-4952-bea9-1c8fe5595241"/><rs type="place" ref="#1262">VI. Linke Wienzeile 88</rs>
+            </p>
+            <p xml:id="uuid_20b90bb5-8c5d-4489-9dfa-f178f392c93a">
+                <lb xml:id="uuid_466d3d0c-f1e1-45c2-ad3d-0cf1e175c299"/>Ich weiß nicht, wer die <lb xml:id="uuid_b0611385-c5c2-4a2e-a113-85c5c2ba2e83"/>Veröffentlichung des
+                gegenständlichen <lb xml:id="uuid_d55c4306-1530-48d0-9c43-06153068d01b"/>Bildes
+                verfügt oder veranlaßt <lb xml:id="uuid_090fb0d3-c9b1-4b5f-8fb0-d3c9b1fb5f68"/>hätte
+                oder wer daran beteiligt war. <lb xml:id="uuid_f2703c36-13db-4dc6-b03c-3613db7dc649"/>Ich weiß auch nicht, wer den Artikel <lb xml:id="uuid_3bdfdddd-31b1-49b9-9fdd-dd31b139b903"/>„<rs type="work" ref="#52378">Dem Kiebitz ich nichts zu teuer</rs>“ ver<lb xml:id="uuid_84f92151-6d94-4adf-b921-516d941adfcc" break="no"/>faßt hat. </p>
+            <p xml:id="uuid_5242f279-496f-4c78-9163-911278ecd52c">
+                <lb xml:id="uuid_08dc3598-5d24-4c89-9c35-985d243c8903"/>V.g.g. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/37843">Emmerich Bekessy</rs> m.p. <lb xml:id="uuid_0ed95aaf-2b42-44f8-995a-af2b4234f881"/><rs type="person" ref="#52409">F</rs>
+            </p>
+            <pb facs="D_000025-003-000-facs001-l002-p007" n="7"/>
+            <p xml:id="uuid_744dd9a8-b3fe-4e38-bdfa-ffce34252ea9">
+                <lb xml:id="uuid_49bf00ef-bff2-4e05-bf00-efbff20e057e"/>G.Z. XII 71/26 <lb xml:id="uuid_6db226de-7f7c-4c33-b226-de7f7c4c33ed"/>10 </p>
+            <p xml:id="uuid_d7d27a21-1fd7-4323-8aa1-db0be21bcac6">
+                <lb xml:id="uuid_c8fea5dd-8af8-4758-bea5-dd8af8c7587c"/>Zeugenvernehmung <lb xml:id="uuid_4feefd9a-f41f-43d4-aefd-9af41f33d4d1"/>18./2. 1926 Beg. 3/4 2 h <lb xml:id="uuid_a357ac54-d1db-4c93-97ac-54d1dbfc935a"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38106">Ernst Ely</rs>
+                <lb xml:id="uuid_e25649e3-83fc-4d60-9649-e383fc5d6055"/>48 J. <lb xml:id="uuid_b40d5c84-d484-4cc6-8d5c-84d484dcc6a1"/><rs type="place" ref="#50">Wien</rs>
+                <lb xml:id="uuid_968dcb03-a796-4c92-8dcb-03a796ec926c"/>mos. <lb xml:id="uuid_262cbb28-ca4b-472c-acbb-28ca4b972cce"/>ledig <lb xml:id="uuid_3c1a4277-b199-4828-9a42-77b199682833"/>Chefredakteur der „<rs type="institution" ref="#37283">Börse</rs>“ <lb xml:id="uuid_0437e7f4-fd27-45a7-b7e7-f4fd2785a7f8"/><rs type="place" ref="#50564">IV. Kühnplatz 4</rs>
+            </p>
+            <p xml:id="uuid_8ddb40e6-c073-41c1-98c0-a555b0d1873b">
+                <lb xml:id="uuid_d63769bd-082e-4a3e-b769-bd082e6a3e3f"/>Ich lehne es ab, als Zge. in
+                der <lb xml:id="uuid_2233d123-ef98-44e1-b3d1-23ef9804e10b"/>vorstehenden
+                Angelegenheit Angaben zu <lb xml:id="uuid_26f9e2f7-775d-4c94-b9e2-f7775dcc94c2"/>machen, da ich der Ansicht bin, daß auch <lb xml:id="uuid_314fef9a-1bbb-4212-8fef-9a1bbb7212b5"/>vorliegendenfalls – obwohl
+                es sich um <lb xml:id="uuid_64e899f6-1418-4a08-a899-f61418fa08ee"/>einen
+                urheberrechtlichen Tatbestand handelt – <lb xml:id="uuid_b0bca327-994a-49f7-bca3-27994ae9f706"/>die Bestimmung des <rs type="law" ref="">§ 45 Preß.Ges.</rs> in An<lb xml:id="uuid_d9b469c3-b830-4628-b469-c3b83066280c" break="no"/>wandlung kommt.
+                Auf das Entschlagungs<lb xml:id="uuid_7f93b851-160e-4b34-93b8-51160e0b349e"/>recht
+                nach <rs type="law" ref="">§ 153 Stg</rs> berufe ich mich nicht. </p>
+            <p xml:id="uuid_be8507df-8f71-4707-9a9c-43e202f3a93b">
+                <lb xml:id="uuid_3b401ce6-f8f4-450f-801c-e6f8f4c50f57"/>Vgg. <lb xml:id="uuid_f3927caf-213d-4ecc-927c-af213dcecc05"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38106">Ernst Ely</rs> mp. <lb xml:id="uuid_ee31e558-6283-4c17-b1e5-5862838c1776"/><rs type="person" ref="#52409">F</rs>
+            </p>
+            <pb facs="D_000025-003-000-facs001-l002-p008" n="8"/>
+            <p xml:id="uuid_5797461b-3abc-4943-ae97-b6b419a4f0a2">
+                <lb xml:id="uuid_378b7ba1-51cd-46f0-8b7b-a151cda6f0b6"/>U XII 71/26 <lb xml:id="uuid_296cfda6-4246-4953-acfd-a64246b95324"/>11 </p>
+            <p xml:id="uuid_78c9f7df-b661-4c9b-bea9-47b260433230">
+                <lb xml:id="uuid_17ac3c02-960e-4875-ac3c-02960e0875e6"/>Zeugenvernehmung <lb xml:id="uuid_d0fa0fe2-5199-4c84-ba0f-e251996c8464"/>18./II 1926 2'15h <lb xml:id="uuid_a20938f6-5a10-4379-8938-f65a10437958"/><rs type="person" ref="#50549">Leopoldine Greis</rs>
+                <lb xml:id="uuid_2409bbac-39ab-4eb6-89bb-ac39ab7eb63d"/>30 J. <lb xml:id="uuid_52c4dfe2-e171-4914-84df-e2e1713914f3"/><rs type="place" ref="#50">Wien</rs>
+                <lb xml:id="uuid_043f9eef-ce22-409e-bf9e-efce22609ee9"/>rk. <lb xml:id="uuid_02e2c448-094e-41b6-a2c4-48094e71b67a"/>ledig <lb xml:id="uuid_0efa41a6-858a-4771-ba41-a6858a27716e"/>Redaktionssekretärin <lb xml:id="uuid_1cc3632c-4118-45ef-8363-2c411815ef24"/><rs type="place" ref="#50574">IX. Dietrichsteing. 4</rs>
+            </p>
+            <p xml:id="uuid_3670da26-d42b-4eec-aef1-fa96e206461a">
+                <lb xml:id="uuid_d2be6403-2257-45a1-be64-03225745a122"/>Ich weiß nichts darüber, wer
+                    <lb xml:id="uuid_9b2a2011-5856-4c7e-aa20-115856ec7e2d"/>die Veröffentlichung des
+                gegenständlichen <lb xml:id="uuid_7ccd9b37-b181-4743-8d9b-37b1816743d5"/>Briefes
+                verfügt oder veranlaßt hat, <lb xml:id="uuid_1ee6aa95-6db7-4b5d-a6aa-956db78b5d4e"/>oder wer daran beteiligt war. </p>
+            <p xml:id="uuid_291087c0-9766-443d-a4c5-ea50802c783b">
+                <lb xml:id="uuid_6ad62509-8126-47f8-9625-09812697f803"/>Ich glaube überhaupt nicht,
+                daß <lb xml:id="uuid_4c821c39-a100-474e-821c-39a100374e6f"/>ein Originalbrief von
+                    <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs>
+                <lb xml:id="uuid_db488491-d14b-4892-8884-91d14b4892c3"/>der Redaktion vorgelegen
+                ist; denn <lb xml:id="uuid_edd162f4-012b-4b25-9162-f4012b9b253c"/>in diesem Fall
+                wäre er wahrschein<lb xml:id="uuid_2bdf6f8b-0564-4932-9f6f-8b0564d93294" break="no"/>lich im Klischee reproduziert worden. </p>
+            <p xml:id="uuid_b7f1d26c-bbd4-424e-b275-bee4b3b328aa">
+                <lb xml:id="uuid_b33d86ef-7926-49dd-bd86-ef792669ddcb"/>Vgg. <lb xml:id="uuid_4b083c66-1489-42a3-883c-661489f2a320"/><rs type="person" ref="#50549">Leopoldine Greis</rs>. <lb xml:id="uuid_89000508-105c-4a0c-8005-08105cca0c7f"/><rs type="person" ref="#52409">F</rs>
+            </p>
+            <pb facs="D_000025-003-000-facs001-l003-p009" n="9"/>
+            <p xml:id="uuid_2855f9d0-87f3-4492-9d4b-02a90ffbf3d9">
+                <lb xml:id="uuid_b91ff0e4-cbfc-475b-9ff0-e4cbfc775b98"/>G.Z. U XII 71/26 <lb xml:id="uuid_2b23652f-ac16-4298-a365-2fac16629861"/>12 </p>
+            <p xml:id="uuid_6185c70a-bf87-4d1d-924d-e9262193242d">
+                <lb xml:id="uuid_330fa5f4-97e3-4765-8fa5-f497e3176505"/>Zeugenvernehmung. <lb xml:id="uuid_c4a47f99-22d5-43f9-a47f-9922d583f9ba"/>16. Juli 1926 Beginn 10h 25'
+                    <lb xml:id="uuid_aed9d7cb-504f-490a-99d7-cb504f190aa9"/>Richter: <rs type="person" ref="#52409">Dr. Fuchsig</rs> O.L.G.R. Ende 10h 35' <lb xml:id="uuid_c34d57ba-69dc-45bc-8d57-ba69dc75bc33"/>Dr. <rs type="person" ref="#38704">Paul Stefan</rs>
+                <lb xml:id="uuid_31100795-6c54-4023-9007-956c5450238e"/>47 J. <lb xml:id="uuid_89b7892d-0fb0-4703-b789-2d0fb04703f6"/><rs type="place" ref="#833">Brünn</rs>
+                <lb xml:id="uuid_136c1056-463e-4e06-ac10-56463e4e06ef"/>r.-k. <lb xml:id="uuid_55d32b46-ce37-44a4-932b-46ce3784a4cc"/>v. <lb xml:id="uuid_59e71737-f78a-4358-a717-37f78ac358e6"/>Redakteur der „<rs type="institution" ref="#29470">Stunde</rs>“ und „<rs type="institution" ref="#37298">Bühne</rs>“ <lb xml:id="uuid_7ffc2643-0cb8-490e-bc26-430cb8190ec3"/><rs type="place" ref="#50566">VIII. Hamerlingplatz 7</rs>. </p>
+            <p xml:id="uuid_6644f811-f505-45f3-906b-73bc39122867">
+                <lb xml:id="uuid_e7f747fa-3063-4601-b747-fa3063360113"/>Der ganzen Angelegenheit
+                stehe ich fern, <lb xml:id="uuid_86ee545a-ccc9-44dd-ae54-5accc9b4ddee"/>da ich
+                Kunstkritiker insbes. Musik<lb xml:id="uuid_b7758b88-b2fd-4ade-b58b-88b2fd9ade1d" break="no"/>kritiker, bin. Ich stehe nicht im internen <lb xml:id="uuid_96426616-610f-4e68-8266-16610fee685b"/>Redaktionsverhältnis,
+                sondern steuere <lb xml:id="uuid_9c8278a9-27c6-4eae-8278-a927c6beae32"/>nur einzelne
+                Berichte, Kritiken etc. <lb xml:id="uuid_cf970a6e-926d-47ea-970a-6e926dc7ea6a"/>bei.
+                Ich komme machnmal sogar <lb xml:id="uuid_d103dd7f-30f3-4c23-83dd-7f30f38c23df"/>tagelang nicht in die Redaktion, <lb xml:id="uuid_6b8343d2-d8c9-4b2f-8343-d2d8c9fb2fc3"/>da ich zur Anwesenheit
+                daselbst nicht <lb xml:id="uuid_2bb7f610-997e-4ff2-b7f6-10997eaff29f"/>verpflichtet
+                bin. Ich weiß nicht wer <lb xml:id="uuid_b3de29b0-2597-48f7-9e29-b02597f8f76d"/>den
+                Brief der „<rs type="institution" ref="#29470">Stunde</rs>“ übergeben <lb xml:id="uuid_0271b446-15dd-462c-b1b4-4615dd162cd1"/>hat, – ebenso weiß ich
+                nicht, wer <lb xml:id="uuid_e9cc8654-f48c-4744-8c86-54f48ce744dd"/>den <rs type="work" ref="#52378">Artikel</rs> schrieb. Ich halte mich <lb xml:id="uuid_8679a031-814f-4c73-b9a0-31814f5c7389"/>überhaupt von der ganzen
+                    An<lb xml:id="uuid_bbfd9f5c-ea1d-4836-bd9f-5cea1df836f9" break="no"/>gelegenheit der „<rs type="institution" ref="#29470">Stunde</rs>“ mit <rs type="person" ref="#11988">Karl <lb xml:id="uuid_597918dd-9724-4a1b-b918-dd97248a1b59"/>Kraus</rs>
+                <subst>
+                    <del>aus prinzipiellen Gründen</del>
+                    <add>vollkommen</add>
+                </subst>
+                <lb xml:id="uuid_b4a91db4-003b-4c38-a91d-b4003b1c3836"/>fern. </p>
+            <p xml:id="uuid_b737cf8f-ffe1-4fca-9bc4-80f89afcd109">
+                <lb xml:id="uuid_829aaa55-c2a3-4ca9-9aaa-55c2a31ca978"/>Dr. <rs type="person" ref="#38704">Paul Stefan</rs> mp. <lb xml:id="uuid_df625a66-b98b-4772-a25a-66b98bc77272"/><rs type="person">G</rs>
+            </p>
+            <pb facs="D_000025-003-000-facs001-l003-p010" n="10"/>
+            <p xml:id="uuid_83b116df-cb16-4b47-9e7e-1d892fc7b7f3">
+                <lb xml:id="uuid_fe0b288c-2e97-4a40-8b28-8c2e970a40e7"/>U XII 71/26 <lb xml:id="uuid_37896aa5-eba5-47c2-896a-a5eba5b7c26b"/>13 </p>
+            <p xml:id="uuid_4707fd00-51d0-44bd-8cca-82bf45e4c63d">
+                <lb xml:id="uuid_134d93c6-999e-4bbe-8d93-c6999eebbe4c"/>Zeugenvernehmung <lb xml:id="uuid_8340bf00-03ad-479f-80bf-0003adc79f41"/>16. Juli 1926 10h 35' <lb xml:id="uuid_7bce0763-9a9f-4f45-8e07-639a9f5f45e4"/>Ende 10h 45' <lb xml:id="uuid_8a49e366-60b8-4f35-89e3-6660b88f3533"/><rs type="person" ref="#20424">Hans Liebstöckl</rs>
+                <lb xml:id="uuid_1d67c025-83a3-436d-a7c0-2583a3b36de5"/>54 J. <lb xml:id="uuid_65f90f09-6d12-4135-b90f-096d12c135b2"/><rs type="place" ref="#50">Wien</rs>
+                <lb xml:id="uuid_2125f70f-6757-4460-a5f7-0f6757f46065"/>r.k. <lb xml:id="uuid_40cc70ea-f526-49b7-8c70-eaf52609b7a9"/>v. <lb xml:id="uuid_413f2198-968c-4e6a-bf21-98968cae6a68"/>Chefredakteur der „<rs type="institution" ref="#37298">Bühne</rs>“ <lb xml:id="uuid_b5f3d0ce-c48f-4235-b3d0-cec48fd2357b"/><rs type="place" ref="#358">IV. Mühlgasse 9</rs>. </p>
+            <p xml:id="uuid_b335e517-b238-49b7-9521-428d9f6747b3">
+                <lb xml:id="uuid_9f444a7b-7e90-4ce9-844a-7b7e904ce905"/>Ich halte mich nur selten in
+                    <lb xml:id="uuid_8747fb4e-66b9-42f2-87fb-4e66b9d2f23e"/>den Redaktionsräumen der
+                    „<rs type="institution" ref="#29470">Stunde</rs>“ <lb xml:id="uuid_29741466-62fe-4ceb-b414-6662fe6ceb4a"/>auf u. war mit der rein
+                    redak<lb xml:id="uuid_b56b1c4f-c587-4310-ab1c-4fc587131044" break="no"/>tionellen Herstellung des Blattes <lb xml:id="uuid_8e98e9f4-a626-481a-98e9-f4a626281a46"/>nie in Berührung. Ich war
+                nur <lb xml:id="uuid_ab2c6c9e-d3fc-41c6-ac6c-9ed3fce1c6d0"/>verpflichtet, ständig im
+                redaktionellen <lb xml:id="uuid_c5a940a9-c8bc-44cb-a940-a9c8bcf4cbc9"/>Teil des
+                Blattes mitzuwirken. Mir <lb xml:id="uuid_39fd73a0-26af-4a96-bd73-a026af0a961d"/>ist
+                nicht bekannt, wer der „<rs type="institution" ref="#29470">Stunde</rs>“ <lb xml:id="uuid_c9b183ce-0f3e-4d06-b183-ce0f3e3d06a7"/>diesen Brief zur Verfügung
+                stellte, <lb xml:id="uuid_d6105e34-bdef-4c14-905e-34bdefec1473"/>ebenso wenig weiß
+                ich, wer den <lb xml:id="uuid_5ecc96f3-2417-4ca5-8c96-f324173ca5ce"/><rs type="work" ref="#52378">Artikel</rs> schrieb. Da ich Theater<lb xml:id="uuid_d521f536-8be2-4f40-a1f5-368be25f40b1" break="no"/>kritiker der „<rs type="institution" ref="#29470">Stunde</rs>“ bin, sende ich <lb xml:id="uuid_7d056ace-def2-4ff2-856a-cedef25ff2b4"/>meine Referate durch einen
+                Diener <lb xml:id="uuid_a5d5495e-a9ec-4926-9549-5ea9ec492614"/>in die Redaktion u.
+                komme nur <lb xml:id="uuid_1a6207e3-ae75-40dd-a207-e3ae7530ddfe"/>selten persönlich
+                dorthin. </p>
+            <p xml:id="uuid_ac9e82e4-a03f-4c01-b24f-f30d57fa1a13">
+                <lb xml:id="uuid_3a9b47a2-e34e-4df9-9b47-a2e34e2df92f"/><rs type="person" ref="#20424">Hans Liebstöckl</rs> m.p. <lb xml:id="uuid_5e0b9286-1e07-42e0-8b92-861e0772e054"/><rs type="person">Dr.
+                    [¿]</rs>
+            </p>
+            <pb facs="D_000025-003-000-facs001-l003-p011" n="11"/>
+            <p xml:id="uuid_5ff4fa15-1dab-4108-873d-0a7f9237773e">
+                <lb xml:id="uuid_68a7002e-a860-45c2-a700-2ea860c5c2dd"/>U XII 71/26 <lb xml:id="uuid_9e55be34-526e-4c58-95be-34526ebc588f"/>14 </p>
+            <p xml:id="uuid_e01fe2f3-2c70-4780-a7ac-c4de88136f09">
+                <lb xml:id="uuid_5430c5cb-f103-42c0-b0c5-cbf103c2c076"/>Zeugenvernehmung <lb xml:id="uuid_a37f9e00-f081-40af-bf9e-00f08140af6b"/>6. August 1926 Beginn 10 Uhr
+                    <lb xml:id="uuid_d9a4102f-ebd7-4cec-a410-2febd7bcec4b"/>Ende 10 Uhr 10 Min. <lb xml:id="uuid_95fd0da6-2382-41c2-bd0d-a6238291c289"/>Dr. <rs type="person" ref="#50551">Erich Krünes</rs>
+                <lb xml:id="uuid_ab487a37-2224-4b97-887a-3722241b97e4"/>35 J. <lb xml:id="uuid_35394a83-3f3b-4295-b94a-833f3b1295ee"/><rs type="place" ref="#49331">Aussig, Böhmen</rs>
+                <lb xml:id="uuid_c892ee38-4abc-4a64-92ee-384abcca648b"/>r.k. <lb xml:id="uuid_1cdd5a6f-c025-4120-9d5a-6fc0251120c4"/>v. <lb xml:id="uuid_388d003f-e2a9-4481-8d00-3fe2a9e48150"/>Journalist, bei <rs type="institution" ref="#37065">Verlag August Scherl</rs>
+                <lb xml:id="uuid_8e3f1d41-86b1-406c-bf1d-4186b1006c03"/><rs type="place" ref="#51237">VIII. Wickenburgg. 10</rs>
+            </p>
+            <p xml:id="uuid_65c2ac13-0a4f-47fd-9146-037d46a257f9">
+                <lb xml:id="uuid_318a4ad1-630d-4f50-8a4a-d1630d8f5054"/>Ich bin im Oktober 1925 aus
+                    <lb xml:id="uuid_dd008303-867c-4c10-8083-03867c2c1063"/>dem <rs type="institution" ref="#37216">„Kronos“-Verlag</rs> ausgeschieden, <lb xml:id="uuid_dfc3725a-255e-48ad-8372-5a255eb8ad74"/>war dann eine Zeitlang in
+                    <rs type="place" ref="#168">Berlin</rs>
+                <lb xml:id="uuid_48d87ce4-4728-4159-987c-e4472821596d"/>u. bin erst seit 1. Dezember
+                1925 als <lb xml:id="uuid_4a26cfcd-b503-42e5-a6cf-cdb50302e5dd"/>Vertreter des <rs type="institution" ref="#37065">Verlages Scherl</rs>
+                <lb xml:id="uuid_5d6fc6d6-abfe-4301-afc6-d6abfef30140"/>wieder in <rs type="place" ref="#50">Wien</rs>. Ich war also <lb xml:id="uuid_7c166063-dbe3-4452-9660-63dbe3b452e4"/>zur <hi rend="underlined">kritischen Zeit nicht mehr in <lb xml:id="uuid_6678981c-91a8-4894-b898-1c91a88894e5"/>der Redaktion der „<rs type="institution" ref="#29470">Stunde</rs>“ tätig</hi> u. <lb xml:id="uuid_b761e6e5-b682-411d-a1e6-e5b682611daa"/>weiß also nicht, wer den
+                Brief <lb xml:id="uuid_d2f26985-045e-4fbc-b269-85045e5fbc19"/>der „<rs type="institution" ref="#29470">Stunde</rs>“ übergab, ebenso <lb xml:id="uuid_67f2915e-0b6f-44c4-b291-5e0b6f14c4d2"/>nicht, wer den <rs type="work" ref="#52378">Artikel</rs> schrieb. </p>
+            <p xml:id="uuid_5da06d19-c637-437b-8180-984b482d3f15">
+                <lb xml:id="uuid_18b2c98e-2e04-4f26-b2c9-8e2e040f2605"/>Aus dem Stil läßt sich der
+                    <lb xml:id="uuid_9dc86194-a911-4fa7-8861-94a9110fa7f9"/>Verfasser auch nicht
+                schließen. </p>
+            <p xml:id="uuid_f0c528df-62ca-4aa9-b34c-c22bc5f57bc5">
+                <lb xml:id="uuid_e4d3d8f6-9808-436d-93d8-f69808136d2d"/>Dr. <rs type="person" ref="#50551">Erich Krünes</rs> m.p. <lb xml:id="uuid_d3dee4e2-5293-4fac-9ee4-e252934face8"/>[Unterschriften] </p>
+            <pb facs="D_000025-003-000-facs001-l003-p012" n="12"/>
+            <p xml:id="uuid_e1dc6f2b-582e-4045-bf84-e63085dafa5d">
+                <lb xml:id="uuid_4627b938-ff21-43db-a7b9-38ff2163db6c"/>G.Z. XII. 71/26 <lb xml:id="uuid_35d26eee-ea21-4c37-926e-eeea21ec374d"/>15 </p>
+            <p xml:id="uuid_0fd67fda-1862-4aba-9315-70f6041ea130">
+                <lb xml:id="uuid_c484c5b7-c893-4a8f-84c5-b7c8939a8f59"/>Zeugenvernehmung <lb xml:id="uuid_11279d95-b6cd-4218-a79d-95b6cda21837"/>10. September 1926 <lb xml:id="uuid_9355e962-b086-4a0e-95e9-62b086aa0e85"/>Beginn 12h 55' <lb xml:id="uuid_5e4513dc-ce66-432d-8513-dcce66932d80"/>Ende 1h 20' <lb xml:id="uuid_d27ba545-a976-4367-bba5-45a9766367ad"/>Dr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/50431">Fritz Kaufmann</rs>
+                <lb xml:id="uuid_45df8893-862b-489f-9f88-93862b189f23"/>16./8. 1896 geb. <lb xml:id="uuid_b24f99d3-daf5-4847-8f99-d3daf56847c4"/><rs type="place" ref="#50">Wien</rs>, <lb xml:id="uuid_d91b76c8-0b50-48d4-9b76-c80b50f8d4d7"/>konf.los <lb xml:id="uuid_7047584a-94e4-477d-8758-4a94e4b77dc2"/>verh. <lb xml:id="uuid_5eea45c3-c945-40aa-aa45-c3c94520aa03"/>Redakteur der „<rs type="institution" ref="#29470">Stunde</rs>“ <lb xml:id="uuid_824e7270-a352-4731-8e72-70a35287313a"/><rs type="place" ref="#50484">VIII. Piaristengasse 56</rs>. </p>
+            <p xml:id="uuid_a0bd1893-8fc0-40d7-92b1-49c578549e18">
+                <lb xml:id="uuid_dcb44e07-753e-4a62-b44e-07753e6a6244"/>Bezüglich dieses Artikels
+                    „<rs type="work" ref="#52378">Dem <lb xml:id="uuid_97447ffc-4c85-4a5e-847f-fc4c859a5e06"/>Kiebitz ist nichts zu
+                    teuer</rs>“ ist mir <lb xml:id="uuid_0b1a49e4-ea92-40c8-9a49-e4ea92d0c8f6"/>aus
+                dem Grunde nichts bekannt, <lb xml:id="uuid_06d12521-94ae-462d-9125-2194aef62dc8"/>da ich zu dem Zeitpunkte seit <lb xml:id="uuid_f6d7f6d6-1917-452a-97f6-d61917852a2b"/>einigen Tagen in <rs type="place" ref="#562">Genf</rs> war, was <lb xml:id="uuid_e2a87199-5322-47ee-a871-99532287eef8"/>auch aus dem Artikel auf
+                Seite 3 <lb xml:id="uuid_5bec1ca9-77aa-4c0a-ac1c-a977aa6c0a8b"/>„<rs type="work" ref="#52412">Das Ende der Herrschaft Dr Zimmer<lb xml:id="uuid_27f8b196-0283-4df6-b8b1-9602834df64f" break="no"/>manns</rs>“
+                zu ersehen ist und <rs type="person" ref="#38745">Dr. <lb xml:id="uuid_e0ddb1dc-45a6-44a7-9db1-dc45a6c4a701"/>Siegelberg</rs> nur dann
+                verantwortl. <lb xml:id="uuid_84a5ce46-be20-4ae9-a5ce-46be205ae907"/>Schriftleiter
+                des <rs type="institution" ref="#29470">Blattes</rs> war, wenn <lb xml:id="uuid_fff27935-a868-4985-b279-35a868c9853c"/>ich nicht in <rs type="place" ref="#50">Wien</rs> war. Mit Rück<lb xml:id="uuid_48b2f97d-2d3e-4645-b2f9-7d2d3eb6457b" break="no"/>sicht auch die
+                lange inzwischen ver<lb xml:id="uuid_ca265251-ecf4-43a7-a652-51ecf4a3a7fe" break="no"/>strichene Zeit sind mir Details <lb xml:id="uuid_dbefac3c-424d-4ac1-afac-3c424d3ac111"/>nicht mehr in Erinnerung. </p>
+            <p xml:id="uuid_41480d87-f482-4497-b255-2c4bd4a3a425">
+                <lb xml:id="uuid_bdd8bcac-032a-414a-98bc-ac032ae14a7b"/>Dr <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/50431">Fritz Kaufmann</rs> m.p. <lb xml:id="uuid_c46d6fa2-0878-4595-ad6f-a2087815955e"/>[Unterschriften]</p>
+            <pb facs="D_000025-003-000-facs001-l004-p013" n="13"/>
+            <p xml:id="uuid_5c267d94-ee6b-4978-895a-0ce446c9a819">
+                <lb xml:id="uuid_b8314e94-8222-435a-b14e-948222b35a4b"/>U XII 71/26 <lb xml:id="uuid_e56898f0-9f07-4503-a898-f09f07950356"/>11 </p>
+            <p xml:id="uuid_8d76f381-71df-45b0-97a0-64a9bb0789be">
+                <lb xml:id="uuid_ecff0b21-d20c-406e-bf0b-21d20cd06e9e"/><hi rend="underlined">B.</hi>
+                <lb xml:id="uuid_0389aa1a-f12e-4dd8-89aa-1af12efdd88d"/>Strafsache 1.) Dr. <rs type="person" ref="#38745">Marc Siegelberg</rs>
+                <lb xml:id="uuid_a8605178-fce7-4760-a051-78fce75760a8"/>2.) U. T. <lb xml:id="uuid_470477a8-8035-4a87-8477-a88035fa8779"/>wegen Übertretung nach <rs type="law" ref="">§ 45 Abs. 4 Urh.Ges.</rs>
+                <lb xml:id="uuid_bd286271-d7f8-4e42-a862-71d7f80e42dd"/>Über den Zeugen <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38106">Ernst Ely</rs>,
+                Chefredakteur <lb xml:id="uuid_056a2be0-659c-468b-aa2b-e0659c768bf2"/>in <rs type="place" ref="#50564">Wien, IV. Kühnplatz 4</rs>, der sich ohne ge<lb xml:id="uuid_3ab02386-339e-42fd-b023-86339e82fdf6" break="no"/>setzlichen Grund
+                geweigert hat, ein <lb xml:id="uuid_22078820-e757-4661-8788-20e75786612b"/>Zeugnis
+                in der obenbezeichneten Straf<lb xml:id="uuid_9b950c63-0145-4f0d-950c-6301457f0ddb"/>sache abzugeben, wird gem. <rs type="law" ref="">§§ 166</rs>, <rs type="law" ref="">88, <lb xml:id="uuid_dddd3283-63cf-4e4e-9d32-8363cfce4e83"/>Stg</rs> eine
+                Geldstrafe von 20 (zwanzig) S, <lb xml:id="uuid_9f0a094b-325a-47f6-8a09-4b325a07f625"/>im N.E. Falle 24 St Arrest
+                verhängt. </p>
+            <p xml:id="uuid_6296ab48-7f1c-4bcf-ab40-8e7f98f0f463">
+                <lb xml:id="uuid_b3208152-f2fb-4417-a081-52f2fb741790"/><hi rend="underlined">Begründung</hi>. <lb xml:id="uuid_45a20171-88f1-43a8-a201-7188f103a810"/>Der
+                Zeuge <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38106">Ernst
+                    Ely</rs> hat die Ablegung <lb xml:id="uuid_2fdecbc5-984d-41e3-9ecb-c5984d71e338"/>seines Zeugnisses unter Berufung <lb xml:id="uuid_0f93ea6d-95e2-4d63-93ea-6d95e20d6300"/>auf die Bestimmung des <rs type="law" ref="">§ 45 Preß.Ges.</rs>
+                <lb xml:id="uuid_42917a9e-a096-44bb-917a-9ea09614bbcb"/>verweigert. Nach dieser
+                Bestimmung <lb xml:id="uuid_ace71954-dd67-432e-a719-54dd67a32e6c"/>sind alle jene
+                Personen, die bei der <lb xml:id="uuid_b8b58c6e-24ae-4055-b58c-6e24aeb055fd"/>Herstellung einer Zeitung berufsmäßig <lb xml:id="uuid_dbf25677-f252-49d8-b256-77f25209d8b0"/>mitwirken, in einem
+                Strafverfahren, <lb xml:id="uuid_89339e46-c12a-41bc-b39e-46c12ab1bc35"/>das wegen
+                des Inhaltes der Zeitung <lb xml:id="uuid_c9587c74-c362-4b8d-987c-74c3624b8d7e"/>eingeleitet worden ist, … von der <lb xml:id="uuid_f2f20bba-c4d9-4af3-b20b-bac4d98af3d0"/>Verbindlichkeit zur Ablegung
+                des Zeug<lb xml:id="uuid_2d848352-3103-4577-8483-523103d5772f" break="no"/>nisses
+                befreit. Vorliegendenfalls handelt <lb xml:id="uuid_67f67489-c448-405f-b674-89c448705faa"/>es sich nun um eine
+                Übertretung nach <lb xml:id="uuid_28c1de4c-1941-4428-81de-4c1941f428df"/><rs type="law" ref="">§ 45 Abs. 4 UrhGes.</rs> begangen nach <add>Inhalt</add> der
+                    <lb xml:id="uuid_f1dfd09e-8e54-4031-9fd0-9e8e54903136"/>Anzeige durch unbefugte
+                Veröffentlichung <pb facs="D_000025-003-000-facs001-l004-p014" n="14"/>
+                <lb xml:id="uuid_8dc3d1e6-2cdb-4d56-83d1-e62cdb8d560b"/>eines Briefes in <rs type="work" ref="#52375">Nr. 827 der „<rs type="work" ref="#50611">Stunde</rs>“</rs>. <lb xml:id="uuid_82c8bd5a-f1cd-41a4-88bd-5af1cd11a495"/>Es
+                kann unbestritten bleiben, daß der <lb xml:id="uuid_b99a5e70-7399-4285-9a5e-70739952853c"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38106">Zeuge Ely</rs> dem
+                Redaktionsverbande der <lb xml:id="uuid_263d9895-da43-48b3-bd98-95da43c8b36b"/>„<rs type="institution" ref="#29470">Stunde</rs>“ angehört, sonach zu jenen <lb xml:id="uuid_c93431fb-cee3-44a2-b431-fbcee344a20f"/>Personen gehört, die bei der
+                Herstellung <lb xml:id="uuid_268daff2-a155-46df-8daf-f2a15596dfb3"/>dieser Zeitung
+                berufsmäßig mitwirken. <lb xml:id="uuid_3b63f136-a1a0-4def-a3f1-36a1a0bdef52"/>Denn
+                die zweite, vom Gesetz geforderte <lb xml:id="uuid_b8ad8717-680e-4783-ad87-17680e178317"/>Voraussetzung, es müsse sich
+                um ein <lb xml:id="uuid_c29b462f-18c4-41df-9b46-2f18c4b1df4e"/>Strafverfahren
+                handeln, das „<quote xml:id="uuid_dd85ffaf-8ce2-4d4f-8ab3-1858d79e9e4f"><hi rend="underlined">wegen <lb xml:id="uuid_fbd22b10-108b-4f9e-922b-10108b5f9ed2"/>des Inhaltes der
+                        Zeitung</hi>
+                </quote>“ eingeleitet <lb xml:id="uuid_c4cb2155-d0cf-4e27-8b21-55d0cf1e27fd"/>worden
+                sei, trifft hier nicht zu. Die <lb xml:id="uuid_993fefaf-b7a2-4564-bfef-afb7a27564f5"/>Wendung „<quote xml:id="uuid_0de832b1-1395-43dc-8a1c-f893b41bda2b"><hi rend="underlined">wegen</hi> des Inhalts einer <lb xml:id="uuid_7b8ab677-8509-47c2-8ab6-77850967c2b4"/>Zeitung</quote>“ besagt,
+                daß es sich um ein <lb xml:id="uuid_301d0497-2134-4063-9d04-9721348063a2"/>Delikt
+                handeln muß, das auch <hi rend="underlined">abge<lb xml:id="uuid_9ec7a7e0-1c44-43ed-87a7-e01c44a3ed4a" break="no"/>sehen von der
+                    Veröffentlichung durch <lb xml:id="uuid_1a183574-ccf1-48f9-9835-74ccf198f97f"/>die Presse</hi> einen strafbaren Tatbestand <lb xml:id="uuid_1492f0dc-3629-4414-92f0-dc3629341438"/>darstellt, also ein
+                Preßinhaltsdelikt. <lb xml:id="uuid_dce9f54f-9101-4114-a9f5-4f91014114fe"/>Vorliegendenfalls handelt es sich <lb xml:id="uuid_24a652f4-1ce0-4e94-a652-f41ce0de94dd"/>aber um ein Delikt, dessen
+                Tatbestand <lb xml:id="uuid_ec5434dd-5a6b-4175-9434-dd5a6b017567"/>gerade in der
+                Veröffentlichung be<lb xml:id="uuid_064f3b54-8149-436b-8f3b-548149d36bbd" break="no"/>steht u. das ohne Veröffentlichung über<lb xml:id="uuid_bb454fb2-ec8a-4af0-854f-b2ec8abaf09a" break="no"/>haupt nicht
+                existent ist. Da die Bestim<lb xml:id="uuid_fae4e954-bb30-446c-a4e9-54bb30a46cd0" break="no"/>mung des <rs type="law" ref="">§ 45 Preß.Ges.</rs> als Ausnahms<lb xml:id="uuid_ed80805e-f47b-43de-8080-5ef47b33de60" break="no"/>bestimmung strikt
+                auszulegen ist, ist <lb xml:id="uuid_98860ec1-af2b-4df5-860e-c1af2bddf5db"/>der vom
+                    <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38106">Zeugen</rs>
+                angezogene Ver<lb xml:id="uuid_774a6677-cace-4c8a-8a66-77cace3c8a7e" break="no"/>weigerungsgrund nicht gegeben. <pb facs="D_000025-003-000-facs001-l004-p015" n="15"/>
+                <lb xml:id="uuid_f00cf116-bf18-45ec-8cf1-16bf18f5ec46"/>Daß dem <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38106">Zeugen</rs> durch die Ablegung
+                    <lb xml:id="uuid_3232d04f-4027-4f48-b2d0-4f40277f482f"/>der Aussage ein
+                Vermögensnachteil erwüchse <lb xml:id="uuid_81d86155-1224-4de3-9861-5512245de345"/>oder diese Ablegung ihm Schande brächte <lb xml:id="uuid_03d66d1a-52fe-455e-966d-1a52fe255e35"/>(<rs type="law" ref="">§ 153
+                    Stg</rs>), hat der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38106">Zeuge</rs> nicht behauptet. <lb xml:id="uuid_083b635a-e7b3-4af8-bb63-5ae7b3eaf8b4"/>Die Verweigerung der Aussage
+                ist sonach <lb xml:id="uuid_26a4027b-cace-4afa-a402-7bcace7afa56"/>gesetzlich nicht
+                gerechtfertigt. </p>
+            <p xml:id="uuid_75b01e6c-3ebd-4cbd-a417-befb1cdc368d">
+                <lb xml:id="uuid_fd3284b3-3b0a-4417-b284-b33b0a74171b"/>Gegen diesen <hi rend="underlined">B.</hi> steht die Be<lb xml:id="uuid_c5c28de0-d355-4ea9-828d-e0d3551ea950" break="no"/>schwerde an das
+                    <rs type="institution" ref="#36842">L.G. f. Strfs. I. Wien</rs> zu. <lb xml:id="uuid_427609cd-4b3c-4294-b609-cd4b3cd294a2"/>Sie wäre innerhalb 3 Tagen
+                nach <lb xml:id="uuid_4007aaa6-ce4b-43f7-87aa-a6ce4b53f713"/>Zustellung dieses <hi rend="underlined">B.</hi> bei dem <rs type="institution" ref="#36842">untenstehenden <lb xml:id="uuid_3080787f-d21f-4bea-8078-7fd21febeac0"/>Gericht</rs> einzubringen. </p>
+            <p xml:id="uuid_7789e46a-4cef-4187-8bd0-725571391a99">
+                <lb xml:id="uuid_97cbb9cf-d6dd-4478-8bb9-cfd6dd447869"/>10.9.26 [<rs type="person">Unterschrift</rs>] </p>
+            <pb facs="D_000025-003-000-facs001-l004-p016" n="16"/>
+            <p xml:id="uuid_e5aa3ba3-a2ec-4442-b511-5553e3a43f5f">
+                <lb xml:id="uuid_3e776ca6-da6d-4970-b76c-a6da6df970de"/><hi rend="underlined">B.</hi>
+                <lb xml:id="uuid_1100a10e-3cdf-4e02-80a1-0e3cdf3e02af"/>I. Über die ausgebliebenen
+                Zeugen: <lb xml:id="uuid_8736140b-a28f-42e4-b614-0ba28f62e4fa"/>1.) <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38106">Ernst Ely</rs>
+                <lb xml:id="uuid_883f7b16-cba8-4cb1-bf7b-16cba8fcb170"/>2.) <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/8363">Anton Kuh</rs>
+                <lb xml:id="uuid_2dc1927c-ebf0-4655-8192-7cebf0f655c8"/>wird gem. <rs type="law" ref="">§§ 159</rs>, <rs type="law" ref="">447 Stg</rs> eine <lb xml:id="uuid_7397b5b7-f62e-4887-97b5-b7f62e3887c6"/>Ordnungsstrafe von je 20 S,
+                im N.E.F. <lb xml:id="uuid_e7376e39-1eb3-40c4-b76e-391eb380c4f8"/>je 24 St Arrest
+                verhängt. </p>
+            <p xml:id="uuid_036517dd-1b33-4a3c-b5d6-d0e38042b538">
+                <lb xml:id="uuid_e7212595-e2f2-4bd1-a125-95e2f2ebd134"/>Dekret: 1.) <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/8363">Anton Kuh</rs>, <lb xml:id="uuid_ed654490-68a9-4446-a544-9068a9d44603"/>2.) <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38106">Ernst Ely</rs>. </p>
+            <p xml:id="uuid_9f84f505-3ada-44fd-ade5-04a440d75a03">
+                <lb xml:id="uuid_956496ec-b910-4c47-a496-ecb9108c4717"/>II. Laden als Zg. f. 16.X.26
+                Z. 37. <lb xml:id="uuid_cde95355-e53f-4e22-a953-55e53f6e22d7"/>1/2 10h <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/8363">Anton Kuh</rs>, }
+                unter Andrhg. <lb xml:id="uuid_aec6c60b-48a3-4a82-86c6-0b48a3ca821c"/>3/4 10h <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38106">Ernst Ely</rs> }
+                einer weiteren <lb xml:id="uuid_5fefe0f5-d01e-403a-afe0-f5d01e303a11"/>Geldstrafe
+                von 30 S <lb xml:id="uuid_2bc49a8d-192c-43c8-849a-8d192c33c8f2"/>– 48 St Arrest –
+                Vorführg. </p>
+            <p xml:id="uuid_ef1edef2-14e6-4e1f-b339-84b82116444c">
+                <lb xml:id="uuid_dd020e9f-e8b5-46ab-820e-9fe8b576abbd"/>11.X.26 [<rs type="person">Unterschrift</rs>] </p>
+        </body>
+    </text>
+</TEI>

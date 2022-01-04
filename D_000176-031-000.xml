@@ -1,0 +1,159 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000176-031-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-030-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-032-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief RA Otto Elias an Samek</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <availability default="false">
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000176-031-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4381</idno>
+                <idno type="ID" subtype="transkribus">349117</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000176">Karl
+                    Kraus ca. Städtische Bühnen Essen</title>
+            </seriesStmt>
+            <sourceDesc default="false">
+                <listWit>
+                    <witness xml:id="D_000176-031-000-wit01" facs="#D_000176-031-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1932-07-27" subtype="produced">27. Juli 1932</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <particDesc/>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#38103">Dr. jur. Elias | Notar</persName>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#60424">Hansastr. 50 II</rs>
+                    </address>
+                    <placeName ref="#915">Dortmund</placeName>
+                    <date when-iso="1932-07-27">27. Juli 1932</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#38909">Herrn | Rechtsanwalt Dr. Oskar Samek</persName>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#50493">Schottenring 14</rs>
+                    </address>
+                    <placeName ref="#51">Wien I</placeName>
+                    <date when-iso=""/>
+                </correspAction>
+                <noteGrp>
+                    <note type="subject">Betr.: Kraus – Essener | städt. Bühnen</note>
+                    <note type="dictation">S./I.</note>
+                    <note type="appendix"/>
+                </noteGrp>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="intertexts" when-iso="2021-10-07" who="#IL"/>
+            <change type="header_facsimile" when-iso="2021-10-27" who="#IL"/>
+            <change type="structure" when-iso="2021-10-01" who="#IL"/>
+            <change type="references" when-iso="2021-10-11" who="#IL"/>
+            <change type="typography" when-iso="021-10-19" who="#IL"/>
+            <change when-iso="2020-10-09T14:32:15.76Z" who="#IB" status="draft">created by
+                API</change>
+            <change when-iso="2021-09-06" who="#LU">Replaced Text with Transcription of Transkribus
+                Document 349117.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000176-031-000-facs001">
+        <surfaceGrp xml:id="D_000176-031-000-facs001-l001">
+            <surface xml:id="D_000176-031-000-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000265_12.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000176-031-000-facs001-l001-p002" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000266_14.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000176-031-000-facs001-l002">
+            <surface xml:id="D_000176-031-000-facs001-l002-p003" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000267_12.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000176-031-000-facs001-l002-p004" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000268_13.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="D_000176-031-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_0e22be47-ff67-4397-b85c-94cab35e4d0d"><lb xml:id="uuid_6ce0c713-715b-4b3f-84cb-9544568e1045"/>Sehr geehrter Herr <rs type="person" ref="#38909">Kollege</rs></p>
+            <p xml:id="uuid_28222a49-a6e4-4110-b986-b7677b7cd61e"><lb xml:id="uuid_cb27fcd3-e9bb-4058-9fe9-aa98b8011f79"/>In Sachen des Herrn <rs type="person" ref="#11988">Karl Kraus</rs> gegen <rs type="person" ref="#38784">Schulz-Dornburg</rs> komme ich <lb xml:id="uuid_d2466428-f036-438e-b055-0c28032eef3d"/>wegen einer Reihe
+                auswärtiger Termine erst jetzt zur Erledigung Ihrer <lb xml:id="uuid_5c17ff58-7cf5-4f2e-bdeb-63d72045361d"/>Zuschrift vom 21.7. </p>
+            <p xml:id="uuid_dfc8b832-0139-4ff0-9c23-3498c217e74f"><lb xml:id="uuid_586ab6c6-3548-4b7e-ad1d-716873ab5bca"/>Die <rs type="institution" ref="#36852">Staatsanwaltschaft</rs> hat auf den Weg der sogenannten Privatklage
+                    <lb xml:id="uuid_3ae53836-6a67-41a6-8fe5-dba2ca54789e"/>verwiesen, weil das
+                Gesetz ihr das in einem Falle wie diesem ausdrück<lb xml:id="uuid_491349c4-d5d0-4e9d-9005-6e7b1af1cc3a" break="no"/>lich gestattet.
+                Entscheidend dafür, ob die sogenannte Offizialklage <lb xml:id="uuid_24e76ccd-e660-40a2-b162-83515c69c883"/>erhoben wird, soll das
+                sogenannte öffentliche Interesse sein. <lb xml:id="uuid_9f4e5ef1-07d5-4a95-ad45-221c73a2dd75"/>Ueberall dort, wo es
+                verneint wird, bleibt also nur der Weg der Pri<lb xml:id="uuid_90a0f3ab-fdb9-4688-b56f-7c55358f911c" break="no"/>vatklage.</p>
+            <p xml:id="uuid_3c380858-b4e6-4f6f-aece-fd268364cf4b"><lb xml:id="uuid_f49e0c21-6216-4d06-8d7c-6570d24d8a41"/>Dass in solchem Fall der
+                Richter praeoccupirt wäre, kann dar<lb xml:id="uuid_220d7fe7-5494-4c78-9b74-a6272ff4c5a6" break="no"/>nach, allgemein
+                gesehen, eigentlich niemals zutreffen. Eine ganz an<lb xml:id="uuid_aadbdf82-9c86-4102-b0cc-4061dfe7258b" break="no"/>dere Frage bleibt
+                es natürlich, ob solcher Richter nicht aus ganz <lb xml:id="uuid_19d226c2-f68e-442b-a0f4-1a92316c2dc2"/>anderer Erwägung heraus
+                trotzdem zum Freispruch gelangen möchte. <lb xml:id="uuid_b0f3a088-4f26-4e04-b17f-4f977dec8d36"/>In dieser Hinsicht muss ich
+                gewisse Möglichkeiten zugeben: Der <lb xml:id="uuid_3a48c289-e7b0-4eca-9390-175c8f0ed4c8"/>Richter brauchte ja nur zu
+                unterstellen, dass <rs type="person" ref="#38784">Schulz-Dornburg</rs>
+                <lb xml:id="uuid_edc9de2a-d2ef-47c8-936f-f227e02e4c53"/>geglaubt habe, den
+                Intentionen des Herrn <rs type="person" ref="#11988">Verfassers</rs> gerecht zu
+                werden, <lb xml:id="uuid_4e40e929-86fb-4041-8562-062e005668aa"/>gleichsam seine
+                Interessen, kraft negotiorum gestio, richtig zu <lb xml:id="uuid_9e663e08-2859-4822-8754-04fc81841a0b"/>wahren, um so unter <pb facs="D_000176-031-000-facs001-l001-p002" n="2"/>
+                <lb xml:id="uuid_85af1108-38d5-46cf-b38b-ba0b5cd61d49"/>Bejahung der objektiven
+                Strafwürdigkeit, aus sogenanntem sub<lb xml:id="uuid_2ab90ce7-d035-40b1-a85a-da6943a6b25d" break="no"/>jektiven Grund,
+                also in Verneinung eines Schuld-Moments, dennoch zum <lb xml:id="uuid_5478479f-eb19-4930-9748-5939bffe2e4e"/>Freispruch zu kommen.</p>
+            <p xml:id="uuid_6f85a424-17de-4cdd-9a74-0f1c1af90f85"><lb xml:id="uuid_c908143a-67f8-4d0f-aa15-1e46c681d9fd"/>Mit solcher Möglichkeit wäre
+                gerade heute bei uns ganz beson<lb xml:id="uuid_c4328376-e31e-46fb-8bd8-d4be3db8047d" break="no"/>ders scharf zu
+                rechnen, wenn es der Gegenseite gelänge, die Persön<lb xml:id="uuid_c4820682-bf8f-4b11-9292-7a2eb3d3d564" break="no"/>lichkeit unseres
+                Herrn <rs type="person" ref="#11988">Karl Kraus</rs> politisch einer Capitis
+                diminutio <lb xml:id="uuid_5352ba6b-8e52-4969-957c-d3f87f4e365b"/>zu unterziehen:
+                    <rs type="place" ref="#49970">Essen</rs> ist der Ort, an dem der Ersatz für den
+                    Preus<lb xml:id="uuid_b5d33e04-6671-4bad-8640-b3b89bc6fd12" break="no"/>sischen
+                Ministerpräsidenten <rs type="person" ref="#39384">Otto Braun</rs> als
+                Oberbürgermeister amtier<lb xml:id="uuid_a58515f3-26af-45fe-a01d-2ab54cd78293" break="no"/>te, und von Essen wurde Herr <rs type="person" ref="#39128">Curt
+                    Melcher</rs> als Polizeipräsident-Er<lb xml:id="uuid_1d04ed88-a02c-43c7-8348-4ae787629bb6" break="no"/>satz jetzt nach
+                    <rs type="place" ref="#168">Berlin</rs> geholt!</p>
+            <p xml:id="uuid_ff2aca8e-7f8f-4128-bbdb-13afd36aa66a"><lb xml:id="uuid_83f3138e-6f24-49cb-aa9a-d96421bbaee4"/>Auf der anderen Seite wird
+                man allerdings gerade in <rs type="place" ref="#49970">Essen</rs> kaum <lb xml:id="uuid_38a41c18-4c87-4fa5-b699-6a1c6e6b6475"/>besonderes Interesse an <rs type="person" ref="#38784">Schulz-Dornburg</rs> noch nehmen, nachdem der <lb xml:id="uuid_a4545d58-1343-4f5c-8529-9908bee965e9"/>Herr, nach Pressemeldungen
+                aus „weiblichen Gründen“ demissionierte. <lb xml:id="uuid_db3778e7-6819-4f06-96f7-acc39fdc88f6"/>Unabhängig von der – darnach
+                zweifelhaften – Frage des Ausgangs <lb xml:id="uuid_a1c71be4-c666-42da-9cad-e0518a162248"/>der Straf- oder
+                Privatklagesache bliebe aber der Civilprozess gegen <lb xml:id="uuid_e96f9fb0-4813-4ce9-b8fb-cfda3bab9257"/><rs type="place" ref="#49970">Essen</rs>: Das Fahrlässigkeits-Moment wäre dort meines Erachtens
+                    gar<lb xml:id="uuid_1e51bbe1-a606-4138-9b17-50a2af978064" break="no"/>nicht
+                auszuschalten.</p>
+            <p xml:id="uuid_22b4ef46-3ce7-4c4e-b30e-803215fec6a1"><lb xml:id="uuid_d264f5cf-a4a7-417b-9189-974af30ac4cc"/>So glaube ich, eine
+                Verfolgung im Wege der Privatklage nur bedingt <lb xml:id="uuid_a1ca5d01-1c54-49a2-a3c1-dfec4baad202"/>die Klage im Civilprozess
+                gegen <rs type="place" ref="#49970">Essen</rs> aber mehr anempfehlen zu sollen. <lb xml:id="uuid_5f261331-b167-4323-9122-ca4448f94bf7"/>Auch das allerdings nur
+                clausula rebus politicis sic stantibus: <lb xml:id="uuid_f2ce6f56-d22a-4f08-986d-f7734ba567e6"/>So wie die Verhältnisse bei
+                uns liegen, ist eigentlich jeden Tag <lb xml:id="uuid_41e45fd7-67e1-4a02-b434-6c903b08c702"/>mit Putsch samt
+                nachfolgender Diktatur zu rechnen. Die aber würde, <lb xml:id="uuid_5cfa380a-2e6f-4c45-99e9-df037cf8b296"/>getreu ihrem Schlagwort,
+                Herrn <rs type="person" ref="#11988">Kraus</rs> klaglos stellen, nachdem sie <lb xml:id="uuid_600b8298-6942-45bd-9eae-b6f694778819"/>ihn des deutschen
+                Bürgerrechts nicht erst berauben kann.</p>
+            <p xml:id="uuid_be522f1d-23da-45a7-b1be-df6abeb05b80"><lb xml:id="uuid_7b9e95a4-b741-4ac5-99b8-a781a72b8a05"/>Sollte die nahe Zukunft
+                ergeben, dass ich zu schwarz sah, hätte <lb xml:id="uuid_be7af44c-a06d-4cab-9b5d-d38983981045"/>Deutschland ein
+                unwahrscheinliches Glück gehabt.</p>
+            <pb facs="D_000176-031-000-facs001-l002-p003" n="3"/>
+            <p xml:id="uuid_96bba11e-de78-4756-8f68-fd1458b4c4b8"><lb xml:id="uuid_3ce163ed-9ce2-4b9f-9fda-e510f7c45840"/>Inzwischen bitte ich sehr
+                darum, mich Herrn <rs type="person" ref="#11988">Karl Kraus</rs> – der die <lb xml:id="uuid_c49e1d49-373f-420d-834d-25c0e26e359c"/>Zusammenhänge zweifellos
+                besser übersieht als ein kleiner Provinz<lb xml:id="uuid_0757cbf3-911c-4a65-94be-31249a91ca4a" break="no"/>Advokat meiner
+                Art – bestens zu empfehlen.</p>
+            <p xml:id="uuid_0dc34e88-820b-4d87-8bf4-8b2012a11625"><lb xml:id="uuid_6cdb355a-38ce-411a-b2cf-70f2661e5897"/>Mit collegialer
+                Hochachtung!</p>
+            <p xml:id="uuid_4c01afd6-812c-4a5f-8631-640d9d938f61"><lb xml:id="uuid_c7645b1e-7700-4bde-b0fc-c8c5c10b220c"/><rs type="person" ref="#38103">Elias</rs>
+                <lb xml:id="uuid_b3ee0a7f-ac64-46e2-a651-22011de0ce2c"/>Rechtsanwalt.</p>
+            <pb facs="D_000176-031-000-facs001-l002-p004" n="4"/>
+            <p xml:id="uuid_aab0194f-629b-432f-bc29-d39c1c16956c"><lb xml:id="uuid_1b6a573e-4b98-409c-af65-a1a9abcfcbcf"/><note type="paratext" resp="law-firm">29.VII.32 <lb xml:id="uuid_acca6d25-2f92-4b40-a4cc-4b4c47c34774"/><rs type="person" ref="#11988">Kraus</rs> – <rs type="institution" ref="#37029">Essener Städt. Bühnen</rs></note></p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,198 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000093-003-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000093-001-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000093-004-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Privatanklage von Karl Kraus gegen Wiener Neueste Nachrichten (verantw. Red.
+                    Ernst Holzmann) wegen § 24 Pr. G.</title>
+                <editor ref="#JK">Johannes Knüchel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthyanystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000093-003-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2900</idno>
+                <idno type="ID" subtype="transkribus">232299</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000093">Karl
+                    Kraus ca. Wiener Neueste Nachrichten</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <ab type="stamp">
+                        <stamp source="#50491"/>
+                    </ab>
+                </msDesc>
+                <listWit>
+                    <witness xml:id="D_000093-003-000-wit01" facs="D_000093-003-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1927-09-26" subtype="produced">26. September
+                    1927</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass/>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="intertexts" when-iso="2021-02-25" who="#JK"/>
+            <change type="typography" when-iso="2021-02-25" who="#JK"/>
+            <change type="references" when-iso="2021-02-25" who="#JK"/>
+            <change type="structure" when-iso="2021-02-25" who="#JK"/>
+            <change when-iso="2020-10-08T12:20:39.459Z" who="#IB">created by API</change>
+            <change when-iso="2020-10-08T12:21:54.254Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 232299.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile type="further-witnesses">
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000092_39.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554578/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000092.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000093_34.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554579/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000093.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000094_35.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554580/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000094.jpg" source="scans"/>
+        </surface>
+    </facsimile>
+    <facsimile xml:id="D_000093-003-000-facs001">
+        <surfaceGrp xml:id="D_000093-003-000-facs001-l001">
+            <surface xml:id="D_000093-003-000-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000096_39.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554582/full/full/0/default.jpg" source="wienbibliothek"/>
+                <graphic url="ZPH_1545-6/92_97/00000096.jpg" source="scans"/>
+            </surface>
+            <surface xml:id="D_000093-003-000-facs001-l001-p002" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000097_30.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554583/full/full/0/default.jpg" source="wienbibliothek"/>
+                <graphic url="ZPH_1545-6/92_97/00000097.jpg" source="scans"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000093-003-000-facs001-l002">
+            <surface xml:id="D_000093-003-000-facs001-l002-p003" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000098_38.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554584/full/full/0/default.jpg" source="wienbibliothek"/>
+                <graphic url="ZPH_1545-6/92_97/00000098.jpg" source="scans"/>
+            </surface>
+            <surface xml:id="D_000093-003-000-facs001-l002-p004" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000099_34.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554585/full/full/0/default.jpg" source="wienbibliothek"/>
+                <graphic url="ZPH_1545-6/92_97/00000099.jpg" source="scans"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="D_000093-003-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_845de767-d276-4a1e-a268-86641fac2201">
+                <lb xml:id="uuid_0346798a-6a08-42d1-b381-e082b33de74c"/>An das <lb xml:id="uuid_58533b64-f521-45b3-9c1f-6d00aabc8c0f"/><rs type="institution" ref="#50491"><hi rend="spaced">Strafbezirksgericht I <lb xml:id="uuid_300a8065-eb90-4f69-abcf-d4c85769659a"/>Wien</hi></rs>. </p>
+            <p xml:id="uuid_ed45168c-d563-454e-b150-e94f20c5dd47">
+                <lb xml:id="uuid_20a5d3a5-81c5-4dc8-9511-23e8b1d083ba"/>Privatankläger: <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl <hi rend="spaced">Kraus</hi></rs>, Schriftsteller in <lb xml:id="uuid_7a105ff0-c998-455c-80ac-17b365a65cd1"/><rs type="place" subtype="address" ref="#50496">Wien III. Hintere Zollamtsstrasse <lb xml:id="uuid_0346533a-eb51-4ad3-9eab-3cda5de9192b"/>Nr. 3</rs>
+                <lb xml:id="uuid_571b32f2-d441-4a11-9db0-61d5315733ce"/>durch: <lb xml:id="uuid_3dedd6dc-b063-47e1-8014-a392e8bb7def"/>Vollmacht ausgewiesen zu U I
+                109/25 </p>
+            <p xml:id="uuid_16a4d665-afb5-43e6-bf5a-317ce112f48f">
+                <lb xml:id="uuid_81809229-855b-4367-82c0-deafb2624b4c"/>Beschuldigter: Dr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/51590">Ernst <hi rend="spaced">Holzmann</hi></rs>, verantwort<lb xml:id="uuid_570c2cc9-b13a-40ef-9735-d91d40e6c1eb" break="no"/>licher Redakteur
+                der „<rs type="institution" ref="#37566">Wiener Neuesten <lb xml:id="uuid_216c5d2e-b35f-42ed-a9f9-834e72380ad3"/>Nachrichten</rs>“ <rs type="place" subtype="address" ref="#52980">Wien VIII. Josefsgasse <lb xml:id="uuid_9e37bdb1-b9b3-4561-9442-2188feed0831"/>Nr. 4/6</rs>
+            </p>
+            <p xml:id="uuid_e17f22e4-aa2d-4368-95ab-0c40637b9e58"><lb xml:id="uuid_9ca7ccf5-926c-4d02-9763-4a9dcbca56f5"/>wegen <rs type="law" ref="">§ 24 Pr.G.</rs> 1 fach <lb xml:id="uuid_3883f955-7649-42fa-ba43-2d1c0e4bb10e"/>2 Beilagen </p>
+            <p xml:id="uuid_33bf12ea-472e-4a43-9228-f2ef2ed25dc1">
+                <lb xml:id="uuid_d34b1928-ae8e-40ab-9a53-cbaff89b4335"/><hi rend="underlined"><hi rend="spaced">Privatanklage</hi>.</hi>
+            </p>
+            <pb facs="D_000093-003-000-facs001-l001-p002" n="2"/>
+            <p xml:id="uuid_17937230-5b61-4944-8f56-7415ff5e3352">
+                <lb xml:id="uuid_7283e95a-e840-49fe-88e3-947425a1ee9a"/>Die <rs type="work" ref="#52981">„Wiener Neuesten Nachrichten“ vom <lb xml:id="uuid_23538619-761c-4995-a267-a37cbe260b00"/>18. September 1927</rs>
+                teilten auf Seite 7 im ersten <lb xml:id="uuid_6278e9cf-dc1f-4981-87d0-8d6b1d654565"/>Absatz der Notiz „<rs type="work" ref="#52982"><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs> fordert
+                    …!</rs>“ eine mich <lb xml:id="uuid_e508215a-2c84-44f9-a0b4-0c8d602e069d"/>betreffende Unwahrheit mit, dass ich angeblich <lb xml:id="uuid_c7677ee6-2072-4323-a484-eed19b545d5d"/>ein von mir verfasstes
+                Plakat selbst aufklebte. <lb xml:id="uuid_93bb7336-6455-46b4-a72c-0ddd5ef2766b"/><hi rend="underlined"><hi rend="spaced">Beweis</hi></hi>: Die <rs type="work" ref="#52981">„Wiener Neuesten Nachrichten“ vom <lb xml:id="uuid_3300c6d0-64e2-4f96-a688-6424b5f62837"/>18. September 1927</rs>
+                Beilage A/ </p>
+            <p xml:id="uuid_eb16b069-12e6-48ab-b03a-4c0bf932fc87">
+                <lb xml:id="uuid_cccd62c3-f379-4eff-981a-e94c70851a16"/>Ich habe dem <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/51590">Beschuldigten</rs>
+                als verant<lb xml:id="uuid_86a40850-0a0b-4787-a0ec-0ee7c6c73f43" break="no"/>wortlichen Redakteur der „<rs type="institution" ref="#37566">Wiener Neuesten
+                    Nachrichten</rs>“ <lb xml:id="uuid_d794b312-c7ed-458c-b847-c4a239fc70e7"/>durch
+                meinen Rechtsanwalt Dr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38909">Oskar Samek</rs> die <rs type="work" ref="#D_000093-002-000">Be<lb xml:id="uuid_e536fd4e-069c-42f8-b28d-551949f1b3cd" break="no"/>richtigung B/
+                    vom 19. September 1927</rs> eingeschickt. <lb xml:id="uuid_c1342b3f-313e-4bcc-bec1-85fbc96bc746"/>Der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/51590">Beschuldigte</rs> hat die <rs type="work" ref="#D_000093-002-000">Berichtigung</rs> nicht ver<lb xml:id="uuid_f629482e-b7ce-4290-8cf4-a2d9a388e24b" break="no"/>öffentlicht. </p>
+            <p xml:id="uuid_e71e10d3-0850-4d6a-8f2a-6dea19a4c64c"><lb xml:id="uuid_d7701cd8-8468-49c3-83a8-7f40f93d4f50"/><hi rend="underlined"><hi rend="spaced">Beweis</hi></hi>: Abschrift des <rs type="work" ref="#D_000093-002-000">Berichtigungsschreibens</rs>
+                <lb xml:id="uuid_01cb9672-f638-40a7-982c-426c02c629a7"/>vom 19. September 1927
+                Beilage B/ <lb xml:id="uuid_085dd66d-72e4-46c6-b6f0-6a412f5f28e1"/>Postaufgaberezepiss, welches ich bei <lb xml:id="uuid_36030b2f-0178-4685-bce9-abe03be1100b"/>der mündlichen Verhandlung
+                vorlegen <lb xml:id="uuid_175d098f-8bab-47a7-9964-b5906b04ac5d"/>werde. </p>
+            <p xml:id="uuid_28771be7-9262-4620-9c1f-7aa8b9c07f79">
+                <lb xml:id="uuid_a1ea3160-5295-436f-8c74-0d4fcbbdfeec"/>Ich stelle daher durch
+                meinen bereits <lb xml:id="uuid_32253d07-0e06-4df2-811a-f28db59f0aeb"/>ausgewiesenen
+                    <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38909">Anwalt</rs> den
+                    <lb xml:id="uuid_8bdb4a16-f930-42b6-b21b-99d4a80e4d69"/><hi rend="spaced">Antrag</hi>, </p>
+            <p xml:id="uuid_0fcee52d-cf97-4c83-af11-13bcf7eba87a">
+                <lb xml:id="uuid_4cd87cc6-e6f7-461a-ba2d-8986616ada8b"/>1.) gegen den <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/51590">Beschuldigten</rs>
+                eine Haupt<lb xml:id="uuid_dfbecbac-5d92-4d70-be6d-40ea4439aacf" break="no"/>verhandlung anzuberaumen, </p>
+            <p xml:id="uuid_d2531623-5aea-459c-a774-d4c6560805e2">
+                <lb xml:id="uuid_279d7691-3f86-4de3-9a68-08db2fbcf5f1"/>2.) ihn wegen des <rs type="law" ref="">§ 24 Pr.G.</rs> zu be<lb xml:id="uuid_d4f305cc-896a-42fd-bd02-53ce59dcc2be" break="no"/>strafen, ihm den
+                Auftrag zu erteilen, die <rs type="work" ref="#D_000093-002-000">Berich<lb xml:id="uuid_ac018b0b-5971-4d1b-9867-e3c1922581b8" break="no"/>tigung</rs>
+                in der gesetzlichen Weise zu veröffentlichen <lb xml:id="uuid_24cfe526-0442-4907-b1ab-42f170e3c544"/>und auszusprechen, dass die
+                    „<rs type="institution" ref="#37566">Wiener Neuesten Nach<lb xml:id="uuid_2fa12be2-8c15-458e-a159-d88defb242f7" break="no"/>richten</rs>“
+                von dem nach <rs type="law" ref="">§ 24 Pr.G.</rs> zu bestimmenden <lb xml:id="uuid_68ec3a9b-648e-4683-a433-6ff29396d8f2"/>Tage an, nicht erscheinen
+                dürfen, wenn sie die <lb xml:id="uuid_0dbb93f1-afa4-425e-a80d-1bef9cc333ad"/><rs type="work" ref="#D_000093-002-000">Berichtigung</rs> nicht gebracht haben, </p>
+            <pb facs="D_000093-003-000-facs001-l002-p003" n="3"/>
+            <p xml:id="uuid_57bbc8ed-5f1f-44f1-a400-7ed231d190ba">
+                <lb xml:id="uuid_492de327-9599-4b0a-9b6f-a45691fd71fe"/>3.) auszusprechen, dass für
+                die Geld<lb xml:id="uuid_b13727ea-bf33-47ed-adb5-fd83efd30869" break="no"/>strafe
+                und die Kosten des Strafverfahrens zur un<lb xml:id="uuid_f53591ed-78eb-4212-9222-f952a061a82a" break="no"/>geteilten Hand
+                mit dem <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/51590">Beschuldigten</rs> die Heraus<lb xml:id="uuid_eaaef6fe-58ff-45f6-a4cc-5f3a57ac2616" break="no"/>geberin und
+                Eigentümerin <rs type="institution" ref="#52983">„<rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37566">Wiener Neueste
+                        Nachrichten</rs>
+                    <lb xml:id="uuid_a8e671dd-d219-4969-b227-32f61daff5e9"/>Verlags A.G.“</rs>
+                <rs type="place" subtype="address" ref="#52980">Wien VIII. Josefsgasse 4/6</rs>, hafte. </p>
+            <p xml:id="uuid_457bf948-c35d-4d42-8f90-417bbdde660d">
+                <lb xml:id="uuid_e4817d11-003c-49f9-9541-a5278acabe1c"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl <hi rend="spaced">Kraus</hi></rs>. </p>
+            <pb facs="D_000093-003-000-facs001-l002-p004" n="4"/>
+            <p xml:id="uuid_dfd2d148-b64a-4bd8-bd0a-a70df54fa2bf">
+                <lb xml:id="uuid_beb7dcac-648e-4518-b79c-05dc2b30fc69"/><note type="paratext" resp="law-firm"><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs> – <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/51590">Holzmann</rs>
+                    <lb xml:id="uuid_ed9a4178-3101-430f-a9c1-3ec98cdce080"/>(<rs type="institution" ref="#37566">Wr. N. Nachr.</rs>)</note>
+            </p>
+        </body>
+    </text>
+</TEI>

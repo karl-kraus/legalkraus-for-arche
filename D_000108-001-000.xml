@@ -1,0 +1,591 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000108-001-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000107-001-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000108-001-001.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief Emmerich Békessy an Kraus</title>
+                <editor ref=""/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000108-001-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3139</idno>
+                <idno type="ID" subtype="transkribus">512975</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000108">Karl Kraus ca. Emmerich Békessy</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000108-001-000-wit01" facs=""/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date type="sortDate" subtype="produced" when-iso=""/>
+                <date source="krausonline">28.01.1928</date>
+            </creation>
+            <langUsage><language ident="de">Deutsch</language></langUsage>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.K.BRF</classCode>
+            </textClass>
+            <particDesc/>
+            <correspDesc>
+                <correspAction type="sent">
+                    <rs type="person" ref="">Emmerich Békessy</rs>
+                </correspAction>
+                <correspAction type="received">
+                    <rs type="person" ref="">Karl Kraus</rs>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2020-07-21T13:51:46.024Z" who="#IB">created by API</change>
+            <change when-iso="2021-07-12" resp="#LU">Replaced Text with Transcription of Transkribus
+                Document 512975.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface type="">
+            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000051_38.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000052_40.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000055_43.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000057_43.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000059_42.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000061_43.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000063_44.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000065_42.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000067_47.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000069_43.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000071_45.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000073_42.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000075_46.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000077_43.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000079_43.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000081_44.jpg" source="krausonline"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="" n="1"/>
+                <lb xml:id="uuid_3ce5ff0c-ddd8-47f9-b748-1d780061351f"/><rs type="place" ref="https://pmb.acdh.oeaw.ac.at/entity/43471">Budapest</rs>, am 28. Jänner 1928.
+                <lb xml:id="uuid_ea20b2db-d79b-418e-9b10-332f7dadcdc5"/>An den
+                <lb xml:id="uuid_ca48e3f5-fa55-415e-8208-51b5a97ae02d"/>verantwortlichen Redakteur der periodischen Druckschrift
+                <lb xml:id="uuid_536ab7e7-a0d4-41fd-ad92-635f119d0109"/>„DIE FACKEL“ Herrn Karl Kraus,
+                <lb xml:id="uuid_3aaab310-b140-415a-8e1c-7b1bb11f21f7"/>Wien III.
+                <lb xml:id="uuid_5128a695-42a0-4ec8-a91a-065f52ee4bb2"/>Hintere Zollamtsstrasse 3
+                <lb xml:id="uuid_04616511-7d2c-487d-b4e2-23d7aa76ffdd"/>Gemäss § 23 des Pressgesetzes verlange ich die
+                <lb xml:id="uuid_90647160-c2cc-4076-9d4e-70ec6f22a0ba"/>nachstehende Berichtigung der in den Nummern 771–776 der „Fackel“
+                <lb xml:id="uuid_f30163f4-2fd3-48e3-a5e9-5c9fc7ed163d"/>erschienenen, mich betreffenden unwahren Tatsachen und zwar ohne
+                <lb xml:id="uuid_10338f89-5ed9-44f3-80d3-c905b733906a"/>Einschaltungen und Weglassungen in der nach Einlangen dieser Be-
+                <lb xml:id="uuid_0387bc84-0cfc-4ab4-9e4f-e82635b04aa3"/>richtigung erscheinenden ersten oder zweiten Nummer, in demselben
+                <lb xml:id="uuid_479edf13-7b1a-4fa0-99ec-efcc22e6913b"/>Teile der Zeitung und in der gleichen Schrift wie die zu berich-
+                <lb xml:id="uuid_00675b43-48c3-40b3-a36f-af9a97071094"/>tigende Mitteilung:
+                <lb xml:id="uuid_50ecf135-c9a0-4aa7-ad88-9524b9e12a4b"/>Sie schreiben auf Seite 1, achte Zeile von unten:
+                <lb xml:id="uuid_3756edce-dc9e-4805-bcee-83f35d13a363"/>[G. Z]„Unverkennbar ist der Polizeipräsident erpresserischen Drohungen
+                <lb xml:id="uuid_e5ecaa2c-7830-4acc-a8c2-9fa284300db5"/>des Bekessy erlegen“.
+                <lb xml:id="uuid_b859fdfd-cd01-414d-b63f-de4be9575aca"/>Diese Behauptung ist unwahr.
+                <lb xml:id="uuid_c8b0c8dd-79b3-47a9-b2f3-9106bf6c7bd4"/>Wahr ist, dass ich den Polizeipräsidenten niemals
+                <lb xml:id="uuid_e2570491-8102-4fe5-a9c9-4b43a162d0d8"/>und auf keine Art bedroht habe.
+                <lb xml:id="uuid_6dbc8df4-7dc5-434c-8efb-57d0fd07f6d8"/>Sie schreiben auf Seite 35, dreizehnte Zeile von
+                <lb xml:id="uuid_88e62135-6a5c-4b36-8e7d-8f0f2b92a61c"/>unten:
+                <lb xml:id="uuid_1455974f-25a2-4e24-a22f-26fa3398e44d"/>„Wie er sich’s bei der Budapester Behörde gerichtet hat, wird zu
+                <lb xml:id="uuid_8f735ab2-27de-4a3a-b5a2-0f3cc7e5c4cd"/>ersehen sein.“
+                <lb xml:id="uuid_4b5201cf-1655-4d5a-bbe4-dbcf2d54429b"/>Diese Behauptung ist unwahr.
+                <lb xml:id="uuid_aa766411-5c86-4638-b111-65a228cdf843"/>Wahr ist, dass ich mir bei den Budapester Behörden
+                <lb xml:id="uuid_93ea4109-2bdc-4461-859e-d0623a95a022"/>nichts gerichtet habe.
+            <pb facs="" n="2"/>
+                <lb xml:id="uuid_cf35335e-cc37-4990-a822-7174be541ad9"/>Sie schreiben auf Seite 36, zwölfte Zeile von oben:
+                <lb xml:id="uuid_ec6720c5-025d-4dbf-a3b8-1ef25ee48368"/>„Meine Beschuldigung geht dahin, dass Herr Schober in den Tagen,
+                <lb xml:id="uuid_5f45894d-882d-4493-a202-4d3233a789b6"/>da die Aktion gegen den Erpresser Grosswiens in seinem mir kund-
+                <lb xml:id="uuid_77c88c15-1be6-4760-9585-212cfd08bd95"/>getanen Sinne, in der von mir gewiesenen, von ihm geförderten
+                <lb xml:id="uuid_f7738e52-ef41-4ada-bb31-7af5d97efd2d"/>Richtung, ihrem wohltätigen Abschluss zugefiihrt werden sollte,
+                <lb xml:id="uuid_1b914438-fd14-40c8-85a9-38b50f779044"/>beeinflusst durch eine lange fortwirkende Erpressung – die nicht
+                <lb xml:id="uuid_ba40ee69-cff6-4755-bc5f-c568f8b03ac7"/>auf seine Person abgezielt war – dem Erpresser für eine anhängige
+                <lb xml:id="uuid_5f2a4192-58f3-4fb1-9eb4-096d43fc86bb"/>Gerichtssache und so für sein weiteres Wirken Vorschub geleistet
+                <lb xml:id="uuid_a67f01a0-bcdc-4323-95a6-933ce8002d11"/>hat.“
+                <lb xml:id="uuid_c084fbc2-b7ab-4114-95ba-ce12b93351ab"/>Es ist unwahr, dass Herr Schober mir für eine anhängige
+                <lb xml:id="uuid_4ec4d534-3db1-493e-ba04-08480c913494"/>Gerichtssache und so für mein weiteres Wirken, beeinflusst durch
+                <lb xml:id="uuid_28f7d7c4-8eb1-47bb-b232-4e6634e62905"/>eine lange fortwirkende Erpressung, die nicht auf seine Person
+                <lb xml:id="uuid_bdc5c963-6c57-4662-b9ec-34534b00577c"/>abgezielt war, Vorschub geleistet hat.
+                <lb xml:id="uuid_86f3282d-0ea9-4aa0-a572-4d5a6575401a"/>Wahr ist, dass ich Herrn Schober in keiner Weise beein-
+                <lb xml:id="uuid_cd0876ec-cbef-4a0b-947d-bf7f5f6c5c71"/>flusst habe und er mir keinen Vorschub geleistet hat.
+                <lb xml:id="uuid_af470f34-d8fd-45cd-afe5-91eca23f2aab"/>Sie schreiben auf Seite 39, zehnte Zeile von unten:
+                <lb xml:id="uuid_85fa96a4-4f09-4abf-8ced-b270aa5995a9"/>[Pol. Dir.]„Die Polizeidirektion, die schon als <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/37843">Emmerich Békessy</rs> bei der
+                <lb xml:id="uuid_40a4fc06-09fa-487f-843e-e86d59ec315a"/>burgenländischen Regierung um Einbürgerung angesucht hatte, dieser
+                <lb xml:id="uuid_d00623dd-afe4-4544-a3ef-0d89506ff1ae"/>Stelle eine aufrechte Erledigung dieses Ansuchens abgeraten hatte,
+                <lb xml:id="uuid_c105efdc-5fe4-45b1-9a1f-8d1a15c803c7"/>nahm auf Grund der ihr zugekommenen Nachrichten, dass sich Békessy
+                <lb xml:id="uuid_2b8b0696-628b-45a7-808b-d9124a604554"/>auch um das Heimatsrecht in Wien bewerbe, mit Rücksicht auf das
+                <lb xml:id="uuid_62e16ce3-ddbb-4892-8577-100dbf9dad07"/>gegen Békessy vorliegende Material dessen Abschaffung aus Österreich
+                <lb xml:id="uuid_5f5fc450-d979-414e-ae69-be214acf1d8a"/>in Aussicht.“
+                <lb xml:id="uuid_b200fdfb-5890-4307-a717-81c7f922cee2"/>Diese Behauptung ist unwahr.
+                <lb xml:id="uuid_cb222345-8d44-488a-8ece-31fe9d8a2f57"/>Wahr ist, dass die Polizeidirektion am 15. Mai 1923, als
+                <lb xml:id="uuid_e4214063-7eda-4f8f-8b29-2dc7cb5b2256"/>ich mich um das Heimatrecht in Wien beworben habe, folgendes Zeug-
+                <lb xml:id="uuid_1fbb01ac-84c0-4fb1-8729-78dc84901d00"/>nis zu den Akten gegeben hat: „Die Polizeidirektion bestätigt dem
+                <lb xml:id="uuid_cdc04de2-7057-4440-8b09-2514a840d150"/>Herrn <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/37843">Emmerich Békessy</rs> zwecks Erlangung der oesterreichischen Staats-
+                <lb xml:id="uuid_ff83ef2f-73c7-4782-be97-1ae8fa2329b3"/>bürgerschaft, dass wider denselben in moralischer und staatsbürger-
+            <pb facs="" n="3"/>
+                <lb xml:id="uuid_b50f8b27-a370-4bd9-a6f6-814ce04ac6c4"/>licher Hinsicht Nachteiliges nicht vorgemerkt ist. Wien, am 15. Mai
+                <lb xml:id="uuid_7ca1a75e-d58a-451a-814d-fe41dd84a915"/>1923. Polizeidirektion Wien. Unleserliche Unterschrift.“
+                <lb xml:id="uuid_efa1ea95-79f1-4549-83e6-d707f21327d9"/>Sie schreiben auf Seite 40, 21. Zeile von oben:
+                <lb xml:id="uuid_490166fb-658f-4b5b-9c71-87a57fc80c10"/>[Pol. Dir.] „Weiters wurde in ihr mitgeteilt, dass Békessy ‚nach der Aeusserung
+                <lb xml:id="uuid_77d65068-31bc-49c9-b8a0-5b98c6129260"/>weiter journalistischer Kreise in Wien in seiner journalistischen
+                <lb xml:id="uuid_9941dfa8-d35d-4c7b-adb2-84a2993ed5e3"/>Tätigkeit laut eigener Aussage eine ganz eigenartige Auffassung
+                <lb xml:id="uuid_17d7be54-3cbb-49a4-a2d2-f6e842bd6c2b"/>vertrete, die von der Wiener Journalistik als mit den Standespflich-
+                <lb xml:id="uuid_7a4d9d48-2c8d-4489-84dc-d9263ca740dd"/>ten eines Journalisten nicht vereinbar angesehen werde. Diese Auf-
+                <lb xml:id="uuid_4a99e3a7-2776-4e76-8898-995be2a87b17"/>fassung geht dahin, dass ebenso wie der Rechtsanwalt oder der Arzt
+                <lb xml:id="uuid_5e923599-28ba-46f8-a713-1bdcba69c40e"/>von seinem Klienten, beziehungsweise Patienten für geleistete Dien-
+                <lb xml:id="uuid_18ee39d1-d5f9-41f6-a7b0-f0cc275c0092"/>ste honoriert werde, auch der Journalist auf Entlohnung von Seite
+                <lb xml:id="uuid_33d149b7-d5e0-4e93-a179-b0493161f452"/>jener Personen Anspruch erheben könne, welchen er durch Publikatio-
+                <lb xml:id="uuid_f7a173d2-3340-436c-8290-4a503f3ad5a8"/>nen, aber auch durch Verschweigung von Mitteilungen Dienste erwiesen
+                <lb xml:id="uuid_47ca65ff-bdfe-41ba-be24-41c40979e1be"/>habe.‘“
+                <lb xml:id="uuid_4e365ae9-55b6-4c69-8147-321e424815ac"/>Es ist unwahr, dass ich laut eigener Aussage eine solche
+                <lb xml:id="uuid_560d4e57-3da6-4ebc-ac95-d0d623e80d23"/>Auffassung vertrete.
+                <lb xml:id="uuid_86a2aafb-8332-4e85-bbab-f63bb40aaa7b"/>Wahr ist, dass ich Derartiges über meine journalistische
+                <lb xml:id="uuid_e10db4d6-c5a0-4800-911f-44e74bc14eb2"/>Auffassung niemals ausgesagt habe und eine solche Auffassung auch
+                <lb xml:id="uuid_133e38b1-01b3-42b9-a3dc-7bd122f70b6f"/>nicht vertrete.
+                <lb xml:id="uuid_bf2df8d6-4bd9-43c5-883b-6021e2f508e6"/>Sie veröffentlichen auf Seite 41, dritte Zeile von oben:
+                <lb xml:id="uuid_d48ae76e-ebcd-4892-b90b-514d52c8b6cb"/>[Pol. Dir.] „Dem Beschwerdeführer wurde bedeutet, dass die Polizeidirektion
+                <lb xml:id="uuid_f2ad9902-e08f-4b56-b8ac-3ced5ec2ef42"/>die dem Gericht seinerzeit erteilte Auskunft auf Grund des ihr vor-
+                <lb xml:id="uuid_b5b75a4f-9616-4f8e-9bce-7bc60abe6409"/>liegenden Aktenmaterials und dem Ergebnis der vertraulich gepfloge-
+                <lb xml:id="uuid_849384c7-ee57-4616-a5f3-ae56e20d07fc"/>nen Erhebungen erteilt habe. Es wäre der Partei freigestanden, bei
+                <lb xml:id="uuid_681ecaa1-e021-4d81-b01f-baa480dfb968"/>Gericht gegen die Ausführungen der Leumundsnote zu protestieren.
+                <lb xml:id="uuid_63af6d8e-2d3e-4270-9da1-d82f29813515"/>Nunmehr nach erledigtem Gerichtsverfahren liege für die Polizeidi-
+                <lb xml:id="uuid_5a0c0f65-8c97-43ac-ae78-7a618750d896"/>rektion ein Anlass, die von ihr gegebene Information zu revidieren,
+                <lb xml:id="uuid_dea4c69e-90bd-4a6f-836c-86e97c2c3002"/>nicht vor.“
+                <lb xml:id="uuid_d992c47e-f6db-44c3-bb46-f2c18fec8235"/>Diese Behauptung ist unwahr.
+            <pb facs="" n="4"/>
+                <lb xml:id="uuid_da0adccd-5dd1-46f5-a30b-825caa8089a1"/>Wahr ist, dass mir, dem Beschwerdeführer, vom Chef der
+                <lb xml:id="uuid_d7a321d7-bcd5-45b2-9d51-f7494532310f"/>Staatspolizei, Hofrat Pollak erklärt wurde, dass die Polizeidirek-
+                <lb xml:id="uuid_59d86b99-fa11-495d-b7de-d65542858002"/>tion gerne gewillt ist, die von ihr dem Gerichte erteilte Auskunft
+                <lb xml:id="uuid_611ba6ba-91c0-4d2c-a01e-6077c4ebffa2"/>im Jahre 1923 einer Revision zu unterziehen und mit mir in mehrfa-
+                <lb xml:id="uuid_20351713-0b95-4af5-a051-cad83afa11b0"/>chen, oft stundenlang währenden Besprechungen Art und Form dieser
+                <lb xml:id="uuid_7988dd2c-7418-4113-a98e-64ea33f2dee4"/>Revision vereinbart wurde.
+                <lb xml:id="uuid_c16b893e-ca26-471b-9019-ba2d7d5cc393"/>Sie schreiben auf Seite 43, neunte Zeile von oben:
+                <lb xml:id="uuid_84aee5a3-2641-40fe-a52b-3020b6c5f8e3"/>[Volkswirt]„… dass Békessy diese Frist genützt hatte, die ungarischen
+                <lb xml:id="uuid_800db4d9-8791-4c10-9ecd-73187ac2e649"/>Behörden ‚umzustimmen‘“.
+                <lb xml:id="uuid_a2852c6e-5975-46d0-8ab9-69460b07a93d"/>Diese Behauptung ist unwahr.
+                <lb xml:id="uuid_40db1562-33f6-40dd-ba71-c8ad5fdf976c"/>Wahr ist, dass ich keine Frist genützt habe, um unga-
+                <lb xml:id="uuid_ea2dc90e-dc58-47c2-a356-35ad4dfc026a"/>rische Behörden „umzustimmen“.
+                <lb xml:id="uuid_012952a5-405c-4a09-ae83-d0cd334a5cb4"/>Sie schreiben auf Seite 45, neunte Zeile von oben:
+                <lb xml:id="uuid_bc89a1ad-9ed4-435e-8b8b-ebc7e7bef821"/>„… dass eine weite Partie ihrer öffentlichen Meinung von einem
+                <lb xml:id="uuid_8c5bdcf3-e18d-4b7d-aa35-675a94d28e1d"/>Schieber, Betrüger und militärgerichtlich abgeurteilten Erpresser
+                <lb xml:id="uuid_211ec186-2025-4aed-8aa9-96e7cc6718fe"/>beherrscht werde, der im Krieg als Leiter einer Budapester Einjährig-
+                <lb xml:id="uuid_e6274777-e3ab-40d3-9f9d-91793a78b385"/>Freiwilligen-Schule seine Untergebenen in der Zucht der buchstäbli-
+                <lb xml:id="uuid_7edff485-8280-4729-a212-1d63c92563a0"/>chen Alternative ‚Geld oder Leben‘ gehalten hat.“
+                <lb xml:id="uuid_b90fa991-931c-45a1-89de-58ebdb0b686b"/>Es ist unwahr, dass ich militärgerichtlich als Er-
+                <lb xml:id="uuid_75d6c3ec-d34c-4f3a-b3b9-96f3b4aec9f0"/>presser abgeurteilt wurde.
+                <lb xml:id="uuid_2ef4263e-c00b-4777-962c-8baf330c8ee3"/>Wahr ist, dass ich militärgerichtlich vollkommen un-
+                <lb xml:id="uuid_74fcf862-7a18-41f8-aa33-f0dac1f6689d"/>bescholten bin. Es ist unwahr, dass ich im Krieg meine Untergebenen
+                <lb xml:id="uuid_3a6a6e48-73ee-4840-b0b5-1c4214786eb2"/>als Leiter einer Budapester Einjährig-Freiwilligen-Schule in der
+                <lb xml:id="uuid_833e33a4-a428-4574-b1b3-6ada36be63b5"/>Zucht der buchstäblichen Alternative „Geld oder Leben“ gehalten habe.
+                <lb xml:id="uuid_24ca149a-fa4e-4fca-9335-b37813a5c2a0"/>Wahr ist, dass ich im Kriege als Leiter einer Einjäh-
+                <lb xml:id="uuid_10723da8-f101-4267-89e5-fde40be56f53"/>rig-Freiwilligen-Schule meine Untergebenen als guter Freund und
+                <lb xml:id="uuid_f0c398f4-e431-424c-8879-806e2fb46a0e"/>Kamerad behandelt habe.
+                <lb xml:id="uuid_be33cd16-f730-4ded-b9a9-4b1946a6ce56"/>Sie schreiben auf Seite 47, fünfzehnte Zeile von
+                <lb xml:id="uuid_3fc799db-7888-405c-91b9-4198e7aa519d"/>unten:
+            <pb facs="" n="5"/>
+                <lb xml:id="uuid_dae3d205-fe66-4ad2-950d-581a2defcfe0"/>[Sch]„Erst kürzlich sei bei ihm ein grosser Finanzmann erschienen –
+                <lb xml:id="uuid_31569b2c-e5c8-4831-bcef-349b16985c54"/>‚nicht aber den Sie meinen‘ – der beklagte sich, soeben habe ihm
+                <lb xml:id="uuid_daab3624-16b2-46f9-937b-67684e69cf95"/>der Békessy ‚eine Milliarde abgezapft‘ und wollte, dass die Poli-
+                <lb xml:id="uuid_c18abd0f-c61f-4d23-88b3-d19135a4ff73"/>zei ihm wieder zu ihr verhelfe.“
+                <lb xml:id="uuid_cfd3ed39-6e35-426c-a084-864c3f46bbab"/>Diese Behauptung ist unwahr.
+                <lb xml:id="uuid_1a0747bb-6dd7-4782-bc95-08db4ea44738"/>Wahr ist, dass sich niemand beklagt hat und beklagen konn-
+                <lb xml:id="uuid_ec209037-1234-4763-bcab-1267df00394d"/>te, dass ich ihm „eine Milliarde abgezapft“ habe, weil ich nie-
+                <lb xml:id="uuid_346c2baf-1d7d-47b1-b2c8-6f910dece4f9"/>mandem eine Milliarde abgezapft habe.
+                <lb xml:id="uuid_aff7cf3c-19f4-4cbb-891a-664b7d11d137"/>Sie schreiben auf Seite 48, fünfte Zeile von unten:
+                <lb xml:id="uuid_2b9b7401-ed3a-4138-9375-94a570248e3f"/>[Sch] „Es handle sich hier um ein sogenanntes ‚schwebendes Verfahren‘
+                <lb xml:id="uuid_1e4f967b-f7c4-4212-9044-22b4f64f72b8"/>und bezüglich der Betrugsfakten gab er die Aufklärung, dass die
+                <lb xml:id="uuid_4463cd95-9fb2-42c4-a1a7-65a5621091e5"/>Reparatur durch ‚Schadensgutmachung‘ erfolgen könne.“
+                <lb xml:id="uuid_042e96ce-7c5e-45ae-8bbb-b7007ce150d2"/>Die darin enthaltene Behauptung, dass gegen mich irgend
+                <lb xml:id="uuid_7b8b03e6-09a5-492e-bcea-3b98152d0761"/>ein „schwebendes Verfahren“ vorhanden sei und dass ich die Repa-
+                <lb xml:id="uuid_c8406abd-57c3-4eec-a36c-cbfedcf961cc"/>ratur irgendwelcher Betrugsfakten durch „Schadengutmachung“ re-
+                <lb xml:id="uuid_f003d743-ff88-4ece-983e-159cf2885da4"/>pariert haben konnte, ist unwahr.
+                <lb xml:id="uuid_4a1424af-1362-47b8-870a-df5bc62e4bcb"/>Wahr ist, dass gegen mich in Ungarn gar kein Verfahren
+                <lb xml:id="uuid_856ed00c-7695-4ecb-a73e-7b64c70a8928"/>schwebt.
+                <lb xml:id="uuid_16bb4944-24c5-4f8b-9442-b98ef2261796"/>Wahr ist weiters, dass ich niemals die Reparatur irgend-
+                <lb xml:id="uuid_24a9ef8f-b9bf-4bfc-badc-32d5b2283144"/>welcher Betrugsfakten durch „Schadensgutmachung“ erreicht habe.
+                <lb xml:id="uuid_bb6bd33b-5a75-4df4-b3d2-41a9b5bd5cb1"/>Sie veröffentlichen auf Seite 49, neunte Zeile von oben:
+                <lb xml:id="uuid_d5b229f9-ae61-4dfd-8e40-f39f5ab6bcf8"/>„Er hatte aber die Rechnung nur mit dem ‚Volkswirt‘ gemacht, näm-
+                <lb xml:id="uuid_02456145-2ace-4632-b0ee-427c7f2a2853"/>lich als Grundlage seiner Bemühungen die etwas lückenhafte Leu-
+                <lb xml:id="uuid_6ca74877-db08-4f41-8a00-410b9605edcc"/>mundsnote verwendet, die von jenem gedruckt war, nicht ahnend,
+                <lb xml:id="uuid_54441053-7f2e-4f43-871b-4ef340c29289"/>dass die offizielle 16 enthielt, weshalb man ihm die Bereinigung
+                <lb xml:id="uuid_712adce3-b284-424f-bd8e-f201f7eda38a"/>des sechzehnten, eines Betrugsfaktums, in <rs type="place" ref="https://pmb.acdh.oeaw.ac.at/entity/43471">Budapest</rs> schuldig blieb“
+                <lb xml:id="uuid_83bb938a-661d-4fc7-8b9f-f63bdf54c577"/>Diese Behauptung ist unwahr.
+                <lb xml:id="uuid_6c74bd9e-b9f4-4b73-b16a-5c3786e8cdbf"/>Wahr ist, dass die Oberstadthauptmannschaft der Buda-
+                <lb xml:id="uuid_43cbe7a9-c6f9-4427-90af-b440b6f3539c"/>pester königlich-ungarischen Staatspolizei mit ihrer Note
+            <pb facs="" n="6"/>
+                <lb xml:id="uuid_b7a1b62b-0652-4c1b-8a4a-dd2650e467ce"/>ad 145788/925 fk II sämtliche, mich betreffenden Fakten, also
+                <lb xml:id="uuid_4796855b-acc4-41fb-a112-0919f5ee6351"/>auch die sechzehnte, bereinigt hat, ebenso wie ich selbst alle
+                <lb xml:id="uuid_b6856b2b-ab5d-4be6-977a-c97263fabfac"/>diese Fakten durch Vorlage der bezughabenden Gerichtsbeschlüsse
+                <lb xml:id="uuid_3269be8b-f2a4-47a1-a0a9-2f3b09657eb4"/>schon im Jahre 1923 zur Zahl IX 5940/23 durch den Nachweis berei-
+                <lb xml:id="uuid_27465173-5bb8-4880-b9e3-0ae228ae6daa"/>nigt habe, dass ich ein vollkommen unbescholtenes Vorleben habe,
+                <lb xml:id="uuid_b8104ac6-ff28-4d83-925a-01a6cc514e86"/>dass in allen in der Leumundsnote angeführten Angelegenheiten
+                <lb xml:id="uuid_01aaf1d9-4990-4fae-963a-3c20811ad11b"/>jedes Verfahren zum grossen Teile schon im Stadium der Vorunter-
+                <lb xml:id="uuid_a297c70c-47a4-4e16-9113-6a3ffb31c9d6"/>suchung mangels strafbaren Tatbestandes eingestellt wurde, dass
+                <lb xml:id="uuid_7f039263-7bfb-4786-86d6-dd2ee4cdd5bf"/>das Verfahren in dem Grossteil dieser Angelegenheiten nicht gegen
+                <lb xml:id="uuid_fa67df73-2be6-4550-b6d7-a63ceecbd7ba"/>meine Person gerichtet war und demzufolge aus diesen Angelegen-
+                <lb xml:id="uuid_66426d43-d916-46d3-88dd-3aa14d3bd4ac"/>heiten auf meine moralische Integrität gar kein Schatten fällt.
+                <lb xml:id="uuid_e8a0f576-83ff-4ab4-9cb4-5422217ddcda"/>Sie veröffentlichen auf Seite 51, fünfte Zeile von oben:
+                <lb xml:id="uuid_0cf05122-8396-4b29-8fcf-2605dc5a23c4"/>[Brief] „Békessy, der seinen Namen so schreibt / ssy ist in Ungarn ein
+                <lb xml:id="uuid_c864e442-9e10-4d59-a24b-8d612b06480d"/>Adelszeichen / Békesi – so wird er richtig geschrieben – hat frü-
+                <lb xml:id="uuid_f5f99a3d-d5d8-4299-921f-81345b0dfaf7"/>her anders / vermutlich Blau oder Braun / geheissen.“
+                <lb xml:id="uuid_64c82cbe-d6ca-403f-b541-53075c2abf13"/>Diese Behauptung ist unwahr.
+                <lb xml:id="uuid_0adfff8c-e736-46f5-afa3-17c8b60af987"/>Wahr ist, dass ich niemals Braun oder Blau geheissen habe
+                <lb xml:id="uuid_903f4b3e-4b41-423b-8c82-dfe298bfbd71"/>und mein Name richtig Békessy geschrieben wird, da laut Justiz-
+                <lb xml:id="uuid_c3787657-bf5a-4702-8aa5-52719f1b5205"/>Minist.-Erlass vom 18. März 1870 Z. 7102 nicht nur mein Vater,
+                <lb xml:id="uuid_4f7e35bb-c71e-47fd-9aa7-28c34422b19c"/>sondern auch mein Grossvater seinen Namen so schrieb und so zu
+                <lb xml:id="uuid_e9aa7b7c-d8d5-45f6-9b4f-eaa05ab32c00"/>schreiben berechtigt war.
+                <lb xml:id="uuid_3117c67f-5293-4288-92b5-71abd955c322"/>Sie schreiben auf Seite 51, 18 Zeile von oben:
+                <lb xml:id="uuid_88a5729a-d679-44d0-bf29-6516f010c7e7"/>[Brief] „Kein aktiver Offizier schikanierte seine Leute derart, wie er
+                <lb xml:id="uuid_6220183b-65fc-43f4-98fe-073b54b809ef"/>seine Altersgenossen, deren Rangerster er war. Es waren von
+                <lb xml:id="uuid_7e9c27a9-9531-413c-ad8a-c4673a7c3db7"/>30 zirka 10, die er vor der Offiziersprüfung aus der Schule
+                <lb xml:id="uuid_afc2d801-c3d7-4729-8399-79ed52845f62"/>und ins Feld jagte.“
+                <lb xml:id="uuid_983ee360-3956-467b-a095-21aeea84a383"/>Diese Behauptung ist unwahr.
+                <lb xml:id="uuid_dd22c36e-95c4-432f-b56b-ae9d5b245e26"/>Wahr ist, dass ich von 30 keinen einzigen Menschen aus
+                <lb xml:id="uuid_01c23ac0-516b-4fe2-922d-0bfd467830a3"/>der Schule und ins Feld jagte. Wahr ist, dass vor der Offiziers-
+            <pb facs="" n="7"/>
+                <lb xml:id="uuid_14bf7c63-69e8-47aa-9061-1b305527e255"/>prüfung überhaupt niemand aus der Schule entlassen und ins Feld
+                <lb xml:id="uuid_cb00af7a-1fcc-42c1-91cf-04d068a8dca2"/>geschickt wurde. Wahr ist, dass ich mit der Frage der Absendung
+                <lb xml:id="uuid_d5c8fc2b-f9fa-45cf-9344-49fdd613103a"/>ins Feld überhaupt nichts zu tun hatte. Wahr ist, dass die Ab-
+                <lb xml:id="uuid_706e9eaa-9ed8-455b-874f-4d8917c919ed"/>sendung ins Feld jeweils direkt vom Militärkommando oder vom
+                <lb xml:id="uuid_03f3a3ab-0dfb-4fc1-a539-5358c64ab77e"/>Kriegsministerium, ohne Vorschlag der Einjährig-Freiwilligen-
+                <lb xml:id="uuid_315b66e4-4359-4baf-be25-bd18ca84bca7"/>Schule, anbefohlen wurde. Wahr ist auch, dass ich meine Alters-
+                <lb xml:id="uuid_e487166a-0854-4ac4-b83f-734686045ecf"/>genossen nicht schikaniert habe, sondern von diesen gelegentlich
+                <lb xml:id="uuid_47e18d0d-22c3-4dc9-9b4d-4fc3ce333b12"/>der Offiziersprüfung ein Dankschreiben für erwiesene Freundschaft
+                <lb xml:id="uuid_f04aa317-c932-459f-b687-bb1c2cce23c7"/>und Kollegialität erhielt.
+                <lb xml:id="uuid_206fb593-787e-4218-94f4-1f532e923597"/>Sie schreiben auf Seite 51, zwölfte Zeile von unten:
+                <lb xml:id="uuid_be682e10-f142-4a1d-bec0-af53ceaeade6"/>[Brief] „Mit einem Wort, Békesi wurde nicht zum Kadetten befördert und
+                <lb xml:id="uuid_34a7c300-8353-4a4d-b21b-e9c11cd005ad"/>er sollte als Unteroffizier ins Feld.“
+                <lb xml:id="uuid_874248ac-6f71-4324-b7e5-10295f8c2f38"/>Die darin enthaltene Behauptung, dass mein Name Békesi
+                <lb xml:id="uuid_f0c42401-8d65-4c89-a92e-f349365feb38"/>lautet, ist unwahr. Wahr ist vielmehr, dass die richtige Schreib-
+                <lb xml:id="uuid_6781a1bb-a705-45ed-bc66-4fe46f35bde8"/>art meines Namens Békessy ist. Wahr ist weiters, dass ich, Békessy,
+                <lb xml:id="uuid_6533f5ff-575c-4539-963a-883c0fb1fa20"/>nach Absolvierung der Offiziersprüfung als Rangerster zum Kadetten
+                <lb xml:id="uuid_05f39b81-2af8-4270-b133-a2d2d4c2d6c5"/>befördert und in dieser Eigenschaft am 11. April 1916 an die ita-
+                <lb xml:id="uuid_54a9475e-d679-489e-861b-d0cbf061add5"/>lienische Front ins Feld ging.
+                <lb xml:id="uuid_972fbe41-b97b-4fc4-b4ee-a2f224b19d51"/>Sie schreiben auf Seite 51, 4. Zeile von unten:
+                <lb xml:id="uuid_b0f7d684-5e95-4fdd-a904-5abd9574aeba"/>[Brief] „Bekesi war auch drei oder vier Tage im Feld / beim Train / dann
+                <lb xml:id="uuid_52ea1651-8826-420b-8cb0-6b98cf5ef0a6"/>verschwand er wieder.“
+                <lb xml:id="uuid_1d53adf6-a23c-4fc6-96b6-8166a575da7b"/>Diese Behauptung ist unwahr.
+                <lb xml:id="uuid_c3474d19-238a-4101-930a-969f8e011572"/>Wahr ist, dass ich vom 11. April 1916 bis 8. November
+                <lb xml:id="uuid_c7ef483a-9fb0-4fde-8859-9cb24494fcd5"/>1917, mit einer Unterbrechung von zweimal drei Wochen, andauernd
+                <lb xml:id="uuid_5283d0d3-ad07-4599-92e2-dbc75e94f7e7"/>im Felde stand, und zwar bis zum Vormarsch an der italienischen
+                <lb xml:id="uuid_20df5af4-fd53-47df-8fc4-cf8555836871"/>Front bis Arsiero und dann an der rumänischen Front bei Kirlibaba
+                <lb xml:id="uuid_9fed3f28-c9ae-4e2d-bc02-913a79a64fdc"/>Dornawatra und niemals beim Train war, sondern als Aufklärer
+                <lb xml:id="uuid_e6c37acf-ef5b-4ed8-b65b-48992dd699f4"/>Dienste leistete.
+                <lb xml:id="uuid_cc4d611b-5c77-4875-b7d6-5b203f5b24b4"/>Sie schreiben auf Seite 52, 1. Zeile von unten:
+            <pb facs="" n="8"/>
+                <lb xml:id="uuid_e9c5a1d1-a1db-4bf6-b439-978b5d077a27"/>[Brief] „Sonst weiss ich über Békesis Soldatentum nichts, nur dass er
+                <lb xml:id="uuid_a4cdd6d8-0022-4328-b20d-1537911d6996"/>inzwischen ein Importgeschäft in der Vámházkőrut hatte, welches
+                <lb xml:id="uuid_3756aafe-34f3-4977-8ec6-46d657317ede"/>/ falscher Konkurs? / eines Tages gesperrt wurde.“
+                <lb xml:id="uuid_13df7d86-0e8b-4b60-841e-e9ea7df909d1"/>Die darin enthaltene Behauptung, dass mein Name Békesi
+                <lb xml:id="uuid_9904a6a0-3fc9-4699-897f-2b8ebb2ce4ec"/>lautet, ist unwahr. Wahr ist vielmehr, dass die richtige Schreib-
+                <lb xml:id="uuid_5d9336bc-511a-4199-bf61-7a598956d1ba"/>art meines Namens Békessy ist. Wahr ist weiters, dass ich nie-
+                <lb xml:id="uuid_4087739b-b26d-4384-9e4a-3920bd6ae5d8"/>mals auf dem Vámházkőrut oder sonstwo ein Importgeschäft hatte,
+                <lb xml:id="uuid_73d56677-2919-42be-aa0a-9c5867b1fdb2"/>welches aus falschem Konkurs oder sonst aus einem anderen Grunde
+                <lb xml:id="uuid_ce32f79f-2cd4-4380-890f-b8e109a7564e"/>gesperrt wurde.
+                <lb xml:id="uuid_8a8bae6e-495a-4dbf-a220-eef293f0cfb9"/>Sie schreiben auf Seite 52, 10. Zeile von oben:
+                <lb xml:id="uuid_b40f4342-7c15-47a4-91cb-c60edab9c505"/>[Brief] „Nach dem Sturz der Diktatur gibt er eine weisse Börsenzeitung
+                <lb xml:id="uuid_2966dab4-090b-4384-956f-07cf988075a6"/>heraus, doch erschienen nur 1–2 Nummern; die Konkurrenz macht
+                <lb xml:id="uuid_51a4132a-c5c8-46c7-b873-a3c61a4ef19b"/>die konterrevolutionäre Regierung aufmerksam und Békesi fährt
+                <lb xml:id="uuid_0d899604-5ccf-40ee-8d16-06699da7298f"/>nach Wien.“
+                <lb xml:id="uuid_1986a7da-52af-46cd-b90d-611fec0d275b"/>Diese Behauptung ist unwahr.
+                <lb xml:id="uuid_d11e99d6-188d-4122-a80d-3cf9c4a90bee"/>Wahr ist, dass ich nach dem Sturz der Diktatur wegen
+                <lb xml:id="uuid_4f10757f-c0ec-4ebd-83df-ea19e5a843b8"/>des Verdachtes der Aufreizung und Aufwiegelung, begangen durch
+                <lb xml:id="uuid_f3105f49-4c12-4b3c-bdc8-0cfbd93860ef"/>die Presse, verhaftet wurde, nach Einstellung des Verfahrens
+                <lb xml:id="uuid_ab47b600-2c83-440b-9908-477f48c886a5"/>weder eine weisse noch sonst irgend eine andere Börsenzeitung
+                <lb xml:id="uuid_bbead419-a52d-4363-884a-7cc6b04f7449"/>herausgab und vom Tage meiner Enthaftung bis zu meiner am 5.
+                <lb xml:id="uuid_42488cb7-58d2-45a4-ba81-96c52395463f"/>Mai 1920 erfolgten Abreise nach Wien journalistisch überhaupt
+                <lb xml:id="uuid_9eeef0c3-9c18-444f-8466-bc217276678b"/>nicht tätig war. Es ist weiters wahr, dass mein Name Békessy
+                <lb xml:id="uuid_78949a6d-d10e-4433-bd07-6de69f7634cf"/>und nicht Békesi lautet.
+                <lb xml:id="uuid_31408087-823c-4fb1-8f19-de24a7af5221"/>Sie schreiben auf Seite 52, 14. Zeile von unten:
+                <lb xml:id="uuid_03cb3c6e-ac97-4693-95ea-5cbeaf88afd9"/>[Brief] „Im Verlaufe eines gegen Genannten angestrengten ehrenamtlichen
+                <lb xml:id="uuid_c0125f54-af77-47da-aa75-748add70c2d4"/>Verfahrens wurde das Urteil gefällt / im August 1915 / der Genann-
+                <lb xml:id="uuid_97eb278c-cf4d-478c-861d-1c8c98a841f4"/>te sei verpflichtet, beim Rapport in Anwesenheit von je zwei
+                <lb xml:id="uuid_dd6a20f1-4eb0-484d-a84d-31fa0d359ef7"/>Vertretern des Offizierskorps und der Freiwilligen zu erklären,
+            <pb facs="" n="9"/>
+                <lb xml:id="uuid_94cd35b0-36f8-4ea2-a726-7febb0bcb462"/>[Brief] er habe gegen seine Offiziers- und Freiwilligen-Kameraden bös-
+                <lb xml:id="uuid_53480f31-2a35-428c-b057-2e2c6cfe61c6"/>willige Verleumdungen und lügnerische Behauptungen verbreitet.“
+                <lb xml:id="uuid_52819eb9-45fe-4391-a2e7-5717e1da95f7"/>Diese Behauptung ist unwahr.
+                <lb xml:id="uuid_370a178b-5344-4a98-a435-69ec8e4bd059"/>Wahr ist, dass ein derartiges Urteil nicht gefällt wurde
+                <lb xml:id="uuid_811c6fc2-d216-4fc9-b535-021ecfb54a45"/>und ich beim Rapport eine derartige Meldung abzugehen niemals
+                <lb xml:id="uuid_dfaba567-07a9-419c-b20e-490755692de1"/>verhalten wurde.
+                <lb xml:id="uuid_92a8d0be-50cd-46eb-a55c-3585957f3923"/>Sie schreiben auf Seite 53, erste Zeile von oben:
+                <lb xml:id="uuid_7e6d413a-9bc7-4cfb-9f63-cddfd3873e5e"/>[Brief] „Auf Grund eines Befehls wurde bei der im Herbst 1916 beim Er-
+                <lb xml:id="uuid_fa50bb09-662f-421d-8deb-85c7bcdef530"/>satzkader des genannten Regiments unter Vorsitz des Majors
+                <lb xml:id="uuid_9ba32d0b-8725-4910-89bd-a09d33be956f"/>Schiemann abgehaltenen Offiziersversammlung von neuem verhandelt
+                <lb xml:id="uuid_416cb2c5-e439-46c7-ab0e-bf40666a81b5"/>und der Angeklagte einstimmig zum Verluste der Würdigung zum
+                <lb xml:id="uuid_75e4a914-a624-4876-b729-9944d1aa268a"/>Erlangen des Offiziersranges verurteilt, demselben die Offiziers-
+                <lb xml:id="uuid_645ed0b7-c549-439a-bad7-23ad3346ae97"/>aspirantenzeichen entzogen und seine Abschickung ins Feld unter
+                <lb xml:id="uuid_58fa7780-1c2a-4253-afdc-db0abfb7b56b"/>bewaffneter Eskorte anbefohlen.“
+                <lb xml:id="uuid_9b72bae3-65dd-4ec5-870d-a6ad38090cba"/>Diese Behauptung ist unwahr.
+                <lb xml:id="uuid_aabecbdf-e546-4129-9632-11ac5fed02f8"/>Wahr ist, dass die im Herbst 1916 beim Ersatzkader des
+                <lb xml:id="uuid_398c639f-5e35-4fe6-bf5d-b83a758e7ad4"/>Gebirgsartillerieregiments Nr 4 unter Vorsitz des Majors Schiemann
+                <lb xml:id="uuid_204329d1-a0f4-4fe5-b8ee-4119efe5c2d6"/>abgehaltene Offiziersversammlung überhaupt kein Urteil gefällt
+                <lb xml:id="uuid_2d704dc3-7468-44f0-afb5-440260d38a89"/>hat und im Sinne des Dienstreglements gar nicht fällen konnte,
+                <lb xml:id="uuid_38ed540d-0910-4da0-9890-491d4b58651f"/>vielmehr sich darauf beschränken musste, dem Militärkommando einen
+                <lb xml:id="uuid_4af75dda-b56a-478e-abae-808765d0d39c"/>Vorschlag zu unterbreiten. Der dahingehende Vorschlag der Offi-
+                <lb xml:id="uuid_3efa2dec-f3f0-4a56-9609-c5db9d17e2dd"/>ziersversammlung, man möge mir das Recht auf weitere Beförderung
+                <lb xml:id="uuid_7d99eaa1-49c2-42a0-b719-b5c193d479de"/>absprechen, wurde vom Militärkommando <rs type="place" ref="https://pmb.acdh.oeaw.ac.at/entity/43471">Budapest</rs> mit Beschluss
+                <lb xml:id="uuid_f0d79e35-c8dd-468d-a2a5-1ac1adc490f3"/>Nr. 413700/4-1917 und mit K.M. Erlass Nr 16768 abgewiesen, das Ver-
+                <lb xml:id="uuid_94283993-0736-4da1-8ea7-e169de0282c4"/>fahren wegen Mangelhaftigkeit der Untersuchung, Mangel an hinrei-
+                <lb xml:id="uuid_1a77a9b4-8885-4623-8705-2ee6ac8d648c"/>chenden Beweisen und mit Rücksicht auf tapferes Verhalten vor dem
+                <lb xml:id="uuid_fe074c9b-7115-46f0-b518-e10c9973ea68"/>Feinde im Aufklärungsdienst und Belobung im Gruppenkomnandobefehl
+                <lb xml:id="uuid_751e6f7f-c5e4-4707-a3dd-9a2a2e7b1274"/>„Janecka“ anulliert. Wahr ist weiters, dass ich niemals mit bewaff-
+            <pb facs="" n="10"/>
+                <lb xml:id="uuid_d5a022c8-d56b-4cce-bf0f-d388257ff545"/>neter Eskorte ins Feld ging, hingegen beide Male als Transport-
+                <lb xml:id="uuid_107b3033-d853-404b-b9b2-9dc563938b20"/>kommandant an die Front reiste.
+                <lb xml:id="uuid_f7f55212-64c6-47d1-9976-d7a400c73440"/>Sie schreiben auf Seite 53, 17. Zeile von oben:
+                <lb xml:id="uuid_a2d20fc3-a154-42bb-bddf-5cad903f7a66"/>[Brief] „Die Erledigung der Angelegenheit ging nicht glatt, weil die
+                <lb xml:id="uuid_e9bd673a-04f9-47b9-951c-cf4e094039ed"/>darauf bezughabenden Akten von Zeit zu Zeit verschwanden.“
+                <lb xml:id="uuid_3b26fecd-7ba7-4cdf-a15c-6e417de07228"/>Diese Behauptung ist unwahr.
+                <lb xml:id="uuid_de7d814e-0998-4495-964c-193656e56adf"/>Wahr ist, dass kein Akt jemals verschwunden ist, vielmehr
+                <lb xml:id="uuid_fb92482a-7d56-4590-a461-a2fc778d3845"/>sämtliche Akten noch heute gesammelt vorhanden sind.
+                <lb xml:id="uuid_87d8a42f-65e4-4f28-80ba-75c3fbe0ee33"/>Sie schreiben auf Seite 53, 16. Zeile von unten:
+                <lb xml:id="uuid_0dbc5c58-67f8-4cfd-8e1f-845e849bc5aa"/>[Brief] „<rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/37843">Emmerich Békessy</rs> verlangte und erhielt von K.H. seinem Kameraden
+                <lb xml:id="uuid_607bc53d-d919-4876-a67a-e81c7a5f4c80"/>mehrere Tausend Kronen geliehen und gab einen Schuldbrief darüber.
+                <lb xml:id="uuid_de6c3984-0609-4ffd-98c4-9020527ada7b"/>Zum Dank dafür zeigte Bekessy K.H. an, er habe, als er krankheits-
+                <lb xml:id="uuid_0de52e1f-575e-49dc-938f-bc9dab8acf3b"/>halber dem Dienst ferngeblieben war, seinen Vorgesetzten irrege-
+                <lb xml:id="uuid_3ba597c5-171a-40cc-8706-560bdb697727"/>führt, da er eigentlich gesund war. Er machte eine zweite Anzeige,
+                <lb xml:id="uuid_1c41b992-5be0-4f4a-8ab8-ee71c80f28dc"/>letztere anonym, worin er H. anklagte, er habe sich in einer
+                <lb xml:id="uuid_fe27610f-c28f-470c-a976-61baf1b670e8"/>Schuldsache / kölcsönügyben / inkorrekt benommen. Nach diesen Anzei-
+                <lb xml:id="uuid_ef516f88-5b8d-4e19-a011-bd4d421483fe"/>gen suchte er H. auf und teilte ihm mit, es stehe in seiner Macht
+                <lb xml:id="uuid_a8a5aa34-b43e-4bba-8f0d-660fc4583e9f"/>als Dienstführender der Freiwilligenschule die Anzeigen verschwin-
+                <lb xml:id="uuid_862eb98c-9fa1-48eb-8d5e-64225ecb640e"/>den zu lassen, sodass ihm kein Leid geschehen könne, bat aber als
+                <lb xml:id="uuid_49893a37-58ec-4d91-8b78-1d90892a8519"/>Gegenleistung um Nachlass seiner Schuld und Rückgabe des in H.s
+                <lb xml:id="uuid_345b8447-420e-45cf-89ca-5c73aceac66b"/>Besitz befindlichen Schuldbriefes. Békessy konnte den Schuldbrief
+                <lb xml:id="uuid_6166e18c-2a20-44ac-821c-8a8608be876c"/>nicht erlangen, obzwar er angeblich auch nicht davor zurückschrak,
+                <lb xml:id="uuid_e3332e9f-e41c-4099-8315-d6a6b01ca74a"/>H. mit niederschiessen zu bedrohen.“
+                <lb xml:id="uuid_7d32f4e9-8aad-4c03-b67e-ab7a2d7b9e75"/>Diese Behauptungen sind unwahr.
+                <lb xml:id="uuid_7b908d03-28e6-4957-8a2e-d35acb19dfb4"/>Wahr ist, dass ich mir von meinem Kameraden K.H. nie-
+                <lb xml:id="uuid_3e54e1db-e336-4ecf-8bf5-6c56838c11f0"/>mals mehrere Tausend Kronen geliehen habe. Wahr ist, dass ich K.H.
+                <lb xml:id="uuid_7b0e8c5b-439f-45f9-9fa2-2b4fcda3c02b"/>niemals, weder anonym, noch sonstwie angezeigt habe, wahr ist
+                <lb xml:id="uuid_a76abb06-5d8c-449b-b9bc-b7680e035b67"/>weiters, dass ich H. niemals aufgesucht habe und ihm niemals mit-
+            <pb facs="" n="11"/>
+                <lb xml:id="uuid_57bd2a5e-568c-467a-987f-0983f6c955fc"/>geteilt habe, es stehe in meiner Macht die Anzeigen verschwinden
+                <lb xml:id="uuid_5058f275-afdf-4ca6-a716-3d46d4e214ab"/>zu lassen, sodass ihm kein Leid geschehen könne und wahr ist,
+                <lb xml:id="uuid_4eef4a58-aaf2-477d-9f37-feac0600e777"/>dass ich keinerlei Gegenleistung verlangt habe. Wahr ist weiters,
+                <lb xml:id="uuid_6d632c4e-044d-4497-9151-cfc536ed41da"/>dass ich H. niemals mit Niederschiessen bedroht habe.
+                <lb xml:id="uuid_4b1d5d54-f960-4bb9-ae1b-910286be4ffd"/>Sie veröffentlichen auf Seite 54, 12. Zeile von oben:
+                <lb xml:id="uuid_5737e297-f458-4f3f-a9a7-e72029371c6b"/>[Brief] „Trotzdem wusste er es zu umgehen, dass man ihn ins Feld schick-
+                <lb xml:id="uuid_0195c9e3-812d-4b70-ab19-d3bc57f887ae"/>te, weil er einerseits eine Zeitlang ständig den Kranken spielte,
+                <lb xml:id="uuid_808e04bc-8104-4164-b376-bd724bc45ff5"/>andererseits später als Journalist seine Befreiung zu erlangen
+                <lb xml:id="uuid_cce369e7-f1cb-4e08-8986-9e4618a7306a"/>wusste.“
+                <lb xml:id="uuid_39f8c9d6-485e-4039-96c5-6f9862372072"/>Diese Behauptung ist unwahr.
+                <lb xml:id="uuid_f754ee65-1f2c-4e3b-a839-7532abfb2b8a"/>Wahr ist, dass ich vom 11. April 1916 bis 3. November 1917,
+                <lb xml:id="uuid_8fcf8f4f-4010-4ee9-995a-e86c216f5dfd"/>mit einer Unterbrechung von zweimal drei Wochen, andauernd im
+                <lb xml:id="uuid_a73428e2-37ce-4c17-8465-0b2d42a59285"/>Felde stand.
+                <lb xml:id="uuid_b4c23df2-f58d-43e5-bf69-1ade545506af"/>Sie veröffentlichen auf Seite 54, 18. Zeile von oben:
+                <lb xml:id="uuid_4dac072e-939c-47bb-9a1e-7596fa03410a"/>[Brief] „Ich hatte insofern eine Affäre mit ihm, als er meinen Kommandan-
+                <lb xml:id="uuid_228c5446-1733-4a87-8760-5385465b08cb"/>ten dazu veranlasste, mich bei der Offiziersprüfung durchfallen
+                <lb xml:id="uuid_5581bc1f-149b-457a-bf6d-86b654e916e7"/>zu lassen.“
+                <lb xml:id="uuid_e9c7ef77-45e0-4735-933d-a45c01583064"/>Diese Behauptung ist unwahr.
+                <lb xml:id="uuid_03892cb7-8d39-4f00-964c-40a119f95812"/>Wahr ist, dass ich mit niemandem eine Affäre hatte, weil
+                <lb xml:id="uuid_8df663f5-e582-4b5d-a8d4-2b053f25b9a2"/>ich den Kommandanten veranlasste, jemanden bei der Offiziersprü-
+                <lb xml:id="uuid_22cedb21-45eb-4d0e-bc8a-c1a1b72b6f7d"/>fung durchfallen zu lassen. Wahr ist, dass ich auf das Ergebnis
+                <lb xml:id="uuid_33b55364-b9d9-4e14-b949-674eebe6c0d4"/>der Offiziersprüfung gar keinen Einfluss nehmen konnte.
+                <lb xml:id="uuid_60784308-4f31-4b47-b207-044de1942788"/>Sie schreiben auf Seite 54, 11. Zeile von unten:
+                <lb xml:id="uuid_a6c8d48d-afa6-4743-8f8e-7240a53ce25c"/>[Brief] „Da er seine Schuld nicht bezahlen konnte, wollte er H. gewaltsam
+                <lb xml:id="uuid_0968dce0-7508-4855-b54a-e98f0f77357e"/>angeblich mit Bedrohung seines Lebens dazu zwingen, dass er ihm
+                <lb xml:id="uuid_b6832ff0-774f-4cef-9fd7-b1393b9dc30d"/>den Schuldschein zurückgebe.“
+                <lb xml:id="uuid_072fe1db-0f9b-438b-aac4-73cd607b0be0"/>Diese Behauptung ist unwahr.
+                <lb xml:id="uuid_8ddaa01d-0238-492c-9e85-4abd9f238b20"/>Wahr ist, dass ich jede Schuld bezahlen konnte und
+            <pb facs="" n="12"/>
+                <lb xml:id="uuid_9f70479a-8a9b-4897-88df-11ac189e8087"/>niemanden damit bedroht habe, mir irgend einen Schuldschein
+                <lb xml:id="uuid_f00d5d07-1edb-4141-b1a3-d0d986535f25"/>mit Gewalt zurückzugeben.
+                <lb xml:id="uuid_1b8f96af-3c69-4714-b893-f649f8c009e7"/>Sie veröffentlichen auf Seite 55, 7. Zeile von oben:
+                <lb xml:id="uuid_5f9277b8-85c4-44a2-8210-61546f1cd5ea"/>„Der hauptsächlich Bedrohte wurde später als Zeuge darüber ver-
+                <lb xml:id="uuid_5bbad621-3977-4af9-92c0-76b67d26531f"/>nommen, dass es nicht bei der ehrenrätlichen Ordnung der Ange-
+                <lb xml:id="uuid_5e32c6ed-b4fe-44a2-af31-3427e224f20d"/>legenheit geblieben, sondern dass der Freibeuter – auf dessen
+                <lb xml:id="uuid_90280a7c-a48e-4b24-8b88-805480846dce"/>Gedeihen knapp vor dem Zusammenbruch ein oesterreichischer
+                <lb xml:id="uuid_b236cad9-33ec-427e-a54a-573aed5a06d7"/>Finanzminister sich betrank – wegen Erpressung und Verleumdung
+                <lb xml:id="uuid_2da6cbb7-1799-48b4-b16d-626192ca43f9"/>abgestraft worden sei.“
+                <lb xml:id="uuid_2f986143-8139-4b9e-888a-ecb3194d0641"/>Diese Behauptung ist unwahr.
+                <lb xml:id="uuid_96d736a3-4283-4219-9fd0-f682d52b0f6c"/>Wahr ist, dass ich niemals, weder militärgerichtlich,
+                <lb xml:id="uuid_662e68e2-76d7-42bf-8f92-b6c4a635e5e9"/>noch sonst auf irgend eine andere Art oder vor einer anderen
+                <lb xml:id="uuid_af453482-350c-4cdd-9a21-157eb245a5db"/>Behörde wegen Erpressung und Verleumdung abgestraft worden bin
+                <lb xml:id="uuid_8ed20519-2673-4a90-b0e4-c4e3c7fb92a7"/>und auch niemals wegen Erpressung und Verleumdung angeklagt war.
+                <lb xml:id="uuid_88d00a0d-a990-40ab-99a7-6f905b260c2d"/>Wahr ist weiters, dass Herr Kollmann, ehemals Bundesminister
+                <lb xml:id="uuid_9a888b21-259f-4db8-9d56-4d7b07a42582"/>für Finanzen, sich niemals auf mein Gedeihen betrank, sondern
+                <lb xml:id="uuid_2068ac26-0a83-44da-b3e5-fd3dd618d117"/>einen Toast auf meine Zeitungen ausbrachte.
+                <lb xml:id="uuid_caaa8c60-8e3a-4c09-924e-882f91f16050"/>Sie schreiben auf Seite 55, Zeile 7 von unten:
+                <lb xml:id="uuid_64873876-5886-4332-8c23-0f167d6e3377"/>„Jene beiden Sittenzeugnisse seien ‚erschlichen‘“.
+                <lb xml:id="uuid_954dd04e-7049-42d5-9164-8b433a62b9d8"/>Diese Behauptung ist unwahr.
+                <lb xml:id="uuid_a22e7c9e-f5f7-43da-b10f-79f8008d987e"/>Wahr ist, dass die Budapester königl. Oberstadthauptmann-
+                <lb xml:id="uuid_d8f12b20-f0db-4018-a7e9-15747fbfeb27"/>schaft die Sittenzeugnisse vom 18. Dezember 1923 und 7. Oktober
+                <lb xml:id="uuid_cab043f0-1c18-454b-9bd1-05e0ca7242af"/>1925 Nr 33521 und 19247 meinem Budapester Rechtsfreund Dr.
+                <lb xml:id="uuid_23d3def7-d45d-4904-826c-e8f3a3eaedbb"/>Michael Tarján im Amtswege aushändigte und diese am 15. Dezem-
+                <lb xml:id="uuid_eabdd889-9b3e-420b-9b6a-447540dbb082"/>ber 1925 Z. 12006 nur einzog, weil „beide Zeugnisse bezüglich
+                <lb xml:id="uuid_e57680f0-5667-4038-a225-b37397516b33"/>der politischen Einwandfreiheit des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/37843">Emmerich Békessy</rs> den Tat-
+                <lb xml:id="uuid_bdaed02a-1456-4491-877f-e1d49f5e21c4"/>sachen nicht entsprechende Daten enthalten“ und eine Neuausfer-
+                <lb xml:id="uuid_6e43727d-afd5-4f3b-8fc9-10275618be24"/>tigung unter Berücksichtigung der gegen mich geführten Unter-
+            <pb facs="" n="13"/>
+                <lb xml:id="uuid_523a692d-5725-4fa3-8546-d0bbb2526676"/>suchung wegen Aufreizung sich als notwendig ergeben hat.
+                <lb xml:id="uuid_b4ef0440-ff3a-43c3-a840-d06d96df3645"/>Sie veröffentlichen auf Seite 57, Zeile 5 von unten:
+                <lb xml:id="uuid_317639d5-9933-4a39-b0fb-4b9e1df09963"/>[Dr. S] „Vorher schon hatte ich in Erfahrung gebracht, dass Békessy
+                <lb xml:id="uuid_bc061b72-fd64-4d54-ae2f-20837eb7a100"/>ausser den in der Leumundsnote verzeichneten Delikten, die
+                <lb xml:id="uuid_df1f6fc5-420f-46fc-8a15-a910021f4ee6"/>angeblich niemals zu einer Verurteilung geführt hatten, wäh-
+                <lb xml:id="uuid_9b3d37f1-d937-4e88-9bc9-649f88d1d4f2"/>rend seiner militärischen Dienstleistung sich eine Verfehlung
+                <lb xml:id="uuid_1cf394b7-1900-46c9-8af5-094341010fb1"/>habe zuschulden kommen lassen, für die er bestraft worden ist.“
+                <lb xml:id="uuid_340bc164-d2fa-4ce8-a536-88e5b4412b1c"/>Diese Behauptungen sind unwahr.
+                <lb xml:id="uuid_ec953547-cfac-43bc-ad0c-51794bd2c9dc"/>Wahr ist, dass ich weder wegen der in der Leumundsnote
+                <lb xml:id="uuid_e26de108-a235-4a39-a1d6-6564d0af8a04"/>verzeichneten Delikte, noch während meiner militärischen Dienst-
+                <lb xml:id="uuid_70f1818c-03bc-4b85-b6fc-4ce12e4a55a6"/>zeit für irgend eine Verfehlung bestraft worden bin.
+                <lb xml:id="uuid_7227c056-bcde-45bc-800d-7bf94cb0c898"/>Sie veröffentlichen auf Seite 59, Zeile 14 von oben:
+                <lb xml:id="uuid_1c778f16-4b9b-4519-a8a9-5e81b63859ee"/>[Dr. S] „Ich erfuhr, das Békessy wegen Verleumdung und Erpressung
+                <lb xml:id="uuid_7a46c820-6e00-4b54-bece-a8755eeb8d90"/>militärgerichtlich abgeurteilt wurde.“
+                <lb xml:id="uuid_39de9c50-1c8e-445d-8ca3-ef8bf1d9e373"/>Diese Behauptung ist unwahr.
+                <lb xml:id="uuid_ec02c04d-2898-4486-a7be-a2a85ae56c63"/>Wahr ist, dass ich wegen Verleumdung und Erpressung mili-
+                <lb xml:id="uuid_7cc47df9-c8b5-4cbf-9dc9-b14061056ed0"/>tärgerichtlich niemals abgestraft wurde.
+                <lb xml:id="uuid_1333bdd1-d0c8-494a-8c97-53a919ee2d1d"/>Sie veröffentlichen auf Seite 60, Zeile 16 von oben:
+                <lb xml:id="uuid_c7224547-1a0a-4ce4-b9f2-9affe29e161e"/>[Dr. S] „Zu dieser Nummer hat aber Herr Békessy im Jahre 1923 eine
+                <lb xml:id="uuid_b795e9cc-d79e-4936-9dc8-39b660f8e24f"/>Amtsbestätigung vorgelegt, dass das Verfahren auf Grund der Be-
+                <lb xml:id="uuid_a30d350f-ba8c-441b-a804-ac45fa0061ab"/>rufung der Angeklagten <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/37843">Emmerich Békessy</rs> und Dr. Ludwig Lázár
+                <lb xml:id="uuid_74b4e0ac-c49a-4b6f-b1ad-2d574d2cff0b"/>einen günstigen Verlauf genommen habe. Es ist nun ganz unmög-
+                <lb xml:id="uuid_7bad5aca-b1ee-45d0-a74b-5d62c8898642"/>lich, dass Békessy in demselben Akt Kläger und Angeklagter war.“
+                <lb xml:id="uuid_565d859c-113c-43aa-839f-dbfd27d33854"/>Diese Behauptung ist unwahr.
+                <lb xml:id="uuid_f8a7137a-9c00-4c2f-ba7d-747894c32ee4"/>Wahr ist, dass zu dieser Nummer eine Amtsbestätigung
+                <lb xml:id="uuid_9eb0f37f-b5ae-44ff-a092-7cf1c5d64114"/>vorgelegt wurde, aus der hervorgeht, dass die Commercia A.G.
+                <lb xml:id="uuid_ad7d4233-3640-4910-afd4-b589d6c44fe2"/>gegen Wilhelm Nagel &amp; Co. eine Anzeige erstattet hat und die
+                <lb xml:id="uuid_d5833151-533d-43c7-8b88-15537e40efda"/>zur selben Nummer gegebene Gegenanzeige dieser Firma mangels
+            <pb facs="" n="14"/>
+                <lb xml:id="uuid_4a25dd74-6d20-487e-846d-8f119c385517"/>strafbaren Tatbestandes unberücksichtigt geblieben ist.
+                <lb xml:id="uuid_a9d8450d-d846-4107-bcbb-85d41c60b094"/>Sie schreiben auf Seite 60, Zeile 9 von unten:
+                <lb xml:id="uuid_b0ec14fa-b72d-43e7-b98a-97bfa4a6d51a"/>[!] „Dass dieser selbst bei Herrn Hofrat Pollak erschienen sei,
+                <lb xml:id="uuid_dc24d28d-2499-4ee9-863d-066c9a4f5923"/>um eine Besserung seiner Lage herbeizuführen, wobei er so
+                <lb xml:id="uuid_e4ac9fb5-f60a-4cce-ae3f-a2c1bfd5515b"/>en passant auf das ‚gebesserte‘ Betragen der ‚Stunde‘ gegen-
+                <lb xml:id="uuid_b493adf6-1f05-42f9-9b39-98c2d90e2595"/>über der Polizei hingewiesen habe.“
+                <lb xml:id="uuid_afe49e3b-48d7-45da-8fda-c07b4cbfcccd"/>Diese Behauptungen sind unwahr.
+                <lb xml:id="uuid_17f4659a-f1a2-4c9f-bde3-70b1449d0a22"/>Wahr ist vielmehr, dass ich niemals zu dem Zwecke bei
+                <lb xml:id="uuid_c9c928b3-d82a-4e1f-a9de-c2bc58b28505"/>Hofrat Pollak erschienen bin, um eine Besserung meiner Lage
+                <lb xml:id="uuid_7eaa2c65-ccf6-4bbb-9221-8e4c182ec39d"/>herbeizuführen, sondern von diesem die Richtigstellung der
+                <lb xml:id="uuid_92b3301d-8c5b-4674-a42f-9b1ac1a1347c"/>unrichtigen Auskünfte des Polizeipräsidiums in der Leumunds-
+                <lb xml:id="uuid_a7961473-6f29-47ed-a891-7a14a3ef40a4"/>note vom 14. November 1923 Pr. Zl. IV.1546/6 begehrte. Wahr
+                <lb xml:id="uuid_b2b308d4-cad9-4515-a658-fc4da38f5cdb"/>ist weiters, dass ich mit keinem Worte auf das „gebesserte“
+                <lb xml:id="uuid_f074c82e-5eb9-4e91-a104-6ac7aecc45b8"/>Betragen der „Stunde“ gegenüber der Polizei hingewiesen habe,
+                <lb xml:id="uuid_d56ab612-61aa-4887-89d5-041a298181e0"/>vielmehr von Hofrat Pollak die Versicherung der freundschaft-
+                <lb xml:id="uuid_ce7c79be-ef88-4f40-b875-e9e677cc97c2"/>lichsten Gefühle und den dahingehenden Wunsch des Polizeiprä-
+                <lb xml:id="uuid_f47c0f9d-3dda-4209-ab6a-2ffdc4e56210"/>sidenten Schober entgegennahm, dieser wünsche ein besseres
+                <lb xml:id="uuid_ced6a479-ddd6-4c81-b976-bec615600645"/>Einvernehmen mit der „Stunde“.
+                <lb xml:id="uuid_7765c79d-775a-4386-ae24-12979b6be470"/>Sie veröffentlichen auf Seite 67, Zeile 12 von oben:
+                <lb xml:id="uuid_8a683b78-e903-4a74-8ace-d24c77ef0588"/>„… Dass Békessy beim Gebirgsartillerieregiment Nr 4 als
+                <lb xml:id="uuid_3c55d246-2dd1-4d49-b3ad-51746c990311"/>Vampir gedient, militärgerichtlich abgeurteilte Erpressungen
+                <lb xml:id="uuid_7d0f7e64-6c7b-4f02-9cfa-1938cbceae24"/>an Menschenblut verübt habe und der Charge des Kadettaspiran-
+                <lb xml:id="uuid_77c0bf61-fd9e-4efd-9f68-61d507ed156a"/>ten mit Schimpf verlustig gegangen sei.“
+                <lb xml:id="uuid_7e9a44a7-c47c-4b2b-b95b-daee0446a40b"/>Diese Behauptung ist unwahr.
+                <lb xml:id="uuid_7709ac30-9c3b-4adc-ae39-158295fd453c"/>Wahr ist, dass ich beim Gebirgsartillerieregiment
+                <lb xml:id="uuid_e592c14f-98c0-4d63-8fbd-761a9b99825a"/>Nr. 4 niemals militärgerichtlich abgeurteilte Erpressungen an
+                <lb xml:id="uuid_5843ac1f-666e-4454-a9e9-b5f64475cf3a"/>Menschenblut verübt habe und wahr ist, dass ich der Charge des
+                <lb xml:id="uuid_5af3ef98-8861-490d-9611-ceb8392a12a2"/>Kadettaspiranten nicht verlustig gegangen bin.
+            <pb facs="" n="15"/>
+                <lb xml:id="uuid_52eba96e-69e5-4c23-bc3d-fe01bd5f87fb"/>Sie schreiben auf Seite 87, Zeile 20 von unten:
+                <lb xml:id="uuid_24cde4d0-26d3-4a6d-8716-0e9410b0dc32"/>[!] „Das aber weiss ich, dass auf Herrn Hofrat Pollak – wen
+                <lb xml:id="uuid_23c60e98-2595-4b01-af17-7616bf305961"/>immer vor übler journalistischer Nachrede zu schützen sein
+                <lb xml:id="uuid_3fcb3a19-a415-4627-a29d-bc52c5a640ec"/>Interesse war – die Versicherung des Herrn Békessy Eindruck
+                <lb xml:id="uuid_38aae8fc-d553-4add-8b6c-0ba86f1ee072"/>gemacht hat, dass die ‚Stunde‘ jetzt so brav geworden sei.“
+                <lb xml:id="uuid_5922422f-1b6b-43ea-bb59-a11d810a7525"/>Diese Behauptung ist unwahr.
+                <lb xml:id="uuid_d9179ddd-26b2-4bf4-97c5-7fa465ee74d1"/>Wahr ist, dass ich niemals Herrn Hofrat Pollak versichert
+                <lb xml:id="uuid_8624ade7-3435-4001-bfc4-a35880d7c3c3"/>habe, dass die „Stunde“ jetzt so brav geworden sei, vielmehr
+                <lb xml:id="uuid_b9926a54-e191-4d66-bf18-3dcdb57167ad"/>von ihm den Wunsch des Polizeipräsidenten Schober entgegennahm,
+                <lb xml:id="uuid_4bb39359-6801-4c2f-a2bc-322587ecb706"/>die „Stunde“ möge brav werden.
+                <lb xml:id="uuid_d2777c12-d048-4f09-b2fd-ca9c2406b8e0"/>Gegenüber der auf Seite 93, von Zeile 17 bis Zeile 37
+                <lb xml:id="uuid_cbf4be21-cbbe-431c-bde5-340366596bb2"/>veröffentlichten unwahren Tatsachen verlange ich die Veröffent-
+                <lb xml:id="uuid_e64d5ff8-0109-4158-913a-5dba1c07ca9b"/>lichung der nachfolgenden Berichtigung:
+                <lb xml:id="uuid_d23f48ea-286b-42d3-b3c7-896cbdf67420"/>Es ist unwahr, dass ich Beziehungen zur Horthy-Begierung
+                <lb xml:id="uuid_90cd08bd-069c-4a1f-bcd8-cead448caf79"/>anknüpfte. Wahr ist, dass ich mit der Horthy-Regierung keinerlei
+                <lb xml:id="uuid_cd1e4a44-4733-4ccc-a6b8-c47c15e20255"/>Beziehungen anknüpfte. Es ist unwahr, dass ich „erwachende
+                <lb xml:id="uuid_ef4bbea6-6400-4261-a5fb-8e7b50f3d655"/>Christen fetierte.“ Wahr ist, dass ich niemals „erwachende
+                <lb xml:id="uuid_a2b48c88-6714-49fe-9ec9-20d10418d1c5"/>Christen“ fetierte.
+                <lb xml:id="uuid_072cc1ed-63ad-411d-8b12-962b97db56bc"/>Es ist unwahr, dass ich, um Rotgardisten zu denunzieren, Tele-
+                <lb xml:id="uuid_75cf19e9-a90e-4bd7-a141-e56b3bb22582"/>gramme ausschickte. Wahr ist, dass ich niemals Rotgardisten
+                <lb xml:id="uuid_9b3be9ef-6ffe-4707-80f6-c391c482d06d"/>denunzierte und niemals solche Telegramme ausschickte.
+                <lb xml:id="uuid_05953533-4896-4f1e-acd0-2e7a67e9985b"/>Es ist unwahr, dass ich während meiner letzten Zeit der ungari-
+                <lb xml:id="uuid_2e8a50d6-bbed-4b37-8bf0-46d5f99aa68b"/>schen Regierung Dienste geleistet habe. Wahr ist, dass ich nie-
+                <lb xml:id="uuid_cbd11d94-b216-42a6-8222-ed6b114caa65"/>mals solche Dienste geleistet habe.
+                <lb xml:id="uuid_29375e84-7530-4e66-8b78-f417c128b846"/>[!] Es ist unwahr, dass ich in Ungarn eine Justiz-Komödie inszenier-
+                <lb xml:id="uuid_1b6404bc-24b9-44d2-b199-8799fed6440e"/>te. Wahr ist, dass ich in Ungarn gegen mich eine Selbstanzeige
+                <lb xml:id="uuid_15a25d6f-58b0-4046-97ea-7588f10593f7"/>erstattete, um verleumderische Wiener Gerüchte in einem objek-
+                <lb xml:id="uuid_a7f2ed40-f058-4f5e-9dc3-ac26bb10f0bd"/>tiven Strafverfahren untersuchen zu lassen.
+            <pb facs="" n="16"/>
+                <lb xml:id="uuid_13914a36-f641-44cd-9ce7-b7738e9acc3b"/>Es ist unwahr, dass der Fall Bekessy einen Fall der Staats-
+                <lb xml:id="uuid_ebda1b05-03ff-4449-a4b1-b6fd752d4985"/>korruption darstellt. Wahr ist, dass mein Fall mit dem Staate
+                <lb xml:id="uuid_25fba61f-d741-4997-9974-78560da40bbb"/>überhaupt nichts zu tun hat.
+                <lb xml:id="uuid_c601f6e0-e842-461c-8a97-ec83613544da"/>Sie schreiben auf Seite 112, Zeile 19 von oben:
+                <lb xml:id="uuid_7cf65051-bb29-4586-a054-3e5554d44c1c"/>„Dass von einer Begünstigung des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/37843">Emmerich Békessy</rs> durch die
+                <lb xml:id="uuid_f01ed514-465f-44fe-bd38-d059f19c90a1"/>Polizeidirektion oder durch einzelne Funktionäre desselben
+                <lb xml:id="uuid_f1aceead-5c4c-4674-a66f-b5f12e757b53"/>die Rede sein kann.“
+                <lb xml:id="uuid_d06988aa-5001-4bf3-a66e-e8f35a3a0a4e"/>Biese Behauptung ist unwahr.
+                <lb xml:id="uuid_de4c012e-e420-4200-96a6-395edec4d80c"/>Wahr ist, dass von einer Begünstigung meiner Person durch
+                <lb xml:id="uuid_af690ab2-9650-428b-97d2-8e8de4fb31ff"/>die Polizeidirektion oder durch einzelne Funktionäre derselben
+                <lb xml:id="uuid_564cbb54-b95a-4ad1-901a-05eee2f9647d"/>nicht die Rede sein kann.
+                <lb xml:id="uuid_92af0547-722d-45b0-b0aa-2ca7d08de8ad"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/37843">Emmerich Békessy</rs>
+        </body>
+    </text>
+</TEI>

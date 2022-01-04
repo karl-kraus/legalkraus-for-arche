@@ -1,0 +1,794 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000048-009-003.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000048-009-002.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000048-009-004.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Originalumschlag Oskar Samek - Akt 48</title>
+                <editor ref=""/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000048-009-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2169</idno>
+                <idno type="ID" subtype="transkribus">453382</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000048">Korrespondenz mit Leo Singer (betr. Békessys Versuche in Budapest eine neue Zeitung zu gründen)</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000048-009-003-wit01" facs=""/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date type="sortDate" subtype="produced" when-iso=""/>
+                <date source="krausonline">o. D.</date>
+            </creation>
+            <langUsage><language ident="de">Deutsch</language></langUsage>
+            <textClass>
+                <keywords>
+                    <term>Bericht</term>
+                </keywords>
+                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.J.BER</classCode>
+            </textClass>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2020-02-11T10:10:28.715Z" who="#IB">created by API</change>
+            <change when-iso="2020-02-11T10:50:24.17Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-11T10:50:24.958Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-11T10:50:41.578Z" who="#JM">Checked Images Wienbibliothek</change>
+        <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of Transkribus Document 453382.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000264_12.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000266_12.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000268_11.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000270_10.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000276_9.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000278_10.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000280_9.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000282_11.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000284_9.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000286_9.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000288_10.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000264_12.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000266_12.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000268_11.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000270_10.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000276_9.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000278_10.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000280_9.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000282_11.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000284_9.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000286_9.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000288_10.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000264_12.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000266_12.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000268_11.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000270_10.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000276_9.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000278_10.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000280_9.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000282_11.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000284_9.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000286_9.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000288_10.jpg" source="krausonline"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="" n="1"/>
+            <lb xml:id="uuid_8e7a4312-f119-47ef-ba43-12f11987ef5e"/>Stunde – Békessy.
+<lb xml:id="uuid_ec255bc6-ce95-4848-a55b-c6ce95a84805"/>Der Name <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/37843">Emmerich Bekessy</rs> war in Budapest ein Begriff. Er war ein
+<lb xml:id="uuid_87b19ead-9668-41aa-b19e-ad966891aa7e"/>kleiner Journalist in Ungarn; er arbeitete zuerst in Tageszeitungen, später
+<lb xml:id="uuid_8dda9f52-d8c4-4671-9a9f-52d8c426717b"/>redigierte er ein volkswirtschaftliches Blatt und gab es heraus. Dieses volks-
+<lb xml:id="uuid_5dade47e-3101-40b1-ade4-7e3101a0b114"/>wirtschaftliche Wochenblatt war volkstümlich; Békessy schrieb sehr gut und
+<lb xml:id="uuid_a042cc44-1b04-48e4-82cc-441b0468e403"/>schlug einen neuen, interessanten Ton an und das Publikum, das der trockenen
+<lb xml:id="uuid_78c1c4be-c5de-4657-81c4-bec5de06576c"/>Kost der volkswirtschaftlichen Fachschriftsteller überdrüssig war, fand Bekes-
+<lb xml:id="uuid_349fc2af-d281-434d-9fc2-afd281f34d54"/>sys Aufsätze erquickend.
+<lb xml:id="uuid_74cbe09d-0214-46c7-8be0-9d021476c72e"/>Im Kommunismus spielte er eine gewisse Rolle, doch rechtfertigte er
+<lb xml:id="uuid_0c5ba06d-9ccf-4285-9ba0-6d9ccf3285ef"/>sich und nachdem er nach Wien abgereist war und dort das volkswirtschaftliche
+<lb xml:id="uuid_670b3257-bff9-4487-8b32-57bff9f48719"/>Blatt „Die Börse“ gegründet hatte, kam er oft nach Hause; er brauchte keine
+<lb xml:id="uuid_8ac264bd-8112-430e-8264-bd8112f30e55"/>Verfolgung zu fürchten.
+<lb xml:id="uuid_0a3596d6-d3c2-4eff-b596-d6d3c29eff60"/>In Wien wurde Bekessy eine beispiellose Macht. „Die Börse“ ging
+<lb xml:id="uuid_e6e763a4-ddf7-4551-a763-a4ddf7e55178"/>glänzend, in kurzem wurde sie Castiglionis Hausblatt und während der Konjunktur
+<lb xml:id="uuid_f7017d02-b8d3-4064-817d-02b8d31064ca"/>kam auch Békessy auf seine Rechnung. Unter den vielen plötzlich grossgewordenen
+<lb xml:id="uuid_8bf88908-1043-4920-b889-081043c92060"/>machte er eine ganz ausserordentlich rasche Karriere; er wurde beneidenswert
+<lb xml:id="uuid_d2fdc8b4-e689-42bb-bdc8-b4e689d2bb93"/>reich.
+<lb xml:id="uuid_664ede73-c4eb-4745-8ede-73c4eb9745ee"/>Er gründete die Stunde. Ein neuer grosser Erfolg. Békessy erwies
+<lb xml:id="uuid_48833792-daa0-4cc6-8337-92daa0fcc68b"/>sich tüchtiger als die Wiener Presse; er umgab sich mit leistungsfähigen un-
+<lb xml:id="uuid_00ce4268-80a9-4209-8e42-6880a9620946"/>garischen Journalisten und in den Wiener Redaktionen, wo alles schläft und die
+<lb xml:id="uuid_7a6c314c-2d2d-4a47-ac31-4c2d2dca47e2"/>Lampen flackernd brennen, liess man erschrocken die lauen Fussbäder sein, jeder
+<lb xml:id="uuid_8d13ffd3-9cc2-413f-93ff-d39cc2f13f95"/>fühlte, dass hier eine neue Quelle sprudelte, deren Wasser schmackhafter und
+<lb xml:id="uuid_935b49b1-f4f0-4389-9b49-b1f4f0d38986"/>frischer ist, als das der früheren war.
+<lb xml:id="uuid_9b6769f2-1dcb-4438-a769-f21dcb743862"/>Sicher hat Békessy Fehler, er ist masslos und oft zu sehr Geschäfts-
+<lb xml:id="uuid_c72dbb9e-bf88-4d31-adbb-9ebf88ad3191"/>mann; aber man sagt und man muss es auch glauben, dass die grossen Zeitungs-
+<lb xml:id="uuid_4aea06c2-2e5d-4532-aa06-c22e5dd532ea"/>unternehmungen auf der ganzen Welt auf geschäftlicher Grundlage stehen. Das
+<lb xml:id="uuid_7898e56c-b6da-4f31-98e5-6cb6da4f31de"/>war es auch nicht, was Békessys Sturz herbeiführte. Békessy schloss einerseits
+<lb xml:id="uuid_08879e7d-e4b8-4fd1-879e-7de4b84fd1dd"/>grosse Geschäfte ab und wurde selbst: auch Grosskapitalist, hatte Häuser und
+<lb xml:id="uuid_1422a18a-2d2b-414c-a2a1-8a2d2b814cb8"/>Autos, andrerseits blieb er ein Kämpfer für die Wahrheit, griff die Korruption
+<lb xml:id="uuid_e1cf7025-cac5-4345-8f70-25cac56345a0"/>an und verfolgte unerbittlich die Einseitigkeit der Gesellschaft. Er band mit
+<lb xml:id="uuid_c0b8d882-cdc5-41bb-b8d8-82cdc541bb67"/>jedem an, spöttelte, blieb ein „gamin“, zeigte die Lunge und spuckte aus seinem
+<lb xml:id="uuid_abcf7df2-e1a4-4390-8f7d-f2e1a4d390b6"/>Fenster auf die Mächtigen hinunter.
+<lb xml:id="uuid_e7992a61-9d01-4a9d-992a-619d01aa9d63"/>Er blieb ein gamin, ein kriegerischer Journalist, ein begeisterter
+<lb xml:id="uuid_b0c044af-29c7-45d4-8044-af29c7b5d400"/>Narr (Fanatiker) des Einfalls und alles Tüchtigen. Er blieb Revolutionär, ob-
+<lb xml:id="uuid_0c626325-7189-4daa-a263-257189ddaa62"/>zwar schon Lastautos mit seinem Namen durch die Strassen fuhren und er so viel
+<lb xml:id="uuid_ed72711e-524b-4604-b271-1e524b66043a"/>Leute beschäftigte wie zehn andere Blätter zusammen. Er war glücklich, wenn er
+<lb xml:id="uuid_89b8d949-9934-45db-b8d9-499934a5dbc1"/>eine gute Zeile schrieb. Und glücklich war er, wenn irgendeiner seiner Jour-
+<lb xml:id="uuid_faccce86-5e0c-4d74-8cce-865e0c7d7469"/>nalisten eine sensationelle Meldung brachte und für einen Witz opferte er sein
+<lb xml:id="uuid_20e93a78-488d-4974-a93a-78488dc974a2"/>Leben auf.
+<lb xml:id="uuid_8139d4ae-aba6-4dff-b9d4-aeaba63dff76"/>Es scheint, dass das ein nur dem Armen erlaubter Luxus ist. Ein
+<lb xml:id="uuid_3d4085ab-2452-4df6-8085-ab24528df641"/>mächtiger Unternehmer darf keine Einfälle haben und ein Geldmann kann nicht
+<lb xml:id="uuid_0eef5be8-249f-442a-af5b-e8249fb42ad9"/>Enthüllungen machen. Békessy aber liebte es nur zu enthüllen und zu sprengen.
+<lb xml:id="uuid_1c89e188-29de-44a2-89e1-8829dec4a260"/>Und er begnügte sich nicht damit die Grossen zu entlarven, er wollte
+<lb xml:id="uuid_ea07ecb3-1dc9-4b4e-87ec-b31dc92b4e2b"/>auch die Kleinen entlarven. Er entlarvte auch die Entlarver.
+<lb xml:id="uuid_c9ad5bd9-f7ad-456a-ad5b-d9f7adc56a90"/>Er band mit <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs> an, dem grössten Entlarver, den nur noch
+<lb xml:id="uuid_e749358a-e3f5-48ea-8935-8ae3f5e8eab0"/>Herr Austerlitz übertrifft, Chefredakteur der Arbeiterzeitung, heute der
+<lb xml:id="uuid_c01117c1-b422-4190-9117-c1b4220190ad"/>furchtloseste Publizist Oesterreichs, dessen Name heute die ganze politische
+<lb xml:id="uuid_9897748d-479a-411c-9774-8d479ad11ce5"/>Richtung des neuen Oesterreich bedeutet.
+<lb xml:id="uuid_ecb69135-3420-4035-b691-3534204035d4"/>Er brachte Fotografien von <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs>, um zu zeigen, wie hässlich
+<lb xml:id="uuid_0713303f-d4bb-4ec0-9330-3fd4bbaec0a0"/>er ist. Zur unrechten Zeit. Und was für grosse Füsse er schon in seiner Kind-
+<lb xml:id="uuid_cca47fda-24ed-41bd-a47f-da24ed71bd0d"/>heit gehabt habe. Auf Austerlitz machte er Anspielungen, dass dieser auf
+<lb xml:id="uuid_c53d8b16-7f1a-49bb-bd8b-167f1a19bb9c"/>Strassenbahnhaltestellen kleinen Mädchen nachlaufe.
+<lb xml:id="uuid_dfe4bda7-c80f-4b6a-a4bd-a7c80fcb6a13"/>Hierauf setzte sich Austerlitz’ ganzer Amtsapparat in Bewegung und
+<lb xml:id="uuid_4f72e76d-b4a5-4e43-b2e7-6db4a5fe43d9"/>man holte die Administrationsgeschäfte der Börse und der Stunde hervor, die
+<lb xml:id="uuid_2387e4f1-82ed-408d-87e4-f182ed708d06"/>er mit den Banken gemacht hatte und revidierte seine Annoncen und fragte bei
+<lb xml:id="uuid_f6ee8871-22c5-4206-ae88-7122c5f2069e"/>den Unternehmungen an, ob sie die Anzeigen aufgegeben hätten, weil Békessys
+<lb xml:id="uuid_8863b48a-3a5b-460a-a3b4-8a3a5be60a0d"/>Agenten sie bedrohten. Und es fand sich einer, der sagte, dass vor zwei Jahren
+<pb facs="" n="2"/>
+            <lb xml:id="uuid_6b43e07e-92ca-4e96-83e0-7e92ca0e966d"/>Seite 2
+<lb xml:id="uuid_81f27be9-2173-4f7d-b27b-e92173cf7d7f"/>ein Agent unter Drohungen Anzeigen verlangt habe. Darauf wurde der Agent
+<lb xml:id="uuid_d2941a73-6f50-41ce-941a-736f5081ced0"/>verhaftet. Der Agent sagte, ihm habe der Direktor aufgetragen, Anzeigen
+<lb xml:id="uuid_bf00ebb5-5fe9-46a4-80eb-b55fe9d6a419"/>zu verlangen. Hierauf wurde auch der Direktor verhaftet. Nun wäre die Folge
+<lb xml:id="uuid_fd369c8e-439a-4ed1-b69c-8e439a2ed1be"/>gewesen, dass der Direktor seinerseits die Sache auf Békessy geschoben hätte.
+<lb xml:id="uuid_7fbb9d00-dab3-4a89-bb9d-00dab3ea891a"/>Jeder erwartete, dass jetzt Békessy verhaftet werde. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs>
+<lb xml:id="uuid_32c114b2-f3f7-4b40-8114-b2f3f73b40cd"/>gab gegen die Stunde eine Sondernummer heraus.
+<lb xml:id="uuid_23b7ceef-32ce-4f45-b7ce-ef32ce1f4559"/>Und die feindlichen Zeitungen, denen der furchtlose Journalist
+<lb xml:id="uuid_0085eb1c-3e13-4490-85eb-1c3e13c4907e"/>ein Dorn im Auge war, forderten wütend und mit allem Nachdruck, dass aus
+<lb xml:id="uuid_d39f22d4-0a70-45b4-9f22-d40a70a5b4d1"/>Wien der Fremde entfernt werde, der nicht einmal Oesterreicher ist und dort
+<lb xml:id="uuid_eea8f7bb-b8f4-449d-a8f7-bbb8f4b49db5"/>neue Sitten und einen neuen Ton einbürgern will und sich so tollkühn be-
+<lb xml:id="uuid_b5d88db8-ff23-490a-988d-b8ff23490a21"/>nimmt, dass man es nicht länger dulden kann. Das sei die Gelegenheit, ihm
+<lb xml:id="uuid_f9e853e6-e1cf-46e1-a853-e6e1cfc6e149"/>den Garaus zu machen.
+<lb xml:id="uuid_e34643a6-66f8-41d3-8643-a666f8f1d3d7"/>Die Fackel, die 20 Jahre lang blutig gegen die <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/29351">Neue Freie Presse</rs>
+<lb xml:id="uuid_20fc3752-e94b-495b-bc37-52e94b495ba4"/>geschrieben hatte, setzte sich dem Blatte Benedikts in den Schoss und die
+<lb xml:id="uuid_b467f117-b700-4906-a7f1-17b70039060f"/>2 zähneknirschenden Gegner zerflossen in Liebe und griffen mit vereinter
+<lb xml:id="uuid_31d26ee0-db89-4b16-926e-e0db897b1688"/>Leidenschaft Békessy an. Sie forderten seine Verhaftung.
+<lb xml:id="uuid_cbfc27d1-d394-43e7-bc27-d1d39493e7b5"/>Faekel-Kraus schrieb, dass er nicht weiter dieselbe Luft mit
+<lb xml:id="uuid_3876dc18-ad98-423c-b6dc-18ad98923c83"/>Békessy atmen wolle. Lieber lasse er sich auch einsperren, als dass er dulde,
+<lb xml:id="uuid_3899ca8a-5f7b-4e0b-99ca-8a5f7bee0b16"/>dass Békessy frei bleibe.
+<lb xml:id="uuid_a89871d4-4c63-4cb8-9871-d44c630cb889"/>Die Arbeiterzeitung insultierte Castiglioni und drohte mit Ent-
+<lb xml:id="uuid_32e4e89a-a541-4e8d-a4e8-9aa541ee8d11"/>hüllungen für den Fall, dass er nicht gestehe, dass ihm Békessy Milliarden
+<lb xml:id="uuid_cd122ca5-6134-48bc-922c-a56134e8bc18"/>erpresst habe. Und dann geschah es, dass der Redakteur der Stunde, Tschuppik,
+<lb xml:id="uuid_d1c46fd8-a4bf-4c94-846f-d8a4bfdc94db"/>den Zeitungen eine Erklärung einsandte, dass er auf seine Stelle verzichte
+<lb xml:id="uuid_9d8ee58c-bb36-467c-8ee5-8cbb36167c3a"/>und aus der Stunde austrete. Das wirkte nach aussen so, als ob auch die
+<lb xml:id="uuid_2da330d2-0a7a-4c2e-a330-d20a7a1c2ecc"/>Redaktion mit Békessy nicht solidarisch wäre.
+<lb xml:id="uuid_3b88e35d-23da-4dc8-88e3-5d23daadc84c"/>Da bekam das Schiff auch ein Leck von innen, es begann die Flucht.
+<lb xml:id="uuid_32d30592-7c96-4d6c-9305-927c96fd6c82"/>Békessy war nicht in Wien und da er befürchtete, dass sein Direktor in
+<lb xml:id="uuid_d2ca6ca7-559c-49d9-8a6c-a7559c99d95d"/>seinem Schrecken eventuell gegen ihn aussagen werde, verlor er das Gleich-
+<lb xml:id="uuid_9f74a8f2-31ed-49f6-b4a8-f231ed09f683"/>gewicht und statt nach Hause nach Wien zu eilen um die Verantwortung zu über-
+<lb xml:id="uuid_c9683f55-faa0-4b9c-a83f-55faa0cb9cdc"/>nehmen, reiste er ins Ausland, überliess das sinkende Schiff, das keinen
+<lb xml:id="uuid_b56d7d3e-3c78-46bd-ad7d-3e3c78e6bd1d"/>Proviant hatte, sich selbst. Es zeigte sich, dass das riesenhafte Unterneh-
+<lb xml:id="uuid_3ad2fcfc-46ff-4f72-92fc-fc46ff8f7251"/>men mit 500 oder 1000 Beschäftigten kein Betriebskapital hatte. Békessy muss-
+<lb xml:id="uuid_514c94a4-9b94-482c-8c94-a49b94782c39"/>te aus der Ferne Verfügungen treffen, dass er alle drei Unternehmen einer
+<lb xml:id="uuid_2717f504-a3e5-45f3-97f5-04a3e5d5f382"/>kapitalskräftigen Gruppe übergebe, die ihm auf 2 Jahre eine Monatsapanage
+<lb xml:id="uuid_0a0cbc4e-b91d-4e73-8cbc-4eb91d2e7360"/>sichert. Monatliche 25 Millionen.
+<lb xml:id="uuid_f3813979-740f-47cb-8139-79740f87cb86"/>Das mächtige, mit europäischem Masse gemessen auch grossartige,
+<lb xml:id="uuid_f1f3e8c1-e66a-4008-b3e8-c1e66ac0085b"/>ja riesenhafte Unternehmen, die Békessywerke, entglitten der Hand des Grün-
+<lb xml:id="uuid_fd92f437-dd89-49ba-92f4-37dd89c9bacf"/>ders. Er liess sie fallen. Er hatte sie gemacht, er hatte sie gegründet,
+<lb xml:id="uuid_249c0f84-ee59-466b-9c0f-84ee59a66be4"/>wahrlich aus eigener Kraft und Leistungsfähigkeit. Jetzt, wo man ihn so nie-
+<lb xml:id="uuid_4f576195-9071-4c69-9761-9590719c69f3"/>dergeworfen hat, muss festgestellt werden, dass er ein mächtiger Organisator
+<lb xml:id="uuid_65ba514a-b354-4b4d-ba51-4ab3549b4d25"/>und wirklich tüchtig war. Vor sieben Jahren ging er ohne Heller nach Wien.
+<lb xml:id="uuid_5a54546a-dd90-4bd0-9454-6add900bd0ee"/>Und nach wenigen Wochen war er nicht nur Sekretär, sondern das Sekretariat
+<lb xml:id="uuid_3c2ac66d-bdc3-40a4-aac6-6dbdc3c0a4f7"/>der Stunde. Noch mehr, er war sogar Obersekretär. Und 5 Direktoren. Békessy
+<lb xml:id="uuid_89dfd87d-8293-43d2-9fd8-7d8293c3d240"/>war der Chef. Man nannte ihn nur: „Unser Chef“. Man liebte ihn sehr. In
+<lb xml:id="uuid_2d92fdf9-c9e4-4650-92fd-f9c9e4b650d7"/>Wien zahlte auch niemand seine Angestellten so gut wie er. Und die alte Gar-
+<lb xml:id="uuid_4ea59fb2-e9d6-4457-a59f-b2e9d684575b"/>de – wie man weiter unten lesen kann – leugnet das auch heute nicht.
+<lb xml:id="uuid_90d37de7-bdf3-4654-937d-e7bdf366542c"/>Békessy. Von <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/8363">Anton Kuh</rs>
+<lb xml:id="uuid_12ccebfc-49f1-4610-8ceb-fc49f156101d"/>Emmerich Békessy, bei dessen Blatte ich 3½ Jahre gearbeitet
+<lb xml:id="uuid_937a42ad-f9fe-4d40-ba42-adf9fe4d4027"/>habe, ging am ausserordentlichsten Bündnis zugrunde. Der neue Justizterroris-
+<lb xml:id="uuid_3eb43da7-6eb3-44cb-b43d-a76eb394cb90"/>mus verbündete sich gegen ihn mit einigen von Eigendünkel besessenen. Die
+<lb xml:id="uuid_6a4b774e-50a6-4746-8b77-4e50a627467b"/>er in ihrer Eitelkeit gekränkt hatte, stehen im Gegensatz zum Justizterroris-
+<lb xml:id="uuid_f6664d2b-e29a-4471-a64d-2be29a847150"/>mus. Aber nur scheinbar.
+<lb xml:id="uuid_c112725a-50f8-4aee-9272-5a50f8faee38"/>Für Uniformierte einige grundsätzliche Bemerkungen über die
+<lb xml:id="uuid_938c5830-2c4f-462a-8c58-302c4f562a64"/>Wiener Presseverhältnisse: Wenn man den Justizapparat mit derselben Schneid,
+<lb xml:id="uuid_c247fc60-8e60-426d-87fc-608e60d26dc4"/>mit derselben Schnüffelenergie gegen die Mehrheit der Wiener Blätter los-
+<lb xml:id="uuid_9eeb3224-1b22-40c4-ab32-241b2280c47c"/>liesse, mit der sie durch ein halbes Jahr an der Vernichtung der Wiener
+<lb xml:id="uuid_d8b8f380-2104-4963-b8f3-8021043963b1"/>Existenz Emmerich Békessys gearbeitet habe, würde heute die Hälfte der
+<pb facs="" n="3"/>
+            <lb xml:id="uuid_475ee48d-56df-47ac-9ee4-8d56df77ac1c"/>Seite 3
+<lb xml:id="uuid_61fe6342-5df9-446b-be63-425df9b46b02"/>Wiener Journalisten im Landesgericht sitzen. Aber diese haben Glück, sie
+<lb xml:id="uuid_4c9319c2-2a7b-4573-9319-c22a7bd57370"/>folgen brav. Sie vertreten ein den höheren Kreisen gefälliges Niveau und
+<lb xml:id="uuid_a3b568d1-3447-4e4a-b568-d134472e4a1d"/>eine ebensolche Weltanschauung und bemühen sich der Eitelkeit ihrer Mit-
+<lb xml:id="uuid_5722cc68-2cea-49f0-a2cc-682ceaa9f0f3"/>bürger zu schmeicheln.
+<lb xml:id="uuid_948eb2ae-f50f-456b-8eb2-aef50f356b7a"/>Békessy hingegen beging gegen einige Autoritäten und einige soge-
+<lb xml:id="uuid_3c6923cd-a17c-4457-a923-cda17cc457f7"/>nannte kriegerische Männer die Sünde, dass er Brutus war und ein Auto be-
+<lb xml:id="uuid_a1c91397-ff28-433c-8913-97ff28833c7a"/>sass. Einem Autobesitzer ist heutzutage alles erlaubt, nur darf er nicht zu-
+<lb xml:id="uuid_a633d60f-9d64-4130-b3d6-0f9d64d13023"/>gleich Brutus sein wollen. Das heisst, man nimmt es ihm krumm, dass er es
+<lb xml:id="uuid_215c4cbe-5961-4f58-9c4c-be59614f580e"/>wagt, gegen die Gesellschaftsordnung zu kämpfen, der er das Auto verdankt.
+<lb xml:id="uuid_abc3629c-1a13-45f2-8362-9c1a13e5f242"/>Da war es dem Feinde nun ein leichtes, den ihm nicht genehmen
+<lb xml:id="uuid_50169c90-0dbf-4825-969c-900dbff825f7"/>Menschen anzugreifen.
+<lb xml:id="uuid_79ac4463-84cf-4600-ac44-6384cf460040"/>Für uns zwei oder drei Leute, die wir von besseren Geistesgegenden
+<lb xml:id="uuid_c31e9718-3796-4809-9e97-18379658092a"/>stammen, und über ein reines Journalistenpedigree verfügen und die Békessy
+<lb xml:id="uuid_4438eeea-05c1-4b88-b8ee-ea05c12b88ac"/>seinerzeit an sein neues Blatt berief, steht der Fall Békessy so:
+<lb xml:id="uuid_e7fc4be1-99f3-4555-bc4b-e199f3d55549"/>Wir sahen in Békessy vor allem den überaus tüchtigen, von Natur
+<lb xml:id="uuid_bc136da6-579f-419a-936d-a6579fb19a15"/>aus nach links neigenden, naiv impulsiven, jede konventionelle Lüge hassen-
+<lb xml:id="uuid_d7d0aec6-22b5-4ea3-90ae-c622b56ea36f"/>den Menschen, unter dessen Leitung wir hoffen konnten unsere journalistische
+<lb xml:id="uuid_5c01817e-4bc6-4cf0-8181-7e4bc6bcf070"/>Energie freier zu entfalten. Freier, als in irgendeinem von Börse oder Bank
+<lb xml:id="uuid_6aa08529-6f30-44d3-a085-296f30d4d309"/>abhängigen, mit Subventionen befruchteten Bürgerblatte. Diese Ansicht be-
+<lb xml:id="uuid_cc80a972-54aa-46a7-80a9-7254aad6a7d5"/>stärkte Békessys ungesuchtes, vollkommen etiketteloses und jeder Herablassung
+<lb xml:id="uuid_9c228f13-0344-472a-a28f-130344e72a9d"/>bares Benehmen. Dieses bot uns noch mehr Garantien für ein erfreuliches Zu-
+<lb xml:id="uuid_5882b82a-3421-4239-82b8-2a3421f239f0"/>sammenarbeiten. Wir übersahen absichtlich, dass das Naturburschentum dieses
+<lb xml:id="uuid_b3552551-06fd-4f67-9525-5106fdcf6733"/>Mannes kaum seine Abstammung aus dünneren Kulturzonen verleugnen kann. Ihm
+<lb xml:id="uuid_4df21c93-05b0-45cf-b21c-9305b015cf9d"/>fehlte gelinde gesagt der metaphysische und humanistische Zug, der den Mann
+<lb xml:id="uuid_0e1a6ef8-7734-413f-9a6e-f87734613fd6"/>der Musen des Westens vom Eiferer des Ostens scheidet. Wir hatten keineswegs
+<lb xml:id="uuid_21499c08-a441-45ea-899c-08a44185ea82"/>die Absicht uns mit den Akten über sein Vorleben u.dgl. zu befassen. Uns ge-
+<lb xml:id="uuid_343dc3d3-91de-4395-bdc3-d391deb395a4"/>nügte der frische lächelnde junge Mensch, der vor uns stand und uns ansprach:
+<lb xml:id="uuid_f5976c0a-23a9-430d-976c-0a23a9830d72"/>„Machen wir eine Zeitung aus dem, worüber wir am Kaffeehaustisch beim Zeitung-
+<lb xml:id="uuid_7a97f1e0-a4be-4cc1-97f1-e0a4be8cc1e4"/>lesen sprechen.“ Für uns war es ein Risiko, aber zugleich eine hoffnungsvolle
+<lb xml:id="uuid_7addfc40-9c55-4be0-9dfc-409c552be097"/>Erwartung.
+<lb xml:id="uuid_5d1e7665-4a30-469b-9e76-654a30b69b03"/>Bald mussten wir sehen, dass die neue journalistische Methode, wie
+<lb xml:id="uuid_6c4114ab-7faf-406f-8114-ab7faf006f1f"/>man es nannte, einige peinlich berührte. Aber es ist merkwürdig oder auch
+<lb xml:id="uuid_a10407d4-49fd-4cc0-8407-d449fd2cc093"/>nicht merkwürdig, dass nicht die Autorität, nicht die Reaktion, nicht die an-
+<lb xml:id="uuid_5995fdf7-4813-4acd-95fd-f748137acd98"/>getastete Würde dagegen aufschrie, sondern, um einen Pauschalausdruck zu ge-
+<lb xml:id="uuid_92abfc73-7447-4fc1-abfc-7374476fc1b9"/>brauchen, die Konkurrenz; jene Nachbarn, deren ausschliessliches Gebiet bis-
+<lb xml:id="uuid_933c780f-7af7-40bd-bc78-0f7af770bd9b"/>her diese Art zu schreiben und zu sehen war und die es durch einige hin- und
+<lb xml:id="uuid_581908e8-0cc2-4dbc-9908-e80cc2ddbcf5"/>hergeworfene nicht beachtete Existenzen bedroht sahen.
+<lb xml:id="uuid_439da7c1-ada4-4bed-9da7-c1ada43bedd5"/>Diese uns höhnisch ins Gesicht geworfene Auffassung trieb uns
+<lb xml:id="uuid_00c68b24-894e-49d3-868b-24894e09d3ef"/>rasch in eine Zwangssolidarität mit unserem Herausgeber; welche übrigens
+<lb xml:id="uuid_5eb99629-8aff-4cda-b996-298aff3cda7f"/>ohne die Angriffe nicht in solchem Masse bestand.
+<lb xml:id="uuid_780781d2-1187-4320-8781-d21187632089"/>Der sich uns gegenüber allgemein zeigenden Eitelkeit, Literatur-
+<lb xml:id="uuid_4e2c0262-fdd5-4994-ac02-62fdd5d9942b"/>und ästhetischen Schmockerei wegen übersahen wir gewiss manchmal zu Hause
+<lb xml:id="uuid_b20ecef3-49f9-4134-8ece-f349f9d13440"/>die gewöhnlichen Dinge. Sagen wir, die hie und da vorkommenden Maßlosig-
+<lb xml:id="uuid_bff3898a-3863-4e08-b389-8a38630e08b1"/>keiten.
+<lb xml:id="uuid_94f3e46c-95b0-48bc-b3e4-6c95b068bc4f"/>Leider mussten wir darauf kommen, dass sich die Leute absichtlich
+<lb xml:id="uuid_1cef695a-2aa7-4fb8-af69-5a2aa77fb8ca"/>oder nicht ein falsches Bild von Békessy machten. Anstatt ihn mit seinen
+<lb xml:id="uuid_bd1eae12-8881-4705-9eae-128881a70590"/>Tugenden und Fehlern zu nehmen, wie wir es taten, erhoben sie keine mensch-
+<lb xml:id="uuid_95aac85f-40a5-4e0b-aac8-5f40a5fe0b85"/>lichen oder ästhetischen Einwände gegen ihn, sondern stürzten sich auf ihn
+<lb xml:id="uuid_7fa51b9f-2865-4c30-a51b-9f2865ac309b"/>wie auf einen Glücksritter, einen Räuber, Gauner, Betrüger. Wir hingegen
+<lb xml:id="uuid_18a8de3e-af27-4690-a8de-3eaf27769008"/>kannten ihn, kannten seine heisse Liebe für die Journalistik und sahen, wie
+<lb xml:id="uuid_34c7cc71-d45a-4005-87cc-71d45a1005fb"/>naiv er den Kampf auf sich nahm, was für vorauszusehende grosse Gefahren
+<lb xml:id="uuid_256530c2-0156-43be-a530-c2015673be60"/>dieser in sich barg. Wir sahen seine manchmal fast schüchterne Einseitigkeit
+<lb xml:id="uuid_6e8715b6-ba75-4233-8715-b6ba75e23371"/>und Unsicherheit, kannten sie im persönlichen Verkehr sehr gut. Wir wussten
+<lb xml:id="uuid_905af1af-6640-499f-9af1-af6640d99fdf"/>es, denn er sagte uns oft, wenn wir Mitarbeiter gegen jemanden vollkommen un-
+<lb xml:id="uuid_e79be292-3ddd-440c-9be2-923ddda40c1e"/>überwachbare Angriffe richteten: „Ihr belastet mein Konto mit dem Pfand eures
+<lb xml:id="uuid_c3b5940a-4cbd-4402-b594-0a4cbd140229"/>Privathasses.“ Wir mussten uns daher mit doppelter Begeisterung auf seine
+<lb xml:id="uuid_9bc3e594-40bb-452a-83e5-9440bbd52a92"/>Seite stellen.
+<lb xml:id="uuid_37f6c3a7-43b6-4c46-b6c3-a743b6fc4604"/>Was war eigentlich seine grosse Schuld? Dass er sich den Hass
+<lb xml:id="uuid_9addd31a-cf9d-47e4-9dd3-1acf9d87e43c"/>zweier Leute zuzog. Zweier Leute, die heute schon entweder zu feige oder zu
+<lb xml:id="uuid_0a9ba45d-5305-4268-9ba4-5d5305026806"/>satt sind, um Kulturkämpfer in der kühnsten und schönsten Bedeutung des
+<pb facs="" n="4"/>
+            <lb xml:id="uuid_401cc9b3-dde5-461c-9cc9-b3dde5961ca2"/>Seite 4
+<lb xml:id="uuid_a66cded8-4184-4faf-acde-d84184dfaf4a"/>Wortes zu sein. Diese sahen mit Schrecken, dass auf ihrem Felde, das sie
+<lb xml:id="uuid_fdc6a80b-6cf3-47cc-86a8-0b6cf3c7ccbb"/>heute entweder auf Parteibefehl, oder weil sie die Bohnen schon satt
+<lb xml:id="uuid_b242178a-b01e-4517-8217-8ab01ed517c9"/>haben, nicht bebauen können, ein Neugekommener arbeitet. Ein fremder Barbar
+<lb xml:id="uuid_4400da77-bfef-48f3-80da-77bfef58f359"/>arbeitet auf ihrem Felde.
+<lb xml:id="uuid_9d6d2b11-3912-4ad2-ad2b-1139124ad263"/>Und das ist das unendlich ekelhafte am Falle Békessy, dass ihn nicht
+<lb xml:id="uuid_9ba8fe9f-6025-4feb-a8fe-9f60254feb4c"/>der Hass seiner politischen Gegner, sondern 2 geistige Nachbarn, die Furcht-
+<lb xml:id="uuid_401c4650-2323-474f-9c46-502323274f30"/>samkeit und Eitelkeit zweier kleiner monomaner Intellektueller umgebracht
+<lb xml:id="uuid_8b882c26-fbc6-4334-882c-26fbc6e334e5"/>hat. Der eine ist der Chefredakteur der Arbeiterzeitung, der im Privatkreise
+<lb xml:id="uuid_9bdebb4b-3e19-4574-9ebb-4b3e1955747e"/>oft gejammert hat, dass ihm heute, wo der Sozialismus ein gewisses positives
+<lb xml:id="uuid_1d614926-a141-4525-a149-26a1418525d3"/>Niveau erreicht hat, von dem aus revolutionäres Gebiet vorläufig nicht mehr
+<lb xml:id="uuid_3ebce233-c8d8-4ffb-bce2-33c8d88ffb78"/>zu sehen ist, kein anderes Gebiet mehr bleibe, als die langweilige Beschäf-
+<lb xml:id="uuid_192f4162-f9c8-4582-af41-62f9c8c582a0"/>tigung mit Fragen der Gewerkschaften und der 8stündigen Arbeitszeit.
+<lb xml:id="uuid_cf0cd1bc-0ee1-4652-8cd1-bc0ee1665231"/>Den schöneren Teil des publizistischen Kampfes übernahmen jetzt
+<lb xml:id="uuid_b526fb4f-5a50-48ed-a6fb-4f5a5098edfb"/>ähnlich wie Békessy hergeratene Neulinge. Das ist der eine. Der Herausgeber
+<lb xml:id="uuid_a35b075e-8603-40d7-9b07-5e860380d7de"/>der Fackel, <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs>, ist der andere, der vom ersten Woment an höhnisch
+<lb xml:id="uuid_4bece7e1-f509-4c04-ace7-e1f509ac0441"/>bemerkte: „Wer ist es, der über mein Feld läuft? Wer ist es, der es wagt,
+<lb xml:id="uuid_14a8b22c-5b9a-408e-a8b2-2c5b9a208e9d"/>aus meinen alten Emotionen eine Zeitung zu machen?“ So liessen sie denn
+<lb xml:id="uuid_f7481ad3-2181-4aa8-881a-d32181eaa8bd"/>ihren Zorn wegen ihrer freiwilligen oder unfreiwilligen Kastriertheit am
+<lb xml:id="uuid_43a7a49a-50a5-44a4-a7a4-9a50a584a4cb"/>Nichtkastrierten aus. Wir kämpften unterdessen gegen die Hakenkreuzler,
+<lb xml:id="uuid_ccc6815a-5789-40a8-8681-5a578920a874"/>gegen die Scheinmoral, gegen die Versumpfung von Polizei und Justiz und
+<lb xml:id="uuid_8556d502-3e4e-40a8-96d5-023e4e70a8f7"/>mussten ständig Attentate befürchten. In kritischeren Zeiten beorderte man
+<lb xml:id="uuid_ece17e5e-6d34-4ff5-a17e-5e6d340ff5c5"/>Polizeischutz zu unserer Sicherheit. Die beiden altgewordenen ehemaligen
+<lb xml:id="uuid_579dc8a0-bb33-45c3-9dc8-a0bb33f5c392"/>Rebellen, jetzt „Lausbuben in Pension“, diese beiden, heute schon verfaulten
+<lb xml:id="uuid_c30b8240-3848-45e1-8b82-40384845e1db"/>und würdigen Professoren griffen uns aufgeregt, höhnisch und böswillig an.
+<lb xml:id="uuid_ad39b8ad-79a3-4d02-b9b8-ad79a3fd02c4"/>In ihrer Wut, in ihrer Angst nannten sie uns Pülcher (csibeśz *[¿]). Sie mussten
+<lb xml:id="uuid_a78beceb-0fe0-45d1-8bec-eb0fe025d101"/>sich damit begnügen dem unerwünschten Nachbar Grobheiten an den Kopf zu
+<lb xml:id="uuid_c5d1fcb5-d66a-49d8-91fc-b5d66ae9d81e"/>werfen.
+<lb xml:id="uuid_6ad2a7f4-527e-4fb0-92a7-f4527effb098"/>Bis heute ist nicht ein einziges bewiesenes Detail ans Licht gekom-
+<lb xml:id="uuid_83132815-0bc6-43af-9328-150bc653af87"/>men, das Békessy zu dem Gauner stempeln würde, den ihn seine Angreifer
+<lb xml:id="uuid_73887d0a-062d-4e76-887d-0a062d0e7633"/>nennen.
+<lb xml:id="uuid_c1ad25c9-c2f7-4acf-ad25-c9c2f7eacf61"/>Ein halbes Jahr lang haben die Gerichtsbeamten in Békessys Privat-
+<lb xml:id="uuid_400269ac-d38f-4311-8269-acd38f0311ab"/>leben und Tätigkeit herumgeschnüffelt, unterstützt von den extremen Feinden,
+<lb xml:id="uuid_96fdfa15-06f6-49a1-bdfa-1506f639a197"/>die jetzt in der Konjunktur Verbündete geworden sind.
+<lb xml:id="uuid_12a100c9-3c06-4483-a100-c93c06c4834b"/>Fast alle Leute, die Békessy jemals in seinem Blatte angegriffen
+<lb xml:id="uuid_1722ecef-f665-4d93-a2ec-eff6657d9332"/>hat, wurden einem strengen Verhör unterworfen in der Hoffnung, dass es viel-
+<lb xml:id="uuid_25bb06d7-0a3e-4c68-bb06-d70a3e7c685b"/>leicht doch gelingen wird eine Anklage, eine Tatsache zu konstruieren gegen
+<lb xml:id="uuid_25ae7692-945a-4b2f-ae76-92945a7b2f47"/>den gehassten Zeitungsmenschen.
+<lb xml:id="uuid_8039e96b-cf40-4d7e-b9e9-6bcf40fd7e8e"/>Das Ergebnis war eine schwer ausgekochte Verhaftung und zwar wurde
+<lb xml:id="uuid_cb0a8078-8fd2-4c4d-8a80-788fd28c4d3e"/>nicht einmal ein Redaktionsmitglied, sondern nur ein führender Administra-
+<lb xml:id="uuid_222e2c07-5501-4b12-ae2c-0755019b1217"/>tionsmensch verhaftet.
+<lb xml:id="uuid_eec6d289-d1dd-488c-86d2-89d1ddb88c86"/>Damit will ich nicht für die journalistische moralische Reinheit
+<lb xml:id="uuid_a23eb453-e91c-462a-beb4-53e91cf62ae2"/>Békessys auftreten. Ich weiss wenig vom vorangegangenen. Ich habe mich von
+<lb xml:id="uuid_9b4d1a6e-7e1c-4ad0-8d1a-6e7e1c5ad01d"/>seinem Vorleben im oben beschriebenen Sinne distanziert gefühlt. Aber was
+<lb xml:id="uuid_8f008ca1-c495-453f-808c-a1c495653f45"/>ich klar heraussagen kann ist, dass, wenn er etwas getan hat, er gewiss
+<lb xml:id="uuid_969c8d63-041f-49a7-9c8d-63041f89a77e"/>nichts anderes getan hat, als was 3/4 der Wiener Presse vollkommen ungehindert
+<lb xml:id="uuid_c6b8c769-0502-4d35-b8c7-690502fd3598"/>übt, und dass nicht journalistische Unanständigkeit, sondern im Gegenteil:
+<lb xml:id="uuid_f6e68301-2819-42bb-a683-01281962bb85"/>seine Kühnheit ihm den Kragen gebrochen hat. Békessy wagte es nicht nur
+<lb xml:id="uuid_959005f4-12a1-4286-9005-f412a1d28668"/>sich in offenen Kampf mit seinen politischen Gegnern einzulassen, sondern
+<lb xml:id="uuid_f2751fc2-86d1-42a6-b51f-c286d1e2a6f8"/>forderte auch die hysterische Eitelkeit seiner Gesinnungsgenossen heraus.
+<lb xml:id="uuid_bf20f09c-873d-419f-a0f0-9c873d619f55"/>Das war zu viel. Dabei musste er Schiffbruch leiden.
+<pb facs="" n="5"/>
+            <lb xml:id="uuid_7e234bf4-a49f-4f7f-a34b-f4a49fef7f12"/>Zeitungen, Zeitungsausschnitte, Zeitschriften, – Ausschnitte
+<lb xml:id="uuid_6219e8f7-f3a6-4a29-99e8-f7f3a68a29dc"/>1. Nov. 1918 Az Üzlett (Her. Dr. Laslo Radvany)
+<lb xml:id="uuid_1ca3a08b-1252-43fe-a3a0-8b125263fe5a"/>19. Nov. 1918 Az Ujsag, (ZtA)
+<lb xml:id="uuid_b762be27-13c2-48b5-a2be-2713c258b5cd"/>19. Nov. 1918 A Nap (ZA)
+<lb xml:id="uuid_263f264e-8686-48e6-bf26-4e868688e676"/>6. Jan. 1921 Die Börse [?] (ZA), S. 6
+<lb xml:id="uuid_6a37a70d-73a4-49a7-b7a7-0d73a469a776"/>Die Landwirtschaft und der Wiederaufbau
+<lb xml:id="uuid_8e04f405-2f0b-4cbe-84f4-052f0b2cbe58"/>15. Feb. 1921? Ludwigs Schönbergers Börsen- und Handels-
+<lb xml:id="uuid_1f5cd899-ffd2-4270-9cd8-99ffd2a2707b"/>bericht Finanzielles aus Budapest
+<lb xml:id="uuid_7f39a7c7-6fa8-403d-b9a7-c76fa8a03df4"/>17. Feb. 1921 Die Börse.
+<lb xml:id="uuid_497b2ef4-4db6-4f95-bb2e-f44db6cf9541"/>24. Feb. 1921 Die Börse
+<lb xml:id="uuid_d6f4acf5-041a-4c80-b4ac-f5041abc8036"/>3. März 1921 Die Börse
+<lb xml:id="uuid_14a0dfcc-ca49-4fa8-a0df-ccca493fa846"/>17. März 1921 Die Börse
+<lb xml:id="uuid_df9c6a94-c3c6-4e37-9c6a-94c3c62e3773"/>14. Apr. 1921 Die Börse
+<lb xml:id="uuid_2185add4-d626-43bc-85ad-d4d626d3bc7e"/>21. Apr. 1921 Die Börse
+<lb xml:id="uuid_083fb0ba-4ed9-4ed9-bfb0-ba4ed9fed926"/>26. Mai 1921 Die Börse
+<lb xml:id="uuid_69aa5b40-94b0-4ac2-aa5b-4094b03ac243"/>S. 1 Das Recht auf persönliche Polemik
+<lb xml:id="uuid_85bc3cc2-a08d-4276-bc3c-c2a08d1276ae"/>S. 8 Pro domo
+<lb xml:id="uuid_d9d38fb6-d388-4a14-938f-b6d3880a14e2"/>16. Juni 1921 Die Börse. S. 15
+<lb xml:id="uuid_7bcf36b6-72c2-4f3d-8f36-b672c22f3dfd"/>Deutschösterreich als Sozial- und Wirt-
+<lb xml:id="uuid_ac444121-c31f-4c6e-8441-21c31fcc6e07"/>schaftsproblem Ein neues Buch von Dr.
+<lb xml:id="uuid_b5ba51d9-66f8-4227-ba51-d966f8d2270d"/>
+            <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38663">Gustav Stolper</rs>
+<lb xml:id="uuid_97788e8b-e07f-4831-b88e-8be07f6831ea"/>10. Okt. 1923 Deutschösterreichische Tages-Zeitung
+<lb xml:id="uuid_ae66f808-0617-4720-a6f8-080617a7206b"/>S. 3 Seitz wird gelobt
+<lb xml:id="uuid_591031cb-212e-4a19-9031-cb212e5a19c2"/>27. Okt. 1923 <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/29637">Reichspost</rs>
+<lb xml:id="uuid_a3ff9e34-f2a2-4537-bf9e-34f2a2053764"/>S. 4 Politisches Börsenspiel
+<lb xml:id="uuid_921267ff-15e0-4c4b-9267-ff15e0fc4b61"/>28. Okt. 1923 <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/29637">Reichspost</rs>
+<lb xml:id="uuid_8273f137-7e0d-4f8d-b3f1-377e0dff8d7b"/>S. 4 Politische Börsengeschäfte
+<lb xml:id="uuid_6ebf411d-a89d-482c-bf41-1da89d682c12"/>15. Dez. 1923 Arbeit und Wirtschaft
+<lb xml:id="uuid_01c55704-d9c0-456c-8557-04d9c0556ca7"/>S. 937 Eine notwendige reinliche Scheidung
+<lb xml:id="uuid_48075b85-0fc1-45c0-875b-850fc105c0a4"/>Ein Fehlgriff
+<lb xml:id="uuid_6f1a7a3a-f115-4e84-9a7a-3af115be84de"/>13. Jan. 1924 A Vilagpiac
+<lb xml:id="uuid_9f0c0f51-c6ba-4442-8c0f-51c6bae442d4"/>S. 3 Prozeßbericht Stolper und Federn ca.
+<lb xml:id="uuid_84c1ea65-c01c-4feb-81ea-65c01c1feb07"/>Bekessy
+<pb facs="" n="6"/>
+            <lb xml:id="uuid_5381681a-c02b-491e-8168-1ac02b191e18"/>Die Karriere des aus einem Handelsreisen-
+<lb xml:id="uuid_99fcd0d4-4bcc-4a61-bcd0-d44bcc9a61f1"/>den Zeitungsredakteur gewordenen, angefan-
+<lb xml:id="uuid_ed75e008-9562-48af-b5e0-089562e8af37"/>en vom Plagiat über Betrug, Erpressung,
+<lb xml:id="uuid_b0cf1c31-558a-41a1-8f1c-31558a51a1a8"/>Preistreiberei bis zum Fall issement[¿].
+<lb xml:id="uuid_90a70d2b-2080-41f8-a70d-2b208051f89a"/>Der berüchtigte Redakteur der Stunde
+<lb xml:id="uuid_8c5ff39a-3437-48b9-9ff3-9a343738b906"/>
+            <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/37843">Imre Bekessy</rs>- Friedlieb spekulierte und
+<lb xml:id="uuid_63ab7406-9dd5-4f16-ab74-069dd50f16be"/>kettenhandelte während des Krieges mit
+<lb xml:id="uuid_19413126-fcfb-40cb-8131-26fcfb70cbdc"/>Lebensmittel. Er betrog und log beim Mili-
+<lb xml:id="uuid_ef0ccdc2-3f4a-4456-8ccd-c23f4a9456c0"/>tär und wurde deswegen degradiert. Er erlang-
+<lb xml:id="uuid_3c947d22-9775-4ce6-947d-229775fce677"/>te mittels eines gefälschten Zeugnisses eine
+<lb xml:id="uuid_bc4306a5-8cc6-4400-8306-a58cc6d400ee"/>Firmenvertretung, wurde aber auch dort hinaus-
+<lb xml:id="uuid_7e5b91cd-3029-4986-9b91-cd3029c986b5"/>geworfen. Wie der Herr Redakteur mit Limona-
+<lb xml:id="uuid_2556cd12-e226-45c8-96cd-12e226b5c810"/>depulver engros handelte. Eine missglückte
+<lb xml:id="uuid_9286f77b-db64-47c6-86f7-7bdb6437c6d1"/>Taufe und viel gutgeglückte Erpressungen.
+<lb xml:id="uuid_72a55351-02e6-41f3-a553-5102e6a1f392"/>Der Wiener Polizeipräsident Schober ver-
+<lb xml:id="uuid_cef3caf6-c258-4381-b3ca-f6c258638125"/>langte und erhielt Einsicht in die „Bekes-
+<lb xml:id="uuid_3429be3e-4de5-410e-a9be-3e4de5c10e85"/>sy-Akten“ der ungarischen Polizei.
+<lb xml:id="uuid_b6d36f7c-57b9-4dcc-936f-7c57b91dcc20"/>Vom Berichterstatter des „Uj Nemzedék“.
+<lb xml:id="uuid_8d18f014-b686-4c69-98f0-14b6862c6980"/>In der letzten Zeit wurde die öffentliche Meinung zweier Länder von eines
+<lb xml:id="uuid_f504d3d4-3749-4c6c-84d3-d437490c6cb8"/>auffallenden Menschen noch auffallenderer Karriere beschäftigt: Imre Békessy-
+<lb xml:id="uuid_e3602509-fd5f-4988-a025-09fd5f4988d6"/>Friedlieb, der Redakteur der Wiener Blätter „<rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/29470">Die Stunde</rs>“ und „Die Börse“,
+<lb xml:id="uuid_b8d5de34-75fd-494d-95de-3475fd294dcc"/>wirkte so vor der grossen Oeffentlichkeit und zwar als Besitzer und zugleich
+<lb xml:id="uuid_65aef217-1239-42b5-aef2-171239f2b5de"/>böser Geist eines zusammenbrechenden in Missetaten schwimmenden Zeitungs-
+<lb xml:id="uuid_cfa2ab98-1f4a-4560-a2ab-981f4a0560fa"/>unternehmens. Békessy durchlief eine wirklich ganz sonderbare Lebensbahn.
+<lb xml:id="uuid_c357daad-743d-40a5-97da-ad743d70a51e"/>Der verhältnismässig junge Mensch hielt mit seinem Blatte sozusagen durch
+<lb xml:id="uuid_85eb7819-af95-483f-ab78-19af95083f17"/>Jahre hindurch ganz Wien in Schrecken, kritisierte, griff an, war Sittenrich-
+<lb xml:id="uuid_9d022e1b-6137-4b7b-822e-1b61374b7b45"/>ter und erst jetzt, nachdem man seiner Tätigkeit die Maske abgerissen
+<lb xml:id="uuid_79ea40f9-463f-4e40-aa40-f9463f7e4055"/>hat, sind die Erpressungen und anderen strafbaren Handlungen bekannt worden,
+<lb xml:id="uuid_88820bcc-ff98-40da-820b-ccff9840daf3"/>die seine Tätigkeit motiviert haben. Weiter unten verweisen wir auf einige
+<lb xml:id="uuid_b8fa1c86-227e-4095-ba1c-86227ee095e1"/>Episoden aus dem Leben dieses berühmten Pressbriganten. Wir bemerken, dass
+<lb xml:id="uuid_828dbf75-2a39-4085-8dbf-752a39e085b9"/>die hier beschriebenen Fälle von Dokumenten, einer ganzen von Zeugen
+<lb xml:id="uuid_ec77f4b9-2578-488b-b7f4-b92578388bd9"/>und durch eine genaue Untersuchung der Polizei bewiesen werden. Die
+<lb xml:id="uuid_4425d64f-7951-4b54-a5d6-4f79514b5436"/>Bewucherung Wiens dauerte so lange, bis der Redakteur eines volkswirtschaftlichen Blattes
+<lb xml:id="uuid_656a695d-9a44-417f-aa69-5d9a44617fb9"/>Békessys Geschäfts aufdeckte. In Verfolgung der Angelegenheit brachte Békessy
+<lb xml:id="uuid_9b99b5cb-d3c2-4c28-99b5-cbd3c21c2802"/>wie sehr er auch das Gericht fürchtete – eine Ehrenbeleidigungs- und Verleum-
+<lb xml:id="uuid_428b1c9b-5dc5-4f89-8b1c-9b5dc5ef89b0"/>dungsklage gegen ihn ein. Im Zusammenhang mit der Klage verfolgte einer der
+<lb xml:id="uuid_002a0414-31a4-4ddb-aa04-1431a4fddb63"/>ältesten und geschicktesten Detektive – Detektivaufseher Sigmund Biró –
+<lb xml:id="uuid_48918749-739a-4f84-9187-49739a8f8427"/>in Ungarn und Oesterreich Békessys Angelegenheiten. Ueber die Fälle von Er-
+<lb xml:id="uuid_11b0962a-b3fe-4f82-b096-2ab3fe7f8285"/>pressung und anderen strafbaren Handlungen, die der Defektivaufseher Sigmund
+<lb xml:id="uuid_cd86a0ca-37a9-498c-86a0-ca37a9c98ce3"/>Biró aus dem Dunkel der Vergangenheit aufspürte, verlangte der gewesene
+<lb xml:id="uuid_408c5fc9-036b-4a58-8c5f-c9036bfa585f"/>Kanzler Schober, Präsident der Wiener Polizei, noch während des Verlaufes
+<lb xml:id="uuid_6acf0f67-2971-48a0-8f0f-67297198a088"/>des Prozesses durch den Vorsitzenden der politischen Abteilung, Hofrat
+<lb xml:id="uuid_a7c89363-2052-4dab-8893-6320522dabc1"/>Pollak, eingehende Information von dem ungarischen Detektivaufseher, weil er
+<lb xml:id="uuid_a063a073-e86d-4880-a3a0-73e86d088016"/>erfahren hatte, dass die Ausläufer der Untersuchung Sigmund Birós schon bis
+<lb xml:id="uuid_448e72ec-2a5d-485a-8e72-ec2a5d385a5e"/>Wien reichen.
+<lb xml:id="uuid_2808abbb-8e0d-4268-88ab-bb8e0d72681e"/>Imre Békessy-Friedlieb, Redakteur und Besitzer der „Stunde“ und
+<lb xml:id="uuid_34cadda4-5c62-4946-8add-a45c626946ed"/>der „Börse“, hat sich nicht immer mit Journalismus beschäftigt. Der beschei-
+<lb xml:id="uuid_ef897398-ef18-49f2-8973-98ef18f9f202"/>dene Anfang reicht bis zu seiner Stellung als Reisender der Firma Roesse-
+<lb xml:id="uuid_1dadc16b-e3dd-49c3-adc1-6be3dd99c30a"/>mann &amp; Kühnemann zurück.
+<lb xml:id="uuid_9fe56c8b-9893-44e9-a56c-8b989344e9e6"/>Aber als Reisender schädigte er durch
+<lb xml:id="uuid_7175798f-2f4a-4a04-b579-8f2f4aaa04c3"/>fingierte Bestellungen die Firma, weshalb
+<lb xml:id="uuid_b7f1ec25-30e6-4912-b1ec-2530e6891265"/>er auch entlassen wurde.
+<pb facs="" n="7"/>
+            <lb xml:id="uuid_c337d824-b70b-4337-b7d8-24b70be33730"/>2
+<lb xml:id="uuid_7dcf3fa8-e826-4e5e-8f3f-a8e826be5e7d"/>Jahrzehnte strebte er die Stelle eines ungarländischen Generalver-
+<lb xml:id="uuid_949110df-76c4-4e06-9110-df76c46e0613"/>treters einer deutschen Gesellschaft an. Er bekam die Vertretung. 3 Wochen
+<lb xml:id="uuid_07299091-1332-4b7b-a990-9113329b7b72"/>später kam der Direktor der Fabrik nach Budapest und erkundigte sich bei
+<lb xml:id="uuid_878831e8-b7ce-47a6-8831-e8b7ce07a6a8"/>der früher genannten Firma nach Békessy. Hier sagte man ihm, warum man
+<lb xml:id="uuid_de0cc712-bb7e-4ebc-8cc7-12bb7efebc38"/>Békessy entlassen hatte, ja
+<lb xml:id="uuid_e74c9ad3-cae5-482b-8c9a-d3cae5c82b96"/>es kam sogar heraus, dass sich
+<lb xml:id="uuid_bf280a4c-6eb7-4eb9-a80a-4c6eb79eb9f7"/>Békessy mittels eines gefälsch-
+<lb xml:id="uuid_b1581663-3615-4ab2-9816-6336155ab2aa"/>ten Zeugnisses der Fa. Rosse-
+<lb xml:id="uuid_4b504e85-19cc-4286-904e-8519cc228680"/>mann in das Vertrauen der deut-
+<lb xml:id="uuid_7f5f7b42-7a17-4023-9f7b-427a17a02384"/>schen Gesellschaft eingeschli-
+<lb xml:id="uuid_afe37a85-6b13-4d18-a37a-856b133d1810"/>chen hatte.
+<lb xml:id="uuid_a29908f2-1dd6-49d8-9908-f21dd699d80e"/>Der Direktor löste darauf sofort den mit ihm geschlossenen Vertrag
+<lb xml:id="uuid_f0b6de9a-6320-4774-b6de-9a632077743e"/>und verlangte den behobenen Vorschuss zurück. Nur dass Bekessy kein Geld
+<lb xml:id="uuid_d8463c63-814f-495e-863c-63814f095e0d"/>mehr hatte, weil er einen Teil des Vorschusses für Privatzwecke verwendet,
+<lb xml:id="uuid_da4d0a62-cbe7-43a9-8d0a-62cbe7f3a94b"/>für den andern Teil Möbel gekauft hatte. Die Deutschen übernahmen hierauf
+<lb xml:id="uuid_29902993-71ed-4ae9-9029-9371edaae9d3"/>die Möbel, während sie Békessy mit dem restlichen Geld laufen liessen.
+<lb xml:id="uuid_421c6d43-5ad2-424f-9c6d-435ad2c24fc0"/>Der Gipfelpunkt seiner glorreichen Handelstätigkeit ist die Zeit,
+<lb xml:id="uuid_c7a58a45-3a88-4bbb-a58a-453a88cbbbeb"/>während der er Angestellter des Budapester Büros der Firma Alfons Kuszodis
+<lb xml:id="uuid_e0c584a8-84ac-450a-8584-a884aca50a28"/>war. Man vertraute ihm die Führung der Geschäftskassa an und diese verwal-
+<lb xml:id="uuid_6239f43e-a77e-475f-b9f4-3ea77e475f81"/>tete er auch mit solchem Erfolg, dass man es niemals bemerkte, wenn er eigenmäch-
+<lb xml:id="uuid_fa76d388-56dc-447a-b6d3-8856dc047aa1"/>tig grössere Beträge aus der Kassa entnahm. Vor den üblichen Kassarevisionen
+<lb xml:id="uuid_2eb2f8d3-b029-4d88-b2f8-d3b029bd8891"/>ersetzte er allerdings immer den fehlenden Betrag. Trotzdem duldete man Bé-
+<lb xml:id="uuid_b7155bbd-1594-41bd-955b-bd159491bd0b"/>kessys Wirtschaft nicht länger und zeigte ihn der Wiener Direktion an.
+<lb xml:id="uuid_06cac11a-da30-4e09-8ac1-1ada305e0988"/>Das Ende der Sache war, dass man ihn auch hier auf eins zwei hinauswarf, aber
+<lb xml:id="uuid_17b64fda-643b-4f0a-b64f-da643bff0af3"/>er war doch noch so geschickt, sich einen Jahrgehalt als Abfertigung heraus-
+<lb xml:id="uuid_17065539-9f93-4afa-8655-399f935afa13"/>zuschlagen. Der so gewonnene Betrag spielte bei der Begründung seiner Karriere
+<lb xml:id="uuid_5d47efd4-f0f4-4da4-87ef-d4f0f4cda468"/>eine wichtige Rolle – aber davon werden wir später sprechen.
+<lb xml:id="uuid_80bb0b00-d080-40ce-bb0b-00d08040cef6"/>Die Stellung eines Handelsreisenden imponierte dem ehrgeizigen jungen
+<lb xml:id="uuid_09807d46-1931-4f62-807d-4619318f629e"/>Mann nicht, sodass er sich zugleich Ingenieur nannte. Man kam ihm darauf
+<lb xml:id="uuid_dedffbda-1ef0-455b-9ffb-da1ef0755b68"/>und er hatte wegen des Gebrauchs des Titeis ohne ein Diplom zu besitzen öfter
+<lb xml:id="uuid_29577476-68ff-43fd-9774-7668ffd3fdf7"/>äusserst unangenehme Auftritte.
+<lb xml:id="uuid_b5b8b3e7-d897-4889-b8b3-e7d897088942"/>Als Preistreiber und Seifenhändler.
+<lb xml:id="uuid_42f4bfcc-29e8-426a-b4bf-cc29e8b26a9c"/>Das treueste Spiegelbild des Geschäftsmannes Békessy-Friedlieb ist seine
+<lb xml:id="uuid_c1d0334c-2e58-415b-9033-4c2e58815b57"/>Tätigkeit bei der Handelsunternehmung Commercia. Noch in der letzten Zeit
+<lb xml:id="uuid_16a32445-2bd7-4e71-a324-452bd77e7144"/>des Krieges schwebte gegen die Handelsgesellschaft ein Verfahren
+<lb xml:id="uuid_1ec26e99-cffe-4a87-826e-99cffe7a87fe"/>wegen Preistreiberei und Hamsterei. Der Minister für öffentliche Ver-
+<lb xml:id="uuid_6c88ae75-dd0a-4616-88ae-75dd0a561665"/>pflegung ordnete im Frühjahr 1917 die Beschlagnahme des gesamten Waren-
+<lb xml:id="uuid_a40ba623-c89e-4d02-8ba6-23c89e9d025a"/>vorrates des Unternehmens für gemeinnützige Zwecke an. Damals war die Unter-
+<lb xml:id="uuid_bec1a17b-f41c-4abc-81a1-7bf41ceabc9e"/>suchung gegen die Commercia schon im Gange, d.h. gegen den Geschäfts-
+<lb xml:id="uuid_2b0f7e30-7c21-4938-8f7e-307c21493835"/>führer der Firma, Békessy-Friedlieb, der die Verantwortung übernommen hatte.
+<lb xml:id="uuid_365b4e8d-7889-4cc0-9b4e-8d7889bcc043"/>Die Commercia liess sich nicht stören. Sie brachte in der Wiener „Presse“
+<lb xml:id="uuid_d471ceab-1b3c-4048-b1ce-ab1b3cd04801"/>eine grosse Annonce unter, in welcher sie zu Wucherpreisen verschiedene
+<lb xml:id="uuid_d87cf995-495b-4a2d-bcf9-95495b2a2d29"/>Lebensmittel und Seifen anbot.
+<lb xml:id="uuid_5d003a0d-f5ce-47b2-803a-0df5ce47b221"/>Békessy, der in dieser Zeit Lebensmittelhändler, ja sogar Seifen-
+<lb xml:id="uuid_e7848ea1-2a2f-4453-848e-a12a2f7453b3"/>händler war, ergatterte im Zeitpunkt der Requisition die „Esti Ujság“.
+<lb xml:id="uuid_d0773c50-d784-4401-b73c-50d78414011a"/>Diese Zeitungsunternehmung hat ebenfalls ihre eigene Geschichte .Vorläufig
+<lb xml:id="uuid_18415090-686d-43da-8150-90686d33dabf"/>nur so viel, dass er den Eingeweihten zufolge mit Hilfe der der Firma
+<lb xml:id="uuid_92534902-0cc4-41a6-9349-020cc481a6fa"/>herausgepr. Kustodis ausgepressten Abfertigung dazugekommen war. In seinem Blatt rich-
+<lb xml:id="uuid_4834bc21-f820-4805-b4bc-21f820880559"/>tete er mehrere Angriffsartikel gegen daa Verpflegungsamt.
+<lb xml:id="uuid_447722c8-3714-4777-b722-c8371477774a"/>Durch dies erreichte er, dass der
+<lb xml:id="uuid_6b475509-27f4-43ed-8755-0927f453ed96"/>Minister von der Durchführung
+<lb xml:id="uuid_0f64f83b-e4ea-45ea-a4f8-3be4ea75eaf0"/>der Requisition Abstand nahm und
+<lb xml:id="uuid_9b1fb4e1-8838-462a-9fb4-e18838262abf"/>die über die Ware verhängte Sperre
+<lb xml:id="uuid_d85736c2-3ed8-4d36-9736-c23ed86d36a8"/>aufhob.
+<lb xml:id="uuid_d70b6b37-40d4-4b9a-8b6b-3740d41b9a18"/>Im Allgemeinen machte er sich als Kaufmann dadurch einen Namen, dass er
+<lb xml:id="uuid_d6e3ecd5-8928-40d9-a3ec-d58928b0d9a1"/>schlechte Ware als bestellt zu liefern pflegte. In vielen Fällen bot er auch
+<lb xml:id="uuid_4e62c99c-2e09-4f03-a2c9-9c2e093f03a2"/>Ware zum Verkauf an, über die er gar nicht verfügte. Mit einem Wort, er
+<lb xml:id="uuid_99767580-de88-4da9-b675-80de883da963"/>focht sich auch auf dem Gebiet des Kettenhandels einen Namen aus.
+<pb facs="" n="8"/>
+            <lb xml:id="uuid_d6f1b2e2-2ffe-4991-b1b2-e22ffee99155"/>3
+<lb xml:id="uuid_7ff37995-59df-49d8-b379-9559dfa9d835"/>Anzeige wegen 15 richtiggehenden Erpres-
+<lb xml:id="uuid_6f153bc8-bac6-4e0a-953b-c8bac65e0a2e"/>sungen
+<lb xml:id="uuid_036f8d9a-5fe3-4fe7-af8d-9a5fe3efe7a7"/>Im Jahre 1915 entdeckte Békessy in sich die Fähigkeit zum Handel
+<lb xml:id="uuid_87197732-7cf0-47f5-9977-327cf077f5cc"/>mit Limonadepulver. Er kaufte die Limonadepulvervorräte eines Arzneimittel-
+<lb xml:id="uuid_3e407c34-8a1d-4b86-807c-348a1ddb867b"/>laboratoriums. Einen Teil des Postens zahlte er aus, den andern verkaufte
+<lb xml:id="uuid_3d469c67-3ad9-4f94-869c-673ad96f94d7"/>er ebenfalls, rechnete aber nicht ab. Auf das Drängen des Eigentümers er-
+<lb xml:id="uuid_cbf42d2c-0cb3-446d-b42d-2c0cb3a46de3"/>klärte er, er habe die Ware noch nicht verkauft, doch könnten sie überein-
+<lb xml:id="uuid_9b2f5dd5-988e-449f-af5d-d5988e849fc9"/>kommen, wenn er sich mit 7000 K zufriedenstellte. Schon war der Vertrag fast
+<lb xml:id="uuid_16cd3dcc-7070-495b-8d3d-cc7070e95b74"/>fertig, als,wie ein Meteor aus heiterem Himmel, ein Galizianer mit nicht
+<lb xml:id="uuid_d33d8aea-26e7-40e3-bd8a-ea26e720e370"/>ein bisschen vertrauenswürdigem Aeussern erschien, und sich für die Ware
+<lb xml:id="uuid_10e47d0f-9eb7-4c8c-a47d-0f9eb7dc8c05"/>interessierte, die er auf einmal in einem Posten von Bekessy gekauft hatte.
+<lb xml:id="uuid_357261bc-fd24-4f73-b261-bcfd24af734f"/>Der ausgezeichnete Seifenhändler und Limonadepulververschleisser liess sich
+<lb xml:id="uuid_d569f4fe-698e-4f18-a9f4-fe698e8f181a"/>jedoch durch diese Kleinigkeit nicht beeinflussen.
+<lb xml:id="uuid_9b45193f-c023-4560-8519-3fc02335607a"/>Er verdiente 32.000 Kronen an die-
+<lb xml:id="uuid_1f620a8f-d12c-42dd-a20a-8fd12c52dda3"/>sem Geschäft im Jahre 1915, den ge-
+<lb xml:id="uuid_0c0ccb67-7215-45a0-8ccb-67721525a039"/>schädigten Eigentümer jedoch be-
+<lb xml:id="uuid_10d1be5c-6e07-4eb6-91be-5c6e074eb6b9"/>rief er als Entschädigung als Di-
+<lb xml:id="uuid_20125374-b407-489a-9253-74b407a89abf"/>rektor an sein Blatt.
+<lb xml:id="uuid_c2842a94-b0ed-4e9c-842a-94b0edfe9cb9"/>Später jedoch geriet er mit diesem Herrn in grosse Meinungsver-
+<lb xml:id="uuid_b28ca925-3fc6-4781-8ca9-253fc6b781a8"/>schiedenheiten, so dass er ihn einfach aus dem Blatte hinauswarf.
+<lb xml:id="uuid_ff757691-e1d5-432b-b576-91e1d5132b6c"/>Der erbitterte Mensch machte hie-
+<lb xml:id="uuid_9e131226-3be3-47c8-9312-263be3c7c865"/>rauf gegen Békessy-Friedlieb bei Gericht die Anzeige wegen
+<lb xml:id="uuid_465a5634-7bbf-46a9-9a56-347bbf16a93a"/>15 richtiggehenden Verbrechen der
+<lb xml:id="uuid_9549075b-56df-4b3c-8907-5b56dfbb3c41"/>Erpressung.
+<lb xml:id="uuid_96d93597-7df6-4e30-9935-977df69e30e9"/>Nach Erstattung der Anzeige stürmte Bekessy zum Rechtsanwalt des
+<lb xml:id="uuid_71f30df6-5487-4cae-b30d-f65487dcae5c"/>entlassenen Direktors, übergab eine Erklärung, in der er um Entschuldigung
+<lb xml:id="uuid_fd07fbd1-d73d-4eac-87fb-d1d73d7eace9"/>bat, und erreichte mit grosser Üeberredungskunst, dass sie die gegen ihn er-
+<lb xml:id="uuid_aaf6feda-caaf-41d3-b6fe-dacaafc1d332"/>stattete Anzeige zurückzogen.
+<lb xml:id="uuid_b540a5dd-feca-43a9-80a5-ddfeca53a90d"/>Uebrigens erwies sich die Commercia infolge von teils amtlichen,
+<lb xml:id="uuid_206ec6c2-f371-46b7-aec6-c2f37166b7c7"/>teils von Privaten stammenden Anzeigen und der unübersehbaren Reihe von
+<lb xml:id="uuid_decb0afa-2249-4ab1-8b0a-fa22493ab192"/>Strafverfahren als eine des Békessy würdige Firma.
+<lb xml:id="uuid_e88316f4-2dc1-45b5-8316-f42dc1a5b53e"/>Wegen Denunziation und Verleumdung wurde
+<lb xml:id="uuid_dc348166-8f09-4339-b481-668f09d339aa"/>er degradiert.
+<lb xml:id="uuid_8d75b934-0b01-47c8-b5b9-340b0107c849"/>Aber auch diese Ungewitter gingen vorüber, und Békessy-Friedlieb
+<lb xml:id="uuid_6e335175-16ea-4c14-b351-7516ea8c14df"/>musste entgegen jedem „besserem Gefühl“ auch zum Militär einrücken. Zugleich
+<lb xml:id="uuid_db6decf0-9ae3-4fcb-adec-f09ae38fcb9f"/>entlieh er mehrere 1000 Kronen, also einen beträchtlichen Betrag, von seinem einjährigen Kameraden H.K. Ueber
+<lb xml:id="uuid_dba1f5fc-0a3c-441b-a1f5-fc0a3c141bdb"/>diesen Betrag gab er einen Schuldbrief. Aus Dank zeigte Békessy-Friedlieb
+<lb xml:id="uuid_82b98442-d5a4-49b1-b984-42d5a429b18b"/>den Einjährigen-Gläubiger wegen Simulation an.
+<lb xml:id="uuid_e4780dd2-8675-4c09-b80d-d28675dc0942"/>Bald jedoch beschuldigte er ihn in einer anonymen An-
+<lb xml:id="uuid_589663bb-6342-47e2-9663-bb634217e2eb"/>zeige, er habe sich in einer Darlehenssache inkorrekt benommen.
+<lb xml:id="uuid_c328bc47-165b-4ed1-a8bc-47165b9ed1d1"/>Als er bereits die Anzeige gemacht hatte, suchte er H.K. auf und teilte ihm im Vertrauen mit, dass
+<lb xml:id="uuid_47593342-d7ea-40e4-9933-42d7ea00e495"/>er, wenn dieser ihm seine Schuld erlasse, imstande wäre, die Anzeige ver-
+<lb xml:id="uuid_7651c621-b2a5-4cb6-91c6-21b2a5acb640"/>schwinden zu lassen. Die ganze Sache kam heraus, es kam auch heraus, dass er
+<lb xml:id="uuid_7b112fab-268d-4ff2-912f-ab268dbff2c9"/>über andere Einjährige und sogar Offiziere böswillige Verleumdungen ver-
+<lb xml:id="uuid_ef093420-c774-4e68-8934-20c774be687f"/>breitet hatte, worauf er öffentlich um Verzeihung bitten musste und strafweise zu
+<lb xml:id="uuid_2db4b9e5-7e1d-492f-b4b9-e57e1d392f09"/>einem andern Regiment versetzt wurde. Es wurde ein ehrenrätliches Verfahren
+<lb xml:id="uuid_8801367c-d9eb-4f6b-8136-7cd9eb1f6b04"/>gegen ihn eingeleitet, schliesslichwurde er auch ins Feld abkommandiert. Bé-
+<lb xml:id="uuid_c34ea030-07cb-4321-8ea0-3007cb33214b"/>kessy gab sich hierauf als krank aus,
+<lb xml:id="uuid_ddd8af79-7508-4a95-98af-7975082a95d6"/>inzwischen erledigte er jedoch
+<lb xml:id="uuid_43683627-def5-485f-a836-27def5385f38"/>munter von seinem Büro aus telepho-
+<lb xml:id="uuid_4cf96a55-f3df-4eee-b96a-55f3dffeeeb6"/>nisch die grosse Sach-
+<lb xml:id="uuid_c2e32db9-22ea-436b-a32d-b922ea236b09"/>verständnis erfordernden Preis-
+<lb xml:id="uuid_31ee3ef6-7c52-4249-ae3e-f67c5232492e"/>treibereien der Commercia.
+<pb facs="" n="9"/>
+            <lb xml:id="uuid_b471a488-6cc0-41c4-b1a4-886cc031c404"/>4
+<lb xml:id="uuid_42197a9d-072e-48f5-997a-9d072ec8f59f"/>Als er dann endlich doch hätte ins Feld gehen müssen, gelang es ihm
+<lb xml:id="uuid_f1304f56-aea2-4a06-b04f-56aea2ca0649"/>unter dem Titel des Journalisten frei zu werden. Inzwischen intrigierte er
+<lb xml:id="uuid_972ab832-3629-4000-aab8-3236296000c5"/>gegen jeden einzelnen seiner Einjährigenkameraden, so dass
+<lb xml:id="uuid_75298f6b-eb84-488d-a98f-6beb84a88de0"/>im Verlaufe des nachträglich
+<lb xml:id="uuid_62a9c04a-c846-4c3e-a9c0-4ac846dc3ec1"/>zur Wiederaufnahme gelangten
+<lb xml:id="uuid_7f403bd1-9dcc-4a7d-803b-d19dcc7a7d71"/>ehrenrätlichen Verfahrens
+<lb xml:id="uuid_e70a6395-2511-4039-8a63-95251170399a"/>Békessy-Friedlieb die Würdig-
+<lb xml:id="uuid_259ac8e8-4a33-4e5f-9ac8-e84a33ee5feb"/>keit für den Offiziersrang abge-
+<lb xml:id="uuid_b9b92a2e-a01b-4ff9-b92a-2ea01bcff94a"/>sprochen und ihm die Distinktion
+<lb xml:id="uuid_d43748e3-902c-49f5-b748-e3902cd9f537"/>abgenommen wurde und nach dieser
+<lb xml:id="uuid_60131ddd-da50-4095-931d-ddda50b09502"/>Degradierung wurde seine bewaff-
+<lb xml:id="uuid_82e368c3-b1fc-4e52-a368-c3b1fc2e523e"/>nete Eskorte ins Feld angeordnet,
+<lb xml:id="uuid_2fff8cca-3409-4ba4-bf8c-ca34090ba4f7"/>den Offizieren und Einjährigen
+<lb xml:id="uuid_e28d2b45-b2d0-4341-8d2b-45b2d04341e7"/>jedoch verboten ausserdienstlich
+<lb xml:id="uuid_3d3b34b8-8698-465d-bb34-b88698e65d48"/>mit ihm zu verkehren.
+<lb xml:id="uuid_1bb2a73c-8f90-4292-b2a7-3c8f909292c6"/>Er jedoch stellte sich lieber verrückt, als dass er ins Feld gegangen
+<lb xml:id="uuid_617d66c6-30c8-40ac-bd66-c630c840ac46"/>wäre.
+<lb xml:id="uuid_3a1e8700-f664-4df8-9e87-00f664adf8ac"/>Als überzeugter Kommunist.
+<lb xml:id="uuid_a8c42339-e83d-4034-8423-39e83d9034c3"/>Als Schulbeispiel seines ausgezeichneten Spürsinns und seiner Anpassungs-
+<lb xml:id="uuid_ed905457-df71-4ed3-9054-57df710ed342"/>fähigkeit gab er durch seine Tätigkeit während der Kommune.
+<lb xml:id="uuid_99ceb207-4c39-422f-8eb2-074c39022f9c"/>Damals war er schon Redakteur des bekannten und berüchtigten Tözsdei Kuríer.
+<lb xml:id="uuid_f25a16b7-787c-4f54-9a16-b7787c0f5492"/>Er fusionierte sein Blatt mit dem Pénzvilág, einem Fachblatt von nicht im
+<lb xml:id="uuid_0d79f9e7-9df6-4bb7-b9f9-e79df61bb795"/>geringsten sozialistischen Geist und verwandelte in kühner Schwenkung die
+<lb xml:id="uuid_f5c0ed84-992c-44f1-80ed-84992cf4f178"/>Namen der beiden Blätter in Munka Világa. So trat er, der zuerst wirklich
+<lb xml:id="uuid_688dba05-e7e4-404f-8dba-05e7e4604f8f"/>der unbarmherzigste Vertreter des Kapitalismus gewesen war, ohne Vorbehalt in
+<lb xml:id="uuid_74380cdd-7ea7-4a50-b80c-dd7ea73a503f"/>den Dienst des Kommunismus. Durch die Leitung des Munka genannten bolsche-
+<lb xml:id="uuid_fa05494b-820c-416b-8549-4b820c616b4c"/>wikischen lithographierten Blattes bewies er, dass seine Anti-Bourgoishetze und
+<lb xml:id="uuid_57d5aea9-5494-4a6b-95ae-a954945a6bd9"/>sein Lob der Proletarierrevolution vollkommen den Intentionen Béla Kuns ent-
+<lb xml:id="uuid_dd85303e-abfb-4bc9-8530-3eabfb3bc9c3"/>sprachen. Und diese liess sich Békessy in Sowjet-Gold verzinsen. Als Presse-
+<lb xml:id="uuid_abe50196-4f6b-48a3-a501-964f6be8a34a"/>chef vom Josef Pogány’s zweitem roten Armeekorps erwarb er sich ebenfalls
+<lb xml:id="uuid_62dcc6d0-9936-4657-9cc6-d099367657bb"/>bleibende Verdienste. Den Journalisten gegenüber spielte er den Pascha, wenn
+<lb xml:id="uuid_13019dc4-a15b-4477-819d-c4a15b14770d"/>sie sich weigerten „gut zu schreiben“, er schreckte auch nicht vor Drohungen zu-
+<lb xml:id="uuid_4f4b5682-d0c7-46cf-8b56-82d0c776cf85"/>rück und war mit Herz und Seele rot, ja er liess sich sogar eine rote Soldaten-
+<lb xml:id="uuid_7bc62175-b914-402e-8621-75b914802eb4"/>uniform machen, worüber jedoch die ganze Stadt lachte.
+<lb xml:id="uuid_1bd57c0d-c0be-4236-957c-0dc0be223657"/>In Siófok ließ er sich in Begleitung des Volkskommissars Josef Pogány
+<lb xml:id="uuid_b0ab9881-9fb7-45ef-ab98-819fb7c5effe"/>während eines Spazierganges photographieren, in 2 spänniger Equipage, ver-
+<lb xml:id="uuid_7f391030-307f-4e78-b910-30307fde78f0"/>schleuderte er das Geld des Sowjet und richtete sich so ein, als ob der Kommu-
+<lb xml:id="uuid_c4c84849-7956-42c5-8848-49795642c5c7"/>nismus bis ans Ende der Welt dauern sollte. Als die Kommune stürzte, flüchtete
+<lb xml:id="uuid_88cb00c7-b578-45e0-8b00-c7b57875e004"/>er nach Balatonboglár. Dort
+<lb xml:id="uuid_4db498ad-ece0-4e3a-b498-adece00e3a9d"/>verlangte er im Stuhlrichter-
+<lb xml:id="uuid_bb223257-157c-46c7-a232-57157cb6c7b0"/>amt Informationen über die
+<lb xml:id="uuid_7eea3cba-7831-453b-aa3c-ba7831053b1b"/>Unterdrückung der bolschwiki-
+<lb xml:id="uuid_5d0e71e1-649a-49c5-8e71-e1649a69c583"/>schen Bewegung in dieser Gegend
+<lb xml:id="uuid_a1828cc4-0d86-48ce-828c-c40d8608ce24"/>und beeilte sich dies dem Presse-
+<lb xml:id="uuid_b0fb5132-269f-4e05-bb51-32269fde052a"/>chef des Ministerpräsidenten
+<lb xml:id="uuid_f7f67373-145e-4e71-b673-73145ebe7196"/>zu telephonieren.
+<lb xml:id="uuid_b75bf631-4d8a-466a-9bf6-314d8a866a1d"/>Zugleich half er dem Stuhlrichter die roten Soldaten zusammenfangen
+<lb xml:id="uuid_606e24bb-4f4c-438b-ae24-bb4f4cd38b4b"/>um die Aufmerksamkeit von sich abzulenken, obzwar die Polizei damals bereits
+<lb xml:id="uuid_8e1794e2-95ed-42d9-9794-e295ed22d97a"/>einen Steckbrief gegen ihn erlassen hatte.
+<lb xml:id="uuid_be37f257-f9db-428b-b7f2-57f9dbf28ba7"/>Durch Drohung foppte er der Frau
+<lb xml:id="uuid_4c976875-7346-480a-9768-757346a80a4a"/>eines an der Front kämpfenden
+<lb xml:id="uuid_05c633b2-e9f8-458b-8633-b2e9f8c58b57"/>Kollegen die Aktien der Esti Ujság
+<lb xml:id="uuid_fef3ddf3-d40f-4a1e-b3dd-f3d40f4a1e54"/>heraus.
+<lb xml:id="uuid_28d9334d-9c4a-4299-9933-4d9c4aa2991b"/>Nach Sturz der Kommune forderte er einen getauften Verlagsdirektor auf,
+<lb xml:id="uuid_64317282-7d60-4282-b172-827d60928235"/>bei seiner Bekehrung sein Taufpate zu werden. Der Direktor antwortete,
+<lb xml:id="uuid_56db0d06-79b3-44d4-9b0d-0679b3c4d49f"/>er würde dies seinerseits für eine Geschmacklosigkeit halten, und schickte ihn
+<lb xml:id="uuid_2f4e2ba3-c099-42d8-8e2b-a3c09962d839"/>zu seinem Schwiegersohn, der ein geborener Katholik war. Békessy wandte sich
+<lb xml:id="uuid_963a40cf-c496-4e6f-ba40-cfc496ae6f73"/>darauf dorthin um Hilfe bei seinem Uebertritt zum Katholizismus, wurde aber
+<lb xml:id="uuid_0d121ef9-d31d-4da0-921e-f9d31d1da0de"/>auch hier abgewiesen.
+<pb facs="" n="10"/>
+            <lb xml:id="uuid_c013ea5e-af68-4c7d-93ea-5eaf681c7dea"/>5
+<lb xml:id="uuid_a88bd8ab-e09d-42eb-8bd8-abe09df2ebc7"/>Seine Laufbahn als Journalist ist so ziemlich allgemein bekannt.
+<lb xml:id="uuid_e822ff9a-0f0d-482b-a2ff-9a0f0d582b70"/>Man weiss von ihm, wie er seinerzeit die Esti Ujság erworben hat. Der
+<lb xml:id="uuid_7622f83f-a359-4f35-a2f8-3fa359cf35e0"/>Eigentümer dieser Zeitung war Dr. Oskar Bethlen. Als dieser ins Feld kam,
+<lb xml:id="uuid_39fa57e0-1d8c-4748-ba57-e01d8c874884"/>geriet das Blatt in eine schwierige Lage. Da tauchte Békessy-Friedlieb
+<lb xml:id="uuid_5fafe946-62f1-4b95-afe9-4662f18b954a"/>auf und versuchte die Forderungen der Gläubiger aufzukaufen, um durch
+<lb xml:id="uuid_9144c288-9c24-4df6-84c2-889c249df6de"/>Androhung, dass er sie in den Konkurs treiben würde das Eigentümerrecht
+<lb xml:id="uuid_f5926e5c-83a1-4561-926e-5c83a1b5616a"/>an dieser Zeitung zu erwerben. Das gelang nicht. Hierauf suchte er die
+<lb xml:id="uuid_c4a124c2-5ead-4878-a124-c25ead687868"/>Frau des im Feld weilenden Oskar Bethlen auf und gab vor, man
+<lb xml:id="uuid_4f7cdb7d-e515-44f0-bcdb-7de51514f019"/>hätte im Sinne des Handelsgesetzes schon längst eine ausserordentliche
+<lb xml:id="uuid_1de5fecf-f3b9-4d59-a5fe-cff3b97d59d4"/>Vollversammlung einberufen müssen, da Bethlen das jedoch versäumt
+<lb xml:id="uuid_f914276c-59b7-4000-9427-6c59b7d000b8"/>habe, werde er eingesperrt werden.
+<lb xml:id="uuid_03dd9a73-50ae-41bd-9d9a-7350ae41bde2"/>Die Frau des Eigentümers er-
+<lb xml:id="uuid_b9d31839-714f-41ec-9318-39714ff1ecc2"/>schrak derart, dass sie ohne
+<lb xml:id="uuid_0abb4d3a-e70c-42e0-bb4d-3ae70c92e042"/>jede Gegenleistung alle Aktien
+<lb xml:id="uuid_e830e764-904e-4183-b0e7-64904ea183fd"/>der Zeitungs-A.-G. an Békessy heraus-
+<lb xml:id="uuid_80b9e0cf-0bcc-4538-b9e0-cf0bcc2538ed"/>gab.
+<lb xml:id="uuid_6b2d35fa-6ec4-4072-ad35-fa6ec4e07251"/>Als Oskar Bethlen aus dem Feld nach Hause kam, konnte er nur
+<lb xml:id="uuid_115533bc-7b2a-4f4e-9533-bc7b2a4f4ef7"/>nach hartnäckigstem Kampfe wieder Herr seines Blattes werden, musste
+<lb xml:id="uuid_e5220c46-e82e-40bd-a20c-46e82e50bd3a"/>aber Békessy-Friedliebs Erpressungen dulden, bis er schliesslich frei-
+<lb xml:id="uuid_7f982d51-7ff4-4525-982d-517ff415250f"/>willig von der Esti Ujság schied.
+<lb xml:id="uuid_c32c9503-bdb6-4dd7-ac95-03bdb67dd738"/>Plagiat mit Selbstmord.
+<lb xml:id="uuid_b67428a5-6078-4be6-b428-a56078abe6cd"/>Zu Gunsten der historischen Treue müssen wir an Békessy-
+<lb xml:id="uuid_4c836dd6-9346-4fff-836d-d693466fff4d"/>Friedliebs literarischen „Start“ erinnern. In der Zeitung Budapest er-
+<lb xml:id="uuid_e5f67868-0605-4d8e-b678-6806055d8e6d"/>schien ein Feuilleton unter seinem Namen.
+<lb xml:id="uuid_a5668cc1-e64f-4e0f-a68c-c1e64f2e0f04"/>Es kam binnen 24 Stunden heraus,
+<lb xml:id="uuid_4849d26e-d7df-468b-89d2-6ed7df068bbc"/>dass das ein ganz gewöhnliches
+<lb xml:id="uuid_d8cb20ee-b7c0-40c5-8b20-eeb7c0f0c59b"/>Plagiat war. Das Feuilleton hat-
+<lb xml:id="uuid_230a6967-6e94-4953-8a69-676e94a9536d"/>te Wort für Wort ein französi-
+<lb xml:id="uuid_10947e30-e238-4a19-947e-30e2383a195d"/>scher Schriftsteller geschrie-
+<lb xml:id="uuid_8a0368f5-62ce-4142-8368-f562ce614281"/>ben.
+<lb xml:id="uuid_77473ceb-f504-464c-873c-ebf504e64c66"/>Der entlarvte illustre Schriftsteller entschloss sich hierauf
+<lb xml:id="uuid_d5ae4ad8-c086-4e77-ae4a-d8c086ce77d0"/>zu einem Selbstmordversuch, indem er mit der gebetenen Vorsicht unter
+<lb xml:id="uuid_1273f491-d6f6-4f53-b3f4-91d6f67f5303"/>der Achsel eine Revolverkugel abschoss , so dass die so verursachte
+<lb xml:id="uuid_d887ba39-3298-4e90-87ba-393298ee907a"/>Abschürfung rasch zuheilte.
+<lb xml:id="uuid_9ba666d6-6fa9-4dc2-a666-d66fa93dc2c7"/>Von seiner journalistischen Tätigkeit verdient nur ein oder
+<lb xml:id="uuid_1ff1a916-64dc-4964-b1a9-1664dc896437"/>das andere besonders bezeichnende Kapitel hervorgeholt zu werden. Einmal
+<lb xml:id="uuid_2620a437-a2cc-4e07-a0a4-37a2cc4e0744"/>verschaffte er sich den Brief eines grossen Kaufmannes, in welchem
+<lb xml:id="uuid_6a102b14-82bf-4830-902b-1482bfd83033"/>dieser einem seiner Kunden schrieb, dass die Ganz-Aktien im Kurs nied-
+<lb xml:id="uuid_3cc04726-fd05-49db-8047-26fd0519dbcf"/>rig stehen und vielmehr wert sind. Auf Grund dieses Briefes richtete Bé-
+<lb xml:id="uuid_5874fecc-155d-4957-b4fe-cc155db9570c"/>kessy-Friedlieb scharfe Angriffe gegen den Kaufmann und beschuldigte ihn
+<lb xml:id="uuid_87aff5fc-cfef-42c9-aff5-fccfefe2c999"/>der Verleitung zum Börsenspiel in der Meinung, dass der Betreffende
+<lb xml:id="uuid_f34dd44d-646c-4dee-8dd4-4d646c9deea4"/>„seine Pflicht“ kennen werde. Der Kaufmann aber wandte sich statt
+<lb xml:id="uuid_18d718b4-5d6a-42eb-9718-b45d6a52ebc1"/>dessen an das Gericht, wo Békessy-Friedlieb wieder durch eine neue Ein-
+<lb xml:id="uuid_b7841f7d-65a7-4058-841f-7d65a7e058e6"/>stellung brillierte:
+<lb xml:id="uuid_5831dd18-651e-4e78-b1dd-18651e6e78ca"/>Die Anklageschrift verschwand,
+<lb xml:id="uuid_70020e27-2cf1-45cf-820e-272cf1b5cfb3"/>die Schriften waren nicht da,
+<lb xml:id="uuid_d6c896c9-87fe-47aa-8896-c987fe37aa7d"/>der Akt wanderte auf geheimnis-
+<lb xml:id="uuid_62a9403d-fd60-458e-a940-3dfd60a58ec3"/>vollem Wege und schliesslich
+<lb xml:id="uuid_db588d05-dd68-4c6e-988d-05dd680c6ee1"/>bot Békessy-Friedlieb an, er werde
+<lb xml:id="uuid_38dec517-ac5c-473c-9ec5-17ac5c873c3d"/>öffentlich um Entschuldigung
+<lb xml:id="uuid_d6415563-e034-4145-8155-63e034f14531"/>bitten, aber der Kaufmannn nahm
+<lb xml:id="uuid_21d9f911-132d-45e9-99f9-11132d95e9f9"/>auch diese Demütigung nicht an.
+<lb xml:id="uuid_12a412a2-8e02-4c14-a412-a28e028c144e"/>Natürlich war auch bei den Preistreibereiangelegenheiten Békessys
+<lb xml:id="uuid_9c225360-d8f1-4a02-a253-60d8f19a0209"/>der Akt konsequent verschwunden, denn sonst sässe er heute noch.
+<lb xml:id="uuid_c31fd507-6c0e-47fd-9fd5-076c0e77fd06"/>Die hohe Schule der Erpressung.
+<lb xml:id="uuid_4244688b-ce29-4dc2-8468-8bce293dc2f0"/>Ein wichtiger Fall aus seiner Tätigkeit beim Tözsdei-Kuríer ist der
+<lb xml:id="uuid_f2db61f0-139a-4730-9b61-f0139a873039"/>Erpressungsfeldzug den er gegen die Hazai-Bank (Heimat-Bank) führte.
+<lb xml:id="uuid_9ecc3560-73d9-466b-8c35-6073d9b66b59"/>Békessy bat den Direktor der Bank, er möge einen Artikel für den Tözsdei-
+<lb xml:id="uuid_d8eb6df5-b2d6-40d9-ab6d-f5b2d640d930"/>Kuríer schreiben. Als die Bank die Aktien der Fabrik Goldberger an der
+<lb xml:id="uuid_aaa7ee62-e66f-4abd-a7ee-62e66f6abd31"/>Börse einführte, griff der Tözsdei-Kuríer diese Transaktion und die
+<pb facs="" n="11"/>
+            <lb xml:id="uuid_0be6d62e-1641-42ed-a6d6-2e164132edff"/>6
+<lb xml:id="uuid_d7dcd2d9-10dc-4605-9cd2-d910dcb605cf"/>Fabrik selbst heftig an. Bald kam der wahre Grund dieses Angriffs zum
+<lb xml:id="uuid_66d7f3ef-30f4-43c8-97f3-ef30f4f3c81c"/>Vorschein: Békessy-Friedlieb machte deswegen wohl Schwierigkeiten, weil er in
+<lb xml:id="uuid_662180fa-c5a1-4832-a180-fac5a1683267"/>das Syndikat zur Einführung an der Börse nicht aufgenommen worden
+<lb xml:id="uuid_225715ab-5dc3-4ac2-9715-ab5dc36ac26f"/>war. Der Direktor liess ihm einige Stücke Goldberger-Aktien zukommen,
+<lb xml:id="uuid_cdc801e3-98b7-4f76-8801-e398b78f76cf"/>worauf sich Békessy-Friedlieb versöhnte. Er versöhnte sich, aber er hatte
+<lb xml:id="uuid_161d0c3a-3702-4632-9d0c-3a3702f632bd"/>Blut gerochen. Als die Aktien der Pannonia-Brauerei an der Börse ein-
+<lb xml:id="uuid_28ed68fe-3433-4a1f-ad68-fe3433ea1f60"/>geführt wurden,
+<lb xml:id="uuid_0fb63281-a629-4058-b632-81a6298058d1"/>erschien wieder der obligate
+<lb xml:id="uuid_577a1ded-21d2-419e-ba1d-ed21d2319e90"/>Angriffsartikel, aber in diesem
+<lb xml:id="uuid_3e151eaf-4207-4734-951e-af4207273466"/>Falle wurde auch er in das Syn-
+<lb xml:id="uuid_f15cbdaa-4ac8-4310-9cbd-aa4ac843106d"/>dikat aufgenommen und bekam 50
+<lb xml:id="uuid_88d6be53-d947-4a06-96be-53d947ca06ee"/>Aktien unter dem Preis.
+<lb xml:id="uuid_7e40991e-7415-4884-8099-1e7415088489"/>Er griff die Pannonia so lange an, bis man ihm die Aktien zu noch
+<lb xml:id="uuid_6c897f46-b073-4c57-897f-46b0734c57d4"/>niedrigerem Preise verrechnete. Darauf erschien in den nächsten Wochen
+<lb xml:id="uuid_b0b31b92-9336-4218-b31b-9293362218f5"/>im Tözsdei-Kuríer ein Aufsatz, der die Pannonia lobte. Später richtete Békessy-Fried-
+<lb xml:id="uuid_ea7c50bc-37cb-43df-bc50-bc37cb33dfd7"/>lieb mehrmals Angriffe gegen den erwähnten Direktor, die, wie sich zeigte,
+<lb xml:id="uuid_5cbec58b-d579-440f-bec5-8bd579340f4f"/>vollkommen grundlos waren: so dankte er ihm für die mehrmals erwiesenen
+<lb xml:id="uuid_402fd70a-af36-40d8-afd7-0aaf36e0d888"/>Gefälligkeiten. Unter den verlangten Gefälligkeiten figuriert auch die,
+<lb xml:id="uuid_883ca6c9-db64-4de9-bca6-c9db64cde9d1"/>dass Békessy „jederzeit zu Gegendienst bereit“, den Direktor bat, das Blatt
+<lb xml:id="uuid_114312ce-f665-4a4b-8312-cef665ea4b91"/>seines Freundes Franz Göndör „Az ember“ zu abonnieren. Fleisch von seinem
+<lb xml:id="uuid_8b7ec9cf-04e4-4938-bec9-cf04e459384e"/>Fleisch.
+<lb xml:id="uuid_1a73db6b-e6a0-445d-b3db-6be6a0445d8c"/>Er verlangte von der Bank in
+<lb xml:id="uuid_b551d67f-f383-4361-91d6-7ff383e3617e"/>einem Rundschreiben Geld zur
+<lb xml:id="uuid_ac835a34-d17b-48c8-835a-34d17be8c87a"/>Verteidigung der kapitalis-
+<lb xml:id="uuid_afa6afcb-0c22-4411-a6af-cb0c22d41144"/>tischen Weltordnung.
+<lb xml:id="uuid_b0c2ef00-7b2b-4831-82ef-007b2b283170"/>In diesem Blättchen war mehrmals der Fall an der Tagesordnung, dass
+<lb xml:id="uuid_944695eb-fade-466d-8695-ebfade366d64"/>Angriffsartikel in auffällig kurzer Zeit von Lobes-Artikeln gefolgt wurden.
+<lb xml:id="uuid_c10ab6ed-29fe-4b6b-8ab6-ed29fe2b6b3a"/>Besonders auffällig war, dass in der Zeit der Börsenwahl.
+<lb xml:id="uuid_6a9c48ac-f5bf-473c-9c48-acf5bf773c85"/>In seine hauptsächlich in die Károlyi-Zeit fallende Tätigkeit fügt
+<lb xml:id="uuid_4f394ad9-28d9-4675-b94a-d928d97675cc"/>sich in interessanter Weise ein Békessy ausserordentlich charak-
+<lb xml:id="uuid_1435fe0c-2f55-44a1-b5fe-0c2f55f4a1b4"/>terisierender Fall ein. In den letzten Tagen der Károly-Regierung über-
+<lb xml:id="uuid_0dab7949-c83b-42dc-ab79-49c83b22dc2b"/>schwemmte er die Banken mit Briefen, in denen er Geld verlangte. In diesen
+<lb xml:id="uuid_849b3b8f-6eb2-493c-9b3b-8f6eb2393cb4"/>betonte er, dass er auch jetzt noch die kapitalistische Weltordnung gegen
+<lb xml:id="uuid_5e929fc1-8a8f-4ac7-929f-c18a8faac703"/>den Schrecken des Kommunismus verteidige, und darum die Banken bitte, seinem
+<lb xml:id="uuid_b75cbfd6-62ac-4691-9cbf-d662ac86914b"/>Blatt nicht nur Pauschalbeträge zukommen zu lassen, sondern es weitest-
+<lb xml:id="uuid_e3bb8157-c5c8-4d01-bb81-57c5c80d0115"/>gehend zu subventionieren, damit er es nötigenfalls verteidigen könne. Als
+<lb xml:id="uuid_0db5dfe0-f85b-44ad-b5df-e0f85b64ad61"/>die Kommune begann, betonte er schon nach wenigen Tagen auf einer
+<lb xml:id="uuid_9b52c9d2-113f-4d59-92c9-d2113fed592b"/>Mitgliederbesprechung des ungarländischen Fachschriftstellerverbandes,
+<lb xml:id="uuid_87862af8-09a4-4454-862a-f809a46454b8"/>dass die Fachpresse auf das entschlosseneste den Kommunismus unterstützen müsse.
+<lb xml:id="uuid_386ed537-0c52-4627-aed5-370c52b627d4"/>Er übernahm unter der Kommune die Uebersetzung der Werke Marx’ gegen jähr-
+<lb xml:id="uuid_4ac1d92e-79d7-44e2-81d9-2e79d7b4e23d"/>lich 1500 Kronen, vor dem 1.VIII. liess er sogar den Vorsitzenden der Jour-
+<lb xml:id="uuid_2bd07d9d-2840-4db5-907d-9d28404db5dc"/>nalistenorganisation in seine Wohnung rufen und verbot den Journalisten
+<lb xml:id="uuid_8cfcdb85-757b-4be3-bcdb-85757b6be3ac"/>unter Drohungen, die Nachricht vom Sturze der Kommune an die ausländische
+<lb xml:id="uuid_1557a22c-e446-4418-97a2-2ce446a4180a"/>Presse weiterzugeben.
+<lb xml:id="uuid_d04fbfa2-0447-416e-8fbf-a20447716e80"/>Die aufgezählten Fälle bilden bloss einen bescheidenen Auszug aus ähn-
+<lb xml:id="uuid_12247479-a323-4b09-a474-79a3239b0991"/>lichen, sogar noch viel schwereren Straftaten aus seiner erfolgreichen
+<lb xml:id="uuid_26e7dbdc-9855-4d14-a7db-dc98554d14a0"/>Karriere. Es ist bezeichnend für die heutige Zeit, dass so ein Mensch, einer
+<lb xml:id="uuid_66ec4b39-30f0-4af4-ac4b-3930f04af4bc"/>der sich am lautesten gebärdenden Journalisten Wiens werden konnte, der nicht nur
+<lb xml:id="uuid_3a3328a5-402c-4a9c-b328-a5402c2a9c75"/>durch seine Erpressungen Angst und Schrecken verbreitete, sondern auch ein
+<lb xml:id="uuid_333c84c6-e74e-438b-bc84-c6e74e738b37"/>ansehnliches Kapital aussog. Davon nächstens mehr.
+</body>
+    </text>
+</TEI>

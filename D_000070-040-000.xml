@@ -1,0 +1,112 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000070-040-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-039-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-041-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief Samek an RA Botho Laserstein</title>
+                <editor ref=""/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000070-040-000.xml</idno>
+                <idno type="URL" subtype="krausonline">https://www.kraus.wienbibliothek.at/content/brief-samek-ra-botho-laserstein-9</idno>
+                <idno type="ID" subtype="transkribus">213323</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000070">Karl Kraus ca. Alfred Kerr</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000070-040-000-wit01" facs="#D_000070-040-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date type="sortDate" subtype="produced" when-iso=""/>
+                <date source="krausonline">04.04.1928</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/"/>
+            </textClass>
+            <particDesc/>
+            <correspDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2021-09-13" resp="#LU">created XML Document</change>
+            <change when-iso="2021-09-13" resp="#LU">Replaced Text with Transcription of Transkribus
+                Document 213323.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000070-040-000-facs001"><!-- surfaces, graphics -->
+        <surface type="">
+            <graphic url="" source="wienbibliothek"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body><!-- lb uuids -->
+            <pb facs="" n="1"/>
+                <lb/>4. April 1929.
+                <lb/>Dr.S./Fa.
+                <lb/>Betrifft: Kraus – Kerr II.
+                <lb/>Herrn
+                <lb/>Dr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38969">Botho Laserstein</rs>,
+                <lb/>Rechtsanwalt
+                <lb/>Sehr geehrter Herr Kollege!
+                <lb/><rs type="place" ref="https://pmb.acdh.oeaw.ac.at/entity/168">Berlin</rs> N.O. 18.
+                <lb/>Landsberger Allee 55.
+                <lb/>Herr Kraus erhielt gestern die beiliegende
+                <lb/>Kostenrechnung. Ich habe Ihnen den Verlag „Die Fackel“
+                <lb/>den Betrag von Mk. 15.15 anweisen lassen und ersuche Sie, die
+                <lb/>Kostenrechnung zu prüfen und wenn sie in Ordnung geht den Betrag
+                <lb/>der Gerichtskasse <rs type="place" ref="https://pmb.acdh.oeaw.ac.at/entity/168">Berlin</rs> Mitte abzuführen.
+                <lb/>Ich zeichne mit vorzüglicher kollegialer
+                <lb/>Hochachtung
+                <lb/>1 Beilage
+                <lb/>Rekommandiert.
+            <pb facs="" n="2"/>
+                <lb/>Betr. Kraus – Kerr II
+                <lb/>exp. am 4.4.1929.
+        </body>
+    </text>
+</TEI>

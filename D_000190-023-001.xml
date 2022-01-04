@@ -1,0 +1,49 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000190-023-001.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000190-021-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000190-023-002.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Notizzettel</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <availability default="false">
+                    <licence>
+                        <ref target="http://creativecommons.org/licenses/by/3.0/at/">Creative
+                            Commons Namensnennung 4.0 Österreich Lizenz</ref>
+                    </licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000190-023-001.xml</idno>
+                <idno type="URL" subtype="krausonline"/>
+                <idno type="ID" subtype="transkribus"/>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000190">Karl
+                    Kraus ca. Richard Smetana und vice versa</title>
+            </seriesStmt>
+            <sourceDesc default="false">
+                <listWit>
+                    <witness xml:id="D_000190-023-001-wit01" facs=""/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2020-10-11T12:21:58.625Z" who="#IB" status="draft">created by
+                API</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><!-- LU: noch falsche Links! -->
+        <surface type="">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/content/pageview/2545115" source="wienbibliothek"/>
+        </surface>
+        <surface type="">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/content/pageview/2545116" source="wienbibliothek"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="" n="1"/>
+            <pb facs="" n="2"/>
+        </body>
+    </text>
+</TEI>

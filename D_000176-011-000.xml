@@ -1,0 +1,96 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000176-011-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-010-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-012-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief Anwaltskammer Hamm (Westfalen) an Samek</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <availability default="false">
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000176-011-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4361</idno>
+                <idno type="ID" subtype="transkribus">349096</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000176">Karl
+                    Kraus ca. Städtische Bühnen Essen</title>
+            </seriesStmt>
+            <sourceDesc default="false">
+                <listWit>
+                    <witness xml:id="D_000176-011-000-wit01" facs="#D_000176-011-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1932-05-25" subtype="produced">25. Mai 1932</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <particDesc/>
+            <correspDesc>
+                <correspAction type="sent">
+                    <orgName ref="#37134">Vorstand | der Anwaltskammer | Hamm (Westf.)</orgName>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#60422">Königstrasse</rs>
+                    </address>
+                    <placeName ref="#37137">HAMM (WESTF.)</placeName>
+                    <date when-iso="1932-05-25">DEN 25. Mai 1932</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#38909">Herrn | Rechtsanwalt Dr. Samek</persName>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#50493">Schottenring 14</rs>
+                    </address>
+                    <placeName ref="#51">Wien I.</placeName>
+                    <date when-iso=""/>
+                </correspAction>
+                <noteGrp>
+                    <note type="subject"/>
+                    <note type="dictation"/>
+                    <note type="appendix"/>
+                </noteGrp>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="intertexts" when-iso="2021-10-07" who="#IL"/>
+            <change type="header_facsimile" when-iso="2021-10-20" who="#IL"/>
+            <change type="structure" when-iso="2021-10-01" who="#IL"/>
+            <change type="references" when-iso="2021-10-11" who="#IL"/>
+            <change type="typography" when-iso="021-10-19" who="#IL"/>
+            <change when-iso="2020-10-09T14:32:15.76Z" who="#IB" status="draft">created by
+                API</change>
+            <change when-iso="2021-09-06" who="#LU">Replaced Text with Transcription of Transkribus
+                Document 349096.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000176-011-000-facs001">
+        <surfaceGrp xml:id="D_000176-011-000-facs001-l001">
+            <surface xml:id="D_000176-011-000-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000183_18.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000176-011-000-facs001-l001-p002" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000184_13.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="D_000176-011-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_f95dfbc9-b85c-4e97-a148-b0d0a3585ed9"><lb xml:id="uuid_26c3b318-7cbb-41ab-82c3-204f798a030c"/>Auf die gefl. Anfrage vom
+                gestrigen Tage wird <lb xml:id="uuid_0213b63f-b324-4360-a66f-0c6836c20972"/>erwidert, daß in <rs type="place" ref="#915">Dortmund</rs> ein Rechtsanwalt Dr.
+                    <rs type="person" ref="#38103">Otto <lb xml:id="uuid_38bef258-b55e-412b-9572-de929a4f45f1"/>Elias</rs> seine Praxis
+                ausübt. </p>
+            <p xml:id="uuid_9b467657-9f95-459d-a378-e58369656dff"><lb xml:id="uuid_61db0a45-23a6-4e52-873d-651d15a41495"/>Das Büro befindet sich <rs type="place" ref="#60424">Dortmund, Hansastr. 50</rs>. <lb xml:id="uuid_626fbd10-60cc-4690-ad39-91fa4c10a668"/>Das Sekretariat. </p>
+            <pb facs="D_000176-011-000-facs001-l001-p002" n="2"/>
+            <p xml:id="uuid_035ad158-311d-4cc8-88af-d4a23bd0789d"><lb xml:id="uuid_4dd5b061-e34f-4b0b-80cc-4b1551830178"/><note type="paratext" resp="law-firm"><rs type="person" ref="#11988">Kraus</rs> – <rs type="institution" ref="#37029">Essener städt. Bühnen</rs>
+                    <lb xml:id="uuid_fe04c1da-1404-4b92-8a40-1ba6c66fa81c"/>27. MAI 1932</note></p>
+        </body>
+    </text>
+</TEI>

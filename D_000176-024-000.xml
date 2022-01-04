@@ -1,0 +1,148 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000176-024-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-023-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-024-001.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief RA Otto Elias an Samek</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <availability default="false">
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000176-024-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4374</idno>
+                <idno type="ID" subtype="transkribus">349110</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000176">Karl
+                    Kraus ca. Städtische Bühnen Essen</title>
+            </seriesStmt>
+            <sourceDesc default="false">
+                <listWit>
+                    <witness xml:id="D_000176-024-000-wit01" facs="#D_000176-024-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1932-06-27" subtype="produced">27. Juni 1932</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <particDesc/>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#38103">Dr. jur. Elias</persName>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#60424">Hansatraße 50</rs>
+                    </address>
+                    <placeName ref="#915">Dortmund</placeName>
+                    <date when-iso="1932-06-27">den 27. Juni 1932</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#38909">Herrn | Rechtsanwalt Dr. Oskar Samek</persName>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#50493">Schottenring 14</rs>
+                    </address>
+                    <placeName ref="#51"> Wien I</placeName>
+                    <date when-iso=""/>
+                </correspAction>
+                <noteGrp>
+                    <note type="subject"/>
+                    <note type="dictation">S./I.</note>
+                    <note type="appendix"/>
+                </noteGrp>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="intertexts" when-iso="2021-10-07" who="#IL"/>
+            <change type="header_facsimile" when-iso="2021-10-27" who="#IL"/>
+            <change type="structure" when-iso="2021-10-01" who="#IL"/>
+            <change type="references" when-iso="2021-10-11" who="#IL"/>
+            <change type="typography" when-iso="021-10-19" who="#IL"/>
+            <change when-iso="2020-10-09T14:32:15.76Z" who="#IB" status="draft">created by
+                API</change>
+            <change when-iso="2021-09-06" who="#LU">Replaced Text with Transcription of Transkribus
+                Document 349110.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000176-024-000-facs001">
+        <surfaceGrp xml:id="D_000176-024-000-facs001-l001">
+            <surface xml:id="D_000176-024-000-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000238_11.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000176-024-000-facs001-l001-p002" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000239_16.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <facsimile ana="furtherwitnesses">
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000240_13.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000241_16.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000242_13.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000243_14.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000244_14.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000245_15.jpg" source="krausonline"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="D_000176-024-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_6e6c4a16-1322-446b-8330-cb2745f5a99f"><lb xml:id="uuid_bbee23d2-7cd8-4f41-95eb-9cc6f8e96749"/>Sehr geehrter Herr <rs type="person" ref="#38909">Kollege</rs>!</p>
+            <p xml:id="uuid_afa400de-d7d8-4968-9ab0-b7c1a4dab369"><lb xml:id="uuid_411f404f-d187-49f5-8486-fcedb003a998"/>In Sachen <rs type="person" ref="#11988">Kraus</rs> gegen <rs type="person" ref="#38784">Schulz-Dornburg</rs> schreibt mir ein <rs type="place" ref="#49970">Essener</rs>
+                <lb xml:id="uuid_f718fde0-4e37-419c-b1d4-c1249da5d790"/><rs type="person">Kollege</rs> nunmehr, dass der Beigeordnete <rs type="person">Richter</rs> als
+                Dezernent für <lb xml:id="uuid_c92c3298-01ed-46f0-9e02-7a71b0e86fe9"/>Theater und
+                Kunst der Stadt <rs type="place" ref="#49970">Essen</rs> kraft besonderer Delegation
+                    ver<lb xml:id="uuid_e1d1114c-a6d9-4aa9-899c-aea29763384a" break="no"/>tretungsberechtigt ist, innerhalb seines Dezernats selbständig für <lb xml:id="uuid_86653d31-18dc-4f71-b27a-fcd2c3deebc4"/>die Stadt <rs type="place" ref="#49970">Essen</rs> abzuschliessen. Der <rs type="person">Kollege</rs> hat
+                zwar das Statut, <lb xml:id="uuid_65693992-964b-48e0-bd4d-ce2b48e67a37"/>auf dem die
+                Befugnis beruht, selbst noch nicht einsehen können, be<lb xml:id="uuid_e476ca08-3020-4b16-8e16-481eb8dee7bd" break="no"/>tont aber, dass
+                seine Nachricht authentisch ist. Darnach könnte aller<lb xml:id="uuid_a39f4774-9202-4f1e-b546-39b0bf9766fd" break="no"/>dings in <rs type="place" ref="#168">Berlin</rs> gegen <rs type="place" ref="#49970">Essen</rs> geklagt werden. Es könnte auch die Klage <lb xml:id="uuid_9f94812c-b1e1-4e06-a46d-091b15bef79a"/>in <rs type="place" ref="#49970">Essen</rs> versuchsweise eingereicht werden. Nur wäre dann mit der
+                – al<lb xml:id="uuid_a5400c28-c9f6-4fd1-9b1d-2c115672b6bd" break="no"/>lerdings
+                recht entfernten! – Möglichkeit immer zu rechnen, dass die <lb xml:id="uuid_8c66343f-1302-48ff-81f7-b5b3277aef44"/>Gegenseite die Einrede der
+                Unzuständigkeit von <rs type="place" ref="#49970">Essen</rs> erhebt, worauf<lb xml:id="uuid_1dca92f6-ed7f-4c25-bdf7-775db7198d37" break="no"/>hin die
+                Verweisung des Prozesses nach <rs type="place" ref="#168">Berlin</rs> dann ja wohl
+                erfolgen <lb xml:id="uuid_c729cec1-9489-46de-bfdb-024043b457bc"/>müsste.</p>
+            <p xml:id="uuid_a255153d-48f6-4eef-bd18-327109cf14b7">
+                <lb xml:id="uuid_1353575e-506d-475a-a6d4-cd202bddd03a"/>Inzwischen ist die
+                Angelegenheit aber insofern in ein neues <lb xml:id="uuid_3195caa0-d113-4452-8424-37d196f94b10"/>Stadium getreten, als der
+                    <rs type="person">Oberstaatsanwalt</rs> beim <rs type="institution" ref="#36824">Landgericht Essen</rs>
+                <lb xml:id="uuid_b2920f8b-5061-42a6-8867-7d83dca6151f"/>in der Strafsache gegen <rs type="person" ref="#38784">Schulz-Dornburg</rs> 28 J 2377/32 Folgendes mir <lb xml:id="uuid_44b5d17c-8c6c-41fd-8d1a-f000608cde36"/>mitteilt:</p>
+            <pb facs="D_000176-024-000-facs001-l001-p002" n="2"/>
+            <p xml:id="uuid_06514cac-0cbc-4829-9975-5ecf17d38b05"><lb xml:id="uuid_fc0c2703-0dcf-4354-80ba-ce1ef0c06e18"/>„<quote xml:id="uuid_332dc183-705f-4ed5-83f5-f86f41a7d612" source="">Ein öffentliches
+                    Interesse an der Strafverfolgung des <rs type="person" ref="#38784">Be<lb xml:id="uuid_8b1983a4-4a44-445e-bf59-ef893a44b277" break="no"/>schuldigten</rs> vermag ich nicht anzuerkennen. Es muss Ihnen über<lb xml:id="uuid_941577c2-6584-4aec-905c-c8999e0a28a8" break="no"/>lassen
+                    bleiben, sofern Sie sich davon Erfolg versprechen, den <lb xml:id="uuid_4a645722-8d05-452c-8647-3581a897fece"/>Weg der Privatklage zu
+                    beschreiten</quote>“.</p>
+            <p xml:id="uuid_9459bdb0-988b-413f-8012-fc79592e0b8b"><lb xml:id="uuid_ccdea5e9-af8a-4fdf-8b40-6c248eb190ae"/>Ich hatte mit dieser
+                Möglichkeit praktisch nicht rechnen zu sollen <lb xml:id="uuid_725aa5d6-3088-4ff0-a9c3-b3961282efc7"/>vermeint, weil ein besonders
+                erhebliches Interesse an der Verfolgung <lb xml:id="uuid_227baad7-e28b-4f8a-94b9-545ebc872671"/>derartiger Angelegenheiten
+                durch den öffentlichen <rs type="person" ref="#11988">Ankläger</rs> nicht zu <lb xml:id="uuid_496adc19-232a-462c-88de-53047446cbc0"/>verneinen ist. Auf der
+                anderen Seite wird man aber <lb xml:id="uuid_fdc9c435-76ee-470b-b7b6-3f31ad016924"/>vielleicht einwenden wollen, dass der Staat in seiner heutigen <lb xml:id="uuid_d20575cc-d37b-4f7d-9ccb-e7697b43bc26"/>geldlichen Notlage wieder
+                solches Interesse nicht besonders habe.</p>
+            <p xml:id="uuid_20f733a1-85ee-4990-8b2c-e4193c0d6485">
+                <lb xml:id="uuid_cdedce4a-b6ce-49db-bad9-24279d7d880b"/>Damit die – bloss
+                vierzehntägige – Frist nicht verabsäumt <lb xml:id="uuid_157c3f9f-efd1-420f-b162-12fa03b33f0d"/>werde, habe ich sofort
+                gemäss Anlage mich an die Staatsanwaltschaft <lb xml:id="uuid_8fef61da-4327-445b-8ccd-a341fc1fb857"/>gewandt. Ich erbitte nun
+                Ihre weiteren Anweisungen.</p>
+            <p xml:id="uuid_5d002df2-19b9-4d00-88eb-3ea9ee629101"><lb xml:id="uuid_b2d63659-ee4f-47fe-bcf9-f9074b53da88"/>Vor allem auch darüber, wie
+                es eventuell mit der Privatklage <lb xml:id="uuid_43616101-0795-49dc-8c30-e14df86d99e1"/>und mit einer Zivilklage
+                gehalten werden soll. <lb xml:id="uuid_b7b9d34c-d545-499c-a472-2e13b10e87fa"/>Mit
+                collegialer Hochachtung <lb xml:id="uuid_f17dd697-7eff-4b32-87ac-d4dc2afd3d04"/><rs type="person" ref="#38103">Elias</rs>
+                <lb xml:id="uuid_bb3a056f-bb78-43e3-ab7f-42d3f758c549"/>Rechtsanwalt.</p>
+        </body>
+    </text>
+</TEI>

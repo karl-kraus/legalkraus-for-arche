@@ -1,0 +1,146 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000116-006-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000116-005-003.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000116-006-001.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief Samek an Hans Zweig</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000116-006-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3278</idno>
+                <idno type="ID" subtype="transkribus">469819</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000116">Angelegenheit Margarethe Minkus-Benesch</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000116-006-000-wit01" facs=""/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1929-03-14" subtype="produced">14. März 1929</date>
+            </creation>
+            <langUsage> <language ident="de">Deutsch</language> </langUsage>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.K.BRF</classCode>
+            </textClass>
+            <particDesc/>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#38909">Oskar Samek</persName>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#50493"/>
+                    </address>
+                    <placeName ref="#51"/>
+                    <date when-iso="1929-03-14">14. März 1929.</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#37807">Herrn | Dr. H. Zweig</persName>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#56472">Brünn</rs>
+                    </address>
+                    <placeName ref="#833">Rennergasse Nr. 7.</placeName>
+                    <date when-iso=""/>
+                </correspAction>
+                <noteGrp>
+                    <note type="subject">Betrifft: Kraus – Minkus.</note>
+                    <note type="dictation">Dr.S./Fa.</note>
+                    <note type="appendix"/>
+                </noteGrp>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="typography" when-iso="2021-07-15" who="#IL"/>
+            <change type="header_facsimile" when-iso="2021-07-15" who="#IL"/>
+            <change type="structure" when-iso="2021-07-05" who="#IL"/>
+            <change type="intertexts" when-iso="2021-07-05" who="#IL"/>
+            <change type="references" when-iso="2021-07-05" who="#IL"/>
+            <change when-iso="2020-07-28T15:25:21.554Z" who="#IB">created by API</change>
+        <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of Transkribus Document 469819.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000155_34.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556242/full/full/0/default.jpg" source="wienbibliothek"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000156_39.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556243/full/full/0/default.jpg" source="wienbibliothek"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="" n="1"/>
+            <p xml:id="uuid_372b994f-1a81-42ec-9a79-68e70e1fcd47">
+                <lb xml:id="uuid_8d5a1f90-284d-4b46-9a1f-90284dfb4624"/>Sehr geehrter Herr <rs type="person" ref="#37807">Doktor</rs>!</p>
+            <p xml:id="uuid_9e34f4ab-632c-4828-aa22-fe85d4bcf832"><lb xml:id="uuid_4f036f93-5175-4adc-836f-9351753adcee"/>Ich fühle mich verpflichtet,
+                Ihnen zur Kennt<lb xml:id="uuid_175e2174-6c3e-4d49-9e21-746c3e4d4919" break="no"/>nis zu bringen, dass Frau <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/51553">Margarethe Minkus</rs> an mich am
+                5. März 1929 <lb xml:id="uuid_3280bda8-97e0-44f7-80bd-a897e0e4f7f2"/>einen <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000116-005-000">Brief</rs> geschrieben hat, des Inhaltes, ich möge ihren beigeleg<lb xml:id="uuid_873a29a9-cb9c-4d45-ba29-a9cb9cfd45b6" break="no"/>ten <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000116-005-000">Brief</rs> der sozialdemokratischen Partei übergeben, deren Mitglied <lb xml:id="uuid_667d1e62-9179-4a59-bd1e-6291799a594a"/>sie sei. Ihre Eltern, die
+                sie widerrechtlich von <rs type="place" ref="#50">Wien</rs> aus in eine <lb xml:id="uuid_a0ca3973-12e2-410b-8a39-7312e2710b04"/><rs type="institution" ref="#56760">Irrenanstalt</rs> geführt haben, verhinderten sie gewaltsam daran
+                mit der <lb xml:id="uuid_8b432f45-9eed-4c5c-832f-459eed3c5cc4"/><rs type="institution" ref="#38090">sozialdemokratischen Partei</rs> in Fühlung zu
+                treten, ebenso nach <rs type="place" ref="#50">Wien</rs>
+                <lb xml:id="uuid_4e97a9af-c651-47b8-97a9-afc651c7b875"/>zu fahren und es bleibt ihr
+                daher nichts anderes übrig, als sich <lb xml:id="uuid_773e3b87-49de-4a0f-be3b-8749deda0f61"/>nach Erhalt ihres
+                Mitgliedsbuches an die <rs type="place" ref="#33978">Znaimer</rs> Arbeiterpartei um
+                    <lb xml:id="uuid_a4ed74c2-76a1-47f9-ad74-c276a1b7f904"/>pekuniäre Unterstützung
+                zu wenden. Einige Tage später erhielt auch <lb xml:id="uuid_cb42b341-4956-490d-82b3-414956790d1a"/>Herr Kraus einen <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000116-005-000">Brief</rs>, mit folgendem Inhalt: „<quote xml:id="uuid_ed8ad602-9e9b-426c-85da-b3b8debee20f" source="https://legalkraus.acdh.oeaw.ac.at/id/D_000116-005-000">Sehr geehrter
+                    Herr. <lb xml:id="uuid_6023dcd8-15d0-4873-a3dc-d815d078737e"/>Meine Eltern
+                    stellen mich unter Kuratel, ich bitte Sie um Hilfe. <lb xml:id="uuid_43f735de-1b1c-4984-b735-de1b1c1984bc"/>Ich freue mich aufs
+                    Wiedersehen herzlichst. Gruss <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/51553">Grittls Minkus<lb xml:id="uuid_626b1f66-1c3b-46a3-ab1f-661c3b96a396" break="no"/>Benesch</rs></quote>“. Ich überlasse es Ihrem ärztlichen Ermessen, ob Sie
+                die <lb xml:id="uuid_3925252c-6865-4a9f-a525-2c68658a9f91"/>Eltern der Frau <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/51553">Minkus</rs> von
+                diesen neuen Tatsachen verständigen oder <lb xml:id="uuid_1da7a5ea-172d-44c6-a7a5-ea172d34c621"/>selbst irgend etwas
+                vorkehren wollen.</p>
+            <p xml:id="uuid_3fa232a5-0fbf-4b85-9be5-c9347e3652a5"><lb xml:id="uuid_9497d11c-8cd0-4619-97d1-1c8cd02619fe"/>Ich zeichne mit vorzüglicher
+                Hochachtung </p>
+            <pb facs="" n="2"/>
+            <p xml:id="uuid_6631648a-e626-4044-9fec-5f1395dd4f7f"><lb xml:id="uuid_878ac572-b725-48ec-8ac5-72b725c8ec3e"/><note type="paratext" resp="law-firm">Betr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs> – <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/51553">Minkus</rs>
+                    <lb xml:id="uuid_5441ee56-c955-4c93-81ee-56c9550c9329"/>exp. am
+                    14.3.1928.</note></p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,120 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000154-008-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000154-007-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000154-009-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Beschluss des Strafbezirksgerichts I Wien (G. Z. 1 U 32/31, Christoph
+                    Höflmayr)</title>
+                <editor ref="#PE">Pia Ebner</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name full="yes" instant="false">Austrian Centre for Digital Humanities and
+                        Cultural Heritage, Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name full="yes" instant="false">Ludwig Boltzmann Institut für Digital
+                        History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name full="yes" instant="false">Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date instant="false">2021</date>
+                <availability default="false">
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000154-008-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4085</idno>
+                <idno type="ID" subtype="transkribus">304386</idno>
+            </publicationStmt>
+            <seriesStmt default="false">
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000154">Karl
+                    Kraus ca. Arbeiter-Zeitung</title>
+            </seriesStmt>
+            <sourceDesc default="false">
+                <msDesc>
+                    <ab type="stamp">
+                        <stamp source="#50491"/>
+                    </ab>
+                </msDesc>
+                <listWit>
+                    <witness xml:id="D_000154-008-000-wit01" facs="D_000154-008-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><!-- <date type="sortDate" when-iso="191-02-27"/> -->
+                <date source="krausonline" instant="false">27.02.1931</date>
+            </creation>
+            <langUsage default="false"><!-- <language ident="german">Deutsch</language> --></langUsage>
+            <textClass default="false">
+                <keywords>
+                    <term>Beschluss</term>
+                </keywords>
+                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.J.BSS</classCode>
+            </textClass>
+            <particDesc default="false"/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2020-10-08T15:24:11.749Z" who="#IB" status="draft">created by
+                API</change>
+            <change when-iso="2020-10-08T15:25:23.104Z" who="#IB" status="draft">Replaced Text with
+                Transcription of Transkribus Document 304386.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000154-008-000-facs001">
+        <surfaceGrp xml:id="D_000154-008-000-facs001-l001">
+            <surface xml:id="D_000154-008-000-facs001-l001-p019" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000233_21.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000154-008-000-facs001-l001-p020" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000234_17.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb n="1" facs="D_000154-008-000-facs001-l001-p019"/>
+            <p xml:id="uuid_0200f88d-13ba-4e3c-9412-5cd75ab26802" part="N"><lb xml:id="uuid_dc8dbf08-92c8-43dc-8dbf-0892c8d3dcee"/>1 U 32/31 <lb xml:id="uuid_774d8350-0c94-4989-8d83-500c941989eb"/>5 </p>
+            <p xml:id="uuid_b09dbf7f-ba29-4a78-8c27-f060fa1cf0cb" part="N"><lb xml:id="uuid_df9bfe17-1255-4dfe-9bfe-1712554dfec9"/><hi rend="spaced">Beschluß.</hi>
+            </p>
+            <p xml:id="uuid_ce6d37c8-ba54-4bfd-b12c-738d419331dc" part="N"><lb xml:id="uuid_49976bd7-b518-462c-976b-d7b518662c6f"/>ln der hg. Strafsache 1 U
+                32/31 <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl <hi rend="spaced">Kraus</hi></rs> gegen Dr. <lb xml:id="uuid_e3850032-ed0a-44ac-8500-32ed0a44acca"/>
+                <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/39331">Oskar <hi rend="spaced">Pollak</hi></rs> wegen § 24 Pressgesetz ist die dem
+                    Beschuldig<lb xml:id="uuid_e5c24ed2-dc2e-4009-824e-d2dc2ed009d0" break="no"/>ten
+                zuzustellende Urteilsausfertigung mit der Postrelation <lb xml:id="uuid_4b9cddcf-daf0-4c9f-9cdd-cfdaf0cc9fbf"/>„auf unbestimmte Zeit
+                verreist“ rückgelangt. </p>
+            <p xml:id="uuid_11592fd0-297c-4f93-86d4-609ffcbfc7a2" part="N"><lb xml:id="uuid_67813273-bfec-4428-8132-73bfec042837"/>Hievon werden Sie mit der
+                Aufforderung verständigt, die Rück<lb xml:id="uuid_db50d0cd-12d5-499a-90d0-cd12d5d99a18" break="no"/>kehr des <rs type="person" ref="#39331">Beschuldigten</rs> anher bekanntzugeben, worauf ihm
+                das <rs type="work" ref="#D_000-006-000">Urteil</rs>
+                <lb xml:id="uuid_5b792332-c13d-4821-b923-32c13d1821d2"/>zugestellt werden wird. </p>
+            <p xml:id="uuid_1f445c40-6690-4c4c-af31-ee05cd0bcfff" part="N"><lb xml:id="uuid_4b7ebdd8-1228-43cb-bebd-d81228e3cb2f"/>Wien, am 27./2. 1931: <lb xml:id="uuid_714399c1-0a60-4f2c-8399-c10a600f2ca3"/><note type="paratext" resp="law-firm" anchored="true">Rahlert</note>
+            </p>
+            <pb n="2" facs="#D_000154-008-000-facs001-l001-p020"/>
+            <p xml:id="uuid_b6449933-dcd7-4ada-84f0-39250a0e07e0" part="N"><lb xml:id="uuid_fd91e8cb-2ce5-426e-91e8-cb2ce5926e00"/>L.V.27./-.1931 1 <lb xml:id="uuid_920fb0df-84c8-4e7b-8fb0-df84c8be7bd9"/>Herrn Rechtsanwalt <rs type="person" ref="#38909">Dr.Oskar Samek</rs><lb xml:id="uuid_cfbc1179-4375-4ed0-bc11-7943755ed025"/>W i e n I.,Schottenring 14
+                    <lb xml:id="uuid_9b23fb07-d86b-4175-a3fb-07d86b1175c2"/>I U 32/31 <lb xml:id="uuid_251c0cf4-e8e2-4639-9c0c-f4e8e2e639e9"/><note type="paratext" resp="law-firm">Kraus–Arb Ztg. II</note></p>
+        </body>
+    </text>
+</TEI>

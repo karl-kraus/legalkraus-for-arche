@@ -1,0 +1,92 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000176-001-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-017-001.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-002-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Abschrift des Telegramms Samek an Städtische Bühnen Essen</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <availability default="false">
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000176-001-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4351</idno>
+                <idno type="ID" subtype="transkribus">349086</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000176">Karl
+                    Kraus ca. Städtische Bühnen Essen</title>
+            </seriesStmt>
+            <sourceDesc default="false">
+                <listWit>
+                    <witness xml:id="D_000176-001-000-wit01" facs="#D_000176-001-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1932-03-10" subtype="produced">10. März
+                    1932</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <particDesc/>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#38909"/>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#50493"/>
+                    </address>
+                    <placeName ref="#51"/>
+                    <date when-iso="1932-03-10">10. März 1932</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="#37029">Opernhaus Essen</orgName>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#56166"/>
+                    </address>
+                    <placeName ref="#40267"/>
+                    <date when-iso=""/>
+                </correspAction>
+                <noteGrp>
+                    <note type="subject"/>
+                    <note type="dictation"/>
+                    <note type="appendix"/>
+                </noteGrp>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="intertexts" when-iso="2021-10-07" who="#IL"/>
+            <change type="header_facsimile" when-iso="2021-10-20" who="#IL"/>
+            <change type="structure" when-iso="2021-10-01" who="#IL"/>
+            <change type="references" when-iso="2021-10-11" who="#IL"/>
+            <change type="typography" when-iso="021-10-19" who="#IL"/>
+            <change when-iso="2020-10-09T14:32:15.76Z" who="#IB" status="draft">created by
+                API</change>
+            <change when-iso="2021-09-06" who="#LU">Replaced Text with Transcription of Transkribus
+                Document 349086.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000176-001-000-facs001">
+        <surface xml:id="D_000176-001-000-facs001-l001-p001" type="recto">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000132_14.jpg" source="krausonline"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="D_000176-001-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_e19c1bdd-34a7-4d06-885f-e8ec1aa754c6"><lb xml:id="uuid_78731aa0-54c4-4968-819e-ecad1a832ac2"/><hi rend="underlined">Abschrift.</hi></p>
+            <p xml:id="uuid_cc129348-9bcc-4d82-8d14-2a6fed0dfd9f"><lb xml:id="uuid_98a8ebf5-3ced-49e2-9dbe-8a666f893709"/><rs type="institution" ref="#37029">Opernhaus <lb xml:id="uuid_57b76d43-7e2c-471f-a5af-1db788b1e1d2"/>Essen</rs>.</p>
+            <p xml:id="uuid_1194ff97-84b4-4633-9671-fc0481b23ec7"><lb xml:id="uuid_4e2029f3-d2de-42ac-8cb2-48e8def85996"/><rs type="person" ref="#11988">Kraus</rs> protestiert gegen Eingriffe in <rs type="person" ref="#9131">Offenbachs</rs>
+                <rs type="work" ref="#55390">Werk</rs>
+                <lb xml:id="uuid_a45bcc9b-df72-40a5-ab9a-0d639ef42f0b"/>und sein textliches
+                Urheberrecht, fordert volle Wiederher<lb xml:id="uuid_1c6bb254-e7e4-454b-99d8-54e4ef8ca6d8" break="no"/>stellung <lb xml:id="uuid_c7c00799-4a33-4fb8-9d5b-678923a9b3ff"/>Rechtsanwalt <rs type="person" ref="#38909">Samek</rs>. </p>
+            <p xml:id="uuid_113b6e99-3ebc-4f6c-95f9-4c5ea7f86de8"><lb xml:id="uuid_f81f7e77-8087-4b5b-8d81-9b2ad661c67f"/>S 4.40 bezahlt. Aufgegeben
+                am 10.III.1932. <lb xml:id="uuid_328eae86-9df5-444c-96f6-c1fe1ee8fcdf"/><rs type="person" ref="#11988">Kraus</rs> – <rs type="institution" ref="#37029">städt. Essener <lb xml:id="uuid_f8ae0b13-5ec9-4321-ae33-5046e724c098"/>Bühnen</rs></p>
+        </body>
+    </text>
+</TEI>

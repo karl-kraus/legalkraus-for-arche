@@ -1,0 +1,105 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000176-030-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-029-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-031-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief Samek an RA Otto Elias</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <availability default="false">
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000176-030-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4380</idno>
+                <idno type="ID" subtype="transkribus">349116</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000176">Karl
+                    Kraus ca. Städtische Bühnen Essen</title>
+            </seriesStmt>
+            <sourceDesc default="false">
+                <listWit>
+                    <witness xml:id="D_000176-030-000-wit01" facs="#D_000176-030-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1932-07-21" subtype="produced">21. Juli 1932</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <particDesc/>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#38909"/>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#50493"/>
+                    </address>
+                    <placeName ref="#51"/>
+                    <date when-iso="1932-07-21">21. Juli 1932</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#38103">Herrn | Dr. Otto Elias, | Notar</persName>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#60424">Hansastrasse 50</rs>
+                    </address>
+                    <placeName ref="#915">Dortmund</placeName>
+                    <date when-iso=""/>
+                </correspAction>
+                <noteGrp>
+                    <note type="subject">Betrifft: Kraus – Essener städt. Bühnen</note>
+                    <note type="dictation">Dr.S./B.</note>
+                    <note type="appendix"/>
+                </noteGrp>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="intertexts" when-iso="2021-10-07" who="#IL"/>
+            <change type="header_facsimile" when-iso="2021-10-27" who="#IL"/>
+            <change type="structure" when-iso="2021-10-01" who="#IL"/>
+            <change type="references" when-iso="2021-10-11" who="#IL"/>
+            <change type="typography" when-iso="021-10-19" who="#IL"/>
+            <change when-iso="2020-10-09T14:32:15.76Z" who="#IB" status="draft">created by
+                API</change>
+            <change when-iso="2021-09-06" who="#LU">Replaced Text with Transcription of Transkribus
+                Document 349116.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000176-030-000-facs001">
+        <surfaceGrp xml:id="D_000176-030-000-facs001-l001">
+            <surface xml:id="D_000176-030-000-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000262_14.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000176-030-000-facs001-l001-p002" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000263_13.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="D_000176-030-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_c61d3b71-520c-4ed5-a138-fcff08a594ea"><lb xml:id="uuid_3a88e085-09ac-4fec-84d1-848a8ed80f71"/>Sehr geehrter Herr <rs type="person" ref="#38103">College</rs>!</p>
+            <p xml:id="uuid_c245dd64-3692-4889-bd0c-6f3c6afc4e5e"><lb xml:id="uuid_d06109cf-6aff-4a86-a898-368f266b83ed"/>Herr <rs type="person" ref="#11988">Kraus</rs> möchte, ehe er in dieser Angelegenheit <lb xml:id="uuid_5fa0cb4f-275b-4098-9ea0-79910cdca40c"/>weitere Entschlüsse fasst,
+                Ihre Ansicht hören, ob Sie die <lb xml:id="uuid_f69954a6-6385-4824-bfb4-a00f0b175e2b"/>Privatanklage für absolut
+                sicher halten und nicht der Mei<lb xml:id="uuid_eb050d2b-4d9e-4ceb-b939-ac95201370fe" break="no"/>nung sind, dass
+                die Abweisung der <rs type="institution" ref="#36852">Staatsanwaltschaft</rs>, die
+                    <lb xml:id="uuid_54ddb198-72a9-4404-9aab-1c2468eb107c"/>öffentliche Anklage zu
+                erheben, die Lichter zu Gunsten der <lb xml:id="uuid_db701b14-0d82-436b-87e6-4a1693547b77"/>Gegenseite beeinflussen
+                könnte. Ich wäre Ihnen auch sehr <lb xml:id="uuid_be3f7e26-7e63-4793-9ba9-e637e9ab1a0f"/>verbunden, wenn Sie mir Ihre
+                Rechtsansicht über diese Geset<lb xml:id="uuid_9c2cb23a-a0af-4f0c-86ac-cd14b88ab35f" break="no"/>zesverletzungen bekanntgäben; denn obwohl ich der Ansicht <lb xml:id="uuid_34e8d443-b374-42e7-a2f0-2554e060a771"/>bin, dass sich die
+                Gegenseite keinesfalls darauf berufen <lb xml:id="uuid_94c65c52-6685-4f34-a931-ceb42d7f9540"/>könnte, es seien solche
+                Veränderungen vorgenommen worden, <lb xml:id="uuid_fb40036f-5f08-41a9-8413-997545d4812e"/>die ihr nach Treu und
+                Glauben gestattet gewesen seien, so möchte <lb xml:id="uuid_1b049fe2-e878-4a35-8b38-f8410e287a2c"/>ich doch zu diesem Punkte
+                auch die Ihrige hören.</p>
+            <p xml:id="uuid_98780b84-13eb-456d-9250-7a332063f879"><lb xml:id="uuid_ba315e77-52e5-4576-893e-f9fcb343e73a"/>Mit vorzüglicher kollegialer
+                Hochachtung</p>
+            <pb facs="D_000176-030-000-facs001-l001-p002" n="2"/>
+            <p xml:id="uuid_36d6fc65-b880-4e12-be49-34985adb012a"><lb xml:id="uuid_6f1b509d-84de-4472-afff-a90b8ce4c498"/><note type="paratext" resp="law-firm">Betr.: <rs type="person" ref="#11988">Kraus</rs> – <rs type="institution" ref="#37029">Essener städt. <lb xml:id="uuid_5b2283ec-6746-43b9-89c8-7f0d7bee8241"/>Bühnen</rs>.</note></p>
+        </body>
+    </text>
+</TEI>

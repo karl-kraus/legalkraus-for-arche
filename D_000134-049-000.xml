@@ -1,0 +1,116 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000134-049-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-048-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-050-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief Samek an Kraus</title>
+                <editor ref=""/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000134-049-000.xml</idno>
+                <idno type="URL" subtype="krausonline">https://www.kraus.wienbibliothek.at/content/brief-samek-kraus-17</idno>
+                <idno type="ID" subtype="transkribus">437876</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000134">Paul Amadeus ca. Karl Kraus</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000134-049-000-wit01" facs="#D_000134-049-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date type="sortDate" subtype="produced" when-iso=""/>
+                <date source="krausonline">16.03.1931</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/"/>
+            </textClass>
+            <particDesc/>
+            <correspDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2021-09-13" resp="#LU">created XML Document</change>
+            <change when-iso="2021-09-13" resp="#LU">Replaced Text with Transcription of Transkribus
+                Document 437876.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000134-049-000-facs001"><!-- surfaces, graphics -->
+        <surface type="">
+            <graphic url="" source="wienbibliothek"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body><!-- lb uuids -->
+            <pb facs="" n="1"/>
+                <lb/>Wien, am 16. März 1931.
+                <lb/>Dr.S/Fa.
+                <lb/>Betrifft: Kraus – Diverses.
+                <lb/>Herrn
+                <lb/>Karl Kraus
+                <lb/>Breslau.
+                <lb/>Nord-Hotel.
+                <lb/>Sehr verehrter Herr Kraus!
+                <lb/>In der Angelegenheit Dr. P. habe ich heute
+                <lb/>erst mit Herrn Hofrat N. sprechen können. Er hält Ihr Erscheinen
+                <lb/>für vollständig überflüssig. Ich habe aus seinen Aeusserungen
+                <lb/>die Meinung bekommen, dass das Urteil aufgehoben werden wird.
+                <lb/>Ueber die Abtretung des Aktes an die Staatsanwaltschaft wegen
+                <lb/>Verdachtes der falschen Zeugenaussage, wird der Richter erster In-
+                <lb/>stanz über Antrag, den ich bei der mündlichen Verhandlung stellen
+                <lb/>werde, einen Auftrag zur Beschlussfassung erhalten. Das Berufungs-
+                <lb/>gericht wird sich damit nicht beschäftigen.
+                <lb/>In der Angelegenheit Städtische Bühnen habe
+                <lb/>ich den in Abschrift beiliegenden Brief erhalten.
+                <lb/>Ich bin mit ergebenen Grüssen und vor-
+                <lb/>züglicher
+                <lb/>Hochachtung
+                <lb/>Ihr
+                <lb/>Dr. Samek
+                <lb/>1 Beilage.
+        </body>
+    </text>
+</TEI>

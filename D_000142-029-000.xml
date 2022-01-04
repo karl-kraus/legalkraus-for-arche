@@ -1,0 +1,125 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000142-029-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-028-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-030-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Telegramm Heinrich Fischer an Samek</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000142-029-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3868</idno>
+                <idno type="ID" subtype="transkribus">264379</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000142">Karl
+                    Kraus ca. Th. Knaur Nachf- Verlag (Berlin)</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000142-029-000-wit01" facs="#D_000142-029-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1930-11-27" subtype="produced">27. November
+                    1930</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass/>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#38133">fischer</persName>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address"/>
+                    </address>
+                    <placeName ref="#168">berlin</placeName>
+                    <date when-iso=""/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#38909">doktor sanek</persName>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#50493">schottenring 14</rs>
+                    </address>
+                    <placeName ref="#50">wien</placeName>
+                    <date when-iso=""/>
+                </correspAction>
+                <noteGrp>
+                    <note type="subject"/>
+                    <note type="dictation"/>
+                    <note type="appendix"/>
+                </noteGrp>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="intertexts" when-iso="2021-09-02" who="#IL"/>
+            <change type="header_facsimile" when-iso="2021-09-22" who="#IL"/>
+            <change type="structure" when-iso="2021-07-27" who="#IL"/>
+            <change type="references" when-iso="2021-07-27" who="#IL"/>
+            <change type="typography" when-iso="2021-09-20" who="#IL"/>
+            <change when-iso="2020-10-08T14:10:23.912Z" who="#IB">created by API</change>
+            <change when-iso="2020-10-08T14:13:35.266Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 264379.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000142-029-000-facs001">
+        <surfaceGrp xml:id="D_000142-029-000-facs001-l001">
+            <surface xml:id="D_000142-029-000-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000397_6.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000142-029-000-facs001-l001-p002" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000398_5.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="D_000142-029-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_9ec79110-04f9-4d00-9945-34fbd3a6d735"><lb xml:id="uuid_737d0c2f-2ba2-4213-bd0c-2f2ba26213b5"/>rp 1,77 = doktor <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38909">sanek</rs>
+                <lb xml:id="uuid_409b0458-a708-4c42-9b04-58a7083c42d3"/><rs type="place" subtype="address" ref="#50493">schottenring 14 wien</rs> = <lb xml:id="uuid_a1b0db74-25b9-4851-b0db-7425b93851e1"/>302 <rs type="place" ref="#168">berlin</rs> f 4597 13 27 2010 =</p>
+            <p xml:id="uuid_79a061ee-9191-4817-bd43-6527de257c3b"><lb xml:id="uuid_dfc0dd10-0eb1-4e08-80dd-100eb16e088e"/>erbitte nachricht ob termin
+                verlegt gruss = <rs type="person" ref="#38133">fischer</rs> +</p>
+        </body>
+    </text>
+</TEI>

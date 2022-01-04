@@ -1,0 +1,97 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000098-004-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000098-002-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000098-008-001.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Empfangsbestätigung für Berthold Viertel</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000098-004-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2932</idno>
+                <idno type="ID" subtype="transkribus">420095</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000098">Darlehenssache Berthold Viertel</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000098-004-000-wit01" facs=""/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1925-01-03" subtype="produced">3. Januar 1925</date>
+            </creation>
+            <langUsage> <language ident="de">Deutsch</language> </langUsage>
+            <textClass/>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="header_facsimile" when-iso="2021-04-22" who="#IL"/>
+            <change type="structure" when-iso="2021-04-21" who="#IL"/>
+            <change type="references" when-iso="2021-04-21" who="#IL"/>
+            <change type="typography" when-iso="2021-04-22" who="#IL"/>
+            <change type="intertexts" when-iso="2021-04-21" who="#IL"/>
+            <change when-iso="2020-10-08T12:24:58.572Z" who="#IB">created by API</change>
+            <change when-iso="2020-10-08T12:30:09.483Z" who="#IB">Replaced Text with Transcription of Transkribus Document 420095.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000012_43.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554690/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/98_99/00000012.jpg" source="scans"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="" n="1"/>
+            <p xml:id="uuid_e6ae185c-c873-4818-9455-3c0c7e19b163">
+                <lb xml:id="uuid_fc22b1b0-d3d1-421f-a2b1-b0d3d1f21fe2"/>Bestätige den Empfang von
+                3,000.000 Kronen für <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/10364">Berthold <lb xml:id="uuid_4d0d6593-2bbb-4fbe-8d65-932bbbdfbe9c"/>Viertel</rs>
+            </p>
+            <p xml:id="uuid_ae5a2bb4-3119-4f33-8a25-e8c966fc9639">
+                <lb xml:id="uuid_546d5d53-de91-4a62-ad5d-53de91ba62c5"/>
+                <rs type="place" ref="#50">Wien</rs>, 3. Jänner 1925 <lb xml:id="uuid_8bd2bfc6-362d-4131-92bf-c6362db13147"/>
+                <rs type="person" ref="#39211">Ludwig Münz</rs>
+            </p>
+        </body>
+    </text>
+</TEI>

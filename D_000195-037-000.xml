@@ -1,0 +1,592 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000195-037-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000195-025-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000195-045-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Entwurf eines Schriftsatzes in der Angelegenheit Kraus – Aufruf</title>
+                <editor ref="#JK">Johannes Knüchel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000195-037-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4964</idno>
+                <idno type="ID" subtype="transkribus">387785</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000195">Karl
+                    Kraus ca. Aufruf</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000195-037-000-wit01" facs="D_000195-037-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date type="sortDate" notBefore-iso="1935-04-05" subtype="produced">5. April
+                    1935</date></creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass/>
+            <particDesc/>
+            <handNotes>
+                <handNote xml:id="D_000195-037-000-hand01" source="#D_000195-037-000-wit01" scribeRef="#38909" medium="black-ink" cert="medium" resp="#JK"/>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="intertexts" when-iso="2021-09-22" who="#JK"/>
+            <change type="typography" when-iso="2021-09-22" who="#JK"/>
+            <change type="references" when-iso="2021-09-22" who="#JK"/>
+            <change type="structure" when-iso="2021-09-22" who="#JK"/>
+            <change type="header-facsimile" when-iso="2021-12-07" who="#JK"/>
+            <change when-iso="2020-10-12T09:39:34.422Z" who="#IB">created by API</change>
+            <change when-iso="2020-10-12T09:51:02.028Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 387785.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000195-037-000-facs001">
+        <surfaceGrp xml:id="D_000195-037-000-facs001-l001">
+            <surface xml:id="D_000195-037-000-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000209_3.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000195-037-000-facs001-l002">
+            <surface xml:id="D_000195-037-000-facs001-l002-p002" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000211_3.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000195-037-000-facs001-l003">
+            <surface xml:id="D_000195-037-000-facs001-l003-p003" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000213_2.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000195-037-000-facs001-l004">
+            <surface xml:id="D_000195-037-000-facs001-l004-p004" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000215_2.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000195-037-000-facs001-l005">
+            <surface xml:id="D_000195-037-000-facs001-l005-p005" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000217_3.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000195-037-000-facs001-l006">
+            <surface xml:id="D_000195-037-000-facs001-l006-p006" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000219_1.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000195-037-000-facs001-l007">
+            <surface xml:id="D_000195-037-000-facs001-l007-p007" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000221_2.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000195-037-000-facs001-l008">
+            <surface xml:id="D_000195-037-000-facs001-l008-p008" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000223_0.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000195-037-000-facs001-l009">
+            <surface xml:id="D_000195-037-000-facs001-l009-p009" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000225_1.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000195-037-000-facs001-l010">
+            <surface xml:id="D_000195-037-000-facs001-l010-p010" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000227_3.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000195-037-000-facs001-l011">
+            <surface xml:id="D_000195-037-000-facs001-l011-p011" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000229_3.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000195-037-000-facs001-l012">
+            <surface xml:id="D_000195-037-000-facs001-l012-p012" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000231_3.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000195-037-000-facs001-l013">
+            <surface xml:id="D_000195-037-000-facs001-l013-p013" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000233_1.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000195-037-000-facs001-l014">
+            <surface xml:id="D_000195-037-000-facs001-l014-p014" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000235_1.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000195-037-000-facs001-l015">
+            <surface xml:id="D_000195-037-000-facs001-l015-p015" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000237_3.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="D_000195-037-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_88a0b469-272a-467f-a8bd-17b6b9836b03"><lb xml:id="uuid_04582976-60e4-4ea1-9829-7660e47ea11d"/><hi rend="underlined"><hi rend="spaced">Entwurf</hi> eines Schriftsatzes in der Angelegenheit <lb xml:id="uuid_8a79de21-30ca-489f-b9de-2130ca289fc0"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs> – <rs type="institution" ref="#37264">Aufruf</rs>.</hi>
+            </p>
+            <p xml:id="uuid_f7f38246-5be7-4275-91b8-d21f73194b1e"><lb xml:id="uuid_ee8dc9e4-8247-4322-8dc9-e48247532298"/>Da nunmehr die Uebersetzung
+                des inkri<lb xml:id="uuid_f69172c4-7142-49b0-9172-c4714269b034" break="no"/>minierten Artikels des <rs type="person" ref="#43586">Erstangeklagten</rs> „<rs type="work" ref="#56412">Die Fackel schwelt</rs>“ <lb xml:id="uuid_b3dc623c-38dc-4f0c-9c62-3c38dc6f0c18"/>dem Auftrage gemäss
+                vorgelegt ist, obliegt es dem <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatan<lb xml:id="uuid_0f42858a-dd3e-48dd-8285-8add3e78dd64" break="no"/>kläger</rs>
+                zu dem von den Angeklagten kurz vor der letzten Haupt<lb xml:id="uuid_734268f7-489a-4866-8268-f7489ae866f5" break="no"/>verhandlung
+                eingebrachten <rs type="work" ref="#D_000195-025-000">Schriftsatz</rs> Stellung zu
+                nehmen. <lb xml:id="uuid_be1a2d9a-8864-48cb-9a2d-9a8864c8cb95"/>Selbstverständlich
+                kann es nicht Zweck dieses Schriftsatzes <lb xml:id="uuid_4a0656be-a476-402c-8656-bea476802c30"/>sein, sich mit der Meinung
+                der Angeklagten polemisch ausein<lb xml:id="uuid_a01abeee-96c1-4659-9abe-ee96c1b659b0" break="no"/>anderzusetzen.
+                Für das gemeingefährliche Walten der Journalistik <lb xml:id="uuid_4459884e-cf4f-46c6-9988-4ecf4fe6c6cc"/>gibt es leider noch kein
+                Forum, das ihre Verantwortlichkeit fest<lb xml:id="uuid_435b1823-3a05-4262-9b18-233a0572622e" break="no"/>stellen und sie
+                zur Rechenschaft ziehen könnte. Schon die Meinung <lb xml:id="uuid_e7b1e25a-f16b-46f1-b1e2-5af16b46f197"/>von Journalisten, auch wenn
+                sie nicht beleidigende Formen an<lb xml:id="uuid_ca652051-2686-4951-a520-512686d951f8" break="no"/>nimmt, kann ja
+                gemeinschädlich sein. Die Angeklagten haben sich <lb xml:id="uuid_cd0611e9-0cee-420d-8611-e90cee320ddb"/>aber dafür zu verantworten,
+                dass sie bei der Darstellung ihrer <lb xml:id="uuid_17be9eee-b8f9-4cab-be9e-eeb8f94caba4"/>Meinung Behauptungen
+                aufgestellt haben, die die Ehre des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privat<lb xml:id="uuid_2535e049-6eae-4049-b5e0-496eae50497d" break="no"/>klägers</rs>
+                angreifen; dafür müssen sie sich verantworten und dafür <lb xml:id="uuid_7444d98d-c525-4876-84d9-8dc525d876eb"/>müssen sie bestraft werden,
+                wenn sie nicht die Wahrheit solcher <lb xml:id="uuid_f21d9307-525d-4625-9d93-07525dd62512"/>Behauptungen beweisen.
+                Dieser Bestrafung können sie aber auch <lb xml:id="uuid_cd7bb3ae-fa7e-43a8-bbb3-aefa7e03a8ad"/>dann nicht entgehen – sie
+                erbrächten denn den Beweis der Wahr<lb xml:id="uuid_7c1a9ae0-0cc9-4c2c-9a9a-e00cc98c2c19" break="no"/>heit ihrer
+                Behauptungen –, wenn der <rs type="work" ref="#56412">inkriminierte Artikel</rs>
+                    wirk<lb xml:id="uuid_00435fa5-c48f-4bc1-835f-a5c48f4bc1dd" break="no"/>lich
+                    „<quote xml:id="uuid_e92ed63d-af7f-45ca-bf5a-c994c93e3820" source="#D_000195-025-000">eine literarische Kritik</quote>“ darstellte, denn
+                sie haben eben <lb xml:id="uuid_70f796cd-e60c-4e0d-b796-cde60c5e0d36"/>die
+                zulässigen Grenzen einer solchen literarischen Kritik über<lb xml:id="uuid_fe2ac873-4f75-4ac5-aac8-734f75cac5c3" break="no"/>schritten, wenn
+                sie ihr einen beleidigenden Inhalt gaben, für <lb xml:id="uuid_eb3544ae-b0f6-4068-b544-aeb0f66068c0"/>die sie den Wahrheitsbeweis
+                nicht zu erbringen in der Lage sind. <lb xml:id="uuid_fab0a34b-08c3-4d3b-b0a3-4b08c36d3b4d"/>Es kann wohl keinem Zweifel
+                unterliegen, dass die Behauptungen: </p>
+            <p xml:id="uuid_15624346-7a8e-4c9e-b345-8159449ac3a0"><lb xml:id="uuid_323a09f6-3bf6-46e2-ba09-f63bf6b6e22a"/>1.) die Arbeit des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatklägers</rs>
+                zeige deutlich paranoische <lb xml:id="uuid_7af8a6c6-ab83-4b3c-b8a6-c6ab832b3c94"/>Züge; </p>
+            <p xml:id="uuid_5b203491-4ca9-4256-9efb-290c98a64c97"><lb xml:id="uuid_ab868b6b-16a7-4bbb-868b-6b16a7abbbc1"/>2.) der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs>
+                unterlasse die Polemik gegen das Hitler- <pb facs="D_000195-037-000-facs001-l002-p002" n="2"/>
+                <lb xml:id="uuid_aaae7c1e-f0b0-49e4-ae7c-1ef0b089e451"/>regime (was er nicht tut)
+                nur deshalb, weil er an der Gefahr, <lb xml:id="uuid_70407516-38ff-4a44-8075-1638ffca44df"/>die sie für die in
+                Deutschland Lebenden mit sich bringe be<lb xml:id="uuid_76b6dfc2-56ef-48ce-b6df-c256eff8ce04" break="no"/>teiligt, durch
+                sie also mitgefährdet sei, behaupte jedoch, sie <lb xml:id="uuid_1eb71da1-a229-4eaa-b71d-a1a2296eaa4c"/>zu unterlassen, um die
+                Gefährdung der Anderen zu vermeiden, <lb xml:id="uuid_9e7ca77f-6e2b-403d-bca7-7f6e2bb03d1c"/>diese Behauptung sei aber
+                nur eine Ausrede, er sei also ein <lb xml:id="uuid_48edac0b-5efb-4524-adac-0b5efb8524b1"/>Lump; </p>
+            <p xml:id="uuid_96be2849-c262-43d9-ae00-8d1c3d50cc33"><lb xml:id="uuid_eb84599c-2180-4893-8459-9c2180b893d0"/>3.) der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> lehne es in
+                massloser Selbstüberschätzung <lb xml:id="uuid_c791916f-cf95-4fea-9191-6fcf95efea3e"/>ab, das zu tun, was andere tun, nämlich den von ihm selbst als <lb xml:id="uuid_dcda63b5-00f1-4c03-9a63-b500f10c038e"/>gerecht und notwendig
+                erkannten Kampf gegen <rs type="person" ref="#11715">Hitler</rs> zu führen, <lb xml:id="uuid_af22158e-8b41-41b2-a215-8e8b4181b249"/>weil er seine Anhänger durch
+                seinen originellen Standpunkt ver<lb xml:id="uuid_fcc75337-65a9-4ed0-8753-3765a9eed08a" break="no"/>blüffen wolle; </p>
+            <p xml:id="uuid_52ca3d60-76d5-486c-a075-e63a70f64ddd"><lb xml:id="uuid_c572b67b-99f2-4fc9-b2b6-7b99f24fc910"/>4.) der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> wolle durch
+                längeres Nichterscheinen <lb xml:id="uuid_9e5e6941-dbc1-4a74-9e69-41dbc15a74b5"/>seiner Zeitschrift „<rs type="work" ref="#41244">Die Fackel</rs>“ bei seinen
+                Lesern eine erhöhte <lb xml:id="uuid_69493c3b-61ca-4695-893c-3b61ca069518"/>Spannung
+                und Neugierde hervorrufen, wodurch dann der Absatz der <lb xml:id="uuid_69b1edef-2da4-4457-b1ed-ef2da4645711"/><rs type="work" ref="#41244">Zeitschrift</rs> erhöht werde; </p>
+            <p xml:id="uuid_012285f0-3daa-4bda-b41c-eea5f550fed3"><lb xml:id="uuid_45f280a5-a530-46b7-b280-a5a53056b796"/>5.) der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> habe
+                mit den rücksichtslosen Methoden des <lb xml:id="uuid_3679512c-7d9f-42a8-b951-2c7d9fa2a837"/>Kapitalisten, nach
+                Bankierart, mutwillig mit der tschechoslova<lb xml:id="uuid_338c0849-82d6-4db3-8c08-4982d62db326" break="no"/>kischen
+                Exekutivgewalt gedroht, um sein Recht durchzusetzen, <lb xml:id="uuid_5ef28ca8-31f8-4fcd-b28c-a831f89fcdc4"/>sich aber selbst strafbare
+                Handlungen zuschulden kommen lassen, <lb xml:id="uuid_cb8e2445-ba7f-4e01-8e24-45ba7f3e01fb"/>in dem sicheren Gefühl, es
+                könne ihm, da er inzwischen für <lb xml:id="uuid_7068ec5f-57ff-45b2-a8ec-5f57ff65b2de"/>einen glühenden
+                Feyanhänger(!) gehalten werde, nichts geschehen; </p>
+            <p xml:id="uuid_ece4a96e-ba20-496d-aa98-e138452a0845"><lb xml:id="uuid_d4f40fb9-7c26-4c03-b40f-b97c261c0393"/>6.) der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> trete
+                für die endgültige Beibehaltung <lb xml:id="uuid_5738384e-4db4-4766-b838-4e4db4076634"/>eines Zustandes ein, der
+                immer wieder nur Qualen, Wildheit, <lb xml:id="uuid_382d2483-f277-44a3-ad24-83f27774a382"/>Unterdrückung produzieren
+                könne, was keinem Ehrbaren gestattet <lb xml:id="uuid_6839407e-e787-4f55-b940-7ee787df5532"/>sei; </p>
+            <p xml:id="uuid_7412649a-a921-4445-ac6d-479b3e1bd0a2"><lb xml:id="uuid_28fb4638-5846-4571-bb46-38584645718c"/>7.) der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> tue
+                dies, weil er persönlich eine gesicher<lb xml:id="uuid_066eb483-1552-40c0-aeb4-83155220c070" break="no"/>te Stellung zu
+                verlieren habe, er sei vom Glanz der siegreichen <lb xml:id="uuid_ef5e3ed6-cb31-488c-9e3e-d6cb31888c0f"/>Christenkanonen mürbe
+                gemacht worden; – </p>
+            <p xml:id="uuid_e2bca8c6-f441-4929-b4a4-d58a792d7fa1"><lb xml:id="uuid_f252f819-fa4b-430a-92f8-19fa4ba30ade"/>es kann wohl keinem Zweifel
+                unterliegen, dass diese Behauptungen <pb facs="D_000195-037-000-facs001-l003-p003" n="3"/>
+                <lb xml:id="uuid_e5a8543b-cf85-41d0-a854-3bcf8501d026"/>beleidigend sind und die
+                Straflosigkeit der Beschuldigten nur <lb xml:id="uuid_76e0f2e5-2547-4caf-a0f2-e525472caf66"/>dann eintreten könnte, wenn
+                sie die Wahrheit dieser Behauptun<lb xml:id="uuid_0e7efa18-d78d-4d72-befa-18d78dcd722c" break="no"/>gen bewiesen.
+                Diesen Beweis müssten sie selbst dann erbringen, <lb xml:id="uuid_1fa3bea2-96e8-448d-a3be-a296e8348d62"/>wenn es wahr wäre, wie der
+                    <rs type="work" ref="#D_000195-025-000">Schriftsatz der Beschuldigten</rs> be<lb xml:id="uuid_475cace1-9042-491c-9cac-e19042291cb6" break="no"/>hauptet, dass der
+                    <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> in seiner <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Abhandlung vom Juli <lb xml:id="uuid_98fe9f14-d5d2-4b62-be9f-14d5d2db62c4"/>1934</rs> „<quote xml:id="uuid_fdb51ba4-d0a5-4a0b-bc0f-6fea56312438" source="#D_000195-025-000">in
+                    höchst beleidigender Weise demokratische und sozialisti<lb xml:id="uuid_3353a3eb-25d7-460f-93a3-eb25d7c60f74" break="no"/>sche
+                    Schriftsteller angreift, ohne eine Menge von Ausfällen zu <lb xml:id="uuid_6619bc6d-aa29-46a9-99bc-6daa2906a96a"/>vermeiden</quote>“.
+                Diesen angegriffenen demokratischen und sozialisti<lb xml:id="uuid_e7f823a8-9db8-4bbf-b823-a89db81bbf82" break="no"/>schen
+                Schriftstellern steht kein anderes Recht zu, als den <lb xml:id="uuid_cbfc9ebe-1134-400a-bc9e-be1134b00ade"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> wegen seiner
+                bewusst beleidigenden Behauptungen <lb xml:id="uuid_e417d0c8-d31b-4590-97d0-c8d31ba590c8"/>zu verklagen und seine
+                Bestrafung durchzusetzen, wobei diesem <lb xml:id="uuid_338074cb-443f-449b-8074-cb443f149b7b"/>natürlich wieder das Recht
+                offen stehen müsste, die Wahrheit <lb xml:id="uuid_ae14802e-f4ee-449b-9480-2ef4ee749b92"/>seiner Behauptungen zu
+                beweisen. Gegen den <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> wurde <lb xml:id="uuid_26a7eb8e-add2-4bf0-a7eb-8eadd2abf071"/>aber in keinem einzigen Fall eine Privatklage von seiten der <lb xml:id="uuid_179e3093-0a98-4361-9e30-930a98d361fc"/>demokratischen und
+                sozialistischen Schriftsteller erhoben, ge<lb xml:id="uuid_6ae3d455-f06e-4b62-a3d4-55f06eab62b8" break="no"/>schweige denn,
+                dass eine solche Anklage aus dem Grunde mit <lb xml:id="uuid_1b158c8c-85f5-4979-958c-8c85f5597916"/>einem Freispruch des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatklägers</rs>
+                enden würde, weil der öster<lb xml:id="uuid_eef352a2-0dd4-4ddd-b352-a20dd43dddbf" break="no"/>reichische Richter aus Parteilichkeit ein Gerichtsurteil zu <lb xml:id="uuid_136843a4-abc4-4f8c-a843-a4abc4df8c58"/>Gunsten des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatklägers</rs>
+                fällen würde. Die Angriffe des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privat<lb xml:id="uuid_2e7c5ee3-0cce-460b-bc5e-e30cce260b71" break="no"/>klägers</rs>
+                gegen demokratische und sozialistische Schriftsteller, <lb xml:id="uuid_31973273-0272-4c94-9732-730272ec94a8"/>die übrigens seit vielen
+                Jahren, vielfach seit jeher vom <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privat<lb xml:id="uuid_43c2fa53-bd5d-454a-82fa-53bd5d954a38" break="no"/>kläger</rs>
+                erhoben wurden und keine Enttäuschung oder gar Erregung <lb xml:id="uuid_a0d5ddcc-0bd3-4f75-95dd-cc0bd33f75a3"/>hervorrufen könnten, müssen
+                also füglich bei der Beurteilung des <lb xml:id="uuid_34fa9b35-bf9f-4992-ba9b-35bf9f5992cd"/>vorliegenden Falles ausser
+                Betracht bleiben, und die Abhilfe, <lb xml:id="uuid_0f20f8c9-c774-4a9c-a0f8-c9c774ca9c35"/>die etwa von ihm Beleidigte
+                sich verschaffen könnten, kann nicht <lb xml:id="uuid_f21c7519-d6d5-42ec-9c75-19d6d582ec87"/>in der Veröffentlichung von
+                Ehrenbeleidigungen mit unwahren Be<lb xml:id="uuid_40cec1fb-6517-41ac-8ec1-fb6517c1ac11" break="no"/>hauptungen
+                liegen, sondern lediglich in der eigenen Anklage. <lb xml:id="uuid_dbb271ce-067a-45a8-b271-ce067a35a811"/>Vielleicht könnte man noch
+                jene Art der Reaktion auf Beleidi<lb xml:id="uuid_76e3b570-d59d-4a12-a3b5-70d59d2a129d" break="no"/>gungen gutheissen
+                und als Milderungsgrund betrachten, wenn be- <pb facs="D_000195-037-000-facs001-l004-p004" n="4"/>
+                <lb xml:id="uuid_c202f4ae-9d3b-48bb-82f4-ae9d3b28bb1a"/>reits einmal der vergebliche
+                Versuch gemacht worden wäre, sich <lb xml:id="uuid_5ec1c9e9-6512-4abd-81c9-e965124abd75"/>gegen den <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> in Oesterreich
+                Recht zu verschaffen. <lb xml:id="uuid_16b352a9-3b94-4fc7-b352-a93b94ffc72d"/>Solange aber dieser Versuch nicht unternommen worden ist, muss <lb xml:id="uuid_e4147b30-9218-4c5c-947b-309218dc5c6a"/>die grundlose Verdächtigung
+                des österreichischen Richters als <lb xml:id="uuid_f8e67518-5156-4640-a675-1851560640ab"/>ein Bestreben aufgefasst
+                werden, sich dem vom <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> ge<lb xml:id="uuid_2259e4af-9706-4c0a-99e4-af97068c0a87" break="no"/>führten
+                Wahrheitsbeweis zu entziehen und vor der Oeffentlich<lb xml:id="uuid_517f7a78-15a2-4982-bf7a-7815a2b9820b" break="no"/>keit von den
+                eigenen Handlungen abzulenken. All dies behielte <lb xml:id="uuid_25072f95-e5a2-4343-872f-95e5a243439c"/>seine Geltung auch dann,
+                wenn der <rs type="person" ref="#43586">Erstangeklagte</rs> persönlich <lb xml:id="uuid_e6464c16-38f0-4b23-864c-1638f02b23e5"/>in der von ihm angegebenen
+                Weise angegriffen worden wäre. Dies <lb xml:id="uuid_02425382-dd48-4e8d-8253-82dd48fe8d77"/>ist aber keineswegs der
+                Fall. Unter den demokratischen und <lb xml:id="uuid_6638c04f-7474-41bf-b8c0-4f747491bf9c"/>sozialistischen
+                Schriftstellern, denen die Angriffe des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privat<lb xml:id="uuid_8d3f512b-37e3-4fc1-bf51-2b37e31fc1a3" break="no"/>klägers</rs>
+                im <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Juliheft 1934 der
+                    Fackel</rs> galten, wurde der Fall des <lb xml:id="uuid_3826a546-b2d4-4d42-a6a5-46b2d41d423b"/><rs type="person" ref="#43586">Erstangeklagten</rs> ganz besonders behandelt. Er hatte in der <lb xml:id="uuid_241af5a7-03e4-4084-9af5-a703e4a084da"/><rs type="work" ref="#55904">Nummer vom 1.11.1933 in der Zeitschrift „Der Aufruf“</rs> einen <lb xml:id="uuid_cd882968-bdfa-4eb7-8829-68bdfafeb70c"/>recht naiven und etwas
+                wirren Artikel unter dem Titel „<rs type="work" ref="#55910"><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl <lb xml:id="uuid_7e341116-2e8e-4120-b411-162e8e5120fd"/>Kraus</rs>’
+                    Abschied?</rs>“ geschrieben, in dem er die müssige Frage er<lb xml:id="uuid_101e6d2a-d7fa-4791-9e6d-2ad7fa9791c1" break="no"/>örterte, ob das
+                Schweigen des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatklägers</rs> zu den Ereignissen <lb xml:id="uuid_91169094-16c9-4e61-9690-9416c92e61ae"/>in Deutschland dadurch
+                bewirkt worden sei, dass „<quote xml:id="uuid_216b957f-81ee-4138-9fb5-ef65e0ef5c64" source="#55910">die Resignation <lb xml:id="uuid_ff225b50-1487-42bd-a25b-501487f2bd14"/>in ein Herz eingezogen
+                    ist, das bisher nicht nur frei davon <lb xml:id="uuid_797290d5-dc75-46cb-b290-d5dc75c6cb05"/>war, sondern das alle
+                    Gegengifte der Resignation verbreitet und <lb xml:id="uuid_4bd26e55-3b6f-4adc-926e-553b6f4adcba"/>gezüchtet</quote>“ habe
+                oder ob es „<quote xml:id="uuid_fc329d0a-9da2-498d-90e9-32848d1d4688" source="#55910">ein Atemholen, ein Zusammenkauern vor <lb xml:id="uuid_81af647e-89ac-4c66-af64-7e89acfc6695"/>dem
+                Ausschreiten</quote>“ sei. Er schloss seinen Gedankengang mit den <lb xml:id="uuid_59f8b5e5-6061-41b5-b8b5-e5606161b5f4"/>folgenden Worten: „<quote xml:id="uuid_93eb32c2-81ff-4729-95b1-6797dfc8a2d6" source="#55910">Eine
+                    schwärende, stinkende Krankheit liegt <lb xml:id="uuid_a5e6e28a-eba8-4278-a6e2-8aeba8b2789a"/>auf Europa. Es gibt
+                    einen Arzt, der im Besitze eines Instrumentes <lb xml:id="uuid_a50bdf0a-a483-4bde-8bdf-0aa4833bdedb"/>ist um ihre
+                    Gehirnmetastase erfolgreich zu behandeln. Wir rufen <lb xml:id="uuid_f332e438-eaee-4417-b2e4-38eaeec417ee"/>ihn. Es gibt eine
+                    geistige Kraft, die imstande ist die läppischen <lb xml:id="uuid_5bf761b4-abdd-49fb-b761-b4abdd49fbd3"/>Widersprüche
+                    teutonischen Wesens zu polemischer Schärfe zuzu<lb xml:id="uuid_43277edc-e71d-47e1-a77e-dce71d07e1ee" break="no"/>spitzen, die
+                    Untaten darzustellen und den Kern blosszulegen. <lb xml:id="uuid_84a3da74-1c77-4d37-a3da-741c779d37a2"/>Wir brauchen diese
+                    Kraft, <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl
+                        Kraus</rs>, lassen Sie uns nicht im <pb facs="D_000195-037-000-facs001-l005-p005" n="5"/>
+                    <lb xml:id="uuid_5d094471-0f5a-4f29-8944-710f5a4f2974"/>Stich!</quote>“ Im
+                Gegensatz zu anderen demokratischen und sozialisti<lb xml:id="uuid_437bec64-31e2-4a4c-bbec-6431e2ea4c29" break="no"/>schen
+                Schriftstellern, die sich publizistisch beleidigend ge<lb xml:id="uuid_df6aeba8-f58c-4415-aaeb-a8f58c641506" break="no"/>äussert haben,
+                und Personen, die sich in lästigen Briefen an <lb xml:id="uuid_1831f625-9bb2-4778-b1f6-259bb227784f"/>den <rs type="institution" ref="#43724">Verlag der Fackel</rs> gewendet haben, mit der Aufforderung, dass
+                    <lb xml:id="uuid_5cb84a4d-b254-4c91-b84a-4db254bc91b9"/>ein Heft erscheinen möge
+                oder mit dem Vorwurf, dass der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privat<lb xml:id="uuid_6cbf29f3-6ef5-437b-bf29-f36ef5c37bac" break="no"/>kläger</rs>
+                Rücksicht zu nehmen habe, konnte damals dem <rs type="person" ref="#43586">Erstangeklag<lb xml:id="uuid_c313a1ba-ffa0-4ee1-93a1-baffa0aee158" break="no"/>ten</rs> noch zugebilligt werden und wurde ihm tatsächlich
+                zugebilligt, <lb xml:id="uuid_d5a16ca5-a641-4840-a16c-a5a6419840dd"/>dass er nur
+                geistig der Situation nicht gewachsen sei, die un<lb xml:id="uuid_dba8d2b6-875e-4c9b-a8d2-b6875e8c9b4f" break="no"/>heilvolle Wirkung
+                der Entgegenstellung des Wortes gegen die Ge<lb xml:id="uuid_a9cc39dd-764b-468e-8c39-dd764bb68e05" break="no"/>walt nicht
+                durchdenken könne, nicht erfasste, dass man durch <lb xml:id="uuid_9782ba90-747c-44b3-82ba-90747cf4b3b1"/>die Behandlung ihres Falles
+                die Opfer der Willkür nicht rette, <lb xml:id="uuid_b9543984-8663-4ab0-9439-8486637ab0bd"/>sondern den Umkreis des
+                Verderbens erweitere, dass also der Ver<lb xml:id="uuid_51988776-2ad1-41c6-9887-762ad101c6f5" break="no"/>gleich mit einem
+                Arzt, der eine schwärende und stinkende Krank<lb xml:id="uuid_a48cd59a-a800-468d-8cd5-9aa800b68d89" break="no"/>heit erfolgreich
+                behandeln könne, zwar journalistisch ausgeführt <lb xml:id="uuid_7934e57c-07c2-4a45-b4e5-7c07c20a4519"/>werden, aber vor der
+                Wirklichkeit nicht standhalten könne. Die<lb xml:id="uuid_835de25c-5176-422a-9de2-5c5176222a94" break="no"/>se überaus
+                glimpfliche Behandlung einer publizistischen Regung <lb xml:id="uuid_b895416a-034c-4dcb-9541-6a034cddcbe5"/>vergilt nun der <rs type="person" ref="#43586">Erstangeklagte</rs> damit, dass er sich in die Reihe
+                    <lb xml:id="uuid_3ec70002-215f-432d-8700-02215f032d31"/>derjenigen drängt, die
+                den <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> beleidigten und deswegen <lb xml:id="uuid_09b8f321-c50b-4e3d-b8f3-21c50b4e3d22"/>zur Verantwortung gezogen
+                werden mussten. Da aber die ihm wider<lb xml:id="uuid_7f765463-40c6-45a6-b654-6340c6c5a6de" break="no"/>fahrene, fast
+                mitleidige Behandlung seine beleidigenden Ausfälle <lb xml:id="uuid_10ff68de-43f7-49df-bf68-de43f7e9dfa9"/>gegen den <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> keinesfalls
+                rechtfertigen, ja nicht ein<lb xml:id="uuid_59ffa38a-8eb4-46a3-bfa3-8a8eb436a3b4" break="no"/>mal die Erregung begründet erscheinen lassen, auf die sich der <lb xml:id="uuid_a107eaab-ae02-4127-87ea-abae02e127ff"/><rs type="person" ref="#43586">Erstangeklagte</rs> gleichfalls ausredet und die später besprochen
+                    <lb xml:id="uuid_19832728-b7fc-41b3-8327-28b7fcb1b397"/>werden soll, so
+                usurpiert er – vielleicht gerade aus gekränktem <lb xml:id="uuid_2d9bef5a-7ad9-4389-9bef-5a7ad9b3893e"/>Ehrgeiz – die Rolle der
+                schwergetroffenen „<quote xml:id="uuid_cfb78bab-2ce0-4793-8217-7c3445b363f4" source="#D_000195-025-000">demokratischen und <lb xml:id="uuid_7bf99842-66a0-46c7-b998-4266a0c6c738"/>sozialistischen
+                    Schriftsteller</quote>“, gegen die sich die Angriffe des <lb xml:id="uuid_b67a5978-15a5-40be-ba59-7815a590beb5"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatklägers</rs> im <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Juli-Heft der Fackel</rs>
+                tatsächlich richteten. Er <lb xml:id="uuid_9097e2bb-5f41-4da4-97e2-bb5f41cda499"/>zitiert im <rs type="work" ref="#D_000195-025-000">Schriftsatz</rs> eine grosse
+                Anzahl von Worten aus diesen <lb xml:id="uuid_22251c69-d45d-4688-a51c-69d45d668804"/>Angriffen, verschweigt aber geflissentlich, dass sich diese An- <pb facs="D_000195-037-000-facs001-l006-p006" n="6"/>
+                <lb xml:id="uuid_254004f8-d0b6-47f2-8004-f8d0b607f2e7"/>griffe überhaupt nicht mit
+                seiner Person beschäftigen, sondern <lb xml:id="uuid_e82abec3-6755-4a91-aabe-c367554a91d4"/>mit anderen Personen
+                respektive mit einem aus vielen Personen <lb xml:id="uuid_a32f236a-20d5-4182-af23-6a20d5718279"/>konstruierten Typus, während
+                gerade seine eigene Person selbstän<lb xml:id="uuid_92383e89-7eff-43ad-b83e-897effc3ad04" break="no"/>dig und erkennbar
+                in der nachsichtigsten Weise behandelt wurde. <lb xml:id="uuid_82689b6e-c8a5-431d-a89b-6ec8a5f31df5"/>Denn alle diese vom <rs type="person" ref="#43586">Erstangeklagten</rs> zitierten Angriffe, auf die <lb xml:id="uuid_a76e1b49-5523-4f80-ae1b-495523ff8087"/>auch noch in manchen
+                Einzelheiten zurückgekommen werden muss, <lb xml:id="uuid_ebcff3e5-566d-431b-8ff3-e5566d931b04"/>richteten sich gegen den
+                oben geschilderten Typus und dies wurde <lb xml:id="uuid_a1a0a5b2-8062-4cc2-a0a5-b280627cc257"/>auch ausdrücklich bemerkt.
+                Auf Seite 39 des <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Juli-Heftes der <lb xml:id="uuid_00fd3e3b-5f00-40f4-bd3e-3b5f0030f437"/>Fackel</rs> war einem fingierten lästigen Anfrager geantwortet: <lb xml:id="uuid_f7c7c8a7-8eda-47a1-87c8-a78edaf7a16f"/>„<quote xml:id="uuid_5e8e878c-2c13-48bf-94a9-1b448e5b56ef" source="https://fackel.oeaw.ac.at/f/890,039">Ausserdem verraten wir Ihnen, dass
+                    Sie gar nicht vorhanden <lb xml:id="uuid_a3bc4663-213f-4ec1-bc46-63213f4ec14b"/>sind, sondern dass wir Sie uns als Extrakt aus solchen, die <lb xml:id="uuid_e4adfea9-edaa-4457-adfe-a9edaa045750"/>gleichfalls nicht
+                    vorhanden sind, hergestellt haben, aus den <lb xml:id="uuid_d5713718-a24a-498f-b137-18a24a898f32"/>bescheidenen Fragern,
+                    kühneren Anzapfern, hauptsächlich aber <lb xml:id="uuid_223c0407-628e-48d1-bc04-07628e18d193"/>den Enttäuschten, die
+                    sich durch langjährigen falschen Gebrauch <lb xml:id="uuid_fe29bc22-195d-49dd-a9bc-22195d89dda4"/>einer Lektüre der Fackel
+                    berechtigt glauben, den, der nicht <lb xml:id="uuid_9f25166b-36df-4f2d-a516-6b36df0f2d56"/>Stellung nehmen will, zu
+                    stellen.</quote>“ Aus der selbständigen Be<lb xml:id="uuid_049babfb-3dc6-4ac0-9bab-fb3dc63ac077" break="no"/>handlung des <rs type="person" ref="#43586">Erstangeklagten</rs> gegenüber der allgemeinen
+                Behandlung <lb xml:id="uuid_ccf749ec-f5ce-4070-b749-ecf5ce5070e7"/>des Typus, der
+                jene zitierten Stellen entnommen sind, ergibt <lb xml:id="uuid_7d4cc72a-3b74-44b6-8cc7-2a3b7454b64a"/>sich die vollkommene
+                Unrichtigkeit der Behauptung, der <rs type="person" ref="#43586">Erstange<lb xml:id="uuid_cbdefec4-2202-4fcc-9efe-c42202efccfb" break="no"/>klagte</rs>
+                sei durch die von ihm zitierten Stellen betroffen. Ueber<lb xml:id="uuid_a8985979-d76c-4ed3-9859-79d76c6ed321" break="no"/>dies sind diese
+                Stellen, so wie sie zitiert werden, vollständ<lb xml:id="uuid_59b65874-07f8-4e98-b658-7407f8be9824" break="no"/>lich
+                unverständlich und, wenn das <rs type="institution" ref="#36822">Gericht</rs> nicht
+                das <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Juli-Heft <lb xml:id="uuid_aed41afe-b953-48a0-941a-feb953b8a084"/>der Fackel</rs> als
+                Ganzes zu Gesicht bekommt, (zu dessen Vorlage <lb xml:id="uuid_03674592-fff0-43bb-a745-92fff043bb68"/>wohl nicht der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs>
+                verpflichtet ist, sondern die An<lb xml:id="uuid_78c7d106-79ed-461c-87d1-0679ed561ca6" break="no"/>geklagten, die
+                sich auf dieses <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Heft</rs>
+                berufen), so kann es damit <lb xml:id="uuid_e9a333dd-1ae4-4692-a333-dd1ae4769247"/>gar nichts anfangen und insbesondere nicht ermessen, wie ab<lb xml:id="uuid_a04d79b0-59d3-43fd-8d79-b059d3c3fd40" break="no"/>grundtief der
+                schmähliche Versuch der Angeklagten ist, das <lb xml:id="uuid_085b5c32-cee6-4df1-9b5c-32cee65df165"/><rs type="institution" ref="#36822">Gericht</rs> von ihrer eigenen beleidigenden Tat abzulenken, und an
+                    <lb xml:id="uuid_80c7b593-5cea-4f78-87b5-935cea2f78bc"/>Stelle des
+                Wahrheitsbeweises, zu dem sie verpflichtet wären, den <pb facs="D_000195-037-000-facs001-l007-p007" n="7"/>
+                <lb xml:id="uuid_81ed23cf-0b89-45ad-ad23-cf0b89d5ad02"/>Beweis anzutreten, der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs>
+                habe „<quote xml:id="uuid_4a869892-d13c-4164-afc6-2e99e036c86b" source="#D_000195-025-000">demokratische und <lb xml:id="uuid_05ff835d-303a-4bc6-bf83-5d303a7bc6c5"/>sozialistische
+                    Schriftsteller</quote>“ angegriffen, und sie seien <lb xml:id="uuid_3c03a18b-2eba-4f83-83a1-8b2ebacf83eb"/>deshalb in einen
+                Erregungszustand geraten. Der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs>
+                <lb xml:id="uuid_96b77d0e-8d1d-4156-b77d-0e8d1da15626"/>hat in einer 36jährigen
+                Tätigkeit zu wiederholten Malen den <lb xml:id="uuid_87666daa-fcc2-44b6-a66d-aafcc2a4b6a4"/>Beweis erbracht, dass er zu
+                seinem Worte steht und bereit ist, <lb xml:id="uuid_20ef1495-1b53-4415-af14-951b536415e6"/>die Verantwortung für alles
+                zu übernehmen, was er geschrieben <lb xml:id="uuid_ec38f7a2-9733-4c6f-b8f7-a297335c6fc4"/>hat. Diese Haltung ist
+                zahllose Male eben von den demokrati<lb xml:id="uuid_e1ff39d2-e125-4693-bf39-d2e12576933e" break="no"/>schen und
+                sozialistischen Schriftstellern der Tschechoslovakei <lb xml:id="uuid_7e0d28f3-0756-425a-8d28-f30756825ab5"/>in der rühmendsten Weise
+                gewürdigt worden, vom <rs type="person" ref="#39082">Präsidenten der <lb xml:id="uuid_83edf298-172f-4797-adf2-98172ff7979d"/>Republik</rs> angefangen
+                bis zu den bekanntesten und unbekanntesten <lb xml:id="uuid_fca4a3dc-6a81-479a-a4a3-dc6a81c79a5f"/>Autoren und Kritikern. Wer
+                von den demokratischen und sozialisti<lb xml:id="uuid_8b33a8cb-75d3-4d82-b3a8-cb75d33d82e8" break="no"/>schen
+                Schriftstellern durch seine Einbeziehung in den Typus <lb xml:id="uuid_2817cd02-3bb9-409c-97cd-023bb9909cba"/>sich erkennbar beleidigt
+                glaubt, hat das Recht, zu verlangen, <lb xml:id="uuid_b6945eb7-1bb7-405a-945e-b71bb7905ade"/>dass der ihm gemachte
+                Vorwurf, die ihm angetane Beleidigung <lb xml:id="uuid_1722bb01-7bbb-48ba-a2bb-017bbbb8ba79"/>vom <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> verantwortet,
+                dass der Beweis der Wahrheit für <lb xml:id="uuid_aa25beec-7849-4d22-a5be-ec78493d2215"/>die angetane Beleidigung
+                erbracht werde. Der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> bekennt <lb xml:id="uuid_3df68480-0c00-4611-b684-800c00561176"/>sich vollständig zu der
+                aggressiven Haltung gegen demokratische <lb xml:id="uuid_0ba1ea05-e68a-43f5-a1ea-05e68a43f523"/>und sozialistische
+                Schriftsteller, soweit sie vermöge ihrer <lb xml:id="uuid_924a413f-e0d3-4442-8a41-3fe0d3944227"/>politischen
+                Einsichtslosigkeit in den von ihm aufgestellten <lb xml:id="uuid_92ce40ca-91d3-4918-8e40-ca91d319180e"/>Typus einbeziehbar sind, und
+                er glaubt noch grössere Nachsicht <lb xml:id="uuid_a8a9aa35-4ea7-49e8-a9aa-354ea709e86c"/>mit ihnen geübt zu haben,
+                wenn er nur ihre geistige und intel<lb xml:id="uuid_e4279f8e-06e3-410d-a79f-8e06e3f10d4d" break="no"/>lektuelle
+                Kapazität anzweifelte, bei einer publizistischen <lb xml:id="uuid_03ff5cb0-3f1e-4068-bf5c-b03f1eb068a7"/>Haltung, die in ihrer Folge
+                Menschenleben gekostet hat. Der <lb xml:id="uuid_bbe125bd-924f-455e-a125-bd924f555e43"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> möchte am
+                liebsten zu jeder der von den Angeklagten <lb xml:id="uuid_34f46295-5969-4219-b462-95596992194e"/>zitierten Stellen die ganze
+                umgebende Betrachtung zur Kenntnis <lb xml:id="uuid_84c79592-42a5-4eff-8795-9242a51eff36"/>des <rs type="institution" ref="#36822">Gerichtes</rs> bringen, weil dadurch auch der politische Gegen<lb xml:id="uuid_9aacedff-44a8-4978-aced-ff44a839782c" break="no"/>satz zu dem
+                allgemein Menschlichen, in welchen sich die ange<lb xml:id="uuid_eba4f3f2-901b-4e7b-a4f3-f2901bee7bf0" break="no"/>griffenen
+                demokratischen und sozialistischen Schriftsteller aus <lb xml:id="uuid_88ec19df-ac32-44f0-ac19-dfac3214f09e"/>parteipolitischen Gründen
+                gestellt haben, klar und offenbar <pb facs="D_000195-037-000-facs001-l008-p008" n="8"/>
+                <lb xml:id="uuid_0bb0999d-1dd1-4ab0-b099-9d1dd1aab0cd"/>würde. Die Zitierung aller
+                dieser Stellen mit ihrer Umgebung <lb xml:id="uuid_34fd0e4a-67e8-4396-bd0e-4a67e85396ba"/>würde aber einen Umfang von
+                mehr als vierzig Seiten ausmachen, <lb xml:id="uuid_41387e39-5c24-44b7-b87e-395c2484b736"/>welche Arbeit, noch dazu in
+                Uebersetzung, dem <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Anwalt des <rs type="person" ref="#43593">Privat<lb xml:id="uuid_be555004-7c70-4493-9550-047c70249341" break="no"/>klägers</rs></rs> wohl nicht zugemutet werden kann. Einige dieser Stellen
+                    <lb xml:id="uuid_7bc328de-ecd1-43fa-8328-deecd1b3fa1e"/>müssen aber doch
+                herausgegriffen werden, weil sie zeigen, dass <lb xml:id="uuid_ca17e5d1-0d70-43f6-97e5-d10d7073f61d"/>die Angeklagten den Sinn
+                dieser Angriffe entweder nicht ver<lb xml:id="uuid_689639a9-c316-449a-9639-a9c316149ae0" break="no"/>standen haben
+                oder nicht verstehen wollten, oder dass sie in <lb xml:id="uuid_7b5e219c-b07c-4be7-9e21-9cb07c4be78a"/>Kenntnis des Umstandes, dass
+                sich diese Stellen unmöglich auf <lb xml:id="uuid_5c0b3aa3-2dbf-4e5a-8b3a-a32dbf3e5a9c"/>sie beziehen konnten, sie
+                doch zu ihrer Verantwortung heranzogen <lb xml:id="uuid_ce822f30-7be9-4809-822f-307be94809f7"/>und, um den Schein solcher
+                Möglichkeit zu wahren, sie falsch <lb xml:id="uuid_b0e555da-b288-496c-a555-dab288896c04"/>zitierten. So zitieren die
+                Angeklagten z.B. eine angebliche <lb xml:id="uuid_73880493-35f3-473d-8804-9335f3073d95"/>Stelle von der Seite 24 des
+                    <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Juli-Heftes der
+                    Fackel</rs>: „<quote xml:id="uuid_cc677365-5e23-4e34-af9b-ab79c3f43683" source="#D_000195-025-000">Der <lb xml:id="uuid_8f6267f2-8512-4df5-a267-f285121df54c"/>Plunder <hi rend="underlined">der</hi> Freiheit.</quote>“ Diese Stelle lautet aber:
+                    „<quote xml:id="uuid_d65a5c97-a009-4ce6-a436-c6947fc3f3ff" source="https://fackel.oeaw.ac.at/f/890,024">Denn ihr <lb xml:id="uuid_b4d94c2d-6fae-4ba9-994c-2d6faecba97f"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herausgeber</rs> hat, da ihm
+                    die Weltgeschichte zu dumm wurde … <lb xml:id="uuid_be949267-f0bc-415f-9492-67f0bc815f74"/>es einfach uns
+                    überlassen, mit den gesinnungsgemässen Ansprüchen <lb xml:id="uuid_7353a4a9-57cd-4529-93a4-a957cd7529c8"/>einer Zeit fertig zu
+                    werden, die sich noch immer nicht als <lb xml:id="uuid_028ba174-92fc-4957-8ba1-7492fc495769"/>Frist erkennen will; mit
+                    dem <hi rend="underlined">Plunder einer Freiheit</hi>, durch deren <lb xml:id="uuid_2ad94a32-241e-491b-994a-32241e791bd2"/>Gunst das Leben so
+                    wohlfeil wurde wie das Denken.</quote>“ Es ist aus <lb xml:id="uuid_a9ba260e-e3f5-41ff-ba26-0ee3f5e1ffcd"/>der Gegenüberstellung
+                ersichtlich, dass nicht, wie die Ange<lb xml:id="uuid_41556c19-4e9e-4a0e-956c-194e9eda0ed4" break="no"/>klagten
+                darstellen, <hi rend="underlined">die Freiheit</hi> ein Plunder genannt wurde, <lb xml:id="uuid_b0fa4da3-0c68-4971-ba4d-a30c6849714f"/>sondern solche Freiheit, wie
+                sie die angegriffenen Schrift<lb xml:id="uuid_3724926d-6bb9-492a-a492-6d6bb9492ab9" break="no"/>steller meinen, eine Freiheit, die das ganze Chaos der Gegen<lb xml:id="uuid_fd0f83bd-2aa3-4c73-8f83-bd2aa3ec7360" break="no"/>wart verursacht
+                hat und durch die Menschenleben und Kulturwerte <lb xml:id="uuid_592d4faa-48a7-4b98-ad4f-aa48a7eb9836"/>vernichtet oder aufs Spiel
+                gesetzt wurden. Die Angeklagten zi<lb xml:id="uuid_36596331-91c8-4a7d-9963-3191c8ba7df9" break="no"/>tieren von der
+                Seite 49 des <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Juli-Heftes
+                    der Fackel</rs> die Worte: <lb xml:id="uuid_f3ff7330-f9fd-42dd-bf73-30f9fd12dd51"/>„<quote xml:id="uuid_6b0e9337-9b96-4653-9162-0f8e628b4921" source="#D_000195-025-000">Prager Schmock.</quote>“ Da die Angeklagten in <rs type="place" ref="#652">Prag</rs> ihren Wohnsitz <lb xml:id="uuid_b8617c05-9fb6-406f-a17c-059fb6806fe5"/>und Betätigungsort haben, muss beim <rs type="institution" ref="#36822">Gericht</rs> der Anschein er<lb xml:id="uuid_ef5ef705-d2a6-48cf-9ef7-05d2a6c8cfa5" break="no"/>weckt werden,
+                dass sich diese Beschimpfung auf den <rs type="person" ref="#43586">Erstange<lb xml:id="uuid_76ac9253-31b4-4f28-ac92-5331b4df281e" break="no"/>klagten</rs>
+                bezieht. Vollständig heisst das Zitat aber: „<quote xml:id="uuid_738dce8b-a8d4-4abe-a99c-9efd92304ae5" source="https://fackel.oeaw.ac.at/f/890,049">Der als <pb facs="D_000195-037-000-facs001-l009-p009" n="9"/>
+                    <lb xml:id="uuid_43eb9cac-167d-4004-ab9c-ac167d30048d"/>‚<rs type="person" ref="#59126">Arnold</rs>‘ kämpfende Prager Schmock</quote>“, der <rs type="person" ref="#43586">Erstangeklagte</rs> konnte <lb xml:id="uuid_d4296e00-6f86-4369-a96e-006f86f369b4"/>es unmöglich auf sich
+                beziehen, da ‚<rs type="person" ref="#59126">Arnold</rs>‘ das Pseudonym eines <lb xml:id="uuid_b044fda2-99fe-490a-84fd-a299fed90a61"/>anderen Autors ist, gegen
+                den in jenem <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Heft</rs>
+                polemisiert wurde; <lb xml:id="uuid_763bb916-bfbb-480a-bbb9-16bfbbe80acb"/>er möchte
+                es offenbar gerne dazu benützen, sich einen Ent<lb xml:id="uuid_4e08c8e5-fbc5-49ca-88c8-e5fbc5c9cadb" break="no"/>schuldigungsgrund
+                zu schaffen, weshalb er sich gar nicht scheut, <lb xml:id="uuid_b7de38e1-f201-4528-9e38-e1f2011528ec"/>es einfach zu verfälschen.
+                Auch andere, von den Angeklagten <lb xml:id="uuid_f29b74fa-ebc7-4dac-9b74-faebc7edac18"/>zitierten Stellen sind
+                verfälscht oder entstellt wiedergegeben <lb xml:id="uuid_f9749a76-4cc9-40ba-b49a-764cc9c0ba47"/>worden. Da aber alle
+                Stellen, aus dem Zusammenhang gerissen, <lb xml:id="uuid_2519bec1-3a30-4e85-99be-c13a302e859e"/>unverständlich sind und,
+                wenn man einmal auf die einzelnen <lb xml:id="uuid_1d268bf8-09fb-430c-a68b-f809fb330c39"/>Stellen einginge, zu jeder
+                eine Erklärung zu geben wäre, die <lb xml:id="uuid_7f785728-289d-484a-b857-28289db84ace"/>das Ausmass der Stellen samt
+                ihrer Umgebung in der <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Fackel</rs> um ein <lb xml:id="uuid_959a4d5c-352d-4e3b-9a4d-5c352d3e3bf4"/>Vielfaches übersteigen müsste; da überdies nachgewiesen wurde, <lb xml:id="uuid_c86c26a4-634f-4dee-ac26-a4634f0dee23"/>dass diese Stellen für den
+                vorliegenden Prozess vollständig ohne <lb xml:id="uuid_1e2f8dea-9968-49ba-af8d-ea996869ba57"/>Bedeutung sind, muss die
+                Erörterung über diesen Punkt abge<lb xml:id="uuid_85c70cf7-3dce-4b5a-870c-f73dce1b5ae0" break="no"/>schlossen werden.
+                Es muss den Angeklagten der Nachweis überlas<lb xml:id="uuid_76028189-20ea-45a4-8281-8920ea45a439" break="no"/>sen bleiben, dass
+                sie durch diese Stellen getroffen werden <lb xml:id="uuid_7ca13127-cb73-4d18-a131-27cb730d189a"/>sollten, wo doch gerade der
+                Fall des <rs type="person" ref="#43586">Erstangeklagten</rs> gesondert <lb xml:id="uuid_0b70a924-f8df-4456-b0a9-24f8df0456e7"/>auf den Seiten 65–67 des <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Juli-Heftes der
+                    Fackel</rs> behandelt wurde, <lb xml:id="uuid_9679150a-f3b9-4771-b915-0af3b94771cf"/>von welcher Behandlung die
+                Verteidigung wohlweislich überhaupt <lb xml:id="uuid_b2c589c9-1c3a-4e8e-8589-c91c3a5e8e44"/>nichts erwähnt, weil es ihr
+                nicht gelingen könnte, darin eine <lb xml:id="uuid_0fdff342-a9e4-4533-9ff3-42a9e4653306"/>Beleidigung des <rs type="person" ref="#43586">Erstangeklagten</rs> aufzuzeigen. Der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs>
+                <lb xml:id="uuid_f3c3f415-e99f-41d9-83f4-15e99f61d943"/>glaubt erwarten zu dürfen,
+                dass die demokratischen und soziali<lb xml:id="uuid_dab4e79c-72d0-43ed-b4e7-9c72d023ed25" break="no"/>stischen
+                Schriftstellern geltenden Angriffe, selbst wenn unter <lb xml:id="uuid_8f336be7-f679-4d60-b36b-e7f6795d60e7"/>ihnen „<quote xml:id="uuid_83782473-c76d-4b84-9d74-48e58bd22d8b" source="#D_000195-025-000">ein amtierender <rs type="person" ref="#39448">tschechischer Minister</rs>
+                    ist</quote>“ bei der Be<lb xml:id="uuid_8e157b17-4935-478f-957b-174935e78f70" break="no"/>urteilung, ob die Angeklagten eine strafbare Handlung gegen den <lb xml:id="uuid_144c08c3-2f46-4ceb-8c08-c32f462cebcf"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> begangen haben,
+                von einem Gericht vollständig <lb xml:id="uuid_3c6e491f-92a4-457e-ae49-1f92a4357e33"/>ausser Betracht gelassen werden, das es den angegriffenen Schrift<lb xml:id="uuid_eadb42d4-f3e2-47f9-9b42-d4f3e2d7f913" break="no"/>stellern
+                überlassen muss, sich ihr Recht zu suchen, was sie <lb xml:id="uuid_5dcd90bd-fed2-4291-8d90-bdfed2b2912f"/>bisher in keinem einzigen
+                Fall getan haben. Die <rs type="person" ref="#51637">Verteidigung <lb xml:id="uuid_b01394e5-ee75-433e-9394-e5ee75b33e6a"/>der Angeklagten</rs>
+                meint, eine gründliche und richtige Beurteilung <pb facs="D_000195-037-000-facs001-l010-p010" n="10"/>
+                <lb xml:id="uuid_32ccf6cd-250b-4a9a-8cf6-cd250b1a9a1e"/>des <rs type="work" ref="#56412">inkriminierten Artikels</rs> sei nur dann möglich, wenn das <lb xml:id="uuid_fc5427a0-98e0-484a-9427-a098e0284ade"/><rs type="institution" ref="#36822">Gericht</rs> den Inhalt und die Art jenes Artikels kenne, der den
+                    <lb xml:id="uuid_35fcb7ed-7695-4851-bcb7-ed7695785102"/>Impuls zu den
+                literarischen Angriffen auf <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs> gegeben <lb xml:id="uuid_d17dea10-f775-40a7-bdea-10f775f0a754"/>habe, unter anderem auch zum
+                Angriff des <rs type="person" ref="#43586">Erstangeklagten</rs>. <lb xml:id="uuid_c8147327-d974-44df-9473-27d97484df55"/>Damit hat sie natürlich,
+                wenn auch im umgekehrten Sinne, recht. <lb xml:id="uuid_2ee65265-b14e-4048-a652-65b14e9048b0"/>Da sie aber selbst einsieht,
+                dass ein solches Begehren un<lb xml:id="uuid_895530b3-24c4-4cdf-9530-b324c4ccdf88" break="no"/>möglich wäre (und sie jedenfalls nicht die Kosten in dem für <lb xml:id="uuid_95995f7f-f1e2-41df-995f-7ff1e2c1df5c"/>sie aussichtslosen Prozess
+                aufwenden möchte), eine Uebersetzung <lb xml:id="uuid_de27c749-b388-4051-a7c7-49b388c051f6"/>dieses umfangreichen <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Werkes</rs> herzustellen,
+                möchte sie gerne, <lb xml:id="uuid_d2f8c7c3-7b9f-4429-b8c7-c37b9f442999"/>dass dem
+                    <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> der Auftrag erteilt werde, sich diese <lb xml:id="uuid_d724d525-a907-4c11-a4d5-25a9074c11ed"/>Kosten zu machen und die
+                Beweise, die die Beklagten zu führen <lb xml:id="uuid_01080b6b-5e49-4532-880b-6b5e494532fd"/>hätten, ihnen zur Verfügung
+                zu stellen. Wenn die Angeklagten <lb xml:id="uuid_2fa1b47f-e2c6-419a-a1b4-7fe2c6319abe"/>aus diesem <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Heft</rs> selbst die Wahrheit ihrer
+                Behauptungen zu er<lb xml:id="uuid_90c7156d-2873-476b-8715-6d2873376b44" break="no"/>weisen sich erbötig machten, was bisher aber nicht der Fall <lb xml:id="uuid_e3713f96-29d7-44c1-b13f-9629d774c1f7"/>gewesen ist, müssten sie
+                selbst die Uebersetzung veranlassen, <lb xml:id="uuid_e1bc15a2-29bd-4f88-bc15-a229bd2f88e1"/>bezahlen und dem Gericht
+                vorlegen. Dem <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> würde es <lb xml:id="uuid_df35ea4e-49db-4d3d-b5ea-4e49dbfd3dc8"/>genügen, wenn die
+                Angeklagten nur die Stellen seines <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Heftes</rs> so <lb xml:id="uuid_f1d43f44-7a8d-48b2-943f-447a8d38b2f4"/>ausführlich übersetzt
+                vorlegten, die erforderlich sind, ihre <lb xml:id="uuid_9de77704-4cd0-45a9-a777-044cd0a5a92d"/>eigenen Behauptungen in dem
+                    <rs type="work" ref="#D_000195-025-000">Schriftsatz</rs> zu überprüfen. Sie <lb xml:id="uuid_aa2149e6-ef78-450b-a149-e6ef78950b95"/>behaupten, dass die Mehrzahl
+                der inkriminierten Stellen (in <lb xml:id="uuid_971bad6a-d004-4151-9bad-6ad00401516a"/>der Klage sub 2, 3 und 4)
+                nur Zitate der Aussprache des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privat<lb xml:id="uuid_7b0b5286-fc2e-4bb7-8b52-86fc2ecbb7b9" break="no"/>klägers</rs>
+                sind. Es wäre sehr wünschenswert, wenn die Angeklagten <lb xml:id="uuid_98fd2998-3944-4ec0-bd29-983944bec0d7"/>wenigstens die drei Stellen
+                des <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Heftes</rs>
+                bezeichneten, die der <lb xml:id="uuid_eb531016-df22-404f-9310-16df22c04f64"/><rs type="person" ref="#43586">Erstangeklagte</rs> angeblich zitierte. In
+                Wirklichkeit liegt der <lb xml:id="uuid_fc8e52be-3f02-4c03-8e52-be3f028c036c"/>Fall
+                nämlich gerade umgekehrt. Der <rs type="person" ref="#43586">Erstangeklagte</rs>
+                zitiert in <lb xml:id="uuid_65c32276-9565-4cc5-8322-7695653cc523"/>seinem <rs type="work" ref="#56412">Artikel</rs> keine Stellen der <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Fackel</rs>, deren Reproduktion <lb xml:id="uuid_5a6ec24c-e21c-450d-aec2-4ce21ce50d8d"/>der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> absurder Weise
+                dann unter Anklage stellen <lb xml:id="uuid_efdece33-4c8a-446b-9ece-334c8a746b3a"/>würde, sondern er schliesst eben an ein Zitat aus der <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Fackel</rs>
+                <pb facs="D_000195-037-000-facs001-l011-p011" n="11"/>
+                <lb xml:id="uuid_831d8ed0-a47b-4348-9d8e-d0a47b73484c"/>beleidigende Behauptungen
+                an, für die er den Wahrheitsbeweis <lb xml:id="uuid_495eb12e-5875-4698-9eb1-2e5875f6986b"/>zu erbringen hat. Wenn an
+                das Zitat der <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Fackel</rs>
+                    „<quote xml:id="uuid_2d0ab705-20ef-4616-b0e0-cb974727d02b" source="https://fackel.oeaw.ac.at/f/890,011">man kann ein <lb xml:id="uuid_6dae0931-98b1-4e9e-ae09-3198b1be9e41"/>Lump sein, wenn man
+                    jemanden in Gefahr bringt</quote>“ angeschlossen <lb xml:id="uuid_8353142c-dbd6-463f-9314-2cdbd6c63f55"/>wird, „<quote xml:id="uuid_dc88a5db-18b4-49b9-9012-741b1b7d13e1" source="#D_000195-025-000">man könne ein Lump sein, wenn man jemanden vor einer <lb xml:id="uuid_150345cd-83ac-4548-8345-cd83acd5482c"/>kleineren Gefahr bewahrt
+                    und in einer grösseren drinnen lässt, <lb xml:id="uuid_02f2c47b-ab32-4e57-b2c4-7bab322e5757"/>weil man an der
+                    kleineren mitbeteiligt wäre und gleichzeitig <lb xml:id="uuid_57f7a9fc-41b6-4e13-b7a9-fc41b6be13eb"/>behauptet, man täte es
+                    nur seinetwegen</quote>“, so ist bei dem deut<lb xml:id="uuid_f03f884a-e258-4c3d-bf88-4ae258ac3d9b" break="no"/>lichen Hinweis,
+                dass der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> so etwa tue, doch nur <lb xml:id="uuid_62bf3fcb-5105-42ee-bf3f-cb5105f2ee78"/>dies Gegenstand des
+                Prozesses und nicht etwa der Umstand, dass <lb xml:id="uuid_b970c44b-5367-410e-b0c4-4b5367610edf"/>die Behauptung an ein Zitat
+                der <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Fackel</rs> sich
+                anschliesst. Das <lb xml:id="uuid_3ed29064-c08c-4cf7-9290-64c08cecf750"/>gleiche
+                gilt für die Stellen 3 und 4 der <rs type="work" ref="#D_000195-007-000">Privatklage</rs>. </p>
+            <p xml:id="uuid_4028fcf2-56f4-4e00-a3fe-ddde0677fa74"><lb xml:id="uuid_8ba25b76-74ab-4225-a25b-7674ab422554"/>Es kann also keinem Zweifel
+                unterliegen, dass alles <lb xml:id="uuid_443ac587-0210-4e5b-bac5-8702101e5b1d"/>das
+                von den Angeklagten Vorgebrachte mit dem Prozess nicht das <lb xml:id="uuid_9af92a3c-5910-4f58-b92a-3c59103f5828"/>geringste zu tun hat, und
+                alle vorgebrachten Argumente hinfällig <lb xml:id="uuid_66873a09-855c-4107-873a-09855c91079e"/>sind. Wenn sich die
+                Angeklagten auf die Bestimmung des <rs type="law" ref="">§ 9 <lb xml:id="uuid_6a84dd81-ce6e-451d-84dd-81ce6e651d7b"/>Absatz 1 des Gesetzes
+                    über den Ehrenschutz</rs> berufen, so wäre zu <lb xml:id="uuid_5be74a08-4853-48c7-a74a-084853e8c7bd"/>überprüfen, ob diese
+                Bestimmung auf den vorliegenden Fall Anwen<lb xml:id="uuid_6518e3ff-8e78-4955-98e3-ff8e7899556d" break="no"/>dung zu finden
+                hat. Der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> glaubt dies mit gutem <lb xml:id="uuid_62792e35-b0ef-4bfb-b92e-35b0ef4bfb18"/>Grunde vermeinen zu können.
+                Jene Bestimmung, die den Angeklag<lb xml:id="uuid_e0d5b0ff-9e6b-40d0-95b0-ff9e6b60d096" break="no"/>ten zwar nicht
+                den Freispruch, wohl aber die Straflosigkeit <lb xml:id="uuid_84c9a856-3b10-4b23-89a8-563b108b2328"/>sichert, setzt voraus, dass
+                die beleidigende Handlung durch <lb xml:id="uuid_01162493-fbab-4423-9624-93fbabc4233c"/><hi rend="underlined">unmittelbar</hi> vorangegangenes, herausforderndes und ärgerniserre<lb xml:id="uuid_d9ead2e8-db94-4663-aad2-e8db9416630b" break="no"/>gendes Benehmen
+                des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatklägers</rs> veranlasst worden ist. Dieser <lb xml:id="uuid_6b8da305-46b4-435e-8da3-0546b4535eb5"/>Paragraph hat seinen
+                Vorgänger offenbar in dem des deutschen <lb xml:id="uuid_afeef11f-30ca-418f-aef1-1f30ca218fc0"/>Strafgesetzes, der eine
+                ähnliche Rechtswohltat bei der Erwiderung <lb xml:id="uuid_e58e72ba-2dcf-4f22-8e72-ba2dcf8f2275"/>einer „<quote xml:id="uuid_57d52496-09be-4974-af9d-ed47cc0cbdac" source="">Beleidigung auf der
+                    Stelle</quote>“ vorsieht. Es ist klar, dass <lb xml:id="uuid_5a5ba1e2-7643-485c-9ba1-e27643f85c5f"/>auch für die Anwendbarkeit
+                des tschechischen Paragraphen er<lb xml:id="uuid_48161c89-7813-48da-961c-897813a8da14" break="no"/>forderlich ist,
+                dass Beleidigung und Gegenbeleidigung unmittel<lb xml:id="uuid_8229186d-20cd-40c2-a918-6d20cd40c295" break="no"/>bar in einem
+                Zusammenhang stehen, sozusagen in einem Akte er<lb xml:id="uuid_26404b9f-9710-48c9-804b-9f9710a8c9c3" break="no"/>ledigt werden.
+                Bei einer Beleidigung durch die Presse kann <pb facs="D_000195-037-000-facs001-l012-p012" n="12"/>
+                <lb xml:id="uuid_67ddf3e4-ff90-4d94-9df3-e4ff90dd94a4"/>dies logischerweise
+                überhaupt nie der Fall sein, da zur Be<lb xml:id="uuid_5372a588-f16e-4cd6-b2a5-88f16ebcd60b" break="no"/>gehung der
+                Gegenbeleidigung eine Anzahl von Schritten notwendig <lb xml:id="uuid_e1ed465e-a4a2-417e-ad46-5ea4a2617e1a"/>ist, nämlich die Verfassung
+                der Gegenbeleidigung, deren Redaktion, <lb xml:id="uuid_98b4bf71-854a-4df2-b4bf-71854a5df26c"/>die Drucklegung und die
+                Ueberprüfung durch den verantwortlichen <lb xml:id="uuid_5d386c91-7b8c-47e8-b86c-917b8cc7e89b"/>Redakteur. Schon der Begriff
+                eines „verantwortlichen Redakteurs“ <lb xml:id="uuid_d41d734d-d78b-42fd-9d73-4dd78b52fd83"/>schliesst dieses Moment
+                einer privaten Erregung aus, das etwa <lb xml:id="uuid_8a9cfbd8-5908-42bc-9cfb-d85908d2bcc1"/>in Betracht käme, wenn man
+                einem, der seine Begleiterin beleidigt <lb xml:id="uuid_6629437f-529d-4c24-a943-7f529d4c2486"/>hat, eine Ohrfeige versetzt.
+                Von einer unmittelbaren Folge kann <lb xml:id="uuid_933f25bf-ff5b-41c3-bf25-bfff5bd1c33e"/>also schon aus diesem Grunde
+                nicht die Rede sein. Aber selbst <lb xml:id="uuid_62fa8101-f72c-4cea-ba81-01f72c0cea8a"/>dann, wenn man die
+                Anwendbarkeit des Paragraphen für Pressdelikte <lb xml:id="uuid_9748281c-55ad-42ff-8828-1c55ada2fff1"/>nicht an und für sich
+                ausschliesst, so wäre sie doch nur für <lb xml:id="uuid_fd526eee-a306-4c9d-926e-eea3065c9d06"/>eine Tageszeitung gegeben,
+                die innerhalb weniger Stunden auf <lb xml:id="uuid_0447f5cb-6ff9-4655-87f5-cb6ff926557a"/>ein vorhergehendes Benehmen
+                des Beleidigten reagiert, und der <lb xml:id="uuid_29a13b73-d75f-4366-a13b-73d75fa366ed"/>man dann zubilligen könnte,
+                dass die geforderte Unmittelbarkeit <lb xml:id="uuid_874e8e10-3187-4632-8e8e-103187463291"/>der Antwort noch vorliegt.
+                Keinesfalls kann aber dieser Para<lb xml:id="uuid_84aecbcf-6d90-42f2-aecb-cf6d9032f2ff" break="no"/>graph für eine
+                Zeitschrift angewendet werden, die vierzehntägig <lb xml:id="uuid_aa45249f-6c5e-46cf-8524-9f6c5ed6cf24"/>erscheint, und für einen
+                Fall, wo zwischen dem angeblich ärger<lb xml:id="uuid_a622f341-9c34-4d17-a2f3-419c342d174d" break="no"/>niserregenden
+                Benehmen, das den Anlass zu der Beleidigung ge<lb xml:id="uuid_71989e9e-dad2-49ac-989e-9edad2b9acc4" break="no"/>geben hat und der
+                Beleidigung selbst, ein Zeitraum von fünf <lb xml:id="uuid_f5902709-7065-42cb-9027-09706572cb98"/>Wochen liegt und das
+                Erscheinen des beleidigenden Artikels vorher <lb xml:id="uuid_8c1fa1bb-8f02-413c-9fa1-bb8f02a13cb7"/>durch Wochen in fast
+                täglichen Reklamenotizen <add hand="#D_000195-037-000-hand01">im <rs type="work" ref="#41507">Prager
+                        Tagblatt</rs></add> angekündigt wurde. <lb xml:id="uuid_5d8afae8-f1f8-4c56-8afa-e8f1f8cc564f"/>In einem solchen Fall kann
+                sich der Beleidiger wohl nicht damit <lb xml:id="uuid_34d26a6b-9edd-47a3-926a-6b9edd47a354"/>ausreden, dass er in einer
+                Erregung gehandelt hat und unmittel<lb xml:id="uuid_11212f96-2385-4b6b-a12f-9623853b6b13" break="no"/>bar auf ein
+                Benehmen des Beleidigten reagiert habe, da er doch <lb xml:id="uuid_f21605a7-fd5b-4642-9605-a7fd5bb6422a"/>in der Zwischenzeit erheben
+                konnte und musste, ob die von ihm <lb xml:id="uuid_a77fd93b-02c5-4513-bfd9-3b02c53513b5"/>vorgebrachten beleidigenden
+                Behauptungen der Wahrheit entsprechen. <lb xml:id="uuid_5c40c23a-c153-47f5-80c2-3ac15377f56a"/>Das Beispiellose des Falles
+                lässt sich folgendermassen zusammen<lb xml:id="uuid_cbf95145-800d-4fcb-b951-45800d2fcb68" break="no"/>fassen. Die von
+                den Angeklagten zitierten Stellen enthalten <lb xml:id="uuid_b7559d2f-3c65-491a-959d-2f3c65191a38"/>offenbar Beleidigungen, für
+                die der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> unter seinem <lb xml:id="uuid_b112936e-c48a-48e0-9293-6ec48a68e0d0"/>vollen Namen jede Gefahr
+                eingegangen ist und die volle Verant- <pb facs="D_000195-037-000-facs001-l013-p013" n="13"/>
+                <lb xml:id="uuid_d055c09d-953b-4a7c-95c0-9d953b4a7c95"/>wortung übernommen hat.
+                Darauf meldet sich ein Anonymus, der <lb xml:id="uuid_23e945ba-dc7b-4303-a945-badc7bc303d2"/>unter dem angemassten
+                parvenuhaften französischen Pseudonym <lb xml:id="uuid_f8aa338d-a64e-4557-aa33-8da64ec55747"/>„<rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/43586">Lucien Verneau</rs>“ die grössten
+                Beleidigungen gegen den <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Autor</rs>
+                <lb xml:id="uuid_de8cb407-2314-4429-8cb4-0723148429fa"/>begeht, der ihn selbst mit
+                keiner jener zitierten Schmähungen <lb xml:id="uuid_15623161-c60a-40c6-a231-61c60a40c642"/>getroffen hatte. Er wird
+                sogar beleidigend, weil man ihm seine <lb xml:id="uuid_b85f307f-237f-448b-9f30-7f237fa48b90"/>Anonymität zum Vorwurf
+                gemacht hat und verteidigt in der unver<lb xml:id="uuid_33f51844-8d81-46be-b518-448d81e6be17" break="no"/>frorensten Weise
+                das Recht auf Anonymität, nachdem er dem <lb xml:id="uuid_40fc7d3d-a590-4ba8-bc7d-3da5903ba8c9"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> einen Vorwurf
+                daraus gemacht hatte, dass er es un<lb xml:id="uuid_e36fc074-623a-4eb5-afc0-74623a3eb5ed" break="no"/>terlasse, der
+                grossen Gefahr entgegenzutreten. Hinter seine <lb xml:id="uuid_995eadfc-52a8-44e4-9ead-fc52a8f4e419"/>Anonymität hat sich der <rs type="person" ref="#43586">Erstangeklagte</rs> auch dann noch verschanzt, <lb xml:id="uuid_4cd80c5b-f685-4fe9-980c-5bf6859fe928"/>als gegen ihn gerichtlich
+                vorgegangen werden sollte, und es hat <lb xml:id="uuid_930d0c18-b7fb-4293-8d0c-18b7fb4293db"/>besondere Mühe gekostet,
+                seinen bürgerlichen Namen und seinen <lb xml:id="uuid_c3a7dd69-adb1-4fef-a7dd-69adb10fefc9"/>von einem revolutionären
+                weit entfernten Beruf auszuforschen. <lb xml:id="uuid_2d5ede2b-de72-42d3-9ede-2bde7272d387"/>Er, der mit den Phrasen des
+                Kampfmutes vom <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> einen <lb xml:id="uuid_a5531001-fe1b-4750-9310-01fe1b9750af"/>„<quote xml:id="uuid_6f6b3c20-064b-49cc-bfe9-b04380ab7a00" source="#55910">Aufruf um die Welt</quote>“ verlangte, eine Gegenüberstellung des <lb xml:id="uuid_a2a3846a-69aa-4504-a384-6a69aa4504ae"/>Wortes gegen die Gewalt,
+                hatte nicht einmal den Mut, für <lb xml:id="uuid_1b8dc5c5-15ea-40ed-8dc5-c515eae0ed43"/>seine Beleidigungen
+                einzustehen, wo er doch gewiss kein Martyrium, <lb xml:id="uuid_96ecfa40-ba2d-47d8-acfa-40ba2db7d864"/>sondern nur eine mehr oder
+                minder grosse Geldstrafe riskiert. <lb xml:id="uuid_07d7ea19-8510-4df0-97ea-198510bdf0f9"/>Eine Groteske ist es nun,
+                dass er sich zur Verteidigung des <lb xml:id="uuid_2cc705d3-8d9d-4934-8705-d38d9de934f1"/>Rechtes auf Anonymität auf
+                eine Zuschrift des armen <rs type="person" ref="#20351">Theodor <lb xml:id="uuid_0447263f-e4a8-4f99-8726-3fe4a87f99a2"/>Lessing</rs> an den <rs type="person" ref="#37889">Herausgeber des „Aufruf“</rs> beruft, anstatt sie zu
+                    <lb xml:id="uuid_1512e453-d5fa-4f98-92e4-53d5fa0f9815"/>verheimlichen. Man
+                erwartet, dass <rs type="person" ref="#20351">Lessing</rs> dieses Recht vertreten
+                    <lb xml:id="uuid_aabf67e3-364a-4633-bf67-e3364a563323"/>hat, verblüffenderweise
+                stellt sich aber heraus, dass <rs type="person" ref="#20351">Lessing</rs>
+                <lb xml:id="uuid_83924821-9eb8-47a1-9248-219eb8d7a119"/>in jener Zuschrift die
+                Schimpflichkeit der Anonymität behandelt, <lb xml:id="uuid_6793fdc7-64cd-4f6f-93fd-c764cd4f6faa"/>wobei er offenbar die
+                Artikel des unauffindbaren <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/43586">Lucien Verneau</rs>
+                <lb xml:id="uuid_ecce58a0-3a7f-4bce-8e58-a03a7f0bce68"/>gemeint hat. Die Verblüffung
+                des Lesers steigert sich nun, wenn <lb xml:id="uuid_bf135322-0d1b-4787-9353-220d1b078706"/>man die Konklusion des Herrn
+                    <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/43586">Lucien
+                    Verneau</rs> vernimmt, <rs type="person" ref="#20351">Lessing</rs>
+                <lb xml:id="uuid_a9a45562-6662-4611-a455-626662c6117f"/>sei eben leider das Opfer
+                seiner heroischen Auffassung geworden, <lb xml:id="uuid_25df84aa-5681-4633-9f84-aa56816633b8"/>indem er durch eine
+                Mörderkugel „<quote xml:id="uuid_2fe91af7-c131-48c8-9e19-3c2ce50f36ac" source="">an
+                    den Folgen seines Irrtums, <pb facs="D_000195-037-000-facs001-l014-p014" n="14"/>
+                    <lb xml:id="uuid_47ef6a98-ddde-4b3d-af6a-98ddde4b3d0b"/>dass man mit der Kraft
+                    der Wahrheit und mit blossen Händen <lb xml:id="uuid_b29a5ca8-2281-4b66-9a5c-a82281db66f9"/>der Karabinermündung
+                    gegenübertreten könne</quote>“, starb. <rs type="person" ref="#20351">Lessing</rs>
+                <lb xml:id="uuid_25674271-169f-4e4c-a742-71169fce4ca1"/>hat also keine andere
+                Auffassung vertreten als wie der <lb xml:id="uuid_c0fd6d50-3d46-4ce6-bd6d-503d463ce618"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> und der <rs type="person" ref="#43586">Angeklagte</rs> verteidigt sich gegen diese <lb xml:id="uuid_356535ed-06ae-4c0e-a535-ed06aefc0e50"/>moralische Forderung mit dem
+                Argument des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Klägers</rs>, dass man <lb xml:id="uuid_0c532c26-cc77-42ac-932c-26cc77f2ace2"/>mit dem Wort der Gewalt nicht entgegentreten könnte. Ein <lb xml:id="uuid_5b1dfab3-df17-4c24-9dfa-b3df17cc246c"/>ähnlicher Rekord geistiger
+                Verwirrung dürfte im Schrifttum <lb xml:id="uuid_d07b1e27-4aea-49e1-bb1e-274aeab9e156"/>nicht aufzuweisen sein, und
+                dieser Mann hält sich für berufen, <lb xml:id="uuid_c4f4918f-3777-4032-b491-8f3777a032a3"/>dem <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> paranoische
+                Züge nachzusagen. Zur Rechen<lb xml:id="uuid_43714d2d-4066-4c21-b14d-2d40661c2199" break="no"/>schaft gezogen, beruft der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/43586">Angeklagte</rs> sich auf eine
+                Erregung, <lb xml:id="uuid_604c1fbc-bcc1-47fb-8c1f-bcbcc117fb7f"/>die sich seiner
+                wegen jener fünfzig von ihm zitierten Angriffe <lb xml:id="uuid_47f6cdc8-a04b-4ec0-b6cd-c8a04b4ec0de"/>bemächtigt habe, und hat die
+                Stirne, der Justiz gegenüber nicht <lb xml:id="uuid_56d16690-5f77-4a2a-9166-905f77ca2aea"/>nur so zu tun, als ob sich
+                diese Angriffe auf ihn bezögen, <lb xml:id="uuid_6c886f2d-26a6-4921-886f-2d26a6a9214b"/>sondern mit keinem Wort auch
+                nur anzudeuten, dass diese An<lb xml:id="uuid_fe735c0c-bd8c-4a28-b35c-0cbd8c5a285f" break="no"/>griffe ihn gar nicht betreffen, ihn gar nichts angehen, ja <lb xml:id="uuid_d406fdf5-6be8-4b50-86fd-f56be8bb503a"/>auch nicht im entferntesten
+                mit seiner Person etwas zu tun <lb xml:id="uuid_c04c04e8-2f43-4028-8c04-e82f432028ff"/>haben, die ausdrücklich in
+                einem ganz besonderen Kapitel be<lb xml:id="uuid_33174bda-8d84-43be-974b-da8d8413be46" break="no"/>handelt ist, das
+                keine derartigen Angriffe enthält. </p>
+            <p xml:id="uuid_c8dc44e8-90ad-4bc1-9246-1c76c8743725"><lb xml:id="uuid_832547d6-13d5-42a6-a547-d613d582a62c"/>Zu ihrer Verteidigung
+                könnten also die Angeklagten <lb xml:id="uuid_5c7fb253-481e-4d91-bfb2-53481e4d9188"/>sich lediglich auf die Wahrheit der vorgebrachten Behauptun<lb xml:id="uuid_932c6367-9894-4e99-ac63-679894fe99e1" break="no"/>gen berufen, was
+                sie aber bisher nicht getan haben. Sollten <lb xml:id="uuid_a84bfc09-f0f3-4559-8bfc-09f0f335598c"/>die Angeklagten diesen
+                Wahrheitsbeweis nicht antreten, so <lb xml:id="uuid_f350b065-40d0-4ee0-90b0-6540d0fee029"/>wären sie nach Ansicht des
+                    <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatklägers</rs> ohne weiteres Ver<lb xml:id="uuid_d0ded992-1aa0-472d-9ed9-921aa0972d78" break="no"/>fahren zu
+                verurteilen, da die Berufung auf den <rs type="law" ref="">§ 9 des zi<lb xml:id="uuid_a786e70e-36b5-4c73-86e7-0e36b56c7307" break="no"/>tierten
+                    Gesetzes</rs> im vorliegenden Fall auch dann nicht ge<lb xml:id="uuid_967aa189-2492-4f9a-baa1-892492ff9a4a" break="no"/>geben wäre, wenn
+                sich die vorhergehenden Beleidigungen durch <lb xml:id="uuid_80f4c3ef-da5b-44a8-b4c3-efda5b54a89f"/>den <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> gegen die
+                Person des heutigen <rs type="person" ref="#43586">Erstangeklagten</rs>
+                <lb xml:id="uuid_b6b6558d-6691-451f-b655-8d6691251fb7"/>gerichtet hätten. Wie aber
+                oben ausgeführt wurde, ist dies <pb facs="D_000195-037-000-facs001-l015-p015" n="15"/>
+                <lb xml:id="uuid_93f99efa-e064-45f9-b99e-fae06445f903"/>keineswegs der Fall, die
+                Angeklagten berufen sich auf Stellen <lb xml:id="uuid_7aa68d20-1a54-470b-a68d-201a54470b5e"/>der <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Fackel</rs>, die sich nicht mit dem
+                    <rs type="person" ref="#43586">Verfasser des <rs type="work" ref="#56412">beleidigenden <lb xml:id="uuid_996d61dd-25c7-42b4-ad61-dd25c742b48c"/>Artikels</rs></rs> befassen, wogegen er gerade die Stellen, die sich <lb xml:id="uuid_1c04fade-966f-4c44-84fa-de966fbc4479"/>mit ihm befassen, weil sie
+                offenbar und berechtigterweise <lb xml:id="uuid_e0e0a088-15a2-4495-a0a0-8815a244952a"/>auch von ihm nicht als
+                beleidigend angesehen werden konnten, <lb xml:id="uuid_2f1001b5-6be7-413e-9001-b56be7a13e21"/>geflissentlich verschweigt. </p>
+            <p xml:id="uuid_84e46aa0-d608-4d00-a908-38dbe1b58839"><lb xml:id="uuid_6c024a91-043b-41a4-824a-91043b81a45d"/>Der <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Privatkläger</rs> beantragt
+                daher, sämtliche weitere <lb xml:id="uuid_8f0d6449-6734-46c0-8d64-496734e6c00a"/>Anträge der Angeklagten abzuweisen, ausser etwaige Wahrheits<lb xml:id="uuid_e5e665d6-1429-4d5b-a665-d614297d5b62" break="no"/>beweisanträge,
+                die bisher nicht gestellt worden sind. </p>
+            <p xml:id="uuid_a6a9736b-3b6e-4e7f-b52c-07f7203ddb6f"><lb xml:id="uuid_06744eb7-7cf7-4715-b44e-b77cf7e7157d"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl <hi rend="spaced">Kraus</hi></rs>. </p>
+        </body>
+    </text>
+</TEI>

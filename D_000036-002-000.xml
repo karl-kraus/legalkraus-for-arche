@@ -1,0 +1,170 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000036-002-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000036-001-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000036-003-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief Samek an Neues Wiener Tagblatt (verantw. Red. Oskar Hirt)</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000036-002-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2081</idno>
+                <idno type="ID" subtype="transkribus">191662</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000036">Berichtigungsschreiben zum Prozess gegen Anton Kuh</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000036-002-000-wit01" facs=""/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1926-11-16"/>
+                <date source="krausonline">16.11.1926</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.K.BRF</classCode>
+            </textClass>
+            <particDesc/>
+            <correspDesc>
+                <correspAction type="sent">
+                    <rs type="person" ref="">Oskar Samek</rs>
+                </correspAction>
+                <correspAction type="received">
+                    <rs type="person" ref="">Neues Wiener Tagblatt (verantw. Red. Oskar Hirt)</rs>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2020-02-10T14:42:45.541Z" who="#IB">created by API</change>
+            <change when-iso="2020-02-10T14:44:33.36Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-10T14:44:34.72Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-10T14:44:36.304Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-10T14:44:38.248Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-10T14:44:39.431Z" who="#JM">Checked Images Wienbibliothek</change>
+        <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of Transkribus Document 191662.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000008_16.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548692/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-2/036_046/00000008.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000009_12.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548693/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-2/036_046/00000009.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000010_17.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548694/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-2/036_046/00000010.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000011_9.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548695/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-2/036_046/00000011.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000012_16.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548696/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-2/036_046/00000012.jpg" source="scans"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="" n="1"/>
+            <p xml:id="uuid_7c571c0d-0af5-4a4f-858f-5b15b85598fc">16. November 6 <lb xml:id="uuid_a71c1287-1de1-4e22-9c12-871de14e2256"/>Betr. Kraus – Stunde<lb xml:id="uuid_1307005d-eb75-4e65-8700-5deb756e6566"/>
+            </p>
+            <p xml:id="uuid_79f53e3f-cb2c-40e1-8158-377e4523b492">[Dr.S]/M </p>
+            <p xml:id="uuid_01735276-5820-4d9e-bc90-5f940664b67e">[An d]en <lb xml:id="uuid_e60cf3b2-0b2f-45be-8cf3-b20b2fb5beff"/>verantwortlichen Redakteur
+                des „Neuen Wiener Tagblatt“ <lb xml:id="uuid_6b3a50af-57ad-4c9e-ba50-af57adbc9edc"/>Herrn Oskar Hirt, <lb xml:id="uuid_e5307be8-5ec6-4954-b07b-e85ec6195490"/>Wien,
+                I., <lb xml:id="uuid_8614f819-da43-471c-94f8-19da43671c4e"/>Fleischmarkt 5 <lb xml:id="uuid_70670dd0-623c-4b77-a70d-d0623c8b772d"/>
+            </p>
+            <p xml:id="uuid_4ba99646-ba6e-4c7b-aa70-c23bc0c0d0d1">Sehr geehrter Herr! </p>
+            <p xml:id="uuid_c374859d-3e2d-4d0b-a107-baca474edc39">Ihr <rs type="work">Gerichtsaalbericht</rs> vom 12. November 1926 ent-<lb xml:id="uuid_201d4a84-36ea-44c5-9d4a-8436ea84c504"/>hält eine tatsächliche
+                Angabe, die unvollständig ist und einer <lb xml:id="uuid_dc90203b-fc3e-4625-9020-3bfc3e862517"/>Ergänzung bedarf, die
+                vorzunehmen ich Sie ersuche, obwohl nach <lb xml:id="uuid_d9253623-0ff6-4aa6-a536-230ff6daa6a9"/>der geltenden
+                pressrechtlichen Praxis eine solche Ergänzung, <lb xml:id="uuid_33369b2e-f142-4bc7-b69b-2ef142bbc7ce"/>durch die der wahre
+                Sachverhalt erst hergestellt wird, nicht <lb xml:id="uuid_4b4ef37f-1778-4530-8ef3-7f1778c53049"/>verlangt werden könnte. Sie
+                schreiben, dass ich den Strafantrag <lb xml:id="uuid_febef6aa-c057-4721-bef6-aac057f721e7"/>auch darauf ausgedehnt habe,
+                dass der Beschuldigte hervorhob, <lb xml:id="uuid_f8cc6b0a-54dc-425b-8c6b-0a54dcc25b6a"/>„<quote xml:id="uuid_b438f010-1f0c-4f2b-8ea1-3c1aa3ee0b62" source="">dass Kraus sich als
+                    Neunzehnjähriger um eine Stelle in der <lb xml:id="uuid_b3c6356a-0074-452b-8635-6a0074752bcf"/>
+                    <rs type="institution" ref="#29351">Redaktion der ‚Neuen Freien Presse‘</rs> beworben habe, aber
+                    dort <lb xml:id="uuid_e2ab33e4-79cd-4c91-ab33-e479cd0c91da"/>hinausgeworfen
+                    worden sei, diesen Antrag aber später zurückzog.</quote>“ <lb xml:id="uuid_8aaffb1b-1a8d-4a1d-affb-1b1a8d4a1d40"/>Ich ersuche festzustellen,
+                dass ich den Strafantrag mit der <lb xml:id="uuid_294d6d67-ced1-4d4b-8d6d-67ced11d4b9b"/>ausdrücklichen Begründung
+                fallen liess, weil in diesem Stadium <lb xml:id="uuid_c5454d74-bc9a-4cd3-854d-74bc9a2cd315"/>evident war, dass der schon
+                durch ein Jahr verzögerte Urteils-<lb xml:id="uuid_f3055715-40cd-4288-8557-1540cd628854"/>spruch mit Ablehnung
+                sämtlicher Beweisanträge des <rs type="person" ref="#8363">Beschuldigten</rs>
+                <lb xml:id="uuid_3e95d259-6f1d-409c-95d2-596f1d009c0a"/>diesmal gefällt wurde und
+                dass der hinzugekommene Punkt, für <lb xml:id="uuid_4c3e47e7-071b-4d7a-be47-e7071b1d7a8f"/>den ein Wahrheitsbeweis
+                unbedingt zulässig gewesen wäre, eine <lb xml:id="uuid_56d33b48-b15c-43d8-933b-48b15c53d849"/>neuerliche Vertagung des
+                gesamten Prozesses auf einen unab-<lb xml:id="uuid_5319c7cf-4116-4fc3-99c7-cf41165fc32b"/>sehbaren Termin
+                herbeigeführt hätte. Da ich von allem Anfang an <pb facs="" n="2"/>
+                <lb xml:id="uuid_3dc8e6ef-a30c-4882-88e6-efa30c988252"/>der Ansicht war, dass ein
+                Wahrheitsbeweis auch in einem anderen <lb xml:id="uuid_bc9e5d64-1452-4302-9e5d-641452c30241"/>Punkte zulässig gewesen wäre
+                und angeordnet werden würde, habe <lb xml:id="uuid_53c91e19-14c7-48c8-891e-1914c7b8c8d6"/>ich die Anklage auf den
+                neuen Punkt gleich ausgedehnt, anstatt <lb xml:id="uuid_2983d574-06bc-466c-83d5-7406bc766ca2"/>sie mir bloss vorzubehalten.
+                Aus Ihrer Darstellung könnte der <lb xml:id="uuid_5f5ba97c-bf7c-4896-9ba9-7cbf7c889609"/>Leser schliessen, dass aus
+                irgend welchem anderen, meritorischen <lb xml:id="uuid_b7cc5ece-5d4e-4db9-8c5e-ce5d4e7db92e"/>Grund auf die Anklage
+                verzichtet wurde. Was dieses Meritum an-<lb xml:id="uuid_b7949a8b-4800-4ff3-949a-8b48004ff319"/>langt, ersuche ich von der
+                spontan abgegebenen <rs type="work" ref="#52816">Erklärung</rs> der <lb xml:id="uuid_b4e5797d-c870-4e20-a579-7dc870ae2041"/>„<rs type="institution" ref="#29351">Neuen Freien Presse</rs>“ vom 12. November 1926 Notiz zu nehmen,
+                    <lb xml:id="uuid_5fc896f9-e8af-4715-8896-f9e8afd71541"/>welche, entgegen dem
+                Vorbringen des <rs type="person" ref="#8363">Beschuldigten</rs>, lautet: <lb xml:id="uuid_bce48882-3a87-485b-a488-823a87985b2c"/>„<quote xml:id="uuid_e27f6dbf-3e54-45cf-89d7-27990f3ed3a5" source="#52816">Wir stehen
+                    nicht an, loyalerweise zu erklären, dass diese Be-<lb xml:id="uuid_342d0aa8-703a-43e4-ad0a-a8703af3e496"/>hauptung absolut
+                    unstichhaltig ist, dass Herr <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs> niemals eine <lb xml:id="uuid_2cfc801b-f2fe-4b9b-bc80-1bf2fe1b9bf4"/>Stellung in unserem
+                    Blatte angestrebt hat und dass daher auch von <lb xml:id="uuid_3c74fb28-a91c-4fa4-b4fb-28a91cafa4cd"/>einer Zurückweisung
+                    solcher Bestrebungen keine Rede sein konnte.</quote>“</p>
+            <p xml:id="uuid_57fbe0f6-1c10-4c8a-957b-01aebcf195c0">Mit dem Ausdruck vorzüglicher <lb xml:id="uuid_0fba024d-f803-4272-ba02-4df8033272b8"/>Hochachtung </p>
+            <p xml:id="uuid_cdbf1f7e-a1f3-48a4-8f9e-39439170744b">
+                <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs> – <rs type="institution" ref="#29470">Stunde</rs>
+                <lb xml:id="uuid_23ef6bfc-a6b4-4057-af6b-fca6b400573a"/>16. XI 26. </p>
+        </body>
+    </text>
+</TEI>

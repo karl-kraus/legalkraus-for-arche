@@ -1,0 +1,67 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000136-040-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000136-033-001.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000136-051-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Telegramm Heinrich Fischer an Samek</title>
+                <editor ref="#PE">Pia Ebner</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <availability default="false">
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000136-040-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3796</idno>
+                <idno type="ID" subtype="transkribus">452044</idno>
+            </publicationStmt>
+            <seriesStmt default="false">
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000136">Karl
+                    Kraus ca. Volksbühne Berlin</title>
+            </seriesStmt>
+            <sourceDesc default="false">
+                <listWit>
+                    <witness xml:id="D_000136-040-000-wit01" facs="#D_000136-040-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date type="sortDate" when-iso="1931-07-15" subtype="produced">15. Juli 1931</date></creation>
+            <langUsage default="false"><language ident="german">Deutsch</language></langUsage>
+            <textClass default="false"/>
+            <particDesc default="false"/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="references" when-iso="2021-09-24" who="#PE" status="draft"/>
+            <change when-iso="2020-10-08T14:03:55.882Z" who="#IB" status="draft">created by
+                API</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000136-040-000-facs001">
+        <surfaceGrp xml:id="D_000136-040-000-facs001-l001">
+            <surface xml:id="D_000136-040-000-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000290_21.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000136-040-000-facs001-l001-p002" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000292_17.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="#D_000136-040-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_e4d0a8b8-8b29-4f28-91d3-d73a27d82b82"><lb xml:id="uuid_ea6208b7-2ecb-4477-892e-d92fae22bcd5"/>RP 1.50 S = DOKTOR <rs type="person" ref="#38909">SAMEK</rs>
+            </p>
+            <p xml:id="uuid_6892614c-323d-48c6-8e72-f2c82881ee61"><lb xml:id="uuid_faf058d6-0f10-4ea6-8db9-59f84b476cf2"/><rs type="place" subtype="address" ref="#50493">SCHOTTENRING 14 WIEN</rs>
+            </p>
+            <p xml:id="uuid_f6be0729-aade-4ed9-8568-332f119283b7"><lb xml:id="uuid_d0dbf568-333f-482b-a68b-a05eff08b6f7"/><rs type="place" subtype="address" ref="">ACHENKIRCH W 372 19 159 11_50</rs>
+            </p>
+            <p xml:id="uuid_4a6aac71-7c12-428d-a1db-bcdf96f959c9"><lb xml:id="uuid_4d81d748-b2ab-42fa-84ae-9798d550cfcc"/>= BRIEF VOLKSBUEHNENSACHE
+                VOR EINER WOCHE ABGESAGT <lb xml:id="uuid_06e0acf6-0d26-4f68-a8b6-4d85cf18857f"/>DRAHTET OB ERHALTEN = GRUSS <rs type="person" ref="#38133">FISCHER</rs>
+                ACHENSEEHOF <lb xml:id="uuid_894f85fa-5704-4323-abe7-fcb9d3292f4c"/>JENBACH = </p>
+            <pb facs="#D_000136-040-000-facs001-l001-p153" n="2"/>
+            <p xml:id="uuid_b7895b69-2d50-4813-8d09-b89b44b3fbc9"><lb xml:id="uuid_bd92fa94-8306-47ac-96d0-c98edddcc131"/><note type="paratext" resp="law-firm"><rs type="person" ref="#11988">Kraus</rs>
+                    <lb xml:id="uuid_9d7e28b9-1dab-4b51-9db3-6c75a18747d9"/><rs type="institution" ref="#36940">Volksbühne</rs></note>
+            </p>
+        </body>
+    </text>
+</TEI>

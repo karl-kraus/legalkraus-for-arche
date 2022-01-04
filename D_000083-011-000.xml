@@ -1,0 +1,91 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000083-011-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000083-004-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000083-011-001.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Zeitungsartikel aus: Hamburger Fremdenblatt, Nr. 106</title>
+                <editor ref="#JK">Johannes Knüchel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000083-011-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2795</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000083">Karl Kraus ca. Hamburger Fremdenblatt</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000083-011-000-wit01" facs="D_000083-011-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation> <date type="sortDate" when-iso="1928-04-16" subtype="produced">16. April 1928</date> 
+            </creation>
+            <langUsage> <language ident="de">Deutsch</language> </langUsage>
+            <textClass>
+                <keywords>
+                    <term>Zeitungsartikel</term>
+                </keywords>
+            </textClass>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2020-10-07T15:42:28.154Z" who="#IB">created by API</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000113_31.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000112_35.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000115_28.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000114_28.jpg" source="krausonline"/>
+        </surface>
+    </facsimile>
+    <text>
+        <div xml:id="uuid_e6d85f80-dfec-4c2d-985f-80dfecdc2d77" part="N" org="uniform" sample="complete">
+            <p xml:id="uuid_01f9d59d-6fc0-456f-b9d5-9d6fc0d56f14">„Opfer der Berühmtheit“, eine im Jahre 1927 (Nr. 93 und 94 des Hamburger Fremdenblattes) erschienene novellistische Arbeit von <hi rend="spaced">W. Reese</hi> hat sich nachträglich als eine fast wörtliche Entlehnung der Satire „Der Biberpelz“ von Karl <hi rend="spaced">Kraus</hi> (erschienen in der Fackel und im Buch Die chinesische Mauer) herausgestellt. Im Interesse der deutschen Schriftsteller muß vor einer Verbindung mit dem Plagiator nachdrücklich gewarnt werden.</p>
+            <p xml:id="uuid_26f5e334-c457-4f87-b5e3-34c457df8705">D. Red.</p> </div>
+    </text>
+</TEI>

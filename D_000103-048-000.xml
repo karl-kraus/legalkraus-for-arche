@@ -1,0 +1,129 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000103-048-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-046-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-049-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Klagszurücknahme Justizrat Max Süssheim und RA Rosenfelder gegen Karl Kraus
+                    wegen Forderung (Amtsgericht Nürnberg G.R. V 899/29)</title>
+                <editor ref="#JK">Johannes Knüchel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000103-048-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3103</idno>
+                <idno type="ID" subtype="transkribus">292221</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000103">Karl
+                    Kraus ca. Fränkischer Kurier</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <ab>
+                        <stamp source="#36763"/>
+                    </ab>
+                </msDesc>
+                <listWit>
+                    <witness xml:id="D_000103-048-000-wit01" facs="D_000103-048-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1929-04-15" subtype="produced">15. April 1929</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>Klagszurücknahme</term>
+                </keywords>
+            </textClass>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="intertexts" when-iso="2021-03-18" who="#JK"/>
+            <change type="typography" when-iso="2021-03-18" who="#JK"/>
+            <change type="references" when-iso="2021-03-18" who="#JK"/>
+            <change type="structure" when-iso="2021-03-18" who="#JK"/>
+            <change when-iso="2020-07-21T12:55:27.238Z" who="#IB">created by API</change>
+            <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 292221.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000103-048-000-facs001">
+        <surfaceGrp xml:id="D_000103-048-000-facs001-l001">
+            <surface xml:id="D_000103-048-000-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000189_46.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555454/full/full/0/default.jpg" source="wienbibliothek"/>
+                <graphic url="ZPH_1545-7/102_105/00000189.jpg" source="scans"/>
+            </surface>
+            <surface xml:id="D_000103-048-000-facs001-l001-p002" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000190_35.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555455/full/full/0/default.jpg" source="wienbibliothek"/>
+                <graphic url="ZPH_1545-7/102_105/00000190.jpg" source="scans"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="D_000103-048-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_7e02c87f-5ecd-401e-90b7-9a268da42457">
+                <lb xml:id="uuid_f0e0f82e-efb3-49c2-a0f8-2eefb3b9c2f3"/><rs type="place" ref="#44172">Nürnberg</rs>, den 15. April 1929. </p>
+            <p xml:id="uuid_77805525-29c0-4be5-b51e-c3a8209c372c">
+                <lb xml:id="uuid_aa5ec4f1-b51b-4c9a-9ec4-f1b51b2c9a92"/><hi rend="spaced">Zum<lb xml:id="uuid_34627590-0c00-41c6-a275-900c0011c63f"/><rs type="institution" ref="#36763">Amtsgericht <lb xml:id="uuid_d544614c-2b9d-4a12-8461-4c2b9d9a122e"/>Nürnberg</rs></hi>.
+                    <lb xml:id="uuid_ef5d9670-523b-4077-9d96-70523bd077dd"/>G.R. V 889/29. <lb xml:id="uuid_45c6e28a-fc5d-4985-86e2-8afc5d298556"/>Civilsachen.</p>
+            <p xml:id="uuid_52cc3d41-1a1b-4c97-b84c-7e1f0239f917">
+                <lb xml:id="uuid_d26b2218-d70a-4f95-ab22-18d70a5f9576"/>Klagszurücknahme <lb xml:id="uuid_f1969146-b7e6-42ff-9691-46b7e6a2ff41"/>der <lb xml:id="uuid_cfdf9737-bb42-4e5b-9f97-37bb42fe5b3e"/>Rechtsanwälte <rs type="person" ref="#38637">Dr. Süssheim</rs> und <rs type="person" ref="#53240">Dr. Rosenfelder</rs> in <rs type="place" ref="#44172">Nürnberg</rs>, <lb xml:id="uuid_57c4c020-3ea4-4964-84c0-203ea49964b9"/>in Sachen <lb xml:id="uuid_0127fcb7-3b8b-40ac-a7fc-b73b8bc0ac90"/>gegen <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl <hi rend="spaced">Kraus</hi></rs>, Schriftsteller in <rs type="place" ref="#50">Wien</rs>, <lb xml:id="uuid_57a6b054-afa4-41ea-a6b0-54afa441ea7a"/>wegen <lb xml:id="uuid_c87923b6-4cc9-4aec-b923-b64cc94aecd7"/>Forderung. </p>
+            <pb facs="D_000103-048-000-facs001-l001-p002" n="2"/>
+            <p xml:id="uuid_015c056f-1590-4119-9fd7-db7d8417929a">
+                <lb xml:id="uuid_d1ca4bee-d512-4f93-8a4b-eed5129f9360"/>In vorbezeichneter Sache
+                nehmen wir <lb xml:id="uuid_3da0742d-d543-4c7b-a074-2dd5433c7b50"/>hiermit die Klage
+                zurück. </p>
+            <p xml:id="uuid_051a8d94-31f8-4375-8c4c-7d9475218279">
+                <lb xml:id="uuid_6763afcb-e8ff-45f7-a3af-cbe8ff35f782"/>gez. <rs type="person" ref="#38637">Dr. Süssheim</rs>. <lb xml:id="uuid_85e61c59-4bd9-497a-a61c-594bd9b97a89"/>Rechtsanwalt. <lb xml:id="uuid_d0e1d98a-39e5-447a-a1d9-8a39e5d47a9f"/>f. d. Abschrift. <lb xml:id="uuid_ecd0817b-dd0a-41b3-9081-7bdd0a71b3a0"/><rs type="person" ref="#53240">Dr. Rosenfelder</rs>
+                <lb xml:id="uuid_77176560-2cf1-4850-9765-602cf138505e"/>Rechtsanwalt. </p>
+            <p xml:id="uuid_52d44502-75c3-4e23-ae54-5cd0d147207a">
+                <lb xml:id="uuid_a0703a8e-2873-4dae-b03a-8e28737daedf"/><note type="paratext" resp="law-firm"><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs>
+                    <lb xml:id="uuid_4aea6d44-1de0-4f6b-aa6d-441de01f6b78"/><rs type="institution" ref="#37336">Fränkischer Kurier</rs>
+                </note>
+            </p>
+        </body>
+    </text>
+</TEI>

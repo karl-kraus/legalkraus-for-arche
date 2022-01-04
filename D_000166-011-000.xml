@@ -1,0 +1,102 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000166-011-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000166-010-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000166-012-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief RA Botho Laserstein an Samek</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000166-011-000.xml</idno>
+                <idno type="URL" subtype="krausonline">https://www.kraus.wienbibliothek.at/content/brief-ra-botho-laserstein-samek-33</idno>
+                <idno type="ID" subtype="transkribus">307012</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000166">Karl
+                    Kraus ca. Wochenschrift Die Fackel</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000166-011-000-wit01" facs="#D_000166-011-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date type="sortDate" subtype="produced" when-iso=""/>
+                <date source="krausonline">29.09.1931</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/"/>
+            </textClass>
+            <particDesc/>
+            <correspDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2021-09-13" resp="#LU">created XML Document</change>
+            <change when-iso="2021-09-13" resp="#LU">Replaced Text with Transcription of Transkribus
+                Document 307012.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000166-011-000-facs001">
+        <!-- surfaces, graphics -->
+        <surface type="">
+            <graphic url="" source="wienbibliothek"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!-- lb uuids -->
+            <pb facs="" n="1"/>
+            <p xml:id="uuid_5abd8af1-987e-4573-b82e-09577e1ee8fe"><lb xml:id="uuid_d0d1d07d-ba83-4b06-a51f-8a4a7688bdb8"/>L/S. BERLIN, den 29.
+                September 1931. <lb xml:id="uuid_2723e5d4-98da-462f-83a9-7520c0c9cd91"/>Herrn <lb xml:id="uuid_6d3aa351-7f4e-46df-a32b-a5a022996ed8"/>Karl <rs type="person" ref="#11988">Kraus</rs>, <lb xml:id="uuid_e56b4bd8-8e8b-461d-b10d-6558c69dbb04"/>Wien III, Hintere
+                Zollamtsstr. 3.</p>
+            <p xml:id="uuid_d241222b-854a-487a-b149-25965aff3afa"><lb xml:id="uuid_8851f512-6f11-428e-bcd5-d081ff14e1ce"/>Sehr geehrter Herr <rs type="person" ref="#11988">Kraus</rs>! </p>
+            <p xml:id="uuid_453706d5-b401-4543-afc4-9baf5acbd601"><lb xml:id="uuid_2cef9467-9f9f-48a3-b177-4d127a73467f"/>In Sachen <rs type="institution" ref="#43724">„Die Fackel“</rs> gegen die <rs type="institution" ref="#59944">Freie Verlags<lb xml:id="uuid_8a6a04e1-2a43-4471-bdf8-91d6c9cd2cfa" break="no"/>gesellschaft</rs> bitte ich dringend um postwendende Ent<lb xml:id="uuid_3c90a9f4-30cd-4e0c-a6f4-69d7e10c9c84" break="no"/>scheidung, da man
+                uns sonst die Dringlichkeit der <lb xml:id="uuid_972dfcd5-0acc-4242-b3fa-0320c60f7347"/>einstweiligen Verfügung
+                bestreiten wird, und der Ver<lb xml:id="uuid_555bf147-899c-4e7d-8f60-7cb4a9ec839f" break="no"/>gleich m.E. im Augenblick günstig zu erzielen ist.</p>
+            <p xml:id="uuid_c908935c-fdee-46a3-a026-89569346eced"><lb xml:id="uuid_8f83d72b-bef6-4a72-8cf4-71ba878f71b7"/>Hochachtungsvoll <lb xml:id="uuid_78e873c5-435b-4dc0-8fb4-c9f65e656584"/>Dr.  <rs type="person" ref="#38969">Laserstein</rs> <lb xml:id="uuid_d34999fe-7143-45b0-9800-a9bb53328ebe"/>Rechtsanwalt.</p>
+        </body>
+    </text>
+</TEI>

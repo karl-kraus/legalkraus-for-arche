@@ -1,0 +1,113 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000059-023-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000059-022-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000059-024-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief Ernst Spitz an Samek</title>
+                <editor ref=""/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000059-023-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2398</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000059">Akten und Korrespondenzen zu den Prozessen Die Stunde ca. Ernst Spitz</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000059-023-000-wit01" facs=""/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date type="sortDate" subtype="produced" when-iso=""/>
+                <date source="krausonline">17.10.1926</date>
+            </creation>
+            <langUsage><language ident="de">Deutsch</language></langUsage>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.K.BRF</classCode>
+            </textClass>
+            <particDesc/>
+            <correspDesc>
+                <correspAction type="sent">
+                    <rs type="person" ref="">Ernst Spitz</rs>
+                </correspAction>
+                <correspAction type="received">
+                    <rs type="person" ref="">Oskar Samek</rs>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2020-02-17T09:22:17.424Z" who="#IB">created by API</change>
+            <change when-iso="2020-02-17T09:43:18.611Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-17T09:43:19.914Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-17T09:43:22.17Z" who="#JM">Checked Images Wienbibliothek</change>
+            <change when-iso="2020-02-17T09:43:23.34Z" who="#JM">Checked Images Wienbibliothek</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000303_16.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551505/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-4/59_61/00000303.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000304_14.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551506/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-4/59_61/00000304.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000305_15.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551507/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-4/59_61/00000305.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000306_14.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551508/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            <graphic url="ZPH_1545-4/59_61/00000306.jpg" source="scans"/>
+        </surface>
+    </facsimile>
+    <text>
+        <div xml:id="uuid_6cf50233-8f96-4ee1-b502-338f966ee16a" part="N" org="uniform" sample="complete">
+            <p xml:id="uuid_51abbf27-eec1-498e-abbf-27eec1598e49">[…] Zu all dem möchte ich als Kommentar bemerken, dass ich Bekessy knapp vor und knapp nach angeblichen Nierenoperationen in Wien wiederholt mit allen Anzeichen blühendster Gesundheit gesehen habe. Ich kann mich aber auch erinnern, dass solche Nierenoperationen zeitlich mit den verbrecherischsten Aktionen des Herrn Bekessy kongtuent waren. Ihnen persönlich, dürfte Be</p> <p xml:id="uuid_183edf6e-6a9d-4029-bedf-6e6a9db02942">kessy’s Sanatoriumsaufenthalt zur Zeit der Inseratenlausbüberei gegen Schmidl bekannt sein. Ich halte es für durchaus wahrscheinlich, dass sich Herr Bekessy in einem vornehmen Sanatorium in der Nähe von Paris aufhält. Man wird in einem solchen Falle seine Adresse nur erfahren, wenn er es selbst wünscht, es sei denn man könnte durch Privatdetektive, Herren wie Alexander Nadas, Paul Medina, Lorand Feller, Andreas Adorjan, Karl Benedek, usw. überwachen lassen. Ob selbst ein so kostspieliges Unternehmen, zur Ermittlung des wirklichen Gesundheitszustandes Bekessy’s führen könnte, erscheint mir mehr als zweifelhaft. Es dürfte nach allem‚ was ich über Pariser Medizin bisher hörte, hier viel leichter sein als in Wien unrichtige ärztliche Gutachten zu erhalten, ja vielleicht auch unrichtige Fakultätsgutachten und ich muss annehmen, dass die Bekessy- Leute, als sie das Gerücht über Bekessy’s lebensgefährliche Erkrankung auszusprengen begannen, bereits ein derartiges Gutachten in der Tasche hatten. Ich will aber vorläufig annehmen, dass Bekessy unvorsichtiger vorgeht als sonst und ich werde in den nächsten Tagen versuchen, Erhebungen anzustellen […] </p>
+        </div>
+    </text>
+</TEI>

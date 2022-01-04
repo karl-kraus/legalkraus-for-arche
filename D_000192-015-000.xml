@@ -1,0 +1,269 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000192-015-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000192-012-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000192-016-001.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief RA Johann Turnovsky an Max von Lobkowicz</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000192-015-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4724</idno>
+                <idno type="ID" subtype="transkribus">373048</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000192">Karl
+                    Kraus ca. Verlag Melantrich (Prag)</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000192-015-000-wit01" facs="#D_000192-015-000.xml-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1935-09-10" subtype="produced">10. September
+                    1935</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.K.BRF</classCode>
+            </textClass>
+            <particDesc/>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#43593"/>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#"/>
+                    </address>
+                    <placeName ref="#652">Prag</placeName>
+                    <date when-iso="1934-09-10">am 10.IX.1935</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#38490">ASr. Durchleucht Dr. Max Prinz Lobkowicz</persName>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#61810">Schloss Raudnitz a.E.</rs>
+                    </address>
+                    <placeName ref="#61807">Raudnitz</placeName>
+                    <date when-iso=""/>
+                </correspAction>
+                <noteGrp>
+                    <note type="subject"/>
+                    <note type="dictation"/>
+                    <note type="appendix"/>
+                </noteGrp>
+            </correspDesc>
+            <handNotes>
+                <handNote xml:id="D_000192-015-000-hand01" source="#D_000192-015-000-wit01" scribeRef="" medium="grey-pencil" cert="" resp="#IL"/>
+                <handNote xml:id="D_000192-015-000-hand02" source="#D_000192-015-000-wit01" scribeRef="" medium="black-ink" cert="" resp="#IL"/>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="intertexts" when-iso="2021-11-25" who="#IL"/>
+            <change type="header_facsimile" when-iso="2021-11-30" who="#IL"/>
+            <change type="structure" when-iso="2021-11-18" who="#IL"/>
+            <change type="references" when-iso="2021-11-22" who="#IL"/>
+            <change type="typography" when-iso="2021-11-29" who="#IL"/>
+            <change when-iso="2020-10-12T07:51:03.789Z" who="#IB">created by API</change>
+            <change when-iso="2020-10-12T07:55:31.088Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 373048.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000192-015-000.xml-facs001">
+        <surfaceGrp xml:id="D_000192-015-000.xml-facs001-l001">
+            <surface xml:id="D_000192-015-000.xml-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000167_11.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000192-015-000.xml-facs001-l001-p002" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000168_10.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000192-015-000.xml-facs001-l002">
+            <surface xml:id="D_000192-015-000.xml-facs001-l002-p003" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000169_11.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000192-015-000.xml-facs001-l002-p004" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000170_9.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000192-015-000.xml-facs001-l003">
+            <surface xml:id="D_000192-015-000.xml-facs001-l003-p005" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000171_8.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000192-015-000.xml-facs001-l003-p006" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000172_7.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="D_000192-015-000.xml-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_2a9dc701-c34a-471f-a8dd-b65e0481da8c"><lb xml:id="uuid_05897d90-d938-4dd4-8640-310b7185d3df"/><add hand="#D_000192-015-000-hand01">D)</add><lb xml:id="uuid_fd8367b5-f07f-43ff-9ad5-60e61dd34816"/>Es dürfte Eurer Durchlaucht
+                bekannt sein, <lb xml:id="uuid_6b5fc7c7-2820-4b85-b733-6353e220a340"/>dass ich die
+                Ehre habe, Herrn <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs> und den Verlag <lb xml:id="uuid_bce567bc-5162-4316-8196-9bec066630ef"/>„Die Fackel“
+                rechtsanwaltlich zu vertreten. <lb xml:id="uuid_65154bde-e4a7-4a02-87c4-193eced50fda"/>Ich führe für den Verlag
+                „Die Fackel“ Prozesse gegen den <lb xml:id="uuid_09d29ec3-7604-4190-bffb-c45dd5193761"/>Prager-Verlag „<rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37231">Melantrich</rs>“ und zwar auch einen Prozess, in wel<lb xml:id="uuid_3cba6111-49a0-4686-ab2d-6b7912c14f0e" break="no"/>chem vom Verlage
+                „Die Fackel“ auf Bezahlung jenes Betrage[s] <lb xml:id="uuid_fe6b9ff1-ab99-49b2-95b8-ca431f9dfec2"/>geklagt wird, der auf Grund
+                des zwischen beiden Verlagsan<lb xml:id="uuid_ffd7ba3c-4e33-4a35-9524-9add3a3ef2a7" break="no"/>stälten abgeschlossenen Kommissionsvertrages an meine Man<lb xml:id="uuid_f945c881-9615-4703-9bf5-4832a39d710a" break="no"/>dantin bar zu
+                bezahlen ist. In diesem Prozesse wurde vom <lb xml:id="uuid_cbbd0f30-9e77-4e06-a3d3-98cfd001296e"/>Verlage „<rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37231">Melantrich</rs>“ eingewendet, es sei überhaupt kein <lb xml:id="uuid_05b18f9d-c4bb-4f15-a5e2-7343ea5f5788"/>Vertrag zustandegekommen,
+                weswegen die Bezahlung der vom <lb xml:id="uuid_e2d0fd05-4528-4bf0-ab52-a27b45df1b1e"/><rs type="institution" ref="#43724">Verlag „Die Fackel“</rs> geforderten Beträge nicht zu erfol<lb xml:id="uuid_fc3d0211-445e-487f-85aa-5ded236548aa" break="no"/>gen habe und der
+                    <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37231">Melantrich</rs>-Verlag berechtigt sei, aus dem <lb xml:id="uuid_7da869cf-0d35-4e00-9136-22f8e0a5b11b"/>gesamten Verkaufserlöse der
+                von ihm übernommenen Bücher <lb xml:id="uuid_655c0b3f-d218-4249-b554-779c9f4862a2"/>des Verlages „Die Fackel“ seine mit dem Transport dieser <lb xml:id="uuid_822a5eba-bcc4-4c22-ab6f-81ebb50ab798"/>Bücher und mit der
+                Propaganda verbundenen Spesen zu decken. <lb xml:id="uuid_9f035f08-520c-4d86-8183-847f304bd5bb"/>Diese Behauptung ist evident
+                unrichtig und wird im Prozes[s] <lb xml:id="uuid_243f1a66-a29e-474d-b66e-b0cbe6d52659"/>widerlegt werden.</p>
+            <p xml:id="uuid_fe3f7541-4932-4738-b65a-bffaa27b08ea"><lb xml:id="uuid_159091ef-706d-40f3-ba09-53e32657dea4"/>Nicht genug daran, dass der
+                    <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37231">Verlag
+                    „Melantri[ch]“</rs>
+                <lb xml:id="uuid_968e9cdf-3d5d-4baf-be77-99ae0ba34247"/>widerrechtlich die Bezahlung
+                der meiner Mandantin gebührend[en] <lb xml:id="uuid_643619eb-dca8-43d3-b83f-8df9c0419ddc"/>Beträge verweigert, hat er
+                zur gleichen Zeit, in welcher er <lb xml:id="uuid_1521d46b-7044-44e1-8556-f21ba3e0d80e"/>die Existenz eines zwischen
+                beiden Verlagsfirmen bestehenden <pb facs="D_000192-015-000.xml-facs001-l001-p002" n="2"/>
+                <lb xml:id="uuid_699d5f88-9522-4ee1-9f13-6ccaed624036"/><subst hand="#D_000192-015-000-hand01">
+                    <del hand="#D_000192-015-000-hand01">überhaupt</del>
+                    <add hand="#D_000192-015-000-hand01">Vertrages</add>
+                </subst> leugnet, eine Klage gegen den <rs type="institution" ref="#43724">Verlag
+                    „Die Fackel“</rs>
+                <lb xml:id="uuid_73581893-81a7-4f34-9c1b-bbe4c4e9a9ed"/>überreicht, in welcher er,
+                diesmal unter Berufung auf den <lb xml:id="uuid_f6551fd7-e75c-446e-87b1-ae553e2c4355"/>bestehenden Vertrag, den
+                Ersatz sämtlicher Spesen verlangt, <lb xml:id="uuid_e3b7513c-6603-4f91-98c5-78888a387150"/>die ihm durch das
+                Kommissionsverhältnis entstanden sind. <lb xml:id="uuid_42561bde-c73f-4d67-a032-046f2ad3ff4e"/>Ich bemerke, dass diese
+                Spesen nach dem zwischen beiden Par<lb xml:id="uuid_e18942f2-53c9-4b1e-b64b-169cd95ff50b" break="no"/>teien
+                abgeschlossenen Vertrage vom <rs type="institution" ref="#43724">Verlag „Die
+                    Fackel“</rs> nicht <lb xml:id="uuid_c05078e0-f6c5-4cb3-b7dc-b04b2f931952"/>bar
+                zu bezahlen sind, sondern dass zu deren Deckung aus<lb xml:id="uuid_f09c756a-3900-466e-b506-2002e634feee" break="no"/>schliesslich die
+                Hälfte des Anteiles des <rs type="institution" ref="#43724">Verlages „Die
+                    Fackel“</rs>
+                <lb xml:id="uuid_e4b2deb5-30ee-49f6-9ffa-984fd9a6c421"/>an dem Verkaufserlöse
+                verwendet werden darf. Daraus geht <lb xml:id="uuid_b02217b2-b8ef-4dd2-99a7-eec130666efc"/>hervor, dass die Klage des
+                Verlages „<rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37231">Melantrich</rs>“ durchaus <lb xml:id="uuid_2539d279-e68d-4973-b657-6bf62ba59c4b"/>unbegründet ist. </p>
+            <p xml:id="uuid_29e51b5f-6bae-4b25-b201-df60aee79b02"><lb xml:id="uuid_29e31532-07ca-44f9-b770-36d682f6121e"/>Wie ich aus den mir
+                vorgelegten Korres<lb xml:id="uuid_d972c66a-dfc9-4833-b841-36519e4c0752" break="no"/>pondenzen ersehe, wurde, ohne Wissen des Herrn <rs type="person" ref="#11988">Kraus</rs> eine <lb xml:id="uuid_a3b93d41-4ab8-4611-b402-12ad17691754"/>Bürgschaftserklärung abgegeben, die von Eurer Durchlaucht, <lb xml:id="uuid_2a5b064a-b474-411a-ba33-9b717615f8df"/>Herrn Professor Dr. <rs type="person" ref="#41669">Jaray</rs> und Herrn Redakteur <rs type="person" ref="#51630">Jan Münzer</rs>
+                <lb xml:id="uuid_150ece7d-3f93-4aaf-8cb5-ec5d3da074f0"/>unterschrieben worden ist
+                und besagt, dass die drei genann<lb xml:id="uuid_0d2d8ed2-707f-4a92-8fb1-0e32a70e6b33" break="no"/>ten Herren für
+                die mit dem Transporte des Lagers der Bücher <lb xml:id="uuid_19fb6717-beb6-44f9-b201-347976b95de9"/>von <rs type="place" ref="#50">Wien</rs> nach <rs type="place" ref="#652">Prag</rs> verbundenen
+                Kosten bis zur Höhe von <lb xml:id="uuid_924ec304-5bab-4a75-adfc-c5948a6b9629"/><metamark function="marginal" hand="#D_000192-015-000-hand01" rend="marginLeft"/>Kč 6.000.–– garantieren. Diese Garantieerklärung hätte vom
+                    <lb xml:id="uuid_ed49fd6b-650e-46e3-9a38-25126b52474d"/><metamark function="marginal" hand="#D_000192-015-000-hand01" rend="marginLeft"/>Verlag
+                    „<rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37231">Melantrich</rs>“ schon damals nicht verlangt werden <lb xml:id="uuid_26827cef-2b7d-475b-ba3b-094f66221b39"/><metamark function="marginal" hand="#D_000192-015-000-hand01" rend="marginLeft"/>dürfen,
+                da zur Zeit der Ausstellung der Urkunde von diesem <lb xml:id="uuid_665d9a50-a7be-4699-9856-f3294df4e6f0"/><metamark function="marginal" hand="#D_000192-015-000-hand01" rend="marginLeft"/>Verlage
+                noch keinerlei Kosten aufgewendet worden sind und <lb xml:id="uuid_82542691-3e05-4d1f-82f6-ce2039e06df9"/>die später bezahlten
+                Transportspesen durch den Wert des im <lb xml:id="uuid_ea02e5fd-2476-4e1c-8f4d-2989f70fe7b9"/>Besitze des <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37231">Melantrich</rs>-Verlages befindlichen Bücherlagers <lb xml:id="uuid_f3fead2d-bebb-4300-9861-c626681cf31e"/>mehr als hinreichend
+                sichergestellt sind. Ganz abgesehen <lb xml:id="uuid_31cc4d0c-3cca-4c05-acff-bbc8ce53efb9"/><metamark function="marginal" hand="#D_000192-015-000-hand01" rend="marginLeft"/>davon hätte dem <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37231">Melantrich</rs>-Verlag die Person
+                seines Vertrags<lb xml:id="uuid_57c4d5e5-64ba-400b-95cd-998c4864fbda" break="no"/><metamark function="marginal" hand="#D_000192-015-000-hand01" rend="marginLeft"/>partners eine vollkommene
+                Garantie für die Einhaltung des <pb facs="D_000192-015-000.xml-facs001-l002-p003" n="3"/>
+                <lb xml:id="uuid_824371df-8cd2-425d-8728-53f0608ef09b"/>Vertrages und die Erfüllung
+                der vom <rs type="institution" ref="#43724">Verlag „Die Fackel“</rs> über[-] <lb xml:id="uuid_288911a6-df50-4be6-abcf-488b76e9fb20"/>nommenen Verbindlichkeiten
+                bieten müssen.</p>
+            <p xml:id="uuid_a7a9db2c-72d6-412d-b195-bffea878a133"><lb xml:id="uuid_21884595-6ccc-485d-911f-e0997bf38d65"/>Aber selbst wenn man davon
+                absehen will, dass <lb xml:id="uuid_9c2b8549-f49f-47c3-8f0d-9afeb660a3e9"/>das
+                Begehren des <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37231">Melantrich</rs>-Verlages nach Beibringung einer <lb xml:id="uuid_c0e981fb-d6f9-4574-84ae-4468a3dc04a7"/>Garantieerklärung durchaus
+                unbegründet war, so muss man doch <lb xml:id="uuid_a9154a86-5949-4df2-b90e-e10e26d66c2a"/>feststellen, dass die
+                Bedeutung dieser Erklärung nur die ist <lb xml:id="uuid_35b904f7-81f8-40c1-a2c5-c735e9c4a216"/>dass die Garanten zur
+                Bezahlung des garantierten Betrages er[st] <lb xml:id="uuid_7808970a-5513-4085-af69-b2c8ffb466d3"/>dann herangezogen werden
+                dürften, wenn feststeht, dass der <lb xml:id="uuid_ed1e8b35-0a49-435f-b825-3857271aca4f"/><rs type="institution" ref="#43724">Verlag „Die Fackel“</rs> den Ersatz der Transportspesen in eine[m]
+                    <lb xml:id="uuid_7dfd6ea1-7a25-453d-bb9d-e7c3520dc6a5"/>Zeitpunkte nicht leisten
+                kann, in welchem dieser Ersatz ge<lb xml:id="uuid_e79fbdb8-4b70-4623-8eda-a2ef8cec2859" break="no"/>fordert werden
+                darf. Dieser Zeitpunkt ist bisher überhaupt <lb xml:id="uuid_124aa46b-2c0b-4fb5-be9f-b7f9deea0c58"/>nicht eingetreten, noch
+                weniger Zahlungsunfähigkeit des <rs type="institution" ref="#43724">Ver[-] <lb xml:id="uuid_f3506412-b92c-4698-adc6-c79a6d2114fd"/>lages „Die Fackel“</rs>.
+                Ausserdem aber wurde, wie aus dem <rs type="work" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000192-011-000.xml">Brie[f]</rs>
+                <lb xml:id="uuid_3c0b2897-3f44-4e96-86d2-69c213f74b4a"/>des Redakteurs <rs type="person" ref="#51630">Jan Münzer</rs> vom 3.7.1934 klar hervorgeht, die <lb xml:id="uuid_5520ba46-68b3-4002-8c22-927b4b63e9bc"/>Garantie nur für den Fall
+                verlangt und abgegeben, dass der <lb xml:id="uuid_592d913a-a4d9-4885-9ac4-8d20b12618e5"/>Transport der Bücher „<quote xml:id="uuid_f8b17d69-e1fc-41ef-8dcb-d8b1f913b6f3" source="https://id.acdh.oeaw.ac.at/legalkraus/D_000192-011-000.xml">überhaupt
+                    nicht an den Bestimmungsort <lb xml:id="uuid_63a48063-81f5-4171-9cff-77ba086a414f"/>gelangen würde oder für
+                    den theoretischen Fall, dass der Ab<lb xml:id="uuid_f775de8f-639f-436a-bffc-5b6cda087452" break="no"/>satz der
+                    Bücher aus irgendwelchen Gründen / Verbot im Inlande, <lb xml:id="uuid_db49b355-143c-4dcd-a9fe-7d87cdf8c49c"/>Vernichtung während des
+                    Transportes, u.s.w. / unmöglich wäre</quote>“. <lb xml:id="uuid_a6ee430d-5293-463b-860b-e2581b0ff221"/>Wie Herr <rs type="person" ref="#51630">Münzer</rs> in diesem <rs type="work" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000192-011-000.xml">Briefe</rs>
+                ausdrücklich bemerkt, war <lb xml:id="uuid_acfb60cd-15bf-438a-86fc-031ab0516c97"/>die Garantie am 3.7.1934, d.i. zur Zeit der Absendung dieses <lb xml:id="uuid_876c4798-92c9-43c4-9dd6-90ad9d6170f0"/>Briefes, bereits überholt,
+                    „<quote xml:id="uuid_22564eee-8b79-4637-8b15-49352ab2311f" source="https://id.acdh.oeaw.ac.at/legalkraus/D_000192-011-000.xml">da die
+                    Bücher ja bereits hier <lb xml:id="uuid_446d701a-f032-49a7-9d6a-b8895bdfb76b"/>sind. … Die Garantiepflicht tritt normalerweise überhaupt <lb xml:id="uuid_1ceff280-d0e5-4ccf-91fa-13a48ed19047"/>nicht ein, da ja heute
+                    bereits die Bücher selbst eine Garanti[e] <lb xml:id="uuid_2e3c37c5-c800-4962-881a-d265409ff95e"/>darstellen.</quote>“</p>
+            <p xml:id="uuid_0739e4b0-1bf6-4279-b87c-7b52509f70e7"><lb xml:id="uuid_b70d0bfc-4fc6-42b6-9f57-6e4881e72816"/>Aus dieser Erklärung des
+                Herrn <rs type="person" ref="#51630">Münzer</rs>, der be[i] <pb facs="D_000192-015-000.xml-facs001-l002-p004" n="4"/>
+                <lb xml:id="uuid_80b7f494-2e9f-45f7-902e-e2846fe3dc8b"/>kanntlich die Verhandlungen
+                für den <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37231">Melantrich</rs>-Verlag geführt <lb xml:id="uuid_a3707085-1407-42d8-b209-cb087e4d27ad"/>hat, ist eindeutig
+                ersichtlich, dass dieser Verlag selbst dann <lb xml:id="uuid_f0766b8f-2641-4eb7-a906-492ab863c855"/>nicht berechtigt wäre, die
+                Garanten zur Zahlung heranzuziehen, <lb xml:id="uuid_131d9789-5a0f-4733-9e21-71119aa2e9df"/>wenn ihm, was absolut nicht
+                der Fall ist, auch das Recht zustünde, <lb xml:id="uuid_b1fb302b-fbfc-4290-ad0a-75d69c3a7d34"/>jetzt schon Zahlung zu
+                verlangen und wenn der <rs type="institution" ref="#43724">Verlag „Die Fackel“</rs>
+                <lb xml:id="uuid_ab00c66d-d48f-475f-8630-200eb40d2d76"/>nicht in der Lage wäre,
+                Zahlung zu leisten.</p>
+            <p xml:id="uuid_d7efb293-8f9c-4468-881f-ef8f8ac66242"><lb xml:id="uuid_65f7a767-1ee4-4853-b1b9-8f88d09a253d"/>Nun wurde Herrn <rs type="person" ref="#11988">Kraus</rs> mitgeteilt, dass der <lb xml:id="uuid_bd15bcb6-e43f-451d-b5fd-59399bd11a48"/>Verlag „<rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37231">Melantrich</rs>“ die Kühnheit hatte, Euere Durchlaucht zur <lb xml:id="uuid_e083ecc5-26ea-4b41-99e5-ca50bc38876c"/>Bezahlung der garantierten
+                Kč 6.000.–– .au<subst hand="#D_000192-015-000-hand02">
+                    <del hand="#D_000192-015-000-hand02">s</del>
+                    <add hand="#D_000192-015-000-hand02">f</add>
+                </subst>zufordern und dass <lb xml:id="uuid_46809dfa-706f-451f-bd2e-2bf572b1d7c3"/>darauf tatsächlich dieser Betrag überwiesen worden ist. Herr <lb xml:id="uuid_ce48fe79-4a63-4ffa-ada1-127b2d8b0f29"/><rs type="person" ref="#11988">Kraus</rs> war darüber ausserordentlich bestürzt und da ich als
+                sein <lb xml:id="uuid_4dbeb760-90f7-4614-ad6f-9a728c76959a"/>Anwalt von dieser Sache
+                Kenntnis erlangt habe, gestatte ich mir <lb xml:id="uuid_7b1b7970-3ac0-4eb2-9fd4-a1a3e39fc0b7"/>darauf aufmerksam zu machen,
+                dass die erfolgte Bezahlung eine <lb xml:id="uuid_f3fa49d2-7b6c-4bf0-a9e9-12453ab250eb"/>ungerechtfertigte
+                Bereicherung des <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37231">Melantrich</rs>-Verlages
+                darstellt, <lb xml:id="uuid_44ddac93-621b-445b-a9de-d1535afb8024"/>gegen die nicht
+                nur schwerwiegende juristische, sondern auch <lb xml:id="uuid_d2f31f50-c443-4621-b2e4-c50744a9ff60"/>moralische Bedenken
+                vorliegen. / Der <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37231">Melantrich</rs>-Verlag zahlt <lb xml:id="uuid_1f50f8c2-06d5-429e-bc75-084aa09885a4"/>nicht, was er zu zahlen
+                verpflichtet ist, klagt den <rs type="institution" ref="#43724">FACKEL-Verlag</rs>
+                <lb xml:id="uuid_9b82e782-c337-45fe-9132-533105e73ea5"/>auf Bezahlung sämtlicher
+                Spesen, die er zum Teil überhaupt nicht, <lb xml:id="uuid_548c0b4c-d7cb-438c-ac38-7788e8f685b5"/>zum Teil noch nicht zu
+                fordern hat, und verlangt noch darüber <lb xml:id="uuid_1ae80a21-e1a0-48e7-b34b-2ee998b63524"/>hinaus weitere 6.000.–– Kč
+                aus dem Titel einer bereits erloschenen <lb xml:id="uuid_9e3e67e5-865e-4c94-9cab-bddff219be6a"/>Garantie. / </p>
+            <p xml:id="uuid_61007cc3-925a-4898-a05d-e003f11bdb0c"><lb xml:id="uuid_d7d477e0-0b79-4c20-97e5-73b22724f6ef"/>Es wäre also mehr als
+                angebracht, ja es ist <lb xml:id="uuid_d004dd4a-2db8-44e7-ac26-38526254a30f"/>sogar
+                notwendig, den an den <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37231">Melantrich</rs>-Verlag bezahlten
+                Betrag <lb xml:id="uuid_6dfa5b3d-1011-4b21-9421-04508d9fe72b"/>von 6.000.–– Kč
+                zurückzuverlangen, weswegen ich mir gestattet <lb xml:id="uuid_8682e74d-7a50-4f8a-bae5-8088d4cf9df3"/>habe, Euerer Durchlaucht die
+                ganze Sachlage zu schildern und mir <lb xml:id="uuid_b68efae9-8cc5-448d-a18e-c53d79934ecf"/>erlaube, Ihnen nahezulegen,
+                den <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37231">Melantrich</rs>-Verlag zur Rückerstat<lb xml:id="uuid_f2a8090b-a319-479e-8dde-13e5b5a6955d" break="no"/>tung des Betrages
+                aufzufordern. Ich bin natürlich mit Vergnügen <pb facs="D_000192-015-000.xml-facs001-l003-p005" n="5"/>
+                <lb xml:id="uuid_7c91e7d5-9fd4-4b83-bcd4-7abf00d7f893"/>bereit, dies für Euere
+                Durchlaucht zu tun und bitte, mich hiezu <lb xml:id="uuid_40a16310-3d66-4bff-9428-9732aa8b6de3"/>zu ermächtigen.</p>
+            <p xml:id="uuid_893c48b5-911c-4603-a678-7986a05d4fd1"><lb xml:id="uuid_7a783c96-cfef-4ddf-90e6-d1570a4ea882"/>Mit dem Ausdrucke der
+                vorzüglichsten Hochach[tung] <lb xml:id="uuid_a62bab13-20dc-4072-8378-fb1bea72c8c2"/>ergebener:</p>
+            <p xml:id="uuid_9fe24e16-0ca6-44e2-8954-89cb422f1dfb"><lb xml:id="uuid_901f05e8-4fd0-4e69-be1b-aa3f714010da"/>P.S. <lb xml:id="uuid_678b37fd-80cf-432f-93f2-d59ab59fa7a4"/>Jedenfalls bitte ich um die
+                Mitteilung, wann der Betrag von <lb xml:id="uuid_8d0d3027-0123-4919-b86f-c07e21a970c9"/>6.000.–– Kč überwiesen
+                worden ist.</p>
+            <pb facs="D_000192-015-000.xml-facs001-l003-p006" n="6"/>
+            <p xml:id="uuid_151451fd-15ac-47c3-896f-d225976d9b18"><lb xml:id="uuid_6f645d03-981e-463d-b1fc-627d275b8d47"/><rs type="person" ref="#11988">Kraus</rs>
+                <lb xml:id="uuid_ee246dc6-f552-474d-ad29-b0bbe5765ca7"/><rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37231">Melantrich</rs></p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,368 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000196-090-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-082-001.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-094-001.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Protokoll der Zeugeneinvernahme von Karl Kraus]</title>
+                <editor ref="#AR">Alexandra Rausch</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name full="yes" instant="false">Austrian Centre for Digital Humanities and
+                        Cultural Heritage, Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name full="yes" instant="false">Ludwig Boltzmann Institut für Digital
+                        History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name full="yes" instant="false">Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date instant="false">2021</date>
+                <availability default="false">
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000196-090-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/5076</idno>
+                <idno type="ID" subtype="transkribus">400665</idno>
+            </publicationStmt>
+            <seriesStmt default="false">
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000196">Karl
+                    Kraus ca. Arbeiter-Zeitung (Brünn)</title>
+            </seriesStmt>
+            <sourceDesc default="false">
+                <listWit>
+                    <witness xml:id="D_000196-090-000-wit01" facs="#D_000196-090-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1936-04-30" subtype="produced" instant="false">30.
+                    April 1936</date>
+            </creation>
+            <langUsage default="false">
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass default="false"/>
+            <particDesc default="false"/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2020-10-12T09:52:56.545Z" who="#IB" status="draft">created by
+                API</change>
+            <change when-iso="2020-10-12T11:11:24.132Z" who="#IB" status="draft">Replaced Text with
+                Transcription of Transkribus Document 400665.</change>
+            <change type="intertexts" when-iso="2021-10-19" who="#AR" status="draft"/>
+            <change type="typography" when-iso="2021-10-19" who="#AR" status="draft"/>
+            <change type="references" when-iso="2021-10-19" who="#AR" status="draft"/>
+            <change type="structure" when-iso="2021-10-19" who="#AR" status="draft"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000196-090-000-facs001">
+        <surfaceGrp xml:id="D_000196-090-000-facs001-l001">
+            <surface xml:id="D_000196-090-000-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000508.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000196-090-000-facs001-l001-p002" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000509.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000196-090-000-facs001-l002">
+            <surface xml:id="D_000196-090-000-facs001-l002-p003" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000510.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000196-090-000-facs001-l002-p004" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000511.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000196-090-000-facs001-l003">
+            <surface xml:id="D_000196-090-000-facs001-l003-p005" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000512.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb n="1" facs="#D_000196-090-000-facs001-l001-p001"/>
+            <p xml:id="uuid_47a053bf-42aa-466c-872a-801bed646e1f"><lb xml:id="uuid_cca150d4-d309-4a00-a150-d4d3097a00f8"/>30. dubna 1936 </p>
+            <p xml:id="uuid_01255354-375b-4df5-8f61-8926c9fbff1f"><lb xml:id="uuid_6856d735-dbca-437a-96d7-35dbcae37a34"/>10 </p>
+            <p xml:id="uuid_72655a7d-b11d-4ba5-8c5e-310d31f00c98"><lb xml:id="uuid_27548171-bfa1-4fd0-9481-71bfa11fd08c"/><rs type="person" ref="#60384">Dr. Libenský</rs>
+            </p>
+            <p xml:id="uuid_ce988cad-ce5c-420d-a07b-7e976bec483f"><lb xml:id="uuid_31f86855-cd04-421a-b868-55cd04321a88"/><rs type="person" ref="#43653">Josefu Schramkovi</rs> a <rs type="person" ref="#25105">Hugonu
+                    Sonnenscheinovi</rs>
+            </p>
+            <p xml:id="uuid_3782cd85-7325-4477-a723-504d89bc80eb"><lb xml:id="uuid_71343fef-68c3-4540-b43f-ef68c3b540db"/><rs type="person" ref="#11988">Karel Kraus</rs>
+                <lb xml:id="uuid_246bd6ff-1b04-47ea-abd6-ff1b0437eaea"/>62 <lb xml:id="uuid_7d28b4a0-df3d-4471-a8b4-a0df3d947119"/><rs type="place" ref="#41660">Jičíin</rs>
+                <lb xml:id="uuid_f89936ce-9cd3-4030-9936-ce9cd38030e7"/>bez vyznáäínl <lb xml:id="uuid_da8043a4-337e-43fd-8043-a4337ef3fd71"/>svobodný <lb xml:id="uuid_1747677b-d13b-4fe4-8767-7bd13b1fe4ac"/>spisovatel <lb xml:id="uuid_ff78b5b2-c65d-40b3-b8b5-b2c65d10b31d"/><rs type="place" subtype="address" ref="#52568">Vífdňn I, LLothringerstrasse 6</rs>
+            </p>
+            <p xml:id="uuid_1857061f-affc-4a3b-8200-7234bfe40cde"><lb xml:id="uuid_6a493a4a-3c6f-415e-893a-4a3c6f515eb8"/>bez pomǒřu </p>
+            <p xml:id="uuid_b3c6c40e-30ba-4198-957b-91b7097666d2"><lb xml:id="uuid_477195e4-a2a9-46ff-b195-e4a2a966ff73"/>K věci: Die <rs type="work" ref="#41244">Fackel</rs> erscheint seit jeher in einer einzigen <lb xml:id="uuid_01127dba-b6aa-4cc4-927d-bab6aaecc475"/>Auflage. Die Hefte, die in
+                der <rs type="place" ref="#38444">C.S.R.</rs> verkauft werden, unterscheiden <lb xml:id="uuid_35718102-8bc8-47da-b181-028bc887da9e"/>sich von den in <rs type="place" ref="#41240">Oesterreich</rs> zum Verkauf kommenden einzig und
+                allein <lb xml:id="uuid_a36d9292-d11c-4337-ad92-92d11c1337e7"/>dadurch, dass auf den
+                Umschlägen der in die <rs type="place" ref="#38444">C.S.R.</rs> versendeten <lb xml:id="uuid_ffd34add-06aa-42d4-934a-dd06aad2d4b1"/>Hefte der Preis in ČK, in
+                    <rs type="place" ref="#41240">Oesterreich</rs> jedoch in ÖS angezeigt wird, <lb xml:id="uuid_10e6735f-bb3f-401a-a673-5fbb3f101ac7"/>ebenso wie z.B. die Hefte
+                die in die <rs type="place" ref="#43435">Schweiz</rs> gehen, einen Preisauf<lb xml:id="uuid_41897215-4f14-4421-8972-154f14f4215c" break="no"/>druck in schw.Fr.
+                haben. </p>
+            <p xml:id="uuid_f44381aa-b8c6-4548-b9ae-4f2e1117ae0a"><lb xml:id="uuid_f1629f71-6786-4a50-a29f-716786ba50b0"/>lch gebe die Zeitschrift <rs type="work" ref="#41244">Fackel</rs> seit 37 Jahren heraus, einige <lb xml:id="uuid_66ee6500-f3e4-412e-ae65-00f3e4012e69"/>Arbeiten sind
+                ausschliesslich in dieser <rs type="work" ref="#41244">Zeitschrift</rs> erschienen,
+                nur <lb xml:id="uuid_553cf8dc-0d2a-4519-bcf8-dc0d2a651979"/>Vorabdrucke sind u.zw.
+                bloss in den Jahren 1908, 1909 im <lb xml:id="uuid_213a9224-1af1-48a0-ba92-241af138a021"/><rs type="work" ref="#50245">Simplizissimus</rs> in <rs type="place" ref="#45258">München</rs> erschienen,
+                auch, wie ich glaube zweimal <pb n="2" facs="#D_000196-090-000-facs001-l001-p002"/>
+                <lb xml:id="uuid_381e53d8-311a-43e9-9e53-d8311a13e924"/>in der zum <rs type="work" ref="#50245">Simplizissimus</rs> gehörenden Zeitschrift „<rs type="work">der
+                    März</rs>“. </p>
+            <p xml:id="uuid_3898e4d1-3096-4753-a94d-f2001ff61beb"><lb xml:id="uuid_dfc8cc4c-c32f-44b9-88cc-4cc32fd4b97f"/>Die Behauptung, dass ich
+                eine ungeschminkte Verehrung des <lb xml:id="uuid_231642e8-1172-4ada-9642-e811725ada7d"/>Militarismus, des österr.
+                Adels und der Aristokratie geäussert <lb xml:id="uuid_352f78a5-2d3d-427b-af78-a52d3d927b42"/>hätte, ist eine freie
+                Erfindung. Jeder der mein schriftstellerisches <lb xml:id="uuid_dc146e64-c12a-4ea3-946e-64c12acea3ab"/>Werk auch nur oberflächlich
+                kennt, muss das Gegenteil wissen und <lb xml:id="uuid_bfbf7328-4f96-4b9a-bf73-284f967b9a0e"/>bezeugen können. Wegen der
+                Notiz über <rs type="place" ref="#851">Pola</rs> und des Artikels in der <lb xml:id="uuid_efebfd8c-a7f2-4b19-abfd-8ca7f2fb1994"/><rs type="work" ref="https://fackel.oeaw.ac.at/f/404,0u1">Nummer 400–403</rs> der <rs type="work" ref="#41244">Fackel</rs> verweise ich auf die Ausführungen des <lb xml:id="uuid_dfc86345-22fb-4a71-8863-4522fbaa7120"/>von meinem <rs type="person" ref="#51575">Anwalt</rs> am 25. April 1936 überreichten <rs type="work" ref="#D_000196-084-000">Schriftsatzes</rs> und <lb xml:id="uuid_277c40f6-3571-480d-bc40-f63571380da6"/>erhebe die dort gemachten
+                Angaben zu meiner Zeugenaussage. Es han<lb xml:id="uuid_c2570d6b-0c06-4d6d-970d-6b0c064d6dde" break="no"/>delte sich bei
+                den gerade erwähnten Artikeln um Antithesen gegen<lb xml:id="uuid_f1e96677-38c7-49f9-a966-7738c749f98e" break="no"/>über eines von
+                mir unausgesetzt bekämpften, weil als verderblich <lb xml:id="uuid_277ca567-154e-47ff-bca5-67154e37ff39"/>und gefährlich erkannten
+                Literaten- und Journalistentums. Meine Haltung <lb xml:id="uuid_b8e3660f-0ad9-4be6-a366-0f0ad9bbe607"/>gegenüber diesem
+                Journalisten- und Literatentum ist durch die 37 Jah<lb xml:id="uuid_1b5236f6-8c77-47f3-9236-f68c77b7f31e" break="no"/>re vollkommen
+                unverändert geblieben. Ebenso habe ich während dieser <lb xml:id="uuid_cc407e9b-4515-4a6b-807e-9b45151a6b4d"/>37jährigen
+                schriftstellerischen Tätigkeit die Politik als Beruf <lb xml:id="uuid_79a7bc05-3a3f-4f4e-a7bc-053a3f1f4ea5"/>verneint und bekämpft. Eine
+                vollkommene Klarstellung meiner Haltung <lb xml:id="uuid_bdb0c56d-9fac-476b-b0c5-6d9fac176bd2"/>in diesem Punkt ist in einem
+                Aufsatz „<rs type="work">Politik</rs>“, der 1908 erschie<lb xml:id="uuid_7f782a8d-0ddc-4c6a-b82a-8d0ddccc6ae8" break="no"/>nen ist / in
+                meinem Buch „<rs type="work" ref="#53915">die chinesische Mauer</rs>“ / und auch in
+                    <lb xml:id="uuid_ae127d2a-a23b-4cc4-927d-2aa23b0cc488"/>einem damals
+                veröffentlichten <rs type="work">Fackelheft</rs> / enthalten. Es ist die <lb xml:id="uuid_cb53e29a-3f42-401a-93e2-9a3f42001a74"/>krasseste und
+                phantastischeste aller Unwahrheiten, dass ich, der <lb xml:id="uuid_3a7fabee-09e7-4695-bfab-ee09e7169568"/>ich den Krieg vom Anfang bis
+                zum Ende in 104 Heften der <rs type="work" ref="#41244">Fackel</rs> ohne <lb xml:id="uuid_eca9e267-3620-4cd6-a9e2-673620acd61a"/>Rücksicht und ohne Furcht
+                vor jeder Zensur und Verfolgung bekriegt <lb xml:id="uuid_1c6837b4-9e2b-4f7e-a837-b49e2b1f7e01"/>habe, jemals auch nur eine
+                Zeile, ja ein Wort zu Gunsten des <lb xml:id="uuid_446f571e-0ff2-4f92-af57-1e0ff26f9278"/>Krieges geschrieben oder
+                gesprochen hätte. Es ist eine nicht min<lb xml:id="uuid_bef1dc1f-a0da-4060-b1dc-1fa0da0060d9" break="no"/>der phantastische
+                Unwahrheit, dass ich die deutsche Kriegsbejahung <lb xml:id="uuid_82562011-39df-4844-9620-1139df584439"/>jemals bejaht hätte, während
+                es wahr ist, dass ich sie in sämtli<lb xml:id="uuid_fa5d3f22-c569-4398-9d3f-22c569e398f0" break="no"/>chen Zeilen von
+                104 Heften der <rs type="work" ref="#41244">Fackel</rs>, die sich mit dem Krief
+                    be<lb xml:id="uuid_f60d58e2-c73d-41f3-8d58-e2c73df1f3a4" break="no"/>fasst
+                haben, bekämpft und verhöhnt habe und dass die <rs type="work" ref="#41244">Fackel</rs> dafür <lb xml:id="uuid_b326e745-b6f0-4a6d-a6e7-45b6f00a6d41"/>auch
+                wiederholt in der Vorzensur an zahllosen Stellen und ganzen Ar<lb xml:id="uuid_fd811ed9-3c2f-4708-811e-d93c2f570805" break="no"/>tikeln
+                konfisziert wurde. Zum anschaulichen Beweis dessen lege ich <lb xml:id="uuid_7bb59c46-14da-4f14-b59c-4614da4f145f"/>eine der vielen
+                Fackelnummern aus dem Krieg / <rs type="work" ref="https://fackel.oeaw.ac.at/f/426,0u1">Nr. 426–430</rs> / vor. <lb xml:id="uuid_d761813a-67ab-4d9e-a181-3a67ab2d9e04"/>Im Krieg wurde gegen mich
+                ein Verfahren wegen Verbrechens gegen die <lb xml:id="uuid_ce3b77c1-ab97-4849-bb77-c1ab972849e4"/>Kriegsgewalt eingeleitet,
+                das längere Zeit, etwa 1 1/2 Jahre im <lb xml:id="uuid_75694c32-b360-4f55-a94c-32b3606f5503"/>gang war und erst von der
+                Regierung <rs type="person" ref="#28855">Lammasch</rs> eingestellt wurde. <lb xml:id="uuid_610bff2c-e04b-4cec-8bff-2ce04b2cecb9"/>Die Beschuldigung gegen mich
+                gründete sich darauf, dass ich in einer <lb xml:id="uuid_ef786c6d-2f7a-42a2-b86c-6d2f7ad2a27c"/>Vorlesung die Worte
+                gesprochen hätte: „Meine Herren Offiziere, <lb xml:id="uuid_c6ac0d35-d084-44ab-ac0d-35d08494abb7"/>die ich hier versammelt
+                sehe, ziehen sie nicht in den Krieg, zerbre<lb xml:id="uuid_aeba914f-f4f9-4229-ba91-4ff4f9e22954" break="no"/>chen sie die
+                Säbel, zerreissen sie die Portepees, sie werden der <lb xml:id="uuid_385d5016-63b9-452d-9d50-1663b9f52dd3"/>Menschheit den grössten
+                Dienst erweisen.“ Bei meiner Einvernahme <lb xml:id="uuid_5b56afa8-67ed-4939-96af-a867eda9397d"/>über diese Anschuldigung
+                habe ich angegeben, dass ich diese Worte <lb xml:id="uuid_85920f35-1d99-42fb-920f-351d99e2fbc4"/>in meiner Vorlesung wohl
+                nicht gebraucht hätte, dass jedoch die <lb xml:id="uuid_80751e65-2755-491a-b51e-652755f91a01"/>Gesinnung dieser Worte
+                durchaus der meinen entspricht, wie aus der <lb xml:id="uuid_8dc5606f-c2bb-477e-8560-6fc2bb677e4a"/><rs type="work" ref="#41244">Fackel</rs> selbst deutlich hervorgehe. </p>
+            <p xml:id="uuid_bb69acc8-6142-4416-802f-aa901e066cda"><lb xml:id="uuid_c1534885-218f-4b2c-9348-85218f4b2c50"/>Zu dem verstümmelten zweiten
+                Zitat aus der <rs type="work" ref="https://fackel.oeaw.ac.at/f/400,0u1">Fackel</rs>
+                Nr. vom 14. Juli <lb xml:id="uuid_60452e4d-3217-4a1d-852e-4d3217aa1d0a"/>1914 /
+                richtig vom 10. Juli 1914 /, das in meinem <rs type="work" ref="#D_000196-084-000">Schriftsatz</rs> vom <lb xml:id="uuid_c7774ecb-37df-4ebc-b74e-cb37dfeebc11"/>25. April 1936 vollständig wiedergegeben ist, führe ich an, dass <lb xml:id="uuid_00fcc886-ca07-49ee-bcc8-86ca0719eef2"/>es sich hier um eine
+                satirisch übertriebene Absage an falsche <lb xml:id="uuid_fc2eef1c-2ba8-4c32-aeef-1c2ba8ac32ef"/>Fortschrittsgeister
+                gehandelt hat, die stets unverändert meiner <lb xml:id="uuid_c6eb195d-51ea-428c-ab19-5d51ea328c0d"/>Meinung entsprach und
+                entspricht. Was dieses von den Angeklagten <lb xml:id="uuid_fac1df6c-914f-4e34-81df-6c914f4e34a5"/>als Argument gebrauchte
+                unvollständige Zitat mit „<quote xml:id="uuid_5cbc5ff3-449f-4b4a-aa3e-1ec79fe38e23" source="#D_000196-061-000">Gleichschal<lb xml:id="uuid_57034863-115f-4c5f-8348-63115f4c5f43" break="no"/>tung</quote>“
+                nach zwei Jahrzehnten oder gar Profitmacherei zu tun haben <lb xml:id="uuid_0bdc14a5-f9d0-4ddd-9c14-a5f9d01ddd68"/>soll, dürfte Niemandem
+                erfindlich sein. </p>
+            <p xml:id="uuid_b3dda152-c23b-451f-a7ea-5794076a15a6"><lb xml:id="uuid_5386a3ff-62ac-4b59-86a3-ff62aceb59f9"/>Der Einfall der Angeklagten,
+                dass ich das Kriegsmanifest <lb xml:id="uuid_40bb31d4-7d41-402e-bb31-d47d41a02ec9"/><rs type="person" ref="#2513">Franz Josefs</rs> mit Begeisterung begrüsst
+                hätte – in einem damals <lb xml:id="uuid_290f616b-cdd7-4740-8f61-6bcdd74740cb"/>Aufsehen erregenden <rs type="work" ref="https://fackel.oeaw.ac.at/f/404,001">Aufsatz</rs> und Vortrag, die sich eindeutig gegen <lb xml:id="uuid_835e16ef-43d7-4b11-9e16-ef43d72b114a"/>den Krieg kehrten –
+                ermöglicht wegen seiner Absurdität, die sich <lb xml:id="uuid_f083c91d-b149-4cce-83c9-1db1490ccef1"/>für jeden unbefangenen Leser
+                aus dem <rs type="work" ref="https://fackel.oeaw.ac.at/f/404,001">Artikel</rs>
+                selbst ergibt, über<lb xml:id="uuid_147585ad-f7d8-47d7-b585-adf7d8f7d780" break="no"/>haupt keine Abwehr. Im Detail verweise ich auf die wahrheitsgetreu<lb xml:id="uuid_2f481aff-df9d-4906-881a-ffdf9dc906aa" break="no"/>en Ausführungen
+                des <rs type="work" ref="#D_000196-084-000">Schriftsatzes</rs> vom 25. April l.J.
+                und die dem <lb xml:id="uuid_e47f376b-58ba-4d3b-bf37-6b58ba4d3b9e"/><rs type="work" ref="#D_000196-084-000">Schriftsatz</rs> angeschlossenen Urkunden. <pb n="3" facs="#D_000196-090-000-facs001-l002-p003"/>
+            </p>
+            <p xml:id="uuid_3f07b769-8605-4437-9c7a-13ce035ec8a1"><lb xml:id="uuid_d8b1f6c9-3a87-47d7-b1f6-c93a8717d727"/>Gegen den Krieg habe ich
+                damals ganz allein gekämpft, ihn <lb xml:id="uuid_0d95e0a0-d20f-4b4d-95e0-a0d20f7b4dbf"/>in jeder Form und in allen
+                seinen Erscheinungen perhorresziert <lb xml:id="uuid_f3b74a9c-859c-455f-b74a-9c859c355f1e"/>und ihn ebenso verabscheut
+                wie alles das, was sich gegen Geist <lb xml:id="uuid_186cda7d-748d-4961-acda-7d748d1961ea"/>und Humanität wendet und sie
+                schändet. Das absurde Missverständ<lb xml:id="uuid_3312cf9f-a730-4d1f-92cf-9fa730ed1f5d" break="no"/>nis der <rs type="work" ref="https://fackel.oeaw.ac.at/f/404,0u1">Fackelnummer 404</rs> aus
+                dem Dezember 1914 wurde schon <lb xml:id="uuid_81bf5b70-86be-4763-bf5b-7086be676334"/>seinerzeit von mir in zwei Artikeln in seinem kompletten Aber<lb xml:id="uuid_3ea4ecd5-92b5-4440-a4ec-d592b51440f7" break="no"/>witz und seiner
+                Böswilligkeit entlarvt. / Siehe Fackel <rs type="work" ref="https://fackel.oeaw.ac.at/f/531,0u1">Nr. 531– <lb xml:id="uuid_5647b976-0057-4342-87b9-760057a34249"/>543</rs> vom April 1920. </p>
+            <p xml:id="uuid_af4d6116-8e63-418a-bad8-e3476c7f4cfa"><lb xml:id="uuid_c40f16e4-2681-4a8f-8f16-e42681fa8f8d"/>Ebenso phantastisch ist die
+                Behauptung der Angeklagten, <lb xml:id="uuid_657ed4fc-1f97-43c4-bed4-fc1f97a3c400"/>ich hätte meine politische Gesinnung nach dem Krieg geändert. <lb xml:id="uuid_33a7ddcf-d7cd-4ec0-a7dd-cfd7cdeec0d7"/>Das gerade Gegenteil ist
+                wahr. Die Gesinnung, die ich vor dem <lb xml:id="uuid_051547d3-4efe-4bf5-9547-d34efebbf563"/>Kriege, unter Gefährdung
+                meiner Freiheit und Existenz dem gan<lb xml:id="uuid_70eb871f-7e04-4e0a-ab87-1f7e04be0a5c" break="no"/>zen Krieg
+                hindurch in Wort und Schrift, in <rs type="place" ref="#41240">Oesterreich</rs> und
+                in <lb xml:id="uuid_6cc6e6a5-f715-4a54-86e6-a5f7156a54bf"/><rs type="place" ref="#151">Deutschland</rs> betätigt hatte, habe ich nach dem Krieg unverändert
+                    <lb xml:id="uuid_db40f2fd-45c2-4ee3-80f2-fd45c26ee391"/>weiter betätigt. Ich
+                lege ein Heft der Fackel <rs type="work" ref="https://fackel.oeaw.ac.at/f/454,0u1">Nr. 454–456</rs>
+                <lb xml:id="uuid_4e6ba049-7c1e-41cf-aba0-497c1e11cffa"/>vor auf deren Seiten <rs type="work" ref="https://fackel.oeaw.ac.at/f/454,029">29</rs> und <rs type="work" ref="https://fackel.oeaw.ac.at/f/454,030">30</rs> angeführt ist, was
+                ich damals in <lb xml:id="uuid_05fa7091-3d36-4c3a-ba70-913d36ac3a8d"/><rs type="place" ref="#151">Deutschland</rs> öffentlich vorgelesen habe und welche
+                Wirkungen <lb xml:id="uuid_1bbbdf37-1060-41bd-bbdf-37106041bd60"/>mein Auftreten in
+                    <rs type="place" ref="#146">Frankfurt</rs> auf das dortige <rs type="institution">deutsch-nationale <lb xml:id="uuid_adc0deec-b958-4e6a-80de-ecb9586e6aa4"/>Blatt</rs> ausgeübt hat.
+                In <rs type="place" ref="#50">Wien</rs> habe ich mitten im Krieg öffentlich <lb xml:id="uuid_7ad930c5-51a5-4087-9930-c551a5008794"/>das von mir verfasste „<rs type="work" ref="https://fackel.oeaw.ac.at/f/499,006">Lied des
+                Alldeutschen</rs>“ vorgetragen, <lb xml:id="uuid_5f067546-c200-4aa3-8675-46c2001aa3c7"/>ein Gedicht, das die
+                schärfste Verhöhnung der deutschen <lb xml:id="uuid_f55d7989-296f-45ec-9d79-89296f45ec30"/>Kriegsaspirationen und der
+                deutschen Kriegsbarberei darstellte. <lb xml:id="uuid_a058c14e-514f-419a-98c1-4e514fb19a18"/>In <rs type="place" ref="#168">Berlin</rs> habe ich damals die Verhöhnung <rs type="person" ref="#2566">Wilhelms</rs> in der <lb xml:id="uuid_6ea909b3-377d-4bc6-a909-b3377d1bc605"/>Glosse „<rs type="work" ref="https://fackel.oeaw.ac.at/f/474,155">Ein Kantianer und Kant</rs>“ und
+                insbesondere in dem <lb xml:id="uuid_31ebd5ac-b968-4b34-abd5-acb968cb3465"/>Gargantuazitat sowohl zum Entsetzen wie zur Begeisterung mei<lb xml:id="uuid_08fe5ac5-3965-4bea-be5a-c539656bea03" break="no"/>ner Zuhörerschaft
+                öffentlich vorgetragen. </p>
+            <p xml:id="uuid_50f5cca4-0556-4b19-ac28-ebf130412e25"><lb xml:id="uuid_6df08de0-f07f-4311-b08d-e0f07fa3111d"/>Ich leugne keineswegs, dass
+                ich der Wiener Sozialdemokra<lb xml:id="uuid_521ca1cd-4805-4ac3-9ca1-cd48057ac3d6" break="no"/>tie, die sich in den späteren Kriegsjahren meinem Kampf gegen <lb xml:id="uuid_d398a699-2cce-43fc-98a6-992cced3fcf6"/>den Krieg, namentlich in
+                Angriffen gegen die Auditoriate ange<lb xml:id="uuid_87975a66-d0b7-4ca6-975a-66d0b71ca6c4" break="no"/>schlossen hat,
+                freundlich gegenüber gestanden bin und aus die<lb xml:id="uuid_4bc33fe6-43a3-4f89-833f-e643a37f8920" break="no"/>sem Grunde auch
+                die <rs type="work" ref="https://fackel.oeaw.ac.at/f/508,030">Notiz</rs> im März
+                1919 / richtig April 1919 / <lb xml:id="uuid_03e50650-19f0-405b-a506-5019f0405b19"/>veröffentlicht und gesprochen habe, die nicht einen „Wahlauf<lb xml:id="uuid_fa1162d2-dc30-4a7c-9162-d2dc30aa7c58" break="no"/>ruf“ darstellte,
+                sondern die Wahl des „kleinern Uebels“ em<lb xml:id="uuid_bb93213a-7775-494b-9321-3a7775394b81" break="no"/>pfahl, das ja
+                schon damals für mich ein politischer Begriff <lb xml:id="uuid_be39b568-20f9-4ec0-b9b5-6820f91ec022"/>war. Dass ich kein Anhänger
+                der Sozialdemokratie war, geht aus <lb xml:id="uuid_0d77c379-0602-4b76-b7c3-790602eb76f0"/>dem Wortlaut eben des <rs type="work" ref="https://fackel.oeaw.ac.at/f/508,030">Artikels</rs> der <rs type="work" ref="https://fackel.oeaw.ac.at/f/508,0u1">Fackelnummer 508–513</rs>
+                hervor, <lb xml:id="uuid_9ec274a9-3187-441d-8274-a93187641dfd"/>wo es heisst: „…
+                    <quote xml:id="uuid_aab74dd1-9332-44d0-aa4f-5c7efd776e08" source="https://fackel.oeaw.ac.at/f/508,031">mögen ihn alle Interessen oder
+                    Ideale <lb xml:id="uuid_655c3f02-1f4a-4a29-9c3f-021f4a0a29a0"/>einer
+                    Friedenswelt von der Sozialdemokratie scheiden</quote> …“. <lb xml:id="uuid_b0e7bea8-fb8b-4877-a7be-a8fb8b3877f9"/>Es kann also auch in diesem
+                Punkt ein „Widerspruch“ oder gar <lb xml:id="uuid_d5dd5e23-0e9e-42fa-9d5e-230e9e02fa9b"/>„Gesinnungswechsel“ weder für die Vergangenheit noch für die <lb xml:id="uuid_1e8356b2-27d9-4f37-8356-b227d91f3746"/>Zukunft behauptet werden. </p>
+            <p xml:id="uuid_cad9be8e-20ee-438a-bd83-3fd57cdbdde6"><lb xml:id="uuid_a0a6c2df-1f7e-4536-a6c2-df1f7ea53652"/>Das gerade erwähnte <rs type="work" ref="https://fackel.oeaw.ac.at/f/508,0u1">Heft</rs> der <rs type="work" ref="#41244">Fackel</rs> aus dem April 1919 <lb xml:id="uuid_c5f49166-7c9d-4df5-b491-667c9d8df53b"/>enthält übrigens auch eine
+                nicht vollständige Zusammenstellung <lb xml:id="uuid_81f9e3a0-6541-4f30-b9e3-a065419f303e"/>verschiedener Konfiskationen
+                der <rs type="work" ref="#41244">Fackel</rs> aus der Kriegszeit <lb xml:id="uuid_4708909c-6882-48e7-8890-9c6882a8e766"/>/ <rs type="work" ref="https://fackel.oeaw.ac.at/f/508,056">Seite 56</rs> und folgende / und auf
+                    <rs type="work" ref="https://fackel.oeaw.ac.at/f/508,081">Seite 81</rs> einen
+                vertraulichen <lb xml:id="uuid_b8dfa01b-17a8-4087-9fa0-1b17a8a08759"/>Bericht der
+                Feindespropagandaabwehrstelle über meine Vorlesung <lb xml:id="uuid_6b875015-ba1b-4d1c-8750-15ba1b8d1c60"/>vom 27. März 1918. </p>
+            <p xml:id="uuid_732a4f43-ee4c-4b1a-a8dc-59566694ff9f"><lb xml:id="uuid_a7e8657a-2e5a-4f11-a865-7a2e5a8f11bc"/>Mein Werk „<rs type="work" ref="#32544">die letzten Tage der Menschheit</rs>“ auf <lb xml:id="uuid_10940094-12db-47d9-9400-9412dbb7d934"/>das die Angeklagten sich als
+                Beweis veränderter Gesinnung bezie<lb xml:id="uuid_66747ece-dde1-4105-b47e-cedde1810550" break="no"/>hen, habe ich zur
+                Gänze während des Krieges geschrieben und <lb xml:id="uuid_3c8cbfd8-14d3-41ec-8cbf-d814d371ec32"/>zum Teil schon während des
+                Krieges in der <rs type="work" ref="#41244">Fackel</rs> veröffentlicht. <lb xml:id="uuid_8ad83c0f-f219-4717-983c-0ff219a717db"/>Dieses Werk von etwa 800
+                Seiten müsste, wäre die Behauptung der <lb xml:id="uuid_b6f3acb6-4602-4403-b3ac-b64602340390"/>Angeklagten wahr, im Laufe
+                von wenigen Tagen entstanden und ge<lb xml:id="uuid_5f1c5425-00fb-4d65-9c54-2500fbfd659c" break="no"/>druckt worden
+                sein. Dem <rs type="institution" ref="#36818">Gericht</rs> zuzumuten, dass es so
+                etwas glau<lb xml:id="uuid_44da7bdd-be7a-47df-9a7b-ddbe7ae7df7d" break="no"/>ben
+                soll, wird wohl einzig darstehen. </p>
+            <p xml:id="uuid_63ea3fcb-cba4-44e0-a1a9-ab0d333f1153"><lb xml:id="uuid_eab21ebd-f0cb-4783-b21e-bdf0cb578388"/>Die Fackeln <rs type="work" ref="https://fackel.oeaw.ac.at/f/766,0u1">Nr. 766–770</rs> und <rs type="work" ref="https://fackel.oeaw.ac.at/f/771,0u1">771–776</rs> sind Angriffe <lb xml:id="uuid_59a23c99-3ff7-48fd-a23c-993ff7c8fdda"/>gegen den damaligen Wiener
+                Polizeipräsidenten <rs type="person" ref="#24444">Schober</rs> und <lb xml:id="uuid_8f3fac7a-ba67-4335-bfac-7aba67e3353c"/>drücken keineswegs eine
+                Parteinahme für die Sozialdemokratie aus, <lb xml:id="uuid_e7c3c35c-2972-4a95-83c3-5c2972ea9592"/>die sich bald darauf dem <rs type="person" ref="#24444">Schober</rs> in aller Form unterworfen hat / so<lb xml:id="uuid_f3287941-f75c-42c4-a879-41f75cb2c402" break="no"/>weit, dass ein
+                    <rs type="person">Führer</rs> der Sozialdemokratie dem Polizeipräsidenten <lb xml:id="uuid_f047ba90-5d81-4fc4-87ba-905d814fc491"/><rs type="person" ref="#24444">Schober</rs> die Wagentüre öffnete, wovon ein Bild existiert / <pb n="4" facs="#D_000196-090-000-facs001-l002-p004"/>
+                <lb xml:id="uuid_c7f4fe6a-26dc-4b61-b4fe-6a26dc7b6147"/>und deshalb umso stärker von
+                mir angegriffen wurde. </p>
+            <p xml:id="uuid_96d49094-c54e-4490-ad0d-1ed733406551"><lb xml:id="uuid_fe560685-2248-4c19-9606-8522488c193b"/>Die Behauptung, dass ich
+                gegen die Opfer des Februaraufstandes <lb xml:id="uuid_cf037309-696a-4c99-8373-09696a7c9930"/>1934 im <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Juliheft</rs> der <rs type="work" ref="#41244">Fackel</rs> aus dem gleichen Jahre geschrieben hätte <lb xml:id="uuid_bfe32da2-dd55-4359-a32d-a2dd55d35941"/>ist eine ungeheuerliche
+                Unwahrheit. Ich habe unter vielen andern Stel<lb xml:id="uuid_f94c5988-8d13-4349-8c59-888d13d349f4" break="no"/>len auf <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,236">Seite 236</rs> des <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Juliheftes</rs>
+                geschrieben: „<quote xml:id="uuid_8ea3eb42-29cf-4920-b8a1-bfcc10bc6dc0" source="https://fackel.oeaw.ac.at/f/890,236">Ehre dem Andenken <lb xml:id="uuid_13608f48-264e-4012-a08f-48264ee01245"/>jedes dieser ärmsten
+                    Todesmutigen, die das hohle Wort des Demagogen <lb xml:id="uuid_d252808c-fc8a-4593-9280-8cfc8a859309"/>getrieben hatte, als sie
+                    ‚die Demokratie verteidigten‘, und deren <lb xml:id="uuid_96374253-0cde-49d7-b742-530cdec9d759"/>Tragik eben darin
+                    besteht, die Phraseninhalte gar nicht gekannt oder <lb xml:id="uuid_f85daea3-b267-4556-9dae-a3b2671556df"/>ihnen mehr geglaubt zu
+                    haben als die, die sie ermassen.</quote>“ Stellung <lb xml:id="uuid_fef97330-2149-4351-b973-302149835119"/>genommen habe ich nur gegen
+                die sozialdemokratischen Führer und <lb xml:id="uuid_ccf25c47-818c-4abb-b25c-47818c6abbf1"/>Schreiber, weil sie meiner
+                Ueberzeugung nach, die heute die allge<lb xml:id="uuid_9122a9cc-1836-4a6a-a2a9-cc1836aa6abc" break="no"/>meine
+                Ueberzeugung ist, die Existenz, Freiheit und Leben der Arbeiter<lb xml:id="uuid_90df447a-f425-47c0-9f44-7af425e7c0d4" break="no"/>schaft
+                leichtfertig aufs Spiel gesetzt haben wegen eines Parlamentaris<lb xml:id="uuid_c5beb40b-69ba-4f37-beb4-0b69ba9f374e" break="no"/>mus, dessen
+                Abschaffung sie zu ihrer Freude der Verantwortung überhob <lb xml:id="uuid_aee6caa9-1edb-4cbb-a6ca-a91edb6cbbeb"/>und in Tagen, in denen die
+                Regierung <rs type="person" ref="#56719">Dollfuss</rs> einen beispiellosen Kampf <lb xml:id="uuid_2e5ef854-8eed-4316-9ef8-548eedf3162e"/>gegen den drohenden Einbruch
+                der Hitlerhorden, gegen die Gefahr, die <lb xml:id="uuid_a80e10d2-d55c-4f3b-8e10-d2d55cff3be6"/><rs type="place" ref="#41240">Oesterreich</rs>, die <rs type="place" ref="#38444">C.S.R.</rs>, ja
+                die ganze Welt bedrohte, geführt hat, in <lb xml:id="uuid_84f7b79c-eb20-4d24-b7b7-9ceb20cd2478"/>den Rücken gefallen sind. </p>
+            <p xml:id="uuid_f83fbcdd-7f02-446e-9376-094cbe75ebd6"><lb xml:id="uuid_60d2021d-4342-466e-9202-1d4342066e0b"/>Die Zitate, die von den
+                Angeklagten aus dem <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Juliheft</rs> 1934 sub <lb xml:id="uuid_ce4aa235-161f-43d2-8aa2-35161f23d20c"/>V ihres <rs type="work" ref="#D_000196-061-000">Schriftsatzes</rs> vom 18. Feber
+                1936 angeführt werden, sind <lb xml:id="uuid_b151f319-c406-491a-91f3-19c406a91a20"/>zum Teil grobe Entstellungen, die sich teilweise nicht auf die „De<lb xml:id="uuid_6feac4a1-3545-4bbd-aac4-a135454bbd4c" break="no"/>mokratie“, nicht
+                einmal auf die tatsächlich bekämpfte Sozialdemokratie <lb xml:id="uuid_60d86dd0-4396-4965-986d-d043961965ce"/>beziehen, sondern auf
+                einzelnes Schreibervolk. Sämtliche Angriffe <lb xml:id="uuid_48c63960-2fb2-482a-8639-602fb2782a89"/>auf die Sozialdemokratie
+                jedoch, die selbstverständlich nicht geleugnet <lb xml:id="uuid_4af315ea-7e32-4f4a-b315-ea7e329f4aeb"/>werden, beziehen sich
+                ausschliesslich auf verantwortungslose oder fah<lb xml:id="uuid_d9ca9a43-d6e8-422f-8a9a-43d6e8622fc2" break="no"/>nenflüchtige
+                Führer, keineswegs auf die Arbeiterschaft oder gar die <lb xml:id="uuid_ab6fa9e0-3b98-48bc-afa9-e03b9818bcf3"/>armen Märtyrer des Kampfes.
+                Manche aus der <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1">Julifackel</rs> 1934 von den <lb xml:id="uuid_968fa90a-39f4-4303-8fa9-0a39f46303ce"/>Angeklagten zitierte Stelle
+                haben, wie sich aus diesen Stellen in ih<lb xml:id="uuid_5453509e-c627-4bb6-9350-9ec627cbb683" break="no"/>rem Zusammenhang,
+                aus dem sie von den Angeklagten gerissen werden, <lb xml:id="uuid_7bb715f4-bcf1-4266-b715-f4bcf1a26608"/>ergibt weder mit der
+                Demokratie noch mit der Sozialdemokratie das ge<lb xml:id="uuid_242e83e0-6364-48c4-ae83-e06364a8c411" break="no"/>ringste zu tun. </p>
+            <p xml:id="uuid_b7971096-c924-44ee-b676-08cb118e5a4d"><lb xml:id="uuid_ac3f31ab-6733-43b3-bf31-ab673363b3ae"/>Den Obersten <rs type="person" ref="#37263">Adam</rs> habe ich in der <rs type="work" ref="#41244">Fackel</rs> um seiner ausserordent<lb xml:id="uuid_256a4845-f2bf-4b06-aa48-45f2bfcb06a8" break="no"/>lichen
+                stilistischen Leistung willen gelobt. Er hat meiner Ansicht nach <lb xml:id="uuid_4a35b7cc-cf1f-4904-b5b7-cccf1f790447"/>ganz besonders treffende
+                Formulierungen gegen <rs type="person" ref="#11715">Hitler</rs> gefunden, wie <lb xml:id="uuid_1ad00ccf-fcd3-4413-900c-cffcd3541328"/>sie kein Sozialdemokrat
+                gefunden hat. </p>
+            <p xml:id="uuid_ab32db37-ffe9-445c-b565-aedecc980a5f"><lb xml:id="uuid_7ee36b3f-140e-484e-a36b-3f140ee84eab"/>Dass der Angeklagte <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/25105">Hugo
+                    Sonnenschein</rs> der aus <rs type="place" ref="#60154">Kyjov</rs> stammt, <lb xml:id="uuid_363e7f33-2184-4358-be7f-332184935863"/>die <rs type="place" ref="#38444">čsl. Republik</rs> als für ihn „unsichere Fremde“ bezeichnet, die
+                er der <lb xml:id="uuid_4db61809-248c-4c91-b618-09248c9c91b0"/>Gleichschaltung
+                vorzieht, wiewohl er hier auskömmlich lebt, hat mich <lb xml:id="uuid_a96ffb14-c700-448c-affb-14c700f48cec"/>überrascht. </p>
+            <p xml:id="uuid_7e799e31-0b3a-470d-a6bc-242557a06c34"><lb xml:id="uuid_06ded287-6ddb-4429-9ed2-876ddbe4293a"/>Zu den Aussagen der Zeugen
+                    <rs type="person" ref="#38617">Kornfeld</rs> und <rs type="person" ref="#10313">Urzidil</rs> verweise ich <lb xml:id="uuid_320e9f71-bd83-4286-8e9f-71bd83528629"/>auf die urkundlich belegten
+                Ausführungen des <rs type="work" ref="#D_000196-084-000">Schriftsatzes</rs> meines
+                    <rs type="person" ref="#51575">An<lb xml:id="uuid_3d7f93d7-f18d-4295-bf93-d7f18df29533" break="no"/>waltes</rs>
+                vom 25. April 1936, die durchaus der Wahrheit entsprechen. Ueber <lb xml:id="uuid_d483bae2-4f36-4c7c-83ba-e24f360c7c03"/>die Persönlichkeit des
+                Zeugen <rs type="person" ref="#10313">Urzidil</rs> beantrage ich als Zeugen Dr. <rs type="person" ref="#57572">Nor<lb xml:id="uuid_88c3a7d0-c1f1-4cb5-83a7-d0c1f1ecb572" break="no"/>bert
+                    Gross</rs>, Advokaten in <rs type="place" subtype="address" ref="#60386">Prag II,
+                    Havličkovo nám. 3</rs>, einzuvernehmen. </p>
+            <p xml:id="uuid_357a6ae5-10d8-4327-83a1-17ef8ec232f0"><lb xml:id="uuid_aa58c1f9-b9d4-413b-98c1-f9b9d4013be0"/>Die Behauptung der
+                Angeklagten, dass ich die „<quote xml:id="uuid_1e6b5b13-b087-4ec0-9132-610ddb3fca85" source="#D_000196-061-000">čsl. Staatsmänner <lb xml:id="uuid_ac52e309-80ae-4fd0-92e3-0980ae0fd0c1"/>in meinen Schriften
+                    durch ganze Jahre beschimpft hätte</quote>“, ist eine ganz <lb xml:id="uuid_770cde54-6f32-46ca-8cde-546f32c6cada"/>grobe Unwahrheit. Die in dem
+                    <rs type="work" ref="https://fackel.oeaw.ac.at/f/909,057">Artikel</rs> der
+                Fackel <rs type="work" ref="https://fackel.oeaw.ac.at/f/909,0u1">Nr. 909–911</rs>
+                gemachte <lb xml:id="uuid_1bb8c9a9-0b3d-47fc-b8c9-a90b3da7fcdd"/>Konstatierung, dass
+                der österreichisch-patriotische „<rs type="work" ref="#41560">Wiener Tag</rs>“ <lb xml:id="uuid_5188e852-625d-42bc-88e8-52625de2bc86"/>zugleich Organ des
+                seinerzeitigen čsl. Aussenministers Dr. <rs type="person" ref="#4186">Beneš</rs>
+                sei, <lb xml:id="uuid_ad3e2507-6e2d-486c-be25-076e2da86c78"/>als Angriff gegen
+                diesen in seiner Funktion als Aussenminister oder <lb xml:id="uuid_b639add9-449f-42db-b9ad-d9449f32db83"/>gar als jetzigen Präsidenten
+                der <rs type="place" ref="#38444">čsl. Republik</rs> zu bezeichnen, ist <lb xml:id="uuid_cb93caf3-eb7c-49fe-93ca-f3eb7cb9fe2f"/>schlechterdings unmöglich.
+                Niemals habe ich dem <rs type="place" ref="#38444">čsl. Staat</rs> als solchem <lb xml:id="uuid_b1db58d7-58fe-4343-9b58-d758fe234386"/>Dummheit vorgeworfen oder
+                diesen Staat lächerlich gemacht, in Verbindung <lb xml:id="uuid_4fd721a0-ce28-4676-9721-a0ce28c676bd"/>mit der <rs type="institution" ref="#60389">englischen Arbeiterpartei</rs> ist in dem <rs type="work" ref="https://fackel.oeaw.ac.at/f/909,057">Artikel</rs> in der Fackel
+                    <rs type="work" ref="https://fackel.oeaw.ac.at/f/909,0u1">Nr. <lb xml:id="uuid_0ed04600-c5ec-4eea-9046-00c5ec5eeafb"/>909–911</rs> klarer
+                Weise eine čsl. Partei, keineswegs der <rs type="place" ref="#38444">čsl. Staat</rs>
+                oder <lb xml:id="uuid_f1843625-e82b-4da6-8436-25e82bdda6cd"/>gar die čsl. Nation als
+                solche gemeint. Ich wollte damals zum Ausdruck <lb xml:id="uuid_e8ad1063-88ef-4911-ad10-6388ef3911e0"/>bringen, dass ich eine
+                Partei dann als unklug betrachten muss, wenn <lb xml:id="uuid_8bf52c12-e2f6-4598-b52c-12e2f6159873"/>sie nicht einsieht, dass die
+                čsl. Staatsinteressen <rs type="person" ref="#11715">Hitler</rs> gegenüber <lb xml:id="uuid_a1ed4b34-695b-4667-ad4b-34695b466721"/>sich mit den österr.
+                Interessen vollständig decken. Die Behauptungen <lb xml:id="uuid_5f92518e-3704-40af-9251-8e370480af90"/>der Angeklagten über den
+                Inhalt der <rs type="work" ref="https://fackel.oeaw.ac.at/f/912,0u1">Fackelnummer
+                    912–915</rs> sind eine <lb xml:id="uuid_b11e9b61-e3ff-4e5f-9e9b-61e3ffbe5f4f"/>glatte Fälschung. Einen Satz „<quote xml:id="uuid_baa5b0b0-966f-4e82-b9fb-ca80726d67b3" source="#D_000196-061-000">die Partei hätte den Haus<lb xml:id="uuid_4c17bc9b-3f99-48d4-97bc-9b3f99c8d464" break="no"/>herrn hinausgeworfen</quote>“ auf die čsl. Nation und deren
+                Kampf um die <lb xml:id="uuid_f40b96d0-6b22-4a8b-8b96-d06b22aa8b49"/>Befreiung zu
+                beziehen, als „Partei“ die čsl. Nation zu bezeichnen, <lb xml:id="uuid_4d743398-a59f-4f33-b433-98a59f7f332c"/>die meiner Ansicht nach
+                offenbar keinen Anspruch auf Selbstständig<lb xml:id="uuid_73145d96-3b0b-4981-945d-963b0ba981b3" break="no"/>keit haben soll,
+                ist eine der unerhörtesten Erfindungen. Aus der zi<lb xml:id="uuid_099ef75a-c8ea-4dcc-9ef7-5ac8ea4dcc03" break="no"/>tierten <rs type="work" ref="https://fackel.oeaw.ac.at/f/912,0u1">Fackel</rs> ist auch dem
+                naivsten Leser klar, dass die von den <pb n="5" facs="#D_000196-090-000-facs001-l003-p005"/>
+                <lb xml:id="uuid_01edefc2-593c-479d-adef-c2593c679d07"/>Angeklagten erwähnte
+                Wendung, die vollständig entstellt ist, <lb xml:id="uuid_fd8f63f4-736d-48dd-8f63-f4736d98dd9f"/>sich nur auf die <rs type="institution" ref="#38090">Wiener sozialdemokratische Partei</rs>, die dem
+                    <lb xml:id="uuid_004182f8-f0f0-4a44-8182-f8f0f0fa44cc"/>Erpresser <rs type="person" ref="#37843">Bekessy</rs> das Wiener Bürgerrecht verliehen hat,
+                bezog. <lb xml:id="uuid_7a765674-dc89-44c4-b656-74dc89c4c4ae"/>Wie die čsl. Nation
+                in diesen Zusammenhang gebracht werden soll, <lb xml:id="uuid_cce51114-4351-4024-a511-1443516024c7"/>ist völlig rätselhaft, nicht
+                einmal die Angeklagten werden vor <lb xml:id="uuid_915b5a20-7e27-4b64-9b5a-207e274b6489"/><rs type="institution" ref="#36818">Gericht</rs> die Stirne haben, zu behaupten, dass etwa die čsl.
+                Nation <lb xml:id="uuid_5dd9cd7e-fe60-4376-99cd-7efe60a37695"/>den <rs type="person" ref="#37843">Bekessy</rs> eingebürgert habe. Wie aus dieser <rs type="work" ref="https://fackel.oeaw.ac.at/f/912,0u1">Fackelnummer</rs> heraus<lb xml:id="uuid_c8ebc078-a623-4207-abc0-78a623c207a8" break="no"/>gelesen werden
+                soll, dass ich der čsl. Nation den Anspruch auf <lb xml:id="uuid_a0357845-b2b8-4e37-b578-45b2b8ae37da"/>Selbstständigkeit offenbar
+                missgönne, ist noch rätselhafter. <lb xml:id="uuid_9644fcd1-e752-4f26-84fc-d1e752bf26c2"/>Was den Anspruch der čsl.
+                Nation auf Selbstständigkeit be<lb xml:id="uuid_071dff20-d417-42b7-9dff-20d417b2b761" break="no"/>trifft, bin ich
+                für diese wiederholt schon im Krieg einge<lb xml:id="uuid_368b1108-c5ca-4407-8b11-08c5caf407d6" break="no"/>treten, das
+                betreffende <rs type="work" ref="https://fackel.oeaw.ac.at/f/484,0u1">Fackelheft</rs> werde ich bei der Hauptver<lb xml:id="uuid_3c4c8613-5306-4252-8c86-135306125292" break="no"/>handlung vorlegen
+                lassen. </p>
+            <p xml:id="uuid_e2d26c41-77c1-4477-b8ca-5f32ca31e2b4"><lb xml:id="uuid_b205852a-89a7-48dd-8585-2a89a7d8dd6d"/>Zur Behauptung der
+                Angeklagten, dass meine Tätigkeit die <lb xml:id="uuid_3f039e96-9824-4b69-839e-9698248b69fc"/>des Angeklagten <rs type="person" ref="#25105">Sonka</rs> und anderer Literaten „<quote xml:id="uuid_ce9bdf46-10d4-4336-9bf4-3ea4efeb2f74" source="#D_000196-061-000">diskreditiere</quote>“ <lb xml:id="uuid_e630b67a-fca8-4b5b-b0b6-7afca85b5b1a"/>finde ich nicht für notwendig mich zu äussern. </p>
+            <p xml:id="uuid_efba34e8-a40a-44e7-aae4-76360a1820e3"><lb xml:id="uuid_bb38ee3d-72b8-4341-b8ee-3d72b8934197"/>Alle Behauptungen der
+                Angeklagten dienen dem Zweck, von <lb xml:id="uuid_e898a973-611c-4002-98a9-73611ca002a5"/>den sachlich zu beweisenden
+                Vorwürfen abzulenken, dass ich <lb xml:id="uuid_cfc30653-671d-4db7-8306-53671dbdb737"/>ein Profitmacher, ein
+                Spekulierer, ein Konjunkturaesthet bin, <lb xml:id="uuid_322d33d6-5ca6-495c-ad33-d65ca6d95c79"/>dass ich Mordhass schüre und
+                ein Zuhälter der Macht sei. Solches <lb xml:id="uuid_04f1792f-9967-49e9-b179-2f9967a9e97d"/>Wesen und solche Tätigkeit
+                einem Menschen zuzuschreiben, der nie<lb xml:id="uuid_a756895a-2efb-4643-9689-5a2efb064310" break="no"/>mals durch
+                Freiexemplare und Freikarten um die Presse oder sonst <lb xml:id="uuid_ce708da4-a203-4acf-b08d-a4a2033acff0"/>um die öffentliche Meinung
+                geworben und trotzdem die im <rs type="work" ref="#D_000196-084-000">Schrift<lb xml:id="uuid_d2737b31-620a-40b1-b37b-31620a30b199" break="no"/>satz</rs>
+                genannte Summe von über 800.000 Kč wohltätigen, zumeist <lb xml:id="uuid_67b2dab5-ad69-4d0e-b2da-b5ad699d0e9b"/>Arbeiter- und
+                Invalidenzwecken zugeführt hat, ist unfassbar. </p>
+            <p xml:id="uuid_40f3b554-c28a-47b8-861e-7375459a95b6"><lb xml:id="uuid_b5b2cd79-b637-4e34-b2cd-79b637be342e"/>Die Idee der Angeklagten,
+                als würde mich die neue österr. <lb xml:id="uuid_d5f6402e-3251-4a1e-b640-2e3251ea1ebc"/>Staatlichkeit fördern und
+                begünstigen ist ganz absurd. lch habe <lb xml:id="uuid_291bfe99-04e7-49b6-9bfe-9904e759b63f"/>es auch seit dem
+                Februarumsturz nicht unterlassen, das führende <lb xml:id="uuid_91419e73-ec1e-4b67-819e-73ec1efb67d2"/>Organ des neuen
+                Staatswesens, die Wiener <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/29637">Reichspost</rs> nach wie vor <lb xml:id="uuid_13f20786-c896-4a07-b207-86c896fa07e7"/>zu bekämpfen. Meiner
+                Rundfunktätigkeit ist trotz den enormen Er<lb xml:id="uuid_0308e5cd-0af4-410a-88e5-cd0af4910a18" break="no"/>folgen, die sie
+                dem <rs type="institution">Wiener Institut</rs> brachte, ein Ende gemacht <lb xml:id="uuid_a3a45985-1b9b-4e69-a459-851b9b0e69f9"/>worden. Nie habe ich
+                erwartet, dass der Kreis der dem neuen österr. <lb xml:id="uuid_84d0f61f-c0d6-4a7c-90f6-1fc0d6da7c2d"/>Staatswesen kulturell
+                Zugehörigen, dessen politische Aktionen im <lb xml:id="uuid_510322bf-c3e8-4416-8322-bfc3e854163e"/>Abwehrkampf gegen <rs type="person" ref="#11715">Hitler</rs> ich als notwendig erachte, das geringste
+                    <lb xml:id="uuid_d5eeec29-3fac-4af1-aeec-293facaaf13f"/>Verständnis für meine
+                geistige Produktion aufbringen wird und <lb xml:id="uuid_7c387f84-0837-4581-b87f-840837e581b0"/>so ist es auch gekommen. Sie
+                stehen mir so fremd gegenüber, wie <lb xml:id="uuid_831b9633-79c1-4e95-9b96-3379c15e95ef"/>heute die Linkspolitiker,
+                die, wie sich herausstellte, eben nur <lb xml:id="uuid_296302cf-2581-4f8f-a302-cf2581ef8f4c"/>durch ein Missverständnis
+                der <rs type="work" ref="#41244">Fackel</rs> angehangen haben.</p>
+        </body>
+    </text>
+</TEI>

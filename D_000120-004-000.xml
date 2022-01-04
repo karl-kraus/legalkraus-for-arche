@@ -1,0 +1,129 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000120-004-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000120-002-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000120-005-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Postkarte Ed. Bote &amp; Bock (Musikverlag) an Samek</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000120-004-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3311</idno>
+                <idno type="ID" subtype="transkribus">471999</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000120">Korrespondenz mit den Kammerspielen München betr. eine
+                    Offenbach-Aufführung</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000120-004-000-wit01" facs=""/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1929-04-20" subtype="produced">20. April 1929</date>
+            </creation>
+            <langUsage> <language ident="de">Deutsch</language> </langUsage>
+            <textClass/>
+            <particDesc/>
+            <correspDesc>
+                <correspAction type="sent">
+                    <orgName ref="#36939">Ed. Bote &amp; G. Bock Musik-Verlag</orgName>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#">Leipziger Straße 37</rs>
+                    </address>
+                    <placeName ref="#169">Berlin W 8</placeName>
+                    <date when-iso="1929-04-20">20. April 1922</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#38909">An | Herrn Rechtsanwalt | Dr. Oskar Samek</persName>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#50493">Schottenring 14</rs>
+                    </address>
+                    <placeName ref="#51">Wien I</placeName>
+                    <date when-iso=""/>
+                </correspAction>
+                <noteGrp>
+                    <note type="subject">Betrifft: Kraus – diverses</note>
+                    <note type="dictation"/>
+                    <note type="appendix"/>
+                </noteGrp>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="typography" when-iso="2021-07-21" who="#IL"/>
+            <change type="header_facsimile" when-iso="2021-07-14" who="#IL"/>
+            <change type="structure" when-iso="2021-07-05" who="#IL"/>
+            <change type="intertexts" when-iso="2021-07-05" who="#IL"/>
+            <change type="references" when-iso="2021-07-05" who="#IL"/>
+            <change when-iso="2020-10-08T13:04:04.168Z" who="#IB">created by API</change>
+            <change when-iso="2020-10-08T13:04:49.133Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 471999.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000045_39.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000046_45.jpg" source="krausonline"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="" n="1"/>
+            <p xml:id="uuid_f3626453-8f70-4a61-827b-75f63d935daf"><lb xml:id="uuid_53677f2f-6fcb-4d5a-ae0c-e84b468d90f2"/>Eilboten</p>
+            <p xml:id="uuid_791aebd5-7aeb-4bdb-b39a-ba0907640cd3"><lb xml:id="uuid_f2b827b1-d50d-4f9f-b084-81d04f6084e4"/><note type="paratext" resp="law-firm"><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs> – diverses <lb xml:id="uuid_c3cd2f64-5175-4c56-ab7b-15806feacff8"/>22. APR. 1929</note></p>
+            <pb facs="" n="2"/>
+            <p xml:id="uuid_a81e015d-f701-43dd-a31d-9e203fe0319c"><lb xml:id="uuid_7125a5c4-d0aa-4b01-ada7-f1fda90ae659"/>Sehr geehrter Herr <rs type="person" ref="#38909">Rechtsanwalt</rs>!</p>
+            <p xml:id="uuid_5fa99a2c-f4a6-4079-8c36-f5d3f8f93be0"><lb xml:id="uuid_d95df39b-5a73-434d-89ec-949106922714"/>Wir erhielten Ihr <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000120-003-000">Schreiben</rs> vom 18. d.<lb xml:id="uuid_d4d6bd03-505b-4fd0-b659-c26d4fb86e31"/>Mts. betr. <rs type="work">Bearbeitung</rs> der Operette „<hi rend="underlined"> <rs type="work" ref="#53311">Pariser Leben</rs></hi>“<lb xml:id="uuid_2be5c054-4ef0-4a5b-b2ae-97edff035963"/>von <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38886">Peter Scher</rs>. Bevor wir zu
+                Ihrem <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Geehrten</rs>
+                    Stellung<lb xml:id="uuid_d6e8a75a-2c4f-4a63-be29-a62d3e7697d6"/>nehmen können,
+                bitten wir, uns die erwähnte Abschrift<lb xml:id="uuid_ceea9471-5a9a-40b0-a64e-c169ef53c879"/>eines <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000120-001-000">Briefes</rs> an
+                Herrn Direktor und Rechtsanwalt<lb xml:id="uuid_0accbe80-6920-498d-a8ab-0b272c819b97"/>Dr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/51597">Kaufmann</rs> in <rs type="place" ref="#45258">München</rs>, die Ihrem <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000120-003-000">Schreiben</rs>
+                <hi rend="underlined">nicht</hi><lb xml:id="uuid_883b77b6-936f-4673-a14a-7899a3e513c9"/>beilag, nachträglich
+                zukommen zu lassen.</p>
+            <p xml:id="uuid_6c12daa0-546b-4a12-874e-48568d0dc7f5"><lb xml:id="uuid_9d316077-1a00-4dd6-a31d-e38ef81afe67"/>Hochachtungsvoll<lb xml:id="uuid_c8fa8af3-4db7-4c57-9658-53468d6f65a4"/>[Unterschrift]</p>
+        </body>
+    </text>
+</TEI>

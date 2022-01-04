@@ -1,0 +1,57 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000190-015-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000190-014-001.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000190-017-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verständigung des Strafbezirksgerichts I Wien (G. Z. 4 U 208/34,
+                    Landesgerichtsrat Leopold Wenger)</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <availability default="false">
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000190-015-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4700</idno>
+                <idno type="ID" subtype="transkribus">37304</idno>
+            </publicationStmt>
+            <seriesStmt default="false">
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000190">Karl
+                    Kraus ca. Richard Smetana und vice versa</title>
+            </seriesStmt>
+            <sourceDesc default="false">
+                <listWit>
+                    <witness xml:id="D_000190-015-000-wit01" facs="#D_000190-015-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1934-03-07" subtype="produced" instant="false">7. März 1934</date>
+            </creation>
+            <langUsage default="false">
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2020-10-11T12:21:58.625Z" who="#IB" status="draft">created by
+                API</change>
+            <change when-iso="2021-09-06" who="#LU" status="draft">Replaced Text with Transcription
+                of Transkribus Document 37304.</change>
+            <change type="header" when-iso="2021-11-16" who="#AR" status="draft"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000190-015-000-facs001">
+        <surfaceGrp xml:id="D_000190-015-000-facs001-l001">
+            <surface xml:id="D_000190-015-000-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000087_7.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000190-015-000-facs001-l001-p002" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000088_10.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <div xml:id="uuid_06ad105f-cba7-4c8c-ad10-5fcba76c8c53" part="N" org="uniform" sample="complete"/>
+    </text>
+</TEI>

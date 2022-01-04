@@ -1,0 +1,445 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000092-007-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000092-006-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000092-008-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ausführung der Berufung</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000092-007-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2887</idno>
+                <idno type="ID" subtype="transkribus">231133</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000092">Karl Kraus ca. Reichspost</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000092-007-000-wit01" facs=""/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1927-09-21" subtype="produced">21. September 1927</date>
+            </creation>
+            <langUsage> <language ident="de">Deutsch</language> </langUsage>
+            <textClass/>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="header_facsimile" when-iso="2021-04-15" who="#IL"/>
+            <change type="structure" when-iso="2021-04-12" who="#IL"/>
+            <change type="references" when-iso="2021-04-14" who="#IL"/>
+            <change type="typography" when-iso="2021-04-13" who="#IL"/>
+            <change type="intertexts" when-iso="2021-04-14" who="#IL"/>
+            <change when-iso="2020-07-17T07:42:25.789Z" who="#IB">created by API</change>
+        <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of Transkribus Document 231133.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000031_35.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554517/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000031.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000032_31.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554518/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000032.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000033_34.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554519/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000033.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000035_34.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554521/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000035.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000036_35.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554522/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000036.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000037_36.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554523/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000037.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000038_36.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554524/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000038.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000039_34.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554525/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000039.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000040_36.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554526/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000040.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000041_32.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554527/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000041.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000042_39.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554528/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000042.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000043_33.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554529/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000043.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000044_37.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554530/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000044.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000045_31.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554531/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000045.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000046_39.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554532/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000046.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000047_39.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554533/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000047.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000048_38.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554534/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000048.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000049_31.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554535/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000049.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000050_37.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554536/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000050.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000051_32.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554537/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/92_97/00000051.jpg" source="scans"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="" n="1"/>
+            <p xml:id="uuid_70255d60-e022-4d2f-a57f-cac40d188233">
+                <lb xml:id="uuid_9e4d3a43-71c1-48d0-8d3a-4371c1e8d0fb"/>G. Z. U I 405/27 </p>
+            <p xml:id="uuid_59b4b9f0-31b5-4db5-9a1d-8375952bf82b">
+                <lb xml:id="uuid_b4627b4f-c200-4ca6-a27b-4fc2002ca62e"/>An das <lb xml:id="uuid_c91fe6e3-1e5f-4dda-9fe6-e31e5f9ddafb"/>
+                <rs type="institution" ref="#50491">Strafbezirksgericht I <lb xml:id="uuid_089bef1c-c43b-42c1-9bef-1cc43b52c151"/>Wien</rs>.</p>
+            <p xml:id="uuid_48fc2c23-2bd9-4bdc-95c6-c457eb156545">
+                <lb xml:id="uuid_2e98bc30-faa0-451b-98bc-30faa0751bd8"/>Privatankläger: <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs>,
+                Schriftsteller in <rs type="place" subtype="address" ref="#50496">Wien <lb xml:id="uuid_a75f1674-8218-43c8-9f16-748218f3c8db"/>III., Hintere
+                    Zollamtsstrasse Nr. 3</rs>, <lb xml:id="uuid_d14b7bdc-0371-4e83-8b7b-dc03710e8357"/>durch: <lb xml:id="uuid_053ca31f-b603-4d96-bca3-1fb603cd96a9"/>Beschuldigter: <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/40703">Karl
+                    Schiffleitner</rs>, verant<lb xml:id="uuid_111a3e7d-a414-48c2-9a3e-7da414d8c2e3" break="no"/>wortlicher Redakteur der „<rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/29637">Reichspost</rs>“ <lb xml:id="uuid_bbb9e60a-48f1-45e9-b9e6-0a48f175e994"/>in <rs type="place" subtype="address" ref="#50653">Wien VIII., Strozzigasse Nr. 8</rs>, <lb xml:id="uuid_e3aea0ad-d9e6-4f9a-aea0-add9e6cf9a44"/>wegen <rs type="law" ref="">§ 24 Pr.G.</rs> 1 fach <lb xml:id="uuid_2284cd63-0b8f-438b-84cd-630b8f338b51"/>Ausführung der Berufung.</p>
+            <pb facs="" n="2"/>
+            <p xml:id="uuid_1f43a717-b2d9-4810-9864-27894281f3fa">
+                <lb xml:id="uuid_a5a0b87f-988a-4f0c-a0b8-7f988a5f0c8c"/>Gegen das <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-006-000">Urteil</rs> des <rs type="institution" ref="#50491">Strafbezirksgerichtes <lb xml:id="uuid_1e0fb415-803e-481b-8fb4-15803e381b37"/>I in Wien</rs> als
+                Pressegericht vom 28. September 1927 G.Z. U I <lb xml:id="uuid_199d1a79-5ab7-46e9-9d1a-795ab7a6e946"/>405/27/3, mit welchem der
+                Angeklagte <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/40703">Karl
+                    Schiffleitner</rs> von <lb xml:id="uuid_bc576cd0-70e9-4cfb-976c-d070e9bcfb74"/>der Anklage, er habe im September 1927 in <rs type="place" ref="#50">Wien</rs> als
+                    verant<lb xml:id="uuid_3139a542-c0a0-421c-b9a5-42c0a0821c40" break="no"/>wortlicher Schriftleiter der „<rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/29637">Reichspost</rs>“ sich grundlos
+                    ge<lb xml:id="uuid_2b0ac0a9-3bed-49c6-8ac0-a93bede9c636" break="no"/>weigert,
+                die von mir verlangte <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-002-000">Berichtigung</rs>
+                von in der <lb xml:id="uuid_d33a14a4-8abb-427b-ba14-a48abb827bbd"/>
+                <rs type="work" ref="#53697">Nr. 255</rs> der genannten Teilung vom 18. September 1927 unter der
+                    <lb xml:id="uuid_b814cbb6-d239-46f6-94cb-b6d239b6f67c"/>Ueberschrift „<rs type="work" ref="#53699">Die Angriffe auf Präsidenten Schober</rs>“ mitge<lb xml:id="uuid_aa2e2f32-8aca-4e41-ae2f-328aca8e413a" break="no"/>teilten Tatsachen
+                zu veröffentlichen und hiedurch die Ueber<lb xml:id="uuid_7e3a9c03-e0ff-4df0-ba9c-03e0ff3df008" break="no"/>tretung nach <rs type="law" ref="">§§ 23</rs> und <rs type="law" ref="">24 (2) 3 Pressgesetz</rs>
+                begangen, gemäss <lb xml:id="uuid_49711f4d-bba8-4562-b11f-4dbba8556273"/>
+                <rs type="law" ref="">§ 259 Z. 3 St.P.O.</rs> freigesprochen wurde, habe ich die
+                Berufung <lb xml:id="uuid_43af11a9-50d0-4aec-af11-a950d06aec0e"/>pcto. Schuld und
+                wegen Dichtigkeit angemeldet und zwecks Aus<lb xml:id="uuid_731cb750-db50-4ce1-9cb7-50db50cce132" break="no"/>führung der
+                Berufung um Zustellung einer Urteil Ausfertigung <lb xml:id="uuid_7153e238-deab-4bff-93e2-38deab5bff04"/>gebeten. Diese
+                Urteilsausfertigung wurde meinem Vertreter <lb xml:id="uuid_d673f4bd-d903-4c81-b3f4-bdd903bc8133"/>Dr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38909">Oskar Samek</rs> am 14. Oktober
+                1927 zugestellt.</p>
+            <p xml:id="uuid_0bacbb4f-8d3f-4699-adcd-8104b2bf34b5">
+                <lb xml:id="uuid_2ea083f2-251d-4640-a083-f2251dd64087"/>lch erstatte fristgerecht
+                folgende <lb xml:id="uuid_147fa110-8692-422d-bfa1-108692f22d6a"/>Ausführung der
+                Berufung. </p>
+            <p xml:id="uuid_965381d2-65cf-49d5-ab3f-e1fc14ee9502">
+                <lb xml:id="uuid_a85239ab-7d51-4148-9239-ab7d51e148e9"/>Als Nichtigkeitsgründe
+                werden die des <rs type="law" ref="">§ 281 <lb xml:id="uuid_046d4ac7-abd4-4a4b-ad4a-c7abd49a4b5c"/>Z. 5, 9b</rs> eventuell
+                a St.P.O. geltend gemacht. <lb xml:id="uuid_7f592359-169d-4e77-9923-59169dee7744"/>Die Entscheidungsgründe sind sehr kurz ge<lb xml:id="uuid_fd470bf9-2352-4217-870b-f92352f217f5" break="no"/>fasst, die
+                einzelnen Gedanken und Ansichten nur in Schlag<lb xml:id="uuid_6af2972b-4250-4ed4-b297-2b42502ed4cf" break="no"/>worten
+                angedeutet. Es ist daher notwendig, sie herauszuar<lb xml:id="uuid_12745ac8-8d00-4bdf-b45a-c88d004bdf58" break="no"/>beiten und
+                einzeln zu widerlegen. </p>
+            <p xml:id="uuid_426102d5-8e37-4c58-be47-7bb41f6f93ea">
+                <lb xml:id="uuid_53137a40-d5a4-4426-937a-40d5a4342640"/>Die Entscheidungsgründe
+                sagen: „<quote xml:id="uuid_8561aca7-7dbc-486b-a407-b1892da6fefc" source="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-006-000">Was den <lb xml:id="uuid_b0e81382-e124-44dc-a813-82e124f4dccf"/>ersten Absatz der
+                    Berichtigung anlangt, so enthält die These <lb xml:id="uuid_b4800fb5-13c6-499f-800f-b513c6099f0d"/>den Begriff ‚<quote xml:id="uuid_4ccd5328-5517-49ea-af5c-46c24554fe84" source="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-002-000">Begönnerung</quote>‘, der richterweise überhaupt nur <lb xml:id="uuid_4a7d2580-d8a2-4d54-bd25-80d8a2cd5431"/>subjektiv zu
+                    interpretieren ist.</quote>“ Diese Behauptung des erst<lb xml:id="uuid_6e8f5e2a-8bee-44a3-8f5e-2a8bee64a3a4" break="no"/>richterlichen <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-006-000">Urteiles</rs> steht mit den Akten, nämlich mit dem <lb xml:id="uuid_31937741-0c16-4324-9377-410c16032473"/>vorgelegten <rs type="work" ref="#53699">Artikel</rs> der „<rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/29637">Reichspost</rs>“ und mit dem <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-002-000">Berichtigungs<lb xml:id="uuid_b81d7bed-b789-4fe9-9d7b-edb7899fe98b" break="no"/>schreiben</rs> selbst im Widerspruche. Die These enthält nämlich
+                    <lb xml:id="uuid_0bc1bd8c-1e17-49e2-81bd-8c1e1789e290"/>als zu berichtigende
+                Tatsache nicht die „<quote xml:id="uuid_57d69611-3083-4cf4-9f5e-400a30ccb57d" source="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-002-000">Begönnerung</quote>“ sondern <pb facs="" n="3"/>
+                <lb xml:id="uuid_1c1cbc2b-d2fb-4aa2-9cbc-2bd2fb2aa25c"/>den Inhalt des Plakats, das
+                ich durch die „<rs type="institution" ref="#36916">Wipag</rs>“ affichie<lb xml:id="uuid_33661c16-4ed7-4888-a61c-164ed7f888f4" break="no"/>ren lassen
+                wollte, nämlich einen Hinweis auf die Begönnerung <lb xml:id="uuid_408f5b1c-f34f-47cd-8f5b-1cf34fd7cd44"/>
+                <rs type="person" ref="#37843">Bekessys</rs> durch die Sozialdemokratie des <rs type="institution" ref="#53708">Wiener Rathauses</rs>. <lb xml:id="uuid_e62bc730-01ea-412d-abc7-3001ea212d0d"/>Als Inhalt des Plakates ist
+                nun dieser Hinweis auf die „<quote xml:id="uuid_6106e347-a4ec-4f32-9986-19f4628a8dfc" source="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-002-000">Be<lb xml:id="uuid_33790b92-20de-488b-b90b-9220de088b4e" break="no"/>gönnerung</quote>“ absolut nicht subjektiv zu interpretieren und es <lb xml:id="uuid_915f3b49-8100-45e7-9f3b-498100f5e784"/>ist auch vollständig
+                belanglos, ob diese Begönnerung meine <lb xml:id="uuid_868ed466-003b-4ea3-8ed4-66003baea38e"/>subjektive Ansicht oder
+                objektive Tatsache wäre, weil in dem <lb xml:id="uuid_344e5ed6-8678-4e2a-8e5e-d686781e2a66"/>Augenblicke, wo sie als
+                Inhalt eines Plakates mitgeteilt <lb xml:id="uuid_07cdaadd-206e-4824-8daa-dd206e3824b8"/>wird, jede subjektive
+                Ansicht objektiviert und berichtigungs<lb xml:id="uuid_1d3b7d3e-abaa-4b29-bb7d-3eabaa3b29b8" break="no"/>fähige Tatsache
+                wird. Es muss mir das Berichtigungsrecht <lb xml:id="uuid_0c7b7bc4-e83d-4b90-bb7b-c4e83d1b90eb"/>ebenso zustehen, wie wenn
+                mitgeteilt wird, dass ich eine Hypo<lb xml:id="uuid_73c2125a-6e7a-447c-8212-5a6e7a347cfa" break="no"/>these, also
+                gewiss den reinsten Meinungsausdruck, aufgestellt <lb xml:id="uuid_c23e85e4-2e7b-4780-be85-e42e7bd780f8"/>hätte und ich berichtige,
+                dass ich nicht diese, wohl aber eine <lb xml:id="uuid_a700210b-d4a4-466e-8021-0bd4a4166e1f"/>andere Hypothese aufgestellt
+                hätte. </p>
+            <p xml:id="uuid_9f42d3c8-3ebc-4695-9413-f71295cff7df">
+                <lb xml:id="uuid_d0661bc8-cbe8-4d2e-a61b-c8cbe88d2ea1"/>Das <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-006-000">Urteil</rs> erster
+                Instanz wirft der <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-002-000">Berichti<lb xml:id="uuid_72d9b2e1-2d36-446f-99b2-e12d36746f26" break="no"/>gung</rs>
+                weiter vor, dass die These die Worte enthalte, „<quote xml:id="uuid_96a58181-bf8e-4b8e-9c6d-a212fa54c521" source="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-002-000">was ihm <lb xml:id="uuid_24288078-8fb6-47a0-a880-788fb6b7a081"/>die ‚<rs type="institution" ref="#36916">Wipag</rs>‘, das städtische
+                    Plakatierungsinstitut verweigert <lb xml:id="uuid_6fed5926-58c4-4e6d-ad59-2658c40e6d9a"/>habe</quote>“, eine
+                Stelle, auf die die Antithese gar nicht reflektiert. <lb xml:id="uuid_394f6d40-1900-4bdb-8f6d-401900cbdb0b"/>Dies ist selbstverständlich.
+                Denn, dass die „<rs type="institution" ref="#36916">Wipag</rs>“ die <lb xml:id="uuid_7a427225-9e96-401a-8272-259e96301af7"/>Affichierung meines Plakates
+                verweigert, ist eine wahre Tat<lb xml:id="uuid_7d5d309e-1f28-4d5b-9d30-9e1f28ad5bb5" break="no"/>sache, die ich gar nicht berichtigen wollte. Was ich einzig <lb xml:id="uuid_aae7a564-bb89-46b9-a7a5-64bb8986b90b"/>berichtigen wollte, war der
+                Inhalt des Plakates, nämlich, <lb xml:id="uuid_50d44b28-1e38-49b0-944b-281e38f9b0c9"/>dass dieser nicht ein Hinweis auf die Begönnerung <rs type="person" ref="#37843">Bekessys</rs>, <lb xml:id="uuid_fb917385-e6b0-42a9-9173-85e6b002a984"/>sondern
+                eine Warnung vor der Auslieferung der den Herrn <lb xml:id="uuid_3582f32c-6cc0-4c82-82f3-2c6cc09c822c"/>
+                <rs type="person" ref="#37843">Bekessy</rs> betreffenden Strafakten an die ungarische Justiz war.
+                    <lb xml:id="uuid_f3d27c2f-fd2b-4afb-927c-2ffd2bbafb7e"/>Die Aufnahme des Satzes,
+                dass mir die Affichierung des Plaka<lb xml:id="uuid_b57f3997-65c1-4c77-bf39-9765c1ec77eb" break="no"/>tes durch die
+                    „<rs type="institution" ref="#36916">Wipag</rs>“ verweigert wurde, hat ihren
+                guten Grund <lb xml:id="uuid_475af685-f0e0-44bb-9af6-85f0e064bb7c"/>in der
+                Notwendigkeit der Identifizierung, weil ich eine An<lb xml:id="uuid_b275f9a3-7285-4806-b5f9-a37285480695" break="no"/>zahl anderer
+                Plakate, meine Vorlesungen betreffend, durch die <lb xml:id="uuid_c9577d4d-02ef-405c-977d-4d02ef105c48"/>„<rs type="institution" ref="#36916">Wipag</rs>“ affichieren liess, was anstandslos erfolgte. Der Ge<lb xml:id="uuid_33dcc65e-c228-4b68-9cc6-5ec2289b6839" break="no"/>danke der <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-002-000">Berichtigung</rs> ist also folgender: Das Plakat, dessen <pb facs="" n="4"/>
+                <lb xml:id="uuid_70ec0f6f-8311-4e42-ac0f-6f8311be42e7"/>Affichierung die „<rs type="institution" ref="#36916">Wipag</rs>“ verweigert hat, enthielt nicht einen
+                    <lb xml:id="uuid_26105e7f-4c1e-4c10-905e-7f4c1efc10c4"/>Hinweis auf die
+                Begönnerung <rs type="person" ref="#37843">Bekessys</rs> durch die Wiener Sozial<lb xml:id="uuid_41b3fd4e-f837-40c3-b3fd-4ef83700c389" break="no"/>demokraten,
+                sondern eine Warnung vor der Auslieferung der den <lb xml:id="uuid_60cf77c4-6890-4744-8f77-c468904744cf"/>Herrn <rs type="person" ref="#37843">Bekessy</rs> betreffenden Strafakten an die ungarische Justiz. <lb xml:id="uuid_230fe880-d4c3-46a3-8fe8-80d4c3b6a3c5"/>Diese <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-002-000">Berichtigung</rs>
+                ist vollständig in Ordnung und dass sie nicht <lb xml:id="uuid_4109826f-c8cc-42e9-8982-6fc8cc12e9c2"/>in diese Worte gefasst
+                wurde, hat seine Ursache nur darin, dass <lb xml:id="uuid_ab44973b-ed9a-47ff-8497-3bed9a87ffa4"/>ich mich notgedrungen an den
+                Wortlaut des Berichtes selbst an<lb xml:id="uuid_f0e52d73-8d39-4dae-a52d-738d392daecd" break="no"/>schliessen
+                musste.</p>
+            <p xml:id="uuid_1097f782-ad85-4d93-bfc4-271f350fe3ec">
+                <lb xml:id="uuid_032b57ed-b62c-4fc8-ab57-edb62cffc88e"/>Des <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-006-000">Urteil</rs> erster
+                Instanz begründet seinen Frei<lb xml:id="uuid_86efb9e0-8e76-499c-afb9-e08e76999ca4" break="no"/>spruch ferner damit, dass die Worte „<quote xml:id="uuid_0a7c3b76-e246-4389-a1f3-2964b58f0c07" source="#53699">plakatieren
+                    wollte</quote>“ sich <lb xml:id="uuid_312fb9e9-f399-4d7b-afb9-e9f3990d7be5"/>nur
+                auf eine Absicht beziehungsweise ein Vorhaben beziehen und <lb xml:id="uuid_4265ed24-0f21-498c-a5ed-240f21198cee"/>daher nicht eine
+                berichtigungsfähige Tatsache darstellen. Selbst <lb xml:id="uuid_933194d6-20ca-4bc8-b194-d620ca0bc8ac"/>wenn es sich hier
+                tatsächlich nur um ein inneres Vorhaben ge<lb xml:id="uuid_9bc1ab55-f5db-4900-81ab-55f5dba900d7" break="no"/>handelt hätte,
+                wäre nach der bekannten Entscheidung des <rs type="institution" ref="#36856">Obersten <lb xml:id="uuid_e367c34b-86eb-425b-a7c3-4b86eb725b09"/>Gerichtshofes</rs> vom 29./5.1925, Os 299/25, die Berichtigungsmög<lb xml:id="uuid_d804c160-8e04-4011-84c1-608e046011de" break="no"/>lichkeit gegeben,
+                weil nach dieser Entscheidung des <rs type="institution" ref="#36856">Obersten <lb xml:id="uuid_5c38fc8b-7a41-4c9e-b8fc-8b7a418c9e33"/>Gerichtshofes</rs> auch
+                Ansichten, Absichten, Entschlüsse, Beweggründe, <lb xml:id="uuid_43402aa7-ef0d-4a0a-802a-a7ef0d7a0af9"/>Gesinnungen, die jemandem
+                zugeschrieben werden und die man als <lb xml:id="uuid_884a3a54-cd3d-4c17-8a3a-54cd3d9c17ac"/>der Selbstbeobachtung
+                zugängliche innere Tatsachen zu bezeich<lb xml:id="uuid_b508ed20-e57c-4d1f-88ed-20e57c9d1fb4" break="no"/>nen pflege, als
+                berichtigungsfähige Tatsachen anerkannt werden. <lb xml:id="uuid_2ff14bd0-b2f4-4724-b14b-d0b2f40724e8"/>Im vorliegenden Falle ist es
+                aber nicht bei dem inneren Vorhaben <lb xml:id="uuid_ff7cb38a-2424-4b24-bcb3-8a24247b245c"/>geblieben. Ich habe das
+                Plakat der „<rs type="institution" ref="#36916">Wipag</rs>“ zur Affichierung <lb xml:id="uuid_8b7c45de-75a3-4776-bc45-de75a34776ab"/>übergeben und diese hat, wie
+                ja der Bericht selbst erwähnt, die <lb xml:id="uuid_630bc718-06b6-475c-8bc7-1806b6b75c45"/>Affichierung verweigert.
+                Mein Wollen stellt also hier nicht eine <lb xml:id="uuid_0fd2cc6e-217a-497c-92cc-6e217ab97c60"/>innere Tatsache dar, sondern
+                eine äussere Tatsache, die Ueber<lb xml:id="uuid_85643433-ebb3-4aba-a434-33ebb36aba49" break="no"/>gabe zur
+                Plakatierung. Dass diese Tatsache berichtigungsfähig <lb xml:id="uuid_7d030f7b-1a13-4e5e-830f-7b1a131e5eb3"/>ist, steht also ausser
+                Zweifel. Es wird aber an dieser Tatsache <lb xml:id="uuid_dbc13945-dd7c-45b3-8139-45dd7cc5b3df"/>überdies gar nichts
+                berichtigt, sondern es wird doch nur, wie <lb xml:id="uuid_414ea1a8-fde4-4438-8ea1-a8fde4f43871"/>erwähnt, der falsch
+                mitgeteilte Inhalt des Plakates, dass ich <lb xml:id="uuid_19abc0ac-e6c0-44c8-abc0-ace6c0b4c87b"/>durch die „<rs type="institution" ref="#36916">Wipag</rs>“ affichieren lassen sollte,
+                berichtigt. Alle <lb xml:id="uuid_c584d0ea-5b02-4a17-84d0-ea5b026a17c3"/>anderen
+                Mitteilungen des <rs type="work" ref="#53699">Berichtes</rs> und der <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-002-000">Berichtigung</rs>
+                dienen <lb xml:id="uuid_e9ad3868-e026-4221-ad38-68e026b2210b"/>lediglich zur
+                Charakterisierung respektive Identifizierung des <pb facs="" n="5"/>
+                <lb xml:id="uuid_c039d41b-aec5-4892-b9d4-1baec5d89256"/>Plakates und haben bei der
+                Entscheidung aber die Rechtmässig<lb xml:id="uuid_dd325d68-0d85-40b5-b25d-680d85e0b595" break="no"/>keit der <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-002-000">Berichtigung</rs> ausser Betracht zu bleiben.</p>
+            <p xml:id="uuid_dc980a2a-ccbe-49fb-be35-b34925a4863d">
+                <lb xml:id="uuid_f3e714e2-c965-4fd6-a714-e2c965bfd699"/>Das <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-006-000">Urteil</rs> erster
+                Instanz begründet seinen Frei<lb xml:id="uuid_a78bc430-e21a-4a26-8bc4-30e21a4a26f4" break="no"/>spruch auch damit, dass die Antithese des zweiten Teiles der <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-002-000">Be<lb xml:id="uuid_ab6acb14-1b49-4742-aacb-141b49c742e8" break="no"/>richtigung</rs> inhaltlich weit über den Rahmen des Notwendigen hinaus <lb xml:id="uuid_34d53563-0d8d-4188-9535-630d8df188ce"/>gehe, indem sie in längerer
+                Ausführung einen angeblichen Vorfall <lb xml:id="uuid_483bc317-4902-40fa-bbc3-174902e0fade"/>schildere, auf den die
+                Stelle des <rs type="work" ref="#53699">Artikels</rs> sich gar nicht be<lb xml:id="uuid_f49a6b76-dc24-4bc3-9a6b-76dc245bc360" break="no"/>ziehe. Nun ist
+                mir keine gesetzliche Vorschrift bekannt, dass <lb xml:id="uuid_a89d93dd-6bf0-4934-9d93-dd6bf0d934ae"/>ich eine Berichtigung nur in
+                dem Rahmen des Notwendigen halten <lb xml:id="uuid_6f464512-373e-4db7-8645-12373eddb75a"/>müsste. Es ist für die
+                Gesetzlichkeit einer Berichtigung nur <lb xml:id="uuid_457cef38-d58c-4b24-bcef-38d58ccb2445"/>erforderlich, dass in einem
+                Artikel der Zeitung Tatsachen mit<lb xml:id="uuid_c8b8bf07-5184-4ac2-b8bf-075184bac2d7" break="no"/>geteilt werden,
+                die den Berichtigungswerber betreffen und nach <lb xml:id="uuid_7fe714ee-94bb-4136-a714-ee94bb21362a"/>Darstellung desselben
+                unrichtig sind. Ob der Berichtigungswer<lb xml:id="uuid_59fd0239-e835-42d6-bd02-39e83512d60e" break="no"/>ber zur
+                Darstellung der Unrichtigkeit eine weitschweifige oder <lb xml:id="uuid_6b6ea485-304e-497a-aea4-85304e597a8f"/>kürzere Fassung wählt, ist
+                seine Sache. Nach wiederholten Ent<lb xml:id="uuid_79519bf8-4e80-4026-919b-f84e802026bd" break="no"/>scheidungen der
+                Gerichte und des <rs type="institution" ref="#36856">Obersten Gerichtshofes</rs>
+                steht es <lb xml:id="uuid_3d3acd5d-1216-4fbd-bacd-5d1216efbda3"/>in seinem Belieben,
+                eine genaue und ausführliche Darstellung <lb xml:id="uuid_56552d69-0bd7-41e9-952d-690bd761e988"/>des Sachverhaltes zu geben.
+                Von grösserem Gewichte wäre die <lb xml:id="uuid_dfd9b8cd-bf6d-4d4d-99b8-cdbf6d9d4d48"/>Begründung, dass sich die
+                Stelle des <rs type="work" ref="#53699">Artikels</rs> gar nicht auf den <lb xml:id="uuid_fe71ce16-5f67-454b-b1ce-165f67f54b55"/>Vorfall beziehe, den ich in
+                meiner <rs type="work" ref="legalkraus.acdh.oeaw.ac.at">Berichtigung</rs>
+                dargestellt <lb xml:id="uuid_fbbcfcb7-e8c4-4632-bcfc-b7e8c476326d"/>habe. Diese
+                Ansicht aber ist unrichtig. Der <rs type="work" ref="#53699">Bericht</rs> enthält
+                    <lb xml:id="uuid_af22b0a2-f7ef-4ae5-a2b0-a2f7efcae505"/>folgende mitgeteilte
+                Tatsachen.</p>
+            <p xml:id="uuid_9d477d47-228a-467c-8f00-a5309e426015">
+                <lb xml:id="uuid_e7d63257-a40c-46bc-9632-57a40c26bcbf"/>1.) Dass ich einem meiner
+                Angriffsobjekte ein Diktum <lb xml:id="uuid_fad163cd-259d-48b3-9163-cd259d98b3ff"/>an den Kopf warf; <lb xml:id="uuid_a9a7cf30-8d34-43f9-a7cf-308d3493f9f3"/>2.) dass
+                dieses Diktum in einem Vortrage erfolgte, der <lb xml:id="uuid_f93b960e-3ab7-43ca-bb96-0e3ab713ca82"/>in der „<rs type="work" ref="#41244">Fackel</rs>“ veröffentlicht wurde; <lb xml:id="uuid_b09c87db-dcaf-4a90-9c87-dbdcafba9073"/>3.) dass die
+                Veröffentlichung in der „<rs type="work" ref="#41244">Fackel</rs>“ nach dem <lb xml:id="uuid_fd76cf12-fa0c-4abb-b6cf-12fa0caabbfb"/>Vertrage erfolgte; <lb xml:id="uuid_94ba79d3-b480-4252-ba79-d3b480e252ef"/>4.) dass dieses Diktum
+                wortwörtlich gelautet habe: <lb xml:id="uuid_e77e8608-8ea5-42b2-be86-088ea502b248"/>„<quote xml:id="uuid_531f5df7-d02c-41a3-a8aa-052fb4813cf0" source="#53699">Ich
+                    fordere Sie auf, sich zu erschiessen!</quote>“ <lb xml:id="uuid_7b3ec547-6c29-4e4a-bec5-476c293e4aa8"/>Jede dieser Mitteilungen ist
+                berichtigungsfähig und ich habe <lb xml:id="uuid_d5a572d4-eab1-4c3b-a572-d4eab1dc3be8"/>auch die unter 3 und 4
+                angeführten Mitteilungen berichtigt. Hier- <pb facs="" n="6"/>
+                <lb xml:id="uuid_d44ca6e9-98eb-4b54-8ca6-e998ebdb547d"/>bei konnte es sei
+                selbstverständlich nicht bei zwei Gegensätzen <lb xml:id="uuid_41d487e6-9db2-4bd4-9487-e69db2abd4af"/>bleiben, weil der Inhalt des
+                Diktums und der Zeitpunkt der Ver<lb xml:id="uuid_5b01730d-ebfe-427d-8173-0debfe327d8b" break="no"/>öffentlichung
+                desselben mehrere Kombinationen erforderten. Ich <lb xml:id="uuid_330f2794-90be-4812-8f27-9490be081249"/>musste daher berichtigen,
+                dass das Diktum, „<quote xml:id="uuid_6a083b86-e340-4321-8d18-e3b8e7ee8c81" source="#53699">ich fordere Sie auf, <lb xml:id="uuid_e0c7ff98-9abd-4d3b-87ff-989abdbd3b15"/>sich zu
+                    erschiessen</quote>“, überhaupt nicht gesprochen wurde, sondern <lb xml:id="uuid_65f3f344-f630-41d0-b3f3-44f630f1d090"/>dass ein ähnliches Diktum in
+                anderer Absicht und mit einem voll<lb xml:id="uuid_c8e6f552-083a-4aeb-a6f5-52083a5aebd4" break="no"/>ständig anderen
+                Wortlaut von mir gebraucht wurde. Zur Berichti<lb xml:id="uuid_d7461e8a-0a76-4cea-861e-8a0a767ceaf3" break="no"/>gung des
+                Wortlautes wäre ich selbst bei Identität des Inhaltes, <lb xml:id="uuid_48bfb069-a4af-4d76-bfb0-69a4afcd766f"/>die jedoch nicht vorliegt,
+                berechtigt, weil die Worte „<quote xml:id="uuid_59e4d02d-a2d8-4d5b-816f-6597b5be35e3" source="#53699">ich <lb xml:id="uuid_15f2c8b2-d839-48f3-b2c8-b2d83908f3dc"/>fordere Sie auf, sich zu
+                    erschiessen</quote>“ unter Anführungszeichen <lb xml:id="uuid_50b2fe4c-57c1-40ca-b2fe-4c57c170ca54"/>gesetzt worden waren, so
+                dass sie dem Leser als mein wörtlicher <lb xml:id="uuid_5e2909e7-4690-4894-a909-e74690689462"/>Ausspruch mitgeteilt wurden.
+                Ich musste auch berichtigen, dass <lb xml:id="uuid_c32c1a13-1701-4a20-ac1a-1317019a20cb"/>dieses Diktum nicht erst
+                gesprochen und dann in der „<rs type="work" ref="#41244">Fackel</rs>“ <lb xml:id="uuid_eca5c785-f202-4d37-a5c7-85f2029d37ca"/>veröffentlicht wurde,
+                sondern umgekehrt, zuerst in der „<rs type="work" ref="#41244">Fackel</rs>“ <lb xml:id="uuid_587cfda7-ff3e-472e-bcfd-a7ff3e372ed8"/>veröffentlicht und dann in
+                einem Vortrage gesprochen wurde. Ich <lb xml:id="uuid_1aadaec4-6dd2-47ba-adae-c46dd2f7babd"/>konnte aber auch
+                berichtigen, dass ich einmal auch ein Diktum <lb xml:id="uuid_565df89c-1b9e-4e4d-9df8-9c1b9eee4d33"/>zuerst gesprochen und dann
+                im Drucke veröffentlicht habe, dass <lb xml:id="uuid_6aab2629-7b31-4ad0-ab26-297b310ad01e"/>aber dieses Diktum nicht
+                eine Aufforderung „<quote xml:id="uuid_0af596e8-4beb-4cab-a74a-149d24f0fabb" source="#53699">sich zu erschies<lb xml:id="uuid_4677a387-2a83-40d5-b7a3-872a8380d5eb" break="no"/>sen</quote>“,
+                sondern eine Aufforderung an Herrn <rs type="person" ref="#37843">Bekessy</rs> war,
+                den Schau<lb xml:id="uuid_22a4756b-a135-470e-a475-6ba135170eee" break="no"/>platz
+                seiner Tätigkeit zu räumen. Ich gestehe zu, dass der Sach<lb xml:id="uuid_20a9802b-2540-4368-a980-2b2540c368be" break="no"/>verhalt
+                kompliziert ist, aber wenn die Zeitung einen komplizier<lb xml:id="uuid_f065d8e7-fde4-450b-a5d8-e7fde4850be1" break="no"/>ten Sachverhalt
+                berichtet, so muss sie sich auch eine kompli<lb xml:id="uuid_3cad7811-9328-4972-ad78-119328a97241" break="no"/>zierte
+                Berichtigung gefallen lassen. Es ist gewiss ausschliess<lb xml:id="uuid_b15446f6-a1c5-4c5b-9446-f6a1c50c5bec" break="no"/>lich Sache des
+                Berichtigungswerbers, ob er die Tatsache, dass <lb xml:id="uuid_f991e45c-75a8-4126-91e4-5c75a89126c6"/>ein Diktum erst gesprochen
+                und dann im Drucke veröffentlicht <lb xml:id="uuid_802e1eb9-0ad6-432d-ae1e-b90ad6a32dd0"/>wurde, oder umgekehrt, und
+                welchen Inhalt dieses Diktum gehabt <lb xml:id="uuid_9372ca76-2e52-4d3c-b2ca-762e52dd3c2d"/>hat, für so wichtig hält,
+                dass er die Notwendigkeit empfindet, <lb xml:id="uuid_badb297e-00cc-45b2-9b29-7e00cc95b229"/>eine falsche Mitteilung zu
+                berichtigen. Ich, der ich eine Le<lb xml:id="uuid_25945d40-035a-4160-945d-40035a6160f4" break="no"/>bensarbeit daran
+                gewendet habe, von der Presse die schärfsten <lb xml:id="uuid_d5f7ec81-f5d8-4df2-b7ec-81f5d8fdf218"/>Genauigkeit im
+                Tatsachenbericht zu verlangen, empfinde diese <lb xml:id="uuid_7793cc3e-58e7-4300-93cc-3e58e7f300d3"/>Notwendigkeit. Man glaube ja
+                nicht, dass dieses Verlangen über<lb xml:id="uuid_ab615171-50ed-4218-a151-7150edb218fe" break="no"/>flüssig ist. Ich
+                habe es in meiner langjährigen Tätigkeit zu <pb facs="" n="7"/>
+                <lb xml:id="uuid_d250c231-d97d-4c46-90c2-31d97dfc4634"/>wiederholten Malen erfahren,
+                dass gerade die Fälschung in <lb xml:id="uuid_805bdea1-2d0b-4e5b-9bde-a12d0bde5b2e"/>Kleinigkeiten der Presse die Möglichkeit gibt, ihr verhängnis<lb xml:id="uuid_133fffd2-0f8b-4781-bfff-d20f8b678137" break="no"/>volles Treiben
+                auszunützen und dass eine wirklich verlässliche <lb xml:id="uuid_1b47c9cc-0d51-4fbc-87c9-cc0d51ffbc77"/>Presse nur dadurch zu
+                erzwingen ist, dass man ihr in der Tat<lb xml:id="uuid_25df6c69-c484-49b0-9f6c-69c48499b0d9" break="no"/>sachenberichterstattung auf die Finger sieht.</p>
+            <p xml:id="uuid_b573315e-991d-4f7c-9b3c-6e03d908995d">
+                <lb xml:id="uuid_1bc04f0f-9a52-40bf-804f-0f9a5240bf62"/>Das <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-006-000">Urteil</rs> erster
+                Instanz begründet den Frei<lb xml:id="uuid_b864529a-b452-4733-a452-9ab452b73326" break="no"/>spruch noch damit, dass die <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-002-000">Berichtigung</rs>
+                eine klar zu Tage tre<lb xml:id="uuid_f18e3a61-a011-4cff-8e3a-61a0110cff1f" break="no"/>tende Verspottung des <rs type="institution" ref="#29675">Preisrichterkollegiums für den Bauernfeld<lb xml:id="uuid_b7fe5db3-9f5b-410c-be5d-b39f5b410c9b" break="no"/>preis</rs>
+                enthalte, daher eine strafbare Handlung (<rs type="law" ref="">§ 491 St.G.</rs>) <lb xml:id="uuid_46f31837-b2a5-4448-b318-37b2a5a448d6"/>beinhalte, was den
+                verantwortlichen <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/40703">Schriftleiter</rs> gemäss <rs type="law" ref="">§ 23 <lb xml:id="uuid_122884b6-12ac-4400-a884-b612acd40012"/>(2) 4 Pr.G.</rs> zur
+                Verweigerung der Aufnahme der <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-002-000">Berichtigung</rs>
+                <lb xml:id="uuid_148baea7-dd2a-4461-8bae-a7dd2a94618c"/>berechtigte. Ich werde noch
+                ausführen, dass diese Ansicht des <lb xml:id="uuid_ddadca1b-608f-460e-adca-1b608f660e53"/>
+                <rs type="institution" ref="#50491">Erstgerichtes</rs> unrichtig ist, dass hier von einer Strafbarkeit
+                    <lb xml:id="uuid_baa9291b-abd7-4d92-a929-1babd74d92cc"/>der Veröffentlichung
+                keine Rede sein kann. Ich möchte nur vor<lb xml:id="uuid_fe0a4066-a3c8-46df-8a40-66a3c826df73" break="no"/>her noch darauf
+                hinweisen, dass <rs type="law" ref="">§§ 23 Abs. 2 Z. 4</rs> sagt, die Auf<lb xml:id="uuid_8c834798-a364-4e80-8347-98a364ce80da" break="no"/>nahme kann
+                verweigert werden, wenn die Veröffentlichung der Be<lb xml:id="uuid_561236c5-1cdb-4365-9236-c51cdb7365b0" break="no"/>richtigung
+                strafbar wäre. Die Aufnahme muss also nicht verwei<lb xml:id="uuid_3d24a4e7-4ae0-4a29-a4a4-e74ae0ca295d" break="no"/>gert werden. Wenn
+                sie der verantwortliche <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/40703">Schriftleiter</rs> aus <lb xml:id="uuid_1044231a-2350-4eb2-8423-1a23509eb247"/>diesem Grunde verweigert, so
+                muss er sich darauf berufen. Das <lb xml:id="uuid_070e682a-0647-4924-8e68-2a0647992417"/>hat aber der verantwortliche
+                    <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/40703">Schriftleiter</rs> respektive sein <rs type="person" ref="#53735">Ver<lb xml:id="uuid_87b00722-7d0a-4519-b007-227d0a55192d" break="no"/>teidiger</rs>
+                nicht getan. Er hat einige Gründe vorgebracht, die ihn <lb xml:id="uuid_71db6568-d78a-493e-9b65-68d78aa93ed9"/>nach seiner Ansicht
+                berechtigten, die <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-002-000">Berichtigung</rs>
+                nicht zu <lb xml:id="uuid_29d2c87f-ecf0-4149-92c8-7fecf0414971"/>veröffentlichen,
+                nicht aber, dass er sie deshalb verweigert habe, <lb xml:id="uuid_0102d407-3a2f-42c4-82d4-073a2f62c40e"/>weil die Veröffentlichung
+                strafbar wäre. Da der verantwortliche <lb xml:id="uuid_148ee197-29e8-4241-8ee1-9729e8424135"/>
+                <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/40703">Redakteur</rs> die Aufnahme der
+                    <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-002-000">Berichtigung</rs> verweigern kann, aber <lb xml:id="uuid_9f8cf090-b381-4a1d-8cf0-90b3810a1d6e"/>nicht verweigern muss und
+                sich nicht damit verantwortete, dass <lb xml:id="uuid_347ba730-6bd3-45fe-bba7-306bd335fea5"/>er die Veröffentlichung aus
+                dem Grunde der Strafbarkeit ver<lb xml:id="uuid_f58c2763-3720-4d85-8c27-6337201d856c" break="no"/>weigert hatte, so
+                durfte das <rs type="institution" ref="#50491">Erstgericht</rs> auch nicht aus
+                diesem <lb xml:id="uuid_26a69e1f-9d6b-4d94-a69e-1f9d6b7d9436"/>Grunde einen
+                Freispruch fällen. Ueberdies ist die Veröffent<lb xml:id="uuid_e6b1d89c-589e-42a0-b1d8-9c589e32a0cd" break="no"/>lichung dieser
+                    <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-002-000">Berichtigung</rs> nicht strafbar. Die Veröffentlichung <lb xml:id="uuid_99115c1c-54cf-427f-915c-1c54cf427fc7"/>der <rs type="work" ref="https://fackel.oeaw.ac.at/f/343,042">Glosse</rs> über die Preisrichter des
+                    <rs type="institution" ref="#29675">Bauernfeldpreis-Komitees</rs>
+                <lb xml:id="uuid_72283f54-2b21-417a-a83f-542b21b17a22"/>erfolgte am 29. Februar
+                1912. Die Preisrichter haben wegen die- <pb facs="" n="8"/>
+                <lb xml:id="uuid_2b83bcec-b3c8-4fe1-83bc-ecb3c86fe1ea"/>ser <rs type="work" ref="https://fackel.oeaw.ac.at/f/343,042">Glosse</rs> keine Klage gegen mich
+                erhoben, also offensichtlich <lb xml:id="uuid_df13246c-a9c0-47f8-9324-6ca9c0c7f8a9"/>auch keine strafbare Handlung in dieser <rs type="work" ref="https://fackel.oeaw.ac.at/f/343,042">Glosse</rs> bildet. Aber selbst <lb xml:id="uuid_688e232c-a4f4-42e8-8e23-2ca4f4e2e8b0"/>wenn eine Beleidigung in
+                diesem Satze gelegen gewesen wäre, so <lb xml:id="uuid_bc23faad-ef5b-4769-a3fa-adef5b07698c"/>wäre die Verwendung
+                desselben als Argument gegen mich keine <lb xml:id="uuid_9b178cd3-d2fc-4ee4-978c-d3d2fcaee4e7"/>strafbare Handlung für die
+                Zeitung, da nach <rs type="law" ref="">§ 493 St.G.</rs> nur <lb xml:id="uuid_31529027-f345-47fe-9290-27f34537fe60"/>strafbar ist, wer eine
+                Ehrenbeleidigung weiter zu verbreiten <lb xml:id="uuid_a7259808-7f1f-4253-a598-087f1f325372"/>sucht, also in der Absicht
+                handelt, zu ihrem grösseren Bekannt<lb xml:id="uuid_ed1d0f43-bf34-42d2-9d0f-43bf34e2d292" break="no"/>werden
+                beizutragen. Sonst wäre ja jede Berichterstattung über <lb xml:id="uuid_4f7a9ba5-29a9-4c2a-ba9b-a529a9ac2a71"/>eine
+                Ehrenbeleidigungsverhandlung mit genauer Wiedergabe der <lb xml:id="uuid_6e0cb643-736d-456f-8cb6-43736d556fd2"/>inkriminierten
+                Ehrenbeleidigungen eine strafbare Handlung, wie <lb xml:id="uuid_cc3047cc-b663-4384-b047-ccb6632384e9"/>gewiss kein Gericht
+                entscheiden wird. Wenn also in einem Ge<lb xml:id="uuid_fb410add-f5e7-486d-810a-ddf5e7486dad" break="no"/>richtssaalbericht
+                mitgeteilt würde, dass ich wegen Ehrenbelei<lb xml:id="uuid_4c795d7a-5fd2-4a75-b95d-7a5fd28a751e" break="no"/>digung angeklagte
+                wurde, weil ich jemandem den Vorwurf gemacht <lb xml:id="uuid_9fedcf12-7029-4503-adcf-12702985038a"/>hätte, er habe mir eine
+                Sache veruntreut, so kann ich doch ge<lb xml:id="uuid_e5529001-abc5-48b1-9290-01abc508b181" break="no"/>wiss berichtigen,
+                dass der Vorwurf, dessentwegen ich angeklagt <lb xml:id="uuid_81e6ce8e-e74e-4fcc-a6ce-8ee74e0fccf7"/>wurde, der des Diebstahls
+                war. Eine solche Veröffentlichung <lb xml:id="uuid_cbf60ead-d635-4bfc-b60e-add6355bfc36"/>wäre ebensowenig strafbar,
+                wie der Gerichtssaalbericht selbst. <lb xml:id="uuid_e7580eb6-9b77-4429-980e-b69b77342989"/>Man mache die Probe auf die
+                Richtigkeit, indem man sich denkt, <lb xml:id="uuid_ed13bc83-b9fd-4967-93bc-83b9fd196751"/>dass der <rs type="work" ref="#53699">Bericht</rs> der „<rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/29637">Reichspost</rs>“ gleich anstatt
+                des unrichti<lb xml:id="uuid_4defe616-0038-4979-afe6-16003869794b" break="no"/>gen
+                Diktums das richtige gesetzt hätte. Ist es denkbar, dass die <lb xml:id="uuid_4a1cf6d8-bfd0-48bd-9cf6-d8bfd0c8bdc5"/>
+                <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/29637">Reichspost</rs> zur Verantwortung
+                hätte gezogen werden können, wenn <lb xml:id="uuid_f54a66b4-a552-46ae-8a66-b4a55296aeaf"/>sie geschrieben hätte: „Man
+                erinnert sich noch, wie <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs>
+                <lb xml:id="uuid_c0dc8941-6971-4c3f-9c89-416971dc3f5f"/>vor Jahren in einem nachher
+                in der ‚<rs type="work" ref="#41244">Fackel</rs>‘ veröffentlichten <lb xml:id="uuid_c1e150fa-6016-4aae-a150-fa60165aae5e"/>Vortrage einem seiner
+                Angriffsobjekte das Diktum an den Kopf <lb xml:id="uuid_1e28f2b1-4c5e-4647-a8f2-b14c5e06478a"/>warf: ‚<quote xml:id="uuid_657e7bfa-0f2f-4996-b59a-1466d9054200" source="https://fackel.oeaw.ac.at/f/343,044">Sie sollen mit Bedauern die
+                    Bauernfeldpreise zurückziehen <lb xml:id="uuid_6a73cc6f-28a3-491a-b3cc-6f28a3a91a45"/>und erklären, dass sie
+                    nicht in der Lage sind, den Wahrheitsbe<lb xml:id="uuid_b7aad9b6-713d-4079-aad9-b6713db079e2" break="no"/>weis
+                    anzutreten. Oder sie sollen, wenn sie das nicht über sich <lb xml:id="uuid_d9506598-16c4-4439-9065-9816c4043979"/>bringen, zu fünft ein
+                    Hotelzimmer mieten und den Selbstmord, den <lb xml:id="uuid_a2688a4d-5cec-40a0-a88a-4d5cec90a040"/>sie durch Verteilung des
+                    Bauernfeldpreises markiert haben, voll<lb xml:id="uuid_ee5256c4-e4cb-47fc-9256-c4e4cbd7fc17" break="no"/>ziehen</quote>‘. Sprachs und die – Erde drehte sich weiter. So wird es <lb xml:id="uuid_26ed2513-0028-485f-ad25-130028785fc7"/>auch diesmal sein.“ Wenn
+                aber, wie ich als sicher annehme, kein <lb xml:id="uuid_b8eabcdc-7eb6-4907-aabc-dc7eb6f90784"/>Gericht deshalb die „<rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/29637">Reichspost</rs>“ wegen Beleidigung verurteilt <pb facs="" n="9"/>
+                <lb xml:id="uuid_595873a0-f1d7-4890-9873-a0f1d7f890b4"/>hätte, so kann auch in der
+                Aufnahme der <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-002-000">Berichtigung</rs>
+                keine <lb xml:id="uuid_af04f881-db00-45c8-84f8-81db0095c84e"/>strafbare Handlung
+                liegen.</p>
+            <p xml:id="uuid_bb7c3d22-16d2-427e-8109-2cc24b7ad00e">
+                <lb xml:id="uuid_abc7aa44-7320-4eda-87aa-4473203eda31"/>Ich stelle daher den <lb xml:id="uuid_b3dc711e-ddda-4847-9c71-1edddab8474a"/>Berufungsantrag: <lb xml:id="uuid_736e5c91-24e6-4ebf-ae5c-9124e65ebf40"/>das erstrichterliche <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000092-006-000">Urteil</rs> aufzuheben und den <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/40703">Angeklagten</rs>
+                <lb xml:id="uuid_c9d1efff-f012-4f44-91ef-fff012ef4473"/>gemäss dem Strafantrage zu
+                verurteilen.</p>
+            <p xml:id="uuid_de34591d-3949-42bf-b9e5-e9a1a1623ff9">
+                <lb xml:id="uuid_23cd32c4-0a6f-4d98-8d32-c40a6f4d98dd"/>
+                <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs>.</p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000136-020-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000136-018-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000136-021-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Schriftsatz in Sachen Die Fackel ./. Die Volksbühne (RA Botho Laserstein an
+                    das Landgericht I. Berlin, G. Z. 0.549/29)</title>
+                <editor ref="#PE">Pia Ebner</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <availability default="false">
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000136-020-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3776</idno>
+                <idno type="ID" subtype="transkribus">451995</idno>
+            </publicationStmt>
+            <seriesStmt default="false">
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000136">Karl
+                    Kraus ca. Volksbühne Berlin</title>
+            </seriesStmt>
+            <sourceDesc default="false">
+                <listWit>
+                    <witness xml:id="D_000136-020-000-wit01" facs="#D_000136-020-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date type="sortDate" when-iso="1930-06-10" subtype="produced">10. Juni 1930</date></creation>
+            <langUsage default="false"><language ident="german">Deutsch</language></langUsage>
+            <textClass default="false"/>
+            <particDesc default="false"/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="references" when-iso="2021-09-22" who="#PE" status="draft"/>
+            <change when-iso="2020-10-08T14:03:55.882Z" who="#IB" status="draft">created by
+                API</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000136-020-000-facs001">
+        <surfaceGrp xml:id="D_000136-020-000-facs001-l001">
+            <surface xml:id="D_000136-020-000-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000138_23.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000136-020-000-facs001-l001-p002" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000139_30.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="#D_000136-020-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_0535058b-5e40-4172-a1ee-76ee6df1ff4c"><lb xml:id="uuid_e5bb363b-3c7b-4e63-be66-05acb8ef3f94"/>Abschrift </p>
+            <p xml:id="uuid_0c3afaaa-c09e-4e5e-a98f-dad73a652575"><lb xml:id="uuid_333dedc9-98cd-44fc-a35b-c0316f2b4bee"/>E. BERLIN, DEN 10. Juni 1930
+                    <lb xml:id="uuid_168cc130-4d1a-45df-b2db-9fa606897c44"/>193 </p>
+            <p xml:id="uuid_bc5ac7cd-fcd9-4cb0-8c73-26ef8462d9cf"><lb xml:id="uuid_e67f0641-2a42-4861-ba4a-e8f0292aca7b"/>In Sachen <lb xml:id="uuid_2af1ddc2-7069-4c11-92ae-4d08607e1327"/>„<rs type="institution" ref="#43724">Fackel</rs>“ ./. <rs type="institution" ref="#36940">Volksbühne</rs>
+                <lb xml:id="uuid_be0c5519-5276-4c7b-a757-9e27fbd3ed46"/>38.0.549/29 </p>
+            <p xml:id="uuid_e9864442-0e5f-4efa-8fcd-131e7f20d362"><lb xml:id="uuid_50004cf0-bedf-418b-8a57-d0b34e411377"/>bitte ich dringend, den
+                Termin nicht <lb xml:id="uuid_030013b8-cbf7-42e9-a43a-0745093fde4a"/>im Juni oder
+                Juli sondern in der Zeit <lb xml:id="uuid_34a07730-8f71-4f52-a10b-cb69c2e293c6"/>vom
+                22. bis 30. August d.Js. anzube<lb xml:id="uuid_2876792e-2993-4a24-9265-bee89d6863d7" break="no"/>raumen. In der
+                übrigen Zeit bin ent<lb xml:id="uuid_9d929e5d-ac74-43e0-a322-d97ce470f7bf" break="no"/>weder ich oder mein <rs type="person" ref="#11988">Mandant</rs>
+                nicht in <lb xml:id="uuid_30eec56a-36a0-4468-a199-b48683b4fdfb"/>Berlin. Es liegt
+                aber meinem <rs type="person" ref="#11988">Mandan<lb xml:id="uuid_f9e2e936-81ee-468a-8bef-0091d7f5a84f" break="no"/>ten</rs>
+                naturgemäss sehr viel daran, dem <lb xml:id="uuid_d855d147-e095-4f9a-b8c8-404ff9130fa6"/>Termin persönlich
+                beizuwohnen. Min<lb xml:id="uuid_4380cda3-0f7e-45f4-986f-6dc074549578" break="no"/>destens müsste ich den Termin persön<lb xml:id="uuid_2e7bc8ee-dcad-443a-ad2e-a50f28726075" break="no"/>lich wahrnehmen
+                können. Nachdem die <lb xml:id="uuid_dbb090cd-b8d0-4dc6-ba2c-f644a3846918"/>Gegenseite den Termin so lange ver<lb xml:id="uuid_3a458b04-5f83-4921-a94b-6fb43187d980" break="no"/>schleppt hat,
+                dürfte es angemessen er <lb xml:id="uuid_e65b0990-1d32-4f54-bc61-5168c5872568"/>scheinen, auch auf den <rs type="person" ref="#11988">Kläger</rs> einmal <lb xml:id="uuid_19a9cb7b-7304-4aa8-875e-46fd96559d18"/>Rücksicht zu nehmen, und den
+                Termin <lb xml:id="uuid_4835f6dc-aa44-49aa-81c5-a2b6adf3d02e"/>in dieser Weise
+                anzuberaumen. <lb xml:id="uuid_94ce710c-13ca-4e1c-b789-4adb85ca41cb"/>Bei dieser
+                Gelegenheit möchte <lb xml:id="uuid_e75229ae-7ef4-45cc-88bf-f3d8ed7945b7"/>ich
+                folgendes vortragen: <lb xml:id="uuid_2909104d-5e12-43e1-847b-35354e640868"/>In
+                einer Gesellschaft hat die <lb xml:id="uuid_3dfa4417-8b61-4a49-826f-cec8a436e57b"/>Gegenseite geäussert, der Prozess <lb xml:id="uuid_fc0eb0d8-58e7-4242-a53b-b56a4f44d414"/>stehe für sie völlig
+                aussichtslos. </p>
+            <pb facs="#D_000136-020-000-facs001-l001-p002" n="2"/>
+            <p xml:id="uuid_0e8409e2-1254-4005-b548-a62bc64c3895"><lb xml:id="uuid_68979244-be54-4b91-a0ef-5425d4044873"/>Im Juni sei aber in dem von
+                ihr erbetenen <lb xml:id="uuid_49fc3d72-fed4-445c-aabb-fcd260089e72"/>Beweistermin
+                Herr <rs type="person" ref="#8838">Martin</rs> verreist. Es wer<lb xml:id="uuid_332736b4-b0a4-41e8-a10f-218c21f90674" break="no"/>de ihr also
+                gelingen, den Termin bis zum <lb xml:id="uuid_16cae5a7-9561-47d4-a5e9-a50a99a8b635"/>Herbst zu verschieben und dadurch dem <rs type="person" ref="#8838">Kläger</rs>
+                <lb xml:id="uuid_459fa32a-1f46-4ea5-869d-a0df921265f9"/>das Interesse am Prozess zu
+                nehmen. <lb xml:id="uuid_1650a035-2a24-4620-9cd2-b3ac9666fb92"/>Beweis: Zeugnis des
+                Redaktaurs <rs type="person" ref="#39265">Rolf Nürnberg</rs>, <lb xml:id="uuid_6ba0036e-5c52-4a5d-97a2-e78b0f52df02"/>Berlin, <rs type="place" subtype="address" ref="#56166">Tauentzienstrasse 13</rs>. </p>
+            <p xml:id="uuid_6bdc8495-be1a-4b79-8133-c70e861cc897"><lb xml:id="uuid_fc5cd8fa-d590-4318-9426-dbaa4c67301b"/>Abschrift ist niedergelegt.
+                    <lb xml:id="uuid_8f5a4c58-e6fe-4cde-b751-65397ffdcc4f"/>gez. <rs type="person" ref="#38969">Dr. Laserstein</rs>, <lb xml:id="uuid_4723b95d-b18c-4e2c-b0c1-08ebfd160204"/>Rechtsanwalt.</p>
+        </body>
+    </text>
+</TEI>

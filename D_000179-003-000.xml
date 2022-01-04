@@ -1,0 +1,101 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000179-003-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-006-001.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000179-004-000.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Zeitungsartikel aus: Berliner Tageblatt (Morgenausgabe)</title>
+                <editor ref="#JK">Johannes Knüchel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000179-003-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4421</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000179">Karl
+                    Kraus ca. Berliner Tageblatt (Hermann Sinsheimer)</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000179-003-000-wit01" facs="D_000179-003-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1932-07-06" subtype="produced">6. Juli 1932</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>Zeitungsartikel</term>
+                </keywords>
+            </textClass>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2020-10-09T15:25:57.809Z" who="#IB">created by API</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000179-003-000.xml-facs001">
+        <surfaceGrp xml:id="D_000179-003-000.xml-facs001-l001">
+            <surface xml:id="D_000179-003-000.xml-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000141_14.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="D_000179-003-000.xml-facs001-l001-p001" n="1"/>
+        </body>
+        <!--<div xml:id="uuid_9cc147b7-e331-4e0e-8147-b7e3312e0ec5" part="N" org="uniform"
+            sample="complete">
+            <p xml:id="uuid_6068e781-717e-4a6a-a8e7-81717eaa6a5b">Eine Feststellung. Zu unserem
+                Bericht über einen Prozess zwischen Herrn Karl Kraus und dem Chefredakteur des
+                „Berliner Tageblatts“ hatten wir am </p>
+            <p xml:id="uuid_bbd8eb5e-62b2-4871-98eb-5e62b2d8718b">28. Oktober 1931 von Herrn Kraus
+                eine Berichtigung erhalten und ihr eine Anmerkung hinzugefügt. </p>
+            <p xml:id="uuid_aa8dae99-036b-4af0-8dae-99036b6af011">In dieser Anmerkung hatten wir es
+                als einigermassen befremdend bezeichnet, dass Herr Rechtsanwalt Dr. Willy Katz sich
+                zum Uebermittler einer unwahren Berichtigung gemacht habe, obgleich er den wahren
+                Vorgang kannte. Unsere Vorwürfe waren unbegründet; die Berichtigung traf zu. </p>
+        </div>-->
+    </text>
+</TEI>

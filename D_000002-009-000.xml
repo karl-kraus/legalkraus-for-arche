@@ -1,0 +1,509 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000002-009-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-007-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-009-001.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Berufungsausführung des Privatanklägers</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000002-009-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/1548</idno>
+                <idno type="ID" subtype="transkribus">365672</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000002">Karl
+                    Kraus ca. Reichspost</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000002-009-000-wit01" facs="#D_000002-009-000.xml-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date type="sortDate" subtype="produced" when-iso=""/>
+                <date source="krausonline">o. D. [1923]</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>Berufungsausführung</term>
+                </keywords>
+                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.J.BAF</classCode>
+            </textClass>
+            <particDesc/>
+            <handNotes>
+                <handNote xml:id="D_000002-009-000-hand01" source="#D_000002-009-000-wit01" scribeRef="#38909" medium="red-pencil" cert="medium" resp="#IL"/>
+            </handNotes>
+            <handNotes>
+                <handNote xml:id="D_000002-009-000-hand02" source="#D_000002-009-000-wit01" scribeRef="#43584" medium="black-ink" cert="high" resp="#IL"/>
+            </handNotes>
+            <handNotes>
+                <handNote xml:id="D_000002-009-000-hand03" source="#D_000002-009-000-wit01" scribeRef="" medium="grey-pencil" cert="" resp="#IL"/>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="intertexts" when-iso="2021-11-25" who="#IL"/>
+            <change type="header_facsimile" when-iso="2021-12-07" who="#IL"/>
+            <change type="structure" when-iso="2020-11-18" who="#IL"/>
+            <change type="references" when-iso="2020-11-22" who="#IL"/>
+            <change type="typography" when-iso="2021-12-07" who="#IL"/>
+            <change when-iso="2020-02-03T11:24:10.853Z" who="#IB">created by API</change>
+            <change when-iso="2020-02-03T11:50:12.906Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-03T11:50:15.045Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-03T11:50:17.109Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-03T11:50:19.341Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-03T11:50:21.341Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-03T11:50:23.134Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-03T11:50:25.574Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-03T11:50:28.348Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-03T11:50:30.711Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-03T11:50:31.589Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-02-03T11:50:33.636Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+            <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 365672.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000002-009-000.xml-facs001">
+        <surfaceGrp xml:id="D_000002-009-000.xml-facs001-l001">
+            <surface xml:id="D_000002-009-000.xml-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000088.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540097/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000002-009-000.xml-facs001-l002">
+            <surface xml:id="D_000002-009-000.xml-facs001-l002-p002" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000090.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540099/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000002-009-000.xml-facs001-l003">
+            <surface xml:id="D_000002-009-000.xml-facs001-l003-p003" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000092.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540101/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000002-009-000.xml-facs001-l004">
+            <surface xml:id="D_000002-009-000.xml-facs001-l004-p004" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000094.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540103/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000002-009-000.xml-facs001-l005">
+            <surface xml:id="D_000002-009-000.xml-facs001-l005-p005" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000096.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540105/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000002-009-000.xml-facs001-l006">
+            <surface xml:id="D_000002-009-000.xml-facs001-l006-p006" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000098.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540107/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000002-009-000.xml-facs001-l007">
+            <surface xml:id="D_000002-009-000.xml-facs001-l007-p007" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000100.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540109/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000002-009-000.xml-facs001-l008">
+            <surface xml:id="D_000002-009-000.xml-facs001-l008-p008" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000102.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540111/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000002-009-000.xml-facs001-l009">
+            <surface xml:id="D_000002-009-000.xml-facs001-l009-p009" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000104.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540113/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000002-009-000.xml-facs001-l010">
+            <surface xml:id="D_000002-009-000.xml-facs001-l010-p010" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000106.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540115/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000002-009-000.xml-facs001-l011">
+            <surface xml:id="D_000002-009-000.xml-facs001-l011-p011" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000108.jpg" source="krausonline"/>
+                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540117/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="D_000002-009-000.xml-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_d29acc62-b63e-4227-bf9b-ab1100736eeb"><lb xml:id="uuid_f390c7b3-3c26-4df4-b805-65a5c090c372"/>U.I. 3/23</p>
+            <p xml:id="uuid_ea228a5b-1d90-4591-bfc2-a7c0186758f0"><lb xml:id="uuid_ea4d704a-c1ab-48bb-9ca3-e0c2eea62158"/>An das <lb xml:id="uuid_3d2f007b-0c9a-4d0d-a52c-c952f70a8f58"/><rs type="institution" ref="#50491"><hi rend="spaced">Strafbezirksgericht</hi> I <lb xml:id="uuid_7385f21d-3ae5-4778-8535-8db14544cece"/><hi rend="underlined"><hi rend="spaced">Wien</hi></hi></rs></p>
+            <p xml:id="uuid_5b8d4088-51ba-4865-98df-9a1bd6884344"><lb xml:id="uuid_e165ca65-f999-415f-b6d4-109f97b628ef"/>Privatankläger: <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl <hi rend="spaced">Kraus</hi></rs>, Schriftsteller in <rs type="place" ref="#50496">Wien, <lb xml:id="uuid_57770e01-1f2a-482f-9cc1-343dca8a2e89"/>III.
+                    Hintere Zollamtsstrasse 3</rs>
+                <lb xml:id="uuid_6e68d7e2-d7ce-4998-8512-23c1a9d227ee"/>Beschuldigter: <rs type="person" ref="#40703">Karl <hi rend="spaced">Schiffleitner</hi></rs>,
+                    verantwort<lb xml:id="uuid_21c4c899-fd2c-4f84-9487-633d16a9d818"/>licher
+                Redakteur der „<rs type="institution" ref="#29637">Reichspost</rs>“ in <rs type="place" ref="#50653">Wien VIII. <lb xml:id="uuid_36e8e5e8-afa2-4dcf-8639-a3b67b7755fd"/>Strozzigasse 8</rs>
+                <lb xml:id="uuid_37aa0625-6f30-4e40-b753-7d289a791341"/>wegen Verweigerung einer
+                Berichtigung</p>
+            <p xml:id="uuid_6029af06-5e64-462c-9659-c5bf7d9c43d1"><lb xml:id="uuid_dec88926-bd15-493e-a896-f9f266b5e1a8"/>einfach</p>
+            <p xml:id="uuid_5e48aa03-314d-4240-8f4b-965d9a99f2b6"><lb xml:id="uuid_7784209b-c400-47a2-b4f2-8255c1dc04fa"/><hi rend="spaced">Berufungsausführung des Priva</hi>t<lb xml:id="uuid_0fd2ffdc-5341-4aad-98e2-94ce287aaf0d" break="no"/><hi rend="spaced">anklägers</hi>.</p>
+            <pb facs="D_000002-009-000.xml-facs001-l002-p002" n="2"/>
+            <p xml:id="uuid_d7175589-102f-4e86-bffa-fc469262d113"><lb xml:id="uuid_f10996df-1487-48ab-b015-a8fcb6a15e94"/>Der Unterfertigte legt gegen
+                das Urteil des <rs type="institution" ref="#50491">Strafbezirks<lb xml:id="uuid_01375419-8e38-4d0d-8c56-3100aa4c9201"/>gerichtes I in Wien als
+                    Pressgericht Geschäftszahl UI 3/23/4</rs>
+                <lb xml:id="uuid_30dbaba7-7113-48ee-8bf2-8b3597aa949c"/>Berufung ein und begründet
+                diese wie folgt: </p>
+            <p xml:id="uuid_e6540061-4ad9-44ca-b307-190cfe9419ac">
+                <lb xml:id="uuid_0ae0bd9c-c195-4e41-a03f-d475868f0082"/>Das <rs type="institution" ref="#50491">Strafbezirksgericht I</rs> hat den verantwortlichen Redak<lb xml:id="uuid_2310f501-8cea-45f7-8625-5d6c780e3ba8" break="no"/>teur der „<rs type="institution" ref="#29637">Reichspost</rs>“ von der Verpﬂichtung
+                freigesprochen, den <lb xml:id="uuid_1f866bc7-edfb-4d72-876f-e8a343ee6a2a"/><add>zu
+                    veröffentlichen, mit der Begründung, dass dieser keine Berichtigung</add>
+                <lb xml:id="uuid_804fa97e-9cf0-4679-a5e1-dc41655919e0"/>Punkt 7 der Berichtigung
+                mitgeteilter Tatsachen sei, „<quote xml:id="uuid_c373664a-7e9d-4fae-afc6-0780709c6208" source="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-004-000.xml">da der <hi rend="spaced">U</hi>m<lb xml:id="uuid_7b4a5da5-4935-4c7f-9511-6ef9402902ed" break="no"/><hi rend="spaced">stand</hi>, dass eifrige Anlehnungen etwas zur
+                    Wahrscheinlichkeit <lb xml:id="uuid_629b5d6d-e2a6-41fd-823b-840a944dd561"/>machen‚ eine Meinung und keine Tatsache ist, <hi rend="spaced">selbst
+                        wenn</hi>
+                    <lb xml:id="uuid_ab36113a-a9e3-4e83-9957-84f22a5af107"/><hi rend="spaced">es
+                        richtig sein mag, dass dieser Me</hi>i<lb xml:id="uuid_0647675d-5ade-4b50-ad7c-441d54aa9471" break="no"/><hi rend="spaced">nung Tatsachen zugrunde liege</hi>n.</quote>“ Durch <lb xml:id="uuid_dc950707-15ee-44ff-93d5-c6d95f1d2db7"/>diese Einschränkung hat das
+                Gericht zu erkennen gegeben, dass <lb xml:id="uuid_fa972b76-2191-4ead-95c0-16b870044fab"/>es sich der Argumentation
+                der Klage, so wenig es sonst auf sie ein<lb xml:id="uuid_d1943d32-a00b-4bf1-9664-dffb09298a0f" break="no"/>geht, nicht
+                verschlossen hat. Indem es aber solches tut und also <lb xml:id="uuid_a64df859-c241-4f2a-b56f-8ba44f11a3f4"/>anerkennt, dass einer
+                Meinung eine Tatsache zugrundeliegen kann, <lb xml:id="uuid_4a529ba9-ebe2-4ce5-9f6a-866138dead8f"/>so hat es auch anerkannt,
+                dass diese Meinung nur <hi rend="spaced">scheinba</hi>r, <lb xml:id="uuid_050da722-da24-470e-9661-7d0ab5ff7c84"/>nur für den oberﬂächlichen
+                Blick eine Meinung ist. Denn <hi rend="spaced">jede</hi>r <lb xml:id="uuid_adf821ed-8ef4-48f8-9bad-1362ff46926d"/>Meinung liegt ja eine
+                Tatsache „zugrunde“, indem doch eine Meinung <lb xml:id="uuid_1afe87f5-2b7a-4560-b66b-56188b7c7d78"/>nur über eine Tatsache
+                gebildet werden kann. Um eine derartige Tat<lb xml:id="uuid_8f5459b3-0f77-49f1-83f0-213e3a37b9bc" break="no"/>sache aber
+                handelt es sich hier keineswegs, sondern vielmehr um <lb xml:id="uuid_cdedaf6e-186e-41c1-aa8e-bb04c81faa6b"/>eine solche, die <hi rend="underlined">in</hi> der Meinung <hi rend="spaced">enthalte</hi>n, die mit
+                ihr ge<lb xml:id="uuid_d536ade8-7eaa-4d08-9a4e-7d58df845394" break="no"/>radezu <hi rend="spaced">kongruent</hi> ist. Wenn das Urteil einräumt, dass es <lb xml:id="uuid_fc52f0de-d361-433a-872a-2324102789a3"/>sich hier um eine solche
+                Tatsache handelt – und um eine andere <lb xml:id="uuid_9b181768-6272-48db-8e63-d872a25df33b"/>kann es sich ja nicht
+                handeln, auf die andere müsste ja gar nicht <lb xml:id="uuid_38d2cc14-dd14-4c67-b769-8adb6d218dfa"/>erst hingewiesen werden –,
+                so kann es nicht mehr an dem Meinungs<lb xml:id="uuid_3a384b2c-dd13-4a1b-a14c-ff0187de4a3b" break="no"/><hi rend="spaced">wesen</hi> jener Worte festhalten, sondern müsste vielmehr zugeben, <lb xml:id="uuid_f37cd519-21e1-4b0c-9edd-b084e58d4201"/>dass der Meinungs<hi rend="spaced">stof</hi>f, die Meinungsfarbe der Worte un<lb xml:id="uuid_f2324ec7-aee2-4baa-b644-b3fc76a21641" break="no"/>möglich über
+                ihren tatsächlichen Charakter hinwegtäuschen können. <lb xml:id="uuid_c0ac3f18-8531-4a74-b024-cbbfe1583b1f"/>Es ist gewiss bezeichnend,
+                dass das <rs type="work" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-004-000.xml">Urteil</rs>
+                hier zu der Formulierung <lb xml:id="uuid_962e272f-b0e0-45df-8c8b-2854c277d17b"/>greift: „<quote xml:id="uuid_010644df-8175-4a23-a66c-46347bbcba37" source="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-004-000.xml"><hi rend="spaced">der Umstan</hi>d, dass eifrige Anlehnungen etwas zur <lb xml:id="uuid_0c7b0b9c-ae97-44fb-ae99-00284f7ea059"/>Wahrscheinlichkeit
+                    machen.</quote>“ Diesen „Umstand“ nennt das Urteil eine <lb xml:id="uuid_41203369-50d8-4877-afc4-223eef152d33"/>„<quote xml:id="uuid_aec57fd2-5671-4432-bba4-b3ea5adbb62a" source="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-004-000.xml">Meinung</quote>“, was er nach der Natur des Wortes nie sein kann. „Umstand“ <pb facs="D_000002-009-000.xml-facs001-l003-p003" n="3"/>
+                <lb xml:id="uuid_65637f4b-63e6-4fd4-8c25-f5eec23102b0"/>bedeutet nach jedem
+                deutschen Wörterbuch nichts anderes als „<quote xml:id="uuid_4cd13c66-f4dc-4504-b149-c2a84d790a28" source="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-004-000.xml">die <lb xml:id="uuid_bde2e279-0298-4059-8862-7293f07ae58e"/>Verhältnisse</quote>,
+                unter denen etwas <hi rend="spaced">geschieh</hi>t“. Damit allein <lb xml:id="uuid_14da70ad-d1ab-4833-8eb9-2b776406305d"/>ist schon der volle
+                tatsächliche Charakter des Prozesses, durch <lb xml:id="uuid_f0c7b5e5-41ae-44e0-ad87-33ed4cf9817e"/>den die Anlehnungen etwas
+                zur Wahrscheinlichkeit machen, also der <lb xml:id="uuid_4f5ca027-5a20-4829-b63c-dac98d6cf697"/>Behauptung jenes
+                berichtigten Artikels, dokumentiert. Selbst wenn <lb xml:id="uuid_2ff49c4e-b9c7-4ddb-b97e-6ab5d7680cf2"/>man nicht an und für sich
+                eine „eifrige Anlehnung“ und nicht an <lb xml:id="uuid_49e662d4-608b-4296-890b-43e5a64e4d62"/>und für sich eine
+                „Wahrscheinlichkeit“ berichtigen könnte, so wä<lb xml:id="uuid_3f5dc535-02d3-49ee-b057-316b22555430" break="no"/>re doch der <hi rend="spaced">Umstan</hi>d, dass eine eifrige Anlehnung eine Wahr<lb xml:id="uuid_6c1f089a-ac7c-4f26-aa1b-22a189a4f347" break="no"/>scheinlichkeit
+                ergibt, also die <hi rend="spaced">Tatsach</hi>e, dass dies der <lb xml:id="uuid_97e97749-a5f9-4822-be09-5fca3d48a3ec"/>Fall ist,
+                berichtigungsfähig. Aber auch an und für sich liegen hier <lb xml:id="uuid_db9f8f21-1510-402f-8b0d-75290bb11aa7"/>Behauptungen vor, die dem
+                    <rs type="law">§ 23 P. G.</rs> zugänglich sind. Das Urteil <lb xml:id="uuid_d4f2d13f-2bda-4da0-8b6d-f47ac3d8ac27"/>verwechselt durchaus den
+                äussern Wortcharakter der Bestandteile <lb xml:id="uuid_ca9a0077-2c77-4912-864b-59c1ab7db054"/>der Behauptung mit dem Wesen
+                der Behauptung. Wenn das Gesetz wirk<lb xml:id="uuid_bb7b5a15-5ae4-46e4-a7c9-b2c2e4a00dc6" break="no"/>lich nur
+                beabsichtigt hätte, die handgreiﬂichste und konkreteste <lb xml:id="uuid_18b472b7-ffe4-4912-b4f0-78b2d804e792"/>Tatsächlichkeit
+                berichtigungsfähig erscheinen zu lassen, dann könnte <lb xml:id="uuid_0b276326-9e68-47ba-b604-b45ec58edda5"/>sich die Presse mit leichter
+                Verklausulierung die handgreiﬂichsten <lb xml:id="uuid_91ed2c82-c594-4f06-a12a-2c31a92a2fab"/>und konkretesten
+                Unwahrheiten leisten, ohne je eine Berichtigung <lb xml:id="uuid_add40437-ee05-47a3-9481-6c167263d3df"/>gewärtigen zu müssen, und
+                gerade der tückischesten Methode, deren <lb xml:id="uuid_8a0d7e96-f6b3-4e40-9468-151cfad7dfa8"/>drastisches Beispiel eben
+                jener Punkt 7 des berichtigten Artikels <lb xml:id="uuid_a30607dc-bc7e-4f8e-9dd4-8f93efe482ed"/>der „<rs type="institution" ref="#29637">Reichspost</rs>“ ist, wäre Vorschub geleistet. Wie der <rs type="law">§ 26 des <lb xml:id="uuid_caea2136-95c6-41ea-b94f-005c136927d8"/>P.
+                    G.</rs>, so würde auch der <rs type="law">§ 23</rs> durch eine solche Auffassung
+                    illuso<lb xml:id="uuid_a2165a1f-5e8b-4f95-abf2-f02408bd946a"/><metamark function="marginal" hand="#D_000002-009-000-hand01" rend="marginLeft"/>risch
+                gemacht werden. Eine Zeitung, der es der <rs type="law">§ 23</rs> zweifellos er<lb xml:id="uuid_a6c6f155-cdf0-4f99-b8eb-9b42919cdbeb"/><metamark function="marginal" hand="#D_000002-009-000-hand01" rend="marginLeft"/>schwert,
+                zu behaupten, dass X, der neben Y einherging, ihn bestoh<lb xml:id="uuid_686a8f1c-514a-4b86-af09-f09949ffa6d1"/><metamark function="marginal" hand="#D_000002-009-000-hand01" rend="marginLeft"/>len hat,
+                brauchte dann bloss zu schreiben, die verdächtige Nähe, in <lb xml:id="uuid_9edf5bbd-5104-44a6-b016-8d063f215e3d"/><metamark function="marginal" hand="#D_000002-009-000-hand02" rend="marginLeft"/>der sich
+                    <subst hand="#D_000002-009-000-hand02">
+                    <del hand="#D_000002-009-000-hand02">x</del>
+                    <add hand="#D_000002-009-000-hand02">X</add>
+                </subst> neben <subst hand="#D_000002-009-000-hand02">
+                    <del hand="#D_000002-009-000-hand02">y</del>
+                    <add hand="#D_000002-009-000-hand02">Y</add>
+                </subst> aufhielt, mache es wahrscheinlich, dass er ihn <lb xml:id="uuid_9e6d548a-41e1-4a97-9948-b2c7925a6af3"/><metamark function="marginal" hand="#D_000002-009-000-hand01" rend="marginLeft"/>bestohlen
+                hat, und das <rs type="institution" ref="#50491">Strabezirksgericht I</rs> würde
+                erkennen, der <lb xml:id="uuid_cad162e8-223f-4da6-8b11-81a8d84d6abc"/><metamark function="marginal" hand="#D_000002-009-000-hand01" rend="marginLeft"/>Umstand,
+                dass eine verdächtige Nähe den Diebstahl wahrscheinlich <lb xml:id="uuid_96b9f8c0-452f-4c42-a8fa-8ed99bf06fde"/><metamark function="marginal" hand="#D_000002-009-000-hand01" rend="marginLeft"/>macht,
+                sei eine Meinung und keine Tatsache.</p>
+            <p xml:id="uuid_fe5a1f7e-bc72-44a4-9850-5b00e17f0273"><lb xml:id="uuid_96f07924-830e-45d9-b923-3099a1002934"/>Es ist aber von
+                allergrösster prinzipieller Wichtigkeit, <lb xml:id="uuid_ab68a2fc-4566-4569-8ba8-01ed98d7838f"/>dass eine solche
+                Entscheidung überprüft werde, damit die Hoffnung <lb xml:id="uuid_55fa5d8c-1a3b-4ec6-8099-d65c83caa074"/>noch Aussicht habe, dass die
+                gefährlichste Form einer Tatsachen<lb xml:id="uuid_389eb247-d2c7-4285-ba98-f4426111e85d"/>behauptung, die durch die
+                indirekte Methode nicht das geringste <lb xml:id="uuid_702007a8-7bd4-4af4-9bb5-7a36bc79a3f7"/>von ihrer wahren
+                Beschaffenheit einbüsst, fassbar sei. Es sei hier <pb facs="D_000002-009-000.xml-facs001-l004-p004" n="4"/>
+                <lb xml:id="uuid_c63af6b1-4594-42e8-9cb7-5f042ff40b0b"/>auf den <rs type="work">Kommentar</rs> von <rs type="person">Lisst</rs> hingewiesen, der <lb xml:id="uuid_6374a4e3-09be-4a0e-8f1f-3671d68eeea9"/>ganz ausdrücklich <lb xml:id="uuid_526d589b-f3b3-49ac-b5b4-15619da02039"/>eine solche Art von
+                Tatsachen unter jene einbezieht, die dem Be<lb xml:id="uuid_0d692c4c-997c-4d81-94ad-ded5e9da9f79" break="no"/>richtigungsgesetz
+                erreichbar sind. Auch mag das Beispiel, das der <lb xml:id="uuid_01fc7f74-bad1-4794-bafd-bf07699aabac"/>Vertreter des Klägers in der
+                Verhandlung beigebracht hat, die <lb xml:id="uuid_12aad4b2-df92-477f-b093-5b86c2ebe542"/>Anschauung des Wesens einer
+                unterstellten Tatsache fördern: die <lb xml:id="uuid_64a94228-57c1-42f0-9847-7c9e4b09635e"/>„<rs type="institution" ref="#29637">Reichspost</rs>“ hätte gewiss etwa den Umstand, dass der Kläger im
+                    <lb xml:id="uuid_2f779d84-30d3-47b7-a1e8-fc0a6640b096"/>israelitischen Tempel
+                gesehen worden ist, zur Erhärtung der von <lb xml:id="uuid_aca9f68e-7e74-45ab-bda8-7d03f60bb109"/>ihr aufgestellten
+                „Wahrscheinlichkeit“ herangezogen, dass er zur <lb xml:id="uuid_3dcba36c-0d88-4bfa-ba67-1ec38e29fc22"/>jüdischen Konfession
+                zurückkehren werde. Sollte es ihm da verwehrt <lb xml:id="uuid_d13e382c-a86c-4539-b086-728d512702f7"/>sein‚ im Wege eines
+                Gesetzes, das dem Schutz der Wahrheit dient, <lb xml:id="uuid_e5a1ffee-13bb-4e00-96d3-0bf4ca53193f"/>festzustellen, dass er im
+                Tempel nur erschienen ist, um einer <lb xml:id="uuid_5ec10a1d-e85f-480e-8dd1-01d5cd2e6279"/>Trauung beizuwohnen? Es
+                müsste wohl schlechthin unmöglich sein, <lb xml:id="uuid_ae4814b4-0171-41d7-a802-87dd0517af8c"/>an der Argumentation der
+                Klage, die dem Gericht erster Instanz <lb xml:id="uuid_f5c003af-6ae1-4a65-9662-2649bced78dc"/>vorgelegen ist,
+                vorbeizukommen, und da auch das <rs type="institution" ref="#50491">Gericht</rs> es
+                nicht <lb xml:id="uuid_d1889422-aa92-4fdc-b334-937cf0feb1eb"/>konnte, so entzog es
+                sich ihr mit dem Satze: „<quote xml:id="uuid_af328199-9ed9-4194-8306-83c057e8c16b" source="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-004-000.xml">selbst wenn
+                    es rich<lb xml:id="uuid_6d7ee568-9f81-40d4-a561-ef8172661d74" break="no"/>tig
+                    ist, dass dieser Meinung Tatsachen zugrundeliegen</quote>“. Aber wenn <lb xml:id="uuid_c7664561-0762-4a5d-89a2-845d2cfcaee6"/>dies richtig ist, dann ist
+                auch die Argumentation richtig und das <lb xml:id="uuid_7a889253-e156-44fe-8ed8-5159d5fd07dd"/>Urteil unrichtig, und wenn
+                    „<quote xml:id="uuid_497f79d5-3cd6-490a-aaae-6eb15238dd92" source="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-004-000.xml">dieser
+                    Meinung</quote>“ eine <hi rend="spaced">falsche</hi>
+                <lb xml:id="uuid_29176a3d-11a7-4952-b8bb-c42c2c5936de"/>Tatsache zugrundeliegt‚ so
+                muss es dem Berichtigungswerber erlaubt <lb xml:id="uuid_ba2ea968-6577-43a7-bfda-42d11c13e0b8"/>sein, die richtige zu
+                reklamieren. Der Zeitung bleibt es ja dann <lb xml:id="uuid_4784f73f-79ff-42bf-9761-5f1158d42335"/>noch immer unbenommen, auf
+                Grund der richtigen Tatsache ihre <lb xml:id="uuid_2aade8cd-e3c6-4f27-8321-c7c7536cdb92"/>Meinung aufzustellen, und
+                    <hi rend="spaced">dann</hi> könnte diese allerdings nicht <lb xml:id="uuid_1052fa1b-b5b7-4efa-a661-9f48fca7cfb9"/>berichtigt werden, aber
+                zuerst muss sie, ehe sie eine unwiderleg<lb xml:id="uuid_9d36eab3-01d0-45ae-bdf1-9a39d128607e" break="no"/>bare <hi rend="spaced">Meinung</hi> aufstellen will, die richtige Tatsache setzen. <lb xml:id="uuid_7e394bd5-925a-4d0a-b22c-3a66e1c663ed"/>Dies hat das Urteil erster
+                Instanz offenbar verwechselt. Nicht die <lb xml:id="uuid_25ca78dc-1e74-4b3a-af85-93885c211c3c"/>Meinung soll berichtigt
+                werden, die die Zeitung auf Grund einer <lb xml:id="uuid_aa9537aa-a212-4b4f-9c6b-28bb88e8b5ab"/><hi rend="spaced">richtigen</hi> Tatsache ausspricht – das wäre natürlich un<lb xml:id="uuid_9309d82e-9b2a-439a-b3bc-7b16b18c62b3" break="no"/>statthaft –‚
+                sondern der falschen Tatsache, auf Grund deren sie <lb xml:id="uuid_19980ee8-77f6-42b2-8050-07aa178a0cee"/>ihre Meinung produziert, die
+                richtige entgegengestellt werden. Der <lb xml:id="uuid_c4789e02-c87b-4a20-813a-1b9d50e8d1ca"/>falschen Tatsache, die sie
+                durch die angebliche „<quote xml:id="uuid_b30b27ee-e396-4e89-b7a6-c1fea2bd65ae" source="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-004-000.xml">Meinung</quote>“ vor<lb xml:id="uuid_4a811a2d-2ce8-4e6b-b34b-6318ccbfdcb4" break="no"/>spiegeln will. Denn man kann eigentlich nicht davon reden, dass <pb facs="D_000002-009-000.xml-facs001-l005-p005" n="5"/>
+                <lb xml:id="uuid_0756f8ee-931d-41a1-949c-da73698dcfbd"/>hier etwas „<quote xml:id="uuid_f6d14909-a900-4715-9c59-72a1aeef6aca" source="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-004-000.xml">zugrundeliegt</quote>“, sondern nur davon, dass hier etwas <lb xml:id="uuid_430a3d44-409b-4d50-b0da-56ef49237a76"/>zugrundegelegt, unterschoben
+                wird. Wie vollkommen diese Methode <lb xml:id="uuid_f5c3478b-3ebe-44c7-94dd-9d73a55b3465"/>in dem <rs type="work" ref="#62204">Artikel der „Reichspost“</rs> praktiziert wird‚ geht insbesondere
+                    <lb xml:id="uuid_658442e0-be46-4eb5-a106-cc16ef0fb79d"/>auch aus dern Schlussatz
+                hervor: „<quote xml:id="uuid_73c7e269-d567-4563-b0ad-1056e6848c31" source="#62204">Ein Kreislauf <hi rend="underlined" hand="#D_000002-009-000-hand01"><hi rend="spaced">is</hi>t</hi> be<lb xml:id="uuid_5d9120d7-d838-46ff-bc1b-f25dbe13e4a2" break="no"/>endet</quote>“. Kann nach diesem Satze (auf dessen apodiktische Fassung <lb xml:id="uuid_e56c6d41-4a34-43a2-95b8-2d89c79499eb"/>ein Leser des Artikels den
+                Berichtigungswerber mit Recht aufmerk<lb xml:id="uuid_d8093e1e-4ed4-477b-836c-8033767c37b2" break="no"/>sam macht) für
+                einen solchen Leser noch ein Zweifel bestehen, dass <lb xml:id="uuid_9007e61c-ae75-437f-adfc-677a6079a72d"/>die „<rs type="institution" ref="#29637">Reichspost</rs>“ eine <hi rend="spaced">Tatsache</hi> setzen will?
+                Wird hier <lb xml:id="uuid_1f5a9c72-b4cd-4644-9bb1-94ebaea121ee"/>nicht die von ihr
+                eben noch produzierte „Wahrscheinlichkeit“, die <lb xml:id="uuid_9e6f0b2f-d218-4678-92f7-4e9d121d588d"/>das <rs type="institution" ref="#50491">Gericht</rs> unter dem Eindruckdes äusseren Wortcharakters für <lb xml:id="uuid_1adf729d-2a5a-476e-a4e7-a8f5c0d8e6f0"/>eine „<quote xml:id="uuid_a4292a44-9c1d-42ad-bab0-f2e79786fc5d" source="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-004-000.xml">Meinung</quote>“ hält, geradezu aufgehoben? von der Zeitung selbst <lb xml:id="uuid_8ce83521-6462-41d2-8c36-3cf2f259acf9"/>aufgehoben, die knapp zuvor
+                noch von „Wahrscheinlichkeit“ gespro<lb xml:id="uuid_8107aec7-8a96-45ec-8497-c5c071259479" break="no"/>chen hat? Was
+                will die „<rs type="institution" ref="#29637">Reichspost</rs>“ anderes, als dem
+                Leser einen <lb xml:id="uuid_73d5c54a-e4a0-4911-bb05-dfc173534deb"/>positiven
+                falschen Sachverhalt suggerieren, wenn sie ihre Betrach<lb xml:id="uuid_e3eefbd8-267e-4911-a54f-41a0a8d458bf" break="no"/>tung mit der
+                Behauptung schliesst, dass ein Kreislauf, jener, der <lb xml:id="uuid_a901cb15-b6c4-4a1c-bdd4-a2d9db29fcd1"/>in die jüdische Konfession
+                zurückführt, beendet <hi rend="spaced">is</hi>t? <lb xml:id="uuid_3eed0334-100d-45b3-9691-fe5e922617b8"/>Aber es bedarf für die
+                überprüfende Instanz gewiss nicht <lb xml:id="uuid_f6a453a9-3e01-47e4-8651-5ea2b7601671"/>erst all der Hinweise auf
+                den Zusammenhang von Tatsächlichkeit, <lb xml:id="uuid_6971cebd-f3dc-44c3-a4fe-d6151f08ff6e"/>den die einzelnen
+                Wortelemente jenes Satzes zwingend herstellen. <lb xml:id="uuid_50174f8b-d8c4-4b03-b9ca-ee8ecf88bc8e"/>Diese selbst sind so
+                gesetzt, dass ihr tatsächlicher Charakter un<lb xml:id="uuid_31c7539e-7348-4d91-92f9-e335a3db22ce" break="no"/>möglich
+                bestritten werden kann. Die an und für sich unanfechtbare <lb xml:id="uuid_950559e1-938c-4015-9581-ec19e7ab59a2"/>Rechtsanschauung, dass nach
+                dem <rs type="law">§ 23</rs> nur eine Tatsache und keine <lb xml:id="uuid_a6f4d6c5-d13a-42ca-9cec-ec3026f102ba"/>Meinung berichtigt werden
+                kann, hat da geradezu ein Schulbeispiel <lb xml:id="uuid_ffba3adf-72b8-4d00-b69e-8360ad8e27da"/>des verbreiteten Irrtums
+                gezeitigt, <hi rend="spaced">der den <hi rend="underlined" hand="#D_000002-009-000-hand01">Meinung</hi></hi>s<lb xml:id="uuid_fb8dc5a7-4bdd-40ce-90e6-2c27cf6dc31d" break="no"/><hi rend="spaced"><hi rend="underlined" hand="#D_000002-009-000-hand01">stoff</hi> mit dem
+                        <hi rend="underlined" hand="#D_000002-009-000-hand01">Meinungswesen</hi>
+                    verwec</hi>h<lb xml:id="uuid_5c316591-12c1-4c07-bb82-f148aedfa7aa" break="no"/><hi rend="spaced">sel</hi>t. „Wahrscheinlichkeit“ ist aus dem zufälligen
+                Meinungsstoff <lb xml:id="uuid_db877edc-b6fb-4396-902b-eb06a7611600"/>verfertigt und
+                das Gericht erster Instanz nimmt deshalb an, dass <lb xml:id="uuid_868758cf-ec0c-490f-a21c-a3972c22140e"/>hier eine „<quote xml:id="uuid_8ee7d657-4d85-456c-a503-b9b7da7cfea7" source="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-004-000.xml">Meinung</quote>“ vorliege. Wenn das Gesetz die Berichtigung von <lb xml:id="uuid_d8874101-1728-4ce9-93b1-aa0796d010be"/>Meinungen ausschliesst, so
+                will es die Freiheit des Urteils in <lb xml:id="uuid_636c8e50-e374-4e9c-a76b-4f3220804e8c"/>Sphären, die in sich der
+                tatsächlichen Natur ermangeln, und über <lb xml:id="uuid_5f9d4ea2-f9f2-4c55-b142-8229fd41697f"/>Qualitäten, die die
+                subjektive Urteilsbildungansprechen, sichern. <pb facs="D_000002-009-000.xml-facs001-l006-p006" n="6"/>
+                <lb xml:id="uuid_9febc211-22c0-4af0-8c1f-0a959665ff40"/>Keineswegs aber will es die
+                freie Urteilsbildung auch gegenüber den <lb xml:id="uuid_4594079b-3037-485a-9841-9df6e3d2d3a9"/>erweislichen Sachverhalten
+                sichern. Dass etwas gut oder schlecht sei, <lb xml:id="uuid_23958dc2-55e3-4500-bb7a-609ee6a6a399"/>ist eine Meinung, die nach
+                dem Gesetz nicht berichtigungsfähig ist. <lb xml:id="uuid_91323063-a987-44b7-bbd6-01dfb7dceeef"/>Dass etwas vorhanden oder
+                nicht vorhanden, geschehen oder nicht ge<lb xml:id="uuid_f4754343-38a1-487a-8985-7daa8a7e3a79" break="no"/>schehen ist, ist
+                selbst dann keine Meinung, sondern eine reine Tat<lb xml:id="uuid_5d9e469f-8003-4c62-98aa-b248b5f9864f" break="no"/>sache, wenn es
+                dem subjektiven Ermessen anheimgestellt bleibt, das <lb xml:id="uuid_9b791621-8b7f-4be9-b5ee-5bd2d9e94b37"/>Vorhandensein, das
+                Geschehensein <hi rend="spaced">wahrzunehme</hi>n. Die „Mei<lb xml:id="uuid_ce42dd11-49cd-42e2-a7c8-02e9ec8cb55c" break="no"/>nung“ ist in der
+                Sphäre, die <hi rend="spaced">wesentlich</hi> zu ihr spricht, ver<lb xml:id="uuid_bd866ab7-5a77-41fd-b5ae-03d723da99c0" break="no"/>ankert, nicht in
+                der Optik des Betrachters. Ihr Element beruht im We<lb xml:id="uuid_d9fd722b-b830-4920-a3a6-c93c7250c97b" break="no"/>sen der Materie,
+                die der Betrachtung ausgesetzt ist, und kann darum <lb xml:id="uuid_bbc6388c-4a6f-4cb9-bad6-7aa84efd4f0b"/>immer nur auf die dem Urteil
+                zugängliche <hi rend="spaced">Qualitä</hi>t, nie aber <lb xml:id="uuid_1fddbe1d-769c-4cef-ba4e-456e2acd714a"/>auf die dem Beweis, der
+                Feststellung unterworfene <hi rend="spaced">Quantität</hi>
+                <lb xml:id="uuid_4641df5f-9703-4220-9017-96cb7c954b96"/>bezogen sein, mag auch deren
+                    <hi rend="spaced">Wahrnehmbarkei</hi>t <del hand="#D_000002-009-000-hand02">noch</del> der <lb xml:id="uuid_c768bc7d-cc6c-4b1b-80d1-8abfb6de025e"/>subjektiven Optik einen Spielraum lassen. Der eine wird einen Sach<lb xml:id="uuid_51c21599-d6dc-4ede-8e45-433b225921ad" break="no"/>verhalt mit
+                grösserer Deutlichkeit wahrnehmen als der andere: ein <lb xml:id="uuid_d8b06dec-34e7-4332-86a2-e9338e008ab3"/>Sachverhalt bleibt es darum
+                doch, und was in dessen Betrachtung noch <lb xml:id="uuid_a2ba97ec-ecdb-44a8-9c98-80fbaeb980e5"/>Spielraum hat, ist nicht die
+                „Meinung“, sondern das Bewusstsein, die <lb xml:id="uuid_11e68408-0a21-472b-b549-62ca6759d13f"/><subst hand="#D_000002-009-000-hand02">
+                    <del hand="#D_000002-009-000-hand02">Ausbildung</del>
+                    <add hand="#D_000002-009-000-hand02">Fähigkeit</add>
+                </subst> der Sinne, <add hand="#D_000002-009-000-hand02">die Wahrhaftigkeit</add>.
+                Die „Meinung“, die das Gesetz meint, ist nicht <lb xml:id="uuid_f9aa0e4b-2112-4933-aae7-83d62541d9d8"/>die subjektive Einstellung
+                des Betrachters zu den Objekten der Tat<lb xml:id="uuid_21e901a3-af4c-433e-b192-7261065f2d12" break="no"/>sachenwelt,
+                sondern ausschliesslich die subjektive Bemessung jener <lb xml:id="uuid_368b7b9e-1e56-459f-9d31-638f4ff5f7e9"/>W<subst hand="#D_000002-009-000-hand02">
+                    <del hand="#D_000002-009-000-hand02">o</del>
+                    <add hand="#D_000002-009-000-hand02">e</add>
+                </subst>rte, die <hi rend="spaced">wesentlich</hi> der Beweisführung entrückt und
+                nur <lb xml:id="uuid_3e0925d8-d357-44aa-b94e-cead4212a0a6"/>der Beurteilung
+                ausgesetzt sind. Eine „Meinung“, wie sie das Gesetz <lb xml:id="uuid_f78d2dbd-4116-4eeb-93a6-a30f5f9c8899"/>meint, liegt vor, wenn die
+                Zeitung sagt, ein Schauspieler habe den <lb xml:id="uuid_7ba9a7ba-646f-40da-94d2-d4ea5c66c5cd"/>Don Carlos schlecht
+                gespielt. Denn hier ist das <hi rend="spaced">Wesen</hi> der Be<lb xml:id="uuid_d3107ecf-446b-4a39-8eb5-a10fed69ddab" break="no"/>hauptung die <hi rend="spaced">Meinun</hi>g. Wenn aber die Zeitung sagt, der Schau<lb xml:id="uuid_eedb1bc1-43c1-4e66-aa64-fa49c083c503" break="no"/>spieler habe
+                „wahrscheinlich den Don Carlos zum erstenmal gespielt“, <lb xml:id="uuid_a5f41377-5d4c-436a-a721-b6861830b025"/>so hat die Behauptung zwar
+                den Meinungs<hi rend="spaced">stoff</hi>, ist aber die Be<lb xml:id="uuid_c4c87d28-9e98-4537-99f2-610e44d57a47" break="no"/>hauptung einer
+                Tatsache, wenngleich eine eingeschränkte Behauptung. <lb xml:id="uuid_fdc3f492-5064-498b-9822-cbcf33363b21"/>(Wenn sie „jedenfalls“
+                sagte, wäre es darum scheinbar nicht weniger <lb xml:id="uuid_aca75dfa-0e42-4f5b-931a-58a198b32ca4"/>eine „Meinung“ – wiewohl das
+                Pressgericht hier am Ende wankend würde – <lb xml:id="uuid_0394ffc3-35ae-4d3d-9ff7-8642fd99c27d"/>aber wenn sie nur
+                „wahrscheinlich“ sagt, so ist es darum doch eine <pb facs="D_000002-009-000.xml-facs001-l007-p007" n="7"/>
+                <lb xml:id="uuid_2411ae30-a132-4220-a047-bd038cf0ebde"/>tatsächliche Behauptung.)
+                Unmöglich kann das Gesetz dem Schauspie<lb xml:id="uuid_74c33014-c467-4183-8efc-47ccc660904b" break="no"/>ler die
+                Möglichkeit verwehren, einer solchen wenngleich einge<lb xml:id="uuid_7d13576a-d342-4348-85a8-76bc0eb4357e" break="no"/>schränkten
+                Behauptung die Wahrheit entgegenzustellen, dass er den <lb xml:id="uuid_761c07f6-f06c-4bb5-9d5a-f9371d0c6ac5"/>Don Carlos schon ein
+                Dutzendmal gespielt habe. Umsoweniger, wenn <lb xml:id="uuid_ccc8a7f2-c1c3-4f19-960d-e2075a07c51d"/>die Zeitung noch durch
+                Erdichtung anderer Umstände einen Zusammen<lb xml:id="uuid_6d97f86b-3c0b-490c-b66e-c64bdbe3f5d9" break="no"/>hang herstellt,
+                der dem Leser jene falsche Tatsache umso sicherer <lb xml:id="uuid_f51a7888-b07a-4b18-82a6-8303020c00c4"/>suggeriert, an deren
+                Widerlegung der Schauspieler aus irgendeinem <lb xml:id="uuid_4c6b375c-a174-4ecc-90cb-cb7574c08b18"/>Grunde ein Interesse hat.
+                Schlösse das Gesetz eine solche Möglich<lb xml:id="uuid_8e301877-6dd0-4995-a40a-fcd10c3fc92c" break="no"/>keit aus, so wäre
+                der Presse mit Wendungen wie „Aller Wahrschein<lb xml:id="uuid_1bcdb2d2-4bb1-41ae-a1c1-30da46b2c0e1" break="no"/>lichkeit nach hat
+                …“ oder „Gerüchtweise verlautet‚ dass …“ „Nach <lb xml:id="uuid_03d29c6a-e4a0-424d-b245-7893f35249a6"/>unserer Meinung wird …“ (in
+                welchem Fall nach Ansicht des Press<lb xml:id="uuid_69557794-fdbf-4bb6-977a-688d3a1bc664" break="no"/>gerichts die
+                „Meinung“ ja auf der Hand liegt) für jede Lüge ein <lb xml:id="uuid_3d37aca9-3939-4d06-b539-578531942490"/>Freibrief ausgestellt. Und
+                hier, an dem Fall einer durch subjek<lb xml:id="uuid_db140176-4f2e-4f0a-a2a9-617ddf61dca4" break="no"/>tive Färbung
+                unberührbaren Tatsächlichkeit, wird völlig fassbar, <lb xml:id="uuid_4f79e9af-1c96-42de-b162-e154263b1f8b"/>worin der Unterschied
+                zwischen Meinung und Tatsache und worin die <lb xml:id="uuid_fc2228f6-aa05-48c2-8673-30a9e5a09987"/>Verwechslung beruht, welche
+                die eigentliche Grundlage des Aus<lb xml:id="uuid_a93ad776-f383-48bf-ab40-946b2eba95bf" break="no"/>spruchs der
+                ersten Instanz bildet. Was berichtigt wurde und was <lb xml:id="uuid_b9146c6f-2f6b-4f4f-8917-eefbdfc6fe4e"/>auch in dem Fall des
+                Schauspielers, der „wahrscheinlich den Don <lb xml:id="uuid_9710258c-3dab-40e3-b417-176fc303269d"/>Carlos zum erstenmal
+                gespielt hat“, berichtigt wird, ist keines<lb xml:id="uuid_4eb26374-1997-4b9d-a8b5-0e0edb8db11f" break="no"/>wegs die
+                Wahrscheinlichkeit als solche – in dem strittigen Fall <lb xml:id="uuid_9ef4d38d-96f6-4c6c-a663-8dd9d42f47c6"/>also keineswegs der Umstand
+                als solcher, dass eifrige Anlehnungen <lb xml:id="uuid_7cc43fef-60f0-4424-84b4-ac76f6e5fca4"/>etwas wahrscheinlich machen.
+                Gewiss wäre hier, von dem Punkte der <lb xml:id="uuid_02627725-cd01-4e0c-a59d-2293893c9e4f"/>„Wahrseheinlichkeit“
+                gesehen, bloss eine Folgerung gezogen, die <lb xml:id="uuid_64ff29c3-c8c4-4635-a895-0cfc0d12ddc5"/>dem Ermessen anheimgestellt
+                bleibt, also eine Meinung ausgespro<lb xml:id="uuid_df29d60a-fec4-41ce-ac6f-fb3d66ec2cb5" break="no"/>chen. Gewiss kann
+                der Schauspieler nicht berichtigen: Es ist unwahr<del>-</del><add>,</add>
+                <lb xml:id="uuid_323af6d3-1628-448b-b796-4a224f87f022"/><del>scheinlich</del> dass
+                es wahrscheinlich ist, dass ich zum erstenmal <lb xml:id="uuid_96563117-b607-4ac0-b1e4-4ef6eafe50a5"/>u.s.w. Und an und für sich
+                könnte auch nicht berichtigt werden: <lb xml:id="uuid_5da971f4-cbed-4cd8-be48-c174f22956fe"/>Es ist unwahr, dass
+                Anlehnungen <hi rend="spaced">wahrscheinlich</hi>
+                <lb xml:id="uuid_f7feea53-384a-41fb-93a8-885080213b19"/>machen; denn sie machen ja
+                faktisch nur dem etwas wahrscheinlich, <lb xml:id="uuid_a2da91a0-5425-41a8-ab1e-6a05fc86ffbd"/>der die Behauptung
+                ausspricht. Aber wird denn der Nachdruck auf <lb xml:id="uuid_d5734fb7-374c-4dbf-bef9-1ee5956369c4"/>diese einzuräumende
+                Möglichkeit gelegt? Was wird in Wahrheit <pb facs="D_000002-009-000.xml-facs001-l008-p008" n="8"/>
+                <lb xml:id="uuid_48951708-0ab5-4d4a-9d9c-3e5750d47036"/>berichtigt? „<quote xml:id="uuid_60b13e49-c576-41e3-9da7-d87bf7c8d123" source="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-003-000.xml">Eifrige
+                    Anlehnungen in einem anderen <rs type="work">Aufsatz der <lb xml:id="uuid_1b7a0c7a-ba42-45da-892d-31ccbaa61bbb"/>‚Fackel‘</rs> an <rs type="person" ref="#11673">Theodor Herzls</rs>
+                    <rs type="work" ref="#58510">Tagebuch</rs> machen den Fall 3 zur Wahr<lb xml:id="uuid_43802e46-b36d-46bc-82af-65a18ad14aec" break="no"/>scheinlichkeit.</quote>“ Das bedeutet nun durchaus nicht, dass dem Schrei<lb xml:id="uuid_5b24b1f8-3076-4968-8e7b-3a7c6beeeb7b" break="no"/>ber das Recht
+                bestritten wird, etwas, was ihm wahrscheinlich ist, <lb xml:id="uuid_b90b1702-986e-44b2-9681-8aaa83c9e74f"/>mutmassend vorzubringen.
+                Vielmehr wird hier der ganz konkreten, <lb xml:id="uuid_9dbc0c54-81f6-4570-861e-50e2ea3d4029"/>aus dem Zusammenhang
+                deutlich vertretenden Behauptung widersprochen: <lb xml:id="uuid_56e917ce-7310-4bd2-9006-5dc40d3979a7"/>„<quote xml:id="uuid_c7feb2fe-5465-445c-a45e-a61152fa27d7" source="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-003-000.xml">Die
+                    Anlehnungen sind <hi rend="spaced">derartige</hi>‚ dass der Fall 3 zur <lb xml:id="uuid_2b29a931-5f30-4c51-8186-483bbf5b2a57"/>Wahrscheinlichkeit
+                    wird.</quote>“ <hi rend="spaced">Nicht die Wahrschei</hi>n<lb xml:id="uuid_b10bdabb-2da9-479f-b3da-1c3431fe142c" break="no"/><hi rend="spaced">lichkeit</hi>, <hi rend="underlined" hand="#D_000002-009-000-hand01">sondern
+                    der <hi rend="spaced">durch eben sie b</hi></hi>e<lb xml:id="uuid_e85d536f-d70a-4e38-b4f1-d89731d4445f" break="no"/><hi rend="underlined" hand="#D_000002-009-000-hand01"><hi rend="spaced">dingte
+                        Charakter der Anlehnung</hi> wird b</hi>e<lb xml:id="uuid_a41b4672-55c8-4f72-bd84-f10897b98b49" break="no"/><hi rend="underlined" hand="#D_000002-009-000-hand01">stritten</hi>. Nicht die
+                Wahrscheinlichkeit ist die Konklusion aus der <lb xml:id="uuid_e4876507-aacb-4cee-b546-f1473640441b"/>Anlehnung, sondern <hi rend="spaced">die Art der Anlehnung ist</hi>
+                <lb xml:id="uuid_70bbfc71-afc7-4c4d-8716-0eccb6f430a6"/><hi rend="spaced">die sich
+                    ergebende Konklusion aus</hi>
+                <lb xml:id="uuid_f3209232-b0b0-4bb2-92e6-8060b869d599"/><hi rend="spaced">der
+                    gesetzten Wahrscheinlichkei</hi>t. Ob <lb xml:id="uuid_8550afb9-0504-4595-bf96-8bedc2212fb0"/>die Anlehnungen, wenn sie
+                    <hi rend="spaced">bereits <hi rend="underlined" hand="#D_000002-009-000-hand03">dete</hi></hi><hi rend="underlined" hand="#D_000002-009-000-hand03">rminiert</hi> wären, <lb xml:id="uuid_8abc0eb0-9328-4536-b6f3-a0d4615a8364"/>etwas wahrscheinlich machen, wäre natürlich reine Ermessenssache. <lb xml:id="uuid_215f820e-afe8-4fd0-9fe7-3e0ec6403cf6"/>Wenn – wahrheitswidrig –
+                bereits <hi rend="spaced">ausgesprochen</hi> wäre, <lb xml:id="uuid_c14c1340-c9ac-428d-bf86-237c4fece67d"/>dass es Anlehnungen mit
+                jüdisch-nationaler Tendenz sind, so dürfte <lb xml:id="uuid_c936bc8a-6055-4e59-8893-635bdbc0cb45"/>der Schreiber jede ihm
+                beliebige Wahrscheinlichkeit folgern, ohne <lb xml:id="uuid_e090a873-bab5-4dd7-95be-0842cf2340c2"/>dass man ihm mit dem <rs type="law" ref="">§ 23</rs> widersprechen könnte. Dann hätte er ganz <lb xml:id="uuid_99fcc8e7-8736-4121-b5a7-65117c8a52ba"/>gewiss das Recht, welche
+                Vermutung er will, daran zu knüpfen, und <lb xml:id="uuid_46911442-54a7-4a07-9708-b4d606198714"/>es wäre nur die Berichtigung
+                ermöglicht, dass es keine Anlehnungen <lb xml:id="uuid_7ca5e013-62ce-4682-b0e0-93041f4b7fe0"/>mit jüdisch-nationaler <add hand="#D_000002-009-000-hand03">Tendenz</add> sind. Dies ist jedoch indirekt
+                gesagt in der <lb xml:id="uuid_2c2471c9-1c2f-42da-9799-64dddb9742d6"/>Form: dass es
+                    <hi rend="spaced">solche</hi> Anlehnungen sind, die den Fall 3 zur <lb xml:id="uuid_15fecbda-dc41-4bd6-b9f3-a3fd5b2bb4eb"/>Wahrscheinlichkeit machen.
+                Da es nun aber in Wahrheit, <hi rend="spaced">solche</hi>
+                <lb xml:id="uuid_9859dac1-22c4-4204-991e-3438df0bc0e0"/>Anlehnungen sind, die den
+                Fall 3 unter gar keinen Umständen zur <lb xml:id="uuid_421a9974-e592-4448-87b9-2a991594caee"/>Wahrscheinlichkeit machen
+                können, weil es eben nicht Anlehnun<lb xml:id="uuid_c95cefd2-bd50-4486-a7c2-6acb11814724" break="no"/>gen mit
+                jüdisch-nationaler Tendenz sind, sondern Zitate über einen <lb xml:id="uuid_f51d4853-bcc9-4355-98fc-61ecd60c5517"/>Fall von Korruption, also
+                über etwas tatsächlich Verschiedenes, <lb xml:id="uuid_f086327e-ac3b-4e18-91b7-8e4dd3023e0d"/>so muss die Möglichkeit
+                gegeben sein, diese Tatsache der Behauptung <lb xml:id="uuid_29e7ddc8-f2be-4b65-9f66-95a69e248e15"/>entgegenzusetzen. <hi rend="spaced">Die behaupteten Anlehnungen</hi>
+                <lb xml:id="uuid_61388bc2-fbbd-42ec-975a-bd97f3ab8da8"/><hi rend="spaced">sind
+                    solche, die erst durch die Angab</hi>e, <lb xml:id="uuid_b9886eae-de62-4f1a-a095-5f4f96408afc"/><hi rend="spaced">dass sie
+                    den Fall 3 zur Wahrscheinlic</hi>h- <pb facs="D_000002-009-000.xml-facs001-l009-p009" n="9"/>
+                <lb xml:id="uuid_ab2c3a5d-3c09-4fa2-8b72-238ea5664f51"/><hi rend="spaced">keit
+                    mache</hi>n, <hi rend="spaced">charakterisier</hi>t, <hi rend="spaced">förmlich</hi>
+                <lb xml:id="uuid_9ec602fa-9545-41fd-ab83-40b40f876d81"/><hi rend="spaced">definiert
+                    werde</hi>n. Ihre <hi rend="spaced">Eigenschaft</hi> wird <lb xml:id="uuid_fe85e154-0a52-4a28-9896-27f5c8bf5dc5"/><hi rend="spaced">damit
+                    bezeichnet</hi> und es ist ganz so, wie wenn die ih<lb xml:id="uuid_a50c9485-21bb-4b17-97de-f4fe05d7e6d8" break="no"/>nen angedichtete
+                Wahrscheinlichkeit in einem <hi rend="spaced">Relativsatz</hi>
+                <lb xml:id="uuid_90059c54-8826-41d2-b4bd-1160bad7835a"/>ausgedrückt wäre. Und dass
+                es „<hi rend="spaced">solch</hi>e, <hi rend="spaced">welch</hi>e“ sind, wird <lb xml:id="uuid_1d47a4ee-1741-4198-a609-01c669c6c4d3"/>berichtigt. Die zwingend
+                herbeigeführte Vorstellung, dass es <hi rend="spaced">so</hi>l<lb xml:id="uuid_6c9a9f8f-4f68-46e9-a292-e79c39a78572" break="no"/><hi rend="spaced">che</hi> sind, ist die berichtigte Tatsache. Nicht die <hi rend="spaced">Verm</hi>u<lb xml:id="uuid_0b4e5e24-1409-41b4-b854-3abc8a2384ea" break="no"/><hi rend="spaced">tun</hi>g, die an sie geknüpft wird: dass sie etwas
+                wahrscheinlich <lb xml:id="uuid_19ffce31-5a1d-48c1-91eb-f059f503dd6a"/>machen, wird
+                berichtigt. Sondern ihre Determinierung durch eben <lb xml:id="uuid_2d5d4c69-6481-422b-8a5b-081644fb7b50"/>diese Vermutung: die <hi rend="spaced">Aussag</hi>e, dass es derartige Anlehnungen <lb xml:id="uuid_2e6de04c-b25a-48e1-84b1-9b76f5cfe91f"/>sind, die den Fall 3 zur
+                Wahrscheinlichkeit machen. Nicht die <lb xml:id="uuid_c992a587-1528-4747-8760-54afbd1f5f58"/>„<hi rend="spaced">Wahrscheinlichkei</hi>t“, zu der die Anlehnungen et<lb xml:id="uuid_8be45a1b-626e-4536-a3ac-6081c2799de4" break="no"/>was machen,
+                sondern die <hi rend="spaced">durch sie</hi> bezeichneten „<hi rend="spaced">Anle</hi>h<lb xml:id="uuid_6a7f299c-573e-4d8e-a62b-2155af7b47df" break="no"/><hi rend="spaced">nunge</hi>n“. Es kann doch keinem Zweifel unterliegen, dass
+                auch <lb xml:id="uuid_ea2c4297-b744-4997-99da-6e92d0bc104c"/>durch die abstraktesten
+                Termini, die der Meinungssphäre entnommen <lb xml:id="uuid_13ef08d5-8667-4a62-b2de-d95af790065e"/>sind, eine ganz konkrete
+                Tatsache determiniert sein kann. Nicht <lb xml:id="uuid_01e50b43-e8f6-4217-bc2d-c24b5fb31cd2"/>auf jene kommt es an – und
+                nicht sie werden berichtigt –, sondern <lb xml:id="uuid_4d8b570c-26ab-4e60-8bca-0d88965e7594"/>auf die Tatsache, zu deren
+                Bezeichnung sie verwendet sind. Hätte <lb xml:id="uuid_6fef8f66-e93a-4315-b593-595d9ba503bd"/>die ‚<rs type="institution" ref="#29637">Reichspost</rs>‘ wahrheitsgernäss geschrieben, es seien in jenem
+                    <lb xml:id="uuid_05d4c72e-d99e-41de-a175-c17326fbe7ae"/>Aufsatz Anlehnungen
+                enthalten, in denen von der Gewinnsucht der <lb xml:id="uuid_7e88f5ec-799b-46b1-a853-b5f167e80535"/><rs type="institution" ref="#29351">Neuen Freien Presse</rs> die Rede ist, und <hi rend="spaced">daran</hi> die Konklusion <lb xml:id="uuid_a25ba86f-5155-442f-bfb2-8f7ae910bb17"/>geknüpft, dass der Verfasser
+                wahrscheinlich zum Judentum zurück<lb xml:id="uuid_5f7b359a-c3d0-4588-bc3e-b09224eebdd5" break="no"/>kehren werde, so
+                wäre es eine Mutmassung, eine Meinung, zu der sie, <lb xml:id="uuid_3ea25fc7-de21-4603-87b3-249017af989b"/>wie immer sie deren
+                Absurdität verantworten wolle, vollkommen berech<lb xml:id="uuid_ee4fe1b7-461b-4ab9-b739-55be0235c1f0" break="no"/>tigt wäre. Aber
+                gerade das Verschweigen, welcherlei Anlehnungen es <lb xml:id="uuid_f662cb40-9702-43a6-bf6c-4d61c0f5d1e5"/>sind, lässt ihre Vermutung
+                ganz und gar nicht absurd erscheinen, son<lb xml:id="uuid_0c9f17f6-bd8a-467c-b6bf-1a6a4135e573" break="no"/>dern stellt
+                zwingend die Tatsache her und will sie herstellen, dass <lb xml:id="uuid_4ebc293a-decc-4b4b-a200-ddd0db8b578b"/>es eben solche Anlehnungen
+                sind, wie sie es tatsächlich nicht sind. <lb xml:id="uuid_d740a619-1fca-4ac9-880e-c67452f1ddb8"/>Indem nun der Kläger den
+                Fall setzt, dass die ‚<rs type="institution" ref="#29637">Reichspost</rs>‘ ganz <lb xml:id="uuid_84039ef0-2206-46db-a7be-a814317d31ab"/>dieselbe Wahrscheinlichkeit
+                an die <subst hand="#D_000002-009-000-hand002">
+                    <del hand="#D_000002-009-000-hand002">von ihr</del>
+                    <add hand="#D_000002-009-000-hand002">dadurch</add>
+                </subst> definierten und auf die <lb xml:id="uuid_0049c4b8-f705-4526-9b8f-2003e3a89de3"/>völlig verschiedene Sphäre
+                des Inseratenwesens fixierten Anlehnungen <lb xml:id="uuid_b182bec9-3174-47f1-8fb0-ce1bc1c12e74"/>geknüpft hätte‚ und zugibt,
+                dass <hi rend="spaced">hier</hi> (und nur hier) das reine <pb facs="D_000002-009-000.xml-facs001-l010-p010" n="10"/>
+                <lb xml:id="uuid_853a5c1e-c344-4ce5-b458-845f357701bd"/>Wesen der Meinung zum
+                Ausdruck käme, glaubt er hinlänglich klar ge-macht zu haben, dass sich die
+                Berichtigung nicht gegen das offen<lb xml:id="uuid_c08db442-a661-488c-aa59-e7dbc9516cde" break="no"/>bare Recht, eine
+                Wahrscheinlichkeit aufzustellen, gegen das Recht <lb xml:id="uuid_8e3dcc62-00ef-4d63-8544-721d2bc0b43a"/>der Meinung richtet, sondern
+                gegen etwas ganz anderes, nämlich <lb xml:id="uuid_b1a46a1e-28cb-480e-9769-e44e7e9e1e36"/>gegen das Unternehmen, <hi rend="spaced">durch eine solche Me</hi>i<lb xml:id="uuid_1fe24f40-2764-4ad4-9a59-5df63f43615e" break="no"/><hi rend="spaced">nung erst eine Tatsache zu konstrui</hi>e<lb xml:id="uuid_f1de07e6-93fe-44a9-9a14-b4555f58da6b" break="no"/><hi rend="spaced">re</hi>n; gegen die fälschliche Charakterisierung jener Anlehnungen <lb xml:id="uuid_1fc7c103-05ec-4d18-a002-61660ba3c3f2"/><hi rend="spaced">durch</hi>
+                die Wahrscheinlichkeit, die sich aus ihnen ergeben soll; <lb xml:id="uuid_2741ff19-ed31-49b7-8035-75d49f214115"/>also gegen die tatsächliche
+                Unwahrheit, dass es ein Artikel mit <lb xml:id="uuid_53ca914d-1a6b-4b62-bb09-39274a12227a"/>jüdisch-nationaler Tendenz
+                sei und nicht vielmehr einer über die <lb xml:id="uuid_dbe7b5e2-1a7a-419e-bb58-a05991faf7a2"/>Gewinnsucht der <rs type="institution" ref="#29351">Neuen Freien Presse</rs>. Was die ‚<rs type="institution" ref="#29637">Reichspost</rs>‘ zwar nicht <lb xml:id="uuid_491f33c7-5897-4885-ac17-c172e75a4d43"/>wörtlich, aber tatsächlich
+                geschrieben hat, ist: In einem anderen <lb xml:id="uuid_3401ae5f-4ef1-4205-b320-89e139cbdc55"/><rs type="work">Aufsatz der
+                    Fackel</rs> sind <hi rend="spaced">derartige</hi> Anlehnungen enthalten, <lb xml:id="uuid_116b96ac-c9d0-4829-9ae6-dc474049b303"/>die den Fall 3 zur
+                Wahrscheinlichkeit machen, Anlehnungen an <rs type="person" ref="#11673">Herzl</rs>s
+                    <lb xml:id="uuid_6d250934-14a5-4d06-b803-9564ee3892cd"/><rs type="work" ref="#58510">Tagebuch</rs> – was ohne nähere Angabe ausschliesslich <hi rend="spaced">nur die</hi>
+                <lb xml:id="uuid_bc716d1f-4622-4b2e-9226-90eda4abbdf4"/><hi rend="spaced">Assoziation der zionistischen Te</hi>n<lb xml:id="uuid_a9d550f8-b9fe-4fd8-b909-a42b874817ba" break="no"/><hi rend="spaced">denz</hi> ergeben kann. Das ist berichtigungsfähig. Und hier wird <lb xml:id="uuid_90fda7de-5c76-4b05-9850-fb30963cb887"/>evident, wie dieselben Worte
+                im Nu die Meinungsfarbe zugunsten <lb xml:id="uuid_ac4aeab5-14be-498b-b0e2-1bdfa88ff705"/>ihres tatsächlichen Wesens
+                verlieren. Wenngleich jedoch die Wort<lb xml:id="uuid_850629b8-7dce-43a5-8a4d-ae95092bfdb7" break="no"/>fassade den
+                judizierenden Betrachter vom Wesen der Behauptung abge<lb xml:id="uuid_bf5a3ca2-90a4-4a0c-9fc7-bfdebe656589" break="no"/>lenkt hat, so
+                sollte er doch nicht übersehen, dass gerade auf den <lb xml:id="uuid_de4a780b-a1d0-4814-97b0-33d5a2305f8f"/>Leser, der bloss den
+                Eindruck des Satzes übernimmt, <add hand="#D_000002-009-000-hand02">ohne diesen mit einem Gesetz zu
+                    konfrontieren,</add> mit der <lb xml:id="uuid_18c83310-47c3-45ec-8901-54af0556506a"/>vorgespiegelten Tatsache
+                eingewirkt wird, nicht mit der Meinung, <lb xml:id="uuid_e172cad7-6106-43bc-9bb3-96f1242b38b0"/>die im Wort enthalten ist,
+                und dass der berichtigte Artikel keine <lb xml:id="uuid_15b25cb3-3d66-4122-98b1-5625ae931b40"/>andere Absicht als eben
+                diese verfolgt hat. Es macht eben den Cha<lb xml:id="uuid_0b96001b-e878-4212-ac70-7ded74f007b4" break="no"/>rakter und die
+                Gefahr einer solchen Diktion aus, dass mittels des<lb xml:id="uuid_d008abdd-94b4-4a1d-b722-ae63f514b97c" break="no"/>selben
+                Trugschlusses, den die Zeitung bezweckt, dem naiven Leser <lb xml:id="uuid_6ce28548-e41b-453d-9106-b7d7d89f5b9f"/>durch eine Meinung eine
+                Tatsache und dem judizierenden mit einer <lb xml:id="uuid_1e0b0972-de4d-49c6-a3a5-319b95301d28"/>Tatsache eine Meinung
+                vorgespiegelt wird. Wenn das Gesetz der Presse <lb xml:id="uuid_77848895-3efd-44c0-9e8f-a1cf7b5c44c7"/>nur das Hindernis bereiten
+                wollte, dass sie die gröbsten und di<lb xml:id="uuid_541ce73d-2aed-4dac-8473-dc24a3222973" break="no"/>rektesten
+                unwahren Tatsachen vermeiden muss, dann brauchte sie <pb facs="D_000002-009-000.xml-facs001-l011-p011" n="11"/>
+                <lb xml:id="uuid_a4981099-cda5-4d7e-b47f-f11fa0f7a6e6"/>überhaupt keine <rs type="law">§ 23</rs>-Berichtigung zu fürchten. Da eine solche Unter<lb xml:id="uuid_408f4b50-022d-4f0f-be05-8a8a879def7f" break="no"/>stützung
+                unmöglich die Absicht des Gesetzes sein kann – weil es sonst <lb xml:id="uuid_1f5e2053-2177-430c-8668-2d0424e3b15e"/>ein völlig unzulängliches,
+                schlechtes, der technischen Entwicklung <lb xml:id="uuid_926c46a1-760f-44ed-838c-2e962be9636f"/>der Zeitungslüge kaum je
+                gewachsenes und fast nie anwendbares Ge<lb xml:id="uuid_753a8690-8a03-4af9-97ef-20feccd30f05" break="no"/>setz wäre –‚ so
+                hofft der Berichtigungswerber, dass das Berufungs<lb xml:id="uuid_0b564e7e-25d1-41b0-a3a4-e432fca2acd3" break="no"/>gericht das
+                Urteil erster Instanz aufheben und der Klage gegen den <lb xml:id="uuid_fe1acb21-d3c6-4f90-82c4-dcc1a1473c9c"/>verantwortlichen Redakteur
+                der ‚<rs type="institution" ref="#29637">Reichspost</rs>‘ in ihrem vollen Umfang <lb xml:id="uuid_91146ba4-0b1a-4f22-99a0-7f8902db4794"/>stattgeben werde. </p>
+        </body>
+    </text>
+</TEI>

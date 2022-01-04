@@ -1,0 +1,102 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000166-005-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000166-004-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000166-006-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief RA Botho Laserstein an Samek</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000166-005-000.xml</idno>
+                <idno type="URL" subtype="krausonline">https://www.kraus.wienbibliothek.at/content/brief-ra-botho-laserstein-samek-32</idno>
+                <idno type="ID" subtype="transkribus">307006</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000166">Karl
+                    Kraus ca. Wochenschrift Die Fackel</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000166-005-000-wit01" facs="#D_000166-005-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date type="sortDate" subtype="produced" when-iso=""/>
+                <date source="krausonline">o. D.</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/"/>
+            </textClass>
+            <particDesc/>
+            <correspDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2021-09-13" resp="#LU">created XML Document</change>
+            <change when-iso="2021-09-13" resp="#LU">Replaced Text with Transcription of Transkribus
+                Document 307006.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000166-005-000-facs001">
+        <!-- surfaces, graphics -->
+        <surface type="">
+            <graphic url="" source="wienbibliothek"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!-- lb uuids -->
+            <pb facs="" n="1"/>
+            <p xml:id="uuid_1e080ee7-55ff-4363-acf8-7ebaeb633a61"><lb xml:id="uuid_910d2604-c82e-4465-b138-5c3723357f2b"/>Herrn <lb xml:id="uuid_c4ec98bd-93bd-473b-8acb-1aa64c4c4b60"/>Karl <rs type="person" ref="#11988">Kraus</rs> <lb xml:id="uuid_6d21c9e5-2855-45eb-abb9-756b23a7a57e"/>Berlin N.W.6 <lb xml:id="uuid_91c71e38-0053-49df-b186-f691cdbbf415"/>Hotel Hermes.</p>
+            <p xml:id="uuid_68c811f7-826f-41e9-a1e5-bf1a6af31e20"><lb xml:id="uuid_460ea8cd-d555-4a06-9798-586a02dbecf5"/>Eilt!</p>
+            <p xml:id="uuid_1de009b5-fce1-4a72-94be-79f62718205e"><lb xml:id="uuid_bf98bf3a-f9f6-4291-b6b1-469c96b50d60"/>Sehr geehrter Herr
+                <rs type="person" ref="#11988">Kraus</rs>!</p>
+            <p xml:id="uuid_512f6a2f-dbe8-4ff9-8a04-efea235bf573"><lb xml:id="uuid_d80cdbdf-2944-4630-8cef-1a9611d53ef8"/>In Sachen <rs type="institution" ref="#29308">Fackel</rs> gegen <rs type="institution" ref="#56336">Fackel</rs> bitte ich Sie, die anlie<lb xml:id="uuid_60814ff0-819a-4b7f-b80e-9524de0ef1e1" break="no"/>gende Vollmacht
+                zu unterzeichnen und mir umgehend zurückzusenden.</p>
+            <p xml:id="uuid_bd38f4d3-71aa-48d0-aa29-595ee760ca58"><lb xml:id="uuid_cd52aa51-de7d-415e-9d37-30a207f8bb07"/>Hochachtungsvoll <lb xml:id="uuid_6088fd65-9a6d-4747-a6e3-475d0b522d35"/>Dr. <rs type="person" ref="#38969">Laserstein</rs>
+                <lb xml:id="uuid_3420bfe0-a4c9-42d2-88ff-296be2232415"/>Rechtsanwalt.</p>
+        </body>
+    </text>
+</TEI>

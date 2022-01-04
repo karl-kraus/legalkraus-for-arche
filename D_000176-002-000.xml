@@ -1,0 +1,95 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000176-002-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-001-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-002-001.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Telegramm Städtische Bühnen Essen (Rudolf Schulz Dornburg) an
+                    Universal-Edition</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <availability default="false">
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000176-002-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4352</idno>
+                <idno type="ID" subtype="transkribus">349132</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000176">Karl
+                    Kraus ca. Städtische Bühnen Essen</title>
+            </seriesStmt>
+            <sourceDesc default="false">
+                <listWit>
+                    <witness xml:id="D_000176-002-000-wit01" facs="#D_000176-002-000-facs001"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1932-03-12" subtype="produced">12. März
+                    1932</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <particDesc/>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#38784">schulz-dornbrug</persName>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#56166"/>
+                    </address>
+                    <placeName ref="#40267">essen</placeName>                    
+                    <date when-iso="1932-03-12">12. März 1932</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="#36971">universaledition wien</orgName>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref=""/>
+                    </address>
+                    <placeName ref="#50"/>
+                    <date when-iso=""/>
+                </correspAction>
+                <noteGrp>
+                    <note type="subject"/>
+                    <note type="dictation"/>
+                    <note type="appendix"/>
+                </noteGrp>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="intertexts" when-iso="2021-10-07" who="#IL"/>
+            <change type="header_facsimile" when-iso="2021-10-20" who="#IL"/>
+            <change type="structure" when-iso="2021-10-01" who="#IL"/>
+            <change type="references" when-iso="2021-10-11" who="#IL"/>
+            <change type="typography" when-iso="021-10-19" who="#IL"/>
+            <change when-iso="2020-10-09T14:32:15.76Z" who="#IB" status="draft">created by
+                API</change>
+            <change when-iso="2021-09-06" who="#LU">Replaced Text with Transcription of Transkribus
+                Document 349132.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000176-002-000-facs001">
+        <surface xml:id="D_000176-002-000-facs001-l001-p001" type="recto">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000134_13.jpg" source="krausonline"/>
+        </surface>
+    </facsimile>
+    <facsimile type="furtherwitnesses">
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000136_15.jpg" source="krausonline"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="D_000176-002-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_2e20bcdc-d67b-4d2a-901b-65a7104e8cfd"><lb xml:id="uuid_43cec809-9fa8-455e-a7e2-28c5c7acf4ec"/><rs type="institution" ref="#36971">universaledition wien</rs> = <lb xml:id="uuid_9c8c5886-eb23-4c6f-9393-160ea2bf42b6"/>46 essen 80 19 12 1415 = </p>
+            <p xml:id="uuid_fe56767f-cb82-497e-89f2-5be6acdc1fec"><lb xml:id="uuid_dda281bd-adc0-4d45-aaaa-b5074710e452"/><rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000176-001-000">telegramm</rs>
+                rechtsanwalt <rs type="person" ref="#38909">Samek</rs> unverstaendlich text <lb xml:id="uuid_83ccdcb9-cf74-4373-9468-09a3fcb66d80"/><rs type="person">erzherzog</rs> unveraendert geringe musikalische kuerzungen <lb xml:id="uuid_0e6baf11-8d77-41cf-b401-916032bec75d"/>weil vorstellung fast 3 1/2
+                stunden = <rs type="person" ref="#38784">schulz - <lb xml:id="uuid_e3baf6fc-5475-4a15-9c71-8290091df55c"/>dornburg</rs> +</p>
+            <p xml:id="uuid_ffbda066-2e25-4437-a021-cd3228f072df"><lb xml:id="uuid_6566f7ab-a61e-4faa-85e6-d97806ce3ba7"/>14. März 1932</p>
+        </body>
+    </text>
+</TEI>

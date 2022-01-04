@@ -1,0 +1,128 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000120-005-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000120-004-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000120-005-001.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief Samek an die Edition Bote &amp; Bock (Musikverlag)</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000120-005-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3312</idno>
+                <idno type="ID" subtype="transkribus">472000</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000120">Korrespondenz mit den Kammerspielen München betr. eine Offenbach-Aufführung</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000120-005-000-wit01" facs=""/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date type="sortDate" when-iso="1929-04-22" subtype="produced">22. April 1929</date>
+            </creation>
+            <langUsage> <language ident="de">Deutsch</language> </langUsage>
+            <textClass/>
+            <particDesc/>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#38909"/>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="#50493"/>
+                    </address>
+                    <placeName ref="#51"/>
+                    <date when-iso="1929-04-22">22. April 1929</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="#36939">An die | Firma Ed. Bote &amp; G. Bock, | Musikverlag</orgName>
+                    <roleName ref=""/>
+                    <address>
+                        <rs type="place" subtype="address" ref="">Leipzigerstraße 37</rs>
+                    </address>
+                    <placeName ref="#168">Berlin W 8</placeName>
+                    <date when-iso=""/>
+                </correspAction>
+                <noteGrp>
+                    <note type="subject">Betrifft: Kraus – diverses.</note>
+                    <note type="dictation">[D]r.S./Fa.</note>                   
+                    <note type="appendix" xml:id="D_000120-001-000">1 Beilage.</note>
+                </noteGrp>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="typography" when-iso="2021-07-21" who="#IL"/>
+            <change type="header_facsimile" when-iso="2021-07-14" who="#IL"/>
+            <change type="structure" when-iso="2021-07-05" who="#IL"/>
+            <change type="intertexts" when-iso="2021-07-05" who="#IL"/>
+            <change type="references" when-iso="2021-07-05" who="#IL"/>
+            <change when-iso="2020-10-08T13:04:04.168Z" who="#IB">created by API</change>
+            <change when-iso="2020-10-08T13:04:49.133Z" who="#IB">Replaced Text with Transcription of Transkribus Document 472000.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000047_44.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000048_42.jpg" source="krausonline"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000049_39.jpg" source="krausonline"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <pb facs="" n="1"/>
+            <p xml:id="uuid_c1224b0a-3fd5-4410-93e9-7f316da6cc4b"><lb xml:id="uuid_36778ad5-cfd8-4d40-b78a-d5cfd89d40c1"/>Sehr geehrte Herren! </p>
+            <p xml:id="uuid_d831873f-52cd-4997-abbe-4ca6bd9e5765"><lb xml:id="uuid_46ea62a8-868e-4be4-aa62-a8868ebbe4fe"/>Ich übersende Ihnen die
+                Abschrift meines <lb xml:id="uuid_acb254eb-4f4f-4c92-b254-eb4f4fbc921d"/><rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000120-001-000">Schreibens</rs> an Dr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/51597">Kaufmann</rs> als Nachhang zu
+                meinem <rs type="work" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000120-003-000">Schreiben</rs>
+                <lb xml:id="uuid_a1cb9ff7-4e7d-43ad-8b9f-f74e7d63adb3"/>vom 18. April 1929. Ich
+                bitte das Uebersehen meiner <rs type="institution" ref="#52930">Kanzlei</rs> zu <lb xml:id="uuid_09eb1bae-dc2a-41ca-ab1b-aedc2a51cab6"/>entschuldigen und zeichne
+                    <lb xml:id="uuid_c26c6151-1b5e-4e99-ac61-511b5ebe99a0"/>hochachtungsvoll</p>
+            <p xml:id="uuid_8f186839-fcc5-480c-9028-369f9dbc7df1"><lb xml:id="uuid_2388aa33-7530-4943-88aa-337530a943eb"/>Express rekommandiert.</p>
+            <pb facs="" n="2"/>
+            <p xml:id="uuid_28183ef8-e290-422e-9666-af428acf3efc"><lb xml:id="uuid_118c791a-9e27-4a2f-8c79-1a9e274a2f69"/><note type="paratext" resp="law-firm">Betr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs> – diverses <lb xml:id="uuid_b997a6fc-9d4f-4ba6-97a6-fc9d4f9ba630"/>exp. am
+                    22.4.1929.</note></p>
+        </body>
+    </text>
+</TEI>

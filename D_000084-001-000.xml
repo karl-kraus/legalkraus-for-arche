@@ -1,0 +1,123 @@
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000084-001-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000083-011-003.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000084-002-000.xml">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Zeitungsartikel aus: Volkskampf, Nr. 18</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften</name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
+                </availability>
+                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000084-001-000.xml</idno>
+                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2798</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000084">Karl Kraus ca. Volkskampf</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="D_000084-001-000-wit01" facs=""/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date type="sortDate" subtype="produced" when-iso=""/>
+                <date source="krausonline">30.04.1927</date>
+            </creation>
+            <langUsage><language ident="de">Deutsch</language></langUsage>
+            <textClass>
+                <keywords>
+                    <term>Zeitungsartikel</term>
+                </keywords>
+            </textClass>
+            <particDesc/>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when-iso="2020-10-07T15:29:48.467Z" who="#IB">created by API</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000125_29.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554151/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/79_85/00000125.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000126_31.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554152/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/79_85/00000126.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000129_31.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554155/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/79_85/00000129.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000130_29.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554156/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/79_85/00000130.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000131_26.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554157/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/79_85/00000131.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000132_31.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554158/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/79_85/00000132.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000127_34.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554153/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/79_85/00000127.jpg" source="scans"/>
+        </surface>
+        <surface type="">
+            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000128_34.jpg" source="krausonline"/>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554154/full/full/0/default.jpg" source="wienbibliothek"/>
+            <graphic url="ZPH_1545-6/79_85/00000128.jpg" source="scans"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:id="uuid_a6814e9e-a106-4382-814e-9ea1069382bb" part="N" org="uniform" sample="complete">
+            <p xml:id="uuid_f25c9591-0c1b-4ca1-9c95-910c1b8ca199">[...] Und folglich ist’s <hi rend="spaced">dümmste Lüge</hi> , wenn „Fackel-Kraus“ von der „intellektuellen“ Kanaille, dem „geistig wirkenden Menschen“ von dem dem <hi rend="spaced">Ghetto entlaufenen Bochertum</hi> , das sich heute in diesem Lande als Statthalter des deutschen Geistes nicht nur gehabt, sondern <hi rend="spaced">tatsächlich</hi> nein „effektiv“ — und zwar <hi rend="spaced">mangels</hi> Ohrfeigen und Tritten — mit Recht, von Rechts wegen auch ist, die vollkommene Wesensgleichheit im Nichts behauptet: </p>
+            <p xml:id="uuid_5bf5b4db-7d9f-4210-b5b4-db7d9fc210a9">Der Vater. Kinder, ich wer’ euch sagen, was ich weiß. Wie ihr da alle seids, seids ihr zusammen Und jeder einzeln ganz dasselbe wert Wie jeder einzeln, darum ist es möglich, Daß jeder werd mit jedem <hi rend="spaced">leicht</hi> verwechselt; Was einer hat, das kann auch jeder andre, Drum kann er es von jedem andern haben; Denn nix is so <hi rend="spaced">gemeinsam</hi> wie das Nix. Wenn sich der <hi rend="spaced">Tineff</hi> auch absurd gebärdet, Es kommt sich doch <hi rend="spaced">Meschuggenes</hi> nur ’raus. Ihr seids gewiß <hi rend="spaced">talentvoll </hi>, so wie wir; Wie tüchtig wär’ nix jeder von euch Jüngels, Hätt’ er sich nix grad das Geschäft gewählt! Statt Bücher schreiben, führt sie eppes doch! (Karl Kraus, „Literatur oder man werd doch da sehn“, S. 20) </p>
+        </div>
+        </body>
+    </text>
+</TEI>
