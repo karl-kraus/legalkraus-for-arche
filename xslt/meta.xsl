@@ -13,7 +13,7 @@
     <xsl:import href="partials/tei-facsimile.xsl"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title">
-            <xsl:value-of select=".//tei:title[1]/text()"/>
+            <xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/>
         </xsl:variable>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html>
