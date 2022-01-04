@@ -7,3 +7,5 @@ rm -rf ./data/indices && mkdir -p ./data/indices
 find -path "*objects/D_*.xml" -exec cp -prv '{}' './data/editions' ';'
 rm -rf ./data-*
 
+python delete_invalid_files.py
+add-attributes -g "./data/editions/*.xml" -b "https://id.acdh.oeaw.ac.at/legalkraus"
