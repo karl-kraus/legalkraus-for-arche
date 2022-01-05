@@ -31,12 +31,14 @@
                 <acdh:Resource rdf:about="{$flatId}">
                     <!--<acdh:hasPid><xsl:value-of select=".//tei:idno[@type='handle']/text()"/></acdh:hasPid>-->
                     <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/></acdh:hasTitle>
-                    <!--<acdh:hasCoverage xml:lang="de"><xsl:value-of select="$datum"/></acdh:hasCoverage>-->
                     <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
                     <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"/>
-                    <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/>
+                    <!--<acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/> can be taken from /tei:TEI/tei:teiHeader/tei:profileDesc/tei:langUsage/tei:language/@ident but need to mapped to arche-lang-vocabs-->
                     <acdh:isPartOf rdf:resource="{$partOf}"/>
-<!--                    <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"><xsl:value-of select="$datum"/></acdh:hasCoverageStartDate>-->
+                    <xsl:if test="string-length(normalize-space(string-join(data(.//tei:profileDesc/tei:creation/tei:date[1]/@when-iso[1])))) gt 9">
+                        <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"><xsl:value-of select="data(.//tei:profileDesc/tei:creation/tei:date/@when-iso)"/></acdh:hasCoverageStartDate>
+                        <acdh:hasCoverageEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"><xsl:value-of select="data(.//tei:profileDesc/tei:creation/tei:date/@when-iso)"/></acdh:hasCoverageEndDate>
+                    </xsl:if>
                     <xsl:copy-of select="$constants"/>
                     <!--<xsl:for-each select=".//tei:place[@xml:id]">
                         <xsl:variable name="entId">
