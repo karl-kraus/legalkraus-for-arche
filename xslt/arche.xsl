@@ -31,7 +31,8 @@
                     <xsl:value-of select="normalize-space(string-join(data(.//tei:profileDesc/tei:creation/tei:date[1]/@when-iso[1])))"/>
                 </xsl:variable>
                 
-                <acdh:Resource rdf:about="{$flatId}">
+                <xsl:if test="contains($partOf, '/C_0')">
+                    <acdh:Resource rdf:about="{$flatId}">
                     <!--<acdh:hasPid><xsl:value-of select=".//tei:idno[@type='handle']/text()"/></acdh:hasPid>-->
                     <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/></acdh:hasTitle>
                     <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
@@ -90,7 +91,7 @@
                             </acdh:Organisation>
                         </acdh:hasActor>
                     </xsl:for-each>-->
-                </acdh:Resource>
+                </acdh:Resource></xsl:if>
             </xsl:for-each>
         </rdf:RDF>
     </xsl:template>   
