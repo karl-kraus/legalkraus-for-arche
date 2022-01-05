@@ -28,7 +28,7 @@ jobs:
         apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
         echo "downloading saxon"
         wget https://sourceforge.net/projects/saxon/files/Saxon-HE/9.9/SaxonHE9-9-1-7J.zip/download && unzip download -d saxon && rm -rf download
-    - name: Fatch Data
+    - name: Fetch Data
       env:
         GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
       run: |
@@ -44,7 +44,9 @@ jobs:
     # - name: interactive console
     #   uses: mxschmitt/action-tmate@v3
     #   if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.debugEnabled}}
-    - name: ingest to arche
+    - name: ingest arche-cols
       run: |
         php -f ingestion_script.php html/arche-cols.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
+    - name: ingest resources
+      run: |
         php -f ingestion_script.php html/arche.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}

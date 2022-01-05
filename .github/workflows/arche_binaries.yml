@@ -1,0 +1,43 @@
+name: ARCHE Ingest Binaries
+
+on:
+  workflow_dispatch
+
+
+jobs:
+  build_pages_and_ingest:
+    name: ARCHE Ingest
+    runs-on: ubuntu-latest
+    steps:
+    - name: get data
+      run: |
+        echo "do something to get your data"
+    - name: Perform Checkout
+      uses: actions/checkout@v2
+    - name: install python packages
+      run: |
+        pip install acdh-tei-pyutils
+    - name: Fetch Data
+      env:
+        GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+      run: |
+        ./fetch_data.sh
+    - name: Copy XML Files to ingest-dir 
+      run: |
+        echo $PWD
+        mkdir $PWD/hansi
+        find -path "./data/editions/*.xml" -exec cp -prv '{}' './hansi' ';'
+    # - name: Setup tmate session
+    #   uses: mxschmitt/action-tmate@v3
+    - name: ingestion  dependencies
+      run: |
+        composer require "acdh-oeaw/arche-lib-ingest ^3"
+    # - name: interactive console
+    #   uses: mxschmitt/action-tmate@v3
+    #   if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.debugEnabled}}
+    # - name: ingest arche-cols
+    #   run: |
+    #     php -f ingestion_script.php html/arche-cols.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
+    # - name: ingest resources
+    #   run: |
+    #     php -f ingestion_script.php html/arche.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
