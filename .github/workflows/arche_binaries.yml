@@ -22,16 +22,18 @@ jobs:
         GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
       run: |
         ./fetch_data.sh
-    - name: Copy XML Files to ingest-dir 
+    - name: Copy XML Files to to_ingest 
       run: |
-        echo $PWD
-        mkdir $PWD/hansi
-        find -path "./data/editions/*.xml" -exec cp -prv '{}' './hansi' ';'
+        mkdir $PWD/to_ingest
+        find -path "./data/editions/*.xml" -exec cp -prv '{}' './to_ingest' ';'
+    - name: List Files
+      run: |
+        ls ./to_ingest
     # - name: Setup tmate session
     #   uses: mxschmitt/action-tmate@v3
-    - name: ingestion  dependencies
-      run: |
-        composer require "acdh-oeaw/arche-lib-ingest ^3"
+    # - name: ingestion  dependencies
+    #   run: |
+    #     composer require "acdh-oeaw/arche-lib-ingest ^3"
     # - name: interactive console
     #   uses: mxschmitt/action-tmate@v3
     #   if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.debugEnabled}}
