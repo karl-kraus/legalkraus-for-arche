@@ -27,6 +27,9 @@
                 <xsl:variable name="flatId">
                     <xsl:value-of select="concat($TopColId, '/', @xml:id)"/>
                 </xsl:variable>
+                <xsl:variable name="coverageStartDate">
+                    <xsl:value-of select="normalize-space(string-join(data(.//tei:profileDesc/tei:creation/tei:date[1]/@when-iso[1])))"/>
+                </xsl:variable>
                 
                 <acdh:Resource rdf:about="{$flatId}">
                     <!--<acdh:hasPid><xsl:value-of select=".//tei:idno[@type='handle']/text()"/></acdh:hasPid>-->
@@ -35,7 +38,7 @@
                     <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"/>
                     <!--<acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/> can be taken from /tei:TEI/tei:teiHeader/tei:profileDesc/tei:langUsage/tei:language/@ident but need to mapped to arche-lang-vocabs-->
                     <acdh:isPartOf rdf:resource="{$partOf}"/>
-                    <xsl:if test="string-length(normalize-space(string-join(data(.//tei:profileDesc/tei:creation/tei:date[1]/@when-iso[1])))) gt 9">
+                    <xsl:if test="string-length($coverageStartDate) gt 9 and not(ends-with($coverageStartDate, '00'))">
                         <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"><xsl:value-of select="data(.//tei:profileDesc/tei:creation/tei:date/@when-iso)"/></acdh:hasCoverageStartDate>
                         <acdh:hasCoverageEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"><xsl:value-of select="data(.//tei:profileDesc/tei:creation/tei:date/@when-iso)"/></acdh:hasCoverageEndDate>
                     </xsl:if>
