@@ -28,9 +28,14 @@ jobs:
         apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
         echo "downloading saxon"
         wget https://sourceforge.net/projects/saxon/files/Saxon-HE/9.9/SaxonHE9-9-1-7J.zip/download && unzip download -d saxon && rm -rf download
+    - name: Fatch Data
+      env:
+        GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+      run: |
+        ./fetch_data.sh
     - name: Build
       run: |
-        ant
+        ant -f build_arche.xml
     # - name: Setup tmate session
     #   uses: mxschmitt/action-tmate@v3
     - name: ingestion  dependencies
