@@ -50,7 +50,7 @@
                     <xsl:when test="contains($colId, '/C_')">
                         <acdh:Collection rdf:about="{$colId}">
                             <acdh:hasTitle xml:lang="de"><xsl:value-of select="current-group()[1]//tei:seriesStmt/tei:title[@type='collection']/text()"/></acdh:hasTitle>
-                            <acdh:isPartOf rdf:resource="{concat($TopColId, '/editions')}"/>
+                            <acdh:isPartOf rdf:resource="{concat($TopColId, '/cases')}"/>
                             <acdh:hasExtent xml:lang="de"><xsl:value-of select="count(current-group())"/> Dokumente</acdh:hasExtent>
                             <xsl:copy-of select="$constants"/>
                         </acdh:Collection>
