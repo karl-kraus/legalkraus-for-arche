@@ -1,14 +1,14 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000068-090-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-089-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-091-000.xml">
-<teiHeader>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000068-090-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-081-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-091-000.xml">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Beschluss [des Amtsgerichts Charlottenburg]</title>
-                <editor ref=""/>
+                <editor ref="#pmbAR">Alexandra Rausch</editor>
             </titleStmt>
             <publicationStmt>
                 <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
+                    <name full="yes" instant="false">Austrian Centre for Digital Humanities and
+                        Cultural Heritage, Österreichische Akademie der Wissenschaften</name>
                     <address>
                         <street>Sonnenfelsgasse 19</street>
                         <postCode>1010</postCode>
@@ -18,7 +18,8 @@
                     <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
                 </publisher>
                 <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <name full="yes" instant="false">Ludwig Boltzmann Institut für Digital
+                        History</name>
                     <address>
                         <street>Hofburg, Batthianystiege</street>
                         <postCode>1010</postCode>
@@ -28,7 +29,7 @@
                     <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
                 </publisher>
                 <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
+                    <name full="yes" instant="false">Wienbibliothek im Rathaus</name>
                     <address>
                         <street>Friedrich-Schmidt-Platz 1</street>
                         <postCode>1010</postCode>
@@ -38,8 +39,8 @@
                     <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
                 </publisher>
                 <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
+                <date instant="false">2021</date>
+                <availability default="false">
                     <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
                         Namensnennung 4.0 International Lizenz</licence>
                 </availability>
@@ -47,71 +48,78 @@
                 <idno type="URL" subtype="krausonline">https://www.kraus.wienbibliothek.at/content/beschluss-des-amtsgerichts-charlottenburg</idno>
                 <idno type="ID" subtype="transkribus">207933</idno>
             </publicationStmt>
-            <seriesStmt>
+            <seriesStmt default="false">
                 <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000068">Karl
                     Kraus ca. Alfred Kerr</title>
             </seriesStmt>
-            <sourceDesc>
+            <sourceDesc default="false">
+                <msDesc>
+                    <ab type="stamp" part="N">
+                        <stamp source="#36362"/>
+                    </ab>
+                </msDesc>
                 <listWit>
                     <witness xml:id="D_000068-090-000-wit01" facs="#D_000068-090-000-facs001"/>
                 </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <creation><date type="sortDate" subtype="produced" when-iso=""/>
-                <date source="krausonline">24.02.1928</date>
+            <creation>
+                <date type="sortDate" when-iso="1928-02-24" subtype="produced" instant="false">24.
+                    Februar 1928</date>
             </creation>
-            <langUsage>
+            <langUsage default="false">
                 <language ident="de">Deutsch</language>
             </langUsage>
-            <textClass>
+            <textClass default="false">
                 <keywords>
                     <term/>
                 </keywords>
                 <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/"/>
             </textClass>
-            <particDesc/>
+            <particDesc default="false"/>
         </profileDesc>
         <revisionDesc status="draft">
-            <change when-iso="2021-09-13" resp="#LU">created XML Document</change>
-            <change when-iso="2021-09-13" resp="#LU">Replaced Text with Transcription of Transkribus
-                Document 207933.</change>
+            <change when-iso="2021-09-13" resp="#LU" status="draft">created XML Document</change>
+            <change when-iso="2021-09-13" resp="#LU" status="draft">Replaced Text with Transcription
+                of Transkribus Document 207933.</change>
+            <change type="header_facsimile" when-iso="2022-01-06" who="#AR" status="draft"/>
+            <change type="structure" when-iso="2022-01-06" who="#AR" status="draft"/>
+            <change type="references" when-iso="2022-01-06" who="#AR" status="draft"/>
+            <change type="typography" when-iso="2022-01-06" who="#AR" status="draft"/>
+            <change type="intertexts" when-iso="2022-01-06" who="#AR" status="draft"/>
         </revisionDesc>
     </teiHeader>
-    <facsimile xml:id="D_000068-090-000-facs001"><!-- surfaces, graphics -->
-        <surface type="">
-            <graphic url="" source="wienbibliothek"/>
-        </surface>
+    <facsimile xml:id="D_000068-090-000-facs001">
+        <surfaceGrp xml:id="D_000068-090-000.xml-facs001-l001">
+            <surface xml:id="D_000068-090-000.xml-facs001-l001-p001" type="recto">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000429_1.jpg" source="krausonline"/>
+            </surface>
+            <surface xml:id="D_000068-090-000.xml-facs001-l001-p002" type="verso">
+                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000430_2.jpg" source="krausonline"/>
+            </surface>
+        </surfaceGrp>
     </facsimile>
     <text>
-        <body><!-- lb uuids -->
-            <pb facs="" n="1"/>
-                <lb/>Beschluß
-                <lb/>44 B 222.27
-                <lb/>24
-                <lb/>In der Privarklagesache Kraus
-                <lb/>gegen Kerr wird das Ver-
-                <lb/>fahren nach Maßgabe des
-                <lb/>Vergleichs vom 2. Februar 1928
-                <lb/>eingestellt.
-                <lb/>Charlottenburg, den 2. Februar 1928
-                <lb/>Das Amtsgericht
-                <lb/>gez. Dr. Neumann
-                <lb/>Ausgefertigt
-                <lb/>Charlottenburg, den 28. Februar
-                <lb/>Die Geschäftsstelle Abt. 44
-                <lb/>[Unterschrift]
-                <lb/>[Stempel]
-            <pb facs="" n="2"/>
-                <lb/>zugestellt
-                <lb/>am 29. Februar 28
-                <lb/>[Unterschrift]
-                <lb/>44 B 222.27
-                <lb/>24
-                <lb/>[¿]
-                <lb/>Victor Frankel
-                <lb/>Bln W.57
-                <lb/>Potsdamerstr 86b.
+        <body>
+            <pb n="1" facs="#D_000068-090-000.xml-facs001-l001-p001"/>
+            <p xml:id="uuid_95876fd1-748d-4a4b-af84-a223868d0af2" part="N"><lb xml:id="uuid_550783e2-5eab-494f-8a13-805ff0384bbf"/><hi rend="spaced">Beschluß</hi>
+            </p>
+            <p xml:id="uuid_3ff73ef3-5f54-45d3-8bcc-228659aef85b" part="N"><lb xml:id="uuid_29bd82f8-5f6a-4c21-a781-ac1d8bb7458c"/>44 B 222.27 <lb xml:id="uuid_4277932b-ad6a-469d-b01e-c6a818843c45"/>24 </p>
+            <p xml:id="uuid_5799c334-8351-4bfd-9638-6c20ddf3fae8" part="N"><lb xml:id="uuid_0c6fc727-90e5-4cc2-90cc-cc92d53fb5ef"/>In der Privarklagesache <rs type="person" ref="#pmb11988">Kraus</rs>
+                <lb xml:id="uuid_2c1e4150-a5dc-43e9-a8e7-aef69c3fe459"/>gegen <rs type="person" ref="#pmb11910">Kerr</rs> wird das Ver<lb break="no" xml:id="uuid_ab17338c-95e6-4f0f-85fa-7b73b1184428"/>fahren nach Maßgabe des <lb xml:id="uuid_33239c4a-bbd3-4bd3-b137-1c4bf505efd6"/>Vergleichs vom 2. Februar
+                1928 <lb xml:id="uuid_5fbabbe9-9db0-4eae-a8a0-e64cb9c02dcd"/>eingestellt. </p>
+            <p xml:id="uuid_ace90fb3-abc8-4f93-9f3f-1ae41f703804" part="N"><lb xml:id="uuid_cdd62a79-cd39-4b2b-bf18-9259be3d8209"/><rs type="place" ref="#pmb9925">Charlottenburg</rs>, den 2. Februar 1928 <lb xml:id="uuid_cc17f09b-084a-47a4-a600-ec7089b38675"/><rs type="institution" ref="#pmb36362">Das Amtsgericht</rs>
+                <lb xml:id="uuid_89e4f876-888f-4d24-b0eb-0cff65e81340"/>gez. <rs type="person" ref="#pmb55425">Dr. Neumann</rs>
+            </p>
+            <p xml:id="uuid_be9a0a3d-0474-48f4-b32c-33aa34e3ce45" part="N"><lb xml:id="uuid_4f5eb92f-5737-4879-93f9-30ab14274081"/>Ausgefertigt <lb xml:id="uuid_c745074f-6140-465f-9300-61a9fcabe178"/><rs type="place" ref="#pmb9925">Charlottenburg</rs>, den 28. Februar <lb xml:id="uuid_aef3148b-ba6b-4bb3-84f8-da140d66c2eb"/>Die Geschäftsstelle Abt. 44
+                    <lb xml:id="uuid_80dca891-f174-488c-b66e-10aa56ee77a3"/>[Unterschrift] <lb xml:id="uuid_47ff07cb-2c17-40bb-9c11-7dfc132960cb"/>[Stempel] <pb n="2" facs="#D_000068-090-000.xml-facs001-l001-p002"/>
+            </p>
+            <p xml:id="uuid_22ea7185-9e40-4e82-8acc-33f1a5c6e6b8" part="N"><lb xml:id="uuid_31ddf841-e8ee-45e4-ac7a-2a2f2ded5aae"/>zugestellt <lb xml:id="uuid_2db0cb9b-11bf-4b3b-9abd-d1d9b39f5348"/>am 29. Februar 28 <lb xml:id="uuid_89fe4f55-a01a-4236-8c23-8b7b39fc50de"/>[Unterschrift] </p>
+            <p xml:id="uuid_6625f163-a1dd-496a-8b8b-15a38b3137e4" part="N"><lb xml:id="uuid_bc61380f-f143-4d86-a9e8-ab12f4d65916"/>44 B 222.27 <lb xml:id="uuid_dfba22cd-a3e8-43c2-8f36-4062c26d03fc"/>24 </p>
+            <p xml:id="uuid_46ba6cea-18bb-47f7-8c8c-edaed973318f" part="N"><lb xml:id="uuid_27b3e9cc-c4ab-4a8b-8294-3c13b6998685"/>[Justizrat?] <lb xml:id="uuid_e1bd66e1-1ff8-4e55-b820-c01c6c293071"/><rs type="person" ref="#pmb38141">Victor Frankel</rs>
+                <lb xml:id="uuid_417b7928-08b9-4110-a6fc-82169689fcf5"/><rs type="place" subtype="address" ref="#pmb362">Bln W.57 <lb xml:id="uuid_abd4b993-7e73-4868-bcb1-10b391a9eea1"/>Potsdamerstr
+                86b.</rs></p>
         </body>
     </text>
 </TEI>
