@@ -20,7 +20,7 @@ $graph = new MetadataCollection($repo, $argv[1]);
 $graph->preprocess();
 try {
     $repo->begin();
-    $resources = $graph->import('https://id.acdh.oeaw.ac.at/', MetadataCollection::SKIP, MetadataCollection::ERRMODE_PASS, 8);
+    $resources = $graph->import('https://id.acdh.oeaw.ac.at/', MetadataCollection::SKIP, MetadataCollection::ERRMODE_FAIL);
     $repo->commit();
     echo "\n######################################################\nImport ended\n######################################################\n";
 } catch (GuzzleHttp\Exception\RequestException $e) {
