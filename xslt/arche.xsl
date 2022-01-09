@@ -44,11 +44,11 @@
                         <acdh:hasCoverageEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"><xsl:value-of select="data(.//tei:profileDesc/tei:creation/tei:date/@when-iso)"/></acdh:hasCoverageEndDate>
                     </xsl:if>
                     <xsl:copy-of select="$constants"/>
-                    <!--<xsl:for-each select=".//tei:place[@xml:id]">
+                    <xsl:for-each select=".//tei:place[@xml:id]">
                         <xsl:variable name="entId">
                             <xsl:choose>
-                                <xsl:when test=".//tei:idno[@type='geonames']">
-                                    <xsl:value-of select=".//tei:idno[@type='geonames']/text()"/>
+                                <xsl:when test="./tei:idno[contains(./text(), 'geonames')][1]">
+                                    <xsl:value-of select="./tei:idno[contains(./text(), 'geonames')][1]/text()"/>
                                 </xsl:when>
                                 <xsl:otherwise>
                                     <xsl:value-of select="concat('https://id.acdh.oeaw.ac.at/pmb/', (substring-after(@xml:id, 'pmb')))"/>
@@ -58,15 +58,15 @@
                         <acdh:hasSpatialCoverage>
                             <acdh:Place>
                                 <xsl:attribute name="rdf:about"><xsl:value-of select="$entId"/></xsl:attribute>
-                                <acdh:hasTitle xml:lang="und"><xsl:value-of select=".//tei:placeName[1]/text()"/></acdh:hasTitle>
+                                <acdh:hasTitle xml:lang="und"><xsl:value-of select="./tei:placeName[1]/text()"/></acdh:hasTitle>
                             </acdh:Place>
                         </acdh:hasSpatialCoverage>
-                    </xsl:for-each>-->
-                    <!--<xsl:for-each select=".//tei:person[@xml:id]">
+                    </xsl:for-each>
+                    <xsl:for-each select=".//tei:person[@xml:id]">
                         <xsl:variable name="entId">
                             <xsl:choose>
-                                <xsl:when test=".//tei:idno[@type='gnd']">
-                                    <xsl:value-of select=".//tei:idno[@type='gnd']/text()"/>
+                                <xsl:when test="./tei:idno[@subtype='gnd']">
+                                    <xsl:value-of select="./tei:idno[@subtype='gnd']/text()"/>
                                 </xsl:when>
                                 <xsl:otherwise>
                                     <xsl:value-of select="concat('https://id.acdh.oeaw.ac.at/pmb/', (substring-after(@xml:id, 'pmb')))"/>
@@ -79,10 +79,10 @@
                                 <acdh:hasTitle xml:lang="und"><xsl:value-of select=".//tei:forename[1]/text()||' '||.//tei:surname[1]/text()"/></acdh:hasTitle>
                             </acdh:Person>
                         </acdh:hasActor>
-                    </xsl:for-each>-->
-                    <!--<xsl:for-each select=".//tei:org[@xml:id]">
+                    </xsl:for-each>
+                    <xsl:for-each select=".//tei:org[@xml:id]">
                         <xsl:variable name="entId">
-                            <xsl:value-of select="concat('https://id.acdh.oeaw.ac.at/pmb/', @xml:id)"/>
+                            <xsl:value-of select="concat('https://id.acdh.oeaw.ac.at/pmb/', (substring-after(@xml:id, 'pmb')))"/>
                         </xsl:variable>
                         <acdh:hasActor>
                             <acdh:Organisation>
@@ -90,7 +90,7 @@
                                 <acdh:hasTitle xml:lang="und"><xsl:value-of select=".//tei:orgName[1]/text()"/></acdh:hasTitle>
                             </acdh:Organisation>
                         </acdh:hasActor>
-                    </xsl:for-each>-->
+                    </xsl:for-each>
                 </acdh:Resource></xsl:if>
             </xsl:for-each>
         </rdf:RDF>
