@@ -29,7 +29,7 @@ jobs:
     - name: Build
       run: |
         ant -f build_arche.xml
-    - name: ingestion  dependencies
+    - name: ingestion dependencies
       run: |
         composer require "acdh-oeaw/arche-ingest:^1"
     - name: ingest arche-cols
