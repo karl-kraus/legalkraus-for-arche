@@ -29,12 +29,9 @@ jobs:
     - name: List Files
       run: |
         ls ./to_ingest
-     - name: ingestion  dependencies
-       run: |
-         composer require "acdh-oeaw/arche-ingest ^1"
-    # - name: interactive console
-    #   uses: mxschmitt/action-tmate@v3
-    #   if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.debugEnabled}}
-     - name: ingest binaries
-       run: |
-         vendor/bin/arche-import-metadata to_ingest https://id.acdh.oeaw.ac.at/legalkraus https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
+    - name: ingestion dependencies
+      run: |
+         composer require "acdh-oeaw/arche-ingest:^1"
+    - name: ingest binaries
+      run: |
+          vendor/bin/arche-import-metadata to_ingest https://id.acdh.oeaw.ac.at/legalkraus https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
