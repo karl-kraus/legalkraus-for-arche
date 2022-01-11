@@ -31,10 +31,10 @@ jobs:
         ant -f build_arche.xml
     - name: ingestion  dependencies
       run: |
-        composer require "acdh-oeaw/arche-lib-ingest ^3"
+        composer require "acdh-oeaw/arche-ingest ^1"
     - name: ingest arche-cols
       run: |
-        php -f ingestion_script.php html/arche-cols.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
+        vendor/bin/arche-import-metadata --concurrency 8 html/arche-cols.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
     - name: ingest resources
       run: |
-        php -f ingestion_script.php html/arche.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
+        vendor/bin/arche-import-metadata --concurrency 8 html/arche.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
