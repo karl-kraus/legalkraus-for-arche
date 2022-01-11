@@ -34,4 +34,4 @@ jobs:
          composer require "acdh-oeaw/arche-ingest:^1"
     - name: ingest binaries
       run: |
-          vendor/bin/arche-import-metadata to_ingest https://id.acdh.oeaw.ac.at/legalkraus https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
+          vendor/bin/arche-import-binary to_ingest https://id.acdh.oeaw.ac.at/legalkraus https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
