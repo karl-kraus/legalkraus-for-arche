@@ -3,7 +3,6 @@ name: ARCHE Ingest Binaries
 on:
   workflow_dispatch
 
-
 jobs:
   build_pages_and_ingest:
     name: ARCHE Ingest
@@ -29,17 +28,9 @@ jobs:
     - name: List Files
       run: |
         ls ./to_ingest
-    # - name: Setup tmate session
-    #   uses: mxschmitt/action-tmate@v3
-    # - name: ingestion  dependencies
-    #   run: |
-    #     composer require "acdh-oeaw/arche-lib-ingest ^3"
-    # - name: interactive console
-    #   uses: mxschmitt/action-tmate@v3
-    #   if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.debugEnabled}}
-    # - name: ingest arche-cols
-    #   run: |
-    #     php -f ingestion_script.php html/arche-cols.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
-    # - name: ingest resources
-    #   run: |
-    #     php -f ingestion_script.php html/arche.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
+    - name: ingestion dependencies
+      run: |
+        composer require "acdh-oeaw/arche-ingest:^1"
+    - name: ingest arche-cols
+      run: |
+        vendor/bin/arche-import-binary to_ingest https://id.acdh.oeaw.ac.at/legalkraus https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
