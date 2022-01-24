@@ -7,6 +7,8 @@ jobs:
   build_pages_and_ingest:
     name: ARCHE Ingest
     runs-on: ubuntu-latest
+    env:
+      ANT_OPTS: -Xmx5g
     steps:
     - name: get data
       run: |
