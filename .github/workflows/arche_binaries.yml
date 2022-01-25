@@ -29,9 +29,16 @@ jobs:
     - name: List Files
       run: |
         ls ./to_ingest
+    - name: install repo-file-checker
+      run: |
+        composer require "acdh-oeaw/repo-file-checker:^2"
+        mkdir -p filechecker/tmp filechecker/reports
+    - name: run repo-file-checker
+      run: |
+        php -f vendor/acdh-oeaw/repo-file-checker/index.php -- --tmpDir filechecker/tmp --reportDir filechecker/reports to_ingest 0
     - name: ingestion dependencies
       run: |
-         composer require "acdh-oeaw/arche-ingest:^1"
+        composer require "acdh-oeaw/arche-ingest:^1"
     - name: ingest binaries
       run: |
-          vendor/bin/arche-import-binary to_ingest https://id.acdh.oeaw.ac.at/legalkraus https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
+        vendor/bin/arche-import-binary to_ingest https://id.acdh.oeaw.ac.at/legalkraus https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
