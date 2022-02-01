@@ -20,6 +20,8 @@ find ./data/indices/ -type f -name "*.xml"  -print0 | xargs -0 sed -i -e 's@<pla
 
 python delete_invalid_files.py
 
+find ./data/editions/ -type f -name "D_*.xml" -print0 | xargs -0 sed -i 's@<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>@@g'
+
 find ./data/editions/ -type f -name "D_*.xml"  -print0 | xargs -0 sed -i 's@ref="#@ref="#pmb@g'
 
 find ./data/editions/ -type f -name "D_*.xml"  -print0 | xargs -0 sed -i 's@ref="https://pmb.acdh.oeaw.ac.at/entity/@ref="#pmb@g'
