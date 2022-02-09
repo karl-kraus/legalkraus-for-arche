@@ -22,6 +22,7 @@ jobs:
         GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
       run: |
         ./fetch_data.sh
+        ./delete_schema.sh
     - name: Copy XML Files to to_ingest 
       run: |
         mkdir $PWD/to_ingest
@@ -41,4 +42,4 @@ jobs:
         composer require "acdh-oeaw/arche-ingest:^1"
     - name: ingest binaries
       run: |
-        vendor/bin/arche-import-binary to_ingest https://id.acdh.oeaw.ac.at/legalkraus https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
+        vendor/bin/arche-import-binary to_ingest https://id.acdh.oeaw.ac.at/legalkraus https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --skip not_exist
