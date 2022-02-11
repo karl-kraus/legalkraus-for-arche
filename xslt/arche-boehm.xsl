@@ -18,7 +18,16 @@
         <xsl:variable name="TopColId">
             <xsl:value-of select="data(.//acdh:TopCollection/@rdf:about)"/>
         </xsl:variable>
-        <rdf:RDF xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#">            
+        <rdf:RDF xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#">      
+            <xsl:for-each select=".//acdh:Collection">
+                <acdh:Collection>
+                    <xsl:attribute name="rdf:about"><xsl:value-of select="@rdf:about"/></xsl:attribute>
+                    <xsl:copy-of select="$constants"/>
+                    <xsl:for-each select=".//node()">
+                        <xsl:copy-of select="."/>
+                    </xsl:for-each>
+                </acdh:Collection>
+            </xsl:for-each>
             <xsl:for-each select="collection('../boehm_tei')//tei:TEI">
                 <xsl:variable name="colId">
                     <xsl:value-of select="replace(replace(data(@xml:id), '.xml', ''), 'boehm_', '')"/>
