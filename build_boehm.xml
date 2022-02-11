@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="tei2html">
+    <property name="index" value="./data/meta/about.xml"/>
+    <property name="target" value="./html"/>
+    <delete>
+        <fileset dir="${target}" includes="*.html"/>
+        <fileset dir="${target}" includes="*.rdf"/>
+    </delete>
+    <delete dir="${target}/static-search"/>
+    <xslt in="./data/meta/arche_constants.rdf" out="${target}/arche-boehm.rdf" style="./xslt/arche-boehm.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <replace dir="${target}" value="">
+        <include name="*.html"/>
+        <replacetoken> xmlns=""</replacetoken>
+    </replace>
+</project>
