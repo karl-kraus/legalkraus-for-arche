@@ -11,6 +11,10 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
+    <xslt in="./data/meta/arche_constants.rdf" out="${target}/arche-boehm.rdf" style="./xslt/arche-boehm.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
     <xslt in="./data/meta/arche_constants.rdf" out="${target}/arche.rdf" style="./xslt/arche.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
@@ -21,6 +25,11 @@
     </replace>
     <copy todir="${target}" flatten="true">
         <fileset dir="./data/">
+            <include name="**/*.xml"/>
+        </fileset>
+    </copy>
+    <copy todir="${target}" flatten="true">
+        <fileset dir="./boehm_tei/">
             <include name="**/*.xml"/>
         </fileset>
     </copy>

@@ -26,3 +26,6 @@ add-attributes -g "./data/editions/*.xml" -b "https://id.acdh.oeaw.ac.at/legalkr
 add-attributes -g "./data/indices/*.xml" -b "https://id.acdh.oeaw.ac.at/legalkraus"
 
 denormalize-indices -f "./data/editions/D_*.xml" -i "./data/indices/*.xml" -m ".//*[@ref]/@ref" -x ".//tei:titleStmt/tei:title[1]/text()" -b pmb11988
+
+echo "and now to Boehm"
+./boehm.sh
