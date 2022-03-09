@@ -35,9 +35,9 @@ jobs:
     - name: ingestion dependencies
       run: |
         composer require "acdh-oeaw/arche-ingest:^1"
-    - name: ingest arche-cols
+    - name: ingest arche-cases
       run: |
-        vendor/bin/arche-import-metadata html/arche-cols.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
+        vendor/bin/arche-import-metadata html/arche-cases.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
     - name: ingest resources
       run: |
         vendor/bin/arche-import-metadata html/arche.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --retriesOnConflict 25
