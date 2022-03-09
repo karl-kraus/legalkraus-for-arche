@@ -67,7 +67,6 @@
                 <acdh:Collection rdf:about="{$partOf}">
                     <xsl:copy-of select="$constants"/>
                     <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/></acdh:hasTitle>
-                    <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
                     <acdh:isPartOf rdf:resource="{$caseTopCol}"/>
                     <acdh:hasExtent xml:lang="de"><xsl:value-of select="count(.//tei:sourceDesc//tei:item)"/> Dokumente</acdh:hasExtent>
                     <xsl:for-each select=".//tei:keywords//tei:term/text()">
