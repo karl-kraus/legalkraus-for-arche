@@ -12,10 +12,13 @@ tar -xf downloaded_data && rm downloaded_data
 find -path "*indices/list*.xml" -exec cp -prv '{}' './data/indices' ';'
 rm -rf ./data-*
 
+echo "get cases TEIs"
+./cases.sh
+
 echo "delete files without revisionDesc status='done'"
 find ./data/editions/ -type f -name "D_*.xml" -print0 | xargs --null grep -Z -L 'revisionDesc status="done"' | xargs --null rm
 
-echeo "delete file which cannot be parsed by lxml parser"
+echo "delete file which cannot be parsed by lxml parser"
 python delete_invalid_files.py
 
 echo "fix entity reference IDs"
@@ -27,13 +30,18 @@ find ./data/indices/ -type f -name "*.xml"  -print0 | xargs -0 sed -i -e 's@<org
 find ./data/indices/ -type f -name "*.xml"  -print0 | xargs -0 sed -i -e 's@<placeName key="place__@<placeName key="pmb@g'
 find ./data/editions/ -type f -name "D_*.xml"  -print0 | xargs -0 sed -i 's@ref="#@ref="#pmb@g'
 find ./data/editions/ -type f -name "D_*.xml"  -print0 | xargs -0 sed -i 's@ref="https://pmb.acdh.oeaw.ac.at/entity/@ref="#pmb@g'
+find ./data/cases_tei/ -type f -name "C_*.xml"  -print0 | xargs -0 sed -i 's@ref="https://pmb.acdh.oeaw.ac.at/entity/@ref="#pmb@g'
 
 echo "add xml:id, prev and next attributes"
 add-attributes -g "./data/editions/*.xml" -b "https://id.acdh.oeaw.ac.at/legalkraus"
 add-attributes -g "./data/indices/*.xml" -b "https://id.acdh.oeaw.ac.at/legalkraus"
+add-attributes -g "./data/cases_tei/*.xml" -b "https://id.acdh.oeaw.ac.at/legalkraus"
 
-echo "denormalize indices"
+echo "denormalize indices in objects"
 denormalize-indices -f "./data/editions/D_*.xml" -i "./data/indices/*.xml" -m ".//*[@ref]/@ref" -x ".//tei:titleStmt/tei:title[1]/text()" -b pmb11988
+
+echo "denormalize indices in cases"
+denormalize-indices -f "./data/cases_tei/C_*.xml" -i "./data/indices/*.xml" -m ".//*[@ref]/@ref" -x ".//tei:titleStmt/tei:title[1]/text()" -b pmb11988
 
 echo "and now to Boehm"
 ./boehm.sh

@@ -3,7 +3,7 @@ import glob
 import os
 from acdh_tei_pyutils.tei import TeiReader
 
-files = glob.glob('./data/editions/*.xml')
+files = glob.glob('./data/*/*.xml')
 print(f"selected {len(files)}")
 
 faulty = []
