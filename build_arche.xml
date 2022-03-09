@@ -7,7 +7,7 @@
         <fileset dir="${target}" includes="*.rdf"/>
     </delete>
     <delete dir="${target}/static-search"/>
-    <xslt in="./data/meta/arche_constants.rdf" out="${target}/arche-cols.rdf" style="./xslt/arche-cols.xsl">
+    <xslt in="./data/meta/arche_constants.rdf" out="${target}/arche-cases.rdf" style="./xslt/arche-cases.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>

@@ -48,6 +48,8 @@ jobs:
       run: |
         mkdir $PWD/to_ingest
         find -path "./data/editions/*.xml" -exec cp -prv '{}' './to_ingest' ';'
+        find -path "./data/cases_tei/*.xml" -exec cp -prv '{}' './to_ingest' ';'
+        find -path "./data/indices/*.xml" -exec cp -prv '{}' './to_ingest' ';'
         find -path "./boehm_tei/*.xml" -exec cp -prv '{}' './to_ingest' ';'
     - name: install repo-file-checker
       run: |
