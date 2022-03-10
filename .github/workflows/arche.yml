@@ -40,7 +40,7 @@ jobs:
         vendor/bin/arche-import-metadata html/arche-cases.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
     - name: ingest arche-actor-roles
       run: |
-        vendor/bin/arche-import-metadata html/arche-actor-roles.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
+        vendor/bin/arche-import-metadata html/arche-actor-roles.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --silent
     # - name: ingest resources
     #   run: |
     #     vendor/bin/arche-import-metadata html/arche.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --retriesOnConflict 25
