@@ -63,6 +63,6 @@ jobs:
     # - name: run repo-file-checker
     #   run: |
     #     php -f vendor/acdh-oeaw/repo-file-checker/index.php -- --tmpDir filechecker/tmp --reportDir filechecker/reports to_ingest 0
-    # - name: ingest binaries
-    #   run: |
-    #     vendor/bin/arche-import-binary to_ingest https://id.acdh.oeaw.ac.at/legalkraus https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --skip not_exist
+    - name: ingest binaries
+      run: |
+        vendor/bin/arche-import-binary to_ingest https://id.acdh.oeaw.ac.at/legalkraus https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --skip not_exist
