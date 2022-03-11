@@ -17,7 +17,8 @@ jobs:
       uses: actions/checkout@v2
     - name: install python packages
       run: |
-        pip install acdh-tei-pyutils
+        pip install -U pip
+        pip install -r requirements.txt
     - name: Install Saxon and ANT
       run: |
         apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
