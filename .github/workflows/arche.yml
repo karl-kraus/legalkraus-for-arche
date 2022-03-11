@@ -29,7 +29,6 @@ jobs:
       run: |
         ./fetch_data.sh
         ./delete_schema.sh
-        python create_case_index.py
     - name: Build
       run: |
         ant -f build_arche.xml

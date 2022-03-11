@@ -5,6 +5,7 @@ import glob
 import json
 from acdh_tei_pyutils.tei import TeiReader
 from dateutil.parser import parse
+from tqdm import tqdm
 
 files = glob.glob('./data/cases_tei/C*.xml')
 tei_ns = {'tei': "http://www.tei-c.org/ns/1.0"}
@@ -110,6 +111,7 @@ def yield_cases(files):
                 item['title'] = cur_doc.any_xpath('.//tei:title[1]/text()')[0]
             except IndexError:
                 item['title'] = "no title"
+            item['date'] = date_from_tei(tei_path, default="")
             try:
                 item['facs'] = cur_doc.any_xpath('.//tei:graphic[@source="wienbibliothek"]/@url')[0]
             except IndexError:
@@ -119,7 +121,7 @@ def yield_cases(files):
 
 with open('cases-index.json', 'w', encoding='utf-8') as f:
     f.write('{"cases": [')
-    for i, x in enumerate(yield_cases(files)):
+    for i, x in tqdm(enumerate(yield_cases(files)), total=len(files)):
         json.dump(x, f, ensure_ascii=False)
         if int(i)+1 != len(files):
             f.write(', ')
