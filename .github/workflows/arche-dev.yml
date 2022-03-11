@@ -32,7 +32,7 @@ jobs:
         ./delete_schema.sh
     - name: Build
       run: |
-        ant -f build_arche.xml
+        ant -f build_arche_md.xml
     - name: ingestion dependencies
       run: |
         composer require "acdh-oeaw/arche-ingest:^1"
