@@ -4,7 +4,7 @@
 import glob
 import json
 from acdh_tei_pyutils.tei import TeiReader
-from lxml import etree as ET
+from dateutil.parser import parse
 
 files = glob.glob('./data/cases_tei/C*.xml')
 tei_ns = {'tei': "http://www.tei-c.org/ns/1.0"}
@@ -14,6 +14,48 @@ class_codes = {}
 keywords = []
 persons = {}
 roles = {}
+
+
+def is_date(string, fuzzy=False):
+    """
+    Return whether the string can be interpreted as a date.
+
+    :param string: str, string to check for date
+    :param fuzzy: bool, ignore unknown tokens in string if True
+    """
+    try: 
+        parse(string, fuzzy=fuzzy)
+        return True
+
+    except ValueError:
+        return False
+
+
+def date_from_tei(path_to_file, default=""):
+    """
+    Tries to extract some iso-date from the passed in doc
+
+    :param path_to_file: str, path the TEI-Doc
+    :param default: str; a default value to be returned in case no useful date could be found
+    """
+    try:
+        doc = TeiReader(path_to_file)
+    except Exception as e:
+        print(e)
+        return default
+    try:
+        date_el = doc.any_xpath('.//tei:creation/tei:date')[0]
+    except IndexError:
+        print(path_to_file)
+        return default
+    date_attr = date_el.attrib.items()
+    try:
+        date = [x[1] for x in date_attr if is_date(x[1])][0]
+    except IndexError:
+        return default
+    return date.strip()
+
+
 for x in files:
     try:
         doc = TeiReader(x)
@@ -45,6 +87,14 @@ for x in files:
         roles[actor['role_id']] = actor['role_label']
     case['actors'] = actors
     case['actor_count'] = len(actors)
+    try:
+        case['first_doc'] = case['docs'][0]
+        case['last_doc'] = case['docs'][-1]
+    except IndexError:
+        case['first_doc'] = ""
+        case['last_doc'] = ""
+    case['start_date'] = date_from_tei(f"./data/editions/{case['first_doc']}")
+    case['end_date'] = date_from_tei(f"./data/editions/{case['last_doc']}", default='')
     cases.append(case)
 data = {
     'cases': cases,
