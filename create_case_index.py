@@ -52,7 +52,6 @@ def date_from_tei(path_to_file, default=""):
 def yield_cases(files):
     faulty = []
     class_codes = {}
-    keywords = []
     persons = {}
     roles = {}
     for x in files:

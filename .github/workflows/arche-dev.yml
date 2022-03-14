@@ -36,14 +36,18 @@ jobs:
     - name: ingestion dependencies
       run: |
         composer require "acdh-oeaw/arche-ingest:^1"
-    - name: ingest arche-cases
+    - name: ingest TopColMd
       run: |
         vendor/bin/arche-import-metadata html/arche-top.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
+    - name: ingest Indices MD
+      run: |
+        vendor/bin/arche-import-metadata html/arche-indices.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
 
     - name: Copy XML Files to to_ingest 
       run: |
         mkdir $PWD/to_ingest
-        cp cases-index.json ./to_ingest/ 
+        cp cases-index.json ./to_ingest/
+        find -path "./data/indices/*.xml" -exec cp -prv '{}' './to_ingest' ';' 
     # - name: install repo-file-checker
     #   run: |
     #     composer require "acdh-oeaw/repo-file-checker:^2"

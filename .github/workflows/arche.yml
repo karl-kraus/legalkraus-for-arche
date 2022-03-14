@@ -45,6 +45,9 @@ jobs:
     - name: ingest boehm
       run: |
         vendor/bin/arche-import-metadata html/arche-boehm.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --retriesOnConflict 25
+    - name: ingest Indices MD
+      run: |
+        vendor/bin/arche-import-metadata html/arche-indices.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
     - name: Copy XML Files to to_ingest 
       run: |
         mkdir $PWD/to_ingest
