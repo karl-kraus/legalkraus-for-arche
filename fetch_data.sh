@@ -46,5 +46,8 @@ denormalize-indices -f "./data/cases_tei/C_*.xml" -i "./data/indices/*.xml" -m "
 echo "create cases-index.json"
 python create_case_index.py
 
+echo "create json index files"
+python create_register.py
+
 echo "and now to Boehm"
 ./boehm.sh
