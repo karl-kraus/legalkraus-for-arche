@@ -66,7 +66,7 @@
                 
                 <acdh:Collection rdf:about="{$partOf}">
                     <xsl:copy-of select="$constants"/>
-                    <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/></acdh:hasTitle>
+                    <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/> <xsl:text> ID:</xsl:text><xsl:value-of select="substring-before(data(./@xml:id), '.xml')"/></acdh:hasTitle>
                     <acdh:isPartOf rdf:resource="{$caseTopCol}"/>
                     <acdh:hasExtent xml:lang="de"><xsl:value-of select="count(.//tei:sourceDesc//tei:item)"/> Dokumente</acdh:hasExtent>
                     <xsl:for-each select=".//tei:keywords//tei:term/text()">
@@ -129,7 +129,7 @@
                 <acdh:Resource rdf:about="{$flatId}">
                     <xsl:copy-of select="$constants"/>
                     <!--<acdh:hasPid><xsl:value-of select=".//tei:idno[@type='handle']/text()"/></acdh:hasPid>-->
-                    <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/> (XML/TEI)</acdh:hasTitle>
+                    <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/> (XML/TEI) <xsl:text> ID:</xsl:text><xsl:value-of select="data(./@xml:id)"/></acdh:hasTitle>
                     <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
                     <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"/>
                     <!--<acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/> can be taken from /tei:TEI/tei:teiHeader/tei:profileDesc/tei:langUsage/tei:language/@ident but need to mapped to arche-lang-vocabs-->

@@ -30,12 +30,14 @@
                 <xsl:variable name="coverageStartDate">
                     <xsl:value-of select="normalize-space(string-join(data(.//tei:profileDesc/tei:creation/tei:date[1]/@when-iso[1])))"/>
                 </xsl:variable>
-                
+                                
                 <xsl:if test="contains($partOf, '/C_0')">
                     <acdh:Resource rdf:about="{$flatId}">
                         <xsl:copy-of select="$constants"/>
                         <!--<acdh:hasPid><xsl:value-of select=".//tei:idno[@type='handle']/text()"/></acdh:hasPid>-->
-                        <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/></acdh:hasTitle>
+                        <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/><xsl:text> ID:</xsl:text><xsl:value-of select="substring-before(data(./@xml:id), '.xml')"/>
+                              
+                        </acdh:hasTitle>
                         <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
                         <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"/>
                         <!--<acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/> can be taken from /tei:TEI/tei:teiHeader/tei:profileDesc/tei:langUsage/tei:language/@ident but need to mapped to arche-lang-vocabs-->
