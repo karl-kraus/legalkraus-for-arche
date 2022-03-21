@@ -38,7 +38,7 @@
                 <acdh:Collection rdf:about="{$colUri}">
                     <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/legalkraus/boehm"/>
                     <acdh:hasTitle xml:lang="de">TEI und Faksimiles zu: <xsl:value-of select=".//tei:title[1]/text()"/></acdh:hasTitle>
-                    <acdh:hasExtent xml:lang="de">1 TEI Dokumente und <xsl:value-of select="count(.//tei:div[@type='page'])"/> Bilder (.tif)</acdh:hasExtent>
+                    <acdh:hasExtent xml:lang="de">1 TEI Dokument und <xsl:value-of select="count(.//tei:div[@type='page'])"/> Bilder (.tif)</acdh:hasExtent>
                     <xsl:copy-of select="$constants"/>
                 </acdh:Collection>
                 <acdh:Resource rdf:about="{concat($TopColId, '/', data(@xml:id))}">
