@@ -16,6 +16,6 @@ for x in files:
     for bad in doc.any_xpath('.//tei:org//tei:listBibl'):
         bad.getparent().remove(bad)
     data = xmltodict.parse(doc.return_string())
-    json_file = f"{x.replace('.xml', '.json')}"
+    json_file = f"{x.replace('.xml', '.json').replace('/indices', '')}"
     with open(json_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False)
