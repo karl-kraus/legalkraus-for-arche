@@ -134,6 +134,7 @@
                     <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"/>
                     <!--<acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/> can be taken from /tei:TEI/tei:teiHeader/tei:profileDesc/tei:langUsage/tei:language/@ident but need to mapped to arche-lang-vocabs-->
                     <acdh:isPartOf rdf:resource="{$partOf}"/>
+                    <acdh:documents rdf:resource="{$partOf}"/>
                     <xsl:for-each select=".//tei:keywords//tei:term/text()">
                         <acdh:hasSubject xml:lang="de"><xsl:value-of select="."/></acdh:hasSubject>
                     </xsl:for-each>
