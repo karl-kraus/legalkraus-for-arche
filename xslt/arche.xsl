@@ -73,15 +73,14 @@
                                     </xsl:otherwise>
                                 </xsl:choose>
                             </xsl:variable>
+                            <xsl:variable name="defaultId">
+                                <xsl:value-of select="concat('https://id.acdh.oeaw.ac.at/pmb/', (substring-after(@xml:id, 'pmb')))"/>
+                            </xsl:variable>
                             <acdh:hasSpatialCoverage>
                                 <acdh:Place>
                                     <xsl:attribute name="rdf:about"><xsl:value-of select="$entId"/></xsl:attribute>
                                     <acdh:hasTitle xml:lang="und"><xsl:value-of select="./tei:placeName[1]/text()"/></acdh:hasTitle>
-                                    <acdh:hasIdentifier>
-                                        <xsl:attribute name="rdf:resource">
-                                            <xsl:value-of select="concat('https://id.acdh.oeaw.ac.at/pmb/', (substring-after(@xml:id, 'pmb')))"/>
-                                        </xsl:attribute>
-                                    </acdh:hasIdentifier>
+                                    <acdh:hasIdentifier rdf:resource="{$defaultId}"/>
                                 </acdh:Place>
                             </acdh:hasSpatialCoverage>
                         </xsl:for-each>
@@ -96,14 +95,13 @@
                                     </xsl:otherwise>
                                 </xsl:choose>
                             </xsl:variable>
+                            <xsl:variable name="defaultId">
+                                <xsl:value-of select="concat('https://id.acdh.oeaw.ac.at/pmb/', (substring-after(@xml:id, 'pmb')))"/>
+                            </xsl:variable>
                             <acdh:hasActor>
                                 <acdh:Person>
                                     <xsl:attribute name="rdf:about"><xsl:value-of select="$entId"/></xsl:attribute>
-                                    <acdh:hasIdentifier>
-                                        <xsl:attribute name="rdf:resource">
-                                            <xsl:value-of select="concat('https://id.acdh.oeaw.ac.at/pmb/', (substring-after(@xml:id, 'pmb')))"/>
-                                        </xsl:attribute>
-                                    </acdh:hasIdentifier>
+                                    <acdh:hasIdentifier rdf:resource="{$defaultId}"/>
                                     <acdh:hasTitle xml:lang="und"><xsl:value-of select=".//tei:forename[1]/text()||' '||.//tei:surname[1]/text()"/></acdh:hasTitle>
                                 </acdh:Person>
                             </acdh:hasActor>
@@ -112,15 +110,14 @@
                             <xsl:variable name="entId">
                                 <xsl:value-of select="concat('https://id.acdh.oeaw.ac.at/pmb/', (substring-after(@xml:id, 'pmb')))"/>
                             </xsl:variable>
+                            <xsl:variable name="defaultId">
+                                <xsl:value-of select="concat('https://id.acdh.oeaw.ac.at/pmb/', (substring-after(@xml:id, 'pmb')))"/>
+                            </xsl:variable>
                             <acdh:hasActor>
                                 <acdh:Organisation>
-                                    <acdh:hasIdentifier>
-                                        <xsl:attribute name="rdf:resource">
-                                            <xsl:value-of select="concat('https://id.acdh.oeaw.ac.at/pmb/', (substring-after(@xml:id, 'pmb')))"/>
-                                        </xsl:attribute>
-                                    </acdh:hasIdentifier>
                                     <xsl:attribute name="rdf:about"><xsl:value-of select="$entId"/></xsl:attribute>
                                     <acdh:hasTitle xml:lang="und"><xsl:value-of select=".//tei:orgName[1]/text()"/></acdh:hasTitle>
+                                    <acdh:hasIdentifier rdf:resource="{$defaultId}"/>
                                 </acdh:Organisation>
                             </acdh:hasActor>
                         </xsl:for-each>
