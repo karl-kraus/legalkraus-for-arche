@@ -7,23 +7,28 @@
         <fileset dir="${target}" includes="*.rdf"/>
     </delete>
     <delete dir="${target}/static-search"/>
-    <xslt in="./data/meta/arche_constants.rdf" out="${target}/arche-cases.rdf" style="./xslt/arche-cases.xsl">
+ 
+    <xslt in="./data/meta/arche_constants.rdf" style="./xslt/arche-top.xsl" out="${target}/arche-top.rdf">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt in="./data/meta/arche_constants.rdf" out="${target}/arche-boehm.rdf" style="./xslt/arche-boehm.xsl">
+    <xslt in="./data/meta/arche_constants.rdf" style="./xslt/arche-cases.xsl" out="${target}/arche-cases.rdf" >
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt in="./data/meta/arche_constants.rdf" out="${target}/arche.rdf" style="./xslt/arche.xsl">
+    <xslt in="./data/meta/arche_constants.rdf" style="./xslt/arche-boehm.xsl" out="${target}/arche-boehm.rdf">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt in="./data/meta/arche_constants.rdf" out="${target}/arche-top.rdf" style="./xslt/arche-top.xsl">
+    <xslt in="./data/meta/arche_constants.rdf" style="./xslt/arche.xsl" out="${target}/arche.rdf">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt in="./data/meta/arche_constants.rdf" out="${target}/arche-indices.rdf" style="./xslt/arche-indices.xsl">
+    <xslt in="./html/arche.rdf" style="./xslt/arche-merge.xsl" out="${target}/arche-cases2.rdf">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="./data/meta/arche_constants.rdf" style="./xslt/arche-indices.xsl" out="${target}/arche-indices.rdf">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
