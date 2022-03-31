@@ -77,6 +77,11 @@
                                 <acdh:Place>
                                     <xsl:attribute name="rdf:about"><xsl:value-of select="$entId"/></xsl:attribute>
                                     <acdh:hasTitle xml:lang="und"><xsl:value-of select="./tei:placeName[1]/text()"/></acdh:hasTitle>
+                                    <acdh:hasIdentifier>
+                                        <xsl:attribute name="rdf:resource">
+                                            <xsl:value-of select="concat('https://id.acdh.oeaw.ac.at/pmb/', (substring-after(@xml:id, 'pmb')))"/>
+                                        </xsl:attribute>
+                                    </acdh:hasIdentifier>
                                 </acdh:Place>
                             </acdh:hasSpatialCoverage>
                         </xsl:for-each>
@@ -94,6 +99,11 @@
                             <acdh:hasActor>
                                 <acdh:Person>
                                     <xsl:attribute name="rdf:about"><xsl:value-of select="$entId"/></xsl:attribute>
+                                    <acdh:hasIdentifier>
+                                        <xsl:attribute name="rdf:resource">
+                                            <xsl:value-of select="concat('https://id.acdh.oeaw.ac.at/pmb/', (substring-after(@xml:id, 'pmb')))"/>
+                                        </xsl:attribute>
+                                    </acdh:hasIdentifier>
                                     <acdh:hasTitle xml:lang="und"><xsl:value-of select=".//tei:forename[1]/text()||' '||.//tei:surname[1]/text()"/></acdh:hasTitle>
                                 </acdh:Person>
                             </acdh:hasActor>
@@ -104,6 +114,11 @@
                             </xsl:variable>
                             <acdh:hasActor>
                                 <acdh:Organisation>
+                                    <acdh:hasIdentifier>
+                                        <xsl:attribute name="rdf:resource">
+                                            <xsl:value-of select="concat('https://id.acdh.oeaw.ac.at/pmb/', (substring-after(@xml:id, 'pmb')))"/>
+                                        </xsl:attribute>
+                                    </acdh:hasIdentifier>
                                     <xsl:attribute name="rdf:about"><xsl:value-of select="$entId"/></xsl:attribute>
                                     <acdh:hasTitle xml:lang="und"><xsl:value-of select=".//tei:orgName[1]/text()"/></acdh:hasTitle>
                                 </acdh:Organisation>
