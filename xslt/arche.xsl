@@ -110,14 +110,10 @@
                             <xsl:variable name="entId">
                                 <xsl:value-of select="concat('https://id.acdh.oeaw.ac.at/pmb/', (substring-after(@xml:id, 'pmb')))"/>
                             </xsl:variable>
-                            <xsl:variable name="defaultId">
-                                <xsl:value-of select="concat('https://id.acdh.oeaw.ac.at/pmb/', (substring-after(@xml:id, 'pmb')))"/>
-                            </xsl:variable>
                             <acdh:hasActor>
                                 <acdh:Organisation>
                                     <xsl:attribute name="rdf:about"><xsl:value-of select="$entId"/></xsl:attribute>
                                     <acdh:hasTitle xml:lang="und"><xsl:value-of select=".//tei:orgName[1]/text()"/></acdh:hasTitle>
-                                    <acdh:hasIdentifier rdf:resource="{$defaultId}"/>
                                 </acdh:Organisation>
                             </acdh:hasActor>
                         </xsl:for-each>
