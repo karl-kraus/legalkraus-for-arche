@@ -11,7 +11,7 @@
         
         <rdf:RDF xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#">            
             <xsl:for-each-group select=".//acdh:Resource" group-by="data(./acdh:isPartOf/@rdf:resource)">
-                <acdh:Resource rdf:about="{current-grouping-key()}">
+                <acdh:Collection rdf:about="{current-grouping-key()}">
                     <xsl:for-each select="distinct-values(current-group()//acdh:hasSpatialCoverage/acdh:*/@rdf:about)">
                         <acdh:hasSpatialCoverage rdf:resource="{.}"/>
                     </xsl:for-each>
@@ -21,7 +21,7 @@
                     <xsl:for-each select="distinct-values(current-group()//acdh:hasSubject/text())">
                         <acdh:hasSubject xml:lang="de"><xsl:value-of select="."/></acdh:hasSubject>
                     </xsl:for-each>
-                </acdh:Resource>
+                </acdh:Collection>
             </xsl:for-each-group>
         </rdf:RDF>
     </xsl:template>   
