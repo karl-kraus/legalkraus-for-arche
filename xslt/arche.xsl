@@ -74,7 +74,7 @@
                                 </xsl:choose>
                             </xsl:variable>
                             <xsl:variable name="defaultId">
-                                <xsl:value-of select="concat('https://id.acdh.oeaw.ac.at/pmb/', (substring-after(@xml:id, 'pmb')))"/>
+                                <xsl:value-of select="data(@xml:id)"/>
                             </xsl:variable>
                             <acdh:hasSpatialCoverage>
                                 <acdh:Place>
@@ -96,7 +96,7 @@
                                 </xsl:choose>
                             </xsl:variable>
                             <xsl:variable name="defaultId">
-                                <xsl:value-of select="concat('https://id.acdh.oeaw.ac.at/pmb/', (substring-after(@xml:id, 'pmb')))"/>
+                                <xsl:value-of select="data(@xml:id)"/>
                             </xsl:variable>
                             <acdh:hasActor>
                                 <acdh:Person>
@@ -114,7 +114,7 @@
                                 <acdh:Organisation>
                                     <xsl:attribute name="rdf:about"><xsl:value-of select="$entId"/></xsl:attribute>
                                     <acdh:hasTitle xml:lang="und"><xsl:value-of select=".//tei:orgName[1]/text()"/></acdh:hasTitle>
-                                    <acdh:hasLiteralIdentifier>Legalkraus-Id: <xsl:value-of select="$entId"/></acdh:hasLiteralIdentifier>    
+                                    <acdh:hasLiteralIdentifier>Legalkraus-Id: <xsl:value-of select="data(@xml:id)"/></acdh:hasLiteralIdentifier>    
                                 </acdh:Organisation>
                             </acdh:hasActor>
                         </xsl:for-each>
