@@ -80,7 +80,7 @@
                                 <acdh:Place>
                                     <xsl:attribute name="rdf:about"><xsl:value-of select="$entId"/></xsl:attribute>
                                     <acdh:hasTitle xml:lang="und"><xsl:value-of select="./tei:placeName[1]/text()"/></acdh:hasTitle>
-                                    <acdh:hasIdentifier rdf:resource="{$defaultId}"/>
+                                    <acdh:hasLiteralIdentifier>Legalkraus-Id: <xsl:value-of select="$defaultId"/></acdh:hasLiteralIdentifier>
                                 </acdh:Place>
                             </acdh:hasSpatialCoverage>
                         </xsl:for-each>
@@ -101,7 +101,7 @@
                             <acdh:hasActor>
                                 <acdh:Person>
                                     <xsl:attribute name="rdf:about"><xsl:value-of select="$entId"/></xsl:attribute>
-                                    <acdh:hasIdentifier rdf:resource="{$defaultId}"/>
+                                    <acdh:hasLiteralIdentifier>Legalkraus-Id: <xsl:value-of select="$defaultId"/></acdh:hasLiteralIdentifier>
                                     <acdh:hasTitle xml:lang="und"><xsl:value-of select=".//tei:forename[1]/text()||' '||.//tei:surname[1]/text()"/></acdh:hasTitle>
                                 </acdh:Person>
                             </acdh:hasActor>
@@ -114,6 +114,7 @@
                                 <acdh:Organisation>
                                     <xsl:attribute name="rdf:about"><xsl:value-of select="$entId"/></xsl:attribute>
                                     <acdh:hasTitle xml:lang="und"><xsl:value-of select=".//tei:orgName[1]/text()"/></acdh:hasTitle>
+                                    <acdh:hasLiteralIdentifier>Legalkraus-Id: <xsl:value-of select="$entId"/></acdh:hasLiteralIdentifier>    
                                 </acdh:Organisation>
                             </acdh:hasActor>
                         </xsl:for-each>

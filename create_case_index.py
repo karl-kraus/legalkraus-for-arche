@@ -53,7 +53,9 @@ def yield_cases(files):
     faulty = []
     class_codes = {}
     persons = {}
+    orgs = {}
     roles = {}
+    org_roles = {}
     for x in files:
         doc = None
         try:
@@ -87,6 +89,18 @@ def yield_cases(files):
             actors.append(actor)
             persons[actor['id']] = actor['title']
             roles[actor['role_id']] = actor['role_label']
+        org_actors = []
+        for a in doc.any_xpath('.//tei:org[@role]'):
+            actor = {}
+            actor['id'] = a.xpath('./@ref')[0]
+            actor['title'] = a.xpath('./tei:orgName/text()', namespaces=tei_ns)[0]
+            actor['role_id'] = a.xpath('@role', namespaces=tei_ns)[0]
+            actor['role_label'] = a.xpath('./tei:ab/text()', namespaces=tei_ns)[0] 
+            org_actors.append(actor)
+            orgs[actor['id']] = actor['title']
+            roles[actor['role_id']] = actor['role_label']
+        case['org_actor'] = org_actors
+        case['org_actor_count'] = len(org_actors)
         case['actors'] = actors
         case['actor_count'] = len(actors)
         try:
@@ -134,14 +148,22 @@ class_codes = {}
 keywords = set()
 persons = {}
 roles = {}
+orgs = {}
+org_roles = {}
 for x in data['cases']:
     keywords.update(x['keywords'])
     for a in x['actors']:
         persons[a['id']] = a['title']
         roles[a['role_id']] = a['role_label']
+    for a in x['org_actor']:
+        orgs[a['id']] = a['title']
+        org_roles[a['role_id']] = a['role_label']
+
 data['roles'] = roles
+data['org_roles'] = org_roles
 data['keywords'] = list(keywords)
 data['persons'] = persons
+data['orgs'] = orgs
 
 with open('./cases-index.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False)
