@@ -27,23 +27,23 @@
                     <xsl:value-of select="concat($TopColId, '/', @xml:id)"/>
                 </xsl:variable>
                 
-                <acdh:Resource rdf:about="{replace($flatId, '.xml', '.json')}">
+                <!--<acdh:Resource rdf:about="{replace($flatId, '.xml', '.json')}">
                     <xsl:copy-of select="$constants"/>
-                    <!--<acdh:hasPid><xsl:value-of select=".//tei:idno[@type='handle']/text()"/></acdh:hasPid>-->
+                    <!-\-<acdh:hasPid><xsl:value-of select=".//tei:idno[@type='handle']/text()"/></acdh:hasPid>-\->
                     <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/></acdh:hasTitle>
                     <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
                     <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"/>
                     <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/>
                     <acdh:isPartOf rdf:resource="{replace($partOf, 'indices', 'utils')}"/>
-                </acdh:Resource>
-                <!--<acdh:Resource rdf:about="{$flatId}">
+                </acdh:Resource>-->
+                <acdh:Resource rdf:about="{$flatId}">
                     <xsl:copy-of select="$constants"/>
-                    <acdh:hasTitle xml:lang="de">JSON Version von <xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/></acdh:hasTitle>
+                    <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/></acdh:hasTitle>
                     <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
                     <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/dataset"/>
                     <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/>
                     <acdh:isPartOf rdf:resource="{$partOf}"/>
-                </acdh:Resource>-->
+                </acdh:Resource>
             </xsl:for-each>
         </rdf:RDF>
     </xsl:template>   
