@@ -23,6 +23,7 @@ python delete_invalid_files.py
 
 echo "fix entity reference IDs"
 find ./data/indices/ -type f -name "*.xml"  -print0 | xargs -0 sed -i -e 's@<person xml:id="person__@<person xml:id="pmb@g'
+find ./data/indices/ -type f -name "*.xml"  -print0 | xargs -0 sed -i -e 's@<bibl xml:id="work__@<bibl xml:id="pmb@g'
 find ./data/indices/ -type f -name "*.xml"  -print0 | xargs -0 sed -i -e 's@<org xml:id="org__@<org xml:id="pmb@g'
 find ./data/indices/ -type f -name "*.xml"  -print0 | xargs -0 sed -i -e 's@<place xml:id="place__@<place xml:id="pmb@g'
 find ./data/indices/ -type f -name "*.xml"  -print0 | xargs -0 sed -i -e 's@<settlement key="@<settlement key="pmb@g'

@@ -178,6 +178,7 @@ for case in tqdm(data['cases'], total=len(data['cases'])):
     persons = dict()
     places = dict()
     orgs = dict()
+    works = dict()
     subjects = set()
     class_codes = set()
     hands = set()
@@ -202,6 +203,11 @@ for case in tqdm(data['cases'], total=len(data['cases'])):
             title = ent.xpath('./*[1]')[0]
             norm_title =  ''.join(title.itertext()).strip()
             orgs[xml_id] = " ".join(norm_title.split())
+        for ent in doc.any_xpath('.//tei:back/tei:listBibl/tei:bibl'):
+            xml_id = ent.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+            title = ent.xpath('./*[1]')[0]
+            norm_title =  ''.join(title.itertext()).strip()
+            works[xml_id] = " ".join(norm_title.split())
         for x in doc.any_xpath('.//tei:keywords/tei:term'):
             subjects.add(x.text)
         for x in doc.any_xpath('.//tei:textClass/tei:classCode'):
@@ -212,6 +218,7 @@ for case in tqdm(data['cases'], total=len(data['cases'])):
     case['men_pers'] = persons
     case['men_pl'] = places
     case['men_orgs'] = orgs
+    case['men_works'] = works
     case['men_subjects'] = list(subjects)
     case['men_class_codes'] = list(class_codes)
     case['hands'] = list(hands)
