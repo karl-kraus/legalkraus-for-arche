@@ -14,18 +14,18 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt> -->
-    <replace dir="${target}" value="">
+    <!--<replace dir="${target}" value="">
         <include name="*.html"/>
         <replacetoken> xmlns=""</replacetoken>
-    </replace>
-    <copy todir="${target}" flatten="true">
+    </replace>-->
+    <!--<copy todir="${target}" flatten="true">
         <fileset dir="./data/">
             <include name="**/*.xml"/>
         </fileset>
-    </copy>
-    <copy todir="${target}" flatten="true">
+    </copy>-->
+    <!--<copy todir="${target}" flatten="true">
         <fileset dir="./boehm_tei/">
             <include name="**/*.xml"/>
         </fileset>
-    </copy>
+    </copy>-->
 </project>
