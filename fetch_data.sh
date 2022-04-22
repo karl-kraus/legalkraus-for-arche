@@ -21,7 +21,7 @@ find ./data/editions/ -type f -name "D_*.xml" -print0 | xargs --null grep -Z -L 
 echo "delete file which cannot be parsed by lxml parser"
 python delete_invalid_files.py
 
-echoe "fixing titles"
+echo "fixing titles"
 python fix_titles.py
 
 echo "fix entity reference IDs"
