@@ -21,6 +21,9 @@ find ./data/editions/ -type f -name "D_*.xml" -print0 | xargs --null grep -Z -L 
 echo "delete file which cannot be parsed by lxml parser"
 python delete_invalid_files.py
 
+echoe "fixing titles"
+python fix_titles.py
+
 echo "fix entity reference IDs"
 find ./data/indices/ -type f -name "*.xml"  -print0 | xargs -0 sed -i -e 's@<person xml:id="person__@<person xml:id="pmb@g'
 find ./data/indices/ -type f -name "*.xml"  -print0 | xargs -0 sed -i -e 's@<bibl xml:id="work__@<bibl xml:id="pmb@g'
