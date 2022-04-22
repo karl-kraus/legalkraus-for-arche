@@ -54,8 +54,12 @@
                     <acdh:Resource rdf:about="{concat($colUri, '/', data(@n))}">
                         <acdh:isPartOf rdf:resource="{$colUri}"/>
                         <acdh:hasTitle xml:lang="de"><xsl:value-of select="data(@n)"/></acdh:hasTitle>
-                        <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>s
+                        <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
                         <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/image"/>
+                        <acdh:hasActor rdf:resource="https://id.acdh.oeaw.ac.at/kkraus"/>
+                        <acdh:hasAuthor rdf:resource="https://id.acdh.oeaw.ac.at/pmb/38909"/>
+                        <acdh:hasEditor rdf:resource="https://id.acdh.oeaw.ac.at/hboehm"/>
+                        <acdh:hasDigitisingAgent rdf:resource="https://id.acdh.oeaw.ac.at/vhannesschlaeger"/>
                         <xsl:copy-of select="$constants"/>
                     </acdh:Resource>
                 </xsl:for-each>
