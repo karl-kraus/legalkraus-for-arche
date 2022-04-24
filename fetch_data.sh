@@ -41,6 +41,9 @@ add-attributes -g "./data/editions/*.xml" -b "https://id.acdh.oeaw.ac.at/legalkr
 add-attributes -g "./data/indices/*.xml" -b "https://id.acdh.oeaw.ac.at/legalkraus"
 add-attributes -g "./data/cases_tei/*.xml" -b "https://id.acdh.oeaw.ac.at/legalkraus"
 
+echo "update Fackel Register"
+python fackel_register.py
+
 echo "denormalize indices in objects"
 denormalize-indices -f "./data/editions/D_*.xml" -i "./data/indices/*.xml" -m ".//*[@ref]/@ref" -x ".//tei:titleStmt/tei:title[1]/text()" -b pmb11988
 
@@ -49,9 +52,6 @@ denormalize-indices -f "./data/cases_tei/C_*.xml" -i "./data/indices/*.xml" -m "
 
 echo "create cases-index.json"
 python create_case_index.py
-
-# echo "create json index files"
-# python create_register.py
 
 echo "and now to Boehm"
 ./boehm.sh

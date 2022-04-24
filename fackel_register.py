@@ -7,6 +7,7 @@ from collections import defaultdict
 from utils import gsheet_to_df, G_SHEET_FACKEL
 
 df = gsheet_to_df(G_SHEET_FACKEL)
+LIST_FACKEL = "./data/indices/listfackel.xml"
 
 df[['p_from', 'p_to']] = df['pages'].str.split('–', 1, expand=True)
 
@@ -19,7 +20,7 @@ def full_idno(row):
 
 df['corresp'] = df.apply (lambda row: full_idno(row), axis=1)
 df['p_to'] = df['p_to'].fillna(df['p_from'])
-fackel_doc = TeiReader('./data/indices/listfackel.xml')
+fackel_doc = TeiReader(LIST_FACKEL)
 for x in fackel_doc.any_xpath('.//tei:listBibl/tei:bibl'):
     x.getparent().remove(x)
 list_bibl_node = fackel_doc.any_xpath('.//tei:listBibl')[0]
@@ -68,12 +69,9 @@ for i, row in df.iterrows():
         pages.attrib['to'] = row['p_to']
         bibl.append(pages)
 
-with open('hans.xml', 'w', encoding='utf-8') as f:
-    f.write(ET.tostring(list_bibl_node, pretty_print=True, encoding='utf-8').decode('utf-8'))
-
 new_df = df[~df["idno"].str.contains(',')]
 new_df[['p_to', 'p_from']] = new_df[['p_to', 'p_from']].astype('int')
-files = glob.glob('../data/objects/D_*.xml')
+files = glob.glob('./data/editions/D_*.xml')
 idnos = set(df['idno'].values)
 fackel_refs = defaultdict(set)
 for x in files:
@@ -98,7 +96,6 @@ for x in files:
         except:
             pass
 ref_lookup = collections.OrderedDict(sorted(fackel_refs.items()))
-fackel_doc = TeiReader('./hans.xml')
 
 for x in fackel_doc.any_xpath('.//tei:bibl'):
     corresp = x.attrib['corresp']
@@ -111,5 +108,5 @@ for x in fackel_doc.any_xpath('.//tei:bibl'):
         ref.attrib['target'] = y.split('__')[1]
         ref.text = f"{y.split('__')[0]}"
         x.append(ref)
-   
-fackel_doc.tree_to_file('sums.xml')
+    
+fackel_doc.tree_to_file(LIST_FACKEL)
