@@ -37,15 +37,15 @@
                 </xsl:variable>
                 <acdh:Collection rdf:about="{$colUri}">
                     <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/legalkraus/boehm"/>
-                    <acdh:hasTitle xml:lang="de">TEI und Faksimiles zu: <xsl:value-of select=".//tei:title[1]/text()"/></acdh:hasTitle>
-                    <acdh:hasExtent xml:lang="de">1 TEI Dokument und <xsl:value-of select="count(.//tei:div[@type='page'])"/> Bilder (.tif)</acdh:hasExtent>
+                    <!-- <acdh:hasTitle xml:lang="de">TEI und Faksimiles zu: <xsl:value-of select=".//tei:title[1]/text()"/></acdh:hasTitle> -->
+                    <!-- <acdh:hasExtent xml:lang="de">1 TEI Dokument und <xsl:value-of select="count(.//tei:div[@type='page'])"/> Bilder (.tif)</acdh:hasExtent> -->
                     <xsl:copy-of select="$constants"/>
                 </acdh:Collection>
                 <acdh:Resource rdf:about="{concat($TopColId, '/', data(@xml:id))}">
                     <acdh:isPartOf rdf:resource="{$colUri}"/>
                     <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:title[1]/text()"/></acdh:hasTitle>
                     <xsl:copy-of select="$constants"/>
-                    <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/></acdh:hasTitle>
+                    <!-- <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/></acdh:hasTitle> -->
                     <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
                     <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"/>
                     <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/>
