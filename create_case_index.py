@@ -114,6 +114,13 @@ def yield_cases(files):
         for y in case['docs']:
             cur_doc = None
             item = {}
+            item['works'] = {}
+            item['orgs'] = {}
+            item['persons'] = {}
+            item['places'] = {}
+            materiality = set()
+            classcodes = set()
+            keywords = set()
             item['id'] = y
             tei_path = f"./data/editions/{y}"
             try:
@@ -125,6 +132,35 @@ def yield_cases(files):
             except IndexError:
                 item['title'] = "no title"
             item['date'] = date_from_tei(tei_path, default="")
+            for ent in cur_doc.any_xpath('.//tei:back/tei:listBibl/tei:bibl'):
+                xml_id = ent.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+                title = ent.xpath('./*[1]')[0]
+                norm_title =  ''.join(title.itertext()).strip()
+                item['works'][xml_id] = " ".join(norm_title.split())
+            for ent in cur_doc.any_xpath('.//tei:back/tei:listOrg/tei:org'):
+                xml_id = ent.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+                title = ent.xpath('./*[1]')[0]
+                norm_title =  ''.join(title.itertext()).strip()
+                item['orgs'][xml_id] = " ".join(norm_title.split())
+            for ent in cur_doc.any_xpath('.//tei:back/tei:listPlace/tei:place'):
+                xml_id = ent.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+                title = ent.xpath('./*[1]')[0]
+                norm_title =  ''.join(title.itertext()).strip()
+                item['places'][xml_id] = " ".join(norm_title.split())
+            for ent in cur_doc.any_xpath('.//tei:back/tei:listPerson/tei:person'):
+                xml_id = ent.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+                title = ent.xpath('./*[1]')[0]
+                norm_title =  ''.join(title.itertext()).strip()
+                item['persons'][xml_id] = " ".join(norm_title.split())
+            for x in cur_doc.any_xpath('.//tei:ab[@type="materiality"]/tei:objectType'):
+                materiality.add(" ".join(x.text.split()))
+            for x in cur_doc.any_xpath('.//tei:keywords/tei:term'):
+                keywords.add(x.text)
+            for x in cur_doc.any_xpath('.//tei:textClass/tei:classCode'):
+                classcodes.add(x.text)
+            item['classcodes'] = list(classcodes)
+            item['keywords'] = list(keywords)
+            item['materiality'] = list(materiality)
             try:
                 item['facs'] = cur_doc.any_xpath('.//tei:graphic[@source="wienbibliothek"]/@url')[0]
             except IndexError:
