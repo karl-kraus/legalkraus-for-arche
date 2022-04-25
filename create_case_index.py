@@ -181,6 +181,7 @@ for case in tqdm(data['cases'], total=len(data['cases'])):
     works = dict()
     subjects = set()
     class_codes = set()
+    materiality = dict()
     hands = set()
     for d in case['docs']:
         try:
@@ -212,6 +213,8 @@ for case in tqdm(data['cases'], total=len(data['cases'])):
             subjects.add(x.text)
         for x in doc.any_xpath('.//tei:textClass/tei:classCode'):
             class_codes.add(x.text)
+        for x in doc.any_xpath('.//tei:ab[@type="materiality"]/tei:objectType'):
+            materiality[x.attrib['ref']] = " ".join(x.text.split())
         for x in doc.any_xpath('.//tei:handNote/@scribeRef'):
             if len(x) > 3:
                 hands.add(x.replace('#', 'pmb'))
@@ -222,6 +225,7 @@ for case in tqdm(data['cases'], total=len(data['cases'])):
     case['men_subjects'] = list(subjects)
     case['men_class_codes'] = list(class_codes)
     case['hands'] = list(hands)
+    case['materiality'] = materiality
 
 with open('./cases-index.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False)

@@ -44,6 +44,9 @@
                             <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"><xsl:value-of select="data(.//tei:profileDesc/tei:creation/tei:date/@when-iso)"/></acdh:hasCoverageStartDate>
                             <acdh:hasCoverageEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"><xsl:value-of select="data(.//tei:profileDesc/tei:creation/tei:date/@when-iso)"/></acdh:hasCoverageEndDate>
                         </xsl:if>
+                        <xsl:for-each select=".//tei:ab[@type='materiality']//tei:objectType/text()">
+                            <acdh:hasSubject xml:lang="de"><xsl:value-of select="."/></acdh:hasSubject>
+                        </xsl:for-each>
                         <xsl:for-each select=".//tei:keywords//tei:term/text()">
                             <acdh:hasSubject xml:lang="de"><xsl:value-of select="."/></acdh:hasSubject>
                         </xsl:for-each>
