@@ -1,14 +1,19 @@
+import glob
+from collections import defaultdict, OrderedDict
 import pandas as pd
 from lxml import etree as ET
 from acdh_tei_pyutils.tei import TeiReader
 from utils import gsheet_to_df, G_SHEET_LEGAL
+from tqdm import tqdm
 
 df = gsheet_to_df(G_SHEET_LEGAL)
+LIST_LEGAL = "./data/indices/listlegal.xml"
+
 df['date_iso'] = df.apply(lambda row: f"{row['datum']}-01-01", axis=1)
-doc = TeiReader('./data/indices/listlegal.xml')
-for x in doc.any_xpath('.//tei:listBibl//tei:item'):
+legal_doc = TeiReader(LIST_LEGAL)
+for x in legal_doc.any_xpath('.//tei:listBibl//tei:item'):
     x.getparent().remove(x)
-list_bibl_node = doc.any_xpath('.//tei:listBibl')[0]
+list_bibl_node = legal_doc.any_xpath('.//tei:listBibl')[0]
 
 for i, row in df.iterrows():
     bibl = ET.Element("{http://www.tei-c.org/ns/1.0}bibl")
@@ -31,3 +36,30 @@ for i, row in df.iterrows():
     pages = ET.Element("{http://www.tei-c.org/ns/1.0}biblScope")
     pages.text = f"{row['paragraphs']}"
     bibl.append(pages)
+
+files = glob.glob('./data/editions/D_*.xml')
+refs = defaultdict(set)
+for x in tqdm(files, total=len(files)):
+    try:
+        doc = TeiReader(x)
+    except:
+        continue
+    xml_id = x.split('/')[-1]
+    for ref in doc.any_xpath('.//tei:rs[@type="law"]/@ref'):
+        title = " ".join(doc.any_xpath('.//tei:title')[0].text.split())
+        refs[ref].add(f"{title}|{xml_id}")
+
+ref_lookup = OrderedDict(sorted(refs.items()))
+for x in legal_doc.any_xpath('.//tei:bibl'):
+    corresp = x.attrib['corresp']
+    try:
+        match = ref_lookup[corresp]
+    except:
+        continue
+    for y in match:
+        ref = ET.Element("{http://www.tei-c.org/ns/1.0}ref")
+        ref.attrib['target'] = y.split('|')[1]
+        ref.text = f"{y.split('|')[0]}"
+        x.append(ref)
+
+legal_doc.tree_to_file(LIST_LEGAL)

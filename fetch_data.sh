@@ -44,6 +44,9 @@ add-attributes -g "./data/cases_tei/*.xml" -b "https://id.acdh.oeaw.ac.at/legalk
 echo "update Fackel Register"
 python fackel_register.py
 
+echo "update listlegal.xml"
+python listlegal.py
+
 echo "denormalize indices in objects"
 denormalize-indices -f "./data/editions/D_*.xml" -i "./data/indices/*.xml" -m ".//*[@ref]/@ref" -x ".//tei:titleStmt/tei:title[1]/text()" -b pmb11988
 
