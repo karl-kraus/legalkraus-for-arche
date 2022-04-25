@@ -132,6 +132,7 @@ def yield_cases(files):
             except IndexError:
                 item['title'] = "no title"
             item['date'] = date_from_tei(tei_path, default="")
+            item['pagecount'] = len(cur_doc.any_xpath('.//tei:pb'))
             for ent in cur_doc.any_xpath('.//tei:back/tei:listBibl/tei:bibl'):
                 xml_id = ent.attrib["{http://www.w3.org/XML/1998/namespace}id"]
                 title = ent.xpath('./*[1]')[0]
