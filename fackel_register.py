@@ -82,6 +82,7 @@ for x in files:
     xml_id = x.split('/')[-1]
     for ref in doc.any_xpath('.//tei:rs[@subtype="fackel"]/@ref'):
         fid, value = ref.split(',')
+        title = " ".join(doc.any_xpath('.//tei:title')[0].text.split())
         try:
             match = new_df.query(
                     f'idno=="{fid}" and p_from<={int(value)} and p_to>={int(value)}'
@@ -92,7 +93,7 @@ for x in files:
             else:
                 "NO MATCH"
         try:
-            fackel_refs[match].add(f"{xml_id}__{ref}")
+            fackel_refs[match].add(f"{title}|{xml_id}__{ref}")
         except:
             pass
 ref_lookup = collections.OrderedDict(sorted(fackel_refs.items()))
