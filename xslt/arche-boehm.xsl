@@ -43,6 +43,7 @@
                 </acdh:Collection>
                 <acdh:Resource rdf:about="{concat($TopColId, '/', data(@xml:id))}">
                     <acdh:isPartOf rdf:resource="{$colUri}"/>
+                    <!-- vermutlich hier "TEI zu:" vor <xsl:value-of select=".//tei:title[1]/text()"/> eintragen bzw. den Titel hier auskommentieren, da eh in constants.rdf angegeben -->
                     <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:title[1]/text()"/></acdh:hasTitle>
                     <xsl:copy-of select="$constants"/>
                     <!-- <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/></acdh:hasTitle> -->
