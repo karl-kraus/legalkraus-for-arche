@@ -129,7 +129,7 @@
                 <acdh:Resource rdf:about="{$flatId}">
                     <xsl:copy-of select="$constants"/>
                     <!--<acdh:hasPid><xsl:value-of select=".//tei:idno[@type='handle']/text()"/></acdh:hasPid>-->
-                    <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/> (XML/TEI)</acdh:hasTitle>
+                    <acdh:hasTitle xml:lang="de">TEI zu: <xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/></acdh:hasTitle>
                     <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
                     <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"/>
                     <!--<acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/> can be taken from /tei:TEI/tei:teiHeader/tei:profileDesc/tei:langUsage/tei:language/@ident but need to mapped to arche-lang-vocabs-->
