@@ -43,10 +43,7 @@
                 </acdh:Collection>
                 <acdh:Resource rdf:about="{concat($TopColId, '/', data(@xml:id))}">
                     <acdh:isPartOf rdf:resource="{$colUri}"/>
-                    <!-- vermutlich hier "TEI zu:" vor <xsl:value-of select=".//tei:title[1]/text()"/> eintragen bzw. den Titel hier auskommentieren, da eh in constants.rdf angegeben -->
-                    <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:title[1]/text()"/></acdh:hasTitle>
                     <xsl:copy-of select="$constants"/>
-                    <!-- <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/></acdh:hasTitle> -->
                     <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
                     <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"/>
                     <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/>
@@ -61,7 +58,21 @@
                         <acdh:hasAuthor rdf:resource="https://id.acdh.oeaw.ac.at/pmb/38909"/>
                         <acdh:hasEditor rdf:resource="https://id.acdh.oeaw.ac.at/hboehm"/>
                         <acdh:hasDigitisingAgent rdf:resource="https://id.acdh.oeaw.ac.at/vhannesschlaeger"/>
-                        <xsl:copy-of select="$constants"/>
+                        <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"/>
+                        <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"/>
+                        <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/digital-history-lbg"/>
+                        <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/wienbibliothek"/>
+                        <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/kprager"/>
+                        <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"/>
+                        <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/digital-history-lbg"/>
+                        <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/wienbibliothek"/>
+                        <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"/>
+                        <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/digital-history-lbg"/>
+                        <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/wienbibliothek"/>
+                        <acdh:hasDepositor rdf:resource="https://id.acdh.oeaw.ac.at/kprager"/>
+                        <acdh:hasCurator rdf:resource="https://id.acdh.oeaw.ac.at/pandorfer"/>
+                        <acdh:hasMetadataCreator rdf:resource="https://id.acdh.oeaw.ac.at/pandorfer"/>
+                        <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"/>
                     </acdh:Resource>
                 </xsl:for-each>
             </xsl:for-each>
