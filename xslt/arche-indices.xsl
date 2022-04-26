@@ -37,12 +37,27 @@
                     <acdh:isPartOf rdf:resource="{replace($partOf, 'indices', 'utils')}"/>
                 </acdh:Resource>-->
                 <acdh:Resource rdf:about="{$flatId}">
-                    <xsl:copy-of select="$constants"/>
+                    <!-- <xsl:copy-of select="$constants"/> -->
                     <acdh:hasTitle xml:lang="de"><xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/></acdh:hasTitle>
                     <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
                     <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"/>
                     <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/>
                     <acdh:isPartOf rdf:resource="{$partOf}"/>
+                    <acdh:hasCreator rdf:resource="https://id.acdh.oeaw.ac.at/aortner"/>
+                    <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"/>
+                    <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"/>
+                    <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/digital-history-lbg"/>
+                    <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/wienbibliothek"/>
+                    <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/kprager"/>
+                    <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"/>
+                    <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/digital-history-lbg"/>
+                    <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/wienbibliothek"/>
+                    <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"/>
+                    <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/digital-history-lbg"/>
+                    <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/wienbibliothek"/>
+                    <acdh:hasDepositor rdf:resource="https://id.acdh.oeaw.ac.at/kprager"/>
+                    <acdh:hasMetadataCreator rdf:resource="https://id.acdh.oeaw.ac.at/kprager"/>
+                    <acdh:hasCurator rdf:resource="https://id.acdh.oeaw.ac.at/pandorfer"/>
                 </acdh:Resource>
             </xsl:for-each>
         </rdf:RDF>
