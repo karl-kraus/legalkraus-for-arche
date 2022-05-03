@@ -58,6 +58,8 @@
                     <acdh:hasDepositor rdf:resource="https://id.acdh.oeaw.ac.at/kprager"/>
                     <acdh:hasMetadataCreator rdf:resource="https://id.acdh.oeaw.ac.at/kprager"/>
                     <acdh:hasCurator rdf:resource="https://id.acdh.oeaw.ac.at/pandorfer"/>
+                    <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"/>
+                    <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"/>
                 </acdh:Resource>
             </xsl:for-each>
         </rdf:RDF>
