@@ -11,7 +11,7 @@ LIST_LEGAL = "./data/indices/listlegal.xml"
 
 df['date_iso'] = df.apply(lambda row: f"{row['datum']}-01-01", axis=1)
 legal_doc = TeiReader(LIST_LEGAL)
-for x in legal_doc.any_xpath('.//tei:listBibl//tei:item'):
+for x in legal_doc.any_xpath('.//tei:listBibl/tei:*'):
     x.getparent().remove(x)
 list_bibl_node = legal_doc.any_xpath('.//tei:listBibl')[0]
 
