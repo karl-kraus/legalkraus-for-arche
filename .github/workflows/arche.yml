@@ -38,19 +38,19 @@ jobs:
         composer require "acdh-oeaw/arche-ingest:^1"
     - name: ingest arche-cases
       run: |
-        vendor/bin/arche-import-metadata html/arche-cases.rdf https://arche.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
+        vendor/bin/arche-import-metadata html/arche-cases.rdf https://arche.acdh.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
     - name: ingest resources
       run: |
-        vendor/bin/arche-import-metadata html/arche.rdf https://arche.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --retriesOnConflict 25
+        vendor/bin/arche-import-metadata html/arche.rdf https://arche.acdh.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --retriesOnConflict 25
     - name: ingest additional case-md
       run: |
-        vendor/bin/arche-import-metadata html/arche-cases2.rdf https://arche.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --retriesOnConflict 25
+        vendor/bin/arche-import-metadata html/arche-cases2.rdf https://arche.acdh.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --retriesOnConflict 25
     - name: ingest boehm
       run: |
-        vendor/bin/arche-import-metadata html/arche-boehm.rdf https://arche.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --retriesOnConflict 25
+        vendor/bin/arche-import-metadata html/arche-boehm.rdf https://arche.acdh.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --retriesOnConflict 25
     - name: ingest Indices MD
       run: |
-        vendor/bin/arche-import-metadata html/arche-indices.rdf https://arche.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
+        vendor/bin/arche-import-metadata html/arche-indices.rdf https://arche.acdh.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
     - name: Copy XML Files to to_ingest 
       run: |
         mkdir $PWD/to_ingest
@@ -68,4 +68,4 @@ jobs:
         php -f vendor/acdh-oeaw/repo-file-checker/index.php -- --tmpDir filechecker/tmp --reportDir filechecker/reports to_ingest 0
     - name: ingest binaries
       run: |
-        vendor/bin/arche-import-binary to_ingest https://id.acdh.oeaw.ac.at/legalkraus https://arche.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --skip not_exist
+        vendor/bin/arche-import-binary to_ingest https://id.acdh.oeaw.ac.at/legalkraus https://arche.acdh.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --skip not_exist
