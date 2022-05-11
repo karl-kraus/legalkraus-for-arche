@@ -41,13 +41,13 @@
                     <!-- <acdh:hasExtent xml:lang="de">1 TEI Dokument und <xsl:value-of select="count(.//tei:div[@type='page'])"/> Bilder (.tif)</acdh:hasExtent> -->
                     <xsl:copy-of select="$constants"/>
                 </acdh:Collection>
-                <acdh:Resource rdf:about="{concat($TopColId, '/', data(@xml:id))}">
+                <!--<acdh:Resource rdf:about="{concat($TopColId, '/', data(@xml:id))}">
                     <acdh:isPartOf rdf:resource="{$colUri}"/>
                     <xsl:copy-of select="$constants"/>
                     <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
                     <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"/>
                     <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/>
-                </acdh:Resource>
+                </acdh:Resource>-->
                 <xsl:for-each select=".//tei:div[@type='page']">
                     <acdh:Resource rdf:about="{concat($colUri, '/', data(@n))}">
                         <acdh:isPartOf rdf:resource="{$colUri}"/>
