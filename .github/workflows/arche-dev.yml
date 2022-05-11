@@ -38,7 +38,7 @@ jobs:
         composer require "acdh-oeaw/arche-ingest:^1"
     - name: ingest TopColMd
       run: |
-        vendor/bin/arche-import-metadata html/arche-top.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
+        vendor/bin/arche-import-metadata html/arche-top.rdf https://arche-curation.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
     # - name: ingest Indices MD
     #   run: |
     #     vendor/bin/arche-import-metadata html/arche-indices.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
