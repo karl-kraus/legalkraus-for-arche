@@ -33,6 +33,10 @@ current_schema = {
     'name': 'legalkraus',
     'fields': [
         {
+            'name': 'id',
+            'type': 'string'
+        },
+        {
             'name': 'rec_id',
             'type': 'string'
         },
@@ -57,6 +61,12 @@ current_schema = {
         },
         {
             'name': 'places',
+            'type': 'string[]',
+            'facet': True,
+            'optional': True
+        },
+        {
+            'name': 'orgs',
             'type': 'string[]',
             'facet': True,
             'optional': True
@@ -89,6 +99,7 @@ for x in tqdm(files, total=len(files)):
     record = {}
     doc = TeiReader(x)
     body = doc.any_xpath('.//tei:body')[0]
+    record['id'] = os.path.split(x)[-1].replace('.xml', '')
     record['rec_id'] = os.path.split(x)[-1]
     record['title'] = " ".join(" ".join(doc.any_xpath('.//tei:titleStmt/tei:title[1]//text()')).split())
     date_str = date_from_tei(doc,'1800-01-01' )
@@ -99,13 +110,16 @@ for x in tqdm(files, total=len(files)):
 
     record['date'] = int(time.mktime(ts.timetuple()))
     record['persons'] = [
-        " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath('.//tei:person/tei:persName')
+        " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath('.//tei:back//tei:person/tei:persName')
     ]
     record['places'] = [
-         " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath('.//tei:place[@xml:id]/tei:placeName')
+         " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath('.//tei:back//tei:place[@xml:id]/tei:placeName')
+    ]
+    record['orgs'] = [
+         " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath('.//tei:back//tei:org[@xml:id]/tei:orgName')
     ]
     record['works'] = [
-         " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath('.//tei:listBibl//tei:bibl[@xml:id]/tei:title')
+         " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath('.//tei:back//tei:listBibl//tei:bibl[@xml:id]/tei:title')
     ]
     record['keywords'] = [
         x.text for x in doc.any_xpath('.//tei:keywords/tei:term')
