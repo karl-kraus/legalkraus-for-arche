@@ -58,3 +58,6 @@ denormalize-indices -f "./data/cases_tei/C_*.xml" -i "./data/indices/*.xml" -m "
 
 # echo "and now to Boehm"
 # ./boehm.sh
+
+echo "make typesense index"
+python make_typesense_index.py
