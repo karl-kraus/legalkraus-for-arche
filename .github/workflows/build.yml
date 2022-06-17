@@ -7,13 +7,19 @@ jobs:
   build_pages:
     name: Publish Edition as GitHub Pages Website
     runs-on: ubuntu-latest
+    env:
+      ANT_OPTS: -Xmx6g
+      TYPESENSE_HOST: 1ckxuotadbr6fqh3p-1.a1.typesense.net
+      TYPESENSE_PORT: 443
+      TYPESENSE_PROTOCOL: https
+      TYPESENSE_API_KEY: ${{secrets.TYPESENSE_API_KEY}}
     steps:
     - name: Perform Checkout
       uses: actions/checkout@v2
     - name: Install Saxon, Ant and Fundament
       run: |
         apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
-        ./script.sh && pip install acdh-tei-pyutils
+        ./script.sh && pip install -r requirements.txt
     - name: Fatch Data
       env:
         GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
@@ -22,9 +28,6 @@ jobs:
     - name: Build
       run: |
         ant
-    # - name: Build Index
-    #   run: |
-    #     ./build_index.sh
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:

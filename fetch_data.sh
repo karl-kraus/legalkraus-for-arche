@@ -53,8 +53,8 @@ denormalize-indices -f "./data/editions/D_*.xml" -i "./data/indices/*.xml" -m ".
 echo "denormalize indices in cases"
 denormalize-indices -f "./data/cases_tei/C_*.xml" -i "./data/indices/*.xml" -m ".//*[@ref]/@ref" -x ".//tei:titleStmt/tei:title[1]/text()" -b pmb11988
 
-echo "create cases-index.json"
-python create_case_index.py
+# echo "create cases-index.json"
+# python create_case_index.py
 
-echo "and now to Boehm"
-./boehm.sh
+# echo "and now to Boehm"
+# ./boehm.sh
