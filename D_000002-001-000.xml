@@ -1,160 +1,127 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000002-001-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000001-003-002.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-003-000.xml">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Zeitungsartikel aus: Reichspost, Nr. 319</title>
-                <editor ref="#pmbIL">Isabel Langkabel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000002-001-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/1539</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000002">Karl
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-002-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000001-003-002.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000002-001-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>2.1 Zeitungsartikel aus: Reichspost, Nr. 319</title>
+            <editor ref="#pmbIL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000002-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1539</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000002" type="collection">Karl
                     Kraus ca. Reichspost</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000002-001-000-wit01" facs="#D_000002-001-000.xml-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date type="sortDate" when-iso="1922-11-29" subtype="produced">29. November
-                    1922</date>
-            </creation>
-            <langUsage>
-                <language ident="de">Deutsch</language>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term>Zeitungsartikel</term>
-                </keywords>
-            </textClass>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-02-03T10:12:59.877Z" who="#IB">created by API</change>
-            <change when-iso="2020-02-03T10:14:27.323Z" who="#JM">Checked Images
-                Wienbibliothek</change>
-            <change when-iso="2020-02-03T10:15:37.785Z" who="#JM">Checked Images
-                Wienbibliothek</change>
-            <change when-iso="2020-02-03T10:15:39.932Z" who="#JM">Checked Images
-                Wienbibliothek</change>
-            <change when-iso="2020-02-03T10:15:41.531Z" who="#JM">Checked Images
-                Wienbibliothek</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000002-001-000.xml-facs001">
-        <surfaceGrp xml:id="D_000002-001-000.xml-facs001-l001">
-            <surface xml:id="D_000002-001-000.xml-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000015_0.jpg" source="krausonline"/>
-                <graphic url="ZPH_1545-1/001_010/00000015.jpg" source="scans"/>
-                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540024/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            </surface>
-            <surface xml:id="D_000002-001-000.xml-facs001-l001-p002" type="verso">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000016_1.jpg" source="krausonline"/>
-                <graphic url="ZPH_1545-1/001_010/00000016.jpg" source="scans"/>
-                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540025/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            </surface>
-        </surfaceGrp>
-        <surfaceGrp xml:id="D_000002-001-000.xml-facs001-l002">
-            <surface xml:id="D_000002-001-000.xml-facs001-l002-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000017_0.jpg" source="krausonline"/>
-                <graphic url="ZPH_1545-1/001_010/00000017.jpg" source="scans"/>
-                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540026/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            </surface>
-            <surface xml:id="D_000002-001-000.xml-facs001-l002-p002" type="verso">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000018_1.jpg" source="krausonline"/>
-                <graphic url="ZPH_1545-1/001_010/00000018.jpg" source="scans"/>
-                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540027/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <div xml:id="uuid_06582aec-9bcc-4bb3-982a-ec9bcc2bb338" part="N" org="uniform" sample="complete">
-            <p xml:id="uuid_402251c4-0abf-40ab-a251-c40abf20ab37">Ein Kreislauf.</p>
-            <p xml:id="uuid_1ef48e57-e309-4334-b48e-57e309c334b2">Das Novemberheft der „Fackel“
-                teilt den Wortlaut einer Rede des Herausgebers <hi rend="spaced">Karl Kraus</hi> vom
-                24. September d. J. mit, in der Kraus etliche ‚ihn ziemlich ausreichend
-                charakterisierende Angaben machte: er sei einst „durch den leidigen Zufall der
-                Geburt in die jüdische Glaubensgenossenschaft geraten“, habe diese später verlassen
-                und eine Zeitlang „der der bequemen Konfessionslosigkeit“ gehuldigt‚ dann habe er
-                sich „von einem Teufel in den Schoß der allein seligmachenden Kirche verführen
-                lassen“, und zwar „ohne zwingenden Grund“ des Glaubens oder des Geschäftes, vielmehr
-                sei der Grund „weit mehr noch, als die Religion selbst es zu sein pﬂegt,
-                Privatsache“ gewesen, nämlich der „Wunsch, die letzte Gemeinsamkeit mit den
-                Literaturschwindlern zu verlassen“; Kraus „wurde also Katholik und blieb es
-                wunderbarerweise noch während des Weltkrieges“; nun aber sehe er sich „genötigt,
-                wieder aus der katholischen Kirche auszutreten, hauptsächlich aus Antisemitismus“,
-                denn ein P. Benvenuto Schlesinger, Schwager des Dichters Hofmannsthal (der
-                Dominikanerkonvertit und Künstler), „gehe im Vatikan ein und aus“. Hofmannsthal
-                selbst durfte in Salzburg die bekannten Aufführungen (Jedermann, Das große
-                Welttheater) veranstalten und endlich „war die katholische Kirche nicht einmal zu
-                einem Bannstrahl gegen die Dynasten zu haben“, die Krausvfür die Urheber des
-                Weltkriegsunglückes hält. Ob der Ausgetretene wieder irgendwo ein- oder in den
-                Zustand der Konfessionslosigkeit, oder einfach wieder zum alten Testament seiner
-                Jugend und seiner Väter zurückgetreten ist, wird nicht gesagt, eifrige Anlehnungen
-                in einem anderen Aufsatz der „Fackel“ an Theodor Herzls Tagebuch machen den Fall 3
-                zur Wahrscheinlichkeit. Ein Kreislauf ist beendet. </p>
-            <p xml:id="uuid_635cec38-3f38-4c7a-9cec-383f381c7a88">[…] Aber nicht genug an dem: die
-                katholische Kirche, die nicht einmal zu einem kostenlosen Bannstrahl gegen die
-                Dynasten zu haben war, welche den Völkern das Ultimatum der Pest und der Syphilis
-                überbracht haben, die größte Hiobspost seit Erschaffung der Welt, doch die einzige,
-                die zugleich die Entschädigung bot, ein Uriasbrief ihrer Verfasser zu sein – die
-                katholische Kirche, die nicht ﬂuchen, nur segnen konnte, hat zum Schaden den Spott
-                gefügt, indem sie sich herbeiließ, das große Welttheater der zum Himmel stinkenden
-                Kontraste, wo die Komödianten nicht spielen können und von den Pfarrern ge</p>
-            <p xml:id="uuid_4d4fa9b4-db89-45e8-8fa9-b4db8905e85f">lehrt werden müssen, in eigene
-                Regie zu übernehmen und jenen Hofmannsthal aufs Repertoire zu setzen, der sieh auf
-                das Leid der Kreatur einen gottgefälligen Vers machen kann und dessen Schwager, ein
-                Pater namens Benvenuto Sehlesinger, im Vatikan ein- und ausgeht. Angesichts aller
-                dieser Umstände und weil ein Hauch von Calderon in gleicher Weise dem Salzburger
-                Hotelgeschäft wie der Wiener Literatur zugutekommt und weil es der Fürsterzbischof
-                gewollt hat, daß Ehre sei Gott in der Höhe der Preise, sehe ich mich genötigt, aus
-                der katholischen Kirche auszutreten, nicht nur aus Gründen einer Menschlichkeit, die
-                bei den Hirten in so schlechter Obhut ist, sondern hauptsächlich aus Antisemitismus
-                […] </p>
-            <p xml:id="uuid_5449eee2-2521-4a22-89ee-e225214a2238">(Fackel Nr. 601–607, November
-                1922, S. 4–5)</p>
-        </div>
-    <back/></text>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000002-001-000-facs001" xml:id="D_000002-001-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000002-001-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.D">Druck</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1922-11-29">29. November 1922
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000002-001-000-wit01">Zeitungsartikel</term>
+            </keywords>
+            <classCode source="D_000002-001-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.P.ZTA">D.P.ZTA</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-02-03T10:12:59.877Z" who="#IB" status="draft">created by
+                API</change>
+         <change when-iso="2020-02-03T10:14:27.323Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+         <change when-iso="2020-02-03T10:15:37.785Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+         <change when-iso="2020-02-03T10:15:39.932Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+         <change when-iso="2020-02-03T10:15:41.531Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000002-001-000-facs001">
+      <surfaceGrp xml:id="D_000002-001-000-facs001-l001">
+         <surface type="recto" xml:id="D_000002-001-000-facs001-l001-p001">
+            
+            
+            <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540024/full/full/0/default.jpg"/>
+         </surface>
+         <surface type="verso" xml:id="D_000002-001-000-facs001-l001-p002">
+            
+            
+            <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540025/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000002-001-000-facs001-l002">
+         <surface type="recto" xml:id="D_000002-001-000-facs001-l002-p001">
+            
+            
+            <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540026/full/full/0/default.jpg"/>
+         </surface>
+         <surface type="verso" xml:id="D_000002-001-000-facs001-l002-p002">
+            
+            
+            <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540027/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

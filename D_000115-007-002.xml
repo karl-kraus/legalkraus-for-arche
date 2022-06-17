@@ -1,493 +1,112 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000115-007-002.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000115-007-001.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000116-001-000.xml">
-<teiHeader><!-- LU: entspricht alles (außer Titel und IDs) 115.7.0 -> ggf. korrigieren -->
-        <fileDesc>
-            <titleStmt>
-                <title>Aktenvermerk Oskar Samek - Akt 115</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000115-007-002.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3270</idno>
-                <idno type="ID" subtype="transkribus">469734</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000115">Korrespondenz mit Siegfried Geyer (Redakteur der Bühne)</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000115-007-002-wit01" facs="D_000115-007-002-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation> <date type="sortDate" when-iso="1929-03-01" subtype="produced">1. März 1929</date> 
-            </creation>
-            <langUsage> <language ident="de">Deutsch</language> </langUsage>
-            <textClass>
-                <keywords>
-                    <term>Aktenvermerk</term>
-                </keywords>
-                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/"/>
-            </textClass>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change type="intertexts" when-iso="2021-03-29" who="#JK"/>
-            <change type="typography" when-iso="2021-03-29" who="#JK"/>
-            <change type="references" when-iso="2021-03-29" who="#JK"/>
-            <change type="structure" when-iso="2021-03-29" who="#JK"/>
-            <change when-iso="2020-07-28T15:12:04.819Z" who="#IB">created by API</change>
-            <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of Transkribus Document 469734.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000117_41.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556204/full/full/0/default.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000118_47.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556205/full/full/0/default.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000119_41.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556206/full/full/0/default.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000120_42.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556207/full/full/0/default.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000121_38.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556208/full/full/0/default.jpg" source="wienbibliothek"/>
-        </surface>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="" n="1"/>
-            <p xml:id="uuid_170508b8-09b9-4c37-9032-734a8d187f16">
-                <lb xml:id="uuid_ccc62c1b-9026-4ee2-862c-1b90261ee29f"/>1. März 1929. <lb xml:id="uuid_0a34f59c-3b10-4a05-b4f5-9c3b109a050b"/>Dr.S./Fa. <lb xml:id="uuid_10158fb1-3504-4c70-958f-b13504cc704b"/>Betrifft: <rs type="person" ref="#pmb11988">Kraus</rs> – <rs type="person" ref="#pmb7399">Geyer</rs>. </p>
-            <p xml:id="uuid_fce7ad88-8bf5-48b6-9387-0c3adb9556ce">
-                <lb xml:id="uuid_f7f9fde0-2c38-4c05-b9fd-e02c38cc05e7"/>
-                <rs type="person" ref="#pmb7399">Siegfried Geyer</rs>, <lb xml:id="uuid_9c717a4d-04a2-4502-b17a-4d04a27502ae"/>Redakteur der „<rs type="institution" ref="#pmb37298">Bühne</rs>“ <lb xml:id="uuid_8ee10d94-057c-4eaa-a10d-94057c6eaa97"/>
-                <rs type="place" subtype="address" ref="#pmb50643">Wien IX., <lb xml:id="uuid_54e9d60a-554b-4dea-a9d6-0a554badeafe"/>Canisiusgasse Nr.
-                    8–10</rs>. </p>
-            <p xml:id="uuid_30b012fe-8cd1-4e8a-812c-d4fe6aea64cd">
-                <lb xml:id="uuid_ba206433-17a1-4530-a064-3317a18530f6"/>Sehr geehrter <rs type="person" ref="#pmb7399">Herr</rs>! </p>
-            <p xml:id="uuid_334d92ce-3afb-4e06-9a04-6daac338d776">
-                <lb xml:id="uuid_69061f1e-1923-4bd8-861f-1e1923dbd861"/>Sie haben auch meine <rs type="work" ref="#pmbD_000115-006-000">Zuschrift vom 5. Jänner <lb xml:id="uuid_9d3b5507-421f-4ee3-bb55-07421faee33c"/>1929</rs> unbeantwortet
-                gelassen. Dass Sie in dem Artikel „<rs type="work" ref="#pmb53457">Die sich <lb xml:id="uuid_d74c53c9-a233-4218-8c53-c9a2336218c4"/>selbst spielen</rs>“
-                Gedanken und Formulierung der „<rs type="work" ref="#pmb41244">Fackel</rs>“ verwendet
-                <lb xml:id="uuid_547f621c-03fc-44e7-bf62-1c03fc64e785"/>haben, darüber könnte es
-                keinen Zweifel geben. Das Ersuchen um <lb xml:id="uuid_065246e7-7e18-4ede-9246-e77e183ede11"/>Feststellung des
-                Sachverhaltes haben Sie vielleicht mit Rücksicht <lb xml:id="uuid_1d079415-d9c5-4f5a-8794-15d9c57f5a26"/>auf die Schwierigkeit der
-                juristischen Materie unbeachtet gelassen. <lb xml:id="uuid_00eb931a-4a6b-49f8-ab93-1a4a6bb9f841"/>Diese Schwierigkeit, die
-                auch ich ohne weiteres zugebe, weil nach dem <lb xml:id="uuid_f45923e2-8f81-4c6d-9923-e28f815c6dc7"/>Urheberrechtsgesetz Gedanken
-                und stilistische Wendungen vielleicht <lb xml:id="uuid_ea782d54-0d9c-448a-b82d-540d9cb48a0e"/>nicht so deutlich geschützt
-                sind wie ein grösserer Abschnitt wert<lb xml:id="uuid_6fecfb30-2667-4eab-acfb-3026677eab67" break="no"/>loseren
-                Textgutes, wird Herrn <rs type="person" ref="#pmb11988">Karl Kraus</rs> nicht abhalten,
-                die unter <lb xml:id="uuid_52170cb8-c17c-48dd-970c-b8c17cd8ddc5"/>allen Umständen
-                erreichbare Klarstellung vornehmen zu lassen, dass <lb xml:id="uuid_cdcc558a-9881-41b9-8c55-8a9881f1b98a"/>hier eine Aneignung seines
-                geistigen Besitzes vorliegt. Ich nehme <lb xml:id="uuid_bb1d2f9e-6075-43a6-9d2f-9e607563a666"/>an, dass Sie sich
-                gegebenenfalls, um Ihr Vorgehen unbedenklich er<lb xml:id="uuid_b82b325d-9701-42b6-ab32-5d970172b6fd" break="no"/>scheinen zu
-                lassen, darauf berufen würden, dass es sich hier um die <lb xml:id="uuid_9ce931ac-ef01-4bb9-a931-acef017bb9fb"/>Zitierung von Worten
-                handelt, die bereits, sozusagen als „geflügelte <lb xml:id="uuid_d304264e-d5cb-4dfb-8426-4ed5cb0dfb29"/>Worte“, in Umlauf gekommen
-                und zum Gemeingut geworden seien. Herr <lb xml:id="uuid_44ca4016-3f25-490b-8a40-163f25290bf8"/>
-                <rs type="person" ref="#pmb11988">Karl Kraus</rs> ist auch ohne
-                weiteres bereit, diese Rechtfertigung anzu<lb xml:id="uuid_8d09d824-c370-4b9d-89d8-24c370bb9d3d" break="no"/>nehmen, wenn Sie
-                sie <hi rend="underlined">vor Ihrem Leserkreis</hi> zum Ausdruck bringen. Ich <pb facs="" n="2"/>
-                <lb xml:id="uuid_bcc4a7f1-6c83-4f88-84a7-f16c83df88ed"/>fordere Sie demnach auf, in
-                der nächsten oder übernächsten Nummer <lb xml:id="uuid_16d0b333-f4d7-4af2-90b3-33f4d7caf253"/>der „<rs type="institution" ref="#pmb37298">Bühne</rs>“ der folgenden Erklärung Raum zu geben: </p>
-            <p xml:id="uuid_25180ce9-1e4d-4c1a-a5ac-3c8cfd2b76f0">
-                <lb xml:id="uuid_39d61049-a3a4-4227-9610-49a3a40227da"/>„Die in der <rs type="work" ref="#pmb53455">Nr. 213 vom 6. Dezember 1928</rs> im Artikel ‚<rs type="work" ref="#pmb53457">Die sich <lb xml:id="uuid_0ab645e0-d5e4-4912-b645-e0d5e4d912b2"/>selbst spielen</rs>‘ enthaltene Wendung, ‚Defektschauspieler‘ <lb xml:id="uuid_060dbba9-3cb7-4553-8dbb-a93cb7d5539a"/>im Gegensatz zum
-                ‚Effektschauspieler‘ entstammt einer <lb xml:id="uuid_0c836649-7444-4f34-8366-4974442f34d6"/>
-                <rs type="work" ref="https://fackel.oeaw.ac.at/f/175,017">theaterkritischen Betrachtung</rs>,
-                die seinerzeit in der ‚<rs type="work" ref="#pmb41244">Fackel</rs>‘ <lb xml:id="uuid_d9ef2090-0b0e-4273-af20-900b0e7273cc"/>von <rs type="person" ref="#pmb11988">Karl Kraus</rs> erschienen ist.
-                Der Ursprung war als hin<lb xml:id="uuid_6ac1078a-0ac2-43aa-8107-8a0ac2f3aa46" break="no"/>reichend bekannt vorausgesetzt worden; für diejenigen Leser, <lb xml:id="uuid_99b2706f-8fd5-44cd-b270-6f8fd524cdcb"/>für die diese Annahme nicht
-                zutrifft, tragen wir die <lb xml:id="uuid_53636aea-8b6d-46d4-a36a-ea8b6df6d4d0"/>Quellenangabe nach“. </p>
-            <p xml:id="uuid_7bdd7e09-6b4d-4c68-a428-e251b6f8dce7">
-                <lb xml:id="uuid_dffc07f9-fac0-4a90-bc07-f9fac05a90f6"/>Mit vorzüglicher <lb xml:id="uuid_e6313bd0-5d65-4bf9-b13b-d05d656bf98c"/>Hochachtung </p>
-            <p xml:id="uuid_a2669535-f1d6-49bf-ba7b-6ac73f197118">
-                <lb xml:id="uuid_02d2573c-3546-4042-9257-3c3546b0421c"/>
-                <note type="paratext" resp="law-firm">Betr. <rs type="person" ref="#pmb11988">Kraus</rs> – <rs type="person" ref="#pmb7399">Geyer</rs>
-                    <lb xml:id="uuid_46acff89-12c1-4318-acff-8912c193187d"/>exp. am 1.3.1929.</note>
-            </p>
-        </body>
-    <back><listPerson><person xml:id="pmb11988">
-  <persName>
-      <forename>Karl</forename>
-      <surname>Kraus</surname>
-  </persName>
-
-  <persName type="pseudonym">Berdach J.</persName>
-
-
-  <birth>
-    <date when-iso="1874-04-28">28.04.1874</date>
-  
-  
-      <settlement key="pmb41660">
-        <placeName type="pref">Jičín</placeName>
-      
-        <location><geo>50,43723 15,35162</geo></location>
-      
-      </settlement>
-      
-       
-  </birth>  
-
-
-  <death>
-    <date when-iso="1936-06-12">12.06.1936</date>
-      
-      
-      <settlement key="pmb50">
-        <placeName type="pref">Wien</placeName>
-        
-        <location><geo>48,2066 16,37341</geo></location>
-      
-      </settlement>
-      
-      
-  </death>
-
-
-  <sex value="male"/>
-
-
-  <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
-
-  <occupation key="237">Publizist/Publizistin</occupation>
-
-
-  <idno type="URL" subtype="astb">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17108</idno>
-
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118566288</idno>
-
-  <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11988</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/11988</idno>
-
-  <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11988</idno>
-
-
-<affiliation>
-    <term key="1182">arbeitet für</term>
-    <orgName key="pmb29308">Die Fackel</orgName>
-    
-    <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29308</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/29308</idno>
-    
-    <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29308</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1153">in Relation zu</term>
-    <orgName key="pmb50728">Buchhandlung Richard Lányi</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/50728/</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1409">ist Eigentümer*in von</term>
-    <orgName key="pmb43724">Verlag Die Fackel (Wien)</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43724/</idno>
-    
-    <idno type="URL">https://d-nb.info/gnd/16063972-4</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/43724</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1153">in Relation zu</term>
-    <orgName key="pmb36757">Amtsgericht Hamburg</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36757/</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36757</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1153">in Relation zu</term>
-    <orgName key="pmb36828">Landgericht Hamburg</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36828/</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36828</idno>
-    
-</affiliation>
-
-
-<listEvent>
-    
-    <event key="40436" when-iso="1893-01-14">
-        <desc n="1256">ist Arbeitskraft bei</desc>
-        <label>Aufführung von Die Räuber, 14.1.1893</label>
-        
-        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/40436/</idno>
-        
-        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/40436</idno>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000116-001-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000115-007-001.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000115-007-002.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>115.7 Aktenvermerk Oskar Samek – Akt 115</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000115-007-002.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3270</idno>
+            <idno subtype="transkribus" type="ID">469734</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000115" type="collection">Korrespondenz mit Siegfried Geyer (Redakteur der Bühne)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000115-007-002-facs001" xml:id="D_000115-007-002-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000115-007-002-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date notBefore-iso="1929-03-01" subtype="produced" type="sortDate">1. März 1929
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000115-007-002-wit01">Aktenvermerk</term>
+            </keywords>
+            <classCode source="D_000115-007-002-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.AKV">D.J.AKV</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-03-29" who="#JK" status="draft"/>
+         <change type="typography" when-iso="2021-03-29" who="#JK" status="draft"/>
+         <change type="references" when-iso="2021-03-29" who="#JK" status="draft"/>
+         <change type="structure" when-iso="2021-03-29" who="#JK" status="draft"/>
+         <change type="header-facsimile" when-iso="2022-01-13" who="#JK" status="draft"/>
+         <change when-iso="2020-07-28T15:12:04.819Z" who="#IB" status="draft">created by
+                API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB" status="draft">Replaced Text with
+                Transcription of Transkribus Document 469734. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000115-007-002-facs001">
+      <surfaceGrp xml:id="D_000115-007-002-facs001-l001">
+         <surface type="recto" xml:id="D_000115-007-002-facs001-l001-p001">
             
-    </event>
-    
-    <event key="42714" when-iso="1905-05-29">
-        <desc n="1256">ist Arbeitskraft bei</desc>
-        <label>Geschlossene Aufführung Die Büchse der Pandora, 29.5.1905</label>
-        
-        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/42714/</idno>
-        
-        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/42714</idno>
+            <graphic source="wienbibliothek" url=""/>
+         </surface>
+         <surface type="verso" xml:id="D_000115-007-002-facs001-l001-p002">
             
-    </event>
-    
-</listEvent>
-
-
-<listBibl>
-    
-    <bibl type="collections" n="3">Manuell angelegt</bibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-</person><person xml:id="pmb7399">
-  <persName>
-      <forename>Siegfried</forename>
-      <surname>Geyer</surname>
-  </persName>
-
-  <persName type="namensvariante">Florian</persName>
-
-  <persName type="geburtsname_nachname">Geyerhahn</persName>
-
-  <persName type="uri_gnd">http://d-nb.info/gnd/1032807512</persName>
-
-  <persName type="uri_wikipedia">https://de.wikipedia.org/wiki/Siegfried_Geyer</persName>
-
-
-  <birth>
-    <date when-iso="1883-01-23">23.01.1883</date>
-  
-  
-      <settlement key="pmb50037">
-        <placeName type="pref">Marchegg</placeName>
-      
-        <location><geo>48,26217 16,91045</geo></location>
-      
-      </settlement>
-      
-       
-  </birth>  
-
-
-  <death>
-    <date>Anfang 1945</date>
-      
-      
-      <settlement key="pmb35512">
-        <placeName type="pref">Ungarn</placeName>
-        
-        <location><geo>47,0 20,0</geo></location>
-      
-      </settlement>
-      
-      
-  </death>
-
-
-  <sex value="male"/>
-
-
-  <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
-
-  <occupation key="99">Journalist/Journalistin</occupation>
-
-  <occupation key="103">Theaterleiter/Theaterleiterin</occupation>
-
-  <occupation key="115">Dramaturg/Dramaturgin</occupation>
-
-
-  <idno type="URL" subtype="astb">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15415</idno>
-
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1032807512</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/7399</idno>
-
-
-<affiliation>
-    <term key="1182">arbeitet für</term>
-    <orgName key="pmb37214">Neue Wiener Bühne</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37214/</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37214</idno>
-    
-    <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb37214</idno>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/60476/</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1182">arbeitet für</term>
-    <orgName key="pmb37179">Kammerspiele Wien</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37179/</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37179</idno>
-    
-</affiliation>
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Versäumungsurteil des Bezirkgerichts Josefstadt (G. Z. C X 891/24,
-                    Landesgerichtsrat Daniel Schwarzwald)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000010-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung von Voruntersuchungen gegen Marc Siegelberg und weitere
-                    unbekannte Täter wegen Übertretung des § 45 Urheberrechtsgesetz
-                    (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Anberaumung einer Hauptverhandlung, eventuell neuerliche
-                    Einvernahme des Zeugen Tschuppik im Erhebungswege und Antrag auf Ladung weiterer
-                    Zeugen zur Hauptverhandlung (Strafbezirksgericht I Wien, G. Z. U XII
-                    1761/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Anfrage beim Zentralmeldeamt über Karl Adler</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-005-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zeugenprotokoll Karl Tschuppik</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Originalmappe Oskar Samek - Akt 115</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000115-007-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Aktenvermerk Oskar Samek - Akt 115</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000115-007-002.xml"/></linkGrp></event></listEvent></person></listPerson><listPlace><place xml:id="pmb50643">
-  <placeName>Canisiusgasse</placeName>
-
-
-<location type="coords">
-  <geo>48,228159 16,353186</geo>
-</location>
-
-
-<location type="located_in_place">
-  <placeName key="pmb59">IX., Alsergrund</placeName>
-  <geo>48,22387 16,35641</geo>
-</location>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/50643/</idno>
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Protokolle der Zeugeneinvernahmen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. Vr. XXVI 7288/25,
-                    Alois Moyzisch)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll [der Einvernahme Békessys und Kaufmanns]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung von Voruntersuchungen gegen Marc Siegelberg und weitere
-                    unbekannte Täter wegen Übertretung des § 45 Urheberrechtsgesetz
-                    (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Anberaumung einer Hauptverhandlung, eventuell neuerliche
-                    Einvernahme des Zeugen Tschuppik im Erhebungswege und Antrag auf Ladung weiterer
-                    Zeugen zur Hauptverhandlung (Strafbezirksgericht I Wien, G. Z. U XII
-                    1761/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G.
-                    Z. U IV 570/26, Julius Benesch)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Aktenvermerk Oskar Samek - Akt 115</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000115-007-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Der Abend (verantw. Red. Siegfried
-                    Klausner) wegen §§ 23, 24 Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000117-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Der Tag (verantw. Red. Josef Koller)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Der Tag (verantw. Red. Josef Koller) wegen §§ 23, 24 Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Anmeldung der Berufung des Privatanklägers</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ausführung der Berufung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Der Wiener Tag (verantw. Red. Josef
-                    Koller) wegen §§ 23,24 Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000147-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufungsausführung [von Josef Koller]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000147-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bitte um Vertagung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000147-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Klage von Lothar Rübelt gegen Karl Kraus wegen Verletzung des Urheberrechts,
-                    Streitwert: S 2000</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Strafbezirksgerichts I Wien (G. Z. U 588/33, Landesgerichtsrat
-                    […] Standhartinger)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000185-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Vorerhebungen und Vornahme einer Haudurchsuchung
-                    (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000185-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ergänzung des Antrages auf Vorerhebungen und Vornahme einer Haudurchsuchung
-                    (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000185-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Erhebung der Privatanklage von Karl Kraus gegen Österreichisches Abendblatt
-                    (verantw. Red. Alfred Kinast) wegen Ehrenbeleidigung begangen durch die
-                    Presse</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000185-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Vorerhebungen und Vornahme einer Haudurchsuchung
-                    (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000186-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Strafbezirksgerichts I Wien (G. Z. U 614/33, Landesgerichtsrat
-                    […] Standhartinger)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000186-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Erhebung der Privatanklage von Karl Kraus gegen Österreichisches Abendblatt
-                    (verantw. Red. Willy Marx) wegen Ehrenbeleidigung begangen durch die
-                    Presse</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000186-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kostenbestimmungsbeschluss des Strafbezirksgerichts I Wien (G. Z. U 614/33,
-                    Rudolf Kunze)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000186-014-000.xml"/></linkGrp></event></listEvent></place></listPlace><listOrg><org xml:id="pmb37298">
-  <orgName>Die Bühne</orgName>
-
-  <orgName type="uri_anno">http://anno.onb.ac.at/info/bue_info.htm</orgName>
-
-  <orgName type="uri_wikipedia">https://de.wikipedia.org/wiki/Die_Bühne</orgName>
-
-
-
-<location type="located_in_place">
-  <placeName key="pmb50">Wien</placeName>
-  <geo>48,2066 16,37341</geo>
-  
-  <note type="IDNO" subtype="geonames">https://www.geonames.org/2761369</note>
-  
-  <note type="IDNO" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</note>
-  
-  <note type="IDNO">https://d-nb.info/gnd/4066009-6</note>
-  
-  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</note>
-  
-  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/50</note>
-  
-  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/20954</note>
-  
-  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</note>
-  
-</location>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37298/</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37298</idno>
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Protokolle der Zeugeneinvernahmen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Konvolut von Protokollen der Zeugenaussagen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der Zeugenvernehmung von Wilhelm Willinger(Fotograf)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokolle der Zeugenvernehmungen (Strafbezirksgericht I Wien, G. Z. U XII
-                    71/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Kronos-Verlag an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Aktenvermerk Oskar Samek - Akt 115</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000115-007-002.xml"/></linkGrp></event></listEvent></org></listOrg></back></text>
+            <graphic source="wienbibliothek" url=""/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

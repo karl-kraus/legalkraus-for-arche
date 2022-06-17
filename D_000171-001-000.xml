@@ -1,266 +1,109 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000171-001-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000170-003-001.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000171-002-001.xml">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Zeitungsartikel aus: Neues Wiener Journal, Nr. 647</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000171-001-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4256</idno>
-                <idno type="ID" subtype="transkribus">312173</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000171">Karl
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000171-002-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000170-003-001.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000171-001-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>171.1 Zeitungsartikel aus: Neues Wiener Journal, Nr. 647</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000171-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4256</idno>
+            <idno subtype="transkribus" type="ID">312173</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000171" type="collection">Karl
                     Kraus ca. Neues Wiener Journal</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000171-001-000-wit01" facs="D_000171-001-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation><date type="sortDate" subtype="produced" when-iso="1931-11-18">18. November
-                    1931</date>
-            </creation>
-            <langUsage>
-                <language ident="de">Deutsch</language>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term>Zeitungsartikel</term>
-                </keywords>
-            </textClass>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-10-09T13:59:19.583Z" who="#IB">created by API</change>
-            <change when-iso="2020-10-09T13:59:59.944Z" who="#IB">Replaced Text with Transcription
-                of Transkribus Document 312173.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000171-001-000.xml-facs001">
-        <surfaceGrp xml:id="D_000171-001-000.xml-facs001-l001">
-            <surface xml:id="D_000171-001-000.xml-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000023_22.jpg" source="krausonline"/>
-            </surface>
-            <surface xml:id="D_000171-001-000.xml-facs001-l001-p002" type="verso">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000022_24.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="D_000171-001-000.xml-facs001-l001-p001" n="1"/>
-            <pb facs="D_000171-001-000.xml-facs001-l001-p002" n="2"/>
-            <!--<lb xml:id="uuid_eda8c2a3-c4ff-407e-a8c2-a3c4ffd07e73"/>Die Totenmaske <rs type="person"
-                ref="#pmb13068">Frank Wedekind</rs>s <lb
-                xml:id="uuid_f5cd2cbc-931e-4e09-8d2c-bc931ede09d9"/>bewacht eine Lebende … <lb
-                xml:id="uuid_2d10ea79-bd62-4363-90ea-79bd62036353"/>In der letzten Münchener Wohnung
-            des Dichters. <lb xml:id="uuid_3e78d923-8b76-4163-b8d9-238b7661638c"/>von <lb
-                xml:id="uuid_17b4697b-be37-43b4-b469-7bbe3773b444"/>Carl Marilaun. <lb
-                xml:id="uuid_d55e2213-27d4-450b-9e22-1327d4350bcb"/>Das gläserne Kästchen. <lb
-                xml:id="uuid_a3a5732b-70a4-4b05-a573-2b70a43b05c1"/>Die einstige Münchener Wohnung
-            Wedekinds liegt in der <lb xml:id="uuid_daa0f7db-9462-43e1-a0f7-db9462e3e1f5"/>nächsten
-            Nähe des Hofgartens, in einem richtigen Groß- <lb
-                xml:id="uuid_e56fdfd5-5c88-4807-afdf-d55c88d8073e"/>bourgeoisviertel
-            „hochherrschaftlicher“ Zinspaläste. Vielleicht war <lb
-                xml:id="uuid_33d96eab-1796-494b-996e-ab1796694b62"/>das ein Witz des Fanatikers der
-            Antibürgerlichkeit – oder die <lb xml:id="uuid_8f8d2aa0-6e13-4a1f-8d2a-a06e13ca1f72"
-            />Wahl gerade dieser Wohnung ist ein Einbekenntnis gewesen. Der <lb
-                xml:id="uuid_6adc9a56-314b-4b1b-9c9a-56314b5b1b5a"/>ewige Landstreicher Rudinoff,
-            Franks Jugendfreund, pflegte ja <lb xml:id="uuid_cfef6376-e5e4-457a-af63-76e5e4a57ac4"
-            />gern und mit der Ranküne altgewordener Jugendfreunde zu <lb
-                xml:id="uuid_08965276-813c-4d56-9652-76813c8d5663"/>sagen: „Guter Frank, er
-            kokettierte mit den Bohemiens. Aber er <lb
-                xml:id="uuid_5617ec79-8434-4414-97ec-798434a414af"/>war ein heimlicher Stockbürger
-            …“ <lb xml:id="uuid_a2c5d16d-4c35-4616-85d1-6d4c350616d3"/>Seine Witwe Tilly – ist es
-            nicht! Das war mein stärkster <lb xml:id="uuid_1fbf65ba-c22a-410b-bf65-bac22aa10b48"
-            />Eindruck, als ich, es ist schon ein paar Jahre her, in der <lb
-                xml:id="uuid_84cf3685-1cb2-4700-8f36-851cb2570015"/>frappierend gutbürgerlichen
-            Münchener Wohnung Wedekinds mit <lb xml:id="uuid_a301720f-eab2-4261-8172-0feab2426104"
-            />der seither nach Berlin übersiedelten Frau Wedekind sprach. Ich <lb
-                xml:id="uuid_6bf01779-7c60-4af8-b017-797c607af8ff"/>sah einen Menschen, der – hier
-            täusche ich mich wohl nicht – <lb xml:id="uuid_98960510-1ac0-459c-9605-101ac0759c55"
-            />noch Jahre nach dem Tode des großen Lebensgefährten unter <lb
-                xml:id="uuid_d0a3e34b-211e-4cd0-a3e3-4b211e2cd0a8"/>seinem dämonischen Bann Lebte.
-            Frau Tilly zeigte mir zwei <lb xml:id="uuid_9b86594c-ce9e-44bf-8659-4cce9ec4bf1e"
-            />Bücher, deren Blätter noch die Hand des Dichters umgewendet <lb
-                xml:id="uuid_1b77638f-704c-41cb-b763-8f704cd1cbea"/>hat. Und über uns, in einer Art
-            gläserner Vitrine, lag seine <lb xml:id="uuid_5b0cd138-3356-4051-8cd1-3833560051dd"
-            />Totenmaske: ein von Qual, Krampf und letztem Aufbäumen <lb
-                xml:id="uuid_6fe9cb2e-a29e-41de-a9cb-2ea29ee1de7e"/>erschütternd gezeichnetes,
-            erhabenes und grauenhaftes Mönchs- <lb
-                xml:id="uuid_078c27db-7b62-4f04-8c27-db7b624f041f"/>gesicht. Eine furchtbare Magie
-            schien von diesem unerlösten <lb xml:id="uuid_79a06327-9363-4285-a063-2793639285ce"
-            />Antlitz auszugehen. Es war schwer, wenigstens für den Unvor- <lb
-                xml:id="uuid_80ac0438-8d01-40b0-ac04-388d01d0b07e"/>bereiteten, in diesem Zimmer ein
-            unbefangenes Wort auszu- <lb xml:id="uuid_21ec0573-b88a-45ff-ac05-73b88af5ff43"
-            />sprechen, ein konventionelles Gespräch zu führen. Der Tote wachte <lb
-                xml:id="uuid_d0766232-98fe-4aef-b662-3298fe9aef94"/>in einem wie absichtlich ins
-            hellste Licht gerückten, gläsernen <lb
-                xml:id="uuid_07e517e0-36f4-4b26-a517-e036f4bb26cd"/>Sarg … <lb
-                xml:id="uuid_4e3dc7d3-7363-4888-bdc7-d37363488879"/>Der Mann, der seine Frau
-            erschuf. <lb xml:id="uuid_006003b2-4a17-40d3-a003-b24a17f0d3ca"/>Zart und unbedingt
-            apart, von äußerster Damenhaftigkeit <lb
-                xml:id="uuid_5244cc1e-67aa-4d04-84cc-1e67aaad04ea"/>ist die äußere Erscheinung <rs
-                type="person" ref="#pmb5405">Tilly Wedekind</rs>s.
-            Vor fünf, sechs <lb xml:id="uuid_d11767c2-0bd2-4748-9767-c20bd2a748b5"/>Jahren wirkte
-            sie trotz ihrer erwachsenen Töchter auch über- <lb
-                xml:id="uuid_d4031df7-bd2e-4851-831d-f7bd2e08516b"/>raschend jung. Auf die gewesene
-            Schauspielerin, vor allem aber <lb xml:id="uuid_33cb6c86-436e-466f-8b6c-86436e166f39"
-            />aüf die Dämonin Lulu, ihre berühmteste Rolle, deutete nicht ein <lb
-                xml:id="uuid_c7b20cb7-7985-4dde-b20c-b77985eddeb2"/>Zug ihres unwahrscheinlich
-            beherrschten, blassen und gleichmäßig <lb
-                xml:id="uuid_dfe40819-b146-4ff6-a408-19b1462ff60e"/>ernst bleibenden, wie in eine
-            große Ruhe eingekehrten Gesichts. <lb xml:id="uuid_3b13ec51-4f09-497d-93ec-514f09b97d05"
-            />Zu jener Zeit beschäftigte sie sich mit dem dann vorübergehend <lb
-                xml:id="uuid_b04280da-fc90-46a0-8280-dafc9026a049"/>realisierten Gedanken, ihre
-            Bühnentätigkeit wieder aufzunehmen. <lb
-                xml:id="uuid_d291f5c7-68cb-405f-91f5-c768cbc05fb3"/>Und mit Bezug auf diese Pläne
-            sagte sie ein paar Worte, die <lb xml:id="uuid_94be3985-02b0-4b67-be39-8502b04b679f"
-            />das Problem einer fast dämonischen geistigen Verbundenheit <lb
-                xml:id="uuid_19d1a778-6dd2-47af-91a7-786dd297afb2"/>zweier Künstler – Franks und der
-            jungen Tilly – streiften. Sie <lb xml:id="uuid_d76f5829-67d6-40a4-af58-2967d690a47e"
-            />lehnte es ab, für immer mit dem Klischee der „Wedekind- <lb
-                xml:id="uuid_6a26b3ee-52a6-4b24-a6b3-ee52a6cb24a3"/>Spezialistin“ signiert sein zu
-            sollen. „Ich war“, sagte sie, „ja <lb xml:id="uuid_a5777722-f934-44f2-b777-22f93454f223"
-            />schon vor meiner Ehe Schauspielerin mit einigen Erfolgen. Es <lb
-                xml:id="uuid_6d02ffab-ff32-48c4-82ff-abff3298c4e2"/>ist selbstverständlich, daß die
-            menschliche und geistige Nähe des <lb xml:id="uuid_da0a7080-f674-4903-8a70-80f67479035d"
-            />älteren, unendlich bedeutenderen Mannes auf mich nicht ohne <lb
-                xml:id="uuid_822e0207-407c-4ca1-ae02-07407c4ca1b4"/>Einfluß blieb und ich durch das
-            gemeinsame Arbeiten mit ihm <lb xml:id="uuid_ebd344b5-aecf-462e-9344-b5aecf462ea4"
-            />künstlerisch viel gewonnen habe. Aber ich will auch nicht ver- <lb
-                xml:id="uuid_d71afa4c-33d2-419a-9afa-4c33d2119a07"/>hehlen, daß ich in späteren
-            Jahren trotzdem Versuche machte, <lb xml:id="uuid_f0774e07-1151-4732-b74e-071151c732c8"
-            />wenigstens einen Teil meiner früheren künstlerischen Selb- <lb
-                xml:id="uuid_f855dbc7-5cab-4aa7-95db-c75cab6aa76c"/>ständigkeit zurückzugewinnen.
-            Leicht war dies nicht. Wer Wede- <lb xml:id="uuid_1c7d7688-ea09-490c-bd76-88ea09b90c22"
-            />kind kannte, wird wissen, daß es nur zwei Möglichkeiten gab, zu <lb
-                xml:id="uuid_f8ac9d0d-6ae5-49c3-ac9d-0d6ae579c3cb"/>ihm Stellung zu nehmen. Man
-            lehnte ihn entweder absolut ab <lb xml:id="uuid_7180c9ba-0521-4058-80c9-ba0521105835"/>–
-            oder man verfiel ohne Versuch eines Widerspruchs seinem <lb
-                xml:id="uuid_659acea8-0fcf-4ffe-9ace-a80fcfaffebe"/>wohl magisch zu nennenden Bann.
-            Und so habe auch ich, die um <lb xml:id="uuid_96e22e8b-4510-4c02-a22e-8b4510cc024c"
-            />zwanzig Jahre jüngere Frau, als Künstlerin keine andere Richt- <lb
-                xml:id="uuid_539e18bf-a03b-449d-9e18-bfa03bd49d64"/>schnur als seinen Willen
-            anerkannt. Dadurch ergab sich, wenn wir <lb
-                xml:id="uuid_1035bb8b-3e41-4708-b5bb-8b3e41f7083e"/>miteinander auf der Bühne
-            standen, eine ganz einzige, höchst- <lb
-                xml:id="uuid_f3f3ece1-7156-4630-b3ec-e17156663002"/>gesteigerte Intensität des
-            Spiels. Aber man hat mich anderseits <lb
-                xml:id="uuid_bf29095f-c33d-4d29-a909-5fc33d5d295e"/>doch auch fühlen lassen, daß ich
-            fast nur eine von Wedekinds Hirn <lb xml:id="uuid_a4cefff7-1cb1-4c85-8eff-f71cb1dc850f"
-            />und Willen verlebendigte und dirigierte Marionette sei. Zum <lb
-                xml:id="uuid_cb2a9f83-e831-4f7f-aa9f-83e831af7f2c"/>Teil stimmte es auch. Es war
-            eine Lebensnotwendigkeit für <lb xml:id="uuid_c6677a7b-0b74-4d63-a77a-7b0b743d631f"
-            />Frank, die Menschen seiner näheren Umgebung von ihm nach <lb
-                xml:id="uuid_ff9dbf5b-0740-428a-9dbf-5b0740b28a7e"/>seinen Ideen gemodelt zu wissen.
-            Er war zu groß und zu sehr <lb xml:id="uuid_0f5f03b3-cd4b-41e8-9f03-b3cd4bd1e81f"/>in
-            sich selbst beruhend, als daß er kleine Naturen so <lb
-                xml:id="uuid_5b27d6ce-8e35-4c91-a7d6-ce8e35bc914b"/>akzeptieren mochte, wie sie nun
-            einmal waren. <lb xml:id="uuid_e119d2c4-f491-4dde-99d2-c4f491eddeeb"/>Ich erkannte ihm
-            dieses Recht zu. Aber auch das kleinere <lb
-                xml:id="uuid_5fe17394-e3a9-4652-a173-94e3a9b652f9"/>Ich kann auf Selbstbehauptung
-            nicht ganz verzichten. So konnte <lb xml:id="uuid_0adbec32-c9b6-42cf-9bec-32c9b682cf5c"
-            />oder wollte ich wenigstens als Künstlerin nicht immer be- <lb
-                xml:id="uuid_2dcc6f89-4794-4bbb-8c6f-8947945bbb3f"/>dingungslos den Intentionen
-            meines Mannes folgen – und <lb xml:id="uuid_c5f5e70d-ea63-46be-b5e7-0dea63b6bed7"/>dann
-            gab es eben Konflikte …“ <lb xml:id="uuid_1e2b187a-8828-48ab-ab18-7a882878ab34"/>Ganz
-            leise und unendlich rührend sagte <rs type="person"
-                ref="#pmb5405">Tilly Wedekind</rs>
-            <lb xml:id="uuid_2298ca16-15e6-4509-98ca-1615e6c50952"/>das, aber ohne Trauer und ohne
-            Schuldbewußtsein. Ruhig und <lb xml:id="uuid_dbb78ea6-677f-4287-b78e-a6677f028788"
-            />ernst ruhten dann ihre Augen auf der Maske im gläsernen <lb
-                xml:id="uuid_382667d9-b295-46f4-a667-d9b29586f4fc"/>Gehäuse: dem Schemen des Mannes,
-            der sich seine Frau erschuf! <lb xml:id="uuid_23904bf6-068f-4d0f-904b-f6068fad0f2a"/>Von
-            Ophelia bis zum „Erdgeist“. <lb xml:id="uuid_df612ad1-2397-464b-a12a-d12397364b0c"/>Wenn
-            Frau Wedekind auch sagte, daß sie nicht lediglich <lb
-                xml:id="uuid_3f5798bc-b087-488f-9798-bcb087888f5d"/>als Wedekind-Spielerin gelten
-            wolle, so gab sie doch auch zu, <lb xml:id="uuid_f9c29ab7-6e7e-479d-829a-b76e7ee79d57"
-            />daß sie sich schauspielerisch von den Frauengestalten seiner <lb
-                xml:id="uuid_4cd1e97b-75c3-4f12-91e9-7b75c3af1287"/>Dramen am stärksten angezogen
-            fühlte. Als junges Mädchen <lb xml:id="uuid_8ac8e609-f189-4f65-88e6-09f1896f655d"
-            />spielte sie aber fast ausschließlich die Rollen des klassischen <lb
-                xml:id="uuid_08bee0e4-56ed-47af-bee0-e456edb7af6a"/>Repertoires, zuerst unter
-            Direktor Burschian in ihrer Vater- <lb
-                xml:id="uuid_225cd8b0-c991-46f2-9cd8-b0c991d6f2aa"/>stadt Graz. Noch
-            Schauspielvolontärin, kam sie dann nach <lb
-                xml:id="uuid_b273af11-f89c-41da-b3af-11f89cd1dabf"/>Köln, wo sie als Sechzehnjährige
-            die Ophelia, Desdemona, die <lb xml:id="uuid_e5e94123-c7d2-4761-a941-23c7d24761ad"
-            />Luise in „Kabale und Liebe“ und die Beatrice in der „Braut <lb
-                xml:id="uuid_5b2c1333-cfe6-4aea-ac13-33cfe6eaeac3"/>von Messina“ spielte. Dann war
-            sie ein Jahr in Wien, wo <lb xml:id="uuid_f05f43c5-212b-4988-9f43-c5212b4988d2"/>Rainer
-            Simons in der Volksoper auch Schauspielvorstellungen <lb
-                xml:id="uuid_92cccf72-ef26-442c-8ccf-72ef26042c52"/>gab. <lb
-                xml:id="uuid_abfed2f1-900d-46fc-bed2-f1900d06fc4c"/>
-            <lb xml:id="uuid_1b348099-3984-44ce-b480-99398404cece"/>Sie löste bald ihr <lb
-                xml:id="uuid_6a32ea57-4f2d-408b-b2ea-574f2d808b87"/>Engagement, spielte mit Wedekind
-            in Berlin, heiratete ihn und <lb xml:id="uuid_485f7901-e5f6-40b6-9f79-01e5f620b688"/>hat
-            dann überhaupt nur mehr in seinen Stücken gespielt. Der <lb
-                xml:id="uuid_9865f959-1471-4e28-a5f9-591471fe28a8"/>Tod Wedekinds bedeutete für sie
-            den Abschied von der Bühne. <lb xml:id="uuid_1ae8a339-1de6-4351-a8a3-391de6935165"/>„Ich
-            sah es nun“, sagte sie, „als meine wichtigste Aufgabe an, <lb
-                xml:id="uuid_d5521e6b-396f-409a-921e-6b396fa09aa0"/>unseren beiden Mädchen Mutter zu
-            sein. Hier gab es Pflichten <lb xml:id="uuid_32c53141-9ac1-4167-8531-419ac1d167ae"/>und
-            Sorgen, denen sich keine Frau entziehen darf.“ Tatsächlich <lb
-                xml:id="uuid_12df750d-292d-4f63-9f75-0d292d4f634e"/>vergingen Jahre, bis sich <rs
-                type="person" ref="#pmb5405">Tilly Wedekind</rs>
-            wieder entschloß, ab <lb xml:id="uuid_98a6cfda-dbd8-4d09-a6cf-dadbd8dd0999"/>und zu ohne
-            feste Bindung an ein Ensemble aufzutreten. Aber <lb
-                xml:id="uuid_a79e6b7f-3ade-4e70-9e6b-7f3ade0e70a6"/>es ist charakteristischerweise
-            nur bei vereinzelten Versuchen ge- <lb
-                xml:id="uuid_3f905239-6632-4ae1-9052-3966327ae173"/>blieben. Eine wirkliche, innere
-            Fühlung mit der Bühne hat sie <lb xml:id="uuid_306af979-571e-4c01-aaf9-79571eac0114"
-            />nach dem Tode ihres Mannes eigentlich nicht mehr bekommen. <lb
-                xml:id="uuid_64d4dc1e-fe34-4e15-94dc-1efe348e158f"/>Man verstand oder ahnte das,
-            wenn man diese Frau in ihrer <lb xml:id="uuid_9d8e5450-ce97-49f6-8e54-50ce97e9f609"
-            />Wohnung sah, in der alles von Vergangenem, alles von dem <lb
-                xml:id="uuid_c1021e86-9f48-4567-821e-869f48456747"/>Toten sprach und die hier
-            Lebenden von dem noch als Gips- <lb xml:id="uuid_056c9bdf-a98d-4866-ac9b-dfa98dd8662e"
-            />maske gebietenden Antlitz im gläsernen Sarg bewacht waren: <lb
-                xml:id="uuid_75d0953f-a05b-4a68-9095-3fa05b6a687a"/>von <rs type="person"
-                ref="#pmb13068">Frank Wedekind</rs>s bannendem,
-            unheimlich faszinierendem <lb xml:id="uuid_07b8a364-9022-4d20-b8a3-649022fd2087"
-            />Sterbegesicht … --></body>
-    <back/></text>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000171-001-000-facs001" xml:id="D_000171-001-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000171-001-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.D">Druck</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-11-18">18. November 1931
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000171-001-000-wit01">Zeitungsartikel</term>
+            </keywords>
+            <classCode source="D_000171-001-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.P.ZTA">D.P.ZTA</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header-facsimile" when-iso="2022-01-13" who="#JK" status="draft"/>
+         <change when-iso="2020-10-09T13:59:19.583Z" who="#IB" status="draft">created by
+                API</change>
+         <change when-iso="2020-10-09T13:59:59.944Z" who="#IB" status="draft">Replaced Text with
+                Transcription of Transkribus Document 312173. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000171-001-000-facs001">
+      <surfaceGrp xml:id="D_000171-001-000-facs001-l001">
+         <surface type="recto" xml:id="D_000171-001-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543267/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000171-001-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543266/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

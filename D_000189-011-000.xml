@@ -1,199 +1,444 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000189-011-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-006-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-016-000.xml">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Klageentwurf gegen den Autor und gegen den Redakteur [Marie Schnierer] des
-                    Gegen-Angriff</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000189-011-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4568</idno>
-                <idno type="ID" subtype="transkribus">367229</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000189">Karl
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-012-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-010-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000189-011-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>189.11 Klageentwurf gegen den Autor und gegen die Redakteurin Marie Schnierer (Gegen-Angriff)</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000189-011-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4568</idno>
+            <idno subtype="transkribus" type="ID">367229</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000189" type="collection">Karl
                     Kraus ca. Gegen-Angriff</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000189-011-000-wit01" facs="D_000189-011-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date type="sortDate" notBefore-iso="1933-12-23" subtype="produced">23. Dezember
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000189-011-000-facs001" xml:id="D_000189-011-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000189-011-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date notBefore-iso="1933-12-23" subtype="produced" type="sortDate">23. Dezember
                     1933</date>
-            </creation>
-            <langUsage>
-                <language ident="de">Deutsch</language>
-            </langUsage>
-            <textClass/>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change type="intertexts" when-iso="2021-06-24" who="#JK"/>
-            <change type="typography" when-iso="2021-06-24" who="#JK"/>
-            <change type="references" when-iso="2021-06-24" who="#JK"/>
-            <change type="structure" when-iso="2021-06-24" who="#JK"/>
-            <change when-iso="2020-10-11T08:21:20.32Z" who="#IB">created by API</change>
-            <change when-iso="2020-10-11T12:19:12.647Z" who="#IB">Replaced Text with Transcription
-                of Transkribus Document 367229.</change>
-            <change when-iso="2020-10-11T14:04:54.519Z" who="#IB">Replaced Text with Transcription
-                of Transkribus Document 367229.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000189-011-000.xml-facs001">
-        <surfaceGrp xml:id="D_000189-011-000.xml-facs001-l001">
-            <surface xml:id="D_000189-011-000.xml-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000029_11.jpg" source="krausonline"/>
-            </surface>
-            <surface xml:id="D_000189-011-000.xml-facs001-l001-p002" type="verso">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000030_11.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-        <surfaceGrp xml:id="D_000189-011-000.xml-facs001-l002">
-            <surface xml:id="D_000189-011-000.xml-facs001-l002-p003" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000031_11.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <facsimile type="further-witnesses"><surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000033_11.jpg" source="krausonline"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000034_14.jpg" source="krausonline"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000035_11.jpg" source="krausonline"/>
-        </surface></facsimile>
-    <text>
-        <body>
-            <pb facs="D_000189-011-000.xml-facs001-l001-p001" n="1"/>
-            <p xml:id="uuid_e8105305-fee5-45a1-8be6-545f40911456"><lb xml:id="uuid_51480040-622c-4359-8800-40622c23594a"/>Entwurf der Klage gegen den
-                    <rs type="person" ref="#pmb37837">Autor</rs> und den <rs type="person" ref="#pmb43657">verantwortlichen <lb xml:id="uuid_efe63657-b5bc-465c-a636-57b5bce65cfa"/>Redakteur</rs> des „<rs type="institution" ref="#pmb37338">Gegenangriff</rs>“. </p>
-            <p xml:id="uuid_f3c751b0-e855-4d7b-b111-10459f9e4aea"><lb xml:id="uuid_676f75a8-bbeb-4481-af75-a8bbeb748119"/>I. </p>
-            <p xml:id="uuid_9874394f-804b-4f7d-9d13-d367c58246ce"><lb xml:id="uuid_754529b3-253e-45e9-8529-b3253e25e9da"/>In der <rs type="work" ref="#pmb55935">Nummer 19 der Wochenschrift <lb xml:id="uuid_79c104c9-981e-4024-8104-c9981e1024c9"/>„Der Gegenangriff“ vom
-                    26. November 1933</rs>, deren verantwort<lb xml:id="uuid_e6a293a3-56b8-4f5e-a293-a356b8ff5e09" break="no"/>licher Redakteur
-                die erstbeklagte Dr. <rs type="person" ref="#pmb43657">Marie Schnierer</rs> ist, <lb xml:id="uuid_418c43e1-8fb5-43fc-8c43-e18fb5f3fc98"/>wurde ein „Nachruf auf <rs type="person" ref="#pmb11988">Karl Kraus</rs>“
-                betitelter, mit „<quote xml:id="uuid_7a0c4b62-339b-4da2-badc-3d99846f6da1" source="#D_000189-001-000"><rs type="person" ref="#pmb37837">Arnold</rs></quote>“
-                    <lb xml:id="uuid_b79380e0-9ffb-447c-9380-e09ffbf47c66"/>unterzeichneter <rs type="work" ref="#pmbD_000189-001-000">Artikel</rs> veröffentlicht, dessen erster
-                Absatz <lb xml:id="uuid_b6d3ee01-80ac-4047-93ee-0180aca047db"/>lautet: </p>
-            <p xml:id="uuid_70cd985a-9f0d-4443-81be-736f00aa32b0"><lb xml:id="uuid_e4cb3d1f-b1a1-4ae6-8b3d-1fb1a17ae61e"/>folgt Zitierung des ersten
-                Absatzes des <rs type="work" ref="#pmbD_000189-001-000">Artikels</rs>. <lb xml:id="uuid_71883735-c2e5-4414-8837-35c2e5c41415"/><hi rend="spaced">Beweis</hi>: <rs type="work" ref="#pmb55935">Nr. 19 der Wochenschrift „Der
-                    Gegenangriff“</rs>. </p>
-            <p xml:id="uuid_29d0e5cc-be7b-427b-a99b-e6d1ce7e1f99"><lb xml:id="uuid_16f0620b-f50c-4048-b062-0bf50c404806"/>II. </p>
-            <p xml:id="uuid_bdfff8dd-ee4b-42a0-9500-3ec8130e050c"><lb xml:id="uuid_3c17891e-f528-4fa3-9789-1ef528bfa360"/>Der unbekannte <rs type="person" ref="#pmb37837">Autor</rs> dieses <rs type="work" ref="#pmbD_000189-001-000">Artikels</rs> be<lb xml:id="uuid_94dbd01b-4d14-4f79-9bd0-1b4d147f79c2" break="no"/>hauptet also, der
-                    <rs type="person" ref="#pmb11988">Privatkläger</rs> habe auch während des Welt<lb xml:id="uuid_6e20d15c-8218-4851-a0d1-5c8218f851c4" break="no"/>krieges
-                gewünscht, dass man von ihm kein eigenes Wort er<lb xml:id="uuid_c0fe7c99-d217-48b7-be7c-99d21708b743" break="no"/>warte und habe,
-                erst als der Zusammenbruch der Mittelmächte <lb xml:id="uuid_742a6a9e-afdc-42f8-aa6a-9eafdc82f891"/>entschieden war, diese so
-                beredt wie kein anderer verflucht. </p>
-            <p xml:id="uuid_dd4ece3c-23a3-4164-a5bb-9341c0cf7198"><lb xml:id="uuid_bd1231e0-2ff5-471b-9231-e02ff5571b70"/>Ferner behauptet er, der <rs type="person" ref="#pmb11988">Privatkläger</rs>
-                suche <lb xml:id="uuid_8aec8689-5177-48df-ac86-89517748df2a"/>auch heute –
-                dreiviertel Jahre nach dem Ausbruche des <lb xml:id="uuid_9f815ad7-7687-4690-815a-d77687569016"/>Hitlertums – sein Schweigen,
-                das zum Himmel schreit, zu er<lb xml:id="uuid_a25a3ea8-2e6e-477f-9a3e-a82e6e477fae" break="no"/>klären, er leide zu tief und habe auch sonst Rücksicht zu <lb xml:id="uuid_5e685363-35aa-4931-a853-6335aa6931f3"/>nehmen. </p>
-            <p xml:id="uuid_059cf979-8abb-4719-9c8f-4deacd69117b"><lb xml:id="uuid_565b45d9-4213-49cb-9b45-d9421309cb3f"/>Jeder uneingeweihte Leser
-                dieses <rs type="work" ref="#pmbD_000189-001-000">Artikels</rs>, <lb xml:id="uuid_5fef4f6a-2481-47fd-af4f-6a2481a7fda4"/>in dem auch sonst noch mehr
-                oder weniger verschleierte Be<lb xml:id="uuid_e0fd8e0c-5df0-478a-bd8e-0c5df0c78aa3" break="no"/>leidigungen des <rs type="person" ref="#pmb11988">Privatklägers</rs>, deren
-                Verfolgung sich dieser <lb xml:id="uuid_4829a660-24b8-486a-a9a6-6024b8686a27"/>vorbehält, enthalten sind, muss den Eindruck gewinnen, dass <lb xml:id="uuid_5f4d4c82-9736-43c3-8d4c-82973663c315"/>der <rs type="person" ref="#pmb11988">Privatkläger</rs> während des
-                Weltkrieges solange geschwiegen <lb xml:id="uuid_c789d8c3-143a-40f2-89d8-c3143ae0f2e0"/>hat, bis der Zusammenbruch
-                der Mittelmächte entschieden war <pb facs="D_000189-011-000.xml-facs001-l001-p002" n="2"/>
-                <lb xml:id="uuid_7c4a4b30-8d71-4d03-8a4b-308d716d03ca"/>und sich erst dann in seinen
-                Schriften gegen diese gewendet <lb xml:id="uuid_0e623ab4-19e6-43e6-a23a-b419e683e620"/>und sie beredter verflucht
-                hat als andere. </p>
-            <p xml:id="uuid_fa54864f-806d-4c3e-8884-354cc2decab5"><lb xml:id="uuid_19a617d1-d927-4ba2-a617-d1d9273ba240"/>Der Leser muss ferner
-                annehmen, dass das <lb xml:id="uuid_a4e1c314-25cf-44f1-a1c3-1425cfa4f10b"/>„Schweigen“ des <rs type="person" ref="#pmb11988">Privatklägers</rs> seit der Hitlerherrschaft <lb xml:id="uuid_64289eeb-702f-4562-a89e-eb702f556233"/>die gleiche opportunistische
-                Tendenz verrate, dass er aber <lb xml:id="uuid_7c108c96-421e-4330-908c-96421e533001"/>etwa den Anschein vortäusche oder die Ausrede haben könnte, <lb xml:id="uuid_b6d0c76e-099b-49f0-90c7-6e099b39f04f"/>als ob ein „<quote xml:id="uuid_2da1130d-8c92-4387-9fa8-c4905c4a7e23" source="#D_000189-001-000">zu
-                    tiefes Leid</quote>“ ihn an einem Ausdruck hindere. <lb xml:id="uuid_592c185d-6e53-429a-ac18-5d6e53a29ae4"/>Weiters wird behauptet, der
-                    <rs type="person" ref="#pmb11988">Privatkläger</rs> habe „<quote xml:id="uuid_938c4df8-6028-4521-a149-f4ea0d884b54" source="#D_000189-001-000">auch sonst <lb xml:id="uuid_835ff074-3ed1-436b-9ff0-743ed1336b77"/>Rücksicht zu
-                    nehmen</quote>“. Wenn auch vom <rs type="person" ref="#pmb37837">Autor</rs> des
-                inkriminierten <lb xml:id="uuid_16cbd3ea-e746-4e5b-8bd3-eae746de5b1f"/><rs type="work" ref="#pmbD_000189-001-000">Artikels</rs> nicht ausdrücklich gesagt
-                wird, worauf der <rs type="person" ref="#pmb11988">Privat<lb xml:id="uuid_0b3eb78b-3156-46a6-beb7-8b315626a6b1" break="no"/>kläger</rs> „<quote xml:id="uuid_c8c1d544-d424-4446-8efc-db9a5a90977b" source="#D_000189-001-000">Rücksicht zu nehmen</quote>“ habe, so ist aus dem
-                    Zusammen<lb xml:id="uuid_68798505-85de-4b10-b985-0585de5b108a" break="no"/>hange
-                des <rs type="work" ref="#pmbD_000189-001-000">Artikels</rs> klar, dass beim Leser der
-                Eindruck er<lb xml:id="uuid_485954e0-a463-46e4-9954-e0a463c6e408" break="no"/>weckt
-                werden soll, dass sich der <rs type="person" ref="#pmb11988">Privatkläger</rs> deshalb nicht
-                    <lb xml:id="uuid_0c5e154e-65b2-4a86-9e15-4e65b29a8623"/>gegen das Hitlerregime
-                wendet, weil er es nicht wagt, gegen <lb xml:id="uuid_5530f50d-573c-4fac-b0f5-0d573c1facef"/>dieses Regime zu schreiben,
-                also aus persönlicher Feigheit, <lb xml:id="uuid_9b6d7e98-633e-4f30-ad7e-98633ebf30f5"/>oder aus sonstigen
-                unehrenhaften Beweggründen privater Natur. </p>
-            <p xml:id="uuid_60929e40-7abe-4d64-8f35-ed5a1e37102f"><lb xml:id="uuid_66be6d8e-ba3a-44fd-be6d-8eba3a44fd0f"/>Die Tendenz des zitierten
-                    <rs type="work" ref="#pmbD_000189-001-000">Artikels</rs> und <lb xml:id="uuid_801f0912-4a67-4727-9f09-124a676727ee"/>die Absicht des <rs type="person" ref="#pmb37837">Autors</rs> ist klar: Es handelt sich darum, über <lb xml:id="uuid_12d715cb-adaa-4455-9715-cbadaac4559c"/>den <rs type="person" ref="#pmb11988">Privatkläger</rs> etwas
-                auszusagen, was diesen in der allge<lb xml:id="uuid_740d94d7-5220-46ef-8d94-d7522096ef75" break="no"/>meinen Meinung
-                verächtlich machen und zurücksetzen kann und <lb xml:id="uuid_f6be9517-0822-4908-be95-170822a908e3"/>muss. </p>
-            <p xml:id="uuid_85669153-9071-4479-be2b-a28c89617949"><lb xml:id="uuid_4fd94af1-4e5b-4bc0-994a-f14e5bbbc0cc"/>Da der <rs type="person" ref="#pmb37837">Autor</rs>, wie aus dem weiteren Inhalte <lb xml:id="uuid_f5338eca-cfe8-46cc-b38e-cacfe886ccc4"/>des <rs type="work" ref="#pmbD_000189-001-000">Artikels</rs> hervorgeht, über die Werke des <rs type="person" ref="#pmb11988">Privatklägers</rs>
-                <lb xml:id="uuid_bbd1c12f-ae77-4849-91c1-2fae7758491d"/>orientiert ist, kann es
-                keinem Zweifel unterliegen, dass er <lb xml:id="uuid_fec7c50d-e61f-43bb-87c5-0de61fd3bbdf"/>wissen musste und wusste,
-                die von ihm behaupteten Tatsachen: <lb xml:id="uuid_ca170eb9-bb55-48ef-970e-b9bb5588ef78"/>nämlich, dass der <rs type="person" ref="#pmb11988">Privatkläger</rs>
-                auch während des Weltkrieges <lb xml:id="uuid_41f8c472-2530-4b5e-b8c4-722530db5ec4"/>gewünscht habe, man möge von ihm kein eigenes Wort erwarten, <lb xml:id="uuid_4bff2e44-d172-4668-bf2e-44d172e66822"/>und erst, als der
-                Zusammenbruch der Mittelmächte entschieden <lb xml:id="uuid_2689ab19-9c8e-488e-89ab-199c8eb88ec2"/>war, diese beredter
-                verflucht habe als andere; er schweige <lb xml:id="uuid_e7624034-bfc2-4350-a240-34bfc29350ee"/>jetzt, weil er Rücksicht zu
-                nehmen habe, etc. – seien unwahr <pb facs="D_000189-011-000.xml-facs001-l002-p003" n="3"/>
-                <lb xml:id="uuid_3aac2d53-db32-4611-ac2d-53db32a6117a"/>und bildeten den Tatbestand
-                der <rs type="law" ref="">§§ 2</rs> und <rs type="law" ref="">3 des Gesetzes vom <lb xml:id="uuid_aedfc49f-6072-4cb2-9fc4-9f6072ccb2fb"/>28.VI.1933 Nro. 108 der
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000189-011-000-wit01">Entwurf (jur.)</term>
+            </keywords>
+            <classCode source="D_000189-011-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.ENW">D.J.ENW</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-06-24" who="#JK"/>
+         <change type="typography" when-iso="2021-06-24" who="#JK"/>
+         <change type="references" when-iso="2021-06-24" who="#JK"/>
+         <change type="structure" when-iso="2021-06-24" who="#JK"/>
+         <change when-iso="2020-10-11T08:21:20.32Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-11T12:19:12.647Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 367229. </change>
+         <change when-iso="2020-10-11T14:04:54.519Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 367229. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000189-011-000-facs001">
+      <surfaceGrp xml:id="D_000189-011-000-facs001-l001">
+         <surface type="recto" xml:id="D_000189-011-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544538/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000189-011-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544539/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000189-011-000-facs001-l002">
+         <surface type="recto" xml:id="D_000189-011-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544540/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544542/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544543/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544544/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000189-011-000_p001" facs="#D_000189-011-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_8657065f-84fe-4802-9e5c-00b0a8aef770">
+            <lb xml:id="uuid_d4b735c4-36e0-4677-b756-28a2129142a8"/>Entwurf der Klage gegen den
+                    <rs ref="#pmb37837" type="person">Autor</rs> und den <rs ref="#pmb43657" type="person">verantwortlichen<lb xml:id="uuid_221e8c36-d77f-49c0-91d0-6350117772af"/>Redakteur</rs> des „<rs ref="#pmb37338" type="institution">Gegenangriff</rs>“. </p>
+         <p xml:id="uuid_08785f73-96ea-43e6-ba05-146b90e425c0">
+            <lb xml:id="uuid_3af9e5da-4d62-4680-8b36-5ca8596fcfcb"/>I. </p>
+         <p xml:id="uuid_e2b63c1f-a5e3-4613-a65b-c429a8626c9d">
+            <lb xml:id="uuid_6745ec4b-266e-4e53-b282-57e59a67585d"/>In der <rs ref="#pmb55935" type="work" subtype="pmb">Nummer 19 der Wochenschrift<lb xml:id="uuid_66458551-7dd0-4305-9252-532481b498e8"/>„Der Gegenangriff“ vom 26.
+               November 1933</rs>, deren verantwort<lb break="no" xml:id="uuid_d3ed432c-b145-4ba2-b35a-6447eebe9bf6"/>licher Redakteur die erstbeklagte
+            Dr. <rs ref="#pmb43657" type="person">Marie
+               Schnierer</rs> ist,<lb xml:id="uuid_5e1060fe-8c0a-4a95-ba56-2f6303e10dab"/>wurde ein
+            „Nachruf auf <rs ref="#pmb11988" type="person">Karl
+               Kraus</rs>“ betitelter, mit „<quote source="#D_000189-001-000" xml:id="uuid_9383fd94-7f26-4f1e-bd46-0741e41facbc">
+               <rs ref="#pmb37837" type="person">Arnold</rs></quote>“<lb xml:id="uuid_69993008-2c99-4886-94c2-6a6413c2fb65"/>unterzeichneter <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-001-000" type="work" subtype="legal-doc">Artikel</rs> veröffentlicht, dessen erster Absatz<lb xml:id="uuid_45baec54-5c1a-4fb4-9246-94ce283bc86e"/>lautet: </p>
+         <p xml:id="uuid_e4cb6499-db7b-4095-b0cb-f17cb3d888ef">
+            <lb xml:id="uuid_b793ad71-3e5e-4f43-a344-0ec988de20cf"/>folgt Zitierung des ersten
+                Absatzes des <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-001-000" type="work" subtype="legal-doc">Artikels</rs>.<lb xml:id="uuid_e9b6a6dc-a04a-463b-a85d-9033d03b0fb2"/><hi rend="spaced">Beweis</hi>: <rs ref="#pmb55935" type="work" subtype="pmb">Nr. 19 der
+                    Wochenschrift „Der Gegenangriff“</rs>. </p>
+         <p xml:id="uuid_07a83620-d3ec-4476-97c5-8a6e37179dd1">
+            <lb xml:id="uuid_3f1e5da4-20e6-4468-a2f9-1f48742afe63"/>II. </p>
+         <p xml:id="uuid_8fc99a3f-016b-404a-a113-3cca480364c4">
+            <lb xml:id="uuid_b1c895d3-476f-452b-afe1-1d84445c27b8"/>Der unbekannte <rs ref="#pmb37837" type="person">Autor</rs> dieses <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-001-000" type="work" subtype="legal-doc">Artikels</rs> be<lb break="no" xml:id="uuid_3ee4731c-6482-461c-b3b9-acc7a1a1bc9c"/>hauptet also, der <rs ref="#pmb11988" type="person">Privatkläger</rs>
+                habe auch während des Welt<lb break="no" xml:id="uuid_6cefa821-0dea-40a4-a896-1935fb6378fa"/>krieges gewünscht, dass man
+                von ihm kein eigenes Wort er<lb break="no" xml:id="uuid_fcec60c3-5dac-44bb-a28d-de0f465e6476"/>warte und habe, erst als der
+                Zusammenbruch der Mittelmächte<lb xml:id="uuid_fd783b39-c344-4e71-b2d2-a5c206d949c9"/>entschieden war, diese so beredt wie kein anderer verflucht. </p>
+         <p xml:id="uuid_4a939d8a-e0d9-4ddb-a7c7-dfe3d84af2eb">
+            <lb xml:id="uuid_4ec6d652-d66f-4f71-8322-c04ce1d86591"/>Ferner behauptet er, der <rs ref="#pmb11988" type="person">Privatkläger</rs>
+                    suche<lb xml:id="uuid_a29d417f-f9d8-4bda-849f-e40598f007c2"/>auch heute –
+                dreiviertel Jahre nach dem Ausbruche des<lb xml:id="uuid_4cc1229e-a0b5-4aec-ad25-a41512748e7c"/>Hitlertums – sein Schweigen,
+                das zum Himmel schreit, zu er<lb break="no" xml:id="uuid_3499f0f6-94e9-4d51-ad88-4ca667ae5e96"/>klären, er leide zu tief und
+                habe auch sonst Rücksicht zu<lb xml:id="uuid_ecc0201b-c644-48e8-90be-433794b1cea5"/>nehmen. </p>
+         <p xml:id="uuid_833dcc2e-dace-4545-93ad-c9d8a7a131e1">
+            <lb xml:id="uuid_7412e4c2-7bdb-4716-ba6b-cb5c9e6e4a08"/>Jeder uneingeweihte Leser
+                dieses <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-001-000" type="work" subtype="legal-doc">Artikels</rs>,<lb xml:id="uuid_b60d79c2-3870-4283-ac80-dc4f7cb38579"/>in dem auch sonst noch mehr
+                oder weniger verschleierte Be<lb break="no" xml:id="uuid_680b79df-4002-4408-a3d1-04717bd8fd5c"/>leidigungen des <rs ref="#pmb11988" type="person">Privatklägers</rs>,
+                deren Verfolgung sich dieser<lb xml:id="uuid_645b8e5b-8d2b-44eb-9d8f-375e68280eeb"/>vorbehält, enthalten sind, muss den Eindruck gewinnen, dass<lb xml:id="uuid_08ad1cf9-1d67-4f73-8740-ddd2a049ad77"/>der <rs ref="#pmb11988" type="person">Privatkläger</rs>
+                während des Weltkrieges solange geschwiegen<lb xml:id="uuid_1be2b6c2-93ef-41d5-a364-86a5d8c50593"/>hat, bis der Zusammenbruch
+                der Mittelmächte entschieden war <pb xml:id="D_000189-011-000_p002" facs="#D_000189-011-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_41819108-88f5-494f-9676-bfea01b79a17"/>und sich erst dann in seinen
+                Schriften gegen diese gewendet<lb xml:id="uuid_77164ac9-e95f-4bd3-91c4-7e1e25dfd7b7"/>und sie beredter verflucht hat als andere. </p>
+         <p xml:id="uuid_633aefbb-94cf-457a-be37-46cda55ee10c">
+            <lb xml:id="uuid_a6a0b101-6c50-4d3f-b496-d502c04ed6fc"/>Der Leser muss ferner annehmen,
+            dass das<lb xml:id="uuid_2b31f50c-5ac7-4391-b69d-d6f643f4a095"/>„Schweigen“ des <rs ref="#pmb11988" type="person">Privatklägers</rs> seit
+            der Hitlerherrschaft<lb xml:id="uuid_56ee8d9e-961f-4fa8-abab-9fbdc8b733ff"/>die gleiche
+            opportunistische Tendenz verrate, dass er aber<lb xml:id="uuid_7d8f9a0e-b846-4ba3-9ba2-a222661d7e18"/>etwa den Anschein vortäusche oder
+            die Ausrede haben könnte,<lb xml:id="uuid_1c9e2e2e-a1db-453b-9baf-ed033be3beb4"/>als ob
+            ein „<quote source="#D_000189-001-000" xml:id="uuid_f46f2763-66db-4f69-a3ea-ab80abaaf74e">zu tiefes Leid</quote>“ ihn an
+            einem Ausdruck hindere.<lb xml:id="uuid_e93161d6-4e1e-4ce4-b4bb-c112d5598d9b"/>Weiters
+            wird behauptet, der <rs ref="#pmb11988" type="person">Privatkläger</rs> habe „<quote source="#D_000189-001-000" xml:id="uuid_2be7dbcd-df87-4349-b35b-05b61f918ba0">auch sonst<lb xml:id="uuid_9031ee84-ed29-49c0-badb-8d3c25a6cd5e"/>Rücksicht zu nehmen</quote>“.
+            Wenn auch vom <rs ref="#pmb37837" type="person">Autor</rs> des inkriminierten<lb xml:id="uuid_e3f2ec07-13f5-4310-b956-9da61533e202"/><rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-001-000" type="work" subtype="legal-doc">Artikels</rs> nicht ausdrücklich gesagt wird, worauf der <rs ref="#pmb11988" type="person">Privat<lb break="no" xml:id="uuid_0a5ee8da-1e23-47cf-81e2-ee19b3a75a3c"/>kläger</rs> „<quote source="#D_000189-001-000" xml:id="uuid_0714699b-457b-48fb-80eb-fc04061cee00">Rücksicht zu nehmen</quote>“ habe, so ist aus dem Zusammen<lb break="no" xml:id="uuid_997cb3af-aba0-4e41-bed5-20564db16913"/>hange des <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-001-000" type="work" subtype="legal-doc">Artikels</rs> klar, dass beim Leser der Eindruck er<lb break="no" xml:id="uuid_cf042744-a9dd-4bbe-8ed2-a10220f0b3f2"/>weckt werden soll, dass sich der
+               <rs ref="#pmb11988" type="person">Privatkläger</rs>
+            deshalb nicht<lb xml:id="uuid_b6b2c6b1-887c-4cbd-9285-516cfe0c40d7"/>gegen das
+            Hitlerregime wendet, weil er es nicht wagt, gegen<lb xml:id="uuid_c8e900f4-ad01-4e41-8387-332355e11294"/>dieses Regime zu schreiben, also
+            aus persönlicher Feigheit,<lb xml:id="uuid_846b922b-dd5d-4723-bb71-d394c9d7e59d"/>oder
+            aus sonstigen unehrenhaften Beweggründen privater Natur. </p>
+         <p xml:id="uuid_8ca52b68-ff83-4fbd-a7ba-e980088455f7">
+            <lb xml:id="uuid_b6174a63-b2e2-4a56-926c-b5d6b3b8ed34"/>Die Tendenz des zitierten
+                    <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-001-000" type="work" subtype="legal-doc">Artikels</rs> und<lb xml:id="uuid_87209676-2838-445a-ae08-b67aac09af85"/>die Absicht des <rs ref="#pmb37837" type="person">Autors</rs> ist klar: Es handelt sich darum, über<lb xml:id="uuid_0dbee359-1747-4a10-b062-9cf8c8330337"/>den <rs ref="#pmb11988" type="person">Privatkläger</rs>
+                etwas auszusagen, was diesen in der allge<lb break="no" xml:id="uuid_ead5f288-8a81-4783-b70e-cf8446cba820"/>meinen Meinung verächtlich
+                machen und zurücksetzen kann und<lb xml:id="uuid_291d6cc5-6534-4d5c-be7b-c2050c9a75e0"/>muss. </p>
+         <p xml:id="uuid_64f4bf6f-7ea5-487c-ac4e-85ddc8162d40">
+            <lb xml:id="uuid_bc52ea7d-9f4b-4daf-9f1f-cdbaf25c995b"/>Da der <rs ref="#pmb37837" type="person">Autor</rs>, wie aus dem weiteren Inhalte<lb xml:id="uuid_6ad87d21-7157-42ab-85ba-729f58fb5651"/>des <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-001-000" type="work" subtype="legal-doc">Artikels</rs> hervorgeht, über die Werke des <rs ref="#pmb11988" type="person">Privatklägers</rs>
+            <lb xml:id="uuid_16eed8ef-ee2b-4fd6-a82c-6bd8e7294791"/>orientiert ist, kann es keinem Zweifel unterliegen, dass er<lb xml:id="uuid_113e6dfd-0566-497b-97be-8cc0b9cd741e"/>wissen musste und wusste,
+                die von ihm behaupteten Tatsachen:<lb xml:id="uuid_9368f0b3-5597-438d-8a09-da07d1e15172"/>nämlich, dass der <rs ref="#pmb11988" type="person">Privatkläger</rs>
+                auch während des Weltkrieges<lb xml:id="uuid_3a3a3aa8-4aaa-48de-9e8f-2b61c14dd348"/>gewünscht habe, man möge von ihm kein eigenes Wort erwarten,<lb xml:id="uuid_0a4f1f03-0944-4e61-8a66-0e8a5ac2a15c"/>und erst, als der
+                Zusammenbruch der Mittelmächte entschieden<lb xml:id="uuid_aa7ad049-eed0-45ce-8715-84c5862d5a4e"/>war, diese beredter
+                verflucht habe als andere; er schweige<lb xml:id="uuid_d7e5204d-ef2c-4950-a08d-d5032e7e1e72"/>jetzt, weil er Rücksicht zu
+                nehmen habe, etc. – seien unwahr <pb xml:id="D_000189-011-000_p003" facs="#D_000189-011-000-facs001-l002-p003" n="3"/>
+            <lb xml:id="uuid_152262da-da54-4eb2-8abe-b3557bdbc81b"/>und bildeten den Tatbestand
+                der <rs ref="" type="law">§§ 2</rs> und <rs ref="" type="law">3 des Gesetzes vom<lb xml:id="uuid_e4aff5dc-15f2-45a1-814f-cce9c439f198"/>28.VI.1933 Nro. 108 der
                     Gesetzessammlung</rs>. </p>
-            <p xml:id="uuid_6232e253-9105-4c5d-960f-891371e18b9f"><lb xml:id="uuid_c7f3caa8-a476-41ec-b3ca-a8a47671ec71"/>Gegenstand der in dem <rs type="work" ref="#pmbD_000189-001-000">Artikel</rs> fälschlich <lb xml:id="uuid_e18f197d-e0a8-423f-8f19-7de0a8823f43"/>behaupteten Tatsachen sind
-                die dem <rs type="person" ref="#pmb11988">Privatkläger</rs> zugeschriebe<lb xml:id="uuid_057d76c4-a9d0-4c84-bd76-c4a9d06c8470" break="no"/>nen verwerflichen
-                und ehrenrührigen Eigenschaften und Ge<lb xml:id="uuid_1c84098d-e6cd-4ea9-8409-8de6cd3ea904" break="no"/>sinnungen,
-                (nachträgliche Heldenpose eines Feiglings gegen<lb xml:id="uuid_991a6c3c-4f1e-4f84-9a6c-3c4f1eef8447" break="no"/>über der
-                Kriegswelt und die Feigheit in der Aktualität der <lb xml:id="uuid_12752bf9-37a2-4c7b-b52b-f937a26c7bfe"/>Hitlerwelt). </p>
-            <p xml:id="uuid_ee286097-d393-40ca-919a-d1b161ecf9cb"><lb xml:id="uuid_4578b791-8464-4aac-b8b7-9184644aaca1"/>Diese in dem <rs type="work" ref="#pmbD_000189-001-000">Artikel</rs> über den <rs type="person" ref="#pmb11988">Privatankläger</rs>
-                <lb xml:id="uuid_f685122c-c236-4f48-8512-2cc2369f4873"/>angeführten Tatsachen sind
-                geeignet, den moralischen Wert <lb xml:id="uuid_4dee1a60-cb5a-4fa9-ae1a-60cb5a6fa9c4"/>des <rs type="person" ref="#pmb11988">Privatklägers</rs> in den Augen
-                der Leser herabzusetzen. <lb xml:id="uuid_5fb0cff0-10d5-48a7-b0cf-f010d5e8a77c"/><hi rend="spaced">Beweis</hi>: Der inkriminierte <rs type="work" ref="#pmbD_000189-001-000">Artikel</rs> unter Vorbehalt <lb xml:id="uuid_249db076-f077-46b2-9db0-76f077d6b240"/>weiterer Beweise. </p>
-            <p xml:id="uuid_02820c31-e725-4a25-90ab-c0b41ba0a09b"><lb xml:id="uuid_e77590cc-7be6-453e-b590-cc7be6853e1a"/>III. </p>
-            <p xml:id="uuid_775e5590-9e9e-4375-b726-29cc9527d587"><lb xml:id="uuid_bcf3cee3-dac0-4e15-b3ce-e3dac01e15af"/>Ich stelle daher den Antrag
-                auf Einleitung <lb xml:id="uuid_6800f810-2cca-404a-80f8-102cca504a54"/>der
-                Voruntersuchung gegen den unbekannten <rs type="person" ref="#pmb37837">Autor</rs> des
-                in der <lb xml:id="uuid_f84930af-5964-48b2-8930-af596428b2b3"/>Wochenschrift <rs type="work" ref="#pmb55935">„Der Gegenangriff“ Nr. 19 vom 26.XI.1933</rs> ver<lb xml:id="uuid_ae3867f2-f984-475f-b867-f2f984975f6e" break="no"/>öffentlichten
-                Artikels „<rs type="work" ref="#pmbD_000189-001-000">Nachruf auf <rs type="person" ref="#pmb11988">Karl Kraus</rs></rs>“ wegen
-                Vergehens <lb xml:id="uuid_ffa2adb1-a47f-417a-a2ad-b1a47f917a9b"/>nach <rs type="law" ref="">§§ 2</rs> u. <rs type="law" ref="">3 des Gesetzes vom
-                    28.VI.1933 Nr. 108 der Gesetzes<lb xml:id="uuid_15624fde-3005-4d65-a24f-de3005ad65b2" break="no"/>sammlung</rs>, sowie gegen den verantwortlichen Redakteur dieser <lb xml:id="uuid_a79b9b9f-270a-47fc-9b9b-9f270a87fca0"/>Wochenschrift, Dr. <rs type="person" ref="#pmb43657">Marie
-                    Schnierer</rs>, wegen Vernachlässigung der <lb xml:id="uuid_16bfc012-d84e-4cf0-bfc0-12d84e4cf090"/>pflichtgemässen Sorgfalt und
-                behalte mir die Stellung der <lb xml:id="uuid_9ac95b0b-d503-4282-895b-0bd503d28295"/>Strafanträge nach abgeschlossener Voruntersuchung und Er<lb xml:id="uuid_644babe9-ab0b-4b33-8bab-e9ab0b6b338d" break="no"/>ledigung des
-                gesetzlich vorgesehenen Vergleichsverfahrens vor. </p>
-        </body>
-    <back><listPerson><person xml:id="pmb11988">
+         <p xml:id="uuid_913ac184-ec64-487e-bd5b-b91f61112646">
+            <lb xml:id="uuid_84507f57-eb05-4630-89d9-d8096d354dd6"/>Gegenstand der in dem <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-001-000" type="work" subtype="legal-doc">Artikel</rs> fälschlich<lb xml:id="uuid_d96026b9-3cf8-494d-9d08-9795c5c2ffee"/>behaupteten Tatsachen sind die
+            dem <rs ref="#pmb11988" type="person">Privatkläger</rs>
+               zugeschriebe<lb break="no" xml:id="uuid_915140f2-fa50-4c02-8131-a66807b0037a"/>nen
+            verwerflichen und ehrenrührigen Eigenschaften und Ge<lb break="no" xml:id="uuid_c7e335f9-0f12-435d-9785-793c3b24cb55"/>sinnungen, (nachträgliche
+            Heldenpose eines Feiglings gegen<lb break="no" xml:id="uuid_cc65bc10-f129-4c2d-bb62-a05e38c6c352"/>über der Kriegswelt und die
+            Feigheit in der Aktualität der<lb xml:id="uuid_fa455ba3-b2b2-4730-af92-32595c5b103e"/>Hitlerwelt). </p>
+         <p xml:id="uuid_35533708-d1f0-4ad3-86b4-dcf54229000b">
+            <lb xml:id="uuid_42a4517a-08d7-436e-9f19-074f7b44fd99"/>Diese in dem <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-001-000" type="work" subtype="legal-doc">Artikel</rs> über den <rs ref="#pmb11988" type="person">Privatankläger</rs>
+            <lb xml:id="uuid_0ef33c51-c2c5-4dcd-af9f-d267b26f8cf9"/>angeführten Tatsachen sind geeignet, den moralischen Wert<lb xml:id="uuid_d8659e69-9323-44d4-af19-fd552a744606"/>des <rs ref="#pmb11988" type="person">Privatklägers</rs>
+                in den Augen der Leser herabzusetzen.<lb xml:id="uuid_b137c564-f0af-44e4-9151-cf5f332dd67d"/><hi rend="spaced">Beweis</hi>: Der inkriminierte <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-001-000" type="work" subtype="legal-doc">Artikel</rs> unter Vorbehalt<lb xml:id="uuid_8d66babe-e6da-45a6-b44e-b267310ceeaa"/>weiterer Beweise. </p>
+         <p xml:id="uuid_47a5fed3-ace0-43b6-ac2a-a2bae8df922c">
+            <lb xml:id="uuid_003ee380-458e-49a8-8193-a3bddfdcb601"/>III. </p>
+         <p xml:id="uuid_362a0baa-929f-4982-8f7a-e5ef35694b08">
+            <lb xml:id="uuid_46d8933b-b474-447b-9abf-18822e442b15"/>Ich stelle daher den Antrag
+                auf Einleitung<lb xml:id="uuid_b18c34e8-44af-4023-976e-225a084b9e20"/>der
+                Voruntersuchung gegen den unbekannten <rs ref="#pmb37837" type="person">Autor</rs> des
+                in der<lb xml:id="uuid_f44338a1-b9f5-49e9-a96f-0216cb3a1de9"/>Wochenschrift <rs ref="#pmb55935" type="work" subtype="pmb">„Der Gegenangriff“ Nr. 19 vom
+                    26.XI.1933</rs> ver<lb break="no" xml:id="uuid_997b4bb1-86c0-44ce-b06f-267c5ee5cfa2"/>öffentlichten Artikels „<rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-001-000" type="work" subtype="legal-doc">Nachruf auf <rs ref="#pmb11988" type="person">Karl
+                    Kraus</rs></rs>“ wegen Vergehens<lb xml:id="uuid_ca134640-fb90-4ca2-a807-5b27c4c5eb81"/>nach <rs ref="" type="law">§§ 2</rs> u. <rs ref="" type="law">3 des Gesetzes vom 28.VI.1933 Nr. 108 der
+                        Gesetzes<lb break="no" xml:id="uuid_0946076a-664d-45ef-b2ac-50e27bfe804c"/>sammlung</rs>, sowie gegen den verantwortlichen Redakteur dieser<lb xml:id="uuid_994a3929-4b79-43a0-911d-8c353e00bc26"/>Wochenschrift, Dr. <rs ref="#pmb43657" type="person">Marie
+                    Schnierer</rs>, wegen Vernachlässigung der<lb xml:id="uuid_34a79f77-f0c4-4153-b126-711a395747ec"/>pflichtgemässen Sorgfalt und
+                behalte mir die Stellung der<lb xml:id="uuid_a0859b17-29b8-4d1f-80a6-950b2197a6b6"/>Strafanträge nach abgeschlossener Voruntersuchung und Er<lb break="no" xml:id="uuid_c7ad0ed4-d3a6-4551-90d5-fbf363cc0981"/>ledigung des gesetzlich
+                vorgesehenen Vergleichsverfahrens vor. </p>
+      </body>
+   <back><listPerson><person xml:id="pmb43657">
+  <persName>
+      <forename>Marie</forename>
+      <surname>Schnierer</surname>
+  </persName>
+
+
+
+
+  <sex value="female"/>
+
+
+  <occupation key="102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
+
+  <occupation key="173">Redakteur/Redakteurin</occupation>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43657/</idno>
+
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/43657</idno>
+
+
+<affiliation>
+    <term key="1182">arbeitet für</term>
+    <orgName key="pmb37338">Der Gegen-Angriff</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37338/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37338</idno>
+    
+</affiliation>
+
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>187.17 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000187-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.4 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.5 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.8 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.11 Klageentwurf gegen den Autor und gegen die Redakteurin Marie Schnierer (Gegen-Angriff)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.12 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.15 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.16 Entwurf einer Berichtigung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.18 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.20 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.21 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.22 Beschluss (Übersetzung) des Strafbezirksgerichts Prag Abtlg. VI (G.Z. T IV 7/34/6, Jaroslav Pernt)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.23 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.25 Beschwerde (Übersetzung) gegen den Beschluss vom 10. Januar 1934</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.27 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-027-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.28 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.29 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-029-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.32 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-032-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.33 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-033-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.36 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.41 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-041-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.42 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-042-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.43 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-043-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.45 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-045-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.48 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-048-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.50 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-050-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.55 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-055-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.59 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-059-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.60 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-060-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.66 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-066-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.68 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-068-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.69 Klage von Karl Kraus gegen Gegen-Angriff (verantw. Red. Marie Schnierer) wegen § 1130 A.B.G.B.. (Zivilbezirksgericht Prag-Ost)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-069-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.70 Strafanzeige resp. Klage von Karl Kraus gegen Gegen-Angriff (verantw. Red. Marie Schnierer) gemäß §§ 1 und 2 des Ges. vom 28. Juni 1933 (Kreisstrafgericht Prag)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-070-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.75 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-075-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.79 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-079-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.81 Vorbereitender Schriftsatz (Übersetzung) im Stritte wegen Widerrufs nach § 1330 A.B.G.B. (Marie Schnierer)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-081-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.83 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-083-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.85 Entwurf der Äußerung zum vorbereitenden Schriftsatz der beklagten Marie Schnierer im Prozess um Widerruf nach § 1330 A.B.G.B.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-085-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.86 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-086-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.89 Beweisanträge (Übersetzung) Marie Schnierer</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-089-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.90 Entwurf zur Äußerung und zu den Beweisanträgen Maries Schnierers</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-090-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.91 Entwurf zu der Äußerung zu dem Beweisantrage in der Strafangelegenheit Karl Kraus ca: Gegen-Angriff</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-091-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.95 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-095-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.97 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-097-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.99 Urteil (Übersetzung) des Zivilbezirksgerichts Prag-Ost (G.Z. C VIII 1411/34-8, Richter: Georg Bouzek, Verteidiger: Sigmund Stein)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-099-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.100 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-100-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.101 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-101-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.102 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-102-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.103 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-103-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.104 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-104-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.105 Aktennotiz eines Telefonats der Kanzlei Samek mit RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-105-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.106 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-106-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.109 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-109-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.110 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-110-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.112 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-112-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.114 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-114-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.116 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-116-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.124 Konzept der Strafanzeige resp. Klage von Karl Kraus gegen Gegen-Angriff (verantw. Red. Friedrich Kassowitz) gemäß §§ 1 und 2 des Gesetzes über den Schutz der Ehre (Kreisstrafgericht Prag)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-124-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.128 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-128-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.2 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.10 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>195.3 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000195-003-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb37837">
+  <persName>
+      <forename>Otto</forename>
+      <surname>Basil</surname>
+  </persName>
+
+  <persName type="uri_gnd">http://d-nb.info/gnd/116076747</persName>
+
+  <persName type="pseudonym">Arnold</persName>
+
+  <persName type="pseudonym">Camill Schmall</persName>
+
+  <persName type="pseudonym">Markus Hörmann</persName>
+
+  <persName type="uri_wien-geschichte-wiki">https://www.geschichtewiki.wien.gv.at/Otto_Basil</persName>
+
+  <persName type="uri_wikipedia">https://de.wikipedia.org/wiki/Otto_Basil</persName>
+
+
+  <birth>
+    <date when-iso="1901-12-24">24.12.1901</date>
+  
+  
+    <settlement key="pmb50">
+      <placeName type="pref">Wien</placeName>
+    
+      <placeName type="alternative-name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Bécs</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Land Wien</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Vídeň</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Wenia</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Beč</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Vindobona (Wien)</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-name-merge">Vindobona</placeName>
+    
+      <placeName type="alternative-name">Vienna</placeName>
+    
+      <placeName type="legacy-name-merge">Wien?</placeName>
+    
+      <placeName type="alternative-name">Vienna</placeName>
+    
+      <placeName type="legacy-name-merge">Vienna</placeName>
+    
+      <placeName type="legacy-name-merge">Vienna</placeName>
+    
+    
+      <location><geo>48,2066 16,37341</geo></location>
+    
+    
+      <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+      
+      <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+      
+      <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+      
+      <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+      
+      <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+      
+      <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+      
+      <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+      
+      <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+      
+    </settlement>
+    
+       
+  </birth>  
+
+
+  <death>
+    <date when-iso="1983-02-19">19.02.1983</date>
+      
+      
+      <settlement key="pmb50">
+        <placeName type="pref">Wien</placeName>
+        
+        <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+        
+        <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+        
+        <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+        
+        <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+        
+      
+        <location><geo>48,2066 16,37341</geo></location>
+      
+      </settlement>
+      
+      
+  </death>
+
+
+  <sex value="male"/>
+
+
+  <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+
+  <occupation key="100">Kritiker/Kritikerin</occupation>
+
+  <occupation key="173">Redakteur/Redakteurin</occupation>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37837/</idno>
+
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37837</idno>
+
+
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>189.4 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.5 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.8 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.11 Klageentwurf gegen den Autor und gegen die Redakteurin Marie Schnierer (Gegen-Angriff)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.21 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.23 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.25 Beschwerde (Übersetzung) gegen den Beschluss vom 10. Januar 1934</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.27 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-027-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.29 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-029-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb11988">
   <persName>
       <forename>Karl</forename>
       <surname>Kraus</surname>
@@ -206,13 +451,29 @@
     <date when-iso="1874-04-28">28.04.1874</date>
   
   
-      <settlement key="pmb41660">
-        <placeName type="pref">Jičín</placeName>
+    <settlement key="pmb41660">
+      <placeName type="pref">Jičín</placeName>
+    
+      <placeName type="alternative-name">Gitschin</placeName>
+    
+      <placeName type="alternative-name">Jičín</placeName>
+    
+      <placeName type="legacy-name">Jičín</placeName>
+    
+      <placeName type="legacy-name-merge">Jitschin</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4440310-0</placeName>
+    
+    
+      <location><geo>50,43723 15,35162</geo></location>
+    
+    
+      <idno type="URL">http://sws.geonames.org/3074204/</idno>
       
-        <location><geo>50,43723 15,35162</geo></location>
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/41660</idno>
       
-      </settlement>
-      
+    </settlement>
+    
        
   </birth>  
 
@@ -224,6 +485,29 @@
       <settlement key="pmb50">
         <placeName type="pref">Wien</placeName>
         
+        <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+        
+        <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+        
+        <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+        
+        <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+        
+      
         <location><geo>48,2066 16,37341</geo></location>
       
       </settlement>
@@ -303,6 +587,32 @@
     
 </affiliation>
 
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb60573">Karl Kraus-Gesellschaft</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/60573/</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb37159">Jahoda &amp; Siegel (Druckerei)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37159/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37159</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb87755">Max Goldschmidt (Büro für Zeitungsausschnitte)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/87755/</idno>
+    
+</affiliation>
+
 
 <listEvent>
     
@@ -339,131 +649,32 @@
 
 
 
-</person><person xml:id="pmb37837">
-  <persName>
-      <forename>Otto</forename>
-      <surname>Basil</surname>
-  </persName>
+</person></listPerson><listBibl><bibl xml:id="pmb55935">
+  <title type="main">Der Gegen-Angriff, 26.11.1933</title>
 
-  <persName type="uri_gnd">http://d-nb.info/gnd/116076747</persName>
-
-  <persName type="pseudonym">Arnold</persName>
-
-  <persName type="pseudonym">Camill Schmall</persName>
-
-  <persName type="pseudonym">Markus Hörmann</persName>
-
-  <persName type="uri_wien-geschichte-wiki">https://www.geschichtewiki.wien.gv.at/Otto_Basil</persName>
-
-  <persName type="uri_wikipedia">https://de.wikipedia.org/wiki/Otto_Basil</persName>
+  <title type="bibliografische_angabe">Der Gegen-Angriff, Nr. 19, 26.11.1933</title>
 
 
-  <birth>
-    <date when-iso="1901-12-24">24.12.1901</date>
+
+
+<date when-iso="1933-11-26">1933-11-26</date>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/55935/</idno>
+
+
+<note type="collections">
   
+  <bibl type="collections" n="5">legalkraus</bibl>
   
-      <settlement key="pmb50">
-        <placeName type="pref">Wien</placeName>
-      
-        <location><geo>48,2066 16,37341</geo></location>
-      
-      </settlement>
-      
-       
-  </birth>  
-
-
-  <death>
-    <date when-iso="1983-02-19">19.02.1983</date>
-      
-      
-      <settlement key="pmb50">
-        <placeName type="pref">Wien</placeName>
-        
-        <location><geo>48,2066 16,37341</geo></location>
-      
-      </settlement>
-      
-      
-  </death>
-
-
-  <sex value="male"/>
-
-
-  <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
-
-  <occupation key="100">Kritiker/Kritikerin</occupation>
-
-  <occupation key="173">Redakteur/Redakteurin</occupation>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37837/</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37837</idno>
+</note>
 
 
 
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
+  <note type="work_kind">Publikationsorgan &gt;&gt; Zeitschrift &gt;&gt; Wochenschrift</note>
 
 
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Klageentwurf gegen den Autor und gegen den Redakteur [Marie Schnierer] des
-                    Gegen-Angriff</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde (Übersetzung) gegen den Beschluss vom 1934</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-025-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb43657">
-  <persName>
-      <forename>Marie</forename>
-      <surname>Schnierer</surname>
-  </persName>
-
-
-
-
-  <sex value="female"/>
-
-
-  <occupation key="102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
-
-  <occupation key="173">Redakteur/Redakteurin</occupation>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43657/</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/43657</idno>
-
-
-<affiliation>
-    <term key="1182">arbeitet für</term>
-    <orgName key="pmb37338">Der Gegen-Angriff</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37338/</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37338</idno>
-    
-</affiliation>
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Klageentwurf gegen den Autor und gegen den Redakteur [Marie Schnierer] des
-                    Gegen-Angriff</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Entwurf [einer Berichtigung]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss (Übersetzung) des Strafbezirksgerichts Prag Abtlg. VI (G. Z. T IV
-                    7/34/6, Jaroslav Pernt)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde (Übersetzung) gegen den Beschluss vom 1934</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-059-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-060-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-066-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Klage von Karl Kraus gegen Gegen-Angriff (verantw. Red. Marie Schnierer)
-                    wegen § 1130 A.B.G.B.. (Zivilbezirksgericht Prag-Ost)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-069-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Strafanzeige resp. Klage von Karl Kraus gegen Gegen-Angriff (verantw. Red.
-                    Marie Schnierer) gemäß $ und des Ges. vom 1933 (Kreisstrafgericht Prag)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-070-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vorbereitender Schriftsatz (Übersetzung) im Stritte wegen Widerrufs nach §
-                    1330 A.B.G.B. (Marie Schnierer)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-081-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Entwurf der Äußerung zum vorbereitenden Schriftsatz der beklagten Marie
-                    Schnierer im Prozesse um Widerruf nach § 1330 A.B.G.B.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-085-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beweisanträge (Übersetzung) Marie Schnierer</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-089-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Entwurf] zur Äußerung und den Beweisanträge Maries Schnierers</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-090-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Entwurf zu der Äußerung zu dem Beweisantrage in der Strafangelegenheit Karl
-                    Kraus ca: Gegen-Angriff</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-091-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Aktennotiz eines Telefonats der Kanzlei Samek mit RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-105-000.xml"/></linkGrp></event></listEvent></person></listPerson><listOrg><org xml:id="pmb37338">
+<listEvent><event type="mentioned"><p>erwähnt in <title>187.10 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000187-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.2 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.3 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.11 Klageentwurf gegen den Autor und gegen die Redakteurin Marie Schnierer (Gegen-Angriff)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.25 Beschwerde (Übersetzung) gegen den Beschluss vom 10. Januar 1934</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.28 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.33 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-033-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.70 Strafanzeige resp. Klage von Karl Kraus gegen Gegen-Angriff (verantw. Red. Marie Schnierer) gemäß §§ 1 und 2 des Ges. vom 28. Juni 1933 (Kreisstrafgericht Prag)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-070-000.xml"/></linkGrp></event></listEvent></bibl></listBibl><listOrg><org xml:id="pmb37338">
   <orgName>Der Gegen-Angriff</orgName>
 
 
@@ -522,12 +733,5 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Klageentwurf gegen den Autor und gegen den Redakteur [Marie Schnierer] des
-                    Gegen-Angriff</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Entwurf [einer Berichtigung]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss (Übersetzung) des Strafbezirksgerichts Prag Abtlg. VI (G. Z. T IV
-                    7/34/6, Jaroslav Pernt)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde (Übersetzung) gegen den Beschluss vom 1934</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-034-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-037-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-057-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-059-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-060-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-062-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-066-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Klage von Karl Kraus gegen Gegen-Angriff (verantw. Red. Marie Schnierer)
-                    wegen § 1130 A.B.G.B.. (Zivilbezirksgericht Prag-Ost)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-069-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Strafanzeige resp. Klage von Karl Kraus gegen Gegen-Angriff (verantw. Red.
-                    Marie Schnierer) gemäß $ und des Ges. vom 1933 (Kreisstrafgericht Prag)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-070-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Entwurf der Äußerung zum vorbereitenden Schriftsatz der beklagten Marie
-                    Schnierer im Prozesse um Widerruf nach § 1330 A.B.G.B.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-085-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-088-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Entwurf] zur Äußerung und den Beweisanträge Maries Schnierers</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-090-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Entwurf zu der Äußerung zu dem Beweisantrage in der Strafangelegenheit Karl
-                    Kraus ca: Gegen-Angriff</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-091-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Aktennotiz eines Telefonats der Kanzlei Samek mit RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-105-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Übersetzung des Schriftsatzes der Beklagten im Prozesse Karl Kraus ca: Aufruf
-                    (Egon Butschowitz und Friedrich Bill)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000195-025-000.xml"/></linkGrp></event></listEvent></org></listOrg></back></text>
+<listEvent><event type="mentioned"><p>erwähnt in <title>187.10 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000187-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>187.13 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000187-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>187.17 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000187-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.2 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.3 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.4 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.5 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.7 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.8 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.9 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.10 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.11 Klageentwurf gegen den Autor und gegen die Redakteurin Marie Schnierer (Gegen-Angriff)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.12 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.13 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.14 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.15 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.16 Entwurf einer Berichtigung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.17 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.18 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.19 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.20 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.21 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.22 Beschluss (Übersetzung) des Strafbezirksgerichts Prag Abtlg. VI (G.Z. T IV 7/34/6, Jaroslav Pernt)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.23 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.25 Beschwerde (Übersetzung) gegen den Beschluss vom 10. Januar 1934</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.26 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-026-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.27 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-027-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.28 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.29 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-029-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.30 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-030-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.32 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-032-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.34 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-034-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.35 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-035-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.36 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.37 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-037-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.39 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.40 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-040-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.41 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-041-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.42 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-042-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.43 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-043-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.44 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-044-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.45 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-045-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.46 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-046-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.47 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-047-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.48 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-048-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.49 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-049-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.50 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-050-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.51 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-051-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.52 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-052-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.53 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-053-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.54 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-054-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.55 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-055-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.57 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-057-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.58 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-058-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.59 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-059-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.60 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-060-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.61 Brief Kanzlei Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-061-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.62 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-062-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.63 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-063-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.64 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-064-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.66 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-066-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.67 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-067-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.68 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-068-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.69 Klage von Karl Kraus gegen Gegen-Angriff (verantw. Red. Marie Schnierer) wegen § 1130 A.B.G.B.. (Zivilbezirksgericht Prag-Ost)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-069-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.70 Strafanzeige resp. Klage von Karl Kraus gegen Gegen-Angriff (verantw. Red. Marie Schnierer) gemäß §§ 1 und 2 des Ges. vom 28. Juni 1933 (Kreisstrafgericht Prag)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-070-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.71 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-071-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.72 Brief RA Johann Turnovsky an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-072-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.73 Brief RA Johann Turnovsky an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-073-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.74 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-074-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.75 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-075-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.76 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-076-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.77 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-077-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.78 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-078-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.79 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-079-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.80 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-080-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.82 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-082-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.83 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-083-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.84 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-084-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.85 Entwurf der Äußerung zum vorbereitenden Schriftsatz der beklagten Marie Schnierer im Prozess um Widerruf nach § 1330 A.B.G.B.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-085-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.86 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-086-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.87 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-087-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.88 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-088-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.90 Entwurf zur Äußerung und zu den Beweisanträgen Maries Schnierers</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-090-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.91 Entwurf zu der Äußerung zu dem Beweisantrage in der Strafangelegenheit Karl Kraus ca: Gegen-Angriff</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-091-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.92 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-092-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.93 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-093-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.94 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-094-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.95 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-095-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.96 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-096-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.97 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-097-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.98 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-098-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.99 Urteil (Übersetzung) des Zivilbezirksgerichts Prag-Ost (G.Z. C VIII 1411/34-8, Richter: Georg Bouzek, Verteidiger: Sigmund Stein)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-099-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.100 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-100-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.101 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-101-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.102 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-102-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.103 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-103-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.105 Aktennotiz eines Telefonats der Kanzlei Samek mit RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-105-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.106 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-106-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.108 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-108-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.109 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-109-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.110 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-110-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.111 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-111-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.112 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-112-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.114 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-114-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.115 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-115-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.116 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-116-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.117 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-117-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.119 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-119-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.120 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-120-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.121 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-121-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.122 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-122-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.123 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-123-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.124 Konzept der Strafanzeige resp. Klage von Karl Kraus gegen Gegen-Angriff (verantw. Red. Friedrich Kassowitz) gemäß §§ 1 und 2 des Gesetzes über den Schutz der Ehre (Kreisstrafgericht Prag)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-124-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.125 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-125-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.126 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-126-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.127 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-127-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.129 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-129-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.130 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-130-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.131 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-131-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>192.13 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000192-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>192.18 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000192-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>192.19 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000192-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.2 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.3 Brief RA Johann Turnovsky an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.4 Brief RA Johann Turnovsky an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.9 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.10 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.22 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.31 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-031-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>195.3 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000195-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>195.5 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000195-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>195.11 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000195-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>195.25 Übersetzung des Schriftsatzes der Beklagten im Prozesse Karl Kraus ca: Aufruf (Egon Butschowitz und Friedrich Bill)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000195-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>195.39 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000195-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>196.70 Brief RA Felix Gallia an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-070-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>196.84 Äußerung des Privatklägers zum Schriftsatz der Angeklagten vom 18. Februar 1936</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-084-000.xml"/></linkGrp></event></listEvent></org></listOrg></back></text>
 </TEI>

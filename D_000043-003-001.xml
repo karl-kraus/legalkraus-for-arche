@@ -1,114 +1,108 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000043-003-001.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000043-003-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000043-004-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Brief Paul Schrecker an Samek</title>
-                <editor ref=""/>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000043-006-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2131</idno>
-                <idno type="ID" subtype="transkribus">191755</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref=""/>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000043-003-001-wit01" facs=""/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation><date type="sortDate" subtype="produced" when-iso=""/>
-                <date source="krausonline">30.05.1927</date>
-            </creation>
-            <langUsage><language ident="de">Deutsch</language></langUsage>
-            <textClass>
-                <keywords>
-                    <term>Brief</term>
-                </keywords>
-                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.K.BRF</classCode>
-            </textClass>
-            <particDesc/>
-            <correspDesc>
-                <correspAction type="sent">
-                    <rs type="person" ref="">Paul Schrecker</rs>
-                </correspAction>
-                <correspAction type="received">
-                    <rs type="person" ref="">Oskar Samek</rs>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-02-11T09:00:51.331Z" who="#IB">created by API</change>
-            <change when-iso="2020-02-11T09:06:10.235Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-11T09:06:11.033Z" who="#JM">Checked Images Wienbibliothek</change>
-        <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of Transkribus Document 191755.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000146_8.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548830/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000147_13.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548831/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="" n="1"/>
-            <lb xml:id="uuid_6c4aac98-0098-4ea7-8aac-9800984ea7fa"/>BERLIN W 30, DEN 30. Mai 1927
-<lb xml:id="uuid_1e667b1d-abe8-43ea-a67b-1dabe8b3ea21"/>Sehr geehrter Herr Doktor!
-<lb xml:id="uuid_ce9fd4db-758b-42e9-9fd4-db758bc2e9e8"/>Obwohl ich vermute, dass es Ihnen bereits bekannt
-<lb xml:id="uuid_6b61cb5f-77db-4f72-a1cb-5f77dbdf7293"/>ist, will ich Ihnen doch jedenfalls – mit der Bitte um Weitergabe an Herrn
-<lb xml:id="uuid_cd1d86b1-bf82-4566-9d86-b1bf82056604"/>K. – mitteilen, dass Tschuppik in allernächster Zeit die Redaktion des
-<lb xml:id="uuid_287c6051-30b2-478c-bc60-5130b2778c64"/>„Montag Morgen“ und des „Tagebuch“, die beide Stephan Grossmann herausgibt,
-<lb xml:id="uuid_0f8c8932-9c9e-4f1b-8c89-329c9e4f1bb7"/>übernehmen wird.
-<lb xml:id="uuid_a45cbccc-fcd2-4eff-9cbc-ccfcd2ceff2d"/>MIt besten Grüssen
-<lb xml:id="uuid_47592a98-a216-4d17-992a-98a2168d1785"/>Ihr ergebener
-<lb xml:id="uuid_bf06abb4-cc53-4553-86ab-b4cc5355537a"/>[Unterschrift] Dr. Schrecker
-<pb facs="" n="2"/>
-            <lb xml:id="uuid_bf98b0e8-f1cb-4a99-98b0-e8f1cb0a99fc"/>Kraus – „Stunde“
-<lb xml:id="uuid_2ef5a67a-c323-4061-b5a6-7ac323c06148"/>1. Juni 1927
-</body>
-    <back/></text>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000043-004-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000043-003-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000043-003-001.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>43.3 Brief Paul Schrecker an Samek</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000043-006-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2131</idno>
+            <idno subtype="transkribus" type="ID">191755</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000043" type="collection">Korrespondenz mit (betr. die Verbindungen Békessys zu Camillo Castiglioni)
+               </title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="none" xml:id="D_000043-003-001-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000043-003-001-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date/>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000043-003-001-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000043-003-001-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-02-11T09:00:51.331Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-11T09:06:10.235Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-02-11T09:06:11.033Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 191755. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548830/full/full/0/default.jpg"/>
+      </surface>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548831/full/full/0/default.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

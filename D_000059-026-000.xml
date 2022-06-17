@@ -1,113 +1,123 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000059-026-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000059-025-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000059-027-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Brief Ernst Spitz an Samek</title>
-                <editor ref=""/>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000059-026-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2401</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000059">Akten und Korrespondenzen zu den Prozessen Die Stunde ca. Ernst Spitz</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000059-026-000-wit01" facs=""/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation><date type="sortDate" subtype="produced" when-iso=""/>
-                <date source="krausonline">21.10.1926</date>
-            </creation>
-            <langUsage><language ident="de">Deutsch</language></langUsage>
-            <textClass>
-                <keywords>
-                    <term>Brief</term>
-                </keywords>
-                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.K.BRF</classCode>
-            </textClass>
-            <particDesc/>
-            <correspDesc>
-                <correspAction type="sent">
-                    <rs type="person" ref="">Ernst Spitz</rs>
-                </correspAction>
-                <correspAction type="received">
-                    <rs type="person" ref="">Oskar Samek</rs>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-02-17T09:22:20.627Z" who="#IB">created by API</change>
-            <change when-iso="2020-02-17T09:44:26.108Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-17T09:44:27.531Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-17T09:44:29.315Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-17T09:44:31.235Z" who="#JM">Checked Images Wienbibliothek</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000313_16.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551515/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-4/59_61/00000313.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000314_14.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551516/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-4/59_61/00000314.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000315_17.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551517/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-4/59_61/00000315.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000316_13.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551518/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-4/59_61/00000316.jpg" source="scans"/>
-        </surface>
-    </facsimile>
-    <text>
-        <div xml:id="uuid_1228b40f-ab34-4d6a-a8b4-0fab349d6ab8" part="N" org="uniform" sample="complete">
-            <p xml:id="uuid_1f95fcec-540a-4587-95fc-ec540ad58796">Ich erhielt erst Dienstag abends das Heft der „Fackel“ No. 735–742 und entnahm aus Seite 156 (Glosse) die Adresse 20, Avenue Victor Hugo. Meine Erkundigungen ergaben, dass Bekessy mit seiner Frau tatsächlich im Hotel Victor Hugo, 20 Avenue Victor Hugo, ein Appartement bewohnt hat„ bevor er in das Sanatorium MAISON DE SANTE VELPEAU, 7 rue de la Chaise, PARIS VII., übersiedelt ist. Durch Erhebungen, die ich, um jeden Zweifel am Ergebnis auszuschliessen, sofort von drei verschiedenen Leuten anstellen liess, gelangte ich bereits nach einigen Stunden zu dem Resultat, das ich Ihnen in meinem ersten Telegramm mitgeteilt habe. Ich bediente mich bei diesen Erhebungen der Kriegslist Anrufe im Bureau de Renseignement des Sanatoriums und bei Frau Bekessy zu veranstalten, wobei sich die Anrufer abwechselnd als Wiener Freunde und Pariser Geschäftsleute ausgeben, die mit Herrn Bekessy dringend in Verbindung zu treten wünschen. Einer meiner Mittelsmänner, der sich als französischer Kaufmann ausgab, war sogar sosehr besorgt, durch eine Aufnahme von Geschäftsverhandlungen mit Herrn Bekessy dessen Gesundheit zu gefährden, dass er noch am selben Abend persönlich im Büro des Sanatoriums vorsprach, um zu erfahren‚ ob Bekessy über Tags ausser Bett sei, ob sein Leiden ihn nicht verhindere geschäftliche Unterredungen zu führen usw. Aus sämtlichen Auskünften ging eindeutig hervor, dass Bekessy, der vom Auskunftsbüro als leichter Patient bezeichnet wurde, den ganzen Tag über,</p> <p xml:id="uuid_24ac6d0e-37aa-4b4c-ac6d-0e37aa5b4ce1">hauptsächlich aber nachmittags, Besuche empfängt, Unterredungen führt und ausser Bett ist. Gemäss Sanatoriumsordnung muss er sich aber gegen 8 Uhr abends niederlegen. Gestern Nachmittag gab das Büro des Sanatoriums den Bescheid, dass Bekessy sich einer leichten Operation unterzogen hätte, bettlägerig sei, dass aber vom ärztlichen Standpunkt kurzen Besuchen nichts im Wege steht. Die mir dadurch bekanntgewordene Tatsache der gegenwärtigen Bettlägerigkeit Bekessys nützte ich dazu aus, durch einen Ungarn, der sich geschickt als alter Bekannter Bekessys aus Budapest ausgab, ein Gespräch mit Frau Bekessy zu provozieren, dessen Ergebnis ich Ihnen sogleich nach Empfang Ihres Telegrammes heute nachmittags übermittelt habe. Ich hoffe, dass Sie mein heutiges Telegramm noch vor Kanzleischluss erreichen wird. Meinem Mittelsmann gelang es, bei Frau Bekessy Vertrauen zu erwecken und ich habe den Eindruck, dass sie verhältnismässig aufrichtig mit ihm gesprochen hat. Ihren Mitteilungen, deren Kern Ihnen aus meiner Depesche bekannt ist, ist auch zu entnehmen, dass Herr Bekessy in längstens drei Wochen das Sanatorium zu verlassen beabsichtigt. Selbstverständlich ist es möglich, dass selbst diese Mitteilungen über das Befinden Bekessys in ungünstigem Sinne übertrieben sind, doch dürfte nun einwandfrei klargestellt sein, dass an dem gesundheitlichen Aufkommen Bekessys viel weniger zu zweifeln ist als an seinem geschäftlichen. Ich bemühe mich seit drei Tagen mit zweifelhaftem Erfolg einen zuverlässlichen Mittelsmann zu finden, der geeignet und fähig wäre sich bei Bekessy selbst Eintritt zu verschaffen. Es ist möglich, dass es mir gelingt, aber auch möglich, dass es mir misslingt. Erfahre ich Interessantes, so gebe ich Ihnen sofort Nachricht. Inzwischen hoffe ich aus Ihrer geschätzten Rückäussserung entnehmen zu können, ob Ihnen das bisherige Ergebnis genügt und welche spezielle Details Sie zu erfahren wünschen. </p>
-        </div>
-    <back/></text>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000059-027-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000059-025-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000059-026-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>59.26 Brief Ernst Spitz an Samek</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000059-026-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2401</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000059" type="collection">Akten
+                    und Korrespondenzen zu den Prozessen Die Stunde ca. Ernst Spitz</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="none" xml:id="D_000059-026-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000059-026-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date/>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         
+         <textClass>
+            <keywords>
+               <term source="D_000059-026-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000059-026-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-02-17T09:22:20.627Z" who="#IB">created by
+                API</change>
+         <change status="draft" when-iso="2020-02-17T09:44:26.108Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-17T09:44:27.531Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-17T09:44:29.315Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-17T09:44:31.235Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551515/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551516/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551517/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551518/full/full/0/default.jpg"/>
+         
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

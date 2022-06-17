@@ -1,0 +1,3442 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-title" content="Institutionenregister" />
+      <link rel="profile" href="http://gmpg.org/xfn/11" />
+      <title>Institutionenregister</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
+      <link rel="stylesheet" href="css/style.css" type="text/css" />
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/openseadragon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script></head>
+   <body class="page">
+      <div class="hfeed site" id="page">
+         <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
+               <div class="container"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="dist/fundament/images/fundament_logo.svg" class="img-fluid" title="Legal Kraus" alt="Legal Kraus" itemprop="logo" /></a><a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="Legal Kraus" itemprop="url">Legal Kraus</a><span style="margin-left:-1.7em;" class="badge bg-light text-dark">in development</span><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                     <ul id="main-menu" class="navbar-nav">
+                        <li class="nav-item dropdown"><a title="Papers" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projekt <span class="caret"></span></a><ul class=" dropdown-menu" role="menu">
+                              <li class="nav-item dropdown-submenu"><a title="Auden-Musulin Correspondence" href="about.html" class="nav-link">Über das Projekt</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a title="Indexes" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Register <span class="caret"></span></a><ul class=" dropdown-menu" role="menu">
+                              <li class="nav-item dropdown-submenu"><a title="Personen" href="listperson.html" class="nav-link">Personen</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Orte" href="listplace.html" class="nav-link">Orte</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Orte" href="listorg.html" class="nav-link">Institutionen</a></li>
+                              <div class="dropdown-divider"></div>
+                              <li class="nav-item dropdown-submenu"><a title="GND-BEACON" href="beacon.txt" class="nav-link">GND-BEACON</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item"><a title="Editionseinheiten" href="toc.html" class="nav-link">Editionseinheiten</a></li>
+                     </ul>
+                     <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Search" value="" autocomplete="off" /><button type="submit" class="navbar-search-icon"><i data-feather="search"></i></button></form>
+                  </div>
+               </div>
+            </nav>
+         </div>
+         <div class="container-fluid">
+            <div class="card">
+               <div class="card-header">
+                  <h1>Institutionenregister</h1>
+               </div>
+               <div class="card-body">
+                  <table class="table table-striped display" id="tocTable" style="width:100%">
+                     <thead>
+                        <tr>
+                           <th scope="col">Name</th>
+                           <th scope="col">ID</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>Gerichtskasse Berlin-Mitte</td>
+                           <td><a href="pmb36811.html">pmb36811</a></td>
+                        </tr>
+                        <tr>
+                           <td>Staatsanwaltschaft</td>
+                           <td><a href="pmb36869.html">pmb36869</a></td>
+                        </tr>
+                        <tr>
+                           <td>Strafkammer Nürnberg</td>
+                           <td><a href="pmb36879.html">pmb36879</a></td>
+                        </tr>
+                        <tr>
+                           <td>Advokatenkammer für Böhmen</td>
+                           <td><a href="pmb36887.html">pmb36887</a></td>
+                        </tr>
+                        <tr>
+                           <td>Alpine Montangesellschaft</td>
+                           <td><a href="pmb36901.html">pmb36901</a></td>
+                        </tr>
+                        <tr>
+                           <td>Arbeiterkammer Wien</td>
+                           <td><a href="pmb36918.html">pmb36918</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wiener Rechtsanwaltskammer</td>
+                           <td><a href="pmb36927.html">pmb36927</a></td>
+                        </tr>
+                        <tr>
+                           <td>Israelitische Kultusgemeinde Wien</td>
+                           <td><a href="pmb36929.html">pmb36929</a></td>
+                        </tr>
+                        <tr>
+                           <td>Budapester Notariatskammer</td>
+                           <td><a href="pmb36948.html">pmb36948</a></td>
+                        </tr>
+                        <tr>
+                           <td>Vereinigung der deutschen Bühnenverleger</td>
+                           <td><a href="pmb36953.html">pmb36953</a></td>
+                        </tr>
+                        <tr>
+                           <td>Christlicher Bau-und Steinarbeiterverband</td>
+                           <td><a href="pmb36980.html">pmb36980</a></td>
+                        </tr>
+                        <tr>
+                           <td>Tschechoslowakisches Pressbüro</td>
+                           <td><a href="pmb36981.html">pmb36981</a></td>
+                        </tr>
+                        <tr>
+                           <td>Christlicher Metallarbeiterverband</td>
+                           <td><a href="pmb36990.html">pmb36990</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsch-österreichischer Jugendbund</td>
+                           <td><a href="pmb37013.html">pmb37013</a></td>
+                        </tr>
+                        <tr>
+                           <td>Telegraphendirektion für Wien, Niederösterreich und Burgenland</td>
+                           <td><a href="pmb37025.html">pmb37025</a></td>
+                        </tr>
+                        <tr>
+                           <td>Stadthauptkasse Frankfurt am Main</td>
+                           <td><a href="pmb37037.html">pmb37037</a></td>
+                        </tr>
+                        <tr>
+                           <td>Scholze (Klavierfabrik)</td>
+                           <td><a href="pmb37064.html">pmb37064</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutschlandsberger  Papierfabrik</td>
+                           <td><a href="pmb37082.html">pmb37082</a></td>
+                        </tr>
+                        <tr>
+                           <td>Engelsbergbund</td>
+                           <td><a href="pmb37096.html">pmb37096</a></td>
+                        </tr>
+                        <tr>
+                           <td>Erste Prager Krankenversicherungsgesellschaft</td>
+                           <td><a href="pmb37099.html">pmb37099</a></td>
+                        </tr>
+                        <tr>
+                           <td>August Förster (Flügel- und Pianofabriken)</td>
+                           <td><a href="pmb37105.html">pmb37105</a></td>
+                        </tr>
+                        <tr>
+                           <td>Rechtsanwaltskammer Hamm</td>
+                           <td><a href="pmb37134.html">pmb37134</a></td>
+                        </tr>
+                        <tr>
+                           <td>Generalintendanz der Preußischen Staatstheater</td>
+                           <td><a href="pmb37135.html">pmb37135</a></td>
+                        </tr>
+                        <tr>
+                           <td>Rechtsanwaltskammer Dortmund</td>
+                           <td><a href="pmb37141.html">pmb37141</a></td>
+                        </tr>
+                        <tr>
+                           <td>Rechtsanwaltskammer Berlin</td>
+                           <td><a href="pmb37145.html">pmb37145</a></td>
+                        </tr>
+                        <tr>
+                           <td>Eduard Hölzel (Geographisches Institut)</td>
+                           <td><a href="pmb37151.html">pmb37151</a></td>
+                        </tr>
+                        <tr>
+                           <td>Postdirektion für Wien, Niederösterreich und Burgenland</td>
+                           <td><a href="pmb37154.html">pmb37154</a></td>
+                        </tr>
+                        <tr>
+                           <td>Österreichisches Generalkonsulat USA</td>
+                           <td><a href="pmb37165.html">pmb37165</a></td>
+                        </tr>
+                        <tr>
+                           <td>Österreichisches Generalkonsulat Athen</td>
+                           <td><a href="pmb37168.html">pmb37168</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kammer für Handel und Gewerbe Oberösterreich</td>
+                           <td><a href="pmb37171.html">pmb37171</a></td>
+                        </tr>
+                        <tr>
+                           <td>Österreichische Credit-Anstalt</td>
+                           <td><a href="pmb37174.html">pmb37174</a></td>
+                        </tr>
+                        <tr>
+                           <td>Organisation der Wiener Journalisten</td>
+                           <td><a href="pmb37180.html">pmb37180</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kampfausschuß gegen die Zensur</td>
+                           <td><a href="pmb37185.html">pmb37185</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oil Trade Association of New York</td>
+                           <td><a href="pmb37186.html">pmb37186</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oberstadthauptmann Budapest</td>
+                           <td><a href="pmb37189.html">pmb37189</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oberlaender Generalvertretung</td>
+                           <td><a href="pmb37193.html">pmb37193</a></td>
+                        </tr>
+                        <tr>
+                           <td>K. L. Köhler (Buchvertrieb)</td>
+                           <td><a href="pmb37202.html">pmb37202</a></td>
+                        </tr>
+                        <tr>
+                           <td>Niederösterreichische Rechtsanwaltskammer</td>
+                           <td><a href="pmb37206.html">pmb37206</a></td>
+                        </tr>
+                        <tr>
+                           <td>Mödendorfer</td>
+                           <td><a href="pmb37225.html">pmb37225</a></td>
+                        </tr>
+                        <tr>
+                           <td>Laconia Institut</td>
+                           <td><a href="pmb37233.html">pmb37233</a></td>
+                        </tr>
+                        <tr>
+                           <td>Mediterranean (Reisebüro)</td>
+                           <td><a href="pmb37235.html">pmb37235</a></td>
+                        </tr>
+                        <tr>
+                           <td>Allgemeines österr. israel. Taubstummeninstitut</td>
+                           <td><a href="pmb37289.html">pmb37289</a></td>
+                        </tr>
+                        <tr>
+                           <td>Altersfrauenheim Meidling</td>
+                           <td><a href="pmb37293.html">pmb37293</a></td>
+                        </tr>
+                        <tr>
+                           <td>Altpensionisten der Bundestheater</td>
+                           <td><a href="pmb37296.html">pmb37296</a></td>
+                        </tr>
+                        <tr>
+                           <td>Altrathaussaal</td>
+                           <td><a href="pmb37301.html">pmb37301</a></td>
+                        </tr>
+                        <tr>
+                           <td>Amphithéatre Descartes, Sorbonne</td>
+                           <td><a href="pmb37304.html">pmb37304</a></td>
+                        </tr>
+                        <tr>
+                           <td>Amphithéâtre Michelet, Sorbonne</td>
+                           <td><a href="pmb37314.html">pmb37314</a></td>
+                        </tr>
+                        <tr>
+                           <td>Csütürtök</td>
+                           <td><a href="pmb37323.html">pmb37323</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hétföi Naplo</td>
+                           <td><a href="pmb37349.html">pmb37349</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hetiujság</td>
+                           <td><a href="pmb37351.html">pmb37351</a></td>
+                        </tr>
+                        <tr>
+                           <td>Arbeitslose jugendliche Arbeiter</td>
+                           <td><a href="pmb37355.html">pmb37355</a></td>
+                        </tr>
+                        <tr>
+                           <td>Architektenhaus Berlin</td>
+                           <td><a href="pmb37357.html">pmb37357</a></td>
+                        </tr>
+                        <tr>
+                           <td>Armen des XII. Bezirks</td>
+                           <td><a href="pmb37360.html">pmb37360</a></td>
+                        </tr>
+                        <tr>
+                           <td>Aula des Gymnasiums</td>
+                           <td><a href="pmb37364.html">pmb37364</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bechstein-Saal</td>
+                           <td><a href="pmb37372.html">pmb37372</a></td>
+                        </tr>
+                        <tr>
+                           <td>Beethoven-Saal</td>
+                           <td><a href="pmb37374.html">pmb37374</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bereitschaft</td>
+                           <td><a href="pmb37376.html">pmb37376</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bewohner der Häuser XX. Leystraße 69 und Rudolfsheim, Beckmanngasse 66</td>
+                           <td><a href="pmb37378.html">pmb37378</a></td>
+                        </tr>
+                        <tr>
+                           <td>Böhmisches Herz</td>
+                           <td><a href="pmb37396.html">pmb37396</a></td>
+                        </tr>
+                        <tr>
+                           <td>Brahms-Saal</td>
+                           <td><a href="pmb37399.html">pmb37399</a></td>
+                        </tr>
+                        <tr>
+                           <td>Breitkopf-Saal</td>
+                           <td><a href="pmb37403.html">pmb37403</a></td>
+                        </tr>
+                        <tr>
+                           <td>Central-Saal</td>
+                           <td><a href="pmb37430.html">pmb37430</a></td>
+                        </tr>
+                        <tr>
+                           <td>Choralionsaal</td>
+                           <td><a href="pmb37435.html">pmb37435</a></td>
+                        </tr>
+                        <tr>
+                           <td>Curio-Haus</td>
+                           <td><a href="pmb37437.html">pmb37437</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsches Haus Brünn</td>
+                           <td><a href="pmb37445.html">pmb37445</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsches Haus Czernowitz</td>
+                           <td><a href="pmb37448.html">pmb37448</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsches Haus Mährisch-Ostrau</td>
+                           <td><a href="pmb37454.html">pmb37454</a></td>
+                        </tr>
+                        <tr>
+                           <td>Drei Hahnen-Saal</td>
+                           <td><a href="pmb37465.html">pmb37465</a></td>
+                        </tr>
+                        <tr>
+                           <td>Ehemaliges Militärkasino</td>
+                           <td><a href="pmb37470.html">pmb37470</a></td>
+                        </tr>
+                        <tr>
+                           <td>Ehrbarsaal</td>
+                           <td><a href="pmb37472.html">pmb37472</a></td>
+                        </tr>
+                        <tr>
+                           <td>Elisabeth-Heim</td>
+                           <td><a href="pmb37480.html">pmb37480</a></td>
+                        </tr>
+                        <tr>
+                           <td>Familie Karl Krist</td>
+                           <td><a href="pmb37490.html">pmb37490</a></td>
+                        </tr>
+                        <tr>
+                           <td>Ostrauer Zeitung</td>
+                           <td><a href="pmb37492.html">pmb37492</a></td>
+                        </tr>
+                        <tr>
+                           <td>Ferialfond der Brünner Bühnenmitglieder</td>
+                           <td><a href="pmb37493.html">pmb37493</a></td>
+                        </tr>
+                        <tr>
+                           <td>Ferienheim/Kinderhort Teplitz-Schönau</td>
+                           <td><a href="pmb37495.html">pmb37495</a></td>
+                        </tr>
+                        <tr>
+                           <td>Festsaal der Neuen Hofburg</td>
+                           <td><a href="pmb37497.html">pmb37497</a></td>
+                        </tr>
+                        <tr>
+                           <td>Festsaal des Ingenieur- und Architektenvereines</td>
+                           <td><a href="pmb37499.html">pmb37499</a></td>
+                        </tr>
+                        <tr>
+                           <td>Festsaal des Kaufmännischen Vereinshauses</td>
+                           <td><a href="pmb37502.html">pmb37502</a></td>
+                        </tr>
+                        <tr>
+                           <td>Panorama</td>
+                           <td><a href="pmb37504.html">pmb37504</a></td>
+                        </tr>
+                        <tr>
+                           <td>Festsaal des N.-Ö. Gewerbevereines</td>
+                           <td><a href="pmb37505.html">pmb37505</a></td>
+                        </tr>
+                        <tr>
+                           <td>A Reggel</td>
+                           <td><a href="pmb37524.html">pmb37524</a></td>
+                        </tr>
+                        <tr>
+                           <td>Tribunal</td>
+                           <td><a href="pmb37548.html">pmb37548</a></td>
+                        </tr>
+                        <tr>
+                           <td>Feurich-Saal</td>
+                           <td><a href="pmb37575.html">pmb37575</a></td>
+                        </tr>
+                        <tr>
+                           <td>Frank Wedekind-Gedenkfonds</td>
+                           <td><a href="pmb37581.html">pmb37581</a></td>
+                        </tr>
+                        <tr>
+                           <td>Frankfurter Hof</td>
+                           <td><a href="pmb37582.html">pmb37582</a></td>
+                        </tr>
+                        <tr>
+                           <td>Gefangene in Beresowka</td>
+                           <td><a href="pmb37589.html">pmb37589</a></td>
+                        </tr>
+                        <tr>
+                           <td>Geling-Saal</td>
+                           <td><a href="pmb37590.html">pmb37590</a></td>
+                        </tr>
+                        <tr>
+                           <td>Großer Saal des Museums</td>
+                           <td><a href="pmb37600.html">pmb37600</a></td>
+                        </tr>
+                        <tr>
+                           <td>Großer Architektensaal</td>
+                           <td><a href="pmb37602.html">pmb37602</a></td>
+                        </tr>
+                        <tr>
+                           <td>Großer Kurhaussaal</td>
+                           <td><a href="pmb37604.html">pmb37604</a></td>
+                        </tr>
+                        <tr>
+                           <td>Großer Saal des Volksheims</td>
+                           <td><a href="pmb37608.html">pmb37608</a></td>
+                        </tr>
+                        <tr>
+                           <td>Großer Saal, Universität Hamburg</td>
+                           <td><a href="pmb37610.html">pmb37610</a></td>
+                        </tr>
+                        <tr>
+                           <td>Grotrian-Steinweg-Saal</td>
+                           <td><a href="pmb37612.html">pmb37612</a></td>
+                        </tr>
+                        <tr>
+                           <td>Harmonium-Saal</td>
+                           <td><a href="pmb37616.html">pmb37616</a></td>
+                        </tr>
+                        <tr>
+                           <td>Heilanstalt Alland</td>
+                           <td><a href="pmb37621.html">pmb37621</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hietzinger Bezirksbücherei</td>
+                           <td><a href="pmb37625.html">pmb37625</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hinterbliebene des Lokomotivführers Janowsky</td>
+                           <td><a href="pmb37631.html">pmb37631</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hinterbliebene Kurt Eisners</td>
+                           <td><a href="pmb37633.html">pmb37633</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hörsaal des Anatomischen Instituts</td>
+                           <td><a href="pmb37641.html">pmb37641</a></td>
+                        </tr>
+                        <tr>
+                           <td>Internierte in Ungarn</td>
+                           <td><a href="pmb37649.html">pmb37649</a></td>
+                        </tr>
+                        <tr>
+                           <td>Zentral-Saal</td>
+                           <td><a href="pmb37663.html">pmb37663</a></td>
+                        </tr>
+                        <tr>
+                           <td>Zur Errichtung eines Grabmals für Georg Trakl</td>
+                           <td><a href="pmb37671.html">pmb37671</a></td>
+                        </tr>
+                        <tr>
+                           <td>Waldek-Saal</td>
+                           <td><a href="pmb37672.html">pmb37672</a></td>
+                        </tr>
+                        <tr>
+                           <td>Weigl’s Antoniussaal</td>
+                           <td><a href="pmb37675.html">pmb37675</a></td>
+                        </tr>
+                        <tr>
+                           <td>Weigl’s Dreherpark</td>
+                           <td><a href="pmb37678.html">pmb37678</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wiener Konzerthaus</td>
+                           <td><a href="pmb37687.html">pmb37687</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wilhelmsburg</td>
+                           <td><a href="pmb37689.html">pmb37689</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kaiserhofsaal</td>
+                           <td><a href="pmb37698.html">pmb37698</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wohlfahrtszwecke des Bundesrealgymnasiums in Wien, I.</td>
+                           <td><a href="pmb37699.html">pmb37699</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verbandheim Mariahilf</td>
+                           <td><a href="pmb37702.html">pmb37702</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kammermusiksaal</td>
+                           <td><a href="pmb37708.html">pmb37708</a></td>
+                        </tr>
+                        <tr>
+                           <td>Olleschauer Zigarettenpapier- und Hülsenfabrik</td>
+                           <td><a href="pmb37747.html">pmb37747</a></td>
+                        </tr>
+                        <tr>
+                           <td>Präsidium der vereinigten vaterländischen Verbände</td>
+                           <td><a href="pmb37751.html">pmb37751</a></td>
+                        </tr>
+                        <tr>
+                           <td>Advokatenkammer Budapest</td>
+                           <td><a href="pmb52076.html">pmb52076</a></td>
+                        </tr>
+                        <tr>
+                           <td>Stadthauptmannschaft Budapest</td>
+                           <td><a href="pmb52159.html">pmb52159</a></td>
+                        </tr>
+                        <tr>
+                           <td>Rechtshilfe und Übersetzungskanzlei des Bundeskanzleramtes</td>
+                           <td><a href="pmb52185.html">pmb52185</a></td>
+                        </tr>
+                        <tr>
+                           <td>Handelskammer Linz</td>
+                           <td><a href="pmb52866.html">pmb52866</a></td>
+                        </tr>
+                        <tr>
+                           <td>Neue Galerie</td>
+                           <td><a href="pmb52915.html">pmb52915</a></td>
+                        </tr>
+                        <tr>
+                           <td>Installationsfirma Bablik</td>
+                           <td><a href="pmb53144.html">pmb53144</a></td>
+                        </tr>
+                        <tr>
+                           <td>Annoncen-Expedition Rudolf Mosse</td>
+                           <td><a href="pmb53426.html">pmb53426</a></td>
+                        </tr>
+                        <tr>
+                           <td>Industrie- und Handelskammer Berlin</td>
+                           <td><a href="pmb53432.html">pmb53432</a></td>
+                        </tr>
+                        <tr>
+                           <td>k.u.k. Kriegspressequartier</td>
+                           <td><a href="pmb54308.html">pmb54308</a></td>
+                        </tr>
+                        <tr>
+                           <td>Anwaltskammer Berlin</td>
+                           <td><a href="pmb55427.html">pmb55427</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kuhner &amp; Co</td>
+                           <td><a href="pmb55576.html">pmb55576</a></td>
+                        </tr>
+                        <tr>
+                           <td>I und II Strafsenat des Reichsgerichts</td>
+                           <td><a href="pmb55880.html">pmb55880</a></td>
+                        </tr>
+                        <tr>
+                           <td>Pressesenat Prag</td>
+                           <td><a href="pmb56313.html">pmb56313</a></td>
+                        </tr>
+                        <tr>
+                           <td>Beschwerdesenat Prag</td>
+                           <td><a href="pmb56314.html">pmb56314</a></td>
+                        </tr>
+                        <tr>
+                           <td>Firma B. Oberlaender</td>
+                           <td><a href="pmb56375.html">pmb56375</a></td>
+                        </tr>
+                        <tr>
+                           <td>Funkhaus</td>
+                           <td><a href="pmb57043.html">pmb57043</a></td>
+                        </tr>
+                        <tr>
+                           <td>Löw Beer’s Söhne</td>
+                           <td><a href="pmb57644.html">pmb57644</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bühnengenossenschaft</td>
+                           <td><a href="pmb57646.html">pmb57646</a></td>
+                        </tr>
+                        <tr>
+                           <td>Advokatenkammer Prag</td>
+                           <td><a href="pmb57648.html">pmb57648</a></td>
+                        </tr>
+                        <tr>
+                           <td>Agentur Lanik</td>
+                           <td><a href="pmb58522.html">pmb58522</a></td>
+                        </tr>
+                        <tr>
+                           <td>Pressesenat Brünn</td>
+                           <td><a href="pmb59239.html">pmb59239</a></td>
+                        </tr>
+                        <tr>
+                           <td>Berufungssenat Brünn</td>
+                           <td><a href="pmb59702.html">pmb59702</a></td>
+                        </tr>
+                        <tr>
+                           <td>Präsidentschaftskanzlei Tschechoslowakei</td>
+                           <td><a href="pmb59812.html">pmb59812</a></td>
+                        </tr>
+                        <tr>
+                           <td>Haus Carmen</td>
+                           <td><a href="pmb60049.html">pmb60049</a></td>
+                        </tr>
+                        <tr>
+                           <td>Spruchsenat Brünn</td>
+                           <td><a href="pmb60480.html">pmb60480</a></td>
+                        </tr>
+                        <tr>
+                           <td>Städtisches Kurhaus</td>
+                           <td><a href="pmb61454.html">pmb61454</a></td>
+                        </tr>
+                        <tr>
+                           <td>Elektrolux</td>
+                           <td><a href="pmb87770.html">pmb87770</a></td>
+                        </tr>
+                        <tr>
+                           <td>Prager Presse</td>
+                           <td><a href="pmb29194.html">pmb29194</a></td>
+                        </tr>
+                        <tr>
+                           <td>Prager Tagblatt</td>
+                           <td><a href="pmb29259.html">pmb29259</a></td>
+                        </tr>
+                        <tr>
+                           <td>Breslauer Zeitung</td>
+                           <td><a href="pmb29283.html">pmb29283</a></td>
+                        </tr>
+                        <tr>
+                           <td>Pester Lloyd</td>
+                           <td><a href="pmb29306.html">pmb29306</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wiener Zeitung</td>
+                           <td><a href="pmb29310.html">pmb29310</a></td>
+                        </tr>
+                        <tr>
+                           <td>Neue Hamburger Zeitung</td>
+                           <td><a href="pmb29316.html">pmb29316</a></td>
+                        </tr>
+                        <tr>
+                           <td>Neues Wiener Journal</td>
+                           <td><a href="pmb29320.html">pmb29320</a></td>
+                        </tr>
+                        <tr>
+                           <td>Berliner Tageblatt</td>
+                           <td><a href="pmb29329.html">pmb29329</a></td>
+                        </tr>
+                        <tr>
+                           <td>Vossische Zeitung</td>
+                           <td><a href="pmb29331.html">pmb29331</a></td>
+                        </tr>
+                        <tr>
+                           <td>Münchner Neueste Nachrichten</td>
+                           <td><a href="pmb29338.html">pmb29338</a></td>
+                        </tr>
+                        <tr>
+                           <td>Neue Freie Presse</td>
+                           <td><a href="pmb29351.html">pmb29351</a></td>
+                        </tr>
+                        <tr>
+                           <td>Berliner Börsen-Courier</td>
+                           <td><a href="pmb29406.html">pmb29406</a></td>
+                        </tr>
+                        <tr>
+                           <td>Neues Wiener Tagblatt</td>
+                           <td><a href="pmb29414.html">pmb29414</a></td>
+                        </tr>
+                        <tr>
+                           <td>Frankfurter Zeitung</td>
+                           <td><a href="pmb29442.html">pmb29442</a></td>
+                        </tr>
+                        <tr>
+                           <td>Pesti Napló</td>
+                           <td><a href="pmb29466.html">pmb29466</a></td>
+                        </tr>
+                        <tr>
+                           <td>Die Stunde</td>
+                           <td><a href="pmb29470.html">pmb29470</a></td>
+                        </tr>
+                        <tr>
+                           <td>Leipziger Tageblatt</td>
+                           <td><a href="pmb29473.html">pmb29473</a></td>
+                        </tr>
+                        <tr>
+                           <td>Tempo</td>
+                           <td><a href="pmb29484.html">pmb29484</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsche Tageszeitung</td>
+                           <td><a href="pmb29501.html">pmb29501</a></td>
+                        </tr>
+                        <tr>
+                           <td>Die Zeit</td>
+                           <td><a href="pmb29626.html">pmb29626</a></td>
+                        </tr>
+                        <tr>
+                           <td>Reichspost</td>
+                           <td><a href="pmb29637.html">pmb29637</a></td>
+                        </tr>
+                        <tr>
+                           <td>Arbeiter-Zeitung</td>
+                           <td><a href="pmb29644.html">pmb29644</a></td>
+                        </tr>
+                        <tr>
+                           <td>Der Tag</td>
+                           <td><a href="pmb29650.html">pmb29650</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wiener Allgemeine Zeitung</td>
+                           <td><a href="pmb29670.html">pmb29670</a></td>
+                        </tr>
+                        <tr>
+                           <td>Tagespost</td>
+                           <td><a href="pmb29682.html">pmb29682</a></td>
+                        </tr>
+                        <tr>
+                           <td>Tagespost</td>
+                           <td><a href="pmb29684.html">pmb29684</a></td>
+                        </tr>
+                        <tr>
+                           <td>B.Z. am Mittag</td>
+                           <td><a href="pmb29702.html">pmb29702</a></td>
+                        </tr>
+                        <tr>
+                           <td>Der Abend</td>
+                           <td><a href="pmb29712.html">pmb29712</a></td>
+                        </tr>
+                        <tr>
+                           <td>Brünner Tagesbote</td>
+                           <td><a href="pmb29728.html">pmb29728</a></td>
+                        </tr>
+                        <tr>
+                           <td>Acht Uhr Abendblatt</td>
+                           <td><a href="pmb37244.html">pmb37244</a></td>
+                        </tr>
+                        <tr>
+                           <td>České slovo</td>
+                           <td><a href="pmb37306.html">pmb37306</a></td>
+                        </tr>
+                        <tr>
+                           <td>Chemnitzer Tagblatt</td>
+                           <td><a href="pmb37318.html">pmb37318</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsch-Österreichische Tageszeitung</td>
+                           <td><a href="pmb37326.html">pmb37326</a></td>
+                        </tr>
+                        <tr>
+                           <td>Fränkischer Kurier</td>
+                           <td><a href="pmb37336.html">pmb37336</a></td>
+                        </tr>
+                        <tr>
+                           <td>Le Journal</td>
+                           <td><a href="pmb37408.html">pmb37408</a></td>
+                        </tr>
+                        <tr>
+                           <td>Lidové Noviny</td>
+                           <td><a href="pmb37415.html">pmb37415</a></td>
+                        </tr>
+                        <tr>
+                           <td>Mannheimer Tagblatt</td>
+                           <td><a href="pmb37429.html">pmb37429</a></td>
+                        </tr>
+                        <tr>
+                           <td>Münchner Zeitung</td>
+                           <td><a href="pmb37440.html">pmb37440</a></td>
+                        </tr>
+                        <tr>
+                           <td>Neues 8 Uhr Blatt (8 Uhr Abendblatt)</td>
+                           <td><a href="pmb37467.html">pmb37467</a></td>
+                        </tr>
+                        <tr>
+                           <td>Neues Wiener Abendblatt</td>
+                           <td><a href="pmb37473.html">pmb37473</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oberösterreichische Tageszeitung</td>
+                           <td><a href="pmb37484.html">pmb37484</a></td>
+                        </tr>
+                        <tr>
+                           <td>Österreichisches Abendblatt</td>
+                           <td><a href="pmb37488.html">pmb37488</a></td>
+                        </tr>
+                        <tr>
+                           <td>Die Rote Fahne (Wien)</td>
+                           <td><a href="pmb37525.html">pmb37525</a></td>
+                        </tr>
+                        <tr>
+                           <td>Die Rote Fahne (Berlin)</td>
+                           <td><a href="pmb37527.html">pmb37527</a></td>
+                        </tr>
+                        <tr>
+                           <td>Sechs Uhr Abendblatt</td>
+                           <td><a href="pmb37535.html">pmb37535</a></td>
+                        </tr>
+                        <tr>
+                           <td>Der Sozialdemokrat (Prag)</td>
+                           <td><a href="pmb37540.html">pmb37540</a></td>
+                        </tr>
+                        <tr>
+                           <td>Tägliche Komödie. Tageszeitung für Bühne, Film, Musik, Bild, Kunst, Kabarett, Radio,
+                              Sport</td>
+                           <td><a href="pmb37546.html">pmb37546</a></td>
+                        </tr>
+                        <tr>
+                           <td>Völkischer Beobachter</td>
+                           <td><a href="pmb37551.html">pmb37551</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wiener Neueste Nachrichten</td>
+                           <td><a href="pmb37566.html">pmb37566</a></td>
+                        </tr>
+                        <tr>
+                           <td>Der Wiener Tag</td>
+                           <td><a href="pmb37568.html">pmb37568</a></td>
+                        </tr>
+                        <tr>
+                           <td>Népszava</td>
+                           <td><a href="pmb52878.html">pmb52878</a></td>
+                        </tr>
+                        <tr>
+                           <td>Uj Nemzedék (Neue Generation)</td>
+                           <td><a href="pmb52882.html">pmb52882</a></td>
+                        </tr>
+                        <tr>
+                           <td>Fränkischer Tagesbote</td>
+                           <td><a href="pmb53245.html">pmb53245</a></td>
+                        </tr>
+                        <tr>
+                           <td>Grazer Tagespost</td>
+                           <td><a href="pmb53408.html">pmb53408</a></td>
+                        </tr>
+                        <tr>
+                           <td>Die Zeit (Sudetendeutsch)</td>
+                           <td><a href="pmb59215.html">pmb59215</a></td>
+                        </tr>
+                        <tr>
+                           <td>Neueste Zeitung</td>
+                           <td><a href="pmb61359.html">pmb61359</a></td>
+                        </tr>
+                        <tr>
+                           <td>Morning Leader</td>
+                           <td><a href="pmb62789.html">pmb62789</a></td>
+                        </tr>
+                        <tr>
+                           <td>Neue Rundschau, Neue Deutsche Rundschau, Freie Bühne</td>
+                           <td><a href="pmb29212.html">pmb29212</a></td>
+                        </tr>
+                        <tr>
+                           <td>Die Fackel</td>
+                           <td><a href="pmb29308.html">pmb29308</a></td>
+                        </tr>
+                        <tr>
+                           <td>Die Schaubühne / Die Weltbühne</td>
+                           <td><a href="pmb29348.html">pmb29348</a></td>
+                        </tr>
+                        <tr>
+                           <td>Der Morgen. Wiener Montagsblatt</td>
+                           <td><a href="pmb29398.html">pmb29398</a></td>
+                        </tr>
+                        <tr>
+                           <td>Jugend</td>
+                           <td><a href="pmb29408.html">pmb29408</a></td>
+                        </tr>
+                        <tr>
+                           <td>März</td>
+                           <td><a href="pmb29567.html">pmb29567</a></td>
+                        </tr>
+                        <tr>
+                           <td>Die Zukunft</td>
+                           <td><a href="pmb29631.html">pmb29631</a></td>
+                        </tr>
+                        <tr>
+                           <td>Die literarische Welt</td>
+                           <td><a href="pmb29708.html">pmb29708</a></td>
+                        </tr>
+                        <tr>
+                           <td>Simplicissimus</td>
+                           <td><a href="pmb29714.html">pmb29714</a></td>
+                        </tr>
+                        <tr>
+                           <td>Die Gegenwart</td>
+                           <td><a href="pmb29808.html">pmb29808</a></td>
+                        </tr>
+                        <tr>
+                           <td>Pan</td>
+                           <td><a href="pmb33902.html">pmb33902</a></td>
+                        </tr>
+                        <tr>
+                           <td>Die Aktion</td>
+                           <td><a href="pmb37246.html">pmb37246</a></td>
+                        </tr>
+                        <tr>
+                           <td>Der Anbruch</td>
+                           <td><a href="pmb37249.html">pmb37249</a></td>
+                        </tr>
+                        <tr>
+                           <td>Arbeit und Wirtschaft</td>
+                           <td><a href="pmb37256.html">pmb37256</a></td>
+                        </tr>
+                        <tr>
+                           <td>Der Aufruf</td>
+                           <td><a href="pmb37264.html">pmb37264</a></td>
+                        </tr>
+                        <tr>
+                           <td>Die Börse</td>
+                           <td><a href="pmb37283.html">pmb37283</a></td>
+                        </tr>
+                        <tr>
+                           <td>Der Brenner</td>
+                           <td><a href="pmb37287.html">pmb37287</a></td>
+                        </tr>
+                        <tr>
+                           <td>Brünner Volksfreund</td>
+                           <td><a href="pmb37290.html">pmb37290</a></td>
+                        </tr>
+                        <tr>
+                           <td>Der Bücherwurm</td>
+                           <td><a href="pmb37295.html">pmb37295</a></td>
+                        </tr>
+                        <tr>
+                           <td>Die Bühne</td>
+                           <td><a href="pmb37298.html">pmb37298</a></td>
+                        </tr>
+                        <tr>
+                           <td>Europäische Blätter</td>
+                           <td><a href="pmb37329.html">pmb37329</a></td>
+                        </tr>
+                        <tr>
+                           <td>Herold Berlin</td>
+                           <td><a href="pmb37348.html">pmb37348</a></td>
+                        </tr>
+                        <tr>
+                           <td>Die Justiz</td>
+                           <td><a href="pmb37354.html">pmb37354</a></td>
+                        </tr>
+                        <tr>
+                           <td>Der Kampf</td>
+                           <td><a href="pmb37382.html">pmb37382</a></td>
+                        </tr>
+                        <tr>
+                           <td>Die Musik</td>
+                           <td><a href="pmb37443.html">pmb37443</a></td>
+                        </tr>
+                        <tr>
+                           <td>Neuer Daimon</td>
+                           <td><a href="pmb37462.html">pmb37462</a></td>
+                        </tr>
+                        <tr>
+                           <td>Der Österreichische Volkswirt</td>
+                           <td><a href="pmb37486.html">pmb37486</a></td>
+                        </tr>
+                        <tr>
+                           <td>Der Querschnitt</td>
+                           <td><a href="pmb37519.html">pmb37519</a></td>
+                        </tr>
+                        <tr>
+                           <td>Der Querulant</td>
+                           <td><a href="pmb37521.html">pmb37521</a></td>
+                        </tr>
+                        <tr>
+                           <td>Der Rote Tag</td>
+                           <td><a href="pmb37533.html">pmb37533</a></td>
+                        </tr>
+                        <tr>
+                           <td>Selbstwehr</td>
+                           <td><a href="pmb37536.html">pmb37536</a></td>
+                        </tr>
+                        <tr>
+                           <td>Der Sozialdemokrat</td>
+                           <td><a href="pmb37542.html">pmb37542</a></td>
+                        </tr>
+                        <tr>
+                           <td>Das Tage-Buch</td>
+                           <td><a href="pmb37544.html">pmb37544</a></td>
+                        </tr>
+                        <tr>
+                           <td>Die Wahrheit</td>
+                           <td><a href="pmb37555.html">pmb37555</a></td>
+                        </tr>
+                        <tr>
+                           <td>Zeitschau</td>
+                           <td><a href="pmb37573.html">pmb37573</a></td>
+                        </tr>
+                        <tr>
+                           <td>Vorwärts Wien</td>
+                           <td><a href="pmb37906.html">pmb37906</a></td>
+                        </tr>
+                        <tr>
+                           <td>Canning Age</td>
+                           <td><a href="pmb52865.html">pmb52865</a></td>
+                        </tr>
+                        <tr>
+                           <td>Přítomnost</td>
+                           <td><a href="pmb57918.html">pmb57918</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsche Republik</td>
+                           <td><a href="pmb63122.html">pmb63122</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wiener Tierschutz-Verein</td>
+                           <td><a href="pmb29302.html">pmb29302</a></td>
+                        </tr>
+                        <tr>
+                           <td>Schutzverband deutscher Schriftsteller</td>
+                           <td><a href="pmb29337.html">pmb29337</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutscher Schulverein</td>
+                           <td><a href="pmb29763.html">pmb29763</a></td>
+                        </tr>
+                        <tr>
+                           <td>Monistenbund</td>
+                           <td><a href="pmb29764.html">pmb29764</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutscher Bühnenverein Berlin</td>
+                           <td><a href="pmb29769.html">pmb29769</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verein Volksbühne Augsburg</td>
+                           <td><a href="pmb36954.html">pmb36954</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verein deutscher Studenten</td>
+                           <td><a href="pmb36957.html">pmb36957</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verband deutscher Bühnenschriftsteller und Bühnenkomponisten e.V.</td>
+                           <td><a href="pmb36964.html">pmb36964</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verband deutsch-völkischer Vereine Deutschösterreichs</td>
+                           <td><a href="pmb36968.html">pmb36968</a></td>
+                        </tr>
+                        <tr>
+                           <td>Niederösterreichischer Gewerbeverein</td>
+                           <td><a href="pmb37200.html">pmb37200</a></td>
+                        </tr>
+                        <tr>
+                           <td>Arbeiterverein Kinderfreunde</td>
+                           <td><a href="pmb37327.html">pmb37327</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verein Freie Studentenschaft der Universität Berlin</td>
+                           <td><a href="pmb37711.html">pmb37711</a></td>
+                        </tr>
+                        <tr>
+                           <td>Schulverein Ortsgruppe „Jugendgruppe“</td>
+                           <td><a href="pmb53015.html">pmb53015</a></td>
+                        </tr>
+                        <tr>
+                           <td>Allgemeine Deutsche Fernsehverein</td>
+                           <td><a href="pmb65410.html">pmb65410</a></td>
+                        </tr>
+                        <tr>
+                           <td>Paul Cassirer Verlag</td>
+                           <td><a href="pmb29365.html">pmb29365</a></td>
+                        </tr>
+                        <tr>
+                           <td>S. Fischer Verlag</td>
+                           <td><a href="pmb29639.html">pmb29639</a></td>
+                        </tr>
+                        <tr>
+                           <td>Albert Langen</td>
+                           <td><a href="pmb29654.html">pmb29654</a></td>
+                        </tr>
+                        <tr>
+                           <td>Ullstein Verlag</td>
+                           <td><a href="pmb29681.html">pmb29681</a></td>
+                        </tr>
+                        <tr>
+                           <td>Erich Reiß</td>
+                           <td><a href="pmb29750.html">pmb29750</a></td>
+                        </tr>
+                        <tr>
+                           <td>Ernst Rowohlt Verlag</td>
+                           <td><a href="pmb29756.html">pmb29756</a></td>
+                        </tr>
+                        <tr>
+                           <td>Paul Zsolnay Verlag</td>
+                           <td><a href="pmb36907.html">pmb36907</a></td>
+                        </tr>
+                        <tr>
+                           <td>Andre-Verlag</td>
+                           <td><a href="pmb36912.html">pmb36912</a></td>
+                        </tr>
+                        <tr>
+                           <td>Vorwärts Verlag</td>
+                           <td><a href="pmb36936.html">pmb36936</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verlag Wilhelm Braumüller</td>
+                           <td><a href="pmb36942.html">pmb36942</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verlag der Schriften von Karl Kraus</td>
+                           <td><a href="pmb36944.html">pmb36944</a></td>
+                        </tr>
+                        <tr>
+                           <td>Anton Schroll Verlag</td>
+                           <td><a href="pmb37062.html">pmb37062</a></td>
+                        </tr>
+                        <tr>
+                           <td>August Scherl Verlag</td>
+                           <td><a href="pmb37065.html">pmb37065</a></td>
+                        </tr>
+                        <tr>
+                           <td>Družstevní Práce Verlag (Prag)</td>
+                           <td><a href="pmb37091.html">pmb37091</a></td>
+                        </tr>
+                        <tr>
+                           <td>Einhorn Verlag</td>
+                           <td><a href="pmb37093.html">pmb37093</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verlag Rudolf M. Rohrer</td>
+                           <td><a href="pmb37100.html">pmb37100</a></td>
+                        </tr>
+                        <tr>
+                           <td>Genossenschaftsverlag</td>
+                           <td><a href="pmb37138.html">pmb37138</a></td>
+                        </tr>
+                        <tr>
+                           <td>Gutenberg-Verlag</td>
+                           <td><a href="pmb37144.html">pmb37144</a></td>
+                        </tr>
+                        <tr>
+                           <td>Rudolf Mosse Verlag</td>
+                           <td><a href="pmb37223.html">pmb37223</a></td>
+                        </tr>
+                        <tr>
+                           <td>Melantrich Verlag</td>
+                           <td><a href="pmb37231.html">pmb37231</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verlag Ed. Hölzel</td>
+                           <td><a href="pmb37745.html">pmb37745</a></td>
+                        </tr>
+                        <tr>
+                           <td>Theodor Knaur Nachf. Verlag</td>
+                           <td><a href="pmb37752.html">pmb37752</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verlag Die Fackel (Wien)</td>
+                           <td><a href="pmb43724.html">pmb43724</a></td>
+                        </tr>
+                        <tr>
+                           <td>Lippowitz &amp; Co.</td>
+                           <td><a href="pmb52667.html">pmb52667</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wiener Neueste Nachrichten Verlags A.G.</td>
+                           <td><a href="pmb52983.html">pmb52983</a></td>
+                        </tr>
+                        <tr>
+                           <td>Arbeitsgemeinschaft der Schriftleiter, Verwaltungsbeamten und Hilfskräfte des „Abend“
+                              (Verlag Wiener Zeitungen, Ges.m.b.H.)</td>
+                           <td><a href="pmb53475.html">pmb53475</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verlag der Arbeiter-Zeitung Dr. Adler-Emmerling</td>
+                           <td><a href="pmb53508.html">pmb53508</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verlag des Fränkischen Kurier</td>
+                           <td><a href="pmb53543.html">pmb53543</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hans Feller</td>
+                           <td><a href="pmb53592.html">pmb53592</a></td>
+                        </tr>
+                        <tr>
+                           <td>L. Staackmann Verlag</td>
+                           <td><a href="pmb55105.html">pmb55105</a></td>
+                        </tr>
+                        <tr>
+                           <td>C.H. Beck</td>
+                           <td><a href="pmb55416.html">pmb55416</a></td>
+                        </tr>
+                        <tr>
+                           <td>Vaterländischer Preßverein</td>
+                           <td><a href="pmb55830.html">pmb55830</a></td>
+                        </tr>
+                        <tr>
+                           <td>Aventimum</td>
+                           <td><a href="pmb56772.html">pmb56772</a></td>
+                        </tr>
+                        <tr>
+                           <td>Koči</td>
+                           <td><a href="pmb56774.html">pmb56774</a></td>
+                        </tr>
+                        <tr>
+                           <td>Carl Heymanns Verlag</td>
+                           <td><a href="pmb57012.html">pmb57012</a></td>
+                        </tr>
+                        <tr>
+                           <td>Firma Leopold Heidrich</td>
+                           <td><a href="pmb58252.html">pmb58252</a></td>
+                        </tr>
+                        <tr>
+                           <td>Freie Verlagsgesellschaft</td>
+                           <td><a href="pmb59944.html">pmb59944</a></td>
+                        </tr>
+                        <tr>
+                           <td>Der Tag Verlag A.G.</td>
+                           <td><a href="pmb61517.html">pmb61517</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verlag Richard Lányi</td>
+                           <td><a href="pmb62299.html">pmb62299</a></td>
+                        </tr>
+                        <tr>
+                           <td>Reimar Hobbing Verlag</td>
+                           <td><a href="pmb63683.html">pmb63683</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verlag der Hamburger Nachrichten</td>
+                           <td><a href="pmb63923.html">pmb63923</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verlag „Die Aktion“</td>
+                           <td><a href="pmb63963.html">pmb63963</a></td>
+                        </tr>
+                        <tr>
+                           <td>A. Hartleben’s Verlag</td>
+                           <td><a href="pmb65379.html">pmb65379</a></td>
+                        </tr>
+                        <tr>
+                           <td>Buch-und Künstlerverlag Gerlach &amp; Wiedling</td>
+                           <td><a href="pmb65398.html">pmb65398</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verlag Die Fackel (Berlin)</td>
+                           <td><a href="pmb65420.html">pmb65420</a></td>
+                        </tr>
+                        <tr>
+                           <td>Zentraleuropäische Länderbank</td>
+                           <td><a href="pmb36894.html">pmb36894</a></td>
+                        </tr>
+                        <tr>
+                           <td>Security First National Bank Los Angeles</td>
+                           <td><a href="pmb37055.html">pmb37055</a></td>
+                        </tr>
+                        <tr>
+                           <td>Schweizerische Kreditanstalt Zürich</td>
+                           <td><a href="pmb37057.html">pmb37057</a></td>
+                        </tr>
+                        <tr>
+                           <td>Nordische Bank</td>
+                           <td><a href="pmb37196.html">pmb37196</a></td>
+                        </tr>
+                        <tr>
+                           <td>Postsparkassa Österreich</td>
+                           <td><a href="pmb53186.html">pmb53186</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bank of Italy</td>
+                           <td><a href="pmb54821.html">pmb54821</a></td>
+                        </tr>
+                        <tr>
+                           <td>Citizens Trust and Savings Bank</td>
+                           <td><a href="pmb54822.html">pmb54822</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bank für Realbesitz</td>
+                           <td><a href="pmb57311.html">pmb57311</a></td>
+                        </tr>
+                        <tr>
+                           <td>Unionbank</td>
+                           <td><a href="pmb59810.html">pmb59810</a></td>
+                        </tr>
+                        <tr>
+                           <td>Česká Banka Union</td>
+                           <td><a href="pmb61109.html">pmb61109</a></td>
+                        </tr>
+                        <tr>
+                           <td>Česká Banka Union, Brno</td>
+                           <td><a href="pmb61110.html">pmb61110</a></td>
+                        </tr>
+                        <tr>
+                           <td>Konversionskasse für deutsche Auslandsschulden</td>
+                           <td><a href="pmb61399.html">pmb61399</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verband der Kriegsblinden Österreichs</td>
+                           <td><a href="pmb29449.html">pmb29449</a></td>
+                        </tr>
+                        <tr>
+                           <td>Amerikanische Kinderhilfsaktion</td>
+                           <td><a href="pmb34426.html">pmb34426</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutscher Verband für Jugendwohlfahrt</td>
+                           <td><a href="pmb37074.html">pmb37074</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kinderschutz- und Rettungsgesellschaft Wien</td>
+                           <td><a href="pmb37190.html">pmb37190</a></td>
+                        </tr>
+                        <tr>
+                           <td>Asylverein für Obdachlose</td>
+                           <td><a href="pmb37362.html">pmb37362</a></td>
+                        </tr>
+                        <tr>
+                           <td>Brigittenauer Frauen-Wohltätigkeitsverein</td>
+                           <td><a href="pmb37414.html">pmb37414</a></td>
+                        </tr>
+                        <tr>
+                           <td>Jüdische Jugendfürsorge</td>
+                           <td><a href="pmb37656.html">pmb37656</a></td>
+                        </tr>
+                        <tr>
+                           <td>Taubstimmeninstitut Prag</td>
+                           <td><a href="pmb53584.html">pmb53584</a></td>
+                        </tr>
+                        <tr>
+                           <td>Flüchtlingskomitee Prag</td>
+                           <td><a href="pmb55913.html">pmb55913</a></td>
+                        </tr>
+                        <tr>
+                           <td>Liga für Menschenrechte</td>
+                           <td><a href="pmb55940.html">pmb55940</a></td>
+                        </tr>
+                        <tr>
+                           <td>Blinden-Erziehungs-Institut Wien</td>
+                           <td><a href="pmb36935.html">pmb36935</a></td>
+                        </tr>
+                        <tr>
+                           <td>Staatliche Graphische Lehr- und Versuchsanstalt</td>
+                           <td><a href="pmb37045.html">pmb37045</a></td>
+                        </tr>
+                        <tr>
+                           <td>Pädagogium Wien VII.</td>
+                           <td><a href="pmb37160.html">pmb37160</a></td>
+                        </tr>
+                        <tr>
+                           <td>Anstalt zur Ausbildung von später Erblindeten</td>
+                           <td><a href="pmb37317.html">pmb37317</a></td>
+                        </tr>
+                        <tr>
+                           <td>Arbeiter-Bildungsverein</td>
+                           <td><a href="pmb37321.html">pmb37321</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bildungsheim Hietzing</td>
+                           <td><a href="pmb37387.html">pmb37387</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wiener Urania</td>
+                           <td><a href="pmb53333.html">pmb53333</a></td>
+                        </tr>
+                        <tr>
+                           <td>Urania Prag</td>
+                           <td><a href="pmb57445.html">pmb57445</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsche Vereinigung für staatswissenschaftliche Fortbildung</td>
+                           <td><a href="pmb65599.html">pmb65599</a></td>
+                        </tr>
+                        <tr>
+                           <td>Sezession</td>
+                           <td><a href="pmb53176.html">pmb53176</a></td>
+                        </tr>
+                        <tr>
+                           <td>Gemeinde-Vermittlungsamt Wien</td>
+                           <td><a href="pmb36803.html">pmb36803</a></td>
+                        </tr>
+                        <tr>
+                           <td>Zentral-Tax- und Gebührenbemessungsamt Wien</td>
+                           <td><a href="pmb36890.html">pmb36890</a></td>
+                        </tr>
+                        <tr>
+                           <td>Zentralmeldeamt Wien</td>
+                           <td><a href="pmb36897.html">pmb36897</a></td>
+                        </tr>
+                        <tr>
+                           <td>Amt der Wiener Landesregierung</td>
+                           <td><a href="pmb36909.html">pmb36909</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bundeskanzleramt Wien</td>
+                           <td><a href="pmb36963.html">pmb36963</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bürgermeisteramt Köln</td>
+                           <td><a href="pmb36974.html">pmb36974</a></td>
+                        </tr>
+                        <tr>
+                           <td>Militärliquidierungsamt Wien</td>
+                           <td><a href="pmb37227.html">pmb37227</a></td>
+                        </tr>
+                        <tr>
+                           <td>Magistrat der Stadt Berlin</td>
+                           <td><a href="pmb37238.html">pmb37238</a></td>
+                        </tr>
+                        <tr>
+                           <td>Stadtverwaltung Bad Wildungen</td>
+                           <td><a href="pmb50734.html">pmb50734</a></td>
+                        </tr>
+                        <tr>
+                           <td>Gemeinde-Vermittlungsamt Wien</td>
+                           <td><a href="pmb52531.html">pmb52531</a></td>
+                        </tr>
+                        <tr>
+                           <td>Gemeindevermittlungsamt Wien, Landstraße</td>
+                           <td><a href="pmb52674.html">pmb52674</a></td>
+                        </tr>
+                        <tr>
+                           <td>Städtisches Presseamt Köln</td>
+                           <td><a href="pmb52944.html">pmb52944</a></td>
+                        </tr>
+                        <tr>
+                           <td>Postlageramt Wien</td>
+                           <td><a href="pmb52953.html">pmb52953</a></td>
+                        </tr>
+                        <tr>
+                           <td>Gerichtskasse Berlin-Charlottenburg</td>
+                           <td><a href="pmb53183.html">pmb53183</a></td>
+                        </tr>
+                        <tr>
+                           <td>Rathaus</td>
+                           <td><a href="pmb53708.html">pmb53708</a></td>
+                        </tr>
+                        <tr>
+                           <td>Nationalrat</td>
+                           <td><a href="pmb55007.html">pmb55007</a></td>
+                        </tr>
+                        <tr>
+                           <td>Österreichisches Parlament</td>
+                           <td><a href="pmb55038.html">pmb55038</a></td>
+                        </tr>
+                        <tr>
+                           <td>Magistratisches Bezirksamt für den I. Bezirk</td>
+                           <td><a href="pmb55069.html">pmb55069</a></td>
+                        </tr>
+                        <tr>
+                           <td>Meidlinger Bezirkssekretariat</td>
+                           <td><a href="pmb56777.html">pmb56777</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kassationshof Prag</td>
+                           <td><a href="pmb57533.html">pmb57533</a></td>
+                        </tr>
+                        <tr>
+                           <td>Landesfinanzamt Kassel</td>
+                           <td><a href="pmb61397.html">pmb61397</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bürgermeisteramt Wien</td>
+                           <td><a href="pmb65715.html">pmb65715</a></td>
+                        </tr>
+                        <tr>
+                           <td>Junge Bühne München</td>
+                           <td><a href="pmb37167.html">pmb37167</a></td>
+                        </tr>
+                        <tr>
+                           <td>Neue Truppe (Berlin)</td>
+                           <td><a href="pmb37217.html">pmb37217</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kux, Bloch &amp; Co. (Bankhaus)</td>
+                           <td><a href="pmb37229.html">pmb37229</a></td>
+                        </tr>
+                        <tr>
+                           <td>Čechoslowakischer Bankverein A.G.</td>
+                           <td><a href="pmb54295.html">pmb54295</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wiener Bank-Verein</td>
+                           <td><a href="pmb54296.html">pmb54296</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bank of America and California (Los Angeles)</td>
+                           <td><a href="pmb54817.html">pmb54817</a></td>
+                        </tr>
+                        <tr>
+                           <td>Citizen National Bank of Los Angeles</td>
+                           <td><a href="pmb54819.html">pmb54819</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bankhaus I.P. Morgan &amp; Co. (New York)</td>
+                           <td><a href="pmb54967.html">pmb54967</a></td>
+                        </tr>
+                        <tr>
+                           <td>Postsparkasse Prag</td>
+                           <td><a href="pmb58012.html">pmb58012</a></td>
+                        </tr>
+                        <tr>
+                           <td>Tschechoslowakische Nationalbank</td>
+                           <td><a href="pmb58019.html">pmb58019</a></td>
+                        </tr>
+                        <tr>
+                           <td>Österreichische Nationalbank</td>
+                           <td><a href="pmb58020.html">pmb58020</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hans Rehbock &amp; Co.</td>
+                           <td><a href="pmb57499.html">pmb57499</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bauernfeld-Preis</td>
+                           <td><a href="pmb29675.html">pmb29675</a></td>
+                        </tr>
+                        <tr>
+                           <td>Nobelpreis</td>
+                           <td><a href="pmb29679.html">pmb29679</a></td>
+                        </tr>
+                        <tr>
+                           <td>Metro Goldwyn Mayer Filmgesellschaft</td>
+                           <td><a href="pmb29748.html">pmb29748</a></td>
+                        </tr>
+                        <tr>
+                           <td>Tobis Film Gesellschaft</td>
+                           <td><a href="pmb36993.html">pmb36993</a></td>
+                        </tr>
+                        <tr>
+                           <td>Fox Film Studio (Hollywood)</td>
+                           <td><a href="pmb37112.html">pmb37112</a></td>
+                        </tr>
+                        <tr>
+                           <td>Gaumont British Filmgesellschaft</td>
+                           <td><a href="pmb37129.html">pmb37129</a></td>
+                        </tr>
+                        <tr>
+                           <td>Columbia Pictures</td>
+                           <td><a href="pmb55442.html">pmb55442</a></td>
+                        </tr>
+                        <tr>
+                           <td>Fanamet Filmgesellschaft</td>
+                           <td><a href="pmb60418.html">pmb60418</a></td>
+                        </tr>
+                        <tr>
+                           <td>Akademisch-dramatischer Verein München</td>
+                           <td><a href="pmb29265.html">pmb29265</a></td>
+                        </tr>
+                        <tr>
+                           <td>Akademische Gesellschaft für Dramatik</td>
+                           <td><a href="pmb37273.html">pmb37273</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verband Berliner Bühnenleiter</td>
+                           <td><a href="pmb87934.html">pmb87934</a></td>
+                        </tr>
+                        <tr>
+                           <td>Akademischer Verband für Literatur und Musik in Wien</td>
+                           <td><a href="pmb36889.html">pmb36889</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bund junger Autoren Österreichs</td>
+                           <td><a href="pmb36956.html">pmb36956</a></td>
+                        </tr>
+                        <tr>
+                           <td>Goethe-Gesellschaft Essen</td>
+                           <td><a href="pmb37598.html">pmb37598</a></td>
+                        </tr>
+                        <tr>
+                           <td>Karl Kraus-Gesellschaft</td>
+                           <td><a href="pmb60573.html">pmb60573</a></td>
+                        </tr>
+                        <tr>
+                           <td>Börsenblatt für den deutschen Buchhandel</td>
+                           <td><a href="pmb37286.html">pmb37286</a></td>
+                        </tr>
+                        <tr>
+                           <td>Montag</td>
+                           <td><a href="pmb37433.html">pmb37433</a></td>
+                        </tr>
+                        <tr>
+                           <td>Montag Morgen</td>
+                           <td><a href="pmb37439.html">pmb37439</a></td>
+                        </tr>
+                        <tr>
+                           <td>Pestrého Týdne</td>
+                           <td><a href="pmb37509.html">pmb37509</a></td>
+                        </tr>
+                        <tr>
+                           <td>Das Wort</td>
+                           <td><a href="pmb37571.html">pmb37571</a></td>
+                        </tr>
+                        <tr>
+                           <td>Sozialistische Wochenzeitung</td>
+                           <td><a href="pmb37743.html">pmb37743</a></td>
+                        </tr>
+                        <tr>
+                           <td>Österreichischer Gewerbeverein</td>
+                           <td><a href="pmb29778.html">pmb29778</a></td>
+                        </tr>
+                        <tr>
+                           <td>Zentralstelle der Bühnen-Autoren und -Verleger</td>
+                           <td><a href="pmb36900.html">pmb36900</a></td>
+                        </tr>
+                        <tr>
+                           <td>Genossenschaft deutscher Bühnen-Angehöriger</td>
+                           <td><a href="pmb59074.html">pmb59074</a></td>
+                        </tr>
+                        <tr>
+                           <td>Steyrermühl</td>
+                           <td><a href="pmb29277.html">pmb29277</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kronos Verlag</td>
+                           <td><a href="pmb37216.html">pmb37216</a></td>
+                        </tr>
+                        <tr>
+                           <td>Österreichische Journal A.G.</td>
+                           <td><a href="pmb53725.html">pmb53725</a></td>
+                        </tr>
+                        <tr>
+                           <td>Broschek &amp; Co. m.b.H.</td>
+                           <td><a href="pmb53898.html">pmb53898</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wiener allgemeine Zeitungs- und Verlags-Aktien-Gesellschaft</td>
+                           <td><a href="pmb55418.html">pmb55418</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hugenberg-Konzern</td>
+                           <td><a href="pmb63854.html">pmb63854</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsches Literaturarchiv</td>
+                           <td><a href="pmb29344.html">pmb29344</a></td>
+                        </tr>
+                        <tr>
+                           <td>Dokumentationsarchiv des österreichischen Widerstands</td>
+                           <td><a href="pmb37089.html">pmb37089</a></td>
+                        </tr>
+                        <tr>
+                           <td>Österreichische Nationalbibliothek</td>
+                           <td><a href="pmb29349.html">pmb29349</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wiener Stadt- und Landesbibliothek</td>
+                           <td><a href="pmb36924.html">pmb36924</a></td>
+                        </tr>
+                        <tr>
+                           <td>Staatsbibliothek Berlin</td>
+                           <td><a href="pmb55758.html">pmb55758</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bayerische Staatsbibliothek</td>
+                           <td><a href="pmb62164.html">pmb62164</a></td>
+                        </tr>
+                        <tr>
+                           <td>Universitätsbibliothek Berlin</td>
+                           <td><a href="pmb65597.html">pmb65597</a></td>
+                        </tr>
+                        <tr>
+                           <td>Prager Symphonieorchester</td>
+                           <td><a href="pmb53606.html">pmb53606</a></td>
+                        </tr>
+                        <tr>
+                           <td>Frankfurter Städtisches Schauspielhaus</td>
+                           <td><a href="pmb34987.html">pmb34987</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsches Theater Berlin</td>
+                           <td><a href="pmb35597.html">pmb35597</a></td>
+                        </tr>
+                        <tr>
+                           <td>Burgtheater</td>
+                           <td><a href="pmb36247.html">pmb36247</a></td>
+                        </tr>
+                        <tr>
+                           <td>Volkstheater</td>
+                           <td><a href="pmb36430.html">pmb36430</a></td>
+                        </tr>
+                        <tr>
+                           <td>Alberttheater (Chemnitz)</td>
+                           <td><a href="pmb36893.html">pmb36893</a></td>
+                        </tr>
+                        <tr>
+                           <td>Augsburger Stadttheater</td>
+                           <td><a href="pmb36922.html">pmb36922</a></td>
+                        </tr>
+                        <tr>
+                           <td>Berliner Metropol Theater</td>
+                           <td><a href="pmb36933.html">pmb36933</a></td>
+                        </tr>
+                        <tr>
+                           <td>Volksbühne Berlin</td>
+                           <td><a href="pmb36940.html">pmb36940</a></td>
+                        </tr>
+                        <tr>
+                           <td>Theater an der Wien</td>
+                           <td><a href="pmb36996.html">pmb36996</a></td>
+                        </tr>
+                        <tr>
+                           <td>Theater am Zoo (Berlin)</td>
+                           <td><a href="pmb37007.html">pmb37007</a></td>
+                        </tr>
+                        <tr>
+                           <td>Theater am Schiffbauerdamm</td>
+                           <td><a href="pmb37011.html">pmb37011</a></td>
+                        </tr>
+                        <tr>
+                           <td>Theater am Nollendorfplatz</td>
+                           <td><a href="pmb37014.html">pmb37014</a></td>
+                        </tr>
+                        <tr>
+                           <td>Thaliatheater</td>
+                           <td><a href="pmb37019.html">pmb37019</a></td>
+                        </tr>
+                        <tr>
+                           <td>Stadttheater Mannheim</td>
+                           <td><a href="pmb37027.html">pmb37027</a></td>
+                        </tr>
+                        <tr>
+                           <td>Stadttheater Essen</td>
+                           <td><a href="pmb37029.html">pmb37029</a></td>
+                        </tr>
+                        <tr>
+                           <td>Städtische Bühnen Frankfurt am Main</td>
+                           <td><a href="pmb37033.html">pmb37033</a></td>
+                        </tr>
+                        <tr>
+                           <td>Städtische Bühnen Dortmund</td>
+                           <td><a href="pmb37035.html">pmb37035</a></td>
+                        </tr>
+                        <tr>
+                           <td>Staatstheater Dresden</td>
+                           <td><a href="pmb37041.html">pmb37041</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsches Künstlertheater Berlin</td>
+                           <td><a href="pmb37076.html">pmb37076</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsches Theater Brünn</td>
+                           <td><a href="pmb37078.html">pmb37078</a></td>
+                        </tr>
+                        <tr>
+                           <td>Neues Deutsches Theater</td>
+                           <td><a href="pmb37080.html">pmb37080</a></td>
+                        </tr>
+                        <tr>
+                           <td>Frankfurter Künstlertheater</td>
+                           <td><a href="pmb37121.html">pmb37121</a></td>
+                        </tr>
+                        <tr>
+                           <td>Renaissance Theater Berlin</td>
+                           <td><a href="pmb37123.html">pmb37123</a></td>
+                        </tr>
+                        <tr>
+                           <td>Renaissancebühne</td>
+                           <td><a href="pmb37126.html">pmb37126</a></td>
+                        </tr>
+                        <tr>
+                           <td>Renaissance Bühne (Budapest)</td>
+                           <td><a href="pmb37132.html">pmb37132</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kammerspiele Berlin</td>
+                           <td><a href="pmb37177.html">pmb37177</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kammerspiele Wien</td>
+                           <td><a href="pmb37179.html">pmb37179</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kleine Bühne (Wien)</td>
+                           <td><a href="pmb37195.html">pmb37195</a></td>
+                        </tr>
+                        <tr>
+                           <td>Neue Wiener Bühne</td>
+                           <td><a href="pmb37214.html">pmb37214</a></td>
+                        </tr>
+                        <tr>
+                           <td>Leipziger Komödienhaus</td>
+                           <td><a href="pmb37240.html">pmb37240</a></td>
+                        </tr>
+                        <tr>
+                           <td>Lustspieltheater Wien</td>
+                           <td><a href="pmb37242.html">pmb37242</a></td>
+                        </tr>
+                        <tr>
+                           <td>Breslauer Volksbühne</td>
+                           <td><a href="pmb37412.html">pmb37412</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsches Theater Mährisch-Ostrau</td>
+                           <td><a href="pmb37456.html">pmb37456</a></td>
+                        </tr>
+                        <tr>
+                           <td>Die Truppe</td>
+                           <td><a href="pmb37461.html">pmb37461</a></td>
+                        </tr>
+                        <tr>
+                           <td>Tribüne</td>
+                           <td><a href="pmb37549.html">pmb37549</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hamburger Bühne</td>
+                           <td><a href="pmb37614.html">pmb37614</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hof- und Nationaltheater Mannheim</td>
+                           <td><a href="pmb37639.html">pmb37639</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wiener Bürgertheater</td>
+                           <td><a href="pmb37683.html">pmb37683</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kammerspiele Hamburg</td>
+                           <td><a href="pmb37713.html">pmb37713</a></td>
+                        </tr>
+                        <tr>
+                           <td>Theater in der Josefstadt</td>
+                           <td><a href="pmb39689.html">pmb39689</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kleines Theater</td>
+                           <td><a href="pmb45430.html">pmb45430</a></td>
+                        </tr>
+                        <tr>
+                           <td>Neues Theater</td>
+                           <td><a href="pmb45434.html">pmb45434</a></td>
+                        </tr>
+                        <tr>
+                           <td>Münchner Schauspielhaus</td>
+                           <td><a href="pmb47085.html">pmb47085</a></td>
+                        </tr>
+                        <tr>
+                           <td>Theater am Kurfürstendamm</td>
+                           <td><a href="pmb50856.html">pmb50856</a></td>
+                        </tr>
+                        <tr>
+                           <td>Stadttheater Karlsbad</td>
+                           <td><a href="pmb53598.html">pmb53598</a></td>
+                        </tr>
+                        <tr>
+                           <td>Schauspielhaus Berlin</td>
+                           <td><a href="pmb55522.html">pmb55522</a></td>
+                        </tr>
+                        <tr>
+                           <td>Großes Schauspielhaus</td>
+                           <td><a href="pmb55560.html">pmb55560</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kammerspiele Leipzig</td>
+                           <td><a href="pmb57002.html">pmb57002</a></td>
+                        </tr>
+                        <tr>
+                           <td>Schiller-Theater</td>
+                           <td><a href="pmb57124.html">pmb57124</a></td>
+                        </tr>
+                        <tr>
+                           <td>Liebich-Theater</td>
+                           <td><a href="pmb57126.html">pmb57126</a></td>
+                        </tr>
+                        <tr>
+                           <td>Neues Leipziger Operettentheater</td>
+                           <td><a href="pmb57136.html">pmb57136</a></td>
+                        </tr>
+                        <tr>
+                           <td>Schauspielhaus Breslau</td>
+                           <td><a href="pmb57143.html">pmb57143</a></td>
+                        </tr>
+                        <tr>
+                           <td>Zentraltheater</td>
+                           <td><a href="pmb57161.html">pmb57161</a></td>
+                        </tr>
+                        <tr>
+                           <td>Stadttheater Hamborn</td>
+                           <td><a href="pmb57174.html">pmb57174</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kurtheater Marktfestspiele Wernigerode</td>
+                           <td><a href="pmb57178.html">pmb57178</a></td>
+                        </tr>
+                        <tr>
+                           <td>Stadttheater Mainz</td>
+                           <td><a href="pmb57207.html">pmb57207</a></td>
+                        </tr>
+                        <tr>
+                           <td>Thüringer Heimatbühne</td>
+                           <td><a href="pmb57214.html">pmb57214</a></td>
+                        </tr>
+                        <tr>
+                           <td>Intimes Theater Nürnberg</td>
+                           <td><a href="pmb57235.html">pmb57235</a></td>
+                        </tr>
+                        <tr>
+                           <td>Operettentheater Braunschweig</td>
+                           <td><a href="pmb57252.html">pmb57252</a></td>
+                        </tr>
+                        <tr>
+                           <td>Stadttheater Annaberg</td>
+                           <td><a href="pmb57259.html">pmb57259</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kleines Theater Leipzig</td>
+                           <td><a href="pmb57262.html">pmb57262</a></td>
+                        </tr>
+                        <tr>
+                           <td>Neuköllner Theater</td>
+                           <td><a href="pmb57269.html">pmb57269</a></td>
+                        </tr>
+                        <tr>
+                           <td>Albert-Schumann-Theater</td>
+                           <td><a href="pmb57275.html">pmb57275</a></td>
+                        </tr>
+                        <tr>
+                           <td>Komödie und Theater am Kurfürstendamm</td>
+                           <td><a href="pmb57282.html">pmb57282</a></td>
+                        </tr>
+                        <tr>
+                           <td>Residenztheater Dresden</td>
+                           <td><a href="pmb57297.html">pmb57297</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsches Theater Hannover</td>
+                           <td><a href="pmb57303.html">pmb57303</a></td>
+                        </tr>
+                        <tr>
+                           <td>Stadttheater Eger</td>
+                           <td><a href="pmb57313.html">pmb57313</a></td>
+                        </tr>
+                        <tr>
+                           <td>Stadttheater Opava (Troppau)</td>
+                           <td><a href="pmb57318.html">pmb57318</a></td>
+                        </tr>
+                        <tr>
+                           <td>Theater am Gärtnerplatz</td>
+                           <td><a href="pmb57325.html">pmb57325</a></td>
+                        </tr>
+                        <tr>
+                           <td>Volkstheater München</td>
+                           <td><a href="pmb57331.html">pmb57331</a></td>
+                        </tr>
+                        <tr>
+                           <td>Schauspielhaus Leipzig</td>
+                           <td><a href="pmb57345.html">pmb57345</a></td>
+                        </tr>
+                        <tr>
+                           <td>Staatliches Theater (Kassel)</td>
+                           <td><a href="pmb57911.html">pmb57911</a></td>
+                        </tr>
+                        <tr>
+                           <td>Stadttheater Basel</td>
+                           <td><a href="pmb61190.html">pmb61190</a></td>
+                        </tr>
+                        <tr>
+                           <td>Stadtsaal Frankfurt</td>
+                           <td><a href="pmb61357.html">pmb61357</a></td>
+                        </tr>
+                        <tr>
+                           <td>Mozarteum</td>
+                           <td><a href="pmb62201.html">pmb62201</a></td>
+                        </tr>
+                        <tr>
+                           <td>Städtische Bühne Düsseldorf</td>
+                           <td><a href="pmb62307.html">pmb62307</a></td>
+                        </tr>
+                        <tr>
+                           <td>Národní divadlo Brno</td>
+                           <td><a href="pmb63904.html">pmb63904</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bote &amp; Bock (Musikverlag)</td>
+                           <td><a href="pmb36939.html">pmb36939</a></td>
+                        </tr>
+                        <tr>
+                           <td>Universal Edition</td>
+                           <td><a href="pmb36971.html">pmb36971</a></td>
+                        </tr>
+                        <tr>
+                           <td>Modehaus Krupnik</td>
+                           <td><a href="pmb63985.html">pmb63985</a></td>
+                        </tr>
+                        <tr>
+                           <td>Gemeinschaft dramatischer Schriftsteller und Komponisten (Österreich)</td>
+                           <td><a href="pmb37131.html">pmb37131</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kartellverband des deutschen Bühnenvereins und der deutschen Verleger</td>
+                           <td><a href="pmb56870.html">pmb56870</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bühnenbund Tschechoslowakei</td>
+                           <td><a href="pmb57317.html">pmb57317</a></td>
+                        </tr>
+                        <tr>
+                           <td>Atelier Joël-Heinzelmann</td>
+                           <td><a href="pmb37163.html">pmb37163</a></td>
+                        </tr>
+                        <tr>
+                           <td>Fotografengeschäft W. Willinger</td>
+                           <td><a href="pmb50907.html">pmb50907</a></td>
+                        </tr>
+                        <tr>
+                           <td>Atelier Weitzmann</td>
+                           <td><a href="pmb51244.html">pmb51244</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verein Berliner Presse</td>
+                           <td><a href="pmb29508.html">pmb29508</a></td>
+                        </tr>
+                        <tr>
+                           <td>Concordia</td>
+                           <td><a href="pmb29752.html">pmb29752</a></td>
+                        </tr>
+                        <tr>
+                           <td>Ravag (Radio- Verkehrs-Aktiengesellschaft)</td>
+                           <td><a href="pmb29441.html">pmb29441</a></td>
+                        </tr>
+                        <tr>
+                           <td>Funk-Stunde Berlin</td>
+                           <td><a href="pmb37125.html">pmb37125</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kölner Rundfunk</td>
+                           <td><a href="pmb57464.html">pmb57464</a></td>
+                        </tr>
+                        <tr>
+                           <td>Radio Brünn</td>
+                           <td><a href="pmb57505.html">pmb57505</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wiener Rundfunk</td>
+                           <td><a href="pmb62251.html">pmb62251</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verband deutscher Rundfunkkritiker</td>
+                           <td><a href="pmb65409.html">pmb65409</a></td>
+                        </tr>
+                        <tr>
+                           <td>Philipps</td>
+                           <td><a href="pmb87761.html">pmb87761</a></td>
+                        </tr>
+                        <tr>
+                           <td>Prager Rundfunk</td>
+                           <td><a href="pmb88271.html">pmb88271</a></td>
+                        </tr>
+                        <tr>
+                           <td>Schatzki (Buchhandlung)</td>
+                           <td><a href="pmb37070.html">pmb37070</a></td>
+                        </tr>
+                        <tr>
+                           <td>Buchhandlung Eichholz &amp; Schönfeld</td>
+                           <td><a href="pmb37422.html">pmb37422</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hermann Goldschmiedt &amp; Co.</td>
+                           <td><a href="pmb39565.html">pmb39565</a></td>
+                        </tr>
+                        <tr>
+                           <td>Buchhandlung Richard Lányi</td>
+                           <td><a href="pmb50728.html">pmb50728</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kommissionsgeschäft K.F. Koehler</td>
+                           <td><a href="pmb53344.html">pmb53344</a></td>
+                        </tr>
+                        <tr>
+                           <td>Neugebauer</td>
+                           <td><a href="pmb55925.html">pmb55925</a></td>
+                        </tr>
+                        <tr>
+                           <td>Buchhandlung Gsellius</td>
+                           <td><a href="pmb63000.html">pmb63000</a></td>
+                        </tr>
+                        <tr>
+                           <td>Julius Kittls Nachfolger</td>
+                           <td><a href="pmb88264.html">pmb88264</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bund der Antisemiten</td>
+                           <td><a href="pmb36950.html">pmb36950</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bund deutsch-österreichischer Gau „Ostmark“</td>
+                           <td><a href="pmb36952.html">pmb36952</a></td>
+                        </tr>
+                        <tr>
+                           <td>Nationalsozialistische Arbeiterpartei</td>
+                           <td><a href="pmb37221.html">pmb37221</a></td>
+                        </tr>
+                        <tr>
+                           <td>Sozialdemokratische Arbeiterpartei Österreichs (SDAP)</td>
+                           <td><a href="pmb38090.html">pmb38090</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsche Volkspartei</td>
+                           <td><a href="pmb57925.html">pmb57925</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutschnationale Volkspartei</td>
+                           <td><a href="pmb57926.html">pmb57926</a></td>
+                        </tr>
+                        <tr>
+                           <td>Sozialdemokratische Partei Deutschlands (SPD)</td>
+                           <td><a href="pmb57953.html">pmb57953</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsche Sozialdemokratische Arbeiterpartei in der Tschechoslowakischen Republik (DSAP)</td>
+                           <td><a href="pmb57957.html">pmb57957</a></td>
+                        </tr>
+                        <tr>
+                           <td>Republikanischer Schutzbund</td>
+                           <td><a href="pmb59968.html">pmb59968</a></td>
+                        </tr>
+                        <tr>
+                           <td>Labour Party</td>
+                           <td><a href="pmb60389.html">pmb60389</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wiener Arbeiterwehr</td>
+                           <td><a href="pmb60560.html">pmb60560</a></td>
+                        </tr>
+                        <tr>
+                           <td>Antisemitenbund</td>
+                           <td><a href="pmb53014.html">pmb53014</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsche Fotograph-Gesellschaft</td>
+                           <td><a href="pmb65411.html">pmb65411</a></td>
+                        </tr>
+                        <tr>
+                           <td>Národní knihovna České republiky (Nationalbibliothek der Tschechischen Republik)</td>
+                           <td><a href="pmb57458.html">pmb57458</a></td>
+                        </tr>
+                        <tr>
+                           <td>Universität Wien</td>
+                           <td><a href="pmb52775.html">pmb52775</a></td>
+                        </tr>
+                        <tr>
+                           <td>Karls-Universität Prag</td>
+                           <td><a href="pmb57503.html">pmb57503</a></td>
+                        </tr>
+                        <tr>
+                           <td>Johann Wolfgang Goethe-Universität Frankfurt am Main</td>
+                           <td><a href="pmb62254.html">pmb62254</a></td>
+                        </tr>
+                        <tr>
+                           <td>Christian-Albrechts-Universität zu Kiel</td>
+                           <td><a href="pmb63680.html">pmb63680</a></td>
+                        </tr>
+                        <tr>
+                           <td>Universität für Musik und darstellende Kunst Wien</td>
+                           <td><a href="pmb63833.html">pmb63833</a></td>
+                        </tr>
+                        <tr>
+                           <td>Jahoda &amp; Siegel (Druckerei)</td>
+                           <td><a href="pmb37159.html">pmb37159</a></td>
+                        </tr>
+                        <tr>
+                           <td>Klischee für Industrie Gesellschaft m.b.H.</td>
+                           <td><a href="pmb50435.html">pmb50435</a></td>
+                        </tr>
+                        <tr>
+                           <td>Johann Nepomuk Vernay Druckerei- und Verlags AG</td>
+                           <td><a href="pmb51490.html">pmb51490</a></td>
+                        </tr>
+                        <tr>
+                           <td>Universitätsdruckerei Rudolf Hanel</td>
+                           <td><a href="pmb55803.html">pmb55803</a></td>
+                        </tr>
+                        <tr>
+                           <td>Waldheim-Eberle A.G.</td>
+                           <td><a href="pmb55820.html">pmb55820</a></td>
+                        </tr>
+                        <tr>
+                           <td>Buch-, Kunst- und Zeitungsdruckerei „Albrecht Dürer“</td>
+                           <td><a href="pmb60911.html">pmb60911</a></td>
+                        </tr>
+                        <tr>
+                           <td>Handelsgericht Wien</td>
+                           <td><a href="pmb29591.html">pmb29591</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bezirksgericht Wien Josefstadt</td>
+                           <td><a href="pmb29605.html">pmb29605</a></td>
+                        </tr>
+                        <tr>
+                           <td>Amtsgericht Berlin-Charlottenburg</td>
+                           <td><a href="pmb36362.html">pmb36362</a></td>
+                        </tr>
+                        <tr>
+                           <td>Amtsgericht Berlin-Mitte</td>
+                           <td><a href="pmb36735.html">pmb36735</a></td>
+                        </tr>
+                        <tr>
+                           <td>Amtsgericht Berlin</td>
+                           <td><a href="pmb36753.html">pmb36753</a></td>
+                        </tr>
+                        <tr>
+                           <td>Amtsgericht Frankfurt am Main</td>
+                           <td><a href="pmb36755.html">pmb36755</a></td>
+                        </tr>
+                        <tr>
+                           <td>Amtsgericht Hamburg</td>
+                           <td><a href="pmb36757.html">pmb36757</a></td>
+                        </tr>
+                        <tr>
+                           <td>Amtsgericht Leipzig</td>
+                           <td><a href="pmb36759.html">pmb36759</a></td>
+                        </tr>
+                        <tr>
+                           <td>Amtsgericht München</td>
+                           <td><a href="pmb36761.html">pmb36761</a></td>
+                        </tr>
+                        <tr>
+                           <td>Amtsgericht Nürnberg</td>
+                           <td><a href="pmb36763.html">pmb36763</a></td>
+                        </tr>
+                        <tr>
+                           <td>Amtsgericht Wesermünde-Geestemünde</td>
+                           <td><a href="pmb36765.html">pmb36765</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bayrisches Oberstes Landesgericht</td>
+                           <td><a href="pmb36771.html">pmb36771</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bezirksgericht für Handelssachen</td>
+                           <td><a href="pmb36778.html">pmb36778</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bezirksgericht Linz</td>
+                           <td><a href="pmb36781.html">pmb36781</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bezirksgericht Piešťany</td>
+                           <td><a href="pmb36783.html">pmb36783</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bezirksgericht Prag</td>
+                           <td><a href="pmb36784.html">pmb36784</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bezirksgericht Zuckmantl</td>
+                           <td><a href="pmb36786.html">pmb36786</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bezirksgericht Wien Innere Stadt</td>
+                           <td><a href="pmb36788.html">pmb36788</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bezirksgericht Wien Margareten</td>
+                           <td><a href="pmb36791.html">pmb36791</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bühnenschiedsgericht Berlin</td>
+                           <td><a href="pmb36795.html">pmb36795</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bühnenschiedsgericht Wien</td>
+                           <td><a href="pmb36797.html">pmb36797</a></td>
+                        </tr>
+                        <tr>
+                           <td>Exekutionsgericht Wien</td>
+                           <td><a href="pmb36801.html">pmb36801</a></td>
+                        </tr>
+                        <tr>
+                           <td>Handelsbezirksgericht Prag</td>
+                           <td><a href="pmb36813.html">pmb36813</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kammergericht Berlin</td>
+                           <td><a href="pmb36815.html">pmb36815</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kreis-Strafgericht Brünn</td>
+                           <td><a href="pmb36818.html">pmb36818</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kreis-Strafgericht Leitmeritz</td>
+                           <td><a href="pmb36820.html">pmb36820</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kreis-Strafgericht Prag</td>
+                           <td><a href="pmb36822.html">pmb36822</a></td>
+                        </tr>
+                        <tr>
+                           <td>Landgericht Essen</td>
+                           <td><a href="pmb36824.html">pmb36824</a></td>
+                        </tr>
+                        <tr>
+                           <td>Landgericht Hamburg</td>
+                           <td><a href="pmb36828.html">pmb36828</a></td>
+                        </tr>
+                        <tr>
+                           <td>Landgericht I Berlin</td>
+                           <td><a href="pmb36832.html">pmb36832</a></td>
+                        </tr>
+                        <tr>
+                           <td>Landgericht III Berlin</td>
+                           <td><a href="pmb36834.html">pmb36834</a></td>
+                        </tr>
+                        <tr>
+                           <td>Landgericht I München</td>
+                           <td><a href="pmb36836.html">pmb36836</a></td>
+                        </tr>
+                        <tr>
+                           <td>Landgericht Nürnberg</td>
+                           <td><a href="pmb36838.html">pmb36838</a></td>
+                        </tr>
+                        <tr>
+                           <td>Landesgericht für Strafsachen</td>
+                           <td><a href="pmb36842.html">pmb36842</a></td>
+                        </tr>
+                        <tr>
+                           <td>Landesgericht für Zivilrechtssachen Wien</td>
+                           <td><a href="pmb36844.html">pmb36844</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oberlandesgericht Hamburg</td>
+                           <td><a href="pmb36846.html">pmb36846</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oberlandesgericht Prag</td>
+                           <td><a href="pmb36848.html">pmb36848</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oberlandesgericht Wien</td>
+                           <td><a href="pmb36850.html">pmb36850</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oberster Gerichts- und Kassationshof</td>
+                           <td><a href="pmb36854.html">pmb36854</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oberster Gerichtshof</td>
+                           <td><a href="pmb36856.html">pmb36856</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oberstes Landesgericht München</td>
+                           <td><a href="pmb36858.html">pmb36858</a></td>
+                        </tr>
+                        <tr>
+                           <td>Strafbezirksgericht Brünn</td>
+                           <td><a href="pmb36871.html">pmb36871</a></td>
+                        </tr>
+                        <tr>
+                           <td>Strafbezirksgericht Budapest</td>
+                           <td><a href="pmb36873.html">pmb36873</a></td>
+                        </tr>
+                        <tr>
+                           <td>Strafbezirksgericht Prag</td>
+                           <td><a href="pmb36875.html">pmb36875</a></td>
+                        </tr>
+                        <tr>
+                           <td>Zivilbezirksgericht Prag-Ost</td>
+                           <td><a href="pmb36881.html">pmb36881</a></td>
+                        </tr>
+                        <tr>
+                           <td>Zivilgericht Basel</td>
+                           <td><a href="pmb36883.html">pmb36883</a></td>
+                        </tr>
+                        <tr>
+                           <td>Strafbezirksgericht I</td>
+                           <td><a href="pmb50491.html">pmb50491</a></td>
+                        </tr>
+                        <tr>
+                           <td>Ratskammer des Landesgerichtes in Strafsachen Wien I</td>
+                           <td><a href="pmb50699.html">pmb50699</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bezirksgericht Grein</td>
+                           <td><a href="pmb51787.html">pmb51787</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oberlandesgericht Graz</td>
+                           <td><a href="pmb51790.html">pmb51790</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oberster Gerichtshof Graz</td>
+                           <td><a href="pmb51791.html">pmb51791</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oberlandesgericht Lemberg</td>
+                           <td><a href="pmb51792.html">pmb51792</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oberster Gerichtshof Lemberg</td>
+                           <td><a href="pmb51793.html">pmb51793</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bezirksgericht Wien Hietzing</td>
+                           <td><a href="pmb51931.html">pmb51931</a></td>
+                        </tr>
+                        <tr>
+                           <td>Landesgericht für Strafsachen Budapest</td>
+                           <td><a href="pmb52161.html">pmb52161</a></td>
+                        </tr>
+                        <tr>
+                           <td>Reichsgericht</td>
+                           <td><a href="pmb52830.html">pmb52830</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kreisgericht St. Pölten</td>
+                           <td><a href="pmb53520.html">pmb53520</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bezirksgericht Wien Fünfhaus</td>
+                           <td><a href="pmb54803.html">pmb54803</a></td>
+                        </tr>
+                        <tr>
+                           <td>Strafkammer Berlin</td>
+                           <td><a href="pmb55721.html">pmb55721</a></td>
+                        </tr>
+                        <tr>
+                           <td>Landgerichtsrat (Berlin)</td>
+                           <td><a href="pmb55760.html">pmb55760</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oberstaatsanwaltschaft Berlin</td>
+                           <td><a href="pmb56187.html">pmb56187</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kreisgericht Prag</td>
+                           <td><a href="pmb56252.html">pmb56252</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oberstes Gericht Prag</td>
+                           <td><a href="pmb56254.html">pmb56254</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kleine Strafkammer Berlin</td>
+                           <td><a href="pmb56341.html">pmb56341</a></td>
+                        </tr>
+                        <tr>
+                           <td>Zivilbezirksgericht Prag-Süd</td>
+                           <td><a href="pmb56826.html">pmb56826</a></td>
+                        </tr>
+                        <tr>
+                           <td>Landgericht Frankfurt a.M.</td>
+                           <td><a href="pmb57041.html">pmb57041</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oberbühnenschiedsgericht</td>
+                           <td><a href="pmb57072.html">pmb57072</a></td>
+                        </tr>
+                        <tr>
+                           <td>Zivilkammer (Landgericht I Berlin)</td>
+                           <td><a href="pmb57085.html">pmb57085</a></td>
+                        </tr>
+                        <tr>
+                           <td>Amtsgericht Bad Salzungen</td>
+                           <td><a href="pmb57165.html">pmb57165</a></td>
+                        </tr>
+                        <tr>
+                           <td>Amtsgericht Herne</td>
+                           <td><a href="pmb57169.html">pmb57169</a></td>
+                        </tr>
+                        <tr>
+                           <td>Amtsgericht Hirschberg</td>
+                           <td><a href="pmb57192.html">pmb57192</a></td>
+                        </tr>
+                        <tr>
+                           <td>Amtsgericht Aachen</td>
+                           <td><a href="pmb57198.html">pmb57198</a></td>
+                        </tr>
+                        <tr>
+                           <td>Schöffengericht Bassum</td>
+                           <td><a href="pmb57203.html">pmb57203</a></td>
+                        </tr>
+                        <tr>
+                           <td>Amtsgericht Essen</td>
+                           <td><a href="pmb57232.html">pmb57232</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kreisgericht Eger</td>
+                           <td><a href="pmb57414.html">pmb57414</a></td>
+                        </tr>
+                        <tr>
+                           <td>Jugendgericht Prag</td>
+                           <td><a href="pmb57535.html">pmb57535</a></td>
+                        </tr>
+                        <tr>
+                           <td>Strafsenat Prag</td>
+                           <td><a href="pmb57537.html">pmb57537</a></td>
+                        </tr>
+                        <tr>
+                           <td>Pressesenat Leitmeritz</td>
+                           <td><a href="pmb57544.html">pmb57544</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oberstes Gericht Brünn</td>
+                           <td><a href="pmb57672.html">pmb57672</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verlassenschaftsgericht Wien</td>
+                           <td><a href="pmb57966.html">pmb57966</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oberstes Verwaltungsgericht Wien</td>
+                           <td><a href="pmb58017.html">pmb58017</a></td>
+                        </tr>
+                        <tr>
+                           <td>Disziplinarrat Prag</td>
+                           <td><a href="pmb58121.html">pmb58121</a></td>
+                        </tr>
+                        <tr>
+                           <td>Zivilkreisgericht Brünn</td>
+                           <td><a href="pmb59700.html">pmb59700</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bezirksgericht Pohrlitz</td>
+                           <td><a href="pmb60302.html">pmb60302</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oberlandesgericht Hamm</td>
+                           <td><a href="pmb60559.html">pmb60559</a></td>
+                        </tr>
+                        <tr>
+                           <td>21. Zivilkammer für Urheberrecht (Landgericht I Berlin)</td>
+                           <td><a href="pmb62987.html">pmb62987</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bezirksgericht Schladming</td>
+                           <td><a href="pmb63665.html">pmb63665</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oberlandesgericht Kassel</td>
+                           <td><a href="pmb65238.html">pmb65238</a></td>
+                        </tr>
+                        <tr>
+                           <td>Amtsgericht Eisenach</td>
+                           <td><a href="pmb87943.html">pmb87943</a></td>
+                        </tr>
+                        <tr>
+                           <td>Sozialdemokratische Kunststelle</td>
+                           <td><a href="pmb37047.html">pmb37047</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verein für Kunst</td>
+                           <td><a href="pmb37716.html">pmb37716</a></td>
+                        </tr>
+                        <tr>
+                           <td>Allgemeiner Tarifanzeiger</td>
+                           <td><a href="pmb37248.html">pmb37248</a></td>
+                        </tr>
+                        <tr>
+                           <td>Arbeiter-Sänger-Zeitung</td>
+                           <td><a href="pmb37260.html">pmb37260</a></td>
+                        </tr>
+                        <tr>
+                           <td>Aussiger Tag</td>
+                           <td><a href="pmb37266.html">pmb37266</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bayrische Staatszeitung</td>
+                           <td><a href="pmb37268.html">pmb37268</a></td>
+                        </tr>
+                        <tr>
+                           <td>Berliner Börsen Zeitung</td>
+                           <td><a href="pmb37270.html">pmb37270</a></td>
+                        </tr>
+                        <tr>
+                           <td>Berliner Lokalanzeiger</td>
+                           <td><a href="pmb37271.html">pmb37271</a></td>
+                        </tr>
+                        <tr>
+                           <td>Berliner Nachtausgabe</td>
+                           <td><a href="pmb37275.html">pmb37275</a></td>
+                        </tr>
+                        <tr>
+                           <td>Frankfurter Generalanzeiger</td>
+                           <td><a href="pmb37332.html">pmb37332</a></td>
+                        </tr>
+                        <tr>
+                           <td>Frankfurter Nachrichten</td>
+                           <td><a href="pmb37334.html">pmb37334</a></td>
+                        </tr>
+                        <tr>
+                           <td>Der Gegen-Angriff</td>
+                           <td><a href="pmb37338.html">pmb37338</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hamburger Fremdenblatt</td>
+                           <td><a href="pmb37344.html">pmb37344</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hamburger Nachrichten</td>
+                           <td><a href="pmb37346.html">pmb37346</a></td>
+                        </tr>
+                        <tr>
+                           <td>Das kleine Blatt</td>
+                           <td><a href="pmb37384.html">pmb37384</a></td>
+                        </tr>
+                        <tr>
+                           <td>Vorwärts Berlin</td>
+                           <td><a href="pmb37397.html">pmb37397</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kölner Woche</td>
+                           <td><a href="pmb37400.html">pmb37400</a></td>
+                        </tr>
+                        <tr>
+                           <td>Der Landbündler</td>
+                           <td><a href="pmb37404.html">pmb37404</a></td>
+                        </tr>
+                        <tr>
+                           <td>Literarische Rundschau (Berliner Tageblatt)</td>
+                           <td><a href="pmb37421.html">pmb37421</a></td>
+                        </tr>
+                        <tr>
+                           <td>Pariser Kurier</td>
+                           <td><a href="pmb37506.html">pmb37506</a></td>
+                        </tr>
+                        <tr>
+                           <td>Pragai Magyar Hirlap</td>
+                           <td><a href="pmb37510.html">pmb37510</a></td>
+                        </tr>
+                        <tr>
+                           <td>Prager Mittag</td>
+                           <td><a href="pmb37511.html">pmb37511</a></td>
+                        </tr>
+                        <tr>
+                           <td>Scheinwerfer</td>
+                           <td><a href="pmb37534.html">pmb37534</a></td>
+                        </tr>
+                        <tr>
+                           <td>Silesia</td>
+                           <td><a href="pmb37537.html">pmb37537</a></td>
+                        </tr>
+                        <tr>
+                           <td>Volkskampf</td>
+                           <td><a href="pmb37553.html">pmb37553</a></td>
+                        </tr>
+                        <tr>
+                           <td>Welt im Wort</td>
+                           <td><a href="pmb37557.html">pmb37557</a></td>
+                        </tr>
+                        <tr>
+                           <td>Der Weltspiegel</td>
+                           <td><a href="pmb37558.html">pmb37558</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wiener Mittags-Zeitung</td>
+                           <td><a href="pmb37560.html">pmb37560</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wiener Mittagsblatt</td>
+                           <td><a href="pmb37563.html">pmb37563</a></td>
+                        </tr>
+                        <tr>
+                           <td>Volksstimme</td>
+                           <td><a href="pmb61360.html">pmb61360</a></td>
+                        </tr>
+                        <tr>
+                           <td>Höchster Kreisblatt</td>
+                           <td><a href="pmb61361.html">pmb61361</a></td>
+                        </tr>
+                        <tr>
+                           <td>Volks-Zeitung</td>
+                           <td><a href="pmb61362.html">pmb61362</a></td>
+                        </tr>
+                        <tr>
+                           <td>Frankfurter Volksblatt</td>
+                           <td><a href="pmb61363.html">pmb61363</a></td>
+                        </tr>
+                        <tr>
+                           <td>Das Kleine Journal</td>
+                           <td><a href="pmb62216.html">pmb62216</a></td>
+                        </tr>
+                        <tr>
+                           <td>Az Est</td>
+                           <td><a href="pmb65521.html">pmb65521</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kabarett der Komiker</td>
+                           <td><a href="pmb37694.html">pmb37694</a></td>
+                        </tr>
+                        <tr>
+                           <td>Max Goldschmidt (Büro für Zeitungsausschnitte)</td>
+                           <td><a href="pmb87755.html">pmb87755</a></td>
+                        </tr>
+                        <tr>
+                           <td>Dorotheum</td>
+                           <td><a href="pmb29803.html">pmb29803</a></td>
+                        </tr>
+                        <tr>
+                           <td>Meinhardt-Bernauer’sche Bühnen</td>
+                           <td><a href="pmb29809.html">pmb29809</a></td>
+                        </tr>
+                        <tr>
+                           <td>Lessing-Theater</td>
+                           <td><a href="pmb35053.html">pmb35053</a></td>
+                        </tr>
+                        <tr>
+                           <td>Die Truppe Theater-Film Gesellschaft</td>
+                           <td><a href="pmb36992.html">pmb36992</a></td>
+                        </tr>
+                        <tr>
+                           <td>Stachelbeere (Kleinkunstbühne)</td>
+                           <td><a href="pmb37039.html">pmb37039</a></td>
+                        </tr>
+                        <tr>
+                           <td>Robert-Bühnen</td>
+                           <td><a href="pmb37114.html">pmb37114</a></td>
+                        </tr>
+                        <tr>
+                           <td>Gesellschaft für Bühnen-Aufführungen</td>
+                           <td><a href="pmb57156.html">pmb57156</a></td>
+                        </tr>
+                        <tr>
+                           <td>Scala-Theater-Gesellschaft</td>
+                           <td><a href="pmb57222.html">pmb57222</a></td>
+                        </tr>
+                        <tr>
+                           <td>Viktor Barnowsky-Bühnenbetriebs-Gesellschaft</td>
+                           <td><a href="pmb57242.html">pmb57242</a></td>
+                        </tr>
+                        <tr>
+                           <td>Aktiengesellschaft für Zirkus- und Theaterbau</td>
+                           <td><a href="pmb57277.html">pmb57277</a></td>
+                        </tr>
+                        <tr>
+                           <td>Schauspielhaus-Betriebs-Gesellschaft</td>
+                           <td><a href="pmb57300.html">pmb57300</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wolz &amp; Reimann G.m.b.H.</td>
+                           <td><a href="pmb57327.html">pmb57327</a></td>
+                        </tr>
+                        <tr>
+                           <td>Münchener Theater G.m.b.H.</td>
+                           <td><a href="pmb57336.html">pmb57336</a></td>
+                        </tr>
+                        <tr>
+                           <td>Neue Theaterbetriebes-G.m.b.H.</td>
+                           <td><a href="pmb57633.html">pmb57633</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bezirkspolizeikommissariat Wien Alsergrund</td>
+                           <td><a href="pmb36793.html">pmb36793</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bundespolizeidirektion Wien</td>
+                           <td><a href="pmb36799.html">pmb36799</a></td>
+                        </tr>
+                        <tr>
+                           <td>Polizeidirektion Berlin</td>
+                           <td><a href="pmb36860.html">pmb36860</a></td>
+                        </tr>
+                        <tr>
+                           <td>Polizeidirektion Budapest</td>
+                           <td><a href="pmb36862.html">pmb36862</a></td>
+                        </tr>
+                        <tr>
+                           <td>Polizeidirektion Wien</td>
+                           <td><a href="pmb36865.html">pmb36865</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bezirkspolizeikommissariat Josefstadt</td>
+                           <td><a href="pmb50590.html">pmb50590</a></td>
+                        </tr>
+                        <tr>
+                           <td>Polizeikommissariat Mariahilf</td>
+                           <td><a href="pmb50596.html">pmb50596</a></td>
+                        </tr>
+                        <tr>
+                           <td>Polizei-Kommissariat Landstraße</td>
+                           <td><a href="pmb50693.html">pmb50693</a></td>
+                        </tr>
+                        <tr>
+                           <td>Einwohner-Melde-Amt (Polizeibehörde Berlin)</td>
+                           <td><a href="pmb50733.html">pmb50733</a></td>
+                        </tr>
+                        <tr>
+                           <td>Polizeidirektion München</td>
+                           <td><a href="pmb53074.html">pmb53074</a></td>
+                        </tr>
+                        <tr>
+                           <td>Polizeiwachstelle Böcklinstraße</td>
+                           <td><a href="pmb53085.html">pmb53085</a></td>
+                        </tr>
+                        <tr>
+                           <td>Polizeikommissariat Prater Ausstellungsstraße</td>
+                           <td><a href="pmb53089.html">pmb53089</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bezirkspolizeikommissariat Neubau</td>
+                           <td><a href="pmb53137.html">pmb53137</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bezirkspolizeigericht Wien Innere Stadt</td>
+                           <td><a href="pmb53140.html">pmb53140</a></td>
+                        </tr>
+                        <tr>
+                           <td>Polizeikommissariat Prag</td>
+                           <td><a href="pmb53602.html">pmb53602</a></td>
+                        </tr>
+                        <tr>
+                           <td>Polizeidirektion Prag</td>
+                           <td><a href="pmb56323.html">pmb56323</a></td>
+                        </tr>
+                        <tr>
+                           <td>Geheime Staatspolizei</td>
+                           <td><a href="pmb56813.html">pmb56813</a></td>
+                        </tr>
+                        <tr>
+                           <td>Ortspolizeibehörde Salzwedel</td>
+                           <td><a href="pmb57246.html">pmb57246</a></td>
+                        </tr>
+                        <tr>
+                           <td>Ortspolizeibehörde Münster</td>
+                           <td><a href="pmb57248.html">pmb57248</a></td>
+                        </tr>
+                        <tr>
+                           <td>Polizeipräsidium Braunschweig</td>
+                           <td><a href="pmb57256.html">pmb57256</a></td>
+                        </tr>
+                        <tr>
+                           <td>Budapester königlich-ungarische Staatspolizei</td>
+                           <td><a href="pmb87731.html">pmb87731</a></td>
+                        </tr>
+                        <tr>
+                           <td>Generalprokuratur (Österreich)</td>
+                           <td><a href="pmb36805.html">pmb36805</a></td>
+                        </tr>
+                        <tr>
+                           <td>Generalprokuratur (Tschechien)</td>
+                           <td><a href="pmb36807.html">pmb36807</a></td>
+                        </tr>
+                        <tr>
+                           <td>Generalstaatsanwaltschaft Berlin</td>
+                           <td><a href="pmb36808.html">pmb36808</a></td>
+                        </tr>
+                        <tr>
+                           <td>Landesgericht I Berlin (Generalstaatsanwaltschaft)</td>
+                           <td><a href="pmb36830.html">pmb36830</a></td>
+                        </tr>
+                        <tr>
+                           <td>Landesgericht für Strafsachen (Staatsanwaltschaft)</td>
+                           <td><a href="pmb36840.html">pmb36840</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oberstaatsanwaltschaft Essen-Ruhr</td>
+                           <td><a href="pmb36852.html">pmb36852</a></td>
+                        </tr>
+                        <tr>
+                           <td>Staatsanwaltschaft Berlin</td>
+                           <td><a href="pmb36867.html">pmb36867</a></td>
+                        </tr>
+                        <tr>
+                           <td>Staatsanwaltschaft Budapest</td>
+                           <td><a href="pmb52163.html">pmb52163</a></td>
+                        </tr>
+                        <tr>
+                           <td>Staatsanwaltschaft Prag</td>
+                           <td><a href="pmb53594.html">pmb53594</a></td>
+                        </tr>
+                        <tr>
+                           <td>Generalprokuratur Prag</td>
+                           <td><a href="pmb56301.html">pmb56301</a></td>
+                        </tr>
+                        <tr>
+                           <td>Staatsanwaltschaft Frankfurt am Main</td>
+                           <td><a href="pmb57187.html">pmb57187</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oberstaatsanwaltschaft Prag</td>
+                           <td><a href="pmb57655.html">pmb57655</a></td>
+                        </tr>
+                        <tr>
+                           <td>Staatsanwaltschaft Brünn</td>
+                           <td><a href="pmb59698.html">pmb59698</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bundesgymnasium Wien V., Rainergasse</td>
+                           <td><a href="pmb36960.html">pmb36960</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsche Wandervogel Schule</td>
+                           <td><a href="pmb37023.html">pmb37023</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hindenburgschule</td>
+                           <td><a href="pmb37629.html">pmb37629</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verein deutsche Volksschule</td>
+                           <td><a href="pmb37709.html">pmb37709</a></td>
+                        </tr>
+                        <tr>
+                           <td>Staatsrealschule (Mährisch-Ostrau)</td>
+                           <td><a href="pmb52101.html">pmb52101</a></td>
+                        </tr>
+                        <tr>
+                           <td>Masaryk-Volkshochschule</td>
+                           <td><a href="pmb53323.html">pmb53323</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bundesrealschule</td>
+                           <td><a href="pmb53768.html">pmb53768</a></td>
+                        </tr>
+                        <tr>
+                           <td>Karolinen-Kinderspital</td>
+                           <td><a href="pmb37715.html">pmb37715</a></td>
+                        </tr>
+                        <tr>
+                           <td>Sanatorium Beckmann (Brünn)</td>
+                           <td><a href="pmb56468.html">pmb56468</a></td>
+                        </tr>
+                        <tr>
+                           <td>Sanatorium und Wasserheilanstalt Thorsch (Brünn)</td>
+                           <td><a href="pmb56760.html">pmb56760</a></td>
+                        </tr>
+                        <tr>
+                           <td>Landes-Heil- und Pflegeanstalt Czernowitz</td>
+                           <td><a href="pmb56941.html">pmb56941</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wiener freiwillige Rettungsgesellschaft</td>
+                           <td><a href="pmb36931.html">pmb36931</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsche Rote Hilfe Berlin</td>
+                           <td><a href="pmb37020.html">pmb37020</a></td>
+                        </tr>
+                        <tr>
+                           <td>Aktion „Rettet die Jugend“</td>
+                           <td><a href="pmb37278.html">pmb37278</a></td>
+                        </tr>
+                        <tr>
+                           <td>Aktion für Blumau</td>
+                           <td><a href="pmb37280.html">pmb37280</a></td>
+                        </tr>
+                        <tr>
+                           <td>Aktion „Winterkleider für Schulkinder“</td>
+                           <td><a href="pmb37282.html">pmb37282</a></td>
+                        </tr>
+                        <tr>
+                           <td>Blindenheim für israelitische Mädchen</td>
+                           <td><a href="pmb37389.html">pmb37389</a></td>
+                        </tr>
+                        <tr>
+                           <td>Blindenverein „Lindenbund“</td>
+                           <td><a href="pmb37392.html">pmb37392</a></td>
+                        </tr>
+                        <tr>
+                           <td>Blindenwerkstätte „Typhlos“</td>
+                           <td><a href="pmb37394.html">pmb37394</a></td>
+                        </tr>
+                        <tr>
+                           <td>Breslauer Erwerbslosenfürsorge</td>
+                           <td><a href="pmb37410.html">pmb37410</a></td>
+                        </tr>
+                        <tr>
+                           <td>Britisches Hilfswerk für Wiener Kinder</td>
+                           <td><a href="pmb37419.html">pmb37419</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsche Kriegsblinde</td>
+                           <td><a href="pmb37442.html">pmb37442</a></td>
+                        </tr>
+                        <tr>
+                           <td>Die Rote Hilfe (Wien)</td>
+                           <td><a href="pmb37531.html">pmb37531</a></td>
+                        </tr>
+                        <tr>
+                           <td>Fonds für die Befreiung von Kriegsgefangenen</td>
+                           <td><a href="pmb37577.html">pmb37577</a></td>
+                        </tr>
+                        <tr>
+                           <td>Fonds zur Errichtung eines Grabsteines für Peter Altenberg</td>
+                           <td><a href="pmb37579.html">pmb37579</a></td>
+                        </tr>
+                        <tr>
+                           <td>Friends’ Relief Mission / Gesellschaft der Freunde</td>
+                           <td><a href="pmb37584.html">pmb37584</a></td>
+                        </tr>
+                        <tr>
+                           <td>Fürsorge für erblindete und invalide Soldaten</td>
+                           <td><a href="pmb37587.html">pmb37587</a></td>
+                        </tr>
+                        <tr>
+                           <td>Georgien – Russischer Hilfsfonds</td>
+                           <td><a href="pmb37597.html">pmb37597</a></td>
+                        </tr>
+                        <tr>
+                           <td>Haus der Barmherzigkeit zur Pflege Unheilbarer</td>
+                           <td><a href="pmb37618.html">pmb37618</a></td>
+                        </tr>
+                        <tr>
+                           <td>Haus des Kindes</td>
+                           <td><a href="pmb37620.html">pmb37620</a></td>
+                        </tr>
+                        <tr>
+                           <td>Heim für Blinde Mädchen</td>
+                           <td><a href="pmb37623.html">pmb37623</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hilfsverein für Lungenkranke</td>
+                           <td><a href="pmb37627.html">pmb37627</a></td>
+                        </tr>
+                        <tr>
+                           <td>I. Blinden-Unterstützungsverein</td>
+                           <td><a href="pmb37645.html">pmb37645</a></td>
+                        </tr>
+                        <tr>
+                           <td>Internationale Arbeiterhilfe</td>
+                           <td><a href="pmb37647.html">pmb37647</a></td>
+                        </tr>
+                        <tr>
+                           <td>Israelitische Kinderbewahranstalt</td>
+                           <td><a href="pmb37651.html">pmb37651</a></td>
+                        </tr>
+                        <tr>
+                           <td>Israelitisches Blindeninstitut</td>
+                           <td><a href="pmb37652.html">pmb37652</a></td>
+                        </tr>
+                        <tr>
+                           <td>Israelitisches Knaben-Waisenhaus</td>
+                           <td><a href="pmb37654.html">pmb37654</a></td>
+                        </tr>
+                        <tr>
+                           <td>Jüdisches Hilfswerk</td>
+                           <td><a href="pmb37661.html">pmb37661</a></td>
+                        </tr>
+                        <tr>
+                           <td>Zentralverband der deutsch-österreichischen Kriegsbeschädigten</td>
+                           <td><a href="pmb37666.html">pmb37666</a></td>
+                        </tr>
+                        <tr>
+                           <td>Jugendfürsorge Brünn</td>
+                           <td><a href="pmb37670.html">pmb37670</a></td>
+                        </tr>
+                        <tr>
+                           <td>Jugendfürsorge Mährisch-Ostrau</td>
+                           <td><a href="pmb37676.html">pmb37676</a></td>
+                        </tr>
+                        <tr>
+                           <td>Jugendfürsorge Prag</td>
+                           <td><a href="pmb37679.html">pmb37679</a></td>
+                        </tr>
+                        <tr>
+                           <td>k. k. n.-ö. Statthalterei zur Fürsorge für erblindete Soldaten</td>
+                           <td><a href="pmb37682.html">pmb37682</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wiener Frauenverein zum Schutze armer verlassener Kinder</td>
+                           <td><a href="pmb37685.html">pmb37685</a></td>
+                        </tr>
+                        <tr>
+                           <td>Winterhilfe</td>
+                           <td><a href="pmb37697.html">pmb37697</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kinderasyl „Kahlenbergerdorf“</td>
+                           <td><a href="pmb37719.html">pmb37719</a></td>
+                        </tr>
+                        <tr>
+                           <td>Sozialinstitut Prag</td>
+                           <td><a href="pmb56858.html">pmb56858</a></td>
+                        </tr>
+                        <tr>
+                           <td>Šalda-Kommitée</td>
+                           <td><a href="pmb57456.html">pmb57456</a></td>
+                        </tr>
+                        <tr>
+                           <td>Collége de France</td>
+                           <td><a href="pmb37003.html">pmb37003</a></td>
+                        </tr>
+                        <tr>
+                           <td>Sorbonne</td>
+                           <td><a href="pmb37049.html">pmb37049</a></td>
+                        </tr>
+                        <tr>
+                           <td>Akademische Hochschule für Musik</td>
+                           <td><a href="pmb43988.html">pmb43988</a></td>
+                        </tr>
+                        <tr>
+                           <td>Staatsoper</td>
+                           <td><a href="pmb36687.html">pmb36687</a></td>
+                        </tr>
+                        <tr>
+                           <td>Städtische Oper Berlin</td>
+                           <td><a href="pmb37031.html">pmb37031</a></td>
+                        </tr>
+                        <tr>
+                           <td>Staatsoper Unter den Linden (Berlin)</td>
+                           <td><a href="pmb37043.html">pmb37043</a></td>
+                        </tr>
+                        <tr>
+                           <td>Oper am Platz der Republik Berlin (Krolloper)</td>
+                           <td><a href="pmb37183.html">pmb37183</a></td>
+                        </tr>
+                        <tr>
+                           <td>Funk-Oper</td>
+                           <td><a href="pmb56818.html">pmb56818</a></td>
+                        </tr>
+                        <tr>
+                           <td>Staatsoper Hamburg</td>
+                           <td><a href="pmb57290.html">pmb57290</a></td>
+                        </tr>
+                        <tr>
+                           <td>Städtische Oper Köln</td>
+                           <td><a href="pmb62287.html">pmb62287</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bundesministerium für Finanzen Wien</td>
+                           <td><a href="pmb36967.html">pmb36967</a></td>
+                        </tr>
+                        <tr>
+                           <td>Österreichisches Justizministerium</td>
+                           <td><a href="pmb53466.html">pmb53466</a></td>
+                        </tr>
+                        <tr>
+                           <td>Ultramarin Papierfabrik</td>
+                           <td><a href="pmb36976.html">pmb36976</a></td>
+                        </tr>
+                        <tr>
+                           <td>Jakob Kraus Vereinigte Papier- und Ultramarin Fabriken</td>
+                           <td><a href="pmb37208.html">pmb37208</a></td>
+                        </tr>
+                        <tr>
+                           <td>Postamt Wien I</td>
+                           <td><a href="pmb37157.html">pmb37157</a></td>
+                        </tr>
+                        <tr>
+                           <td>Postamt 40 Wien</td>
+                           <td><a href="pmb52633.html">pmb52633</a></td>
+                        </tr>
+                        <tr>
+                           <td>Postverwaltung Tschechoslowakei</td>
+                           <td><a href="pmb52634.html">pmb52634</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bahnpostamt Salzburg</td>
+                           <td><a href="pmb52868.html">pmb52868</a></td>
+                        </tr>
+                        <tr>
+                           <td>Konzertdirektion Leopold Adler</td>
+                           <td><a href="pmb36885.html">pmb36885</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wolff &amp; Sachs (Konzertdirektion)</td>
+                           <td><a href="pmb36913.html">pmb36913</a></td>
+                        </tr>
+                        <tr>
+                           <td>Gutmann (Konzertdirektion)</td>
+                           <td><a href="pmb37148.html">pmb37148</a></td>
+                        </tr>
+                        <tr>
+                           <td>Georg Kugel (Konzertdirektion)</td>
+                           <td><a href="pmb37220.html">pmb37220</a></td>
+                        </tr>
+                        <tr>
+                           <td>Jakob (Konzertdirektion)</td>
+                           <td><a href="pmb52574.html">pmb52574</a></td>
+                        </tr>
+                        <tr>
+                           <td>Konzertdirektion Amé</td>
+                           <td><a href="pmb53570.html">pmb53570</a></td>
+                        </tr>
+                        <tr>
+                           <td>Konzertdirektion</td>
+                           <td><a href="pmb57230.html">pmb57230</a></td>
+                        </tr>
+                        <tr>
+                           <td>Norddeutscher Lloyd</td>
+                           <td><a href="pmb53340.html">pmb53340</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hotel Bayrischer Hof</td>
+                           <td><a href="pmb37643.html">pmb37643</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hotel Beatrix</td>
+                           <td><a href="pmb52698.html">pmb52698</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hotel Provence</td>
+                           <td><a href="pmb53563.html">pmb53563</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hotel Hermes</td>
+                           <td><a href="pmb54992.html">pmb54992</a></td>
+                        </tr>
+                        <tr>
+                           <td>Pension Kraft</td>
+                           <td><a href="pmb56816.html">pmb56816</a></td>
+                        </tr>
+                        <tr>
+                           <td>Pension zur lieben Frau</td>
+                           <td><a href="pmb57386.html">pmb57386</a></td>
+                        </tr>
+                        <tr>
+                           <td>Pension Duncan</td>
+                           <td><a href="pmb60044.html">pmb60044</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hotel Adlon</td>
+                           <td><a href="pmb60580.html">pmb60580</a></td>
+                        </tr>
+                        <tr>
+                           <td>Pension Soletude</td>
+                           <td><a href="pmb61188.html">pmb61188</a></td>
+                        </tr>
+                        <tr>
+                           <td>Renaissance-Bar</td>
+                           <td><a href="pmb52704.html">pmb52704</a></td>
+                        </tr>
+                        <tr>
+                           <td>Erste Getreidehandels-Gesellschaft</td>
+                           <td><a href="pmb52898.html">pmb52898</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kanzlei Oskar Samek</td>
+                           <td><a href="pmb52930.html">pmb52930</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kanzlei Arnold Eisler</td>
+                           <td><a href="pmb53544.html">pmb53544</a></td>
+                        </tr>
+                        <tr>
+                           <td>Rechtsanwaltskanzlei (Oskar Blau / Walter Gutmann)</td>
+                           <td><a href="pmb65606.html">pmb65606</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kanzlei Johann Turnovsky</td>
+                           <td><a href="pmb88268.html">pmb88268</a></td>
+                        </tr>
+                        <tr>
+                           <td>Café Ankerhof</td>
+                           <td><a href="pmb37427.html">pmb37427</a></td>
+                        </tr>
+                        <tr>
+                           <td>Café Lebmann</td>
+                           <td><a href="pmb50903.html">pmb50903</a></td>
+                        </tr>
+                        <tr>
+                           <td>Café Attaché</td>
+                           <td><a href="pmb53003.html">pmb53003</a></td>
+                        </tr>
+                        <tr>
+                           <td>Café Imperial</td>
+                           <td><a href="pmb53005.html">pmb53005</a></td>
+                        </tr>
+                        <tr>
+                           <td>Café Herrenhof</td>
+                           <td><a href="pmb56311.html">pmb56311</a></td>
+                        </tr>
+                        <tr>
+                           <td>Café Friediger</td>
+                           <td><a href="pmb56991.html">pmb56991</a></td>
+                        </tr>
+                        <tr>
+                           <td>Café SLAVIA</td>
+                           <td><a href="pmb61610.html">pmb61610</a></td>
+                        </tr>
+                        <tr>
+                           <td>Restaurant Hartmann</td>
+                           <td><a href="pmb53007.html">pmb53007</a></td>
+                        </tr>
+                        <tr>
+                           <td>Restaurant Kempinski</td>
+                           <td><a href="pmb56993.html">pmb56993</a></td>
+                        </tr>
+                        <tr>
+                           <td>Zoufalý</td>
+                           <td><a href="pmb57448.html">pmb57448</a></td>
+                        </tr>
+                        <tr>
+                           <td>Schwanecke</td>
+                           <td><a href="pmb60879.html">pmb60879</a></td>
+                        </tr>
+                        <tr>
+                           <td>Altesse AG</td>
+                           <td><a href="pmb36905.html">pmb36905</a></td>
+                        </tr>
+                        <tr>
+                           <td>Commercia AG Budapest</td>
+                           <td><a href="pmb37005.html">pmb37005</a></td>
+                        </tr>
+                        <tr>
+                           <td>„Herold“ Kom.-Ges. auf Aktien</td>
+                           <td><a href="pmb53734.html">pmb53734</a></td>
+                        </tr>
+                        <tr>
+                           <td>Mesogeios</td>
+                           <td><a href="pmb65574.html">pmb65574</a></td>
+                        </tr>
+                        <tr>
+                           <td>WIPAG (Wiener Plakatierungs und Anzeigen Gesellschaft)</td>
+                           <td><a href="pmb36916.html">pmb36916</a></td>
+                        </tr>
+                        <tr>
+                           <td>Berek (Plakatierungs-Gesellschaft)</td>
+                           <td><a href="pmb36926.html">pmb36926</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsche Ultraphon AG</td>
+                           <td><a href="pmb55692.html">pmb55692</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsche Luft Hansa AG</td>
+                           <td><a href="pmb55694.html">pmb55694</a></td>
+                        </tr>
+                        <tr>
+                           <td>Österreichische Luftverkehrs AG</td>
+                           <td><a href="pmb65146.html">pmb65146</a></td>
+                        </tr>
+                        <tr>
+                           <td>Artiphon-Record (Schallplattenstudio)</td>
+                           <td><a href="pmb36920.html">pmb36920</a></td>
+                        </tr>
+                        <tr>
+                           <td>Tri-Ergon Photo-Electro-Records</td>
+                           <td><a href="pmb55696.html">pmb55696</a></td>
+                        </tr>
+                        <tr>
+                           <td>Philosophische Fakultät der Universität Wien</td>
+                           <td><a href="pmb52763.html">pmb52763</a></td>
+                        </tr>
+                        <tr>
+                           <td>Tschechoslowakische Gesandtschaft Berlin</td>
+                           <td><a href="pmb36982.html">pmb36982</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsche Gesandtschaft in Prag</td>
+                           <td><a href="pmb37017.html">pmb37017</a></td>
+                        </tr>
+                        <tr>
+                           <td>Schweizerische Gesandtschaft in Wien</td>
+                           <td><a href="pmb37059.html">pmb37059</a></td>
+                        </tr>
+                        <tr>
+                           <td>Österreichische Gesandtschaft Berlin</td>
+                           <td><a href="pmb37172.html">pmb37172</a></td>
+                        </tr>
+                        <tr>
+                           <td>Tschechoslowakische Gesandtschaft in Wien</td>
+                           <td><a href="pmb59314.html">pmb59314</a></td>
+                        </tr>
+                        <tr>
+                           <td>Tschechoslowakische Gesandtschaft in London</td>
+                           <td><a href="pmb59676.html">pmb59676</a></td>
+                        </tr>
+                        <tr>
+                           <td>Deutsche Gesandtschaft in Paris</td>
+                           <td><a href="pmb62795.html">pmb62795</a></td>
+                        </tr>
+                        <tr>
+                           <td>Die jüdische Gemeinde</td>
+                           <td><a href="pmb37352.html">pmb37352</a></td>
+                        </tr>
+                        <tr>
+                           <td>Neue Deutsche Blätter</td>
+                           <td><a href="pmb37447.html">pmb37447</a></td>
+                        </tr>
+                        <tr>
+                           <td>Prager Monatsblatt</td>
+                           <td><a href="pmb37517.html">pmb37517</a></td>
+                        </tr>
+                        <tr>
+                           <td>Der geistige Arbeiter. Deutsche Urheber-Zeitung</td>
+                           <td><a href="pmb63203.html">pmb63203</a></td>
+                        </tr>
+                        <tr>
+                           <td>Geiringer &amp; Reitler (Tuchhaus Silesia)</td>
+                           <td><a href="pmb87989.html">pmb87989</a></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </div>
+         <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
+            <div class="container" id="footer-full-content" tabindex="-1">
+               <div class="footer-separator">
+                  CONTACT
+                  </div>
+               <div class="row">
+                  <div class="footer-widget col-lg-1 col-md-2 col-sm-2 col-xs-6  ml-auto  text-center ">
+                     <div class="textwidget custom-html-widget"><a href="/"><img src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" class="image" alt="ACDH Logo" style="max-width: 100%; height: auto;" title="ACDH Logo" /></a></div>
+                  </div>
+                  <div class="footer-widget col-lg-4 col-md-3 col-sm-3">
+                     <div class="textwidget custom-html-widget">
+                        <p>
+                           ACDH-CH OEAW
+                           <br />
+                           Austrian Centre for Digital Humanities and Cultural Heritage
+                           <br />
+                           Austrian Academy of Sciences
+                           </p>
+                        <p>
+                           Sonnenfelsgasse 19
+                           <br />
+                           1010 Vienna
+                           </p>
+                        <p>
+                           T: +43 1 51581-2200
+                           <br />
+                           E: <a href="mailto:acdh@oeaw.ac.at">acdh@oeaw.ac.at</a></p>
+                     </div>
+                  </div>
+                  <div class="footer-widget col-lg-4 col-md-3 col-sm-4">
+                     <h6 class="font-weight-bold">PROJECT PARTNERS</h6>
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-lg-6 col-md-6 col-sm-12">
+                              <div class="flex-md-row mb-4 align-items-center"><a href="https://acdh.oeaw.ac.at"><img class="card-img-right flex-auto d-md-block" src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" alt="ACDH Logo" style="max-width: 60px; height: auto;" title="ACDH Logo" /></a><div class="card-body d-flex flex-column align-items-start">
+                                    <p class="card-text mb-auto">Austrian Center for Digital Humanities and Cultural Heritage</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6 col-md-6 col-sm-12">
+                              <div class="flex-md-row mb-4 align-items-center"><a href="https://acdh.oeaw.ac.at"><img class="card-img-right flex-auto d-md-block" src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" alt="ACDH Logo" style="max-width: 60px; height: auto;" title="ACDH Logo" /></a><div class="card-body d-flex flex-column align-items-start">
+                                    <p class="card-text mb-auto">Austrian Center for Digital Humanities and Cultural Heritage</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="footer-widget col-lg-3 col-md-4 col-sm-3 ml-auto">
+                     <div class="row">
+                        <div class="textwidget custom-html-widget">
+                           <h6 class="font-weight-bold">HELPDESK</h6>
+                           <p>ACDH-CH runs a helpdesk offering advice for questions related to various digital humanities
+                              topics.</p>
+                           <p><a class="helpdesk-button" href="mailto:acdh-helpdesk@oeaw.ac.at">ASK US!</a></p>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="footer-widget col-lg-3 col-md-4 col-sm-3 ml-auto" style="margin-left:0 !important;">
+                           <div class="textwidget custom-html-widget">
+                              <p style="margin-bottom:0 !important;">Social: </p>
+                           </div>
+                           <div class="row">
+                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/acdh-oeaw/kraus-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                                       <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"></path></svg></a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="imprint.html">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script><script>
+                        $(document).ready(function () {
+                        createDataTable('tocTable')
+                        });
+                    </script></div>
+   </body>
+</html>

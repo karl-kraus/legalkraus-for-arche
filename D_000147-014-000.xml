@@ -1,154 +1,110 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000147-014-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000147-013-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000147-015-001.xml">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Kostenbestimmung des Strafbezirksgerichts I Wien</title>
-                <editor ref="#pmbIL">Isabel Langkabel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000147-014-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4043</idno>
-                <idno type="ID" subtype="transkribus">292791</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000147">Karl
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000147-015-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000147-013-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000147-014-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>147.14 Kostenbestimmung des Strafbezirksgerichts I Wien</title>
+            <editor ref="#pmbIL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000147-014-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4043</idno>
+            <idno subtype="transkribus" type="ID">292791</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000147" type="collection">Karl
                     Kraus ca. Der Wiener Tag</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000147-014-000-wit01" facs="D_000147-014-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date type="sortDate" when-iso="1931-05-27">27. Mai 1931</date>
-            </creation>
-            <langUsage>
-                <language ident="de">Deutsch</language>
-            </langUsage>
-            <textClass/>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-10-08T15:15:37.263Z" who="#IB">created by API</change>
-            <change when-iso="2020-10-08T15:17:06.86Z" who="#IB">Replaced Text with Transcription of
-                Transkribus Document 292791.</change>
-            <change type="structure"/>
-            <change type="references"/>
-            <change type="typography"/>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000147-014-000.xml-facs001">
-        <surfaceGrp xml:id="D_000147-014-000.xml-facs001-l001">
-            <surface xml:id="D_000147-014-000.xml-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000053_25.jpg" source="krausonline"/>
-            </surface>
-            <surface xml:id="D_000147-014-000.xml-facs001-l001-p002" type="verso">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000054_27.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="D_000147-014-000.xml-facs001-l001-p001" n="1"/>
-            <pb facs="D_000147-014-000.xml-facs001-l001-p002" n="2"/>
-            <!--<p xml:id="uuid_5a5211ba-59b3-48d3-9cd6-5a319789c160"><lb
-                    xml:id="uuid_b83e25a9-9107-40dc-be25-a99107d0dc56"/>1 U 8/31 <lb
-                    xml:id="uuid_afb3f568-9ae0-4bac-b3f5-689ae02bac5e"/>12 </p>
-            <p xml:id="uuid_a943c89a-0dc2-4e12-a939-816d7c5634d5"><lb
-                    xml:id="uuid_a9f85887-c1bc-462e-b858-87c1bc762e3b"/>Kostenbestimmung. </p>
-            <p xml:id="uuid_13269be7-293e-474a-b1fc-83b009f397f5"><lb
-                    xml:id="uuid_7c5227a6-b638-4920-9227-a6b638292095"/>In der hg. Strafsache 1 U
-                8/31 <rs type="person" ref="#pmb11988">Karl
-                    Kraus</rs> gegen <rs type="person" ref="#pmb51602">Josef <hi rend="spaced">Kol<lb
-                            xml:id="uuid_7ff0ebf9-0119-4c47-b0eb-f901198c4741" break="no"
-                    />ler</hi></rs> wegen <rs type="law" ref="">§ 24 Pressgesetz</rs> werden die vom
-                Beschuldigten <rs type="person" ref="#pmb51602">Josef <lb
-                        xml:id="uuid_43067ed9-3eac-4e79-867e-d93eac2e79d7"/><hi rend="spaced"
-                        >Koller</hi></rs> Redakteur der Zeitung „<rs type="institution" ref="#pmb37568"
-                    >Der Wiener Tag</rs>“ in <rs type="place" subtype="address" ref="#pmb50643">Wien
-                    IX., <lb xml:id="uuid_0f00c892-2029-4493-80c8-922029849300"/>Canisiusgasse
-                    8–10</rs> zur ungeteilten Hand mit „<rs type="institution"
-                    ref="#pmb37568">Der Tag</rs>“ Verlag A.G. <lb
-                    xml:id="uuid_f3652f78-a611-475e-a52f-78a611275e74"/>als Eigentümer und
-                Herausgeber der Zeitung „<rs type="institution"
-                    ref="#pmb37568">Der Tag</rs>“ dem Privatan<lb
-                    xml:id="uuid_1e5d1614-b745-4577-9d16-14b7453577c7" break="no"/>kläger <rs
-                    type="person" ref="#pmb11988">Karl Kraus</rs> zu
-                Händen seines Vertreters Dr. <rs type="person"
-                    ref="#pmb38909">Oskar Samek</rs>
-                <lb xml:id="uuid_87346b56-8bb6-468a-b46b-568bb6a68a40"/>Rechtsanwalt in <rs
-                    type="place" subtype="address" ref="#pmb50493">Wien I., Schottenring 14</rs>
-                zufolge Urteiles I. Instanz <lb xml:id="uuid_9949ff03-be55-4645-89ff-03be55a645f5"
-                />vom 20./1.1931 I U 8/31 3 bzw. Urteiles II. Instanz vom 5./3.1931 <lb
-                    xml:id="uuid_972b47ac-8a0c-403b-ab47-ac8a0ce03baf"/>1 U 8/31 8 zu ersetzenden
-                Kosten des Strafverfahrens mit 230 S 16 g <lb
-                    xml:id="uuid_b1e2d62e-7d99-46a0-a2d6-2e7d99b6a0f9"/>bestimmt. </p>
-            <p xml:id="uuid_92866c85-0aa2-4542-89c8-d0cf5857d93e"><lb
-                    xml:id="uuid_aa01b9ee-1274-4a5b-81b9-ee1274aa5b7b"/><hi rend="underlined">Zur
-                    Beachtung</hi>: Gegen die Kostenbestimmung steht die Beschwerde offen, <lb
-                    xml:id="uuid_849a818f-42a0-4ab9-9a81-8f42a07ab991"/>welche binnen drei Tagen
-                beim gefertigten Gerichte einzubringen ist. </p>
-            <p xml:id="uuid_d2dcfbf2-fb6f-4914-80df-f90594745fe2"><lb
-                    xml:id="uuid_ed126303-3f95-4f3c-9263-033f955f3cc5"/><rs type="place" ref="#pmb50"
-                    >Wien</rs>, am 27. Mai 1931 </p>
-            <p xml:id="uuid_c7d64dee-7fdc-4422-8b3b-25dc343aab84"><lb
-                    xml:id="uuid_2f9ebd68-9de5-4e43-9ebd-689de5ce433c"/>[Unterschrift] </p>
-            <pb facs="" n="2"/>
-            <p xml:id="uuid_c04a9543-d5c6-4c81-a52c-94bec258c899"><lb
-                    xml:id="uuid_f30863e9-7ee9-4621-8863-e97ee9062196"/>KB. v. 27./5.1931 1 U 8/31
-                12 </p>
-            <p xml:id="uuid_5346aa74-2bce-4595-bee1-088e215f75fa"><lb
-                    xml:id="uuid_18e27902-bc5c-4b99-a279-02bc5c7b99d4"/>Herrn Rechtsanwalt Dr. <rs
-                    type="person" ref="#pmb38909">Oskar Samek</rs>
-            </p>
-            <p xml:id="uuid_a449f013-ab63-4d49-80df-93d82b7796f9"><lb
-                    xml:id="uuid_84802f29-6378-4744-802f-2963780744e8"/><rs type="place"
-                    subtype="address" ref="#pmb50493">Wien I., Schottenring 14 </rs></p>
-            <p xml:id="uuid_d938c23b-6a58-4a96-8426-65748f127847"><lb
-                    xml:id="uuid_d678ef7d-f920-41f8-b8ef-7df920d1f862"/><rs type="person"
-                    ref="#pmb11988">Kraus</rs> – <rs type="institution" ref="#pmb37568">Tag</rs>
-            </p>
-            <p xml:id="uuid_97bc616d-b883-45a7-8c16-2c07283576bc"><lb
-                    xml:id="uuid_80229e9f-ff16-4eee-a29e-9fff160eeee0"/>28. MAI 1931 </p>-->
-        </body>
-    <back/></text>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000147-014-000-facs001" xml:id="D_000147-014-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000147-014-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-05-27">27. Mai 1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000147-014-000-wit01">Kostenfestsetzung</term>
+            </keywords>
+            <classCode source="D_000147-014-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.KFS">D.J.KFS</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-10-08T15:15:37.263Z" who="#IB" status="draft">created by
+                API</change>
+         <change when-iso="2020-10-08T15:17:06.86Z" who="#IB" status="draft">Replaced Text with
+                Transcription of Transkribus Document 292791. </change>
+         <change type="structure" status="draft"/>
+         <change type="references" status="draft"/>
+         <change type="typography" status="draft"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000147-014-000-facs001">
+      <surfaceGrp xml:id="D_000147-014-000-facs001-l001">
+         <surface type="recto" xml:id="D_000147-014-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542397/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000147-014-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542398/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

@@ -1,203 +1,108 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000157-001-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000156-004-002.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000157-002-001.xml">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Zeitungsartikel aus: Wiener Allgemeine Zeitung</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000157-001-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4099</idno>
-                <idno type="ID" subtype="transkribus">304562</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000157">Karl
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000157-002-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000156-004-002.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000157-001-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>157.1 Zeitungsartikel aus: Wiener Allgemeine Zeitung</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000157-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4099</idno>
+            <idno subtype="transkribus" type="ID">304562</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000157" type="collection">Karl
                     Kraus ca. Wiener Allgemeine Zeitung</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000157-001-000-wit01" facs="D_000157-001-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date type="sortDate" when-iso="1931-03-27" subtype="produced">27. März 1931</date>
-            </creation>
-            <langUsage>
-                <language ident="de">Deutsch</language>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term>Zeitungsartikel</term>
-                </keywords>
-            </textClass>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-10-08T15:28:00.252Z" who="#IB">created by API</change>
-            <change when-iso="2020-10-08T15:28:28.186Z" who="#IB">Replaced Text with Transcription
-                of Transkribus Document 304562.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000157-001-000.xml-facs001">
-        <surfaceGrp xml:id="D_000157-001-000.xml-facs001-l001">
-            <surface xml:id="D_000157-001-000.xml-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000017_28.jpg" source="krausonline"/>
-            </surface>
-            <surface xml:id="D_000157-001-000.xml-facs001-l001-p002" type="verso">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000018_31.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="D_000157-001-000.xml-facs001-l001-p001" n="1"/>
-            <pb facs="D_000157-001-000.xml-facs001-l001-p002" n="2"/>
-            <!--<lb xml:id="uuid_a984d929-2ae1-492f-84d9-292ae1b92fb6"/>Ehrenbeleidigungsprozeß eines
-<lb xml:id="uuid_00f17561-0a7a-423d-b175-610a7a923d90"/>Kritikers gegen <rs type="person" ref="#pmb11988">Karl Kraus</rs>
-<lb xml:id="uuid_2a876b1d-449d-4067-876b-1d449d806766"/>Extempore in einem Vortrag kostet 800 Schilling
-<lb xml:id="uuid_dec01f2c-9ebf-47d5-801f-2c9ebff7d5c8"/>Ein Berufungssenat des Straflandes-
-<lb xml:id="uuid_3f840304-ff62-48b1-8403-04ff6228b16f"/>gerichtes hatte sich eben mit einer interessanten
-<lb xml:id="uuid_d8670fe8-96f7-4be3-a70f-e896f79be3e4"/>Ehrenbeleidigungsklage gegen den bekannten
-<lb xml:id="uuid_3ae2aec6-586d-4666-a2ae-c6586d76662f"/>Herausgeber der „Fackel“, den Schriftsteller
-<lb xml:id="uuid_46a8033b-21a3-494b-a803-3b21a3b94bd3"/>
-            <rs type="person" ref="#pmb11988">Karl Kraus</rs>, zu befassen. Als Kläger trat
-<lb xml:id="uuid_29a2ef11-e101-4ded-a2ef-11e1014ded07"/>der Musikschriftsteller und Musikkritiker der
-<lb xml:id="uuid_3c1411d3-2072-4c5f-9411-d32072bc5fb2"/>„Arbeiter-Zeitung“, Dr. Paul Amadäus
-<lb xml:id="uuid_97b834be-6e0c-4f28-b834-be6e0cdf2855"/>Pisk, auf. Der Kläger war durch seinen
-<lb xml:id="uuid_6831bba8-ad46-4e73-b1bb-a8ad467e73e1"/>Bruder, den Rechtsanwalt Dr. Otto Pisk,
-<lb xml:id="uuid_c5ae33cd-93b5-42bc-ae33-cd93b5e2bc45"/>vertreten, während für <rs type="person" ref="#pmb11988">Karl Kraus</rs> der Anwalt
-<lb xml:id="uuid_16268678-3d72-43f2-a686-783d7283f2d5"/>Dr. Samek intervenierte.
-<lb xml:id="uuid_57382018-88e3-405a-b820-1888e3905a45"/>
-            <rs type="person" ref="#pmb11988">Karl Kraus</rs> hatte anläßlich der 110. Wie-
-<lb xml:id="uuid_599a9a20-5002-412d-9a9a-205002a12d48"/>derkehr des Geburtstages von Jacques Offen-
-<lb xml:id="uuid_4f7a026f-1efc-4c58-ba02-6f1efc8c589b"/>bach im Saale des Architektenvereines einen
-<lb xml:id="uuid_570f29dc-cacd-42b3-8f29-dccacd82b396"/>Vortragszyklus veranstaltet, bei dem er einige
-<lb xml:id="uuid_443daf30-9708-4f30-bdaf-309708af3002"/>Offenbach-Operetten, textlich erneuert und mit
-<lb xml:id="uuid_0d9e6dd6-be83-468e-9e6d-d6be83868e9e"/>aktuellen Zeitstrophen versehen, mit Klavier-
-<lb xml:id="uuid_4f909d4f-00a9-4be9-909d-4f00a93be949"/>begleitung zum Vortrag brachte. An einem
-<lb xml:id="uuid_62d4bfe7-819d-4c71-94bf-e7819dec7173"/>dieser Vorträge nahm auch Dr. Paul Pisk teil.
-<lb xml:id="uuid_0d43a0b2-0bfa-43b3-83a0-b20bfad3b3c2"/>
-            <rs type="person" ref="#pmb11988">Karl Kraus</rs> hatte eben eine Strophe vorge-
-<lb xml:id="uuid_05a2f0c7-2eb3-4000-a2f0-c72eb31000e0"/>tragen, in der er feststellte, daß die gesamte
-<lb xml:id="uuid_ac5d724c-7f98-4d4a-9d72-4c7f98dd4ae2"/>sozialdemokratische und bürgerliche Presse ihn
-<lb xml:id="uuid_581c3d02-55bf-4b56-9c3d-0255bf3b562f"/>totschweige; plötzlich nahm er einen Zettel zur
-<lb xml:id="uuid_ea02d4dd-fff7-4326-82d4-ddfff75326c2"/>Hand, auf dem er sich anscheinend Notizen ge-
-<lb xml:id="uuid_bb0df766-71f4-49a8-8df7-6671f4a9a8ab"/>macht hatte und rief in lautem Ton ins
-<lb xml:id="uuid_287db91a-bb41-46f1-bdb9-1abb41d6f16d"/>Publikum:
-<lb xml:id="uuid_3cebc421-1032-4f2e-abc4-2110322f2e23"/>„Aber in einigen Tagen wird ein anderer
-<lb xml:id="uuid_a59b1b04-f67b-40cb-9b1b-04f67b90cb00"/>Wind aus dem Zentralorgan (Untertitel
-<lb xml:id="uuid_aefb632a-1341-45e9-bb63-2a134175e95b"/>der „Arbeiter-Zeitung“) wehen, denn ein
-<lb xml:id="uuid_6780cf7e-9e45-40c4-80cf-7e9e4500c4d5"/>Vertreter des Zentralorgans, ein Schlie-
-<lb xml:id="uuid_a5e1fb66-7357-42da-a1fb-66735762da7c"/>ferl, hat sich in den Saal verirrt und wird
-<lb xml:id="uuid_cbb552f0-b866-4212-b552-f0b86672123b"/>die Leser dahin aufklären, daß ich nicht
-<lb xml:id="uuid_63e061a2-102e-4589-a061-a2102e85898f"/>musikalisch bin und nicht singen kann.“
-<lb xml:id="uuid_6f32dde4-bd33-4298-b2dd-e4bd33d2982c"/>Dr. Pisk veröffentlichte über den Abend
-<lb xml:id="uuid_6f630787-2ee1-4817-a307-872ee13817f5"/>ein mit vollem Namen gezeichnetes Referat in
-<lb xml:id="uuid_0902ee6f-3153-4f1f-82ee-6f3153ff1fa8"/>der „Arbeiter-Zeitung“ und kündigte darin
-<lb xml:id="uuid_dac74a24-0ca4-4189-874a-240ca46189da"/>auch die Klage gegen Kraus wegen dieses Vor-
-<lb xml:id="uuid_f062ad65-1cc3-4d9c-a2ad-651cc3fd9c72"/>falles an.
-<lb xml:id="uuid_78b6b8e7-40eb-4a98-b6b8-e740ebda9834"/>Einige Tage später fand ein weiterer Vor-
-<lb xml:id="uuid_4b9f7014-8498-4fff-9f70-1484980fff49"/>tragsabend von <rs type="person" ref="#pmb11988">Karl Kraus</rs> statt, bei welchem
-<lb xml:id="uuid_50584248-5945-4dcc-9842-485945adcc51"/>Kraus den Artikel der „Arbeiter-Zeitung“
-<lb xml:id="uuid_636f66ef-c35d-4588-af66-efc35d35882e"/>unter das Publikum verteilen ließ. Karl
-<lb xml:id="uuid_c40ffd0d-3a67-4e7a-8ffd-0d3a676e7a32"/>Kraus besprach nun mit ironischen Bemerkun-
-<lb xml:id="uuid_200441ac-86ce-4dcd-8441-ac86cebdcd99"/>gen den Artikel, wobei er am Beginn jedes
-<lb xml:id="uuid_70db71a3-2638-4849-9b71-a326384849e6"/>Absatzes erklärte: „Das Schlieferl schreibt …,
-<lb xml:id="uuid_58df326b-13dd-4f08-9f32-6b13dd9f08d8"/>das Schlieferl schreibt weiter …“ Kraus sprach
-<lb xml:id="uuid_2b161110-bd6e-4d64-9611-10bd6e1d6426"/>von „Schlieferl- und Tinterlpraktiken“, be-
-<lb xml:id="uuid_2ed00843-0502-45bc-9008-43050235bcf4"/>zeichnete den Kläger, allerdings ohne seinen
-<lb xml:id="uuid_fe0ee006-a9d3-4d76-8ee0-06a9d31d76a8"/>Namen zu nennen, als „kümmerlichen Schön-
-<lb xml:id="uuid_2499b316-86aa-45c3-99b3-1686aaa5c361"/>berg-Schüler“ und meinte:
-<lb xml:id="uuid_0cf56f65-c839-4785-b56f-65c83927853e"/>„In einer solchen Fachkritik kann ich nur
-<lb xml:id="uuid_4bb29dca-64a3-4071-b29d-ca64a3707129"/>eine Petite, ja noch mehr, eine Correpetite,
-<lb xml:id="uuid_cb7efbc5-4f34-43b3-befb-c54f3433b3dd"/>erblicken (das bezieht sich auf die bekannte
-<lb xml:id="uuid_6781ef29-2557-4274-81ef-2925575274fc"/>Tätigkeit Dr. Pisks als Correpetitor),
-<lb xml:id="uuid_ed2201f6-fafc-41ab-a201-f6fafcb1aba8"/>diese armen Teufel nennen sich Fachmän-
-<lb xml:id="uuid_dfab7002-3d1c-4d3a-ab70-023d1c6d3a8e"/>ner, mit ihrem armseligen Fachwissen!“
-<lb xml:id="uuid_714b2cb6-7d82-4009-8b2c-b67d82e009c9"/>In der Verhandlung beim Strafbezirks-
-<lb xml:id="uuid_5b4ac17f-e843-408b-8ac1-7fe843008be3"/>gericht I erklärte Kraus, er habe nur das Ma-
-<lb xml:id="uuid_c9541835-8316-4435-9418-358316a435f3"/>nuskript eines später in der „Fackel“ erschie-
-<lb xml:id="uuid_4e01c82c-adc4-4223-81c8-2cadc4e22342"/>nenen Aufsatzes verlesen, in dem nur vom
-<lb xml:id="uuid_1d6e84a5-ab47-40af-ae84-a5ab4750af8b"/>„Schlieferltum“ im allgemeinen
-<lb xml:id="uuid_9a08aed6-f8bc-4ee5-88ae-d6f8bc2ee5c2"/>die Rede war. Das Gericht bezeichnete jedoch
-<lb xml:id="uuid_99528a19-1157-4582-928a-1911579582b0"/>den Wahrheitsbeweis als mißlungen, erkannte
-<lb xml:id="uuid_e74df1b6-6330-4a2f-8df1-b66330aa2fae"/>
-            <rs type="person" ref="#pmb11988">Karl Kraus</rs> der Ehrenbeleidigung in allen
-<lb xml:id="uuid_d542b08a-6398-4369-82b0-8a6398436926"/>aufgezählten Fällen schuldig und verur-
-<lb xml:id="uuid_77e20981-cdcd-4086-a209-81cdcd308625"/>teilte ihn zu einer Geldstrafe von fünf-
-<lb xml:id="uuid_4e462d19-dbd6-41ab-862d-19dbd671ab2a"/>hundert Schilling.
-<lb xml:id="uuid_c3a1de89-414d-4edd-a1de-89414d9eddc2"/>
-            <rs type="person" ref="#pmb11988">Karl Kraus</rs> ergriff gegen dieses Urteil
-<lb xml:id="uuid_8c4c5d8e-20a9-4eff-8c5d-8e20a96eff1c"/>Berufung. Dr. Samek bot neue Beweise an,
-<lb xml:id="uuid_2464ed0e-8ccb-4b8b-a4ed-0e8ccbdb8b38"/>darunter auch sich selbst als Zeugen dafür, daß
-<lb xml:id="uuid_6895d906-dee3-46d2-95d9-06dee376d2be"/>
-            <rs type="person" ref="#pmb11988">Karl Kraus</rs> nur die in der „Fackel“ abgedruck-
-<lb xml:id="uuid_c7e36ac9-0c35-4284-a36a-c90c35f28452"/>ten, von der Klage abweichenden Redewen-
-<lb xml:id="uuid_aadebf3a-332f-4e83-9ebf-3a332f4e8331"/>dungen gebraucht habe.
-<lb xml:id="uuid_6962e567-1e47-4f0d-a2e5-671e47ef0dd5"/>Nach fünfstündiger Dauer der Berufungs-
-<lb xml:id="uuid_aa014ecb-96dd-4488-814e-cb96ddd488bc"/>verhandlung verkündete der Vorsitzende die
-<lb xml:id="uuid_a488d889-ff60-43d3-88d8-89ff60b3d383"/>Abweisung der Berufung. Das erstrichter-
-<lb xml:id="uuid_b2670494-e5a0-40b5-a704-94e5a020b58a"/>liche Urteil wurde im vollen Umfang
-<lb xml:id="uuid_4f00afd2-b71a-4487-80af-d2b71af48738"/>bestätigt. Interessant ist die Begründung
-<lb xml:id="uuid_90be73a0-bf1c-41f6-be73-a0bf1c41f61f"/>des Urteils.
-<lb xml:id="uuid_c6e9f388-7b80-4754-a9f3-887b808754f4"/>Der Vorsitzende teilte nämlich mit, daß
-<lb xml:id="uuid_27864bc8-b7fe-4b88-864b-c8b7fefb88f7"/>nach der Ansicht des Senates der Erst-
-<lb xml:id="uuid_8a0f063a-9a6a-49f7-8f06-3a9a6ab9f797"/>richter eine Reihe von Erschwerungs-
-<lb xml:id="uuid_24171b97-6f67-43e7-971b-976f6723e75b"/>gründen bei Bemessung der Strafe in Be-
-<lb xml:id="uuid_84cd2cf3-9e42-4c75-8d2c-f39e425c75d5"/>tracht zu ziehen vergessen habe, wie die
-<lb xml:id="uuid_17f0b74b-1bfe-409b-b0b7-4b1bfec09b76"/>mehrmalige Wiederholung der Beleidigun-
-<lb xml:id="uuid_7fe0d2c8-a406-4471-a0d2-c8a406a4716a"/>gen, die besondere Schwere der Herab-
-<lb xml:id="uuid_3927c859-0399-4f75-a7c8-590399af7546"/>setzung in einem öffentlichen Vortrag usw.
-<lb xml:id="uuid_a391376d-621f-43cb-9137-6d621fb3cbc4"/>Der Bezirksrichter habe daher mit Unrecht
-<lb xml:id="uuid_ddcf202b-c19e-4f70-8f20-2bc19e8f70cb"/>die Umwandlung der an sich verwirkten
-<lb xml:id="uuid_ed23ae45-ce9d-48db-a3ae-45ce9d28db52"/>Arreststrafe in eine Geldstrafe verfügt, weil
-<lb xml:id="uuid_c27e82cb-3d77-4af8-be82-cb3d772af88f"/>in solchen Fällen, wenn ein Wahrheits-
-<lb xml:id="uuid_52a40774-974a-417c-a407-74974a717c53"/>beweis angeboten wird, jedoch mißlingt,
-<lb xml:id="uuid_aed73450-37dc-466e-9734-5037dc666ecc"/>unbedingt eine Arreststrafe Platz
-<lb xml:id="uuid_43065806-108a-46a9-8658-06108a86a965"/>zu greifen hätte. Lediglich weil Dr. Pisk
-<lb xml:id="uuid_f488e47e-232a-42d6-88e4-7e232a32d6bc"/>keine Berufung wegen zu geringer Strafe
-<lb xml:id="uuid_45394201-b519-4e90-b942-01b5193e9008"/>eingebracht hatte, sei das Gericht genötigt
-<lb xml:id="uuid_50c25cb2-a2aa-4db8-825c-b2a2aa8db8cc"/>gewesen, von einer Neufestsetzung der
-<lb xml:id="uuid_7d896c37-2f8d-47ed-896c-372f8de7ed9c"/>Strafe Abstand zu nehmen.-->
-        </body>
-    <back/></text>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000157-001-000-facs001" xml:id="D_000157-001-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000157-001-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.D">Druck</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-03-27">27. März 1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000157-001-000-wit01">Zeitungsartikel</term>
+            </keywords>
+            <classCode source="D_000157-001-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.P.ZTA">D.P.ZTA</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header-facsimile" when-iso="2022-01-13" who="#JK" status="draft"/>
+         <change when-iso="2020-10-08T15:28:00.252Z" who="#IB" status="draft">created by
+                API</change>
+         <change when-iso="2020-10-08T15:28:28.186Z" who="#IB" status="draft">Replaced Text with
+                Transcription of Transkribus Document 304562. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000157-001-000-facs001">
+      <surfaceGrp xml:id="D_000157-001-000-facs001-l001">
+         <surface type="recto" xml:id="D_000157-001-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542626/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000157-001-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542627/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

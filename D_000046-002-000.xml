@@ -1,219 +1,137 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000046-002-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000046-001-001.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000046-003-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Brief László Faragó an Kraus</title>
-                <editor ref=""/>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000046-002-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2143</idno>
-                <idno type="ID" subtype="transkribus">194722</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000046">Korrespondenz mit Karl Holländer betr. das Vorleben Emmerich Békessys</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000046-002-000-wit01" facs=""/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation><date type="sortDate" subtype="produced" when-iso=""/>
-                <date source="krausonline">16.08.1925</date>
-            </creation>
-            <langUsage><language ident="de">Deutsch</language></langUsage>
-            <textClass>
-                <keywords>
-                    <term>Brief</term>
-                </keywords>
-                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.K.BRF</classCode>
-            </textClass>
-            <particDesc/>
-            <correspDesc>
-                <correspAction type="sent">
-                    <rs type="person" ref="">László Faragó</rs>
-                </correspAction>
-                <correspAction type="received">
-                    <rs type="person" ref="">Karl Kraus</rs>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-02-11T09:17:54.641Z" who="#IB">created by API</change>
-            <change when-iso="2020-02-11T09:27:31.341Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-11T09:27:32.531Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-11T09:27:33.588Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-11T09:27:35.252Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-11T09:27:37.512Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-11T09:27:39.301Z" who="#JM">Checked Images Wienbibliothek</change>
-        <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of Transkribus Document 194722.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000201_11.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548885/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-2/036_046/00000201.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000202_11.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548886/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-2/036_046/00000202.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000203_12.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548887/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-2/036_046/00000203.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000204_12.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548888/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-2/036_046/00000204.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000205_12.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548889/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-2/036_046/00000205.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000207_12.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548891/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-2/036_046/00000207.jpg" source="scans"/>
-        </surface>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="" n="1"/>
-            <lb xml:id="uuid_309bd910-9324-48bb-9bd9-109324e8bb4c"/>Budapest, den 16.VIII.1925
-<lb xml:id="uuid_a8b242ed-3212-49d2-b242-ed321239d2bb"/>Faragó László Dr.
-<lb xml:id="uuid_129a8141-4455-4e29-9a81-4144557e2926"/>Sehr geehrter Herr Kraus!
-<lb xml:id="uuid_61c083f0-b1fe-4b64-8083-f0b1fe9b6486"/>Soeben lese ich die letzte Nummer der Fackel (wir erhalten die-
-<lb xml:id="uuid_1779f8dc-c9b3-41d2-b9f8-dcc9b3d1d2b0"/>se ziemlich verspätet) und darin die Affaire Békessy. Da ich diesen Gen-
-<lb xml:id="uuid_c23e29ca-7ff0-40d8-be29-ca7ff000d813"/>tleman teils persönlich, teils vom Hörensagen genau kenne, darf ich viel-
-<lb xml:id="uuid_abe6b156-b5b8-4112-a6b1-56b5b8e11237"/>leicht meine Daten Ihnen bekanntgeben, vielleicht ist was darin enthalten,
-<lb xml:id="uuid_f3fd7902-2a57-4961-bd79-022a57d9616e"/>was Sie bisher nicht wussten.
-<lb xml:id="uuid_975f9f98-6739-4d39-9f9f-9867395d3970"/>Vom Hörensagen weiss ich Folgendes: Békessy, der unberechtigt
-<lb xml:id="uuid_d276ad4f-b8c1-4a61-b6ad-4fb8c1fa61bf"/>sich mit ssy seinen Namen schreibt (ssy ist in Ungarn ein Adelszeichen)
-<lb xml:id="uuid_c85f6f6b-b7bc-4a70-9f6f-6bb7bc2a70d6"/>Békési (so wird er richtig geschrieben), hat früher anders (vermutlich Blau
-<lb xml:id="uuid_db9a104e-c67b-4a1f-9a10-4ec67b4a1f51"/>oder Braun) geheissen. Seine ersten Versuche hatte er in der sozialdemo-
-<lb xml:id="uuid_52fb2434-7f28-4eb3-bb24-347f288eb3ec"/>kratischen Partei gemacht, von wo man ihn dann später wegen einer Novellen-
-<lb xml:id="uuid_e7ebe8cd-276c-47dd-abe8-cd276ca7dd5d"/>Plagium-Affaire entfernt hat. Damals machte er eine Seltstmordskomödie –
-<lb xml:id="uuid_57a76697-350a-4a46-a766-97350a8a4678"/>von da an besteht sein Leben von der ununterbrochenen Kette von Hochstap-
-<lb xml:id="uuid_fa542ca0-6040-4aa3-942c-a06040eaa3d1"/>lereien. Ich betone, dass ich das bisher geschriebene nur vom Hörensagen
-<lb xml:id="uuid_9136be31-0915-46f4-b6be-31091586f448"/>weiss, doch glaube ich, könnten die Emigranten diesbezüglich authentische
-<lb xml:id="uuid_332be9ff-a9d5-47ea-abe9-ffa9d517ea71"/>Auskunft erteilen. –
-<lb xml:id="uuid_1e4021ad-140e-487c-8021-ad140e087c01"/>Was ich nun persönlich weiss: im Jahre 1915 rückte ich als 19-
-<lb xml:id="uuid_6fe13250-45e0-407d-a132-5045e0f07d29"/>jähriger zum Gebirgsartillerieregiment Nr 4 (Budapest, Hadik-Kaserne I.
-<lb xml:id="uuid_76bc1d0d-2992-4a6c-bc1d-0d29927a6c56"/>Fehéváry út) ein, wo ich sofort, am ersten Tage vor einem grosssen Herrn
-<lb xml:id="uuid_44fb1549-a875-4bfd-bb15-49a8753bfd25"/>zu stehen hatte. Dieser grosse Herr war Békési, der ebenfalls dort diente
-<lb xml:id="uuid_44c7108e-886f-4f38-8710-8e886fef384c"/>und der das Vertrauen der Offiziere im vollen Masse genoss. Er machte sich
-<lb xml:id="uuid_523e2b6b-2937-44ce-be2b-6b2937a4ce26"/>auch auf dieses Vertrauen würdig. Kein aktiver Offizier schickanierte seine
-<lb xml:id="uuid_32ba9a52-458b-4715-ba9a-52458bb715b7"/>Leute derart, wie er seine Altersgenossen, dessen Rangerster er war. Es
-<lb xml:id="uuid_0ccce39b-7584-4ed0-8ce3-9b75846ed029"/>waren von 30 cca 10, die er vor der Offiziersprüfung aus der Schule und in
-<lb xml:id="uuid_d22e4b79-a0f3-4ecd-ae4b-79a0f3aecd9d"/>Feld jagte. Unter ihnen erinnere ich mich nur auf:
-<lb xml:id="uuid_d14e8bcc-e3c4-410c-8e8b-cce3c4010c94"/>? Berkovits (derzeit Inhaber eines hiesigen Damen-Mode-Salons)
-<lb xml:id="uuid_c6931b6e-626c-4afe-931b-6e626cbafe3e"/>Rudolf Farkas (derzeit Redakteur einer Viehgrosshandlung in Wien)
-<lb xml:id="uuid_9289d971-4eae-4597-89d9-714eae65974f"/>? Ulm (derzeit Restaurateur in Budapest)
-<lb xml:id="uuid_63bd3f37-9b24-4b59-bd3f-379b246b5937"/>Paul Vásárhely (derzeit Oekonom irgendwo in der Provinz)
-<lb xml:id="uuid_b0684e9b-8366-407b-a84e-9b8366a07b6e"/>Dr. Ernst Kepes (derzeit Redakteur einer volkwirtschaftlichen
-<lb xml:id="uuid_63f10015-62df-4254-b100-1562dfb2543b"/>Wochenschrift in Budapest)
-<lb xml:id="uuid_e9732e0d-5796-4044-b32e-0d5796604446"/>Dreien gelang es, durch Protektion oder durch Bestechung (denn Békési war
-<lb xml:id="uuid_c951d074-d517-43f1-91d0-74d51703f167"/>der Leiter der Freiwilligenprüfung, die Offiziere statistierten nur hinter
-<lb xml:id="uuid_60ed3b97-818d-490b-ad3b-97818dc90b48"/>ihm) noch eine Schule – die, meines Jahganges – mitzumachen.
-<lb xml:id="uuid_47aa83d7-5cd7-40fe-aa83-d75cd700fe61"/>Dr. Geza Ebes (dzt Advocat in Arad, oder Budapest)
-<lb xml:id="uuid_57c82341-0988-4bcd-8823-410988fbcd6f"/>Dr. Tibor Lévai (dzt Advocat in Budapest)
-<lb xml:id="uuid_396c7912-20fe-4eae-ac79-1220fe3eae00"/>Dr. Edmund Jücs (dzt Advocat und Rechtsanwalt der Rennaissance-
-<lb xml:id="uuid_18f5198f-5407-4b5d-b519-8f54076b5d54"/>Bühne in Budapest)
-<lb xml:id="uuid_7d05c9f3-35a9-4825-85c9-f335a94825dc"/>Wir, die Jungen, die wir schon zitterten, wenn wir ihn sahen, hatten
-<lb xml:id="uuid_e4738a7d-2c9e-4ef0-b38a-7d2c9e8ef042"/>jedoch nur ganz kurze Zeit mit ihm zu tun. Eines schönen Tages hörte man,
-<lb xml:id="uuid_26fec0c6-695e-4b83-bec0-c6695e8b830b"/>es sei gegen ihn das ehrenratliche und strafgerichtliche Verfahren einge-
-<lb xml:id="uuid_48d5bede-2ff3-488e-95be-de2ff3588e84"/>leitet, und zwar auf Bitte des aktiven Oberleutnants Hirnschall (Was da
-<lb xml:id="uuid_85fb45f8-9f3c-4d1f-bb45-f89f3cbd1f1d"/>war, wissen wir nicht. Wir hörten von einer Wechselfälschung, Wucher und
-<lb xml:id="uuid_748cc350-0df2-4442-8cc3-500df2f44285"/>Expressungsgeschichte) Näheres könnte
-<lb xml:id="uuid_d35230fc-c683-457b-9230-fcc683057b1b"/>Dr.Hugo Meitner (dzt Advocat in Budapest)
-<lb xml:id="uuid_522479a3-d284-4de2-a479-a3d2846de28a"/>Dr. Adalbert Metzner (Professor der jur. Akademie in Sárowpatak)
-<lb xml:id="uuid_891c8fe7-3c29-4e34-9c8f-e73c294e342d"/>Dr. Adalbert Böszörményi (Richter)
-<lb xml:id="uuid_028597f8-4cea-4c77-8597-f84ceabc778a"/>Michael Pampichler (Oesterr. Oberstlt oder Oberst)
-<lb xml:id="uuid_73a91416-81f2-4673-a914-1681f23673b7"/>mitteilen.
-<lb xml:id="uuid_863da720-ebc6-490c-bda7-20ebc6d90c6c"/>Mit einem Wort: Békesi wurde nicht zum Kadetten befördert und er
-<lb xml:id="uuid_0d7eb5b2-1aba-4ea9-beb5-b21aba5ea91d"/>sollte als Unteroffizier ins Feld. Da meldete er sich nervenkrank und es
-<lb xml:id="uuid_89d424ef-e2ba-4a7b-9424-efe2bafa7b05"/>gelang ihm eine Zeit sich herauszuschwindeln. Inzwischen machte ich meine
-<lb xml:id="uuid_ef71fc50-e9c8-4439-b1fc-50e9c8d439d6"/>Prüfung, ging ins Feld, wurde Offizier und bekomme auf einmal Befehle über
-<lb xml:id="uuid_3bcd39d4-82b0-4528-8d39-d482b0852878"/>Békési, der ins Feld eskortiert wurde, wird als „gefährlich“ stigmatisiert
-<lb xml:id="uuid_6502e031-636c-4737-82e0-31636ce7370c"/>und es wird strengstens veranlasst mit ihm ohne Milde umzugehen. Offen ge-
-<lb xml:id="uuid_0dfffab0-9bad-4f33-bffa-b09baddf33d4"/>standen: hatte ich eine Schadenfreude. Es fiel mir ein, was er mit seinen
-<lb xml:id="uuid_cff51120-554a-4574-b511-20554a9574a7"/>Leuten tat, nun werde ich diese, wenn nicht anders, mit einiger: Bemerkun-
-<lb xml:id="uuid_9d27fc76-336c-4b67-a7fc-76336cfb6782"/>gen rächen. Békési war auch 3–4 Tage im Felde (beim Train) dann ver-
-<lb xml:id="uuid_edbe01da-89ab-4e58-be01-da89ab1e58e4"/>schwand er wieder.
-<pb facs="" n="2"/>
-            <lb xml:id="uuid_590a954e-fc9c-4c77-8a95-4efc9cfc77fe"/>lieber seine militärische Karrière ist übrigens der Kompetenteste
-<lb xml:id="uuid_f607afb6-b06f-4f61-87af-b6b06f0f6162"/>der emigrierte Künstler Michael Biró der auch in unserem Regimente
-<lb xml:id="uuid_4a05e7e3-dda8-485a-85e7-e3dda8b85a41"/>diente.
-<lb xml:id="uuid_ad350c00-837f-43c7-b50c-00837f83c7fd"/>Sonst weiss ich über Békési’s Soldatentum nichts, nur dass er
-<lb xml:id="uuid_c17560a6-237d-47f9-b560-a6237dc7f983"/>inzwischen ein Import-Geschäft in der Vámhár-körút hatte, welches (fal-
-<lb xml:id="uuid_ad5b5489-9ab2-4713-9b54-899ab2971364"/>scher Konkurs?) eines schönen Tages gesperrt wurde.
-<lb xml:id="uuid_7624cf0d-0c3e-4ecb-a4cf-0d0c3efecbf3"/>Nach 32 Monate Feld (nicht Etappe) kam ich krank am 30-sten Oktober
-<lb xml:id="uuid_77dda79e-cd19-4951-9da7-9ecd19f951fe"/>zurück. Reine 2-Wochen vergehen nach der Oktoberrevolution und Békési ist
-<lb xml:id="uuid_e61ed1eb-c08c-4e99-9ed1-ebc08c2e9996"/>Sekretär der Innenstädtischen Radikalen (Jászi) Partei. Wie es ihm gelang
-<lb xml:id="uuid_8fdb8bd5-a277-41c6-9b8b-d5a27741c65c"/>diesen hochanständigen Menschen dranzukriegen, weiss ich nicht. Eines
-<lb xml:id="uuid_310bda42-519c-434b-8bda-42519c734b41"/>steht fest. Er hatte sichs gerichtet. Unter der Diktatur ist er Kommissar
-<lb xml:id="uuid_cc7e9454-6f01-420d-be94-546f01620d2e"/>der Provinzjournale und fährt mit Auto herum. Nach dem Sturz der Diktatur
-<lb xml:id="uuid_7dce239d-2382-42f1-8e23-9d238232f179"/>gibt er eine weisse Börsen-Zeitung heraus, doch erscheinen nur 1–2 Num-
-<lb xml:id="uuid_6f03c97c-d9b3-49e5-83c9-7cd9b399e5f4"/>mern, die Konkurrenz macht die konterrevolutionäre Regierung aufmerksam
-<lb xml:id="uuid_7e618a44-71ca-4154-a18a-4471cab154c8"/>und Békési fährt nach Wien. Es ist eine Lüge, dass er nicht zurück kann.
-<lb xml:id="uuid_cbf9518a-0697-4dd2-b951-8a0697ddd263"/>Er hat sich’s inzwischen gerichtet und ich sah ihn persönlich im Sommer
-<lb xml:id="uuid_a388c941-1d6a-417b-88c9-411d6a617b23"/>1924 an der Terasse der Restauration Baum (Oktogon-Platz, eine der
-<lb xml:id="uuid_fccbcff2-1996-4414-8bcf-f219960414da"/>frekventiertesten Stellen von Budapest). Weiss oder rot: er macht seine
-<lb xml:id="uuid_29a2e040-9445-460a-a2e0-409445c60a48"/>Geschäfte. –
-<lb xml:id="uuid_8e69545d-fb51-45a3-a954-5dfb5185a35d"/>Damit Sie nicht glauben einer Mistifikation meinerseits ausgesetzt
-<lb xml:id="uuid_725197d4-689d-4ccb-9197-d4689dbccb9e"/>zu sein, berief ich mich überall auf Zeugen.
-<lb xml:id="uuid_2f49604e-b24f-4776-8960-4eb24f9776a7"/>Ueber mich können die Wiener Privatbeamtenverbände (Industrieange-
-<lb xml:id="uuid_42ea088a-4560-4a9a-aa08-8a45608a9a33"/>stellten, Jordan, Seidl, Lachenbacher, Versicherungsangestellter Brot-
-<lb xml:id="uuid_b01aa3a0-ea3f-4607-9aa3-a0ea3fa60737"/>ziner, Jolles etc) Auskunft erteilen.
-<lb xml:id="uuid_0c8235ca-ddb6-4824-8235-caddb618247e"/>Uebrigens: hinaus mit diesem Schandbuben aus Wien!
-<lb xml:id="uuid_2ac70510-3456-45fd-8705-10345625fd20"/>Hochachtungsvoll
-<lb xml:id="uuid_8e58ae78-5149-4bef-98ae-7851490beff3"/>Dr. Ladislaus Faragó
-<lb xml:id="uuid_f40fd847-6725-499c-8fd8-476725b99c52"/>Damit Sie den Brief sicher erhalten, richte ich diesen an die Druckerei.
-<lb xml:id="uuid_b21d69c0-61be-4f94-9d69-c061be9f94a4"/>[Handschriftl. Notiz, bezieht sich auf Zeile 5 bis 6] unrichtig, sondern war Redakteur des amtl. Blattes des Volkskommissariats
-<lb xml:id="uuid_7077f203-b79d-444b-b7f2-03b79db44b4d"/>„A Munka“ („Die Arbeit“)
-</body>
-    <back/></text>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000046-003-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000046-001-001.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000046-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>46.2 Brief László Faragó an Kraus</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000046-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2143</idno>
+            <idno subtype="transkribus" type="ID">194722</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000046" type="collection">Korrespondenz mit Karl Holländer betr. das Vorleben Emmerich Békessys</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="none" xml:id="D_000046-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000046-002-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date/>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000046-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000046-002-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-02-11T09:17:54.641Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-11T09:27:31.341Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-02-11T09:27:32.531Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-02-11T09:27:33.588Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-02-11T09:27:35.252Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-02-11T09:27:37.512Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-02-11T09:27:39.301Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 194722. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548885/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548886/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548887/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548888/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548889/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548891/full/full/0/default.jpg"/>
+         
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

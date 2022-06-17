@@ -1,201 +1,116 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000044-004-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000044-003-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000044-005-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Brief J. Wolf an Samek</title>
-                <editor ref=""/>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000044-004-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2135</idno>
-                <idno type="ID" subtype="transkribus">191763</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000044">Korrespondenz mit J. Wolf (Berlin) in Angelegenheit Kraus – Die Stunde</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000044-004-000-wit01" facs=""/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation><date type="sortDate" subtype="produced" when-iso=""/>
-                <date source="krausonline">18.07.1926</date>
-            </creation>
-            <langUsage><language ident="de">Deutsch</language></langUsage>
-            <textClass>
-                <keywords>
-                    <term>Brief</term>
-                </keywords>
-                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.K.BRF</classCode>
-            </textClass>
-            <particDesc/>
-            <correspDesc>
-                <correspAction type="sent">
-                    <rs type="person" ref="">J. Wolf</rs>
-                </correspAction>
-                <correspAction type="received">
-                    <rs type="person" ref="">Oskar Samek</rs>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-02-11T09:01:09.6Z" who="#IB">created by API</change>
-            <change when-iso="2020-02-11T09:12:35.848Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-11T09:12:37.135Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-11T09:12:39.697Z" who="#JM">Checked Images Wienbibliothek</change>
-        <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of Transkribus Document 191763.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000163_14.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548847/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-2/036_046/00000163.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000164_11.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548848/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-2/036_046/00000164.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000165_14.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548849/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-2/036_046/00000165.jpg" source="scans"/>
-        </surface>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="" n="1"/>
-            <lb xml:id="uuid_5efa78d2-a3a1-40e2-ba78-d2a3a110e2e5"/>18. Juli 1926
-<lb xml:id="uuid_d9153531-a452-428e-9535-31a452d28ef5"/>Herr R:A: Dr. Samek
-<lb xml:id="uuid_2758fa80-60d5-4f60-98fa-8060d56f6047"/>Wien I
-<lb xml:id="uuid_8f5322ab-230d-46f0-9322-ab230d26f0e1"/>Ich sage zunächst verbindlichsten
-<lb xml:id="uuid_722ea784-3db2-480b-aea7-843db2380b8c"/>Dank für gute Erledgg „Kraus“ ¿
-<lb xml:id="uuid_f25d4cd1-fe8f-447b-9d4c-d1fe8f747b66"/>bediene Sie anbei leihweise mit
-<lb xml:id="uuid_8d818917-0343-477c-8189-170343177c77"/>4 betr Blättern Berlin ao 1921,
-<lb xml:id="uuid_90470c78-3876-46bb-870c-78387666bb0a"/>die Sie mir – weil im Dossier ent-
-<lb xml:id="uuid_e8c97d62-da31-4331-897d-62da315331c1"/>nommen! – nach erfolgter Gebrauch
-<lb xml:id="uuid_6882f1e8-5706-4da8-82f1-e857067da815"/>odgl wieder rückzuposten belieben.
-<lb xml:id="uuid_e435528a-f15f-478f-b552-8af15ff78f56"/>Mein guter + Dr. <rs type="person" ref="#pmb38323">Berthold Thorsch</rs>
-<lb xml:id="uuid_2860a976-dfd1-4890-a0a9-76dfd1e89044"/>hatte übrigens mit jenen Sachen
-<lb xml:id="uuid_c5153646-f490-4295-9536-46f49082951f"/>absolut nichts gemein, ich
-<lb xml:id="uuid_f727e5df-f083-4e4d-a7e5-dff0834e4d3b"/>citirte ihn am 9ten nur deshalb,
-<lb xml:id="uuid_5a2229ef-19f4-4b28-a229-ef19f48b2814"/>damit ich Ihnen in causa exep:
-<lb xml:id="uuid_dfa1219e-8580-4314-a121-9e8580631451"/>persona sua ungefähr bezeichnen
-<lb xml:id="uuid_bb3f1e41-bf67-482c-bf1e-41bf67882cb8"/>wollte, wer im Wiener Freundes-
-<lb xml:id="uuid_71ac73cc-3d32-47bf-ac73-cc3d32b7bf3b"/>kreise angehörte.
-<pb facs="" n="2"/>
-            <lb xml:id="uuid_e98ac396-3310-4a7a-8ac3-963310fa7aaa"/>Ich würde mich aufrichtig freuen,
-<lb xml:id="uuid_246baa82-3109-42a9-abaa-82310952a9fc"/>wenn Sie – so oft es Ihnen beliebt! –
-<lb xml:id="uuid_928280e4-5c28-4fa1-8280-e45c28efa156"/>mir Gelegenheit gäben, mich Ihnen
-<lb xml:id="uuid_08080e13-9453-4b76-880e-139453ab7610"/>irgendwie willfährig zu zeigen. –
-<lb xml:id="uuid_a000f0e8-c516-43bd-80f0-e8c51613bd7d"/>Wolf
-<lb xml:id="uuid_7a8e77b5-b226-426c-8e77-b5b226726cf7"/>Berliner
-<lb xml:id="uuid_d7f18bf5-2a26-4d49-b18b-f52a263d4914"/>Die Pressecampagne 1921 wider
-<lb xml:id="uuid_b7a24db7-22a2-42ae-a24d-b722a2c2ae7f"/>„Lustig“ habe ich in Wort u
-<lb xml:id="uuid_1a019e8b-64a4-4bee-819e-8b64a42bee7b"/>Schrift geführt; L. zog seine
-<lb xml:id="uuid_dc5d9a12-3564-42f7-9d9a-12356422f7c9"/>wider mich erhobene Presseklage
-<lb xml:id="uuid_c6755066-7e13-4069-b550-667e13b0698c"/>suma sine laude kostenpflchtig
-<lb xml:id="uuid_819833b5-a923-4cc7-9833-b5a923ecc731"/>zurück! Wolf
-<pb facs="" n="3"/>
-            <lb xml:id="uuid_26dee660-91b7-4045-9ee6-6091b7e04516"/>Kraus – „Stunde“ J. Wolf
-<lb xml:id="uuid_1b8df2fb-1a10-4951-8df2-fb1a10e95183"/>eing. 21.VII.26.
-</body>
-    <back><listPerson><person xml:id="pmb38323">
-  <persName>
-      <forename>Berthold</forename>
-      <surname>Thorsch</surname>
-  </persName>
-
-
-  <birth>
-    <date when-iso="1862-03-12">12.03.1862</date>
-  
-  
-      <settlement key="pmb652">
-        <placeName type="pref">Prag</placeName>
-      
-        <location><geo>50,08333 14,46667</geo></location>
-      
-      </settlement>
-      
-       
-  </birth>  
-
-
-  <death>
-    <date when-iso="1922-09-03">03.09.1922</date>
-      
-      
-      <settlement key="pmb50">
-        <placeName type="pref">Wien</placeName>
-        
-        <location><geo>48,2066 16,37341</geo></location>
-      
-      </settlement>
-      
-      
-  </death>
-
-
-  <sex value="male"/>
-
-
-  <occupation key="106">Rechtsanwalt/Rechtsanwältin</occupation>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/38323/</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/38323</idno>
-
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Brief J. Wolf an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000044-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an J. Wolf</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000044-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief J. Wolf an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000044-004-000.xml"/></linkGrp></event></listEvent></person></listPerson></back></text>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000044-005-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000044-003-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000044-004-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>44.4 Brief J. Wolf an Samek</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000044-004-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2135</idno>
+            <idno subtype="transkribus" type="ID">191763</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000044" type="collection">Korrespondenz mit J. Wolf (Berlin) in Angelegenheit Kraus – Die Stunde</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="none" xml:id="D_000044-004-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000044-004-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.M">Manuskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date/>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000044-004-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000044-004-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-02-11T09:01:09.6Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-11T09:12:35.848Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-02-11T09:12:37.135Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-02-11T09:12:39.697Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 191763. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548847/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548848/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548849/full/full/0/default.jpg"/>
+         
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

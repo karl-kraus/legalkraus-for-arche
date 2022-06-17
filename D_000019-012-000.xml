@@ -1,113 +1,134 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000019-012-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-011-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-015-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Zeitungsartikel aus: Die Stunde, Nr. 861</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000019-012-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/1758</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000019">Karl Kraus ca. Fritz Kaufmann und Anton Kuh</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000019-012-000-wit01" facs="D_000019-012-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation> <date type="sortDate" when-iso="1926-01-23" subtype="produced">23. Januar 1926</date> 
-            </creation>
-            <langUsage> <language ident="de">Deutsch</language> </langUsage>
-            <textClass>
-                <keywords>
-                    <term>Zeitungsartikel</term>
-                </keywords>
-            </textClass>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-02-05T11:47:50.19Z" who="#IB">created by API</change>
-            <change when-iso="2020-02-05T11:59:20.328Z" who="#JM">Checked Images Wienbibliothek</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000043_5.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541058/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-1/019_022/00000043.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000044_6.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541059/full/full/0/default.jpg" source="wienbibliothek"/>
-            <graphic url="ZPH_1545-1/019_022/00000044.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000045_3.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541060/full/full/0/default.jpg" source="wienbibliothek"/>
-            <graphic url="ZPH_1545-1/019_022/00000045.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000046_6.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541061/full/full/0/default.jpg" source="wienbibliothek"/>
-            <graphic url="ZPH_1545-1/019_022/00000046.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000047_6.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541062/full/full/0/default.jpg" source="wienbibliothek"/>
-            <graphic url="ZPH_1545-1/019_022/00000047.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000048_6.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541063/full/full/0/default.jpg" source="wienbibliothek"/>
-            <graphic url="ZPH_1545-1/019_022/00000048.jpg" source="scans"/>
-        </surface>
-    </facsimile>
-    <text>
-        <div xml:id="uuid_6b63475e-210a-49d6-a347-5e210aa9d67f" part="N" org="uniform" sample="complete">
-            <p xml:id="uuid_1e5e073a-d2d7-4f2b-9e07-3ad2d7df2b79">[…] Nachdem der Richter unter allgemeiner Heiterkeit des Auditoriums die Notiz Anton Kuhs, die das Substrat der Klage Krausens bildete, zur Vorlesung gebracht hatte, richtete er an Anton Kuh die Frage: „Haben Sie diesen Artikel veranlaßt?“ Anton Kuh: Ja, aber ich möchte dazu etwas bemerken. Ich bedaure nämlich, durch den Umstand, daß Karl Kraus den Ausdruck „Vortragsaffe“ als Schmähung und nicht als Ehrenbeleidigung qualifiziert hat, mir sonach nicht die Möglichkeit geboten hat, den Wahrheitsbeweis darüber zu führen, ob er in der Tat ein „Vortragsaffe“ ist, bestreiten zu müssen, daß ich ihn gemeint habe. Hier sprang der Klagevertreter Dr. Samek erregt auf und rief: – ich bitte diesen Satz zu protokollieren und verlange die Ausdehnung der Anklage auf diesen Satz. Anton Kuh: Ich will damit gesagt haben, daß ich, nachdem mich Karl Kraus durch die Schmähungsklage <hi rend="spaced">um die Möglichkeit</hi> <hi rend="spaced">einer Beweisführung bringen will</hi>, selbstverständlich den mir nunmehr offenstehenden Weg vorziehe, indem ich sage, daß ich damit ihn nicht gemeint habe. Das bezieht sich aber nicht allein auf das Wort „Vortragsaffe“, sondern prinzipiell auf jede von mir etwa gebrauchte und unter Anklage gestellte Äußerung, die als Schimpf ausgelegt wird und für die ich sonach keine öffentliche Beweismöglichkeit habe. Dr. Friedrich <hi rend="spaced">Schnepp</hi>, der Verteidiger Anton Kuhs, beantragt in längerer Rede die Abtretung des Aktes an das Schwurge</p> <p xml:id="uuid_7f8c98e0-1708-4b71-8c98-e017085b71da">richt, da das Bezirksgericht für diesen Klagefall nicht zuständig sei. Hätte der Angeklagte den Kläger schlechthin als „Affen“ bezeichnet, so wäre darin allerdings das Delikt der Beschimpfung gegeben. Dazu wäre aber zunächst nötig, daß der Name dessen, der sich durch die Äußerung beschimpft fühlt, ausdrücklich angeführt worden wäre. Das sei im vorliegenden Falle nicht geschehen; die Charakteristik „Vortragsaffe“ sei so allgemeiner Natur – es gibt ja, sagt Dr. Schnepp, in Wien viele Vortrags-Künstler (Heiterkeit) – daß, wenn sich diese Definition zum Objekt einer Klage eignen solle, der spezielle Zusammenhang mit den Vortragsfunktionen des Klägers untersucht werden müsse. Das aber bilde nicht den Gegenstand eines  sondern eines <hi rend="spaced">Ehren</hi>
-                <hi rend="spaced">beleidigungsverfahrens</hi>. Hätte der Angeklagte etwa statt des Ausdruckes „Vortragsaffe “ das Wort „Interpunktionsaffe“ gewählt, dann stünde der Fall insoweit anders, als ja die „sprachsäubernde Tätigkeit“ Karl Krausens bekannt sei. Beim Punkt „Vortragsaffe“ müsse aber festgestellt werden, ob <hi rend="spaced">der Kläger</hi> <hi rend="spaced">diese Bezeichnung als eindeutiges Erkennungsrnerkmal hinstellen</hi> <hi rend="spaced">könne</hi>. Dr. Samek widerspricht dieser Auffassung. Affe sei Affe. Die nähere Bestimmung „Vortrags“ könne daran nichts ändern. Wenn einer den andern zum Beispiel als „<hi rend="spaced">Fuhrwerks-Affen</hi>“ bezeichnet, so hat dieser Ausdruck mit den Funktionen eines Fuhrmannes nichts zu tun.</p>
-            <p xml:id="uuid_99efc2c6-5050-4ab2-afc2-c65050fab2b3">Allgemeine Heiterkeit erregt es dann, als Dr. Samek sich im Verlauf dieser Ausführungen beim nächsten Beispiel verspricht und sagt: „Wenn ich jemandem nachsage, er sei ein ’<hi rend="spaced">Sprechesel</hi>’, so ist das nicht eine Charakterisierung seines Sprechens, sondern eine <hi rend="spaced">Eselei</hi>.“ Dr. Schnepp erklärte in seiner Replik: – Die Sache ist gar nicht so einfach. Der Ausdruck „Vortragsaffe“ hat eine ganz konkrete Bedeutung, mit Beziehung auf eine bestimmte Person und eine bestimmte Eigenschaft derselben. Im vorliegenden Falle erweise sich die Bezeichnung „<hi rend="spaced">Vortragsaffe“ schon als spezielle Kritik</hi>, weil sie im Zusammenhang mit einem Vortragszitat des Klägers gebraucht sei, ferner weil auf eine spezifische Vortragseigensehaft Krausens angespielt sei, <hi rend="spaced">nämlich aus dem</hi> <hi rend="spaced">zufälligen Namen eines Menschen Wortwitze zu prägen</hi>.</p>
-            <p xml:id="uuid_3a1dc190-87a3-4b3d-9dc1-9087a32b3d76">Anton <hi rend="spaced">Kuh</hi> erbat hierauf das Wort, um zu diesem Punkt noch etwas hinzuzufügen. Er sagte: „Wenn der Herr Kläger behauptet, daß das von mir gebrauchte Wort ein <hi rend="spaced">eindeutiges Erkennungsmerkmal</hi> darstellt, so kann ich zu dieser Selbsteinsehätzung nichts sagen – ich stehe ja hier als Angeklagter, nicht als Ankläger. Ich habe es aber faktisch auf seine Funktionen als Vortragender angewandt. Ich habe Herrn Kraus zwar nie vortragen gehört, aber ich wollte damit unter anderem nur ausdrücken, was mir davon rapportiert wurde, also die spezielle Art des Krausschen Vortrags als affenähnlich bezeichnen: seine Stimmkopien, die Heißgierigkeit, mit der er sich in die Vorträge hineinstürzt, das Sich-rufen-lassen, seine Art, nach jedem Vortragsstück zehnmal hintereinander rasch aufs Podium zu hüpfen und sich Ovationen einzukassieren, kurz, die Akrobatik des Genusses, mit der er den Beifall entgegennimmt. Als nach diesen Ausführungen Krausens Anwalt, Dr. Samek, eine Stelle aus der „Fakkel“ zur Vorlesung brachte, rief Anton Kuh dazwischen: <hi rend="spaced">Das verstehe ich</hi> <hi rend="spaced">nicht</hi>. Das Bezirksgericht schloß sich, wie berichtet, den von Dr. Schnepp vor</p> <p xml:id="uuid_78a6dcb8-fe2f-481d-a6dc-b8fe2f981d5b">gebrachten Argumenten an und sprach die Unzuständigkeit des Bezirksgerichtes mit der Motivierung aus, daß hier offensichtlich keine Beschimpfung, sondern eine Ehrenbeleidigung vorliege und die Vortragstätigkeit des Klägers kritisiert sei […] </p>
-        </div>
-    <back/></text>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-012-001.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-011-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000019-012-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>19.12 Zeitungsartikel aus: Die Stunde, Nr. 861</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000019-012-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1758</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000019" type="collection">Karl
+                    Kraus ca. Fritz Kaufmann und Anton Kuh</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000019-012-000-facs001" xml:id="D_000019-012-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000019-012-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.D">Druck</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1926-01-23">23. Januar 1926
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000019-012-000-wit01">Zeitungsartikel</term>
+            </keywords>
+            <classCode source="D_000019-012-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.P.ZTA">D.P.ZTA</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header-facsimile" when-iso="2022-01-13" who="#JK" status="draft"/>
+         <change when-iso="2020-02-05T11:47:50.19Z" who="#IB" status="draft">created by
+                API</change>
+         <change when-iso="2020-02-05T11:59:20.328Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000019-012-000-facs001">
+      <surfaceGrp xml:id="D_000019-012-000-facs001-l001">
+         <surface type="recto" xml:id="D_000019-012-000-facs001-l001-p001">
+            
+            <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541058/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000019-012-000-facs001-l001-p002">
+            
+            <graphic source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541059/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000019-012-000-facs001-l002">
+         <surface type="recto" xml:id="D_000019-012-000-facs001-l002-p003">
+            
+            <graphic source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541060/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000019-012-000-facs001-l002-p004">
+            
+            <graphic source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541061/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000019-012-000-facs001-l003">
+         <surface type="recto" xml:id="D_000019-012-000-facs001-l003-p005">
+            
+            <graphic source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541062/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000019-012-000-facs001-l003-p006">
+            
+            <graphic source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541063/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

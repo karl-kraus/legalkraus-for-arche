@@ -1,80 +1,93 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000085-001-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000084-003-002.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000085-002-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Plakat mit Text betr. die Ausbürgerung Emmerich Békessys</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-<!--            keine Digitalisate auf KKO oder in digitaler Wienbib.-->
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000085-001-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2803</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000085">Karl Kraus ca. Wiener Plakatierungs- und Anzeigengesellschaft (WIPAG)</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000085-001-000-wit01" facs="D_000085-001-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation><date type="sortDate" subtype="produced" when-iso=""/></creation>
-            <langUsage> <language ident="de">Deutsch</language> </langUsage>
-            <textClass/>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2021-04-12T12:51:48.643Z" resp="#IB">created by API</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile/>
-    <text>
-        <div xml:id="uuid_15f8b68f-63dd-4339-b8b6-8f63dd333963">
-            <p xml:id="uuid_f0b9a422-6a10-4b59-b9a4-226a10cb5911">
-                <hi rend="bold">Warnung in letzter Stunde
-Der Schuft, den ich aus Wien verjagt habe,</hi>
-            </p>
-            <p xml:id="uuid_9ca3acde-dbd8-475e-a3ac-dedbd8675e57">Emmerich Bekessy, vom Landesgericht wegen Erpressung und falscher Zeugenaussage verfolgt, hat sich der Gefahr der Auslieferung durch die Flucht </p> <p xml:id="uuid_0b385d5c-98ad-49f8-b85d-5c98ad79f8a1">aus Paris nach Budapest, dem Ausgangspunkt seiner Laufbahn, entzogen. Sein Advokat, der bekannte Militärauditor Preminger, hat ihm zufolge des Umstands, daß ihm bei der Aufnahme in den österreichischen Heimatverband die Bescheinigung des Austritts aus dem ungarischen „durch besonderes Entgegenkommen der Gemeinde Wien erlassen wurde“, die Anerkennung seiner ungarischen Staatsbürgerschaft erwirkt, offenbar für die Verdienste, die er sich nach dem Sturz der Kommune durch Ueberlieferung rotgardistischer Soldaten an den weißen Terror erworben hatte und durch weitere Leistungen noch erwerben dürfte. Der im Krieg wegen Ausbeutung Untergebener militärgerichtlich abgeurteilte Erpresser, der durch fünf Jahre Wien gebrandschatzt und sämtliche Machtfaktoren der <?oxy_comment_start author="katharinaprager" timestamp="20190306T111556+0100" comment="einmal ö und Oe? Im Originaltext prüfen!"?>österreichischen Oeffentlichkeit <?oxy_comment_end?>unter dem Druck übler Mitwissenschaft in wirtschaftlichen Dingen oder der Beschmutzung ihres Privatlebens gehalten hat, betreibt nunmehr mit derselben erpresserischen Gewalt, mit der er ehedem die Staatsbürgerschaft erlangte, deren Annullierung, um, statt seiner Auslieferung an das Wiener Gericht, die nicht mehr erfolgen kann, die Auslieferung der ihn betreffenden Strafakten an das Budapester Gericht durchzusetzen. Gelänge dieser Plan, so stände nach dem kurzen Prozeß, den die ungarische Justiz mit dem Wiener Aktenmaterial machen würde, und nach erfolgter „Rehabilitierung“ den ferneren Geschäften, die er im Gebiet einer besudelten öffentlichen Meinung Mitteleuropas vorhat, kein Hindernis mehr im Wege. Zur Förderung dieser Sache hat er im Neuen Wiener Journal, welches sich die Sensation des Originalbeitrags eines steckbrieflich Verfolgten nicht entgehen ließ, seinen Revolver vorgezeigt, der mit etlichem Wissen oder Lüge über Angelegenheiten sozialdemokratischer Politiker und mit starken Hinweisen auf seine Verbindung mit Herrn <hi rend="spaced">Bosel</hi> geladen war. Meine Voraussage, daß im letzten Stadium der strafrechtlichen Verfolgung des großen Erpressers seine Tätigkeit sich auf den Staat selbst ausdehnen werde, scheint sich nunmehr erfüllen zu wollen, und es sind Anzeichen vorhanden, daß die Parteien der Herren <hi rend="spaced">Eldersch</hi> und <hi rend="spaced">Mataja</hi>, wie vielleicht auch jene Partei, der Herr Bosel unangenehm zu werden gedroht hat, sich dem Druck auf ein administratives Verfahren, durch das die Entbürgerung und in weiterer, schlimmerer Konsequenz die Abtretung der Akten an Ungarn herbeigeführt würde, nicht widerstrebend zeigen. Diese Legalisierung des Verbrechens, diese Abrüstung der Staatsgewalt vor einem Waffentüchtigeren wäre jedoch kein Plan der Vorsicht, der darauf abzielte, einen lästigen Erpresser ein für allemal los zu sein und über die schmachvolle Episode seiner Mitbürgerschaft Gras wachsen zu lassen. Vielmehr wäre es ein Plan der Dummheit, da die Aushändigung der einzigen Gegenwaffe, die den Erpresser von Oesterreichs Grenzen femhält, wenn sie ihn schon nicht erreichen kann: der Verzicht auf die kriminale Drohung, nie und nimmer ihn </p> <p xml:id="uuid_e33726f8-60f2-4566-b726-f860f2356645">selbst entwaffnen, da im Gegenteil das offene Bekenntnis staatlicher Ohnmacht die Gefahr, die allen Parteien und Interessengruppen droht, vervielfachen würde. Wir wollen, wenn wir einer Politik der Korruption schon die Staatsbürgerschaft des Imre Bekessy zu verdanken haben, auf diese nicht mehr verzichten! Wir wollen, daß er unser Mitbürger bleibe, weil nur dies die Sicherheit bietet, daß er nicht mehr zu uns heimkehrt! Aber wir wissen, daß seine Ausbürgerung erst seine wahre Einbürgerung zur Folge haben würde. Denn nach allen fehlgeschlagenen Versuchen, die der Abenteurer zur Ausbeutung der Öffentlichen Meinung in der Fremde unternommen hätte, bliebe ihm zum Schluß ja doch das Wiener Terrain, in dem er so erfolgreich gewirkt und bei dessen Hütern er sich eines Entgegenkommens bis zur Unterwerfung der staatlichen Hoheit zu erfreuen hatte. In letzter Stunde erfolgt die Warnung an die Maßgebenden vor dem heillosen Schritt dieser Ausbürgerung; im Angesicht der größten Oeffentlichkeit erfolgt das Gelöbnis, daß den Geschäftspolitikern, die sich zu augenblicklicher Erleichterung einen Mitwisser zu Dank verbinden wollen, mit Bekessys schnödem Undank meine unerbittliche Aufmerksamkeit gesichert bleibt und daß ich bemüht sein werde, alles, was sie dann begraben wähnen, ans Licht zu fördern. Sie werden seine Ansprüche ins Maßlose steigern und die meinen nicht befriedigen. Ich will sie dort treten, wo sie der Schuh drückt! In dem beispiellosen Kampf zu ihrer Befreiung, zur Befreiung der Stadt von einer Joumalistik, die die schuftigste seit Erfindung der Druckerschwärze war, hat bisher ein einziger Faktor standhaltend sich bewährt: die Justiz. Das Wort des Staatsanwalts „<hi rend="spaced">Die Justiz darf nicht zur Hure der Politik werden</hi>“, es wird nicht an den Praktiken von Zutreibern zu Schanden gehen, die sie an ein Budapester Bordell verschachern wollen. Geschähe es, dann wäre es die Katastrophe eines Staats, der in der Verfolgung eines Erpressers ihm selbst zur Beute ward! </p>
-            <p xml:id="uuid_09072f03-7cff-4b04-872f-037cff4b04c5">Karl Kraus </p>
-            <p xml:id="uuid_08706b56-06ab-4f11-b06b-5606ab9f110f">Herausgeber der Fackel </p>
-        </div>
-    <back/></text>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000085-002-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000084-003-002.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000085-001-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>85.1 Plakat mit Text betr. die Ausbürgerung Emmerich Békessys</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000085-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2803</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000085" type="collection">Karl
+                    Kraus ca. Wiener Plakatierungs- und Anzeigengesellschaft (WIPAG)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000085-001-000-facs001" xml:id="D_000085-001-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000085-001-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.D">Druck</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso=""/>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000085-001-000-wit01">Plakat</term>
+            </keywords>
+            <classCode source="D_000085-001-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.S.PLK">D.S.PLK</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#IB" status="draft" when-iso="2021-04-12T12:51:48.643Z">created by
+                API</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile/>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Objekt fehlt.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

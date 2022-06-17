@@ -1,137 +1,110 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000008-003-002.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000008-003-001.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000009-001-001.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Aktenvermerk Oskar Samek - Akt 8</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000008-003-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/1596</idno>
-                <idno type="ID" subtype="transkribus">380511</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref=""/>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000008-003-002-wit01" facs=""/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation><date type="sortDate" subtype="produced" when-iso=""/>
-                <date source="krausonline">14.06.1923</date>
-            </creation>
-            <langUsage><language ident="de">Deutsch</language></langUsage>
-            <textClass>
-                <keywords>
-                    <term>Brief</term>
-                </keywords>
-                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.K.BRF</classCode>
-            </textClass>
-            <particDesc/>
-            <correspDesc>
-                <correspAction type="sent">
-                    <rs type="person" ref="">Oskar Samek</rs>
-                </correspAction>
-                <correspAction type="received">
-                    <rs type="person" ref="">Direktion der Neuen Wiener Bühne</rs>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-02-04T10:47:25.157Z" who="#IB">created by API</change>
-            <change when-iso="2020-02-04T10:57:28.554Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-04T10:57:29.914Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-04T10:57:31.114Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-04T10:57:32.122Z" who="#JM">Checked Images Wienbibliothek</change>
-        <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of Transkribus Document 380511.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000285_0.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540294/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000283_0.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540292/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000287_0.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540296/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000286.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540295/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="" n="1"/>
-            <lb xml:id="uuid_99f79ff1-dceb-4a99-b79f-f1dceb7a99e1"/>14. Juni 1923
-<lb xml:id="uuid_ec9e210b-4188-406c-9e21-0b4188106c6e"/>Betr: Kraus – Neue Wr. Bühne
-<lb xml:id="uuid_a5ef47e3-e3a4-42fd-af47-e3e3a422fd1f"/>An die
-<lb xml:id="uuid_5dca2550-f018-4e4b-8a25-50f0187e4b4c"/>Direktion der Neuen Wiener Bühne
-<lb xml:id="uuid_80996adb-6b1e-4e3c-996a-db6b1ebe3c97"/>Wien IX.
-<lb xml:id="uuid_9f2725a8-9b88-4ff6-a725-a89b88eff6d8"/>Wasagasse 33.
-<lb xml:id="uuid_9e3357db-e0fe-4e21-b357-dbe0fe4e21e0"/>Der Verlag der Fackel hat Sie mir Schreiben vom 22. Mai 
-<lb xml:id="uuid_57bf870d-acf2-4e10-bf87-0dacf2ae102d"/>und 2. Juni 1923 um baldige aufklärende Äusserungen gebeten, wa-
-<lb xml:id="uuid_7c17aa61-f9a2-4461-97aa-61f9a2546150"/>rum in der Herrn Karl kraus mitgeteilten Tantiemen-
-<lb xml:id="uuid_35b4e8f4-5027-4704-b4e8-f450273704aa"/>summe, bezüglich der ihm auf seine ausdrückliche Anfrage be-
-<lb xml:id="uuid_e51e4a60-2355-46d4-9e4a-60235506d47f"/>jaht wurde, dass es die Tantiemen für alle zwölf Vorstellun-
-<lb xml:id="uuid_7d47cd92-452f-4d17-87cd-92452f8d1765"/>gen seien, die Tantième für die aus bestimmten Gründen Ge-
-<lb xml:id="uuid_e999eae7-d77e-4354-99ea-e7d77eb354f0"/>neralprobe genannte Vorstellung nicht erhalten war. Da Sie 
-<lb xml:id="uuid_ee3358ac-df2f-4606-b358-acdf2f460696"/>bis heute diese Schreiben nicht beantwortet haben, fordere 
-<lb xml:id="uuid_caf73c0e-9c8f-4753-b73c-0e9c8ff753ef"/>ich Sie in rechtsfreundlicher Vertretung des Herrn Karl Kraus 
-<lb xml:id="uuid_3e0d6c29-6d27-4911-8d6c-296d27591123"/>unter Hinweis auf diese Schreiben auf, mir binnen fünf Tagen 
-<lb xml:id="uuid_e8882413-db29-49db-8824-13db29f9db07"/>die Gründe darzulegen, warum Sie dieTantiemen der Vorstel-
-<lb xml:id="uuid_8256738e-75c2-4088-9673-8e75c26088d1"/>lung vom 3. Februar 1923 in die Abrechnung nicht aufgenommen 
-<lb xml:id="uuid_b1644521-0c39-4640-a445-210c39164001"/>haben, mir eine Abrechnung dieser Tantiemen zu geben und die 
-<lb xml:id="uuid_68f305b0-a3c0-4d04-b305-b0a3c05d04d0"/>inmeiner Kanzlei aufgelaufenen Kosten der Informationser-
-<lb xml:id="uuid_1bd868e2-982d-4c60-9868-e2982dbc605a"/>teilung und diesesSchreibens in der Höhe von K 51.040.– 
-<lb xml:id="uuid_eab56ef9-a0b9-4ed9-b56e-f9a0b98ed922"/>mittels 51.040 mittels des beiliegenden Erlagscheines zu bezahlen. 
-<lb xml:id="uuid_810e10dc-0384-497a-8e10-dc0384b97a96"/>Ich zeichne
-<lb xml:id="uuid_22c30c6c-d8f1-40b7-830c-6cd8f100b725"/>hochachtungsvoll
-<lb xml:id="uuid_a7aedf91-8573-4d66-aedf-9185736d66ac"/>1 Erlagschein
-<lb xml:id="uuid_03cb288d-00ae-4887-8b28-8d00ae288704"/>Rek. mit Rückschein
-</body>
-    <back/></text>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000009-001-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000008-003-001.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000008-003-002.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>8.3 Aktenvermerk Oskar Samek – Akt 8</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000008-003-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1596</idno>
+            <idno subtype="transkribus" type="ID">380511</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000008" type="collection">Karl
+                    Kraus ca. Neue Wiener Bühne</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000008-003-002-facs001" xml:id="D_000008-003-002-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000008-003-002-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date notBefore-iso="1923-06-14" subtype="produced" type="sortDate">14. Juni 1923
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000008-003-002-wit01">Aktenvermerk</term>
+            </keywords>
+            <classCode source="D_000008-003-002-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.AKV">D.J.AKV</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-02-04T10:47:25.157Z" who="#IB" status="draft">created by
+                API</change>
+         <change when-iso="2020-02-04T10:57:28.554Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+         <change when-iso="2020-02-04T10:57:29.914Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+         <change when-iso="2020-02-04T10:57:31.114Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+         <change when-iso="2020-02-04T10:57:32.122Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB" status="draft">Replaced Text with
+                Transcription of Transkribus Document 380511. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000008-003-002-facs001">
+      <surface type="recto" xml:id="D_000008-003-002-facs001-l001-p001">
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540302/full/full/0/default.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

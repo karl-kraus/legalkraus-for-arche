@@ -1,151 +1,110 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000010-018-001.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000010-018-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000010-018-002.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Originalumschlag Oskar Samek - Akt 10</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000010-018-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/1618</idno>
-                <idno type="ID" subtype="transkribus">380527</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000010">Karl Kraus ca. Robert-Bühnen (Kammerspiele)</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000010-018-001-wit01" facs=""/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation><date type="sortDate" subtype="produced" when-iso=""/>
-                <date source="krausonline">09.12.1924</date>
-            </creation>
-            <langUsage><language ident="de">Deutsch</language></langUsage>
-            <textClass>
-                <keywords>
-                    <term>Antrag</term>
-                </keywords>
-                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.J.ANT</classCode>
-            </textClass>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-02-04T11:24:21.403Z" who="#IB">created by API</change>
-            <change when-iso="2020-02-04T11:41:45.544Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-04T11:41:46.784Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-04T11:41:47.936Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-04T11:41:49.072Z" who="#JM">Checked Images Wienbibliothek</change>
-        <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of Transkribus Document 380527.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000362_0.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540371/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000363.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540372/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000364_0.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540373/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000365.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540374/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="" n="1"/>
-            <lb xml:id="uuid_3be63237-8646-4376-a632-3786463376ae"/>
-<lb xml:id="uuid_d3160945-187d-4ec6-9609-45187d6ec679"/>
-<lb xml:id="uuid_49e17f0c-a552-448c-a17f-0ca552448cd9"/>
-<lb xml:id="uuid_e145a21a-2d13-4ea8-85a2-1a2d138ea844"/>
-<lb xml:id="uuid_8e929650-296d-4a19-9296-50296d8a195a"/>
-<lb xml:id="uuid_0625c1e8-d504-412f-a5c1-e8d504312fc1"/>
-<lb xml:id="uuid_061c3c9b-21f6-4863-9c3c-9b21f6286387"/>
-<lb xml:id="uuid_4f365087-65f3-46d2-b650-8765f366d244"/>
-<lb xml:id="uuid_307bc371-4944-41a3-bbc3-71494471a3fb"/>
-<lb xml:id="uuid_b4b107bf-3eb5-4002-b107-bf3eb570021e"/>
-<lb xml:id="uuid_559e00e0-6bce-4f07-9e00-e06bce0f072c"/>
-<lb xml:id="uuid_9a56c11b-c5ab-43d3-96c1-1bc5ab43d383"/>
-<lb xml:id="uuid_6b0f8c36-54a3-492b-8f8c-3654a3c92be1"/>
-<lb xml:id="uuid_8a26eb87-e520-409f-a6eb-87e520f09f24"/>
-<lb xml:id="uuid_69620f9c-084c-4e81-a20f-9c084c4e812b"/>
-<lb xml:id="uuid_78aaffed-25b3-412b-aaff-ed25b3c12b69"/>
-<pb facs="" n="2"/>
-            <lb xml:id="uuid_3eeae25c-652c-4b0f-aae2-5c652c6b0f07"/>C X 891/24
-<lb xml:id="uuid_80f41605-9d68-43b5-b416-059d6873b508"/>An das
-<lb xml:id="uuid_6bc52b14-cbce-4761-852b-14cbce7761c3"/>Bezirksgericht Josefstadt
-<lb xml:id="uuid_5deb9f91-54fa-4885-ab9f-9154fad88527"/>WIEN
-<lb xml:id="uuid_2d8ee5de-d475-4abc-8ee5-ded4754abc03"/>Betreibende Partei: Karl Kraus, Schriftsteller, Wien III. 
-<lb xml:id="uuid_667e78e0-bf74-473e-be78-e0bf74073e30"/>HIntere Zollamtsstrasse 3
-<lb xml:id="uuid_43b87dfe-25b3-4656-b87d-fe25b3065613"/>durch:
-<lb xml:id="uuid_1be991f7-5c48-4a6e-a991-f75c482a6ec5"/>Verpflichtete Partei: Prof. Dr. Eugen Robert, Theaterdirektor 
-<lb xml:id="uuid_abea5d22-3c8d-404c-aa5d-223c8de04c58"/>am Theater am Kurfürstendamm in Berlin 
-<lb xml:id="uuid_7c0714a6-5c89-4dd7-8714-a65c89cdd782"/>vertreten durch: Dr. Richard Katscher
-<lb xml:id="uuid_88b4977d-e35c-4026-b497-7de35c10267c"/>Rechtsanwalt
-<lb xml:id="uuid_549d4202-e667-4880-9d42-02e66788809c"/>Wien I. Himmelpfortg. 15
-<lb xml:id="uuid_364fc7c3-4231-4d7b-8fc7-c342315d7b74"/>wegen 9,716.100.–s.Ng. 2 fach
-<lb xml:id="uuid_af69b350-29a5-41a1-a9b3-5029a511a189"/>1 Rubr.
-<lb xml:id="uuid_7c4fe679-8f58-45a1-8fe6-798f5865a1c1"/>Zurücknahme des Exekutionsantrages eventuell Antrag auf 
-<lb xml:id="uuid_9aaf286f-fe33-4f1b-af28-6ffe336f1b50"/>Einstellung der Exekution:
-<lb xml:id="uuid_e439dd27-5665-40ec-b9dd-27566570ec81"/>Zur Kenntnis genommen
-<lb xml:id="uuid_e193c4e8-a3b4-4845-93c4-e8a3b45845ea"/>X 5/12  Samek ¿
-<pb facs="" n="3"/>
-            <lb xml:id="uuid_0f64614d-d0cc-4b12-a461-4dd0cc3b1253"/>Ich nehme meinen am 2. XII. 1924 eingebrachten 
-<lb xml:id="uuid_8915376e-6a06-4822-9537-6e6a065822ef"/>Exekutions-Antrag
-<lb xml:id="uuid_0fd9f6f8-8aff-4df1-99f6-f88aff5df1c8"/>über mittlerweile erfolgte Zahlung samt Zinsen und Kosten 
-<lb xml:id="uuid_24771ce7-cb54-495c-b71c-e7cb54e95ca4"/>zurück, eventuell beantrage ich, falls die Exekution bereits 
-<lb xml:id="uuid_eba2eb43-b96d-4554-a2eb-43b96d155487"/>bewilligt und abgefertigt sein sollte, die 
-<lb xml:id="uuid_c8ff53c4-dc12-475a-bf53-c4dc12c75a74"/>Einstellung
-<lb xml:id="uuid_6c88fad5-8a99-4f45-88fa-d58a997f4561"/>der Exekution.
-<lb xml:id="uuid_ad043a8c-9187-4933-843a-8c91878933e5"/>Karl Kraus. / Robertbühne
-<lb xml:id="uuid_972d725e-ddb5-4b31-ad72-5eddb58b3198"/>5. XII. Samek
-<pb facs="" n="4"/>
-            <lb xml:id="uuid_8f246487-ddc5-43b1-a464-87ddc583b1c7"/>Kraus – Robertbühne
-<lb xml:id="uuid_c6733519-e434-47b4-b335-19e434b7b4f3"/>Eingelangt am 9. DEZ. 24
-</body>
-    <back/></text>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000010-018-002.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000010-018-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000010-018-001.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>10.18 Originalumschlag Oskar Samek – Akt 10</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000010-018-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1618</idno>
+            <idno subtype="transkribus" type="ID">380527</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000010" type="collection">Karl
+                    Kraus ca. Robert-Bühnen (Kammerspiele)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000010-018-001-facs001" xml:id="D_000010-018-001-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000010-018-001-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.UMS">Umschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date notBefore-iso="1924-06-06" subtype="produced" type="sortDate">6. Juni 1924
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000010-018-001-wit01">Originalumschlag</term>
+            </keywords>
+            <classCode source="D_000010-018-001-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.UMS">D.J.UMS</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-02-04T11:24:21.403Z" who="#IB" status="draft">created by
+                API</change>
+         <change when-iso="2020-02-04T11:41:45.544Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+         <change when-iso="2020-02-04T11:41:46.784Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+         <change when-iso="2020-02-04T11:41:47.936Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+         <change when-iso="2020-02-04T11:41:49.072Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB" status="draft">Replaced Text with
+                Transcription of Transkribus Document 380527. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000010-018-001-facs001">
+      <surface type="recto" xml:id="D_000010-018-001-facs001-l001-p001">
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540375/full/full/0/default.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

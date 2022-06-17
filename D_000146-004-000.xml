@@ -1,150 +1,134 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000146-004-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000145-015-003.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-018-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Aufstellung [der Restschuld]</title>
-                <editor ref="#pmbAR">Alexandra Rausch</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name full="yes" instant="false">Austrian Centre for Digital Humanities and
-                        Cultural Heritage, Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name full="yes" instant="false">Ludwig Boltzmann Institut für Digital
-                        History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name full="yes" instant="false">Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date instant="false">2021</date>
-                <availability default="false">
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000146-004-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3978</idno>
-                <idno type="ID" subtype="transkribus">290663</idno>
-            </publicationStmt>
-            <seriesStmt default="false">
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000146">Karl
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-005-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-003-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000146-004-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>146.4 Aufstellung der Restschuld</title>
+            <editor ref="#pmbAR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000146-004-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3978</idno>
+            <idno subtype="transkribus" type="ID">290663</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000146" type="collection">Karl
                     Kraus ca. Ernst Josef Aufricht (Theater am Schiffbauerdamm, Berlin)</title>
-            </seriesStmt>
-            <sourceDesc default="false">
-                <listWit>
-                    <witness xml:id="D_000146-004-000-wit01" facs="#D_000146-004-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date type="sortDate" notAfter-iso="1930-06-30" subtype="" instant="false"/>
-            </creation>
-            <langUsage default="false">
-                <language ident="de">Deutsch</language>
-            </langUsage>
-            <textClass default="false"/>
-            <particDesc default="false"/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-10-08T15:09:21.182Z" who="#IB" status="draft">created by
-                API</change>
-            <change when-iso="2020-10-08T15:14:40.771Z" who="#IB" status="draft">Replaced Text with
-                Transcription of Transkribus Document 290663.</change>
-            <change type="header" when-iso="2021-08-05" who="#AR" status="draft"/>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000146-004-000-facs001">
-        <surfaceGrp xml:id="D_000146-004-000-facs001-l001">
-            <surface xml:id="D_000146-004-000-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000063_30.jpg" source="krausonline"/>
-            </surface>
-            <surface xml:id="D_000146-004-000-facs001-l001-p002" type="verso">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000064_21.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <facsimile type="further-witnesses">
-    <surface type="">
-        <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000065_28.jpg" source="krausonline"/>
-    </surface>
-    <surface type="">
-        <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000066_21.jpg" source="krausonline"/>
-    </surface>
-    <surface type="">
-        <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000067_26.jpg" source="krausonline"/>
-    </surface>
-    <surface type="">
-        <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000068_26.jpg" source="krausonline"/>
-    </surface>
-    <surface type="">
-        <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000069_23.jpg" source="krausonline"/>
-    </surface>
-    <surface type="">
-        <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000070_26.jpg" source="krausonline"/>
-    </surface>
-    </facsimile>
-    <text>
-        <body>
-            <pb n="1" facs="#D_000146-004-000-facs001-l001-p001"/>
-            <lb xml:id="uuid_5b2d6f08-b8e7-4119-ad6f-08b8e7d11970"/>Aufstellung: <lb xml:id="uuid_cde82494-eb89-4f92-a824-94eb89bf927e"/>Kapital Mark 3.000.–– <lb xml:id="uuid_a116fa27-9890-4835-96fa-27989098359d"/>8% Zinsen vom 10.4.1924 bis
-            17.7.1924 " 64.67 <lb xml:id="uuid_e043cd1e-0bb4-42fd-83cd-1e0bb4f2fd7d"/>6% " "
-            18.7.1924 " 15.1.1925 " 89,––Ä " " 10. 7.1924 " 15. 1.1925 . . . <lb xml:id="uuid_61849fbc-046b-40d9-849f-bc046bf0d98c"/>Mark 3.153.67 <lb xml:id="uuid_682fceb8-8b27-4758-afce-b88b278758ba"/>abzüglich Zahlung vom 15.1.1925
-            per " 135.50 <lb xml:id="uuid_5e377463-5717-48a0-b774-63571748a062"/>Mark 3.018.17 <lb xml:id="uuid_1081560f-7aec-474a-8156-0f7aec074aad"/>6% Zinsen vom 15.1.1925 bis
-            21.1.1925 " 3.52 <lb xml:id="uuid_89f8e8ef-4526-4331-b8e8-ef45269331f5"/>9% " "
-            22.1.1925 " 4.3.1925 " 31.69 <lb xml:id="uuid_af747f94-c6ac-4b57-b47f-94c6ac1b57c0"/>8%
-            " " 5.3.1925 " 15.5.1925 " 46.95 <lb xml:id="uuid_6a303859-efff-4894-b038-59efff2894fc"/>Mark 3.100.33 <lb xml:id="uuid_b2f2a2a3-696c-413d-b2a2-a3696cc13dcc"/>abzüglich
-            Zahlung vom 15.5.1925 per " 37.50 <lb xml:id="uuid_6a521c9a-a2e1-47b8-921c-9aa2e1c7b84c"/>Mark 3.062.83 <lb xml:id="uuid_011bd9fd-272e-45cf-9bd9-fd272e45cfdc"/>8% Zinsen vom
-            16.5.1925 bis 15.7.1925 " 40.16 <lb xml:id="uuid_6ebc64a5-2b74-49b1-bc64-a52b7419b177"/>Mark 3.102.99 <lb xml:id="uuid_79f392b4-04fa-4f29-b392-b404fa3f29ca"/>abzüglich
-            Zahlung vom 15.7.1925 per " 37.50 <lb xml:id="uuid_f22b382c-691b-4de4-ab38-2c691bade4e8"/>Mark 3.065.49 <lb xml:id="uuid_b45defe5-cd8d-4da7-9def-e5cd8d1da71f"/>8% Zinsen vom
-            16.7.1925 bis 15.12.1925 " 102.18 <lb xml:id="uuid_4bc8ec09-0cca-4180-88ec-090cca918014"/>Mark 3.167.67 <lb xml:id="uuid_185c8d6f-9191-4fc0-9c8d-6f91915fc0cf"/>abzüglich
-            Zahlung vom 15.12.1925 per " 37.50 <lb xml:id="uuid_0aee4318-5516-4b46-ae43-1855162b4660"/>Mark 3.130.17 <lb xml:id="uuid_b150ac58-29b5-49bc-90ac-5829b559bca4"/>8% Zinsen vom 16.12.1925 bis
-            17.1.1926 " 22.26 <lb xml:id="uuid_c4934265-f2fe-48a0-9342-65f2fe58a042"/>7% " "
-            18.1.1926 " 31.3.1926 " 45.–– <lb xml:id="uuid_5640f100-6def-4acf-80f1-006def9acf90"/>6%
-            " " 1.4.1926 " 8.7.1926 " 51.12 <lb xml:id="uuid_86bd20c0-ca18-48f3-bd20-c0ca1818f361"/>5½% " " 9.7.1926 " 15.1.1927 " 88.94 <lb xml:id="uuid_a86d13a4-0c74-40c6-ad13-a40c74a0c6bf"/>Mark 3.337.49 <lb xml:id="uuid_a5715176-57b8-4fca-b151-7657b81fca8f"/>abzüglich Zahlung vom 15.1.1927
-            per " 112.50 <lb xml:id="uuid_cc00ad80-63b9-4aff-80ad-8063b90affa9"/>Mark 3.224.99 <lb xml:id="uuid_751aaf35-57da-494b-9aaf-3557da394b82"/>5½% Zinsen vom 16.1.1927 bis
-            10.6.1927 " 70.95 <lb xml:id="uuid_fb6deb49-139b-4f6f-adeb-49139bcf6f58"/>6% " "
-            11.6.1927 " 7.10.1927 " 62.35 <lb xml:id="uuid_178fe848-e555-4294-8fe8-48e5550294ee"/>7%
-            " " 8.10.1927 " 19.1.1928 " 63.80 <lb xml:id="uuid_06a52367-0c3e-43ab-a523-670c3eb3abe1"/>6 1/4% " " 20.1.1928 " 15.3.1928 " 30.80 <lb xml:id="uuid_95aacfa1-42a6-4664-aacf-a142a6566434"/>Mark 3.452.89 <lb xml:id="uuid_c406cf7d-319b-4ea3-86cf-7d319b3ea3ce"/>abzüglich Zahlung vom 15.3.1928
-            per " 150.–– <lb xml:id="uuid_fce58bf9-3611-4e52-a58b-f936116e52e2"/>Mark 3.302.89 <lb xml:id="uuid_5588889d-2fe7-4567-8888-9d2fe7556786"/>6 1/4% Zins. v. 16.3.1928 bis
-            15.8.1928 " 86.01 <lb xml:id="uuid_83c72e08-865f-42c5-872e-08865f02c525"/>Mark 3.388.90
-                <lb xml:id="uuid_5eba3fba-bc9c-4688-ba3f-babc9c6688e1"/>abzüglich Zahlung vom
-            15.8.1928 per " 400.–– <lb xml:id="uuid_c9ca6bc2-bcf9-46ed-8a6b-c2bcf926edfd"/>Mark
-            2.988.90 <lb xml:id="uuid_0513ed9c-6a14-4efa-93ed-9c6a148efa84"/>Transport: <pb n="2" facs="#D_000146-004-000-facs001-l001-p002"/>
-            <lb xml:id="uuid_b006bf91-2717-4eee-86bf-9127171eee1c"/>Transport: Mark 2.988.90 <lb xml:id="uuid_3e36374e-f277-428a-b637-4ef277528ab8"/>6 1/4% Zinsen vom 16.8.1928 bis
-            15.10.1928 " 31.13 <lb xml:id="uuid_28dfb259-07b9-427b-9fb2-5907b9827b6b"/>Mark 3.020.03
-                <lb xml:id="uuid_eb2f81fe-7750-4e19-af81-fe77503e192f"/>abzüglich Zahlung vom
-            15.10.1928 per " 200.–– <lb xml:id="uuid_e2fefeab-b03f-41e6-befe-abb03f71e628"/>Mark
-            2.820.03 <lb xml:id="uuid_2a99dbdf-c9b5-418b-99db-dfc9b5e18bbe"/>6 1/4% Zinsen vom
-            16.10.1928 bis 11.1.1929 " 63.52 <lb xml:id="uuid_0985478e-4655-442e-8547-8e4655142e6a"/>6% " " 12.1.1929 " 15.1.1929 " 1.88 <lb xml:id="uuid_1dbe68d8-f942-4f15-be68-d8f9420f1521"/>Mark 2.885.43 <lb xml:id="uuid_d82084d5-37d7-476e-a084-d537d7176e04"/>abzüglich Zahlung vom 15.1.1929
-            per " 200.–– <lb xml:id="uuid_4e00014b-8317-4019-8001-4b8317401928"/>Mark 2.685.43 <lb xml:id="uuid_7586006b-ed67-4c2d-8600-6bed675c2d0a"/>6% Zinsen vom 16.1.1929 bis
-            24.4.1929 " 44.30 <lb xml:id="uuid_b9fd0aa6-e23e-4519-bd0a-a6e23ec5196d"/>7% " "
-            25.4.1929 " 31.5.1929 " 19.60 <lb xml:id="uuid_4a541dbf-125e-48a6-941d-bf125ee8a647"/>8%
-            " " 1.6.1929 " 30.6.1929 " 11.94 <lb xml:id="uuid_f4d1d85a-e23e-4d90-91d8-5ae23ecd9063"/>7% " " 1.7.1929 " 15.10.1929 " 54.83 <lb xml:id="uuid_d451299d-9f1f-4bce-9129-9d9f1fbbcea4"/>Mark 2.816.10 <lb xml:id="uuid_4061d761-521d-47d1-a1d7-61521d77d1cb"/>abzüglich Zahlung vom 15.10.1929
-            per " 200.–– <lb xml:id="uuid_52ae973b-520a-42d1-ae97-3b520ab2d17e"/>Mark 2.616.10 <lb xml:id="uuid_29a5eafc-7b99-41c3-a5ea-fc7b9991c34c"/>7% Zinsen vom 16.10.1929 bis
-            15.7.1930 " 137.35 <lb xml:id="uuid_a18b6577-f4fa-4cc0-8b65-77f4fa6cc004"/>Mark 2.753.45
-        </body>
-    <back/></text>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000146-004-000-facs001" xml:id="D_000146-004-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000146-004-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" notAfter-iso="1930-06-30">30. Juni 1930
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000146-004-000-wit01">Aufstellung</term>
+            </keywords>
+            <classCode source="D_000146-004-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.AFS">D.J.AFS</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-08T15:09:21.182Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-08T15:14:40.771Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 290663. </change>
+         <change status="draft" type="header" when-iso="2021-08-05" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000146-004-000-facs001">
+      <surfaceGrp xml:id="D_000146-004-000-facs001-l001">
+         <surface type="recto" xml:id="D_000146-004-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542132/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000146-004-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542133/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542134/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542135/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542136/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542137/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542138/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542139/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

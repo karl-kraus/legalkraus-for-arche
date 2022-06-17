@@ -1,113 +1,318 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000032-007-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-006-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-007-001.xml">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. Vr XXVI 7150/25,
-                    Franz Veprek)</title>
-                <editor ref="#pmbIL">Isabel Langkabel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000032-007-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/1983</idno>
-                <idno type="ID" subtype="transkribus">187354</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000032">Karl
-                    Kraus ca. Kronos-Verlag</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000032-007-000-wit01" facs=""/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date type="sortDate" when-iso="1926-01-23"/>
-            </creation>
-            <langUsage>
-                <language ident="de">Deutsch</language>
-            </langUsage>
-            <textClass/>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-02-10T11:44:07.879Z" who="#IB">created by API</change>
-            <change when-iso="2020-02-10T11:49:26.49Z" who="#JM">Checked Images
-                Wienbibliothek</change>
-            <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
-                of Transkribus Document 187354.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000417_1.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548260/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="" n="1"/>
-            <p xml:id="uuid_af1d3c76-5d3d-4d44-89c0-a86b8de8e009"><lb xml:id="uuid_5a8b542f-b304-4b8d-8ad5-af50a457150e"/>Vr XXVI 7150/25 </p>
-            <p xml:id="uuid_4aec2569-93cf-4b99-ae45-3e6d00b0a72e"><lb xml:id="uuid_effedd8d-3a13-414a-a4b3-f4b847c4ce33"/>Beschluss. </p>
-            <p xml:id="uuid_9decadb9-3770-4ab2-8488-3182d930027a"><lb xml:id="uuid_5f4154b3-d7d5-4ec3-a2de-c64784ae6dd3"/>In dem gemäss <rs type="law">§ 109 STPO</rs> eingestellten Strafverfahren <lb xml:id="uuid_f80add6b-8862-4b23-8d88-152a39c711cd"/>wider <rs type="person" ref="#pmb11988">Karl Kraus</rs> wegen Vergehens
-                nach <quote xml:id="uuid_9a95c042-dcf3-47f9-98c4-61ad94c926f5">§ 44 U.R.</quote>
-                werden die <lb xml:id="uuid_40074ddf-c7fe-4329-81f3-ac33dbd53f10"/>von dem
-                Privatankläger <rs type="institution" ref="#pmb37216">Kronos Verlag A.G.</rs> dem
-                Besch. <rs type="person" ref="#pmb11988">Karl
-                    Kraus</rs>
-                <lb xml:id="uuid_347ebf02-372f-4add-9e89-10a17acaf733"/>gemäss <rs type="law">§ 390
-                    STPO</rs> zu ersetzenden Vertretungs-Kosten und zwar Verdienst <lb xml:id="uuid_5375df45-eac0-4d5f-a698-b12b3f90dd72"/>88.74 S, Barauslagen 2.96 in
-                Summe mit 91.70 S bestimmt und hat <lb xml:id="uuid_eab13264-6dab-4c4b-9687-7489991c626e"/>der Privatankläger <rs type="institution" ref="#pmb37216">Kronos Verlags A.G.</rs> diesem Betrag dem <lb xml:id="uuid_7be97f6b-506b-4838-82e9-d0e830370162"/>Beschuldigten <rs type="person" ref="#pmb11988">Karl Kraus</rs>
-                binnen 14 Tagen bei sonstiger Zwangsvollstreckung <lb xml:id="uuid_86bef923-5b08-4131-8cfd-4de5a83c1b29"/>zu bezahlen.</p>
-            <p xml:id="uuid_9fa57843-986a-489d-9cff-847e1e8d5e72">
-                <lb xml:id="uuid_9309d7ee-467e-4c70-b42d-843d9690eed3"/><rs type="institution" ref="#pmb36842">Landesgericht für Strafsachen I Wien</rs>
-                <lb xml:id="uuid_0a70f840-cce3-4de5-aa4f-a6fbcf3f1e07"/>Abt. XXVI, am 23.I.1926. </p>
-            <p xml:id="uuid_b375c6d1-2761-4010-ab3e-d11cd45c55cd"><lb xml:id="uuid_84cc35b8-ff72-42f7-b318-9e0f040b1781"/>Herrn <lb xml:id="uuid_e8307fe5-fabb-4e18-a316-5e3b49372ae9"/><rs type="person" ref="#pmb11988">Karl Kraus</rs>
-            </p>
-            <p xml:id="uuid_f2eaa0c2-7c51-4c6d-9590-9d8f1a82ce76">
-                <lb xml:id="uuid_9baf0756-772d-4e04-aeb8-e0119e508de0"/>Gegen diesen Beschluss kann
-                die binnen 14 Tagen hiergerichts <lb xml:id="uuid_b8aa4b34-0b31-49bb-b7bf-7f8210bc5211"/>einzubringende Beschwerde an
-                das <rs type="institution" ref="#pmb36850">Oberlandesgericht</rs> erhoben werden. </p>
-        </body>
-    <back><listPerson><person xml:id="pmb11988">
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-007-001.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-006-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000032-007-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>32.7 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. Vr XXVI 7150/25, Franz Veprek)</title>
+            <editor ref="#pmbIL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000032-007-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1983</idno>
+            <idno subtype="transkribus" type="ID">187354</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000032" type="collection">Kronos-Verlag ca. Karl Kraus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000032-007-000-facs001" xml:id="D_000032-007-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000032-007-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1926-01-23">23. Januar
+                    1926</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000032-007-000-wit01">Beschluss</term>
+            </keywords>
+            <classCode source="D_000032-007-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.BSS">D.J.BSS</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-11-25" who="#IL"/>
+         <change type="header_facsimile" when-iso="2022-01-17" who="#IL"/>
+         <change type="structure" when-iso="2020-11-18" who="#IL"/>
+         <change type="references" when-iso="2020-11-22" who="#IL"/>
+         <change type="typography" when-iso="2022-01-17" who="#IL"/>
+         <change when-iso="2020-02-10T11:44:07.879Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-10T11:49:26.49Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 187354. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000032-007-000-facs001">
+      <surface xml:id="D_000032-007-000-facs001-l001-p001" type="recto">
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548260/full/full/0/default.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000032-007-000_p001" facs="#D_000032-007-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_1b1c8768-2a70-406a-b420-05e587efd8e6">
+            <lb xml:id="uuid_e26e74aa-14c0-4f1a-929e-e12e7f6daab0"/>Vr XXVI 7150/25 </p>
+         <p xml:id="uuid_fef07f1e-08ef-408c-951a-d0a8503ffce0">
+            <lb xml:id="uuid_29fb0dd5-1d3d-4d52-827d-a7b69d58500b"/>Beschluss. </p>
+         <p xml:id="uuid_f0d9cad5-9969-4c75-aad5-48e73968aedf">
+            <lb xml:id="uuid_c6475cba-da8f-4e34-b960-b0b045afcd2a"/>In dem gemäss <rs type="law" ref="https://alex.onb.ac.at/cgi-content/alex?aid=rgb&amp;datum=1873&amp;page=475&amp;size=45">§ 109 STPO</rs> eingestellten Strafverfahren<lb xml:id="uuid_08e2626f-1da1-4527-b944-a4e89cfd77e7"/>wider <rs ref="#pmb11988" type="person">Karl Kraus</rs> wegen
+            Vergehens nach <rs type="law" ref="https://alex.onb.ac.at/cgi-content/alex?aid=sgb&amp;datum=1920&amp;page=1737&amp;size=45">§ 44 U.R.</rs> werden die<lb xml:id="uuid_d474ea62-8726-4071-86df-612f7d9edfda"/>von
+            dem Privatankläger <rs ref="#pmb37216" type="institution">Kronos Verlag A.G.</rs> dem
+            Besch. <rs ref="#pmb11988" type="person">Karl Kraus</rs>
+            <lb xml:id="uuid_ce6c81fb-c172-4297-bafc-193aceab2a35"/>gemäss <rs type="law" ref="https://alex.onb.ac.at/cgi-content/alex?aid=rgb&amp;datum=1873&amp;page=532&amp;size=45">§ 390 STPO</rs> zu ersetzenden Vertretungs-Kosten und zwar Verdienst<lb xml:id="uuid_b26b9b59-8e81-44fb-89c9-fa2d22c7318e"/>88.74 S, Barauslagen 2.96 in
+            Summe mit 91.70 S bestimmt und hat<lb xml:id="uuid_ed1fdbf9-3c43-4630-8814-c1e118416786"/>der Privatankläger <rs ref="#pmb37216" type="institution">Kronos Verlags A.G.</rs> diesem
+            Betrag dem<lb xml:id="uuid_e8974713-f953-4279-8ee7-7570bb03ff3c"/>Beschuldigten <rs ref="#pmb11988" type="person">Karl Kraus</rs> binnen
+            14 Tagen bei sonstiger Zwangsvollstreckung<lb xml:id="uuid_db359ca8-a929-4248-be70-f1c015e86205"/>zu bezahlen. </p>
+         <p xml:id="uuid_c5fa4875-6545-4cec-b593-e994b7e76f38">
+            <lb xml:id="uuid_3901f442-b3b2-4278-aff1-27c175a5b5ef"/><rs ref="#pmb36842" type="institution">Landesgericht für Strafsachen I Wien</rs>
+            <lb xml:id="uuid_9f64afd0-430a-4b68-8cce-6f843792f19b"/>Abt. XXVI, am 23.I.1926. </p>
+         <p xml:id="uuid_41c612b7-e2e2-4bdc-b22e-ecf9e0350250">
+            <lb xml:id="uuid_111edb8a-05f0-41f6-a5b5-f4058d2c6adc"/>Herrn<lb xml:id="uuid_bd738c9c-b632-4ad3-8fa0-cd176a9cd6aa"/><rs ref="#pmb11988" type="person">Karl Kraus</rs>
+         </p>
+         <p xml:id="uuid_c121ac6f-7bd7-4d09-bd50-90d3c5f1eaa5">
+            <lb xml:id="uuid_2161b892-50f2-4efe-a6fc-02e67f10ca54"/>Gegen diesen Beschluss kann
+                die binnen 14 Tagen hiergerichts<lb xml:id="uuid_8134bb9d-d91e-49c2-81e8-9b80f6fff623"/>einzubringende Beschwerde an
+                das <rs ref="#pmb36850" type="institution">Oberlandesgericht</rs> erhoben werden. </p>
+      </body>
+   <back><listOrg><org xml:id="pmb36842">
+  <orgName>Landesgericht für Strafsachen</orgName>
+
+  <orgName type="uri_wikipedia">https://de.wikipedia.org/wiki/Landesgericht_f%C3%BCr_Strafsachen_Wien</orgName>
+
+
+
+<location type="located_in_place">
+  <placeName key="pmb58">VIII., Josefstadt</placeName>
+  <geo>48,21126 16,34706</geo>
+  
+  <note type="IDNO" subtype="geonames">http://sws.geonames.org/2775027/</note>
+  
+  <note type="IDNO" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/15566/</note>
+  
+  <note type="IDNO">https://d-nb.info/gnd/4108158-4</note>
+  
+  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb58</note>
+  
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/58</note>
+  
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/15566</note>
+  
+  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb58</note>
+  
+</location>
+
+<location type="located_in_place">
+  <placeName key="pmb50">Wien</placeName>
+  <geo>48,2066 16,37341</geo>
+  
+  <note type="IDNO" subtype="geonames">https://sws.geonames.org/2761369/</note>
+  
+  <note type="IDNO" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</note>
+  
+  <note type="IDNO" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</note>
+  
+  <note type="IDNO">https://d-nb.info/gnd/4066009-6</note>
+  
+  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</note>
+  
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/50</note>
+  
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/2316</note>
+  
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/20954</note>
+  
+  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</note>
+  
+  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</note>
+  
+  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</note>
+  
+</location>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36842/</idno>
+
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36842</idno>
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>2.8 Brief Samek an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>2.10 Urteil des Landesgerichts in Strafsachen I. Wien (G.Z. Bl XV 121/23, Vorsitz: Rudolf Wessely)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>12.12 Berufungsausführung des Beschuldigten Fritz Kaufmann</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000012-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>12.17 Urteil des Landesgerichts für Strafsachen I Wien in der Berufungsverhandlung (G.Z. Bl XV 504/25, Vorsitz: Oberlandesgerichtsrat Max Leopold Ehrenreich)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000012-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>13.6 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. BI XIV 857/25, Ludwig Altmann, Präsident des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>14.10 Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G. Z. U I 110/25, Richter: Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000014-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>14.15 Brief Samek an Verlag die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000014-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>14.16 Urteil des Landesgerichts für Strafsachen I Wien (G.Z. Bl. XV 738/25, Richter: Oberlandesgerichtsrat Max Leopold Ehrenreich, Verteidiger: Samuel Schlesinger für Valentin Rosenfeld)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000014-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.2 Antrag von Karl Kraus und Richard Lányi auf Einleitung von Voruntersuchungen gegen unbekannte Täter wegen Vergehens gegen § 44 und 45 des Urheberrechtsgesetzes (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.3 Protokolle der Vernehmung von Fritz Kaufmann und Anton Sztranyak</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.4 Protokoll der Vernehmung von Ferdinand Hofbauer (Klischeefirma)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.6 Antrag auf Ergänzung der Voruntersuchung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.7 Beweisantrag der Privatankläger (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.8 Antrag auf weitere Einvernahmen (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.10 Antrag auf Ergänzung der Voruntersuchung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.11 Konvolut von Protokollen der Zeugenaussagen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.13 Antrag auf Ergänzung der Voruntersuchung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.14 Protokoll der Zeugenvernehmung von Wilhelm Willinger (Fotograf)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.16 Antrag auf Ergänzung der Voruntersuchung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.17 Antrag auf Ergänzung der Voruntersuchung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.20 Vorlage der Anklageschrift gegen Fritz Kaufmann</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.22 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. Vr XXVI/4093/25, Franz Wetz)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.24 Beschwerde gegen den Beschluss vom 25. Juni 1926</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.25 Beschluss des Oberlandesgerichts Wien (G.Z. Bs. 911/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.26 Vorlage der Anklageschrift nach ordnungsgemässer Stempelung derselben</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-026-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.28 Urteil des Landesgerichtgs für Strafsachen I Wien (G.Z. Vr VI/4093/25 als Schöffengericht; Vorsitz: Czerny)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>16.1 Privatanklage von Karl Kraus gegen Die Stunde (verantw. Red. Fritz Kaufmann) wegen § 24 Pr.G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000016-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>17.4 Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G.Z. U I 223/25, Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000017-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>17.6 Urteil des Strafbezirksgerichts I Wien (G.Z. U I 223/25, Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000017-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.9 Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G.Z. U I 286/25, Richter: Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.10 Urteil des Strafbezirksgerichts I Wien (G.Z. U I 286/25, Richter: Christoph Höflmayr, Verteidiger: Friedrich Schnepp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.16 Berufungsausführung des Privatanklägers</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.20 Brief Samek an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.21 Protokoll der Berufungsverhandlung (Landesgericht für Strafsachen I Wien, G.Z. Bl. XV 176/26, Richter: Franz Gottfried)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.34 Brief Franz Kornheisl (RA in Steyr) an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-034-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.36 Brief Samek an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.39 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. Bl. XV 580/26, Robert Schneeweiß)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>20.6 Urteil des Strafbezirksgerichts I Wien (Karl Adam Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000020-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>20.8 Ausführung der Berufung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000020-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>20.10 Urteil des Landesgerichts für Strafsachen I Wien (G.Z. Bl. XV 905/26, Vorsitz: Franz Gottfried)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000020-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.10 Antrag von Karl Kraus auf Einleitung der Voruntersuchung gegen Emmerich Békessy, Fritz Kaufmann und weitere unbekannte Täter wegen Ehrenbeleidigung [sowie] Antrag auf Vornahme einer Hausdurchsuchung (Landesgericht für Strafsachen I Wien, G.Z. XXVI 7288/25)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.13 Protokoll der Einvernahme Békessys und Kaufmanns</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.15 Vernehmung des Beschuldigten [Protokoll der Einvernahme Békessys]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.16 Vernehmung des Beschuldigten [Protokoll der neuerlichen Einvernahme Kaufmanns]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.18 Brief Samek an das Landesgericht für Strafsachen I Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.19 Antrag auf Abtretung des Aktes an das Strafbezirksgericht I Wien und Antragstellung auf Bestrafung des Beschuldigten gemäß § 30 Pr. G. ferner Vorlage des Aktes an die Staatsanwaltschaft Wien wegen eventuellen Einschreitens nach demselben § (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.23 Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G. Z. U I 14/26, Richter: Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.32 Brief Samek an Strafbezirksgericht I Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-032-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.36 Antrag auf abgesonderte Führung eines Strafverfahrens (Landesgerichts für Strafsachen Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.39 Antrag auf Ablehnung des verhandelnden Richters (Strafbezirksgerichts I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.41 Beschluss der Ratskammer des Landesgerichts für Strafsachen Wien I (Präs. 6705)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-041-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.44 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. U I 224/26, Robert Schneeweiß)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-044-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.48 Beschwerde gegen den Kostenbestimmungsbeschluss vom 31.1.1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-048-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.50 Beschwerde gegen den Beschluss vom 28.3.1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-050-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.51 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. U I 224/26, Ludwig Altmann, Präsident des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-051-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.52 Bitte um Einleitung einer Nichtigkeitsbeschwerde zur Wahrung des Gesetzes (Samek an Generalprokuratur)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-052-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.54 [Urteil] des Obersten Gerichtshofes (G.Z. Os 997/27, Johann Fischbock, Senatspräsident des Obersten Gerichtshofes)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-054-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.55 Beschluss des Strafbezirksgerichts I Wien (G.Z. U I 224/26, Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-055-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>24.1 Privatanklage von Karl Kraus gegen „Die Stunde“ (verantw. Red. Fritz Kaufmann) wegen § 43 und § 24, Pr.G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000024-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>25.3 Protokolle der Zeugenvernehmungen (Strafbezirksgericht I Wien, G.Z. U XII 71/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>25.7 Urteil des Strafbezirksgerichts I Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>25.12 Beschwerde gegen den Beschluss vom 22.2.1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>26.1 Antrag auf Einleitung der Voruntersuchung gegen unbekannte Täter wegen Ehrenbeleidigung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000026-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>27.3 Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, Karl Adam Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>27.11 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. U XII 1761/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>27.16 Beschwerde gegen den Beschluss vom 27. Oktober 1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>27.19 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. U XII 1761/26, Robert Schneeweiß)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>27.20 Brief Samek an RA Eduard Frischauer</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>27.21 Bitte um Einleitung einer Nichtigkeitsbeschwerde zur Wahrung des Gesetzes (an die Generalprokuratur Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>32.4 Antrag auf Kostenbestimmung und Verpflichtung des Privatanklägers zum Ersatz derselben durch Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>32.5 Aufforderung des Landesgerichts für Strafsachen I Wien die Vollmacht des Karl Kraus nachzutragen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>32.6 Vorlage der Vollmacht</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>32.7 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. Vr XXVI 7150/25, Franz Veprek)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>33.1 Zeugenladung des Landesgerichts für Strafsachen Wien I an Karl Kraus (G.Z. Vr XXXI 6195/22)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000033-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>34.16 Urteil des Landesgerichts für Strafsachen I Wien (G.Z. Bl XIV 903/26, Vorsitz: Franz Haller)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.3 Gesuch um Forderungsexekution an das Exekutionsgericht Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.4 Gesuch um Fahrnisexekution an das Exekutionsgericht in Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.11 Gesuch um Forderungsexekution</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.12 Gesuch um Forderungsexekution</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.28 Klage wegen Forderung (Amtsgericht Berlin-Mitte, G.Z. C. 513/32)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>40.3 Anzeige von Samek an die Staatsanwaltschaft beim Straflandesgericht I in Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000040-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>66.1 Antrag auf Einleitung der Voruntersuchung gegen verantw. Red. Eduard Straas wegen Ehrenbeleidigung von Karl Kraus (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000066-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>66.2 Antrag auf Einleitung der Voruntersuchung gegen verantw. Red. Eduard Straas wegen Ehrenbeleidigung von Karl Kraus (Landesgericht in Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000066-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>66.6 Antrag auf Ergänzung der Voruntersuchung (Landesgerichts für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000066-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>66.9 Antrag auf Abtretung an das Strafbezirksgericht I in Wien zu Bestrafung nach § 30 Pr. G. (Landesgerichts für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000066-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>66.12 Antrag auf Kostenbestimmung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000066-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>66.14 Beschwerde gegen den Kostenbestimmungsbeschluss vom 27. April 1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000066-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>66.15 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. U I 56/27/8, Robert Schneeweiß)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000066-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>66.17 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. U I 56/27/8, Robert Schneeweiß)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000066-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>66.18 Brief Samek an Eduard Strass</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000066-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>67.6 Antrag auf Einleitung einer Voruntersuchung und Vornahme einer Hausdurchsuchung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>67.9 Antrag auf Fragestellung an den Beschuldigten (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>67.10 Protokoll [der polizeilichen Einvernahmen von Ludwig Stüpel und Eduard Straas]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>67.11 Vernehmung des Beschuldigten Johann Hannak</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>67.13 Beweisantrag und Erklärung des Privatanklägers (Landesgericht für Strafsachen I Wien, G.Z. Vr XXVI 2366/27/2)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>67.14 Zeugenvernehmung Oskar Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>67.15 Zeugenvernehmung Fritz Brügel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>67.16 Verständigung des Landesgerichts für Strafsachen I Wien (G.Z. Vr XXVI 2366/27/2, Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>67.19 Antrag auf Ergänzung der Voruntersuchung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>67.20 Beweisanträge der klagenden Partei (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>67.25 Antrag auf Einstellung des Verfahrens (Landesgericht für Strafsachen I Wien, G.Z. Vr XXVI 2366/27/2)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>67.26 Beschluss des Landesgericht für Strafsachen I Wien (G.Z. Vr XXVI 2366/27/2, Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-026-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>68.53 Brief Kraus an das Landesgericht für Strafsachen I Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-053-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>68.62 Schriftsatz in Sachen Kraus ./. Kerr (Kraus an das Amtsgericht Charlottenburg, G.Z. B.2 27)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-062-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>75.3 Brief Justizrat Viktor Fraenkl an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000075-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>78.5 Antrag auf Einleitung der Voruntersuchung wegen Ehrenbeleidigung begangen durch die Presse, gleichzeitig Strafanzeige wegen gefährlicher Drohung von Karl Kraus gegen Volkskampf (verantw. Red. Emil Schifter), (Landesgericht für Strafsachen Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>78.7 Beschluss des Landesgerichts für Strafsachen Wien I (G.Z. Vr. XXVI 670/27, Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>78.8 Vernehmung des Beschuldigten Emil Schifter</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>78.11 Antrag auf Abtretung an das Strafbezirksgericht I in Wien zur Bestrafung nach § 30 Pr.G. (Landesgericht für Strafsachen Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>78.12 Beschluss des Landesgerichts für Strafsachen Wien I (G.Z. Vr. XXVI 670/27, Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>78.14 Beschwerde gegen den Beschluss vom 24. März 1927, eventuell Antrag auf Ausscheidung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>78.15 Beschluss des Landesgerichts für Strafsachen Wien I (G.Z. U I 70/27, Robert Schneeweiß)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>78.20 [Beschlussschrift] des Obersten Gerichtshofes (G.Z. Os 1265, 1266/27)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>78.22 Brief Samek an Friedrich Austerlitz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>78.26 Rekurs gegen den Beschluss des Exekutionsgerichts Wien I vom 12. März 1928 (G.Z. 7 E 1732/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-026-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>78.27 Beschluss des Landesgerichts für ZSR Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-027-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>88.16 Beschwerde gegen den Zahlungsauftrag vom 22. Juli 1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000088-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>88.17 Beschluss des Landesgerichts für Strafsachen Wien I (G.Z. Bl XV 763/27, Robert Schneeweiß)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000088-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>91.9 Urteil des Landesgerichts für Strafsachen I Wien (G.Z. Bl. XV 964/27, Vorsitz: Franz Gottfried)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000091-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>92.9 Urteil des Landesgerichts für Strafsachen I Wien (G.Z. Bl. XV 965/27, Vorsitz: Franz Gottfried)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000092-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>100.13 Indizien [Notizen zur Beweisführung]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000100-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>121.8 Bitte um Vertagung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000121-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>121.9 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. 14 Bl 711/29, Artur Blaschke)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000121-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>121.10 Urteil des Landesgerichts in Strafsachen I. Wien (G.Z. 14 Bl 711/29, Vorsitz: Artur Blaschke)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000121-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>127.6 Ausführung der Berufung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000127-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>127.8 Urteil des Landesgerichts in Strafsachen I. Wien (G.Z. 14 Bl. 860/29, Vorsitz: Josef Schaupp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000127-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>127.9 Beschluss des Strafbezirksgerichts I Wien (G.Z. U 187/29, Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000127-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>127.14 Beschwerde gegen den Kostenbestimmungsbeschluss vom 2. September 1929</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000127-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>127.15 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z.U 187/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000127-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.13 Zurücknahme der Berufung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.14 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. 14 Bl 985/29, Josef Schaupp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.15 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. 14 Bl 985/29, Josef Schaupp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>134.47 Ausführung der Berufung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-047-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>134.49 Brief Samek an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-049-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>134.50 Protokoll der Berufungsverhandlung (Landesgericht für Strafsachen I Wien, G.Z. 15a Bl 132/31, Adolf Neuwirth)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-050-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>134.51 Urteil des Landesgerichts in Strafsachen I. Wien (G.Z. 15a Bl 132/31, Vorsitz: Adolf Neuwirth)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-051-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>134.52 Brief Samek an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-052-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>134.53 Brief Samek an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-053-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>134.57 Antrag auf Ergänzung des Protokolls der Berufungsverhandlung vom 21. März 1931 (Landesgericht in Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-057-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>134.59 Mitteilung des Strafbezirksgerichts I Wien (G.Z. 4 U 114/30, Landesgerichtsrat Leopold Wenger)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-059-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>134.60 Protokollsergänzung des Landesgericht für Strafsachen I. Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-060-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>134.66 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. 15a Bl 924/31, Emil Tursky, Präsident des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-066-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>134.71 Strafregisterauszug Karl Kraus &amp; Abschrift „Nach dem Druck“</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-071-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.2 Antrag auf Einleitung von Voruntersuchungen gegen Papp und unbekannte Täter wegen Ehrenbeleidigung begangen durch die Presse (Landesgericht für Strafsachen Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.4 Antrag auf Abtretung eines Aktes an das Strafbezirksgericht I zur Bestrafung des Beschuldigten, Desiderius Papp, nach § 30 Pr.G. (Landesgericht für Strafsachen I Wien G.Z. 26 Vr 6699/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.5 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. 26 Vr 6699/29, Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.7 Verständigung des Landesgerichts für Strafsachen I Wien (G.Z. 26 Vr 6699/29, Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>142.33 Brief Samek an RA Alfred Seiller</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-033-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>147.10 Bitte um Vertagung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000147-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>147.11 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. 14a Bl. 173/31, Josef Schaupp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000147-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>162.8 Bitte um Akteneinsicht</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000162-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>167.6 Klagebeantwortung (eingereicht von Samek beim Landesgericht für Z.R.S. Wien, G.Z. 16 Cg 552/31)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>167.8 Juristische Abhandlung über die Ablehnung einer Nichtigkeitsbeschwerde 1914/1915</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>167.9 Urteil des Landesgerichts für Z.R.S. Wien (G.Z. 16 Cg 552/31, Richter: Franz Biak)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>188.8 Antrag auf Vorerhebungen (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>188.9 Antrag wegen Bekanntgabe des Gegenstandes der Vernehmung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>188.11 Vernehmung des Beschuldigten [Protokoll der Einvernahme Robert Weills]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>188.12 Vernehmung des Beschuldigten [Protokoll der Einvernahme Otto Eibuschitz’]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>188.14 Vernehmung des Beschuldigten [Protokoll der Einvernahme Berta Oberlaender]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>188.15 Vernehmung des Beschuldigten [Protokoll der Einvernahme Richard Hoynigg]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>188.16 Vernehmung des Beschuldigten [Protokoll der Einvernahme Gabriele Schlesinger]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>188.18 Antrag auf Ergänzung der Voruntersuchung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>188.19 Brief Altesse A.G. an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>188.25 Zurücknahme des Antrages auf Ergänzung der Voruntersuchung und Antrag auf Einstellung des Verfahrens, (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>188.26 Beschluss des Landesgerichts für Strafsachen Wien I (G.Z. 26 a Vr 74/34, Robert Meixner)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-026-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>188.29 Rekurs gegen den Zahlungsauftrag des Zentraltax- und Gebührenbemessungsamtes Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-029-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>196.75 Brief RA Felix Gallia an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-075-000.xml"/></linkGrp></event></listEvent></org><org xml:id="pmb37216">
+  <orgName>Kronos Verlag</orgName>
+
+  <orgName type="namensvariante">Kronos Verlags A.G.</orgName>
+
+
+
+<location type="located_in_place">
+  <placeName key="pmb63">XIII., Hietzing</placeName>
+  <geo>48,17547 16,29101</geo>
+  
+  <note type="IDNO" subtype="geonames">http://sws.geonames.org/2776420/</note>
+  
+  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb63</note>
+  
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/63</note>
+  
+  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb63</note>
+  
+</location>
+
+<location type="located_in_place">
+  <placeName key="pmb120">Wipplingerstraße</placeName>
+  <geo>48,213598341107 16,368419109635</geo>
+  
+  <note type="IDNO" subtype="wienwiki">https://pmb.acdh.oeaw.ac.at/entities:Wipplingerstra%C3%9Fe</note>
+  
+  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb120</note>
+  
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/120</note>
+  
+  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb120</note>
+  
+</location>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37216/</idno>
+
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37216</idno>
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>12.8 Urteil des Strafbezirksgerichts I Wien (G.Z. U I 109/25/3, Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000012-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>12.17 Urteil des Landesgerichts für Strafsachen I Wien in der Berufungsverhandlung (G.Z. Bl XV 504/25, Vorsitz: Oberlandesgerichtsrat Max Leopold Ehrenreich)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000012-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>13.7 Antrag auf Einvernehmung bestimmter Personen als Beschuldigte und Zeugen (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>13.8 Protokolle der Zeugeneinvernahmen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.8 Antrag auf weitere Einvernahmen (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.11 Konvolut von Protokollen der Zeugenaussagen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>16.2 Ausdehnung der Privatanklage und Antrag auf Anberaumung einer Hauptverhandlung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000016-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>17.1 Privatanklage von Karl Kraus gegen Die Stunde (verantw. Red. Ernst Ely) wegen § 24 Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000017-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>17.6 Urteil des Strafbezirksgerichts I Wien (G.Z. U I 223/25, Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000017-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>17.8 Zurücknahme der Berufung gegen die Strafe und Vorlage des Kostenverzeichnisses</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000017-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.2 Privatanklage von Karl Kraus gegen Die Stunde (verantw. Red. Fritz Kaufmann) und Anton Kuh wegen Übertretung des § 496 St.G. (Ehrenbeleidigung)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.7 Privatanklage von Karl Kraus gegen Die Stunde (verantw. Red. Fritz Kaufmann) und Anton Kuh wegen Übertretung des § 496 St.G. (Ehrenbeleidigung) begangen durch die Presse</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.38 Beschluss des Strafbezirksgerichts I Wien (G.Z. U I 286/25/10, Karl Adam Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-038-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.40 Gesuch um Fahrnis- und Forderungsexekution (Exekutionsgericht Wien, G.Z. EXV 8659/26, Otto Hauke)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-040-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>20.1 Privatanklage von Karl Kraus gegen Die Stunde (verantw. Red. Fritz Kaufmann) wegen §§ 24, 43 Pr.G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000020-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.46 Bitte um Kostenbestimmung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-046-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.48 Beschwerde gegen den Kostenbestimmungsbeschluss vom 31.1.1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-048-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.49 Beschluss des Strafbezirksgerichts I Wien (G.Z. U I 224/26, Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-049-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.50 Beschwerde gegen den Beschluss vom 28.3.1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-050-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.51 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. U I 224/26, Ludwig Altmann, Präsident des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-051-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.54 [Urteil] des Obersten Gerichtshofes (G.Z. Os 997/27, Johann Fischbock, Senatspräsident des Obersten Gerichtshofes)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-054-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.55 Beschluss des Strafbezirksgerichts I Wien (G.Z. U I 224/26, Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-055-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>24.1 Privatanklage von Karl Kraus gegen „Die Stunde“ (verantw. Red. Fritz Kaufmann) wegen § 43 und § 24, Pr.G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000024-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>25.2 Antrag auf Einleitung von Voruntersuchungen gegen Marc Siegelberg und weitere unbekannte Täter wegen Übertretung des § 45 Urheberrechtsgesetz (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>25.3 Protokolle der Zeugenvernehmungen (Strafbezirksgericht I Wien, G.Z. U XII 71/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>26.1 Antrag auf Einleitung der Voruntersuchung gegen unbekannte Täter wegen Ehrenbeleidigung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000026-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>31.3 Brief Hans Liebstöckl an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000031-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>32.2 Brief Kronos-Verlag an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>32.4 Antrag auf Kostenbestimmung und Verpflichtung des Privatanklägers zum Ersatz derselben durch Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>32.6 Vorlage der Vollmacht</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>32.7 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. Vr XXVI 7150/25, Franz Veprek)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>37.2 Brief Samek an Arbeiter-Zeitung (verantw. Red. Hugo Schulz)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000037-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>40.2 Brief Josef Jellinek an Friedrich Austerlitz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000040-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>41.1 Brief Josef Jellinek an Friedrich Austerlitz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000041-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>41.2 Anzeige von Samek an die Staatsanwaltschaft beim Straflandesgericht I in Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000041-002-000.xml"/></linkGrp></event></listEvent></org><org xml:id="pmb36850">
+  <orgName>Oberlandesgericht Wien</orgName>
+
+  <orgName type="uri_wikipedia">https://de.wikipedia.org/wiki/Oberlandesgericht_Wien</orgName>
+
+
+
+<location type="located_in_place">
+  <placeName key="pmb51">I., Innere Stadt</placeName>
+  <geo>48,20769 16,37049</geo>
+  
+  <note type="IDNO" subtype="geonames">http://sws.geonames.org/2775259/</note>
+  
+  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36789/</note>
+  
+  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb51</note>
+  
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/51</note>
+  
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/36789</note>
+  
+  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/51010/</note>
+  
+  <note type="IDNO">https://sws.geonames.org/2775259/</note>
+  
+  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb51</note>
+  
+</location>
+
+<location type="located_in_place">
+  <placeName key="pmb50">Wien</placeName>
+  <geo>48,2066 16,37341</geo>
+  
+  <note type="IDNO" subtype="geonames">https://sws.geonames.org/2761369/</note>
+  
+  <note type="IDNO" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</note>
+  
+  <note type="IDNO" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</note>
+  
+  <note type="IDNO">https://d-nb.info/gnd/4066009-6</note>
+  
+  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</note>
+  
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/50</note>
+  
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/2316</note>
+  
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/20954</note>
+  
+  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</note>
+  
+  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</note>
+  
+  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</note>
+  
+</location>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36850/</idno>
+
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36850</idno>
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>15.25 Beschluss des Oberlandesgerichts Wien (G.Z. Bs. 911/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.15 Drei juristische Erörterungen betreffend den Unterschied zwischen Schmähung und Beschimpfung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>32.7 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. Vr XXVI 7150/25, Franz Veprek)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>125.122 Rekurs der beklagten Partei gegen den gerichtlichen Beschluss vom 4. November 1932</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-122-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>125.124 Beschluss des Oberlandesgerichts Wien (G.Z. R 823/32, Viktor Hoyer)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-124-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>125.166 Berufungsschrift der klagenden Partei (an das Landesgericht für Z.R.S. Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-166-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>167.11 Berufungsschrift der beklagten Partei (an das Landesgericht für Z.R.S. Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>167.12 Zustellung der Berufungsschrift an den Berufungsgegner (G.Z. 16 Cg 552/31, Franz Biak)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>167.14 Beschluss des Oberlandesgerichts Wien (G.Z. 16 2R 185/32, Alfred Löw)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>167.15 Urteil des Oberlandesgerichts Wien (G.Z. 16 Cg 552/31, Vorsitz: Alfred Löw Richter: Josef Feuchtinger, Theodor Nordegg)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>167.17 Revisionsschrift der klagenden Partei (eingereicht von Otto Gustav Wächter beim Landesgerichts für Z.R.S. Wien, G.Z. 16 Cg 552/31)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>167.19 Revisionsbeantwortung der beklagten Partei (eingereicht von Samek beim Landesgerichts für Z.R.S. Wien, G.Z. 16 Cg 552/31)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>167.21 Urteil des Oberlandesgerichts Wien (G.Z. 16 Cg 552/31, Vorsitz: Hermann Prey, Richter: Anton Roitz, Bruno Jaitner, Gustav Krauss)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-021-000.xml"/></linkGrp></event></listEvent></org></listOrg><listPerson><person xml:id="pmb11988">
   <persName>
       <forename>Karl</forename>
       <surname>Kraus</surname>
@@ -120,13 +325,29 @@
     <date when-iso="1874-04-28">28.04.1874</date>
   
   
-      <settlement key="pmb41660">
-        <placeName type="pref">Jičín</placeName>
+    <settlement key="pmb41660">
+      <placeName type="pref">Jičín</placeName>
+    
+      <placeName type="alternative-name">Gitschin</placeName>
+    
+      <placeName type="alternative-name">Jičín</placeName>
+    
+      <placeName type="legacy-name">Jičín</placeName>
+    
+      <placeName type="legacy-name-merge">Jitschin</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4440310-0</placeName>
+    
+    
+      <location><geo>50,43723 15,35162</geo></location>
+    
+    
+      <idno type="URL">http://sws.geonames.org/3074204/</idno>
       
-        <location><geo>50,43723 15,35162</geo></location>
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/41660</idno>
       
-      </settlement>
-      
+    </settlement>
+    
        
   </birth>  
 
@@ -138,6 +359,29 @@
       <settlement key="pmb50">
         <placeName type="pref">Wien</placeName>
         
+        <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+        
+        <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+        
+        <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+        
+        <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+        
+      
         <location><geo>48,2066 16,37341</geo></location>
       
       </settlement>
@@ -217,6 +461,32 @@
     
 </affiliation>
 
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb60573">Karl Kraus-Gesellschaft</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/60573/</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb37159">Jahoda &amp; Siegel (Druckerei)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37159/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37159</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb87755">Max Goldschmidt (Büro für Zeitungsausschnitte)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/87755/</idno>
+    
+</affiliation>
+
 
 <listEvent>
     
@@ -253,244 +523,5 @@
 
 
 
-</person></listPerson><listOrg><org xml:id="pmb36842">
-  <orgName>Landesgericht für Strafsachen</orgName>
-
-  <orgName type="uri_wikipedia">https://de.wikipedia.org/wiki/Landesgericht_f%C3%BCr_Strafsachen_Wien</orgName>
-
-
-
-<location type="located_in_place">
-  <placeName key="pmb58">VIII., Josefstadt</placeName>
-  <geo>48,21126 16,34706</geo>
-  
-  <note type="IDNO" subtype="geonames">http://sws.geonames.org/2775027/</note>
-  
-  <note type="IDNO" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/15566/</note>
-  
-  <note type="IDNO">https://d-nb.info/gnd/4108158-4</note>
-  
-  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb58</note>
-  
-  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/58</note>
-  
-  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/15566</note>
-  
-  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb58</note>
-  
-</location>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36842/</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36842</idno>
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Urteil des Landesgerichts in Strafsachen I. Wien (G. Z. Bl XV 121/23,
-                    Vorsitz: Rudolf Wessely)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. BI XIV 857/25,
-                    Ludwig Altmann, Präsident des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G.
-                    Z. UI 110/25, Richter: Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000014-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag von Karl Kraus und Richard Lányi auf Einleitung von Voruntersuchungen
-                    gegen unbekannte Täter wegen Vergehens gegen § 44 und 45 des
-                    Urheberrechtsgesetzes (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokolle der Vernehmung von Fritz Kaufmann und Anton Sztranyak</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der Vernehmung von Ferdinand Hofbauer (Klischeefirma)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Ergänzung der Voruntersuchung (Landesgericht für Strafsachen I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beweisantrag der Privatankläger (Landesgericht für Strafsachen I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf weitere Einvernahmen (Landesgericht für Strafsachen I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Ergänzung der Voruntersuchung (Landesgericht für Strafsachen I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Konvolut von Protokollen der Zeugenaussagen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Ergänzung der Voruntersuchung (Landesgericht für Strafsachen I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der Zeugenvernehmung von Wilhelm Willinger(Fotograf)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Ergänzung der Voruntersuchung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Ergänzung der Voruntersuchung (Landesgericht für Strafsachen I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vorlage der Anklageschrift gegen Fritz Kaufmann</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. Vr XXVI/4093/25,
-                    Franz Wetz)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde gegen den Beschluss vom 25.06.1926</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Oberlandesgerichts Wien (G. Z. Bs. 911/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vorlage der Anklageschrift nach ordnungsgemässer Stempelung derselben</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-026-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Landesgerichtgs für Strafsachen I Wien (G. Z. Vr VI/4093/25 als
-                    Schöffengericht; Vorsitz: […] Czerny)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Die Stunde (verantw. Red. Fritz Kaufmann)
-                    wegen § 24 Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000016-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung(Strafbezirksgericht I Wien, G. Z.
-                    UI 223/25, Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000017-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien (G. Z. UI 223/25, Christoph
-                    Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000017-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien (G. Z. UI 286/25, Richter: Christoph
-                    Höflmayr, Verteidiger: Friedrich Schnepp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. Bl. XV 580/26,
-                    Robert Schneeweiß)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien (Karl Adam Fryda, Rat des
-                    Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000020-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Landesgerichts für Strafsachen I Wien (G. Z. Bl. XV 905/26,
-                    Vorsitz: Franz Gottfried)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000020-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag von Karl Kraus auf Einleitung der Voruntersuchung gegen Emmerich
-                    Békessy, Fritz Kaufmann und weitere unbekannte Täter wegen Ehrenbeleidigung
-                    [sowie] Antrag auf Vornahme einer Hausdurchsuchung (Landesgericht für
-                    Strafsachen I Wien, G. Z. XXVI 7288/25)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll [der Einvernahme Békessys und Kaufmanns]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vernehmung des Beschuldigten [Protokoll der Einvernahme Békessys]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vernehmung des Beschuldigten [Protokoll der neuerlichen Einvernahme
-                    Kaufmanns]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Abtretung des Aktes an das Strafbezirksgericht I Wien und
-                    Antragstellung auf Bestrafung des Beschuldigten gemäß § 30 Pr. G. ferner Vorlage
-                    des Aktes an die Staatsanwaltschaft Wien wegen eventuellen Einschreitens nach
-                    demselben § (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G.
-                    Z. UI 14/26, Richter: Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf abgesonderte Führung eines Strafverfahrens (Landesgerichts für
-                    Strafsachen Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Ablehnung des verhandelnden Richters (Strafbezirksgerichts I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss der Ratskammer des Landesgerichts für Strafsachen Wien I (Präs.
-                    6705)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-041-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. UI 224/26, Robert
-                    Schneeweiß)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-044-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde gegen den Kostenbestimmungsbeschluss vom 31.01.1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-048-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde gegen den Beschluss vom 28.03.1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-050-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. UI 224/26, Ludwig
-                    Altmann, Präsident des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-051-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Bitte um] Einleitung einer Nichtigkeitsbeschwerde zur Wahrung des Gesetzes
-                    (Brief Samek an Generalprokuratur)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-052-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Strafbezirksgerichts I Wien (G. Z. UI 224/26, Christoph
-                    Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-055-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen „Die Stunde“ (verantw. Red. Fritz
-                    Kaufmann) wegen § 43 und § 24, Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000024-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokolle der Zeugenvernehmungen (Strafbezirksgericht I Wien, G. Z. U XII
-                    71/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde gegen den Beschluss vom 22.02.1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung der Voruntersuchung gegen unbekannte Täter wegen
-                    Ehrenbeleidigung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000026-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, Karl
-                    Adam Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. U XII
-                    1761/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde gegen den Beschluss vom 27. Oktober 1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. U XII 1761/26,
-                    Robert Schneeweiß)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Bitte] um Einleitung einer Nichtigkeitsbeschwerde zur Wahrung des Gesetzes
-                    (an die Generalprokuratur Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Kostenbestimmung und Verpflichtung des Privatanklägers zum Ersatz
-                    derselben [durch Kraus]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Aufforderung] des Landesgerichts für Strafsachen I Wien die Vollmacht des Karl Kraus nachzutragen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vorlage der Vollmacht</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. Vr XXVI 7150/25,
-                    Franz Veprek)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zeugenladung des Landesgerichts für Strafsachen Wien I an Karl Kraus (G. Z.
-                    Vr XXXI 6195/22)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000033-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Gesuch um Forderungsexekution an das Exekutionsgericht Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Gesuch um Fahrnisexekution an das Exekutionsgericht in Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Gesuch um Forderungsexekution</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Gesuch um Forderungsexekution</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Klage wegen Forderung (Amtsgericht Berlin-Mitte, G. Z. C. 513/32)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung der Voruntersuchung gegen verantw. Red. Eduard Straas wegen Ehrenbeleidigung von Karl Kraus (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000066-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung der Voruntersuchung gegen verantw. Red. Eduard Straas wegen Ehrenbeleidigung von Karl Kraus (Landesgericht in Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000066-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Ergänzung der Voruntersuchung (Landesgerichts für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000066-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Abtretung an das Strafbezirksgericht I in Wien zu Bestrafung nach § 30 Pr. G. (Landesgerichts für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000066-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde gegen den Kostenbestimmungsbeschluss vom 1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000066-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. UI 56/27/8, Robert Schneeweiß)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000066-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. UI 56/27/8, Robert Schneeweiß)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000066-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Eduard Strass</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000066-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung einer Voruntersuchung und Vornahme einer
-                    Hausdurchsuchung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Fragestellung an den Beschuldigten (Landesgericht für Strafsachen
-                    I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll [der polizeilichen Einvernahmen von Ludwig Stüpel und Eduard
-                    Straas]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vernehmung des Beschuldigten [Johann Hannak]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beweisantrag und Erklärung des Privatanklägers (Landesgericht für Strafsachen
-                    I Wien, G. Z. Vr XXVI 2366/27/2)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zeugenvernehmung Oskar Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zeugenvernehmung Fritz Brügel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Verständigung des Landesgerichts für Strafsachen I Wien (G. Z. Vr XXVI
-                    2366/27/2, Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Ergänzung der Voruntersuchung (Landesgericht für Strafsachen I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beweisanträge [der klagenden Partei] (Landesgericht für Strafsachen I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgericht für Strafsachen I Wien (G. Z. Vr XXVI 2366/27/2,
-                    Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-026-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung der Voruntersuchung wegen Ehrenbeleidigung begangen
-                    durch die Presse, gleichzeitig Strafanzeige wegen gefährlicher Drohung von Karl
-                    Kraus gegen Volkskampf (verantw. Red. Emil Schifter), (Landesgericht für
-                    Strafsachen Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen Wien I (G. Z. Vr. XXVI 670/27, Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vernehmung des Beschuldigten [Emil Schifter]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Verständigung des Landesgerichts für Strafsachen Wien I (G. Z. Vr. XXVI 670/27, Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Abtretung an das Strafbezirksgericht I in Wien zur Bestrafung nach § 30 Pr. G. (Landesgericht für Strafsachen Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen Wien I (G. Z. Vr. XXVI 670/27, Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde gegen den Beschluss vom 1927, eventuell Antrag auf
-                    Ausscheidung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen Wien I (G. Z. UI 70/27, Robert Schneeweiß)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Beschlussschrift] des Obersten Gerichtshofes (G. Z. Os 1265,
-                    1266/27)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rekurs gegen den Beschluss des Exekutionsgerichts Wien I vom 1928 (G. Z. 7 E 1732/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-026-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Beschluss] des Landesgerichts für ZSR Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-027-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde gegen den Zahlungsauftrag vom 1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000088-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen Wien I (G. Z. Bl XV 763/27, Robert Schneeweiß)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000088-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Landesgerichts für Strafsachen I Wien (G. Z. Bl. XV 965/27, Vorsitz: Franz Gottfried)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000092-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Indizien [Notizen zur Beweisführung]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000100-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bitte um Vertagung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000121-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>B. [Beschluss] des Landesgerichts für Strafsachen I Wien (G. Z. 14 Bl 711/29,
-                    Artur Blaschke)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000121-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Landesgerichts in Strafsachen I. Wien (G. Z. 14 Bl 711/29,
-                    Vorsitz: Artur Blaschke)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000121-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ausführung der Berufung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000127-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Landesgerichts in Strafsachen I. Wien (G. Z.14 Bl. 860/29,
-                    Vorsitz: Josef Schaupp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000127-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Strafbezirksgerichts I Wien (G. Z.U 187/29, Christoph
-                    Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000127-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde gegen den Kostenbestimmungsbeschluss vom 1929</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000127-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z.U 187/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000127-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zurücknahme der Berufung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>B. [Beschluss] des Landesgerichts für Strafsachen I Wien (G. Z. 14 Bl 985/29,
-                    Josef Schaupp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. 14 Bl 985/29,
-                    Josef Schaupp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Landesgerichts in Strafsachen I. Wien (G. Z. 15a Bl 132/31, Vorsitz: Adolf Neuwirth)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-051-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokollsergänzung des Landesgericht für Strafsachen I. Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-060-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. 15a Bl 132/31, Emil Tursky, Präsident des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-066-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Antrag] auf Einleitung von Voruntersuchungen gegen Papp und unbekannte Täter
-                    wegen Ehrenbeleidigung begangen durch die Presse (Landesgericht für Strafsachen
-                    Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Abtretung eines Aktes an das Strafbezirksgericht I zur Bestrafung
-                    des Beschuldigten, Desiderius Papp, nach § 30 Pr. G. (Landesgericht für
-                    Strafsachen I Wien G. Z. 26 Vr 6699/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. 26 Vr 6699/29,
-                    Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Verständigung des Landesgerichts für Strafsachen I Wien (G. Z. 26 Vr 6699/29,
-                    Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bitte um Vertagung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000147-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. 14a Bl. 173/31,
-                    Josef Schaupp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000147-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bitte um Akteneinsicht</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000162-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Klagebeantwortung (eingereicht von Samek beim Landesgerichts für Z.R.S. Wien,
-                    G. Z. 16 Cg 552/31)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Juristische Abhandlung über die Ablehnung einer Nichtigkeitsbeschwerde
-                    1914/1915]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Landesgerichts für Z.R.S. Wien (G. Z. 16 Cg 552/31, Richter: Franz
-                    Biak)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag wegen Bekanntgabe des Gegenstandes der Vernehmung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vernehmung des Beschuldigten [Protokoll der Einvernahme Robert Weills]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vernehmung des Beschuldigten [Protokoll der Einvernahme Otto Eibuschitzs]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vernehmung des Beschuldigten [Protokoll der Einvernahme Berta Oberlaender]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vernehmung des Beschuldigten [Protokoll der Einvernahme Richard Hoynigg]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vernehmung des Beschuldigten [Protokoll der Einvernahme Gabriele Schlesinger]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zurücknahme des Antrages auf Ergänzung der Voruntersuchung und Antrag auf Einstellung des Verfahrens, (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen Wien I (G. Z. 26 a VI 74/34, Robert Meixner)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-026-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rekurs gegen den Zahlungsauftrag des Zentraltax- und Gebührenbemessungsamtes Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-029-000.xml"/></linkGrp></event></listEvent></org><org xml:id="pmb36850">
-  <orgName>Oberlandesgericht Wien</orgName>
-
-  <orgName type="uri_wikipedia">https://de.wikipedia.org/wiki/Oberlandesgericht_Wien</orgName>
-
-
-
-<location type="located_in_place">
-  <placeName key="pmb51">I., Innere Stadt</placeName>
-  <geo>48,20769 16,37049</geo>
-  
-  <note type="IDNO" subtype="geonames">http://sws.geonames.org/2775259/</note>
-  
-  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36789/</note>
-  
-  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb51</note>
-  
-  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/51</note>
-  
-  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/36789</note>
-  
-  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/51010/</note>
-  
-  <note type="IDNO">https://sws.geonames.org/2775259/</note>
-  
-  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb51</note>
-  
-</location>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36850/</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36850</idno>
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Beschluss des Oberlandesgerichts Wien (G. Z. Bs. 911/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Drei juristische Erörterungen betreffend den Unterschied zwischen Schmähung
-                    und Beschimpfung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. Vr XXVI 7150/25,
-                    Franz Veprek)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rekurs der beklagten Partei gegen den hiergerichtlichen Beschluss vom
-                    1932</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-122-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Oberlandesgerichts Wien (G. Z. R 823/32, Viktor Hoyer)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-124-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufungsschrift der klagenden Partei (an das Landesgericht für Z.R.S.
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-166-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufungsschrift der beklagten Partei (an das Landesgericht für Z.R.S.
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zustellung der Berufungsschrift an den Berufungsgegner (G. Z. 16 Cg 552/31,
-                    Franz Biak)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Anberaumung einer Tagsatzung (Oberlandesgericht Wien, G. Z. 16 2R 185/32,
-                    Alfred Löw)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Oberlandesgerichts Wien (G. Z. 16 2R 185/32, Alfred
-                    Löw)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Oberlandesgerichts Wien (G. Z. 16 Cg 552/31, Vorsitz: Alfred Löw
-                    Richter: Josef Feuchtinger, Theodor Nordegg)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Revisionsschrift der klagenden Partei (eingereicht von Otto Gustav Wächter
-                    beim Landesgerichts für Z.R.S. Wien, G. Z. 16 Cg 552/31)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Revisionsbeantwortung der beklagten Partei (eingereicht von Samek beim
-                    Landesgerichts für Z.R.S. Wien, G. Z. 16 Cg 552/31)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Oberlandesgerichts Wien (G. Z. 16 Cg 552/31, Vorsitz: Hermann
-                    Prey, Richter: Anton Roitz, Bruno Jaitner, Gustav Krauss)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-021-000.xml"/></linkGrp></event></listEvent></org><org xml:id="pmb37216">
-  <orgName>Kronos Verlag</orgName>
-
-  <orgName type="namensvariante">Kronos Verlags A.G.</orgName>
-
-
-
-<location type="located_in_place">
-  <placeName key="pmb63">XIII., Hietzing</placeName>
-  <geo>48,17547 16,29101</geo>
-  
-  <note type="IDNO" subtype="geonames">http://sws.geonames.org/2776420/</note>
-  
-  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb63</note>
-  
-  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/63</note>
-  
-  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb63</note>
-  
-</location>
-
-<location type="located_in_place">
-  <placeName key="pmb120">Wipplingerstraße</placeName>
-  <geo>48,213598341107 16,368419109635</geo>
-  
-  <note type="IDNO" subtype="wienwiki">https://pmb.acdh.oeaw.ac.at/entities:Wipplingerstra%C3%9Fe</note>
-  
-  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb120</note>
-  
-  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/120</note>
-  
-  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb120</note>
-  
-</location>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37216/</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37216</idno>
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Antrag auf Einvernehmung [bestimmter Personen] als Beschuldigte und Zeugen
-                    (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokolle der Zeugeneinvernahmen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf weitere Einvernahmen (Landesgericht für Strafsachen I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Konvolut von Protokollen der Zeugenaussagen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ausdehnung der Privatanklage und Antrag auf Anberaumung einer
-                    Hauptverhandlung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000016-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Die Stunde (verantw. Red. Ernst Ely) wegen
-                    § 24 Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000017-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien (G. Z. UI 223/25, Christoph
-                    Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000017-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zurücknahme der Berufung gegen die Strafe und Vorlage des
-                    Kostenverzeichnisses</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000017-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Die Stunde (verantw. Red. Robert
-                    Klebinder) wegen § 24 Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000018-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Strafbezirksgerichts I Wien (G. Z. UI 286/25/10, Karl Adam
-                    Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-038-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Die Stunde (verantw. Red. Fritz Kaufmann)
-                    wegen §§ 24, 43 Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000020-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bitte um Kostenbestimmung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-046-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde gegen den Kostenbestimmungsbeschluss vom 31.01.1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-048-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Strafbezirksgerichts I Wien (G. Z. UI 224/26, Christoph
-                    Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-049-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde gegen den Beschluss vom 28.03.1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-050-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. UI 224/26, Ludwig
-                    Altmann, Präsident des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-051-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Strafbezirksgerichts I Wien (G. Z. UI 224/26, Christoph
-                    Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-055-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen „Die Stunde“ (verantw. Red. Fritz
-                    Kaufmann) wegen § 43 und § 24, Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000024-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung von Voruntersuchungen gegen Marc Siegelberg und weitere
-                    unbekannte Täter wegen Übertretung des § 45 Urheberrechtsgesetz
-                    (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokolle der Zeugenvernehmungen (Strafbezirksgericht I Wien, G. Z. U XII
-                    71/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung der Voruntersuchung gegen unbekannte Täter wegen
-                    Ehrenbeleidigung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000026-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Hans Liebstöckl an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000031-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Kostenbestimmung und Verpflichtung des Privatanklägers zum Ersatz
-                    derselben [durch Kraus]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vorlage der Vollmacht</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. Vr XXVI 7150/25,
-                    Franz Veprek)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Josef Jellinek an Friedrich Austerlitz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000040-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Anzeige von Samek an die Staatsanwaltschaft beim Straflandesgericht I in
-                    Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000041-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Originalmappe Oskar Samek - Akt 41</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000041-002-002.xml"/></linkGrp></event></listEvent></org></listOrg></back></text>
+</person></listPerson></back></text>
 </TEI>

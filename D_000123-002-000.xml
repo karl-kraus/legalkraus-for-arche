@@ -1,153 +1,333 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000123-002-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-001-001.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-004-001.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>[Berichtigungstext]</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000123-002-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3356</idno>
-                <idno type="ID" subtype="transkribus">472706</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000123">Karl
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000123-002-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-001-001.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-003-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>123.2 Berichtigungstext</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000123-002-000.xml</idno>
+            <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3356 </idno>
+            <idno type="ID" subtype="transkribus">472706</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000123">Karl
                     Kraus ca. Fränkischer Kurier</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000123-002-000-wit01" facs="D_000123-002-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date type="sortDate" notAfter-iso="1929-05-18" subtype="received">18. Mai
-                    1929</date>
-                <date/>
-            </creation>
-            <laUsage>
-                <language ident="de">Deutsch</language>
-            </laUsage>
-            <textClass/>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change type="intertexts" when-iso="2021-04-01" who="#JK"/>
-            <change type="typography" when-iso="2021-04-01" who="#JK"/>
-            <change type="references" when-iso="2021-04-01" who="#JK"/>
-            <change type="structure" when-iso="2021-04-01" who="#JK"/>
-            <change when-iso="2020-10-08T13:10:58.83Z" who="#IB">created by API</change>
-            <change when-iso="2020-10-08T13:12:01.569Z" who="#IB">Replaced Text with Transcription
-                of Transkribus Document 472706.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile type="further-witnesses"><surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000232_37.jpg" source="krausonline"/>
-        </surface></facsimile>
-    <facsimile xml:id="D_000123-002-000-facs001">
-        <surfaceGrp xml:id="D_000123-002-000-facs001-l001">
-            <surface xml:id="D_000123-002-000-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000234_30.jpg" source="krausonline"/>
-            </surface>
-            <surface xml:id="D_000123-002-000-facs001-l001-p002" type="verso">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000235_33.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="D_000123-002-000-facs001-l001-p001" n="1"/>
-            <p xml:id="uuid_1043d7a0-babc-4df8-a44e-856e2905c956">
-                <lb xml:id="uuid_d7825fbc-6170-45e7-825f-bc617065e74f"/>Sie schreiben: „<quote xml:id="uuid_20d31068-f49e-4a16-9aaa-c11ca2909112" source="#53537">Zur
-                    Charakterisierung dieses <rs type="work" ref="#pmb50712">Stückes</rs> geben <lb xml:id="uuid_d7328514-a2cc-4ecc-b285-14a2ccbecc0c"/>wir folgende <hi rend="underlined">Stelle</hi> aus dem <rs type="work" ref="#pmb50712">Stücke</rs> wieder. (Monolog eines tuberkulö<lb xml:id="uuid_633b5329-eaa8-431d-bb53-29eaa8031de3" break="no"/>sen
-                    Kindes.)</quote>“ Es ist unwahr, dass Sie eine Stelle wiedergeben. Wahr <lb xml:id="uuid_b716f3f4-b325-476f-96f3-f4b325576fe3"/>ist, dass Sie mehrere Teile
-                so wiedergeben, als ob diese die Stelle <lb xml:id="uuid_ad0727ec-e425-49ed-8727-ece42579edbf"/>bildeten. Es ist unwahr,
-                dass der Monolog des tuberkulösen Kindes <lb xml:id="uuid_3fb29961-351d-4646-b299-61351d2646e7"/>mit den Versen beginnt: </p>
-            <p xml:id="uuid_54b0cf6e-06d3-426b-ad82-5f3b667595fa">
-                <lb xml:id="uuid_228be504-5403-44ab-8be5-045403e4aba4"/>Der <rs type="person" ref="#pmb2513">Kaiser</rs> hat meinem Vater befohlen, <lb xml:id="uuid_c2388e9c-8680-4f8c-b88e-9c86808f8c4a"/>früher zu sterben, als er
-                hat müssen. <lb xml:id="uuid_8d15a672-899c-49a7-95a6-72899c09a713"/>Das hat der
-                Mutter das Herz zerrissen … <lb xml:id="uuid_87ecbdef-9495-4530-acbd-ef9495c5303c"/>Die Schwester war als Hilfskraft im Feld <lb xml:id="uuid_72bd2e6c-02fb-4638-bd2e-6c02fb2638c0"/>und schickte manchmal auch
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000123-002-000-wit01" facs="#D_000123-002-000-facs001"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000123-002-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date type="sortDate" notAfter-iso="1929-05-18" subtype="received">18. Mai 1929</date>
+            <date/>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000123-002-000-wit01">Berichtigung (jur.)</term>
+            </keywords>
+            <classCode source="D_000123-002-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.BRG">D.J.BRG</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-04-01" who="#JK"/>
+         <change type="typography" when-iso="2021-04-01" who="#JK"/>
+         <change type="references" when-iso="2021-04-01" who="#JK"/>
+         <change type="structure" when-iso="2021-04-01" who="#JK"/>
+         <change when-iso="2020-10-08T13:10:58.83Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T13:12:01.569Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 472706. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556547/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <facsimile xml:id="D_000123-002-000-facs001">
+      <surfaceGrp xml:id="D_000123-002-000-facs001-l001">
+         <surface xml:id="D_000123-002-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556549/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000123-002-000-facs001-l001-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556550/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000123-002-000_p001" facs="#D_000123-002-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_22f1ca58-00d6-4ce7-9f0d-9ef009afcc9d">
+            <lb xml:id="uuid_238d3fde-6ff3-4d44-9a5a-264af9f21220"/>Sie schreiben: „<quote xml:id="uuid_ded2dbf7-26d6-4574-ae2a-eb531e55df53" source="#53537">Zur
+                    Charakterisierung dieses <rs type="work" ref="#pmb50712" subtype="pmb">Stückes</rs>
+                        geben<lb xml:id="uuid_3792b42f-ea9a-44d6-9dbc-aa11512873ff"/>wir folgende
+                        <hi rend="underlined">Stelle</hi> aus dem <rs type="work" ref="#pmb50712" subtype="pmb">Stücke</rs> wieder. (Monolog eines tuberkulö<lb xml:id="uuid_8cd691e3-c899-4720-9bef-5dba6bae20a4" break="no"/>sen Kindes.)</quote>“ Es ist unwahr, dass Sie eine Stelle wiedergeben. Wahr<lb xml:id="uuid_cc717c2c-a9ef-4217-acb3-9376e0c3d5dd"/>ist, dass Sie mehrere Teile
+                so wiedergeben, als ob diese die Stelle<lb xml:id="uuid_ee79c5e2-8b98-4966-a429-c6d2fd9c98c3"/>bildeten. Es ist unwahr,
+                dass der Monolog des tuberkulösen Kindes<lb xml:id="uuid_49ce38ff-096d-4d29-a1cf-29c4d17a7765"/>mit den Versen beginnt: </p>
+         <p xml:id="uuid_56ec10cc-5b42-4d4d-a513-f22708892d97">
+            <lb xml:id="uuid_87756786-fd6d-4f82-a019-dbb3a7474e2d"/>Der <rs type="person" ref="#pmb2513">Kaiser</rs> hat meinem Vater befohlen,<lb xml:id="uuid_64252293-f6f2-47cc-88e4-8c9661d06007"/>früher zu sterben, als er
+                hat müssen.<lb xml:id="uuid_453c9037-6500-4b67-9e36-4161f47efdaa"/>Das hat der
+                Mutter das Herz zerrissen …<lb xml:id="uuid_7ade727c-8528-4b08-a9ac-e8a6419fdd18"/>Die Schwester war als Hilfskraft im Feld<lb xml:id="uuid_b72a8825-17f1-48ea-9747-2b243e2b9c17"/>und schickte manchmal auch
                 Geld. </p>
-            <p xml:id="uuid_e770a088-822b-4c85-8333-080f792017b5">
-                <lb xml:id="uuid_8fff3f11-d828-421c-bf3f-11d828b21c1b"/>Wahr ist, dass der Monolog
+         <p xml:id="uuid_45202ffb-d64b-4dbc-b488-9ef06dd0115d">
+            <lb xml:id="uuid_420b28fd-cdd3-445e-a65e-5ef66880e5d4"/>Wahr ist, dass der Monolog
                 mit den Versen beginnt: </p>
-            <p xml:id="uuid_03c7abf8-ebf1-44db-8caf-8921438b418f">
-                <lb xml:id="uuid_453dbddb-1c97-4870-bdbd-db1c97687044"/><quote xml:id="uuid_1f838c3a-c454-4639-91db-2e88988db5df" source="#50712">Der <rs type="person" ref="#pmb2513">Kaiser</rs> hat meinem Vater befohlen, <lb xml:id="uuid_e17e8314-ffe8-4758-be83-14ffe8875841"/>früher zu sterben, als
-                    er hat müssen. <lb xml:id="uuid_0a89debd-57a2-4e1c-89de-bd57a24e1cb9"/>Das hat
-                    der Mutter das Herz zerrissen. <lb xml:id="uuid_4e122ca5-bbd4-4031-922c-a5bbd42031a8"/>Drum hat auch sie
-                    früher, als sie hat müssen, <lb xml:id="uuid_eb46665c-8809-4168-8666-5c880981680a"/>ins Gras gebissen. <lb xml:id="uuid_29df11e3-8b31-43fe-9f11-e38b3183fe9f"/>Sie wusste nicht, wo
-                    Brot zu holen. <lb xml:id="uuid_30e13ad1-b0c0-4d1e-a13a-d1b0c03d1e0d"/>Der
-                    Bruder brachte ein Andenken mit, <lb xml:id="uuid_d22ea8a5-a213-446c-aea8-a5a213e46c45"/>er sagte, es war aus
-                    Ekrasit, <lb xml:id="uuid_53780723-2f54-48cc-b807-232f5498cc42"/>das hat den
-                    andern Bruder zerrissen, <lb xml:id="uuid_2f8631ec-4496-4c7d-8631-ec4496dc7d91"/>weil er hat damit spielen müssen. <lb xml:id="uuid_2523edde-615f-4588-a3ed-de615f158808"/>Die Schwester war als
-                    Hilfskraft im Feld <lb xml:id="uuid_7dc8132e-947e-4021-8813-2e947e602134"/>und
-                    schickte manchmal auch Geld.</quote>
-            </p>
-            <p xml:id="uuid_4c2db853-a251-4b8e-80fd-d56598e72047">
-                <lb xml:id="uuid_2ab6b8cb-8c76-4cae-b6b8-cb8c763cae3e"/>Sie schreiben: „<quote xml:id="uuid_5dc628c0-3d47-47e9-be78-9ab379e5afaf" source="#53537"><hi rend="underlined">Es reihen sich Verse an</hi>, <hi rend="underlined">die so
-                        obszön sind</hi>, <lb xml:id="uuid_d132e605-bfe1-4c50-b2e6-05bfe1bc50d5"/>dass es unmöglich ist, sie im ‚<rs type="institution" ref="#pmb37336">Fränkischen
-                        Kurier</rs>‘ wiederzugeben.</quote>“ <lb xml:id="uuid_22c76012-bec0-4483-8760-12bec0d483c5"/>Die Behauptung, dass sich
-                solche Verse anreihen, ist unwahr. </p>
-            <p xml:id="uuid_9d3f3a1b-bfa8-4885-b29e-a3a8ef36094a">
-                <lb xml:id="uuid_48d16ff4-e34e-44b3-916f-f4e34e24b3c3"/>Wahr ist, dass sich an den
-                letzten der von Ihnen zitierten <lb xml:id="uuid_2b065601-1b1d-496f-8656-011b1d196fd3"/>Verse die folgenden
+         <p xml:id="uuid_16d3c02d-040f-4740-ab9e-c9af20ecb249">
+            <lb xml:id="uuid_55ed555c-b016-4a98-a772-42c35dc7f8f6"/><quote xml:id="uuid_f0257f82-4f5a-41ae-b608-5e04fbcb0cf1" source="#50712">Der <rs type="person" ref="#pmb2513">Kaiser</rs> hat meinem Vater befohlen,<lb xml:id="uuid_bb98ab60-1216-4b43-af97-4cdc73cb8b93"/>früher zu sterben, als
+                    er hat müssen.<lb xml:id="uuid_7ec85c76-644b-42ff-8e3c-2f031d06fa1c"/>Das hat
+                    der Mutter das Herz zerrissen.<lb xml:id="uuid_b7462985-20b4-4612-9cb5-a4a449ef6f6a"/>Drum hat auch sie
+                    früher, als sie hat müssen,<lb xml:id="uuid_8fa6464d-c00c-4291-b64f-521a721145e4"/>ins Gras gebissen.<lb xml:id="uuid_1a6e7bd4-cd27-4a38-afc4-8515f7b2b71f"/>Sie wusste nicht, wo
+                    Brot zu holen.<lb xml:id="uuid_fbe6ba00-1957-44d1-9b21-ad72cd7f1c43"/>Der Bruder
+                    brachte ein Andenken mit,<lb xml:id="uuid_50c32d9f-e0e1-4f5d-b4fb-33e4306c7641"/>er sagte, es war aus Ekrasit,<lb xml:id="uuid_52cd49e8-0bd0-4ea5-ab4f-52f9f8ea1411"/>das hat den andern
+                    Bruder zerrissen,<lb xml:id="uuid_97bcef67-08d1-4ad6-ad7f-e109363be802"/>weil er
+                    hat damit spielen müssen.<lb xml:id="uuid_027fd813-e8d0-4d51-9b67-adfc9a41f2ab"/>Die Schwester war als Hilfskraft im Feld<lb xml:id="uuid_afb9d68a-eade-4558-a966-e9d1aae48075"/>und schickte manchmal
+                    auch Geld.</quote>
+         </p>
+         <p xml:id="uuid_67197769-d18f-40a2-ac59-d9eb4e041f6e">
+            <lb xml:id="uuid_4dc2d836-85e5-4ee0-92a0-fa1242e37900"/>Sie schreiben: „<quote xml:id="uuid_11d9945f-0219-4eb5-8a2d-383670ac60a7" source="#53537"><hi rend="underlined">Es reihen sich Verse an</hi>, <hi rend="underlined">die so
+                  obszön sind</hi>,<lb xml:id="uuid_22bc9cb2-a5b0-4d0c-ba20-0fd8aa7b4401"/>dass es
+               unmöglich ist, sie im ‚<rs type="institution" ref="#pmb37336">Fränkischen Kurier</rs>‘
+               wiederzugeben.</quote>“<lb xml:id="uuid_fdbd9ba4-01ef-4c98-a723-c45a9a10be76"/>Die
+            Behauptung, dass sich solche Verse anreihen, ist unwahr. </p>
+         <p xml:id="uuid_86b8cc12-0c8b-45e5-95f2-01a26e949aec">
+            <lb xml:id="uuid_ab3f7bd0-3a2e-438b-a3f6-c7887d3cf7ed"/>Wahr ist, dass sich an den
+                letzten der von Ihnen zitierten<lb xml:id="uuid_8d141cd7-3c0a-43a8-860a-69dd15da6512"/>Verse die folgenden
                 anreihen: </p>
-            <p xml:id="uuid_6895631e-d398-4101-b08e-6a7099753a5e">
-                <lb xml:id="uuid_801ef5a4-9586-4351-9ef5-a495864351e1"/><quote xml:id="uuid_b6dfa6c1-98e5-4aae-9859-b9e228bdcf9b" source="#50712">Sie haben es,
-                    sagt er, bunt getrieben, <lb xml:id="uuid_e95ef541-d585-438a-9ef5-41d585d38abc"/>doch war es eine grosse Zeit. <lb xml:id="uuid_73047d03-9fa3-48d3-847d-039fa398d36d"/>Da bin ich im Wachstum
-                    zurückgeblieben. <lb xml:id="uuid_97f46548-414e-4503-b465-48414eb50302"/>Und
-                    habe kein Winterkleid, <lb xml:id="uuid_32a6219d-6491-43cf-a621-9d649153cfa5"/>Auch fehlt es an Kohlen, <lb xml:id="uuid_b8069665-e6b7-48aa-8696-65e6b7a8aa97"/>den Feind, sagt der
-                    Katechet, soll der Teufel holen, <lb xml:id="uuid_1c3b2cd5-5432-47e2-bb2c-d55432b7e276"/>denn er, sagt er, hat es
-                    auf dem Gewissen. <lb xml:id="uuid_ccf9c095-fc7e-4218-b9c0-95fc7e2218e6"/>Doch
-                    wenn wir auch sitzen bei einer Kerzen, <lb xml:id="uuid_a37c75ab-9aae-491c-bc75-ab9aae091c20"/>so haben wir doch alle
-                    den <rs type="person" ref="#pmb2513">Kaiser</rs> im Herzen. <lb xml:id="uuid_7f765c04-7930-4539-b65c-047930d5391b"/>Bald komm ich fort aus
+         <p xml:id="uuid_ab6312b9-3311-4334-ae87-46f9da4e05b7">
+            <lb xml:id="uuid_6478e431-3c03-42b0-a686-176ad982a034"/><quote xml:id="uuid_4d031163-7506-4a14-9fe6-341dbd813d57" source="#50712">Sie haben es,
+                    sagt er, bunt getrieben,<lb xml:id="uuid_c977424e-58fd-4f61-bcdd-a28e2ef7eb3f"/>doch war es eine grosse Zeit.<lb xml:id="uuid_502ef064-11fe-40de-aaa6-533e4c5e3667"/>Da bin ich im Wachstum
+                        zurückgeblieben.<lb xml:id="uuid_88e71a58-46eb-4105-9839-09a76b309c9f"/>Und
+                    habe kein Winterkleid,<lb xml:id="uuid_c5b3f2ac-77e4-40c4-b553-02cce986e76c"/>Auch fehlt es an Kohlen,<lb xml:id="uuid_03182a50-9b84-43b8-84a6-b57126ba83cf"/>den Feind, sagt der Katechet, soll der Teufel holen,<lb xml:id="uuid_d90b103a-73e4-4657-9b48-ce741e0fac31"/>denn er, sagt er, hat es
+                    auf dem Gewissen.<lb xml:id="uuid_96464116-ad16-4e4b-8e64-bb128a28158c"/>Doch
+                    wenn wir auch sitzen bei einer Kerzen,<lb xml:id="uuid_9dc53f8a-4988-4311-9255-1ddeab508747"/>so haben wir doch alle
+                    den <rs type="person" ref="#pmb2513">Kaiser</rs> im Herzen.<lb xml:id="uuid_ccc2abb2-9768-49a7-8da9-9b037d897d43"/>Bald komm ich fort aus
                     diesen Finsternissen.</quote>
-            </p>
-            <pb facs="D_000123-002-000-facs001-l001-p002" n="2"/>
-            <p xml:id="uuid_b0549acc-ac72-4a67-9246-0658d0cd42f7">
-                <lb xml:id="uuid_47999955-e59a-489c-9999-55e59aa89c25"/><note type="paratext" resp="law-firm">Betr. <rs type="person" ref="#pmb11988">Kraus</rs> – <rs type="institution" ref="#pmb37336">Fränkischer Kurier</rs> II <lb xml:id="uuid_2fdcc9c3-4f1a-4546-9cc9-c34f1a754682"/>exp. am 18. Mai
-                    1929.</note>
-            </p>
-        </body>
-    <back><listPerson><person xml:id="pmb11988">
+         </p>
+         <pb xml:id="D_000123-002-000_p002" facs="#D_000123-002-000-facs001-l001-p002" n="2"/>
+         <p xml:id="uuid_d4bb8257-ab18-4445-ab05-f02f41daa304">
+            <lb xml:id="uuid_e585c8f8-78e9-4e4a-a136-935478c7483c"/><note type="paratext" resp="law-firm">Betr. <rs type="person" ref="#pmb11988">Kraus</rs> – <rs type="institution" ref="#pmb37336">Fränkischer Kurier</rs> II<lb xml:id="uuid_56240fd8-3e7e-4cd7-87ca-95a8bbcd4a59"/>exp. am 18. Mai 1929.
+                </note>
+         </p>
+      </body>
+   <back><listPerson><person xml:id="pmb2513">
+  <persName>
+      
+      <surname>Franz Joseph I. von Österreich-Ungarn</surname>
+  </persName>
+
+  <persName type="legacy-name-merge">Franz Joseph I., None</persName>
+
+
+  <birth>
+    <date when-iso="1830-08-18">18.08.1830</date>
+  
+  
+    <settlement key="pmb50">
+      <placeName type="pref">Wien</placeName>
+    
+      <placeName type="alternative-name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Bécs</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Land Wien</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Vídeň</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Wenia</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Beč</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Vindobona (Wien)</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-name-merge">Vindobona</placeName>
+    
+      <placeName type="alternative-name">Vienna</placeName>
+    
+      <placeName type="legacy-name-merge">Wien?</placeName>
+    
+      <placeName type="alternative-name">Vienna</placeName>
+    
+      <placeName type="legacy-name-merge">Vienna</placeName>
+    
+      <placeName type="legacy-name-merge">Vienna</placeName>
+    
+    
+      <location><geo>48,2066 16,37341</geo></location>
+    
+    
+      <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+      
+      <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+      
+      <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+      
+      <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+      
+      <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+      
+      <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+      
+      <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+      
+      <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+      
+    </settlement>
+    
+       
+  </birth>  
+
+
+  <death>
+    <date when-iso="1916-11-21">21.11.1916</date>
+      
+      
+      <settlement key="pmb50">
+        <placeName type="pref">Wien</placeName>
+        
+        <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+        
+        <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+        
+        <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+        
+        <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+        
+      
+        <location><geo>48,2066 16,37341</geo></location>
+      
+      </settlement>
+      
+      
+  </death>
+
+
+  <sex value="male"/>
+
+
+  <occupation key="167">Regent/Regentin &gt;&gt; Kaiser/Kaiserin</occupation>
+
+
+  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118535013</idno>
+
+  <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2513</idno>
+
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2513</idno>
+
+  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15150</idno>
+
+  <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2513</idno>
+
+
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>26.1 Antrag auf Einleitung der Voruntersuchung gegen unbekannte Täter wegen Ehrenbeleidigung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000026-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>68.44 Schriftsatz in Sachen Kraus ./. Kerr (Alfred Kerr an das Amtsgericht Charlottenburg, G.Z. B.2 27)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-044-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>68.62 Schriftsatz in Sachen Kraus ./. Kerr (Kraus an das Amtsgericht Charlottenburg, G.Z. B.2 27)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-062-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>68.74 Schriftsatz in Sachen Kraus ./. Kerr (Alfred Kerr an das Amtsgericht Charlottenburg, G.Z. B.2 27)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-074-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>97.2 Brief Samek an Die Stunde (verantw. Red. Marc Siegelberg)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000097-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>123.1 Brief Samek an Fränkischen Kurier (verantw. Schriftleiter)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>123.2 Berichtigungstext</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>123.5 Berichtigungstext</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.124 Konzept der Strafanzeige resp. Klage von Karl Kraus gegen Gegen-Angriff (verantw. Red. Friedrich Kassowitz) gemäß §§ 1 und 2 des Gesetzes über den Schutz der Ehre (Kreisstrafgericht Prag)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-124-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>196.60 Brief RA Felix Gallia an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-060-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>196.61 Übersetzung der Durchführung des Wahrheitsbeweises resp. des entschuldbaren Irrtums von Josef Schramek und Hugo Sonnenschein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-061-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>196.84 Äußerung des Privatklägers zum Schriftsatz der Angeklagten vom 18. Februar 1936</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-084-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>196.90 Protokoll der Zeugeneinvernahme von Karl Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-090-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>196.190 Abschrift des Pamphlets „Kraus oder die Kunst der Gesinnung“ von Hugo Sonnenschein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-190-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb11988">
   <persName>
       <forename>Karl</forename>
       <surname>Kraus</surname>
@@ -160,13 +340,29 @@
     <date when-iso="1874-04-28">28.04.1874</date>
   
   
-      <settlement key="pmb41660">
-        <placeName type="pref">Jičín</placeName>
+    <settlement key="pmb41660">
+      <placeName type="pref">Jičín</placeName>
+    
+      <placeName type="alternative-name">Gitschin</placeName>
+    
+      <placeName type="alternative-name">Jičín</placeName>
+    
+      <placeName type="legacy-name">Jičín</placeName>
+    
+      <placeName type="legacy-name-merge">Jitschin</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4440310-0</placeName>
+    
+    
+      <location><geo>50,43723 15,35162</geo></location>
+    
+    
+      <idno type="URL">http://sws.geonames.org/3074204/</idno>
       
-        <location><geo>50,43723 15,35162</geo></location>
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/41660</idno>
       
-      </settlement>
-      
+    </settlement>
+    
        
   </birth>  
 
@@ -178,6 +374,29 @@
       <settlement key="pmb50">
         <placeName type="pref">Wien</placeName>
         
+        <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+        
+        <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+        
+        <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+        
+        <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+        
+      
         <location><geo>48,2066 16,37341</geo></location>
       
       </settlement>
@@ -257,6 +476,32 @@
     
 </affiliation>
 
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb60573">Karl Kraus-Gesellschaft</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/60573/</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb37159">Jahoda &amp; Siegel (Druckerei)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37159/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37159</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb87755">Max Goldschmidt (Büro für Zeitungsausschnitte)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/87755/</idno>
+    
+</affiliation>
+
 
 <listEvent>
     
@@ -293,77 +538,7 @@
 
 
 
-</person><person xml:id="pmb2513">
-  <persName>
-      
-      <surname>Franz Joseph I. von Österreich-Ungarn</surname>
-  </persName>
-
-  <persName type="legacy-name-merge">Franz Joseph I., None</persName>
-
-
-  <birth>
-    <date when-iso="1830-08-18">18.08.1830</date>
-  
-  
-      <settlement key="pmb50">
-        <placeName type="pref">Wien</placeName>
-      
-        <location><geo>48,2066 16,37341</geo></location>
-      
-      </settlement>
-      
-       
-  </birth>  
-
-
-  <death>
-    <date when-iso="1916-11-21">21.11.1916</date>
-      
-      
-      <settlement key="pmb50">
-        <placeName type="pref">Wien</placeName>
-        
-        <location><geo>48,2066 16,37341</geo></location>
-      
-      </settlement>
-      
-      
-  </death>
-
-
-  <sex value="male"/>
-
-
-  <occupation key="167">Regent/Regentin &gt;&gt; Kaiser/Kaiserin</occupation>
-
-
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118535013</idno>
-
-  <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2513</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2513</idno>
-
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15150</idno>
-
-  <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2513</idno>
-
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung der Voruntersuchung gegen unbekannte Täter wegen
-                    Ehrenbeleidigung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000026-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in Sachen Kraus ./. Kerr (Alfred Kerr an das Amtsgericht
-                    Charlottenburg, G. Z. B.2 27)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-074-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Berichtigungstext]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Berichtigungstext]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Übersetzung der Durchführung des Wahrheitsbeweises resp. des entschuldbaren
-                    Irrtums [von Josef Schramek und Hugo Sonnenschein]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-061-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Protokoll der Zeugeneinvernahme von Karl Kraus]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-090-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Abschrift des Pamphlets „Kraus oder die Kunst der Gesinnung“ von Hugo
-                    Sonnenschein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-190-000.xml"/></linkGrp></event></listEvent></person></listPerson><listOrg><org xml:id="pmb37336">
+</person></listPerson><listOrg><org xml:id="pmb37336">
   <orgName>Fränkischer Kurier</orgName>
 
 
@@ -400,12 +575,32 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Privatanklage und Strafantrag von Karl Kraus gegen Fränkischer Kurier
-                    (verantw. Red. Oskar Franz Schardt) wegen Beleidigung (Amtsgericht
-                    Nürnberg)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Erklärung von RA Karl Stauder und RA Rudolf Stauder an das Amtsgericht
-                    München</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in der Privatklagsache Karl Kraus gegen Oscar Franz Schardt (RA
-                    Philipp Loewenfeld an das Amtsgericht Nürnberg, Priv. Klage-Verz.
-                    458/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Klagszurücknahme Justizrat Max Süssheim und RA Rosenfelder gegen Karl Kraus
-                    wegen Forderung (Amtsgericht Nürnberg G.R. V 899/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-048-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Obersten Landesgericht München (Rev. Reg. I A No. 37/1929,
-                    Richter: Fiedler, Wunderer und Weber)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-050-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Berichtigungstext]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Berichtigungstext]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-005-000.xml"/></linkGrp></event></listEvent></org></listOrg></back></text>
+<listEvent><event type="mentioned"><p>erwähnt in <title>99.6 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.8 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.9 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.12 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.15 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.1 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.2 Privatanklage und Strafantrag von Karl Kraus gegen Fränkischer Kurier (verantw. Red. Oskar Franz Schardt) wegen Beleidigung (Amtsgericht Nürnberg)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.3 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.4 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.5 Erklärung von RA Karl Stauder und RA Rudolf Stauder an das Amtsgericht München</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.6 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.7 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.8 Brief RA Philipp Loewenfeld an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.9 Brief RA Philipp Loewenfeld an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.10 Schriftsatz in der Privatklagsache Karl Kraus gegen Oscar Franz Schardt (RA Philipp Loewenfeld an das Amtsgericht Nürnberg, Priv.-Klage-Verz. 458/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.11 Postkarte RA Philipp Loewenfeld an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.12 Brief Samek an Justizrat Max Süssheim</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.13 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.14 Brief RA Philipp Loewenfeld an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.15 Erklärung von RA Karl Stauder und RA Rudolf Stauder an das Amtsgericht Nürnberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.17 Brief RA Philipp Loewenfeld an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.18 Brief Samek an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.19 Brief RA Max Hirschberg an Justizrat Max Süssheim</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.20 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.21 Brief RA Philipp Loewenfeld an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.22 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.23 Brief RA Philipp Loewenfeld an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.24 Urteil des Amtsgerichts Nürnberg (Pr.-Reg. Nr. 458/28, Richter: […] Enders)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.25 Privatanklage und Strafantrag von Karl Kraus gegen Ernst Hohenstatter wegen Beleidigung (Amtsgericht München)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.27 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-027-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.28 Brief Samek an Justizrat Max Süssheim</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.29 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-029-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.30 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-030-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.33 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-033-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.34 Brief RA Max Hirschberg an Justizrat Max Süssheim</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-034-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.35 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-035-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.35 Brief Samek an Justizrat Max Süssheim</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-035-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.36 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.37 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-037-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.38 Postkarte RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-038-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.39 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.40 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-040-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.41 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-041-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.42 Brief RA Max Hirschberg I.V. Philipp Loewenfeld an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-042-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.43 Postkarte K.F. Koehler (Kommissionsgeschäft Leipzig) an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-043-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.44 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-044-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.45 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-045-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.47 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-047-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.48 Klagezurücknahme Justizrat Max Süssheim und RA Rosenfelder gegen Karl Kraus wegen Forderung (Amtsgericht Nürnberg G.R. V 899/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-048-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.50 Urteil des Obersten Landesgericht München (Rev. Reg. I A No. 37/1929, Richter: Fiedler, Wunderer und Weber)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-050-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.51 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-051-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.52 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-052-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.53 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-053-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.54 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-054-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.55 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-055-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>123.1 Brief Samek an Fränkischen Kurier (verantw. Schriftleiter)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>123.2 Berichtigungstext</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>123.3 Brief Fränkischer Kurier an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>123.4 Brief Samek an Verlag des Fränkischen Kurier</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>123.5 Berichtigungstext</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>145.1 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000145-001-000.xml"/></linkGrp></event></listEvent></org></listOrg><listBibl><bibl xml:id="pmb50712">
+  <title type="main">Traumstück</title>
+
+
+
+  <author key="person__11988">Kraus, Karl</author>
+
+
+
+
+<date notBefore-iso="1923-01-01" when-iso="1923-07-02" notAfter-iso="1923-12-31">1923</date>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/50712/</idno>
+
+
+<note type="collections">
+  
+  <bibl type="collections" n="5">legalkraus</bibl>
+  
+</note>
+
+
+
+  <note type="work_kind">Drama</note>
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>10.2 Brief Verlag Die Fackel an Direktion der Kammerspiele</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000010-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>10.4 Brief Verlag Die Fackel an Direktion der Robert-Bühnen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000010-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>10.5 Brief Direktion der Robert-Bühnen an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000010-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>10.6 Brief Samek an die Direktion der Robert-Bühnen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000010-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>10.7 Brief Samek an Siegfried Geyer</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000010-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>10.8 Klage von Karl Kraus gegen Eugen Robert wegen 9716.100.- K.s.Ng. (Bezirksgericht Josefstadt, G.Z. C X 891/24)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000010-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>68.62 Schriftsatz in Sachen Kraus ./. Kerr (Kraus an das Amtsgericht Charlottenburg, G.Z. B.2 27)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-062-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>72.15 Brief Hans Loewe an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000072-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.2 Brief Samek an Heinrich Fischer</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.3 Brief Samek an Völkischer Beobachter (verantw. Red. Wilhelm Weiss)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.4 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.6 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.7 Privatanklage und Strafantrag von Karl Kraus gegen Völkischer Beobachter (verantw. Red. Wilhelm Weiss) wegen Beleidigung (Amtsgericht München)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.8 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.9 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.12 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.13 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.14 Beschluss des Amtsgerichts München, Abt. Strafgericht</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.15 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.17 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.21 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.22 Urteil des Amtsgerichts München, Abteilung Strafgericht (Pr.-Reg. AV 33/28, Richter: Amtsgerichtspräsident Albert Frank)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.24 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.2 Privatanklage und Strafantrag von Karl Kraus gegen Fränkischer Kurier (verantw. Red. Oskar Franz Schardt) wegen Beleidigung (Amtsgericht Nürnberg)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.15 Erklärung von RA Karl Stauder und RA Rudolf Stauder an das Amtsgericht Nürnberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.24 Urteil des Amtsgerichts Nürnberg (Pr.-Reg. Nr. 458/28, Richter: […] Enders)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.25 Privatanklage und Strafantrag von Karl Kraus gegen Ernst Hohenstatter wegen Beleidigung (Amtsgericht München)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>103.50 Urteil des Obersten Landesgericht München (Rev. Reg. I A No. 37/1929, Richter: Fiedler, Wunderer und Weber)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-050-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>123.1 Brief Samek an Fränkischen Kurier (verantw. Schriftleiter)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>123.2 Berichtigungstext</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>123.5 Berichtigungstext</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>134.1 Privatklage von Paul Amadeus Pisk gegen Karl Kraus wegen Ehrenbeleidigung (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>134.22 Schriftsatz zur Vorbereitung der Hauptverhandlung (Samek an das Strafbezirksgericht I Wien, G.Z. 4 U 1095/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>134.32 Ergänzende Sachverhaltsdarstellung des Privatanklägers mit Stellung von Anträgen (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-032-000.xml"/></linkGrp></event></listEvent></bibl></listBibl></back></text>
 </TEI>

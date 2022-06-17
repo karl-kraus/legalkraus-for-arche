@@ -1,190 +1,109 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000134-002-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-001-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-003-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Zeitungsartikel aus: Arbeiter-Zeitung</title>
-                <editor ref="#pmbIL">Isabel Langkabel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000134-002-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3684</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000134">Paul
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-003-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-001-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000134-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>134.2 Zeitungsartikel aus: Arbeiter-Zeitung</title>
+            <editor ref="#pmbIL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000134-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3684</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000134" type="collection">Paul
                     Amadeus Pisk ca. Karl Kraus</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000134-002-000-wit01" facs="#D_000134-002-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date type="sortDate" when-iso="1929-06-09" subtype="produced">9. Juni 1929</date>
-            </creation>
-            <langUsage>
-                <language ident="de">Deutsch</language>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term>Zeitungsartikel</term>
-                </keywords>
-            </textClass>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change type="intertexts" when-iso="2021-08-24" who="#IL"/>
-            <change type="header_facsimile" when-iso="2021-08-30" who="#IL"/>
-            <change type="structure" when-iso="2021-07-27" who="#IL"/>
-            <change type="references" when-iso="2021-08-03" who="#IL"/>
-            <change type="typography" when-iso="2021-08-24" who="#IL"/>
-            <change when-iso="2020-10-08T13:45:47.903Z" who="#IB">created by API</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000134-002-000-facs001">
-        <surfaceGrp xml:id="D_000134-002-000-facs001-l001">
-            <surface xml:id="D_000134-002-000-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000018_47.jpg" source="krausonline"/>
-            </surface>
-            <surface xml:id="D_000134-002-000-facs001-l001-p002" type="verso">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000019_40.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <div xml:id="uuid_c27a9d40-5898-4a73-ba9d-4058989a7333" part="N" org="uniform" sample="complete">
-            <p xml:id="uuid_7c8fb9de-bd5a-4ed6-8fb9-debd5a6ed62d">
-                <hi rend="bold">Kunst und Wissen.</hi>
-                <hi rend="bold">Vorgelesene Operetten. Zum Offenbach-Zyklus von Karl Kraus.</hi>
-            </p>
-            <p xml:id="uuid_50b644d2-b7e5-4791-b644-d2b7e5d791c6">Karl Kraus hat zum 110. Geburtstag
-                Jacques Offenbachs einen Operettenzyklus angekündigt, die Vorlesung von acht
-                Operetten an sieben Abenden. Wenn sich der Vortragende auf musikalisches Gebiet
-                begibt, hat er das Recht darauf, daß sein künstlerisches Vorhaben vor allem vom
-                musikalischen Standpunkt aus betrachtet werde. Bevor aber diese Besprechung erfolgt,
-                sei mir eine persönliche Bemerkung gestattet. Um die Operettenvorlesungen würdigen
-                zu können, habe ich mir zu vier Vorlesungen – das waren „Pariser Leben“, „Die
-                Briganten“, „Die Großherzogin von Gerolstein“ und „Blaubart“ – Karten gekauft und
-                mir damit, wie jeder andre, das Recht des Hörens, das ja für eine Berichterstattung
-                notwendig ist, gesichert. Dienstliche Verpﬂichtungen hielten mich ab, auch die
-                andern Abende zu besuchen, so daß ihre Besprechung einer späteren Gelegenheit
-                vorbehalten bleiben muß. Im Höﬂingslied des Grafen Oskar aus dem „Blaubart“ fügte
-                nun der Vortragende am fünften Abend andern aktuellen Zeitstrophen eine an, die das
-                Schweigen der gesamten Presse gegenüber Kraus zum Inhalt hat. Wenn er in den Vorwurf
-                auch die Arbeiter-Zeitung einbezieht, so entfernt er sich damit von der Wahrheit.
-                Seine Bücher, Schriften und Vorträge sind stets, der Bedeutung des Autors gemäß,
-                gewürdigt worden, wenn sich für eine Tageszeitung Anlaß dazu bot. Eine musikalische
-                Kritik der Operettenvorlesungen ist allerdings bis jetzt noch nicht erschienen; der
-                angekündigte Zyklus war zu ihr eine erwünschte Gelegenheit. Um so erstaunlicher ist
-                es, daß sie der Vortragende in einer verlesenen Bemerkung vorwegnahm, die er
-                unmittelbar an die erwähnte Zeitstrophe anreihte: Ein Vertreter des „Zentralorgans“,
-                ein „Schlieferl“ – das bin nämlich ich – sei im Saale anwesend und werde den Lesern
-                klarmachen, daß Kraus musikalisch nicht genüge. Diese Beschimpfung, mit der sich
-                nicht die Kritik, sondern das Gericht zu beschäftigen hat, kann mich weder davon
-                abhalten, meine Meinung offen auszusprechen, noch dazu veranlassen, sie in
-                irgendeinem Punkte zu ändern. Kraus weiß genau, warum er auf seine musikalischen
-                Mängel hinweist. Der Musiker hört schon nach wenigen Takten, daß dem Vortragenden
-                die Fähigkeit fehlt, Melos und Rhythmus durch seinen Gesang auszudrücken. Die
-                Begleitung zu dem Sprechgesang ist holperiges Klavierspiel, das Georg Knepler hinter
-                einem Wandschirm besorgt. So ist der rein musikalische Eindruck sehr dürftig. Nun
-                ist Offenbach nicht nur Meister der Karikatur und des Witzes, sondern vor allem ein
-                großer Musiker. Er hat seinen Melodien eine ganz bestimmte formale und klangliche
-                Gestalt gege</p>
-            <p xml:id="uuid_9c43428b-466b-4b01-8342-8b466b9b0175">ben, die zu bewahren, <hi rend="spaced">genau</hi> zu bewahren, <hi rend="spaced">vor</hi>
-                <hi rend="spaced">allem</hi> Aufgabe jeder Offenbach-Erneuerung sein muß. Offenbach
-                schreibt für Orchester, verschiedene Singstimmen, Chor und Ensemble. Jede Note steht
-                an ihrem richtigen Platz, jedes Instrument ist durch seinen Klang für die
-                musikalische Wirkung unentbehrlich, ebenso die Szene, ohne die jede dramatische
-                Musik fast unverständlich wirkt. Daß Kraus gegen den Kitsch und den Flitterkram der
-                Operette kämpft, daß er bemüht ist, nur ihre künstlerische Essenz zu geben, erkennt
-                jeder geistige Mensch freudig an. Daß er jedoch durch die Verunstaltung der Musik,
-                die er ihrer eigentlichen Ausdrucksmittel beraubt, dem wichtigsten künstlerischen
-                Element der Offenbach-Operette nicht gerecht wird, darf nicht übersehen werden.
-                Sicherlich ist es eine beträchtliche artistische Leistung des Vortragenden, die
-                verschiedenen singenden Figuren auseinanderzuhalten und fast immer verständlich zu
-                bleiben, obwohl bei ihm von einer Technik des musikalischen Vortrags in keiner
-                Beziehung gesprochen werden kann – eine Leistung, die etwa der Vorlesung eines
-                Bühnendramas durch eine Person vergleichbar wäre. Dadurch wird das Staunen und die
-                Bewunderung der Hörer erregt, ihre Aufmerksamkeit aber ausschließlich auf den
-                Vortragenden gerichtet und vom musikalischen Kunstwerk selbst abgezogen. Das
-                Experiment ist sicherlich ungemein anregend, hat aber mit der <hi rend="spaced">Musik</hi>, wie sie der Komponist formte, nichts zu tun. Der Schwerpunkt
-                verschiebt sich bei Kraus vom Musikalischen zum Literarischen. Dafür spricht auch,
-                daß die rein lyrischen Stellen, die gerade Offenbachs Kunst am stärksten enthüllen,
-                gegenüber den meisterhaft vorgetragenen Couplets fast unbeachtet bleiben. </p>
-            <p xml:id="uuid_2d398f8b-cc66-43cb-b98f-8bcc6613cb25">Es kommt Kraus in der Tat gar
-                nicht auf die Musik an. So fehlen in dem Zyklus die musikalisch wertvollsten Werke
-                Offenbachs: „Orpheus in der Unterwelt“ und „Die schöne Helena“. Dem Satiriker Kraus
-                liegen nur die Texte nahe, die Offenbach seinen Melodien unterlegt hat. <hi rend="spaced">Meilhac</hi> und <hi rend="spaced">Ha</hi>
-                <hi rend="spaced">lévy</hi> und wie die andern Satiriker des dritten Kaiserreiches
-                heißen mögen, verhöhnten Gesellschaft und Scheinkultur ihrer Epoche. Das war neben
-                der Musik das große Geheimnis der Wirkung dieser Operetten. Kraus überträgt nun die
-                Satire auf unsere Zeit. Er ändert ihr Objekt und so ist jetzt in den
-                Offenbach-Couplets von Bekessy, Schober, Kerr, Lippowitz und – nach dem Geschmack
-                des Autors in einem Atem – auch von der Arbeiter-Zeitung, dem „Krupnik-Organ“, wie
-                er sie schmäht, und von einzelnen Sozialdemokraten die Rede. Wir sind gegen
-                Beschimpfungen, wie wir ja von allen Seiten gewöhnt sind, immer gleichgültig gewesen
-                und sind nicht so empfindlich, diese Aufzählung durch Verschweigen unseres Namens
-                unvollständig zu lassen. Es ist klar, daß Kraus die geradezu elementare Wirkung auf
-                sein Publikum als Schriftsteller durch Polemik und Satire erzielt, deren Höhepunkt
-                diese neuen Zeitstrophen bilden. Er hat neben den Couplets die Sprache der
-                Prosadialoge </p>
-            <p xml:id="uuid_07b53aa0-a450-451f-b53a-a0a450951f85">unvergleichlich ausgefeilt, so daß
-                man ähnlich wie von Buchdramen hier von Buchoperetten sprechen könnte, deren
-                Würdigung eigentlich nicht dem Musiker, sondern dem Literaturfachmann zustehen
-                würde. Der Zyklus müßte richtiger nach Meilhac, Halévy und Millaud benannt werden.
-                Offenbachs Musik ist und bleibt lebendig, aber nur im Orchester und auf der Bühne,
-                für die er sie geschrieben hat, nicht am Vorlesetisch, wo Offenbach von Karl Kraus
-                verdrängt wird. Dr. Paul A. Pisk. </p>
-            <p xml:id="uuid_5216d71e-7973-48e7-96d7-1e797378e788">[…] A. bedeutet
-                überraschenderweise Amadeus, während der vorgesetzte musikalische Fachmann – für den
-                der Jokele wegen des größeren Stiefels vorangeschickt wurde – mehr durch den
-                erlauchten Zunamen die Kapazität verbürgt. Jenem war es also an der Wiege gesungen
-                worden. Ursprünglich der Musik bestimmt, widmete er sich später der Sozialdemokratie
-                und schrieb eine „Wohnbaukantate“. Er ging zwar bei Schönberg in die Schule, sollte
-                sich aber bald auf eigene Füße stellen, so daß die Fachkreise jene starke Eigenart
-                anerkannten, die der Richtung eines Atonello zuneigt […]</p>
-            <p xml:id="uuid_bcf2dd2c-205e-42b1-b2dd-2c205e12b112">[…] Es ist unwahr, daß ich eine
-                „Wohnbaukantate“ schrieb, wahr ist, daß ich keine „Wohnbaukantate“ schrieb. Wien, am
-                31. August 1929.</p>
-            <p xml:id="uuid_53a8d3f2-b5f5-455c-a8d3-f2b5f5455c33">Dr. Paul A. Pisk</p>
-        </div>
-    <back/></text>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000134-002-000-facs001" xml:id="D_000134-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000134-002-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.D">Druck</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-06-09">9. Juni 1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000134-002-000-wit01">Zeitungsartikel</term>
+            </keywords>
+            <classCode source="D_000134-002-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.P.ZTA">D.P.ZTA</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" type="intertexts" when-iso="2021-08-24" who="#IL"/>
+         <change status="draft" type="header_facsimile" when-iso="2021-08-30" who="#IL"/>
+         <change status="draft" type="structure" when-iso="2021-07-27" who="#IL"/>
+         <change status="draft" type="references" when-iso="2021-08-03" who="#IL"/>
+         <change status="draft" type="typography" when-iso="2021-08-24" who="#IL"/>
+         <change status="draft" when-iso="2020-10-08T13:45:47.903Z" who="#IB">created by
+                API</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000134-002-000-facs001">
+      <surfaceGrp xml:id="D_000134-002-000-facs001-l001">
+         <surface type="recto" xml:id="D_000134-002-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558246/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000134-002-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558247/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

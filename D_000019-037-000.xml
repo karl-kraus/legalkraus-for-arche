@@ -1,127 +1,140 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000019-037-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-033-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-038-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Antrag auf Kostenbestimmung</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthyanystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000019-037-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/1783</idno>
-                <idno type="ID" subtype="transkribus">178501</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000019">Karl Kraus ca. Fritz Kaufmann und Anton Kuh</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000019-037-000-wit01" facs="D_000019-037-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation> <date type="sortDate" when-iso="1926-08-19" subtype="produced">19. August 1926</date> 
-            </creation>
-            <langUsage> <language ident="de">Deutsch</language> </langUsage>
-            <textClass>
-                <keywords>
-                    <term>Antrag</term>
-                </keywords>
-                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.J.ANT</classCode>
-            </textClass>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-02-05T11:49:29.791Z" who="#IB">created by API</change>
-            <change when-iso="2020-02-05T12:14:49.49Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-05T12:14:50.834Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-05T12:14:52.913Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-05T12:14:54.729Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-05T12:14:56.169Z" who="#JM">Checked Images Wienbibliothek</change>
-        <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of Transkribus Document 178501.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000219_4.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541234/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-1/019_022/00000219.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000221_3.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541236/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-1/019_022/00000221.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000222_5.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541237/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-1/019_022/00000222.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000223_2.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541238/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-1/019_022/00000223.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000224_4.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541239/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-1/019_022/00000224.jpg" source="scans"/>
-        </surface>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="" n="1"/>
-            <lb xml:id="uuid_bc0a5d52-e343-4019-8a5d-52e343901957"/>28. Juni 6
-<lb xml:id="uuid_96b41707-3d99-42a2-b417-073d9972a206"/>An den
-<lb xml:id="uuid_62e9f865-7d53-47db-a9f8-657d53e7db7c"/>Betr: Kraus – Kuh Kaufmann
-<lb xml:id="uuid_d9570fd5-fb5a-404c-970f-d5fb5ab04c47"/>Verlag der „Fackel“
-<lb xml:id="uuid_9b932f72-ff63-4e83-932f-72ff639e835a"/>Wien
-<lb xml:id="uuid_4ed70a30-fda4-431e-970a-30fda4431e2e"/>Hintere Zollamtsstr. 3
-<lb xml:id="uuid_33d57de5-9096-4a29-957d-e59096fa298e"/>In der Strafsache gegen Anton Kuh und Dr. Kaufmann findet
-<lb xml:id="uuid_6d6b40c3-a1ee-4df6-ab40-c3a1eeedf67c"/>die Verhandlung über die Berufung gegen das Urteil des Bezirksgerichtes
-<lb xml:id="uuid_4ce0f48d-b35d-47b3-a0f4-8db35d17b37b"/>II am 13. August 1926 vormittags 12 Uhr vor dem Landesgerichte f. Strafs.
-<lb xml:id="uuid_914ce130-d292-4936-8ce1-30d292b936de"/>Wien I. Verhandlungssaal VIII statt. Das Erscheinen des Herrn Kraus ist
-<lb xml:id="uuid_530f4aa8-4839-4282-8f4a-a848397282fd"/>nicht erforderlich.
-<lb xml:id="uuid_c4432d41-a77d-4b55-832d-41a77d1b556e"/>Hochachtungsvoll
-<pb facs="" n="2"/>
-            <lb xml:id="uuid_b3426df0-dd03-4def-826d-f0dd03fdef2f"/>Betr. Kraus – Kuh. Kaufmann
-<lb xml:id="uuid_a389d2f9-d23d-43ad-89d2-f9d23d33ad7c"/>expediert am 30. Juni 1926.
-</body>
-    <back/></text>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-038-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-036-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000019-037-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>19.37 Antrag auf Kostenbestimmung</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000019-037-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1783</idno>
+            <idno subtype="transkribus" type="ID">178501</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000019" type="collection">Karl
+                    Kraus ca. Fritz Kaufmann und Anton Kuh</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000019-037-000-facs001" xml:id="D_000019-037-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000019-037-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1926-08-19">19. August 1926
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000019-037-000-wit01">Antrag</term>
+            </keywords>
+            <classCode source="D_000019-037-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.ANT">D.J.ANT</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header-facsimile" when-iso="2022-01-13" who="#JK" status="draft"/>
+         <change when-iso="2020-02-05T11:49:29.791Z" who="#IB" status="draft">created by
+                API</change>
+         <change when-iso="2020-02-05T12:14:49.49Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+         <change when-iso="2020-02-05T12:14:50.834Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+         <change when-iso="2020-02-05T12:14:52.913Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+         <change when-iso="2020-02-05T12:14:54.729Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+         <change when-iso="2020-02-05T12:14:56.169Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB" status="draft">Replaced Text with
+                Transcription of Transkribus Document 178501. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000019-037-000-facs001">
+      <surfaceGrp xml:id="D_000019-037-000-facs001-l001">
+         <surface type="recto" xml:id="D_000019-037-000-facs001-l001-p001">
+            
+            <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541234/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000019-037-000-facs001-l001-p002">
+            
+            <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541237/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000019-037-000-facs001-l002">
+         <surface type="recto" xml:id="D_000019-037-000-facs001-l002-p003">
+            
+            <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541238/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000019-037-000-facs001-l002-p004">
+            
+            <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541239/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000019-037-000-facs001-l003">
+         <surface type="recto" xml:id="D_000019-037-000-facs001-l003-p005">
+            
+            <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541236/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

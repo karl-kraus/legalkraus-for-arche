@@ -1,150 +1,110 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000046-001-001.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000046-001-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000046-002-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Nyilatkozat (Ungarischer Originaltext)</title>
-                <editor ref=""/>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000046-001-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/</idno>
-                <idno type="ID" subtype="transkribus">194721</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000046">Korrespondenz mit Karl Holländer betr. das Vorleben Emmerich Békessys</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000046-001-001-wit01" facs=""/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation><date type="sortDate" subtype="produced" when-iso=""/></creation>
-            <langUsage><language ident="de">Deutsch</language></langUsage>
-            <textClass/>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-02-11T09:17:51.618Z" who="#IB">created by API</change>
-            <change when-iso="2020-02-11T09:24:18.286Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-11T09:24:19.738Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-11T09:24:21.336Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-11T09:24:23.729Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-11T09:24:24.923Z" who="#JM">Checked Images Wienbibliothek</change>
-        <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of Transkribus Document 194721.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000191_13.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548875/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-2/036_046/00000191.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000192_12.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548876/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-2/036_046/00000192.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000195_10.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548879/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-2/036_046/00000195.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000197_13.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548881/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-2/036_046/00000197.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000199_12.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548883/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-2/036_046/00000199.jpg" source="scans"/>
-        </surface>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="" n="1"/>
-            <lb xml:id="uuid_424250b5-8d6e-44be-8250-b58d6ef4be35"/>Uebersetzung aus dem
-<lb xml:id="uuid_6c417862-c578-4bf4-8178-62c578cbf458"/>Ungarischen:
-<lb xml:id="uuid_6a9a2513-c452-4ca0-9a25-13c452cca0eb"/>Dr. Tibor Lévai,
-<lb xml:id="uuid_6b1c0cb2-282a-4022-9c0c-b2282a50221e"/>Advokat,
-<lb xml:id="uuid_dc3cc454-dea4-45ae-bcc4-54dea495ae57"/>Budapest, VI.
-<lb xml:id="uuid_ada3ac2e-7d79-4788-a3ac-2e7d792788b9"/>Podmaniczky gasse 18.–
-<lb xml:id="uuid_cc7fb950-2624-4554-bfb9-502624555469"/>Erklärung:
-<lb xml:id="uuid_117d54f1-fd75-4501-bd54-f1fd759501b4"/>Auf Wunsch des Herrn Emmerich Török gebe ich am heu-
-<lb xml:id="uuid_c4f8e400-cf61-4732-b8e4-00cf61b7328a"/>tigen Tage folgende Erklärung ab und bin bereit die-
-<lb xml:id="uuid_1e899548-243f-4ea2-8995-48243f1ea2bc"/>se vor jeder Behörde zu bestätigen.
-<lb xml:id="uuid_a48b2fb7-7770-4845-8b2f-b7777008457d"/>Im Jahre 1915 habe ich beim gewesenen
-<lb xml:id="uuid_7296471c-4f4a-46c3-9647-1c4f4a26c30e"/>4. Berg-Artillerie Regiment gedient und dort von mei-
-<lb xml:id="uuid_3dedddb9-8d09-4fe3-addd-b98d098fe3a9"/>nen zahlreichen freiwilligen Kollegen, so von Holländer
-<lb xml:id="uuid_9b481f77-3ec7-4308-881f-773ec7f30869"/>Demény usw. gehört, dass Emmerich Békessy der ebenfalls
-<lb xml:id="uuid_c3a03094-ed9f-40f8-a030-94ed9f00f826"/>als Freiwilliger einrückte beim Regiment sich von
-<lb xml:id="uuid_4cded29b-4d74-4124-9ed2-9b4d74812430"/>dem mit ihm dienenden Holländer einen grösseren Be-
-<lb xml:id="uuid_c7549c00-72c7-4bff-949c-0072c76bfffa"/>trag entliehen hat. Da er seine Schuld nicht bezahlen
-<lb xml:id="uuid_528ad2bc-f891-40a3-8ad2-bcf89160a3a4"/>konnte, wollte er Holländer gewaltsam, angeblich mit
-<lb xml:id="uuid_fd45e264-3b50-47b2-85e2-643b50d7b2ad"/>Bedrohung seines Lebens dazu zwingen, dass er ihm den
-<lb xml:id="uuid_b28cce2b-4b2b-457a-8cce-2b4b2b857a2a"/>Schuldschein zurückgebe. –
-<lb xml:id="uuid_6cfa7fcd-15f5-40a0-ba7f-cd15f5d0a04b"/>Es wusste ein jeder und sie werden
-<lb xml:id="uuid_293bd653-8880-4ec2-bbd6-5388804ec2e5"/>es gewiss auch heute bestätigen können und bestätige
-<lb xml:id="uuid_c1fa734f-dff9-413e-ba73-4fdff9513eb7"/>auch ich es, dass er gegen meine freiwilligen Kollegen
-<lb xml:id="uuid_b99d84e7-f5b2-47ab-9d84-e7f5b207ab5d"/>fortwährend feindlich gesinnt war und seine älteren
-<lb xml:id="uuid_ad0a1802-7486-40f0-8a18-027486c0f01d"/>Kollegen, um sich bei den Offizieren einzuschmeicheln
-<pb facs="" n="2"/>
-            <lb xml:id="uuid_fd0e561b-5b17-4b68-8e56-1b5b17ab6849"/>fortwährend grundlos verklagte. –
-<lb xml:id="uuid_8bbc91ad-781c-4052-bc91-ad781ca05220"/>Bei meiner Erklärung bewegt mich nicht, dass
-<lb xml:id="uuid_fa86927d-a61c-41a9-8692-7da61c71a9c8"/>er auch mich verfolgte, denn ich habe die entsprechende
-<lb xml:id="uuid_ea27876c-2ace-4dd4-a787-6c2ace5dd499"/>Genugtuung, die in dem bestand, dass mein noch nicht lang
-<lb xml:id="uuid_36d26852-0d7f-4c56-9268-520d7f2c5646"/>verstorbener Onkel Georg Wittemberg, Husarenoberst, der
-<lb xml:id="uuid_7f0c22b7-a9a3-4068-8c22-b7a9a3d068b5"/>die Zierde des Offiziers-Korps war, als auch der Vorstand
-<lb xml:id="uuid_403c2d3f-1619-46a4-bc2d-3f1619e6a4cc"/>einer Abteilung im Honvedministerium die Gewaltherrschaft
-<lb xml:id="uuid_b2328c40-b633-4847-b28c-40b6339847b7"/>und sein unkollegiales Vorgehen bei dem Kommando meines
-<lb xml:id="uuid_489e1e8e-a17b-45f9-9e1e-8ea17b35f910"/>Regimentes zum Gegenstand einer Beschwerde machte. –
-<lb xml:id="uuid_c47caac6-9a00-4a80-bcaa-c69a00da802d"/>Ich habe auch davon gehört, dass vor seinen
-<lb xml:id="uuid_0028106f-0cf1-411a-a810-6f0cf1a11a9f"/>Abgehen auf dem Kriegsschauplatz aus der Affair Holländer
-<lb xml:id="uuid_9e3febc2-95f7-4771-bfeb-c295f757711b"/>ein Verfahren gegen ihn eingeleitet wurde und nur die in
-<lb xml:id="uuid_c4d757c5-a3a3-4ec2-9757-c5a3a31ec21c"/>der Affaire vertretenen Offiziere könnten es sagen, was man
-<lb xml:id="uuid_05f8aba9-9183-48ed-b8ab-a9918368ed49"/>gegen ihn feststellte und inwiefern sie die obdargestellten
-<lb xml:id="uuid_0defede7-9101-4945-afed-e7910169453a"/>und damals sehr verbreiteten Nachrichten festgestellt haben.
-<lb xml:id="uuid_e8b584b6-cb8b-480f-b584-b6cb8b180f1f"/>Budapest, den 9. Dezember 1921.
-<lb xml:id="uuid_0419872d-0cb8-4589-9987-2d0cb8b58922"/>Dr. Tibor Lévai m.p.
-<lb xml:id="uuid_c39c59ab-f4ff-456a-9c59-abf4fff56a7c"/>Podmaniczkygasse 18. –
-</body>
-    <back/></text>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000046-002-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000046-001-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000046-001-001.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>46.1 Nyilatkozat (Ungarischer Originaltext)</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000046-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/</idno>
+            <idno subtype="transkribus" type="ID">194721</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000046" type="collection">Korrespondenz mit Karl Holländer betr. das Vorleben Emmerich Békessys</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="none" xml:id="D_000046-001-001-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000046-001-001-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date/>
+         </creation>
+         <langUsage>
+            <language ident="hu">Ungarisch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000046-001-001-wit01">Erklärung (jur.)</term>
+            </keywords>
+            <classCode source="D_000046-001-001-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.ERK">D.J.ERK</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-02-11T09:17:51.618Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-11T09:24:18.286Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-02-11T09:24:19.738Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-02-11T09:24:21.336Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-02-11T09:24:23.729Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-02-11T09:24:24.923Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 194721. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548883/full/full/0/default.jpg"/>
+         
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

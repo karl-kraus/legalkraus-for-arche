@@ -1,187 +1,197 @@
 <?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000101-022-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-021-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Berufung gegen den Bescheid vom 1928</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthyanystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3043</idno>
-                <idno type="ID" subtype="transkribus">235699</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000101">Anzeige gegen die Fackel-Kolporteure</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000101-022-000-wit01" facs="D_000101-022-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date type="sortDate" when-iso="1928-12-18" subtype="produced">18. Dezember
-                    1928</date>
-            </creation>
-            <langUsage>
-                <language ident="de">Deutsch</language>
-            </langUsage>
-            <textClass/>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change type="intertexts" when-iso="2021-03-11" who="#JK"/>
-            <change type="typography" when-iso="2021-03-11" who="#JK"/>
-            <change type="references" when-iso="2021-03-11" who="#JK"/>
-            <change type="structure" when-iso="2021-03-11" who="#JK"/>
-            <change when-iso="2020-07-17T11:01:13.556Z" who="#IB">created by API</change>
-            <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
-                of Transkribus Document 235699.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000101-022-000-facs001">
-        <surfaceGrp xml:id="D_000101-022-000-facs001-l001">
-            <surface xml:id="D_000101-022-000-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000270_28.jpg" source="krausonline"/>
-                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555213/full/full/0/default.jpg" source="wienbibliothek"/>
-            </surface>
-            <surface xml:id="D_000101-022-000-facs001-l001-p002" type="verso">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000272_24.jpg" source="krausonline"/>
-                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555215/full/full/0/default.jpg" source="wienbibliothek"/>
-            </surface></surfaceGrp>
-            <surfaceGrp>
-                <surface xml:id="D_000101-022-000-facs001-l002-p003" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000273_23.jpg" source="krausonline"/>
-                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555216/full/full/0/default.jpg" source="wienbibliothek"/>
-            </surface>
-                <surface xml:id="D_000101-022-000-facs001-l002-p004" type="verso">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000274_26.jpg" source="krausonline"/>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>101.22 Berufung gegen den Bescheid vom 30. November 1928</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml</idno>
+            <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3043 </idno>
+            <idno type="ID" subtype="transkribus">235699</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000101">Anzeige gegen die Fackel-Kolporteure</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000101-022-000-wit01" facs="#D_000101-022-000-facs001"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000101-022-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date type="sortDate" when-iso="1928-12-18" subtype="produced">18. Dezember 1928
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000101-022-000-wit01">Berufung</term>
+            </keywords>
+            <classCode source="D_000101-022-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.BRF">D.J.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-03-11" who="#JK"/>
+         <change type="typography" when-iso="2021-03-11" who="#JK"/>
+         <change type="references" when-iso="2021-03-11" who="#JK"/>
+         <change type="structure" when-iso="2021-03-11" who="#JK"/>
+         <change when-iso="2020-07-17T11:01:13.556Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 235699. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000101-022-000-facs001">
+      <surfaceGrp xml:id="D_000101-022-000-facs001-l001">
+         <surface xml:id="D_000101-022-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555213/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000101-022-000-facs001-l001-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555215/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp>
+         <surface xml:id="D_000101-022-000-facs001-l002-p003" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555216/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000101-022-000-facs001-l002-p004" type="verso">
+            
             <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555217/full/full/0/default.jpg" source="wienbibliothek"/>
-    </surface></surfaceGrp>
-        <surfaceGrp>
-            <surface xml:id="D_000101-022-000-facs001-l003-p001" type="verso">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000271_24.jpg" source="krausonline"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp>
+         <surface xml:id="D_000101-022-000-facs001-l003-p005" type="verso">
+            
             <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555214/full/full/0/default.jpg" source="wienbibliothek"/>
-        </surface></surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="D_000101-022-000-facs001-l001-p001" n="1"/>
-            <p xml:id="uuid_4c890773-73b2-4731-b426-a4b7ec5a5612">
-                <lb xml:id="uuid_f9072e6d-4e9a-4a31-872e-6d4e9aea3134"/>G.Z. P.B. 691/1/1928 </p>
-            <p xml:id="uuid_0eb67179-6102-42f3-9598-f766fad7519f">
-                <lb xml:id="uuid_1b19fb23-be5d-4228-99fb-23be5de22886"/><rs type="institution" ref="#pmb36799">Bundespolizeidirektion <lb xml:id="uuid_22bbecb0-2fad-40e5-bbec-b02fad50e59f"/><hi rend="spaced">Wien</hi></rs>. </p>
-            <p xml:id="uuid_ab58fab2-bc9e-4a48-8503-117f5a0776a6">
-                <lb xml:id="uuid_b7a58985-ff42-403a-a589-85ff42a03a67"/><rs type="person" ref="#pmb11988">Karl <hi rend="spaced">Kraus</hi></rs>. <lb xml:id="uuid_e366d87a-eafa-401a-a6d8-7aeafa901a6a"/><rs type="person" ref="#pmb43646">Schützenhofer Robert</rs>, <lb xml:id="uuid_1e970c7d-4157-4c0c-970c-7d41577c0c1d"/><rs type="person" ref="#pmb51545">Babad Max</rs>, <lb xml:id="uuid_797ebe84-a32a-4022-bebe-84a32af022e1"/><rs type="person" ref="#pmb51562">Blatt Max</rs>, <lb xml:id="uuid_13429f20-2dd3-47f7-829f-202dd3b7f79c"/><rs type="person" ref="#pmb51713">Rosenberg Hugo</rs>, <lb xml:id="uuid_5613d7bd-472d-4a82-93d7-bd472dfa8216"/><rs type="person" ref="#pmb51593">Kaiser Karl</rs>
-            </p>
-            <p xml:id="uuid_97c1fae6-9378-46f2-9a12-2a652abfa2d0"><lb xml:id="uuid_be97ac34-2131-4083-97ac-3421316083aa"/>durch: </p>
-            <p xml:id="uuid_17f91d3e-f043-453e-bd5b-b50ea770607c">
-                <lb xml:id="uuid_50d3e1d3-7211-48e5-93e1-d37211c8e581"/>1 fach </p>
-            <p xml:id="uuid_dc16ac63-4a96-45e2-ba39-3b43c8bad245">
-                <lb xml:id="uuid_d6955177-4a9d-46ed-9551-774a9dd6ed9d"/><hi rend="underlined">erheben Berufung gegen den <rs type="work" ref="#pmbD_000101-021-000">Bescheid vom
-                        30. November 1928</rs>, <lb xml:id="uuid_40398917-2f70-409d-b989-172f70409d39"/>zugestellt am 4.
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000101-022-000_p001" facs="#D_000101-022-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_3c513b49-07fb-44db-b895-f1b12e3a5731">
+            <lb xml:id="uuid_61960221-9b71-42da-9773-5ef01db278a9"/>G.Z. P.B. 691/1/1928 </p>
+         <p xml:id="uuid_b6e6e8e8-5aa8-43b6-97d4-9fdc739b150b">
+            <lb xml:id="uuid_cb9dce91-df29-4280-90f5-60d6fd8e0cb1"/><rs type="institution" ref="#pmb36799">Bundespolizeidirektion<lb xml:id="uuid_9d976edf-421d-4c94-b0b8-eeb82b487c6b"/><hi rend="spaced">Wien</hi></rs>. </p>
+         <p xml:id="uuid_2c9c8ee2-fc25-4966-9683-c350f162b8dc">
+            <lb xml:id="uuid_0deef6f8-d84a-4376-897b-fa0581e2a4f1"/><rs type="person" ref="#pmb11988">Karl <hi rend="spaced">Kraus</hi></rs>.<lb xml:id="uuid_c438a784-e3ee-47d2-b6ca-2adeb5c8c9ed"/><rs type="person" ref="#pmb43646">Schützenhofer Robert</rs>,<lb xml:id="uuid_29752074-f0f8-41ac-8f3c-1ca9dc2f80b0"/><rs type="person" ref="#pmb51545">Babad Max</rs>,<lb xml:id="uuid_80606084-2878-497f-b537-6d1798713cf0"/><rs type="person" ref="#pmb51562">Blatt Max</rs>,<lb xml:id="uuid_04557483-6a4e-4b3e-96c5-4338e1339893"/><rs type="person" ref="#pmb51713">Rosenberg Hugo</rs>,<lb xml:id="uuid_8b8eee6f-ffab-4448-beaf-7f0d2212d451"/><rs type="person" ref="#pmb51593">Kaiser Karl</rs>
+         </p>
+         <p xml:id="uuid_f5e82e81-15ee-4243-89f9-4d4bc636d4b7">
+            <lb xml:id="uuid_1aabb4e1-5584-44bf-891e-094102a7ce57"/>durch: </p>
+         <p xml:id="uuid_4da3f3b7-bc48-4e91-9ee0-ed955f6b7614">
+            <lb xml:id="uuid_8a2a2e24-14af-4be7-a15c-fad18eea2793"/>1 fach </p>
+         <p xml:id="uuid_b78994c5-d186-4060-94b2-89ddb5a16c8f">
+            <lb xml:id="uuid_1d10adf5-d244-4b23-b369-ec3a50f623e6"/><hi rend="underlined">erheben Berufung gegen den <rs type="work" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-021-000" subtype="legal-doc">Bescheid vom 30. November 1928</rs>,<lb xml:id="uuid_f0b53174-62f2-4885-9fef-243411cd7710"/>zugestellt am 4.
                     Dezember 1928.</hi>
-            </p>
-            <pb facs="D_000101-022-000-facs001-l001-p002" n="2"/>
-            <p xml:id="uuid_d9f0f59f-e12d-4600-a645-e81988629580">
-                <lb xml:id="uuid_73fb6a1a-9981-4cdc-bb6a-1a99812cdc1c"/>Den von uns gestellten
-                    Schadenersatzan<lb xml:id="uuid_76dc12d9-1d8d-4a89-9c12-d91d8dca899c" break="no"/>sprüchen wurde mit <rs type="work" ref="#pmbD_000101-021-000">Bescheid der
-                    Bundespolizei-Direktion Wien <lb xml:id="uuid_59297e1e-8558-4355-a97e-1e855873554e"/>vom 30. November
-                    1928</rs>, G.Z. P. B. 691/1/1928 keine Folge gegeben, <lb xml:id="uuid_fe1a9fc2-c7b5-4466-9a9f-c2c7b5e46688"/>mit der Begründung, dass
-                weder das Pressgesetz noch das Bundes<lb xml:id="uuid_916ace05-2d6c-416d-aace-052d6cb16d1a" break="no"/>verfassungsgesetz
-                eine Handhabe zur Erkenntnis im gegenteiligen <lb xml:id="uuid_83488a8a-e66c-46fe-888a-8ae66c16fead"/>Sinne gebe. Der Ausspruch
-                auf Ersatz der durch die Rechtsver<lb xml:id="uuid_2d82ba71-59d3-44b2-82ba-7159d324b2fd" break="no"/>tretung der
-                Parteien erwachsenen Kosten wurde im Sinne des <lb xml:id="uuid_886de282-0393-4aa6-ade2-820393eaa69d"/><rs type="law" ref="">§ 74/1
-                    des Verwaltungsverfahrensgesetzes</rs> abgewiesen. </p>
-            <p xml:id="uuid_0e13d40f-c972-42d9-81fe-98b7ab6f74a9">
-                <lb xml:id="uuid_b46ee930-2950-4fb1-aee9-3029502fb181"/>Gegen diesen Bescheid
-                erheben wir fristge<lb xml:id="uuid_49e5e4ba-f4ae-4e6c-a5e4-baf4aede6c10" break="no"/>recht die <lb xml:id="uuid_e7130201-38b7-4659-9302-0138b72659c3"/><hi rend="spaced">Berufung</hi>: </p>
-            <p xml:id="uuid_689ef262-4eb2-464a-a007-bff7190f2b58">
-                <lb xml:id="uuid_9725acf6-ffd9-4d60-a5ac-f6ffd93d6023"/>Richtig ist, dass eine
-                vorsätzliche oder <lb xml:id="uuid_75f52d85-b1bc-4bbd-b52d-85b1bcbbbd83"/>grob
+         </p>
+         <pb xml:id="D_000101-022-000_p002" facs="#D_000101-022-000-facs001-l001-p002" n="2"/>
+         <p xml:id="uuid_3c661761-e590-482e-a5be-9c7e26509b40">
+            <lb xml:id="uuid_abc23b6a-3fb9-402c-b5c6-43383fbfd994"/>Den von uns gestellten
+                    Schadenersatzan<lb xml:id="uuid_739eb1d4-23d3-4ca0-b3c2-d68099b02068" break="no"/>sprüchen wurde mit <rs type="work" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-021-000" subtype="legal-doc">Bescheid der Bundespolizei-Direktion Wien<lb xml:id="uuid_29be772c-fe8d-401b-a2c0-5f3a21e98558"/>vom 30. November
+                    1928</rs>, G.Z. P. B. 691/1/1928 keine Folge gegeben,<lb xml:id="uuid_0abc1f4f-6b9b-4708-bc69-3810aaebdff9"/>mit der Begründung, dass
+                weder das Pressgesetz noch das Bundes<lb xml:id="uuid_eb9c0037-4b0f-49b3-ba81-8760fce5a8cf" break="no"/>verfassungsgesetz
+                eine Handhabe zur Erkenntnis im gegenteiligen<lb xml:id="uuid_fed2df26-7699-422e-b064-fd5d58a89855"/>Sinne gebe. Der Ausspruch
+                auf Ersatz der durch die Rechtsver<lb xml:id="uuid_53d50a2e-092b-4ea2-afe9-414fcf754638" break="no"/>tretung der
+                Parteien erwachsenen Kosten wurde im Sinne des<lb xml:id="uuid_6bd54c01-fe7d-4466-9950-c72113963f13"/><rs type="law" ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1925&amp;page=993&amp;size=45">§ 74/1 des Verwaltungsverfahrensgesetzes</rs> abgewiesen. </p>
+         <p xml:id="uuid_e25f0521-b643-46ad-b2dd-8f882479ab87">
+            <lb xml:id="uuid_11783afc-8e3d-41b1-8ffd-e4fc5bb666a6"/>Gegen diesen <rs type="work" subtype="legal-doc" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-021-000">Bescheid</rs> erheben wir fristge<lb xml:id="uuid_7d784b29-752e-46ab-bbcd-4b878217007d" break="no"/>recht die<lb xml:id="uuid_82ea9fa1-b8dc-4d66-a95c-f32c8768fa18"/><hi rend="spaced">Berufung</hi>: </p>
+         <p xml:id="uuid_70470119-bcd8-4def-a364-2b402b8f8e5f">
+            <lb xml:id="uuid_79e012d3-580f-46ad-bc37-d7ff69ebc7e4"/>Richtig ist, dass eine
+                vorsätzliche oder<lb xml:id="uuid_fb550d0a-227f-4613-9406-43939cd27f59"/>grob
                 fahrlässige Rechtsverletzung der <rs type="institution" ref="#pmb36799">Bundespolizei-Direktion</rs>
-                <lb xml:id="uuid_d90c51ca-7456-406e-8c51-ca7456806e2e"/>nicht nachgewiesen ist und
-                dieser Nachweis gar nicht angetreten <lb xml:id="uuid_a0e28294-6f8c-4472-a282-946f8c347295"/>wurde, weil die
-                Gesetzesbestimmung des Bundesverfassungsgesetzes <lb xml:id="uuid_65c5561a-6a6f-4a49-8556-1a6a6fba4976"/>für die Geltendmachung der
-                Schadenersatzansprüche absolut nicht <lb xml:id="uuid_f7749517-6202-484e-b495-176202e84ec2"/>herangezogen werden sollte,
-                da die dort angekündigte Durchführung <lb xml:id="uuid_7c2ab908-2379-4061-aab9-0823799061dc"/>noch nicht erlassen wurde.
-                Dagegen ist die Ansicht der <rs type="institution" ref="#pmb36799">Bundes<lb xml:id="uuid_7cca252d-2ed5-4aa7-8a25-2d2ed53aa7da" break="no"/>polizei-Direktion</rs>, dass das Pressgesetz nicht extensiv inter<lb xml:id="uuid_38495409-1405-4bb9-8954-0914058bb982" break="no"/>pretiert werden
-                könne, unrichtig. Es kann nicht im Sinne des Ge<lb xml:id="uuid_c3fa9bea-46c5-4f3d-ba9b-ea46c56f3da0" break="no"/>setzgebers
-                gewesen sein, die Schadenersatzpflicht bei Beschlag<lb xml:id="uuid_a15d5475-ebfe-4a08-9d54-75ebfeca0897" break="no"/>nahme von
-                Druckwerken – die ja an und für sich eine Ausnahmebe<lb xml:id="uuid_cf59669a-d5b2-4cb9-9966-9ad5b27cb937" break="no"/>stimmung bildet,
-                da sonst bei Beschlagnahme von anderen Ver<lb xml:id="uuid_fa3a6ee0-b9fa-40dd-ba6e-e0b9fa00dd60" break="no"/>fallsgegenständen
-                keine solche Schadenersatzpflicht aufgestellt <lb xml:id="uuid_e48a5a59-a336-4411-8a5a-59a336441181"/>ist –, lediglich auf
-                Beschlagnahme durch Gerichte und Staatsan<lb xml:id="uuid_61788c2e-aea9-44fa-b88c-2eaea914fa3f" break="no"/>waltschaften zu
-                beschränken und den politischen Behörden die <lb xml:id="uuid_655489b9-3c5b-4d7f-9489-b93c5bed7f34"/>unsühnbare Möglichkeit zu
-                geben, die staatsgrundsätzlich statu<lb xml:id="uuid_7fb5cf76-9cee-4bce-b5cf-769ceedbce63" break="no"/>ierte Freiheit
-                der Presse auf eigenem Wege zu vereiteln. Es war <lb xml:id="uuid_aa4b161b-b5a8-48b4-8b16-1bb5a828b470"/>gerade im Gegenteil die
-                Absicht des Gesetzgebers, im Pressgesetz <lb xml:id="uuid_5990a160-e6d7-445e-90a1-60e6d7d45e2f"/>die Freiheit der Presse
-                dadurch zu gewährleisten, dass jede un<lb xml:id="uuid_a0dbbbb0-f462-4195-9bbb-b0f462e1958e" break="no"/>berechtigte
-                Beschlagnahme, sei es die des Staates oder eines <lb xml:id="uuid_78e618d1-6177-4926-a618-d161770926fe"/>Privatanklägers, die
-                Schadenersatzpflicht, unabhängig von jedem <lb xml:id="uuid_9fd79a2b-ef0e-4353-979a-2bef0e4353c5"/>Verschulden, nach sich
-                zieht, wenn eine strafbare Handlung nicht <lb xml:id="uuid_e414c720-7e78-4dd2-94c7-207e78add2e9"/>vorlag. Aus dem Geist des
-                Gesetzes ist also klar zu entnehmen, <pb facs="D_000101-022-000-facs001-l002-p003" n="3"/>
-                <lb xml:id="uuid_6618ab22-c41c-40a4-98ab-22c41cf0a426"/>dass auch ohne ausdrückliche
-                Einbeziehung der sicherheitsbe<lb xml:id="uuid_188574d7-b0b2-4358-8574-d7b0b2b35876" break="no"/>hördlichen Beschlagnahme, eine solche, wenn sie ungerechtfer<lb xml:id="uuid_530bb3fd-2ced-476d-8bb3-fd2ced176d7d" break="no"/>tigt war, die
+            <lb xml:id="uuid_83778fd2-a18e-469b-ace4-70a8d36bf73e"/>nicht nachgewiesen ist und
+                dieser Nachweis gar nicht angetreten<lb xml:id="uuid_7464d915-2ee0-40d1-9656-98e65008f312"/>wurde, weil die
+                Gesetzesbestimmung des Bundesverfassungsgesetzes<lb xml:id="uuid_6cf82946-b9f1-4308-b499-f9a73b54e6ef"/>für die Geltendmachung der
+                Schadenersatzansprüche absolut nicht<lb xml:id="uuid_6c647860-858a-4532-9923-823473aab750"/>herangezogen werden sollte,
+                da die dort angekündigte Durchführung<lb xml:id="uuid_75cd8ee5-00eb-48a8-b1ee-23388fbca62c"/>noch nicht erlassen wurde.
+                Dagegen ist die Ansicht der <rs type="institution" ref="#pmb36799">Bundes<lb xml:id="uuid_35da97d4-790a-4e7c-a43d-0183ab2ebbcb" break="no"/>polizei-Direktion</rs>, dass das Pressgesetz nicht extensiv inter<lb xml:id="uuid_d5c78d0a-3100-49ac-bfcd-13a2cd044286" break="no"/>pretiert werden
+                könne, unrichtig. Es kann nicht im Sinne des Ge<lb xml:id="uuid_34f06099-33d5-4ab0-8648-eaee415cbfaf" break="no"/>setzgebers
+                gewesen sein, die Schadenersatzpflicht bei Beschlag<lb xml:id="uuid_79e083ae-4bd4-40ba-af3e-b6dcd7e280d6" break="no"/>nahme von
+                Druckwerken – die ja an und für sich eine Ausnahmebe<lb xml:id="uuid_5e868c95-d831-453a-98ac-78a09b127d98" break="no"/>stimmung bildet,
+                da sonst bei Beschlagnahme von anderen Ver<lb xml:id="uuid_0cdbcf63-9402-4372-ac67-ea4ea1bc1c2f" break="no"/>fallsgegenständen
+                keine solche Schadenersatzpflicht aufgestellt<lb xml:id="uuid_b8ec155d-3d9d-4d97-ba93-e95d6c302208"/>ist –, lediglich auf
+                Beschlagnahme durch Gerichte und Staatsan<lb xml:id="uuid_94b58094-f9e2-49f2-8c0c-cbe15fd6271e" break="no"/>waltschaften zu
+                beschränken und den politischen Behörden die<lb xml:id="uuid_16039a65-5083-4054-afa1-74892f5e03f2"/>unsühnbare Möglichkeit zu
+                geben, die staatsgrundsätzlich statu<lb xml:id="uuid_548621f6-5440-4c6e-be18-a9f2d1f7a9bb" break="no"/>ierte Freiheit
+                der Presse auf eigenem Wege zu vereiteln. Es war<lb xml:id="uuid_5aeac913-f439-4728-82c0-dd4ca5f8ed0c"/>gerade im Gegenteil die
+                Absicht des Gesetzgebers, im Pressgesetz<lb xml:id="uuid_3c6083cb-3f2f-4534-8709-66775e8010fd"/>die Freiheit der Presse
+                dadurch zu gewährleisten, dass jede un<lb xml:id="uuid_3bce5864-f7f4-4911-8c4c-4c9872b9b0bb" break="no"/>berechtigte
+                Beschlagnahme, sei es die des Staates oder eines<lb xml:id="uuid_100c5f0a-056a-4a81-bb81-459eebd0e766"/>Privatanklägers, die
+                Schadenersatzpflicht, unabhängig von jedem<lb xml:id="uuid_fa25085f-b665-49c2-a91a-142fb3e6d11f"/>Verschulden, nach sich
+                zieht, wenn eine strafbare Handlung nicht<lb xml:id="uuid_03c3bf4a-c854-405f-9e29-ebd6dbbb8e9c"/>vorlag. Aus dem Geist des
+                Gesetzes ist also klar zu entnehmen, <pb xml:id="D_000101-022-000_p003" facs="#D_000101-022-000-facs001-l002-p003" n="3"/>
+            <lb xml:id="uuid_36ed2598-8f81-43bc-8f1b-6383eb348bee"/>dass auch ohne ausdrückliche
+                Einbeziehung der sicherheitsbe<lb xml:id="uuid_fc45ae9d-fb1a-4d20-adfa-136a677a9da3" break="no"/>hördlichen Beschlagnahme, eine solche, wenn sie ungerechtfer<lb xml:id="uuid_24c3bdc3-9500-4b59-904d-b81f86f23973" break="no"/>tigt war, die
                 Schadenersatzpflicht des Staates nach sich zieht. </p>
-            <p xml:id="uuid_c7684922-8213-423d-908f-d3104b2b46d9">
-                <lb xml:id="uuid_08c92996-903b-4bcc-8929-96903bebcc7c"/>Was nun die Kostenfrage
-                betrifft, so ist <lb xml:id="uuid_34be78d9-c616-47d3-be78-d9c61657d361"/>nicht der
-                    <rs type="law" ref="">§ 74, Absatz 1 des allgemeinen Verwaltungsverfahrens<lb xml:id="uuid_67f15d50-b7ed-48bc-b15d-50b7ed58bc30" break="no"/>gesetzes</rs>, sondern der <rs type="law" ref="">§ 66 des
-                    Verwaltungsstrafgesetzes</rs> bei der <lb xml:id="uuid_92738cad-9c6d-4a93-b38c-ad9c6d6a93c4"/>Entscheidung heranzuziehen,
-                laut welchem die Kosten des Ver<lb xml:id="uuid_c75dded7-8436-44b2-9dde-d7843624b243" break="no"/>fahrens von der
-                Behörde zu tragen sind, wenn ein Strafverfahren <lb xml:id="uuid_c7dc3239-3dbd-470d-9c32-393dbde70d10"/>eingestellt oder eine
-                verhängte Strafe infolge Berufung oder <lb xml:id="uuid_6dd0abd9-1305-4fcc-90ab-d91305dfcccf"/>Wiederaufnahme des
+         <p xml:id="uuid_6eeb506f-a5b2-44c5-9894-b45f43007071">
+            <lb xml:id="uuid_2ef91a2c-5fc5-4efe-ada6-88bb2b2f0d34"/>Was nun die Kostenfrage
+                betrifft, so ist<lb xml:id="uuid_b5a67f54-6953-4a70-af9b-c5a87aac1392"/>nicht der
+                    <rs type="law" ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1925&amp;page=993&amp;size=45">§ 74, Absatz 1 des allgemeinen Verwaltungsverfahrens<lb xml:id="uuid_0fd711e8-d4ee-411e-9598-cf4c52b57909" break="no"/>gesetzes</rs>, sondern der <rs type="law" ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1925&amp;page=991&amp;size=45">§ 66 des Verwaltungsstrafgesetzes</rs> bei der<lb xml:id="uuid_538aa182-e25e-4467-a8d5-743bf336f1e6"/>Entscheidung heranzuziehen,
+                laut welchem die Kosten des Ver<lb xml:id="uuid_901cbea8-89e1-4884-9db5-8720009bcb85" break="no"/>fahrens von der
+                Behörde zu tragen sind, wenn ein Strafverfahren<lb xml:id="uuid_d692e1d2-aec3-489d-b5f1-2b9608cd0453"/>eingestellt oder eine
+                verhängte Strafe infolge Berufung oder<lb xml:id="uuid_1621059b-e3cd-4ccd-b904-125c210296ae"/>Wiederaufnahme des
                 Verfahrens aufgehoben wird. </p>
-            <p xml:id="uuid_e49d974b-f920-4657-b440-7d1173426f5c">
-                <lb xml:id="uuid_04671060-a255-4187-a710-60a255e187e7"/>Wir beantragen daher, uns
-                die Schadener<lb xml:id="uuid_d014b719-97b1-4fba-94b7-1997b1bfbaa9" break="no"/>satzbeträge im Sinne unseres Ansuchens zuzusprechen. </p>
-            <p xml:id="uuid_252f4a0d-d1c2-4b40-b6ee-d9ee6e2ce84c">
-                <lb xml:id="uuid_220c167d-6fe4-4763-8c16-7d6fe43763e1"/><rs type="person" ref="#pmb11988">Karl Kraus</rs>. <lb xml:id="uuid_eb551aba-52e2-4e2b-951a-ba52e2ee2b66"/><rs type="person" ref="#pmb43646">Schützenhofer Robert</rs>. <lb xml:id="uuid_21469116-ceb2-490e-8691-16ceb2d90ec8"/><rs type="person" ref="#pmb51545">Babad Max</rs>. <lb xml:id="uuid_f410b485-a9d0-4e46-90b4-85a9d07e4688"/><rs type="person" ref="#pmb51562">Blatt Max</rs>. <lb xml:id="uuid_3c46543c-fe4b-4320-8654-3cfe4b73209b"/><rs type="person" ref="#pmb51713">Rosenberg Hugo</rs>. <lb xml:id="uuid_83e5da7f-9056-4651-a5da-7f90567651f6"/><rs type="person" ref="#pmb51593">Kaiser Karl</rs>. </p>
-            <pb facs="D_000101-022-000-facs001-l002-p004" n="4"/>
-            <p xml:id="uuid_2871d292-1015-4f25-b0e0-777759832c05">
-                <lb xml:id="uuid_6e4b7782-5aba-485b-8b77-825aba885bdc"/><note type="paratext" resp="law-firm"><rs type="person" ref="#pmb11988">Kraus</rs> – Sonderausgabe <lb xml:id="uuid_f3dd8e80-6d4f-4aa3-9d8e-806d4f9aa3ba"/>exp. 18.12.28.</note>
-            </p>
-        </body>
-    <back><listPerson><person xml:id="pmb11988">
+         <p xml:id="uuid_0611ef42-b38e-40f4-b632-9c61bbf57f11">
+            <lb xml:id="uuid_c1b6bc7d-5315-4857-a26f-053f40acffad"/>Wir beantragen daher, uns
+                die Schadener<lb xml:id="uuid_2b7df32f-0acd-4a7a-9b6c-6c8f7af0beec" break="no"/>satzbeträge im Sinne unseres Ansuchens zuzusprechen. </p>
+         <p xml:id="uuid_5d4325aa-286d-442b-bc89-511c0b5b3fc8">
+            <lb xml:id="uuid_b5c00068-dfa6-4015-8b5b-93c9a9d32e8e"/><rs type="person" ref="#pmb11988">Karl Kraus</rs>.<lb xml:id="uuid_f48ea915-a459-41cc-abb7-af24666ad592"/><rs type="person" ref="#pmb43646">Schützenhofer Robert</rs>.<lb xml:id="uuid_d8155187-200b-4efa-bef1-ef21290fb86a"/><rs type="person" ref="#pmb51545">Babad Max</rs>.<lb xml:id="uuid_8690ed3d-515d-4d07-9e95-bddb11381cb0"/><rs type="person" ref="#pmb51562">Blatt Max</rs>.<lb xml:id="uuid_433bb25f-81b2-4b3d-a512-770ae7fbe439"/><rs type="person" ref="#pmb51713">Rosenberg Hugo</rs>.<lb xml:id="uuid_06644db6-a3c8-4362-8ac2-625ec4c479fc"/><rs type="person" ref="#pmb51593">Kaiser Karl</rs>. </p>
+         <pb xml:id="D_000101-022-000_p004" facs="#D_000101-022-000-facs001-l002-p004" n="4"/>
+         <p xml:id="uuid_03bac2f8-536c-4110-bdc0-b41203f36606">
+            <lb xml:id="uuid_623aa6db-5057-44df-80cf-e2ac5e0fcd61"/><note type="paratext" resp="law-firm"><rs type="person" ref="#pmb11988">Kraus</rs> – <rs type="work" subtype="pmb" ref="#pmb53123">Sonderausgabe</rs><lb xml:id="uuid_ad131a8a-ec70-4252-b61f-88c75f205b7b"/>exp. 18.12.28. </note>
+         </p>
+      </body>
+   <back><listPerson><person xml:id="pmb11988">
   <persName>
       <forename>Karl</forename>
       <surname>Kraus</surname>
@@ -194,13 +204,29 @@
     <date when-iso="1874-04-28">28.04.1874</date>
   
   
-      <settlement key="pmb41660">
-        <placeName type="pref">Jičín</placeName>
+    <settlement key="pmb41660">
+      <placeName type="pref">Jičín</placeName>
+    
+      <placeName type="alternative-name">Gitschin</placeName>
+    
+      <placeName type="alternative-name">Jičín</placeName>
+    
+      <placeName type="legacy-name">Jičín</placeName>
+    
+      <placeName type="legacy-name-merge">Jitschin</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4440310-0</placeName>
+    
+    
+      <location><geo>50,43723 15,35162</geo></location>
+    
+    
+      <idno type="URL">http://sws.geonames.org/3074204/</idno>
       
-        <location><geo>50,43723 15,35162</geo></location>
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/41660</idno>
       
-      </settlement>
-      
+    </settlement>
+    
        
   </birth>  
 
@@ -212,6 +238,29 @@
       <settlement key="pmb50">
         <placeName type="pref">Wien</placeName>
         
+        <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+        
+        <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+        
+        <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+        
+        <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+        
+      
         <location><geo>48,2066 16,37341</geo></location>
       
       </settlement>
@@ -291,6 +340,32 @@
     
 </affiliation>
 
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb60573">Karl Kraus-Gesellschaft</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/60573/</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb37159">Jahoda &amp; Siegel (Druckerei)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37159/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37159</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb87755">Max Goldschmidt (Büro für Zeitungsausschnitte)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/87755/</idno>
+    
+</affiliation>
+
 
 <listEvent>
     
@@ -327,7 +402,35 @@
 
 
 
-</person><person xml:id="pmb43646">
+</person><person xml:id="pmb51562">
+  <persName>
+      <forename>Max</forename>
+      <surname>Blatt</surname>
+  </persName>
+
+
+
+
+  <sex value="male"/>
+
+
+  <occupation key="1430">Kolporteur/Kolporteurin</occupation>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/51562/</idno>
+
+
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>101.6 Straferkenntnis der Bundes-Polizeidirektion Wien gegen Max Blatt (G.Z. 674 Pst 57)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.7 Berufung gegen das Straferkenntnis vom 11. August 1928 durch Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.19 Brief der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 674/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.20 Ersatzanspruch von Karl Kraus und 5 Kolporteuren an die Bundespolizeidirektion Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.21 Bescheid der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 691/1/1928)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Berufung gegen den Bescheid vom 30. November 1928</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Strafanzeige gegen unbekannte Täter</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.24 Berufung gegen den Bescheid der Bundes-Polizeidirektion vom 24. Mai 1928 (G.Z. P.B. 115/2) bzw. den Bescheid der Wiener Landesregierung vom 5. April 1929</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.25 Bescheid des Bundeskanzleramtes (G.Z. 139099 – 9.)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-025-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb43646">
   <persName>
       <forename>Robert</forename>
       <surname>Schützenhofer</surname>
@@ -369,105 +472,7 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>[Aussageprotokoll] von Robert Schützenhofer</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen das Straferkenntnis vom 1928 durch Robert
-                    Schützenhofer</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ersatzanspruch von Karl Kraus und 5 Kolporteuren an die
-                    Bundespolizeidirektion Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bescheid der Bundes-Polizeidirektion in Wien [an Samek] (G. Z. P.B.
-                    691/1/1928)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen den Bescheid vom 1928</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen den Bescheid der Bundes-Polizeidirektion vom 1928 (G. Z. P.B.
-                    115/2) respektive den Bescheid der Wiener Landesregierung vom 1929</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bescheid des Bundeskanzleramtes (G. Z. 139099 – 9.)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-025-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb51713">
-  <persName>
-      <forename>Hugo</forename>
-      <surname>Rosenberg</surname>
-  </persName>
-
-
-
-
-  <sex value="male"/>
-
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/51713/</idno>
-
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Straferkenntnis der Bundes-Polizeidirektion Wien gegen Hugo Rosenberg;
-                    Umschlag</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Umschlag</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-004-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen das Straferkenntnis vom 1928 durch Hugo Rosenberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>14 Bestätigungen [über Beschlagnahmung] und Liste</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-016-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ersatzanspruch von Karl Kraus und 5 Kolporteuren an die
-                    Bundespolizeidirektion Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bescheid der Bundes-Polizeidirektion in Wien [an Samek] (G. Z. P.B.
-                    691/1/1928)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen den Bescheid vom 1928</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen den Bescheid der Bundes-Polizeidirektion vom 1928 (G. Z. P.B.
-                    115/2) respektive den Bescheid der Wiener Landesregierung vom 1929</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bescheid des Bundeskanzleramtes (G. Z. 139099 – 9.)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-025-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb51593">
-  <persName>
-      <forename>Karl</forename>
-      <surname>Kaiser</surname>
-  </persName>
-
-
-
-
-  <sex value="male"/>
-
-
-  <occupation key="1430">Kolporteur/Kolporteurin</occupation>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/51593/</idno>
-
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Straferkenntnis der Bundes-Polizeidirektion Wien gegen Karl Kaiser (G. Z. 685
-                    und 685/Pst 53)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Umschlag</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-008-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Aussageprotokolle] von Karl Kaiser und Gustav Heinzmann</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen das Straferkenntnis vom 1928 durch Karl Kaiser</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vollmacht von Karl Kaiser für Oskar Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ersatzanspruch von Karl Kraus und 5 Kolporteuren an die
-                    Bundespolizeidirektion Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bescheid der Bundes-Polizeidirektion in Wien [an Samek] (G. Z. P.B.
-                    691/1/1928)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen den Bescheid vom 1928</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen den Bescheid der Bundes-Polizeidirektion vom 1928 (G. Z. P.B.
-                    115/2) respektive den Bescheid der Wiener Landesregierung vom 1929</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bescheid des Bundeskanzleramtes (G. Z. 139099 – 9.)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-025-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb51562">
-  <persName>
-      <forename>Max</forename>
-      <surname>Blatt</surname>
-  </persName>
-
-
-
-
-  <sex value="male"/>
-
-
-  <occupation key="1430">Kolporteur/Kolporteurin</occupation>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/51562/</idno>
-
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Straferkenntnis der Bundes-Polizeidirektion Wien gegen Max Blatt (G. Z. 674
-                    Pst 57)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen das Straferkenntnis vom 1928 durch Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ersatzanspruch von Karl Kraus und 5 Kolporteuren an die
-                    Bundespolizeidirektion Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bescheid der Bundes-Polizeidirektion in Wien [an Samek] (G. Z. P.B.
-                    691/1/1928)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen den Bescheid vom 1928</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Strafanzeige gegen unbekannte Täter</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen den Bescheid der Bundes-Polizeidirektion vom 1928 (G. Z. P.B.
-                    115/2) respektive den Bescheid der Wiener Landesregierung vom 1929</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bescheid des Bundeskanzleramtes (G. Z. 139099 – 9.)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-025-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb51545">
+<listEvent><event type="mentioned"><p>erwähnt in <title>101.13 Straferkenntnis der Bundes-Polizeidirektion Wien gegen Robert Schützenhofer (G.Z. 628 Pst 118); Umschlag</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.14 [Aussageprotokoll] von Robert Schützenhofer</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.15 Berufung gegen das Straferkenntnis vom 19. August 1928 durch Robert Schützenhofer</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.19 Brief der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 674/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.20 Ersatzanspruch von Karl Kraus und 5 Kolporteuren an die Bundespolizeidirektion Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.21 Bescheid der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 691/1/1928)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Berufung gegen den Bescheid vom 30. November 1928</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.24 Berufung gegen den Bescheid der Bundes-Polizeidirektion vom 24. Mai 1928 (G.Z. P.B. 115/2) bzw. den Bescheid der Wiener Landesregierung vom 5. April 1929</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.25 Bescheid des Bundeskanzleramtes (G.Z. 139099 – 9.)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-025-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb51545">
   <persName>
       <forename>Max</forename>
       <surname>Babad</surname>
@@ -495,11 +500,61 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Straferkenntnis der Bundes-Polizeidirektion Wien gegen Max Babad (G. Z. 674
-                    Pst 57)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Aussageprotokoll] von Max Babad</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen das Straferkenntnis vom 1928 durch Max Babad</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ersatzanspruch von Karl Kraus und 5 Kolporteuren an die
-                    Bundespolizeidirektion Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bescheid der Bundes-Polizeidirektion in Wien [an Samek] (G. Z. P.B.
-                    691/1/1928)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen den Bescheid vom 1928</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Strafanzeige gegen unbekannte Täter</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen den Bescheid der Bundes-Polizeidirektion vom 1928 (G. Z. P.B.
-                    115/2) respektive den Bescheid der Wiener Landesregierung vom 1929</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bescheid des Bundeskanzleramtes (G. Z. 139099 – 9.)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-025-000.xml"/></linkGrp></event></listEvent></person></listPerson><listOrg><org xml:id="pmb36799">
+<listEvent><event type="mentioned"><p>erwähnt in <title>101.1 Straferkenntnis der Bundes-Polizeidirektion Wien gegen Max Babad (G.Z. 674 Pst 57)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.2 [Aussageprotokoll] von Max Babad</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.3 Berufung gegen das Straferkenntnis vom 11. August 1928 durch Max Babad</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.16 Brief Österreichische Rote Hilfe an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-016-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.19 Brief der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 674/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.20 Ersatzanspruch von Karl Kraus und 5 Kolporteuren an die Bundespolizeidirektion Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.21 Bescheid der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 691/1/1928)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Berufung gegen den Bescheid vom 30. November 1928</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Strafanzeige gegen unbekannte Täter</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.24 Berufung gegen den Bescheid der Bundes-Polizeidirektion vom 24. Mai 1928 (G.Z. P.B. 115/2) bzw. den Bescheid der Wiener Landesregierung vom 5. April 1929</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.25 Bescheid des Bundeskanzleramtes (G.Z. 139099 – 9.)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-025-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb51593">
+  <persName>
+      <forename>Karl</forename>
+      <surname>Kaiser</surname>
+  </persName>
+
+
+
+
+  <sex value="male"/>
+
+
+  <occupation key="1430">Kolporteur/Kolporteurin</occupation>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/51593/</idno>
+
+
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>101.8 Straferkenntnis der Bundes-Polizeidirektion Wien gegen Karl Kaiser (G.Z. 685 und 685/Pst 53)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.9 [Aussageprotokolle] von Karl Kaiser und Gustav Heinzmann</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.10 Berufung gegen das Straferkenntnis vom 18. August 1928 durch Karl Kaiser</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.11 Brief Samek an Karl Kaiser</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.12 Vollmacht von Karl Kaiser für Oskar Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.19 Brief der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 674/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.20 Ersatzanspruch von Karl Kraus und 5 Kolporteuren an die Bundespolizeidirektion Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.21 Bescheid der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 691/1/1928)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Berufung gegen den Bescheid vom 30. November 1928</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.24 Berufung gegen den Bescheid der Bundes-Polizeidirektion vom 24. Mai 1928 (G.Z. P.B. 115/2) bzw. den Bescheid der Wiener Landesregierung vom 5. April 1929</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.25 Bescheid des Bundeskanzleramtes (G.Z. 139099 – 9.)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-025-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb51713">
+  <persName>
+      <forename>Hugo</forename>
+      <surname>Rosenberg</surname>
+  </persName>
+
+
+
+
+  <sex value="male"/>
+
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/51713/</idno>
+
+
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>101.4 Straferkenntnis der Bundes-Polizeidirektion Wien gegen Hugo Rosenberg; Umschlag</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.5 Berufung gegen das Straferkenntnis vom 11. August 1928 durch Hugo Rosenberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.16 14 Bestätigungen über Beschlagnahmung und Liste</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-016-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.19 Brief der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 674/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.20 Ersatzanspruch von Karl Kraus und 5 Kolporteuren an die Bundespolizeidirektion Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.21 Bescheid der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 691/1/1928)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Berufung gegen den Bescheid vom 30. November 1928</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.24 Berufung gegen den Bescheid der Bundes-Polizeidirektion vom 24. Mai 1928 (G.Z. P.B. 115/2) bzw. den Bescheid der Wiener Landesregierung vom 5. April 1929</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.25 Bescheid des Bundeskanzleramtes (G.Z. 139099 – 9.)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-025-000.xml"/></linkGrp></event></listEvent></person></listPerson><listOrg><org xml:id="pmb36799">
   <orgName>Bundespolizeidirektion Wien</orgName>
 
   <orgName type="uri_wikipedia">https://de.wikipedia.org/wiki/Bundespolizeidirektion_Wien</orgName>
@@ -542,7 +597,32 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Berufung gegen den Bescheid vom 1928</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen den Bescheid der Bundes-Polizeidirektion vom 1928 (G. Z. P.B.
-                    115/2) respektive den Bescheid der Wiener Landesregierung vom 1929</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Strafbezirksgerichts I Wien (G. Z. U 588/33, Landesgerichtsrat
-                    […] Standhartinger)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000185-002-000.xml"/></linkGrp></event></listEvent></org></listOrg></back></text>
+<listEvent><event type="mentioned"><p>erwähnt in <title>101.22 Berufung gegen den Bescheid vom 30. November 1928</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.23 Berufungsbescheid der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 115/2)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.24 Berufung gegen den Bescheid der Bundes-Polizeidirektion vom 24. Mai 1928 (G.Z. P.B. 115/2) bzw. den Bescheid der Wiener Landesregierung vom 5. April 1929</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>185.2 Beschluss des Strafbezirksgerichts I Wien (G.Z. U 588/33, Landesgerichtsrat Standhartinger)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000185-002-000.xml"/></linkGrp></event></listEvent></org></listOrg><listBibl><bibl xml:id="pmb53123">
+  <title type="main">Sonderausgabe der Fackel, Nr. 1 (= Schoberlied)</title>
+
+
+
+  <author key="person__11988">Kraus, Karl</author>
+
+
+
+
+<date notBefore-iso="1928-01-01" when-iso="1928-07-01" notAfter-iso="1928-12-31">1928</date>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/53123/</idno>
+
+
+<note type="collections">
+  
+  <bibl type="collections" n="5">legalkraus</bibl>
+  
+</note>
+
+
+
+  <note type="work_kind">Publikationsorgan &gt;&gt; Zeitschrift</note>
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>101.5 Berufung gegen das Straferkenntnis vom 11. August 1928 durch Hugo Rosenberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.6 Straferkenntnis der Bundes-Polizeidirektion Wien gegen Max Blatt (G.Z. 674 Pst 57)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.7 Berufung gegen das Straferkenntnis vom 11. August 1928 durch Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.8 Straferkenntnis der Bundes-Polizeidirektion Wien gegen Karl Kaiser (G.Z. 685 und 685/Pst 53)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.9 [Aussageprotokolle] von Karl Kaiser und Gustav Heinzmann</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.10 Berufung gegen das Straferkenntnis vom 18. August 1928 durch Karl Kaiser</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.11 Brief Samek an Karl Kaiser</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.13 Straferkenntnis der Bundes-Polizeidirektion Wien gegen Robert Schützenhofer (G.Z. 628 Pst 118); Umschlag</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.14 [Aussageprotokoll] von Robert Schützenhofer</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.15 Berufung gegen das Straferkenntnis vom 19. August 1928 durch Robert Schützenhofer</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.16 Brief Österreichische Rote Hilfe an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-016-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.16 14 Bestätigungen über Beschlagnahmung und Liste</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-016-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.17 Antrag auf Rückstellung von beschlagnahmten Exemplaren der Sonderausgabe der Fackel Nr. 1 (Kraus an die Polizeidirektion Wien, Pressbüro)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.18 Brief der Bundes-Polizeidirektion in Wien an Kraus (G.Z. P.B. 691)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.19 Brief der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 674/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.19 [Aktenvermerk] zum Bescheid P.B. 674/3/28,</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-019-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.20 Ersatzanspruch von Karl Kraus und 5 Kolporteuren an die Bundespolizeidirektion Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.21 Bescheid der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 691/1/1928)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Berufung gegen den Bescheid vom 30. November 1928</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Strafanzeige gegen unbekannte Täter</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.23 Berufungsbescheid der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 115/2)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.24 Berufung gegen den Bescheid der Bundes-Polizeidirektion vom 24. Mai 1928 (G.Z. P.B. 115/2) bzw. den Bescheid der Wiener Landesregierung vom 5. April 1929</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.25 Bescheid des Bundeskanzleramtes (G.Z. 139099 – 9.)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>137.2 Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000137-002-000.xml"/></linkGrp></event></listEvent></bibl></listBibl></back></text>
 </TEI>

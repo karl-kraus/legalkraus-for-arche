@@ -1,135 +1,169 @@
 <?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000139-006-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-005-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-007-000.xml">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Protokoll der Zeugenvernehmung von Desiderius Papp</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000139-006-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3827</idno>
-                <idno type="ID" subtype="transkribus">466720</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000139">Karl
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>139.6 Protokoll der Zeugenvernehmung von Desiderius Papp</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000139-006-000.xml </idno>
+            <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3827 </idno>
+            <idno type="ID" subtype="transkribus">466720</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000139">Karl
                     Kraus ca. Neues Wiener Journal</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000139-006-000-wit01" facs="D_000139-006-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date type="sortDate" when-iso="1929-11-13" subtype="produced">13. November
-                    1929</date>
-            </creation>
-            <langUsage>
-                <language ident="de">Deutsch</language>
-            </langUsage>
-            <textClass/>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change type="intertexts" when-iso="2021-04-12" who="#JK"/>
-            <change type="typography" when-iso="2021-04-12" who="#JK"/>
-            <change type="references" when-iso="2021-04-12" who="#JK"/>
-            <change type="structure" when-iso="2021-04-12" who="#JK"/>
-            <change when-iso="2020-10-08T14:07:43.857Z" who="#IB">created by API</change>
-            <change when-iso="2020-10-08T14:09:16.993Z" who="#IB">Replaced Text with Transcription
-                of Transkribus Document 466720.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000139-006-000.xml-facs001">
-        <surfaceGrp xml:id="D_000139-006-000.xml-facs001-l001">
-            <surface xml:id="D_000139-006-000.xml-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000054_30.jpg" source="krausonline"/>
-            </surface>
-            <surface xml:id="D_000139-006-000.xml-facs001-l001-p002" type="verso">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000057_29.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="D_000139-006-000.xml-facs001-l001-p001" n="1"/>
-            <p xml:id="uuid_d10c0842-45d0-40dc-9ea7-5fcb74ca22c5">
-                <lb xml:id="uuid_fef13e44-9b15-46fa-b13e-449b1506faf2"/><note type="paratext" resp="law-firm"><rs type="person" ref="#pmb11988">Kraus</rs> – <rs type="institution" ref="#pmb29320">N. Wr. Journal</rs>
-                </note>
-            </p>
-            <p xml:id="uuid_6e9c6708-b310-4975-b35a-e8f4e055f67b">
-                <lb xml:id="uuid_00a334d9-9461-43ba-a334-d99461d3ba91"/>13./XI. 1929 <lb xml:id="uuid_5a22cdaf-4f91-4c0e-a2cd-af4f918c0e32"/>Dr. <rs type="person" ref="#pmb36371">Desiderius Papp</rs>. <lb xml:id="uuid_8b3e66d1-7838-4aaa-be66-d178380aaa2f"/><rs type="person" ref="#pmb53676">Dr Max</rs> [und] <rs type="person" ref="#pmb53677">Charlotte</rs>
-                <lb xml:id="uuid_f8598581-91e9-4d50-9985-8191e96d50d6"/>21.5.1895 <lb xml:id="uuid_8b9b3eb6-d14d-4d90-9b3e-b6d14dad9057"/><rs type="place" ref="#pmb43567">Oedenburg</rs>
-                <lb xml:id="uuid_4d662941-3965-4ee5-a629-413965fee586"/><rs type="place" ref="#pmb49163">Eisenstadt</rs>
-                <lb xml:id="uuid_efd00a1e-ab9a-4af7-900a-1eab9aeaf747"/>mosaisch <lb xml:id="uuid_48c61035-1742-41c9-8610-351742f1c9ec"/>ledig <lb xml:id="uuid_6df989d9-8469-4163-b989-d98469a163ca"/>Verantwortlicher Redakteur
-                des „<rs type="institution" ref="#pmb29320">Neuen Wiener Journals</rs>“ <lb xml:id="uuid_da6a03db-acd8-40ad-aa03-dbacd800ada9"/><rs type="place" subtype="address" ref="#pmb52635">Wien V Zeinelhofgasse 12</rs>
-                <lb xml:id="uuid_adeed781-d906-4a6f-aed7-81d9060a6ff5"/>Universität <lb xml:id="uuid_1a515102-a909-472b-9151-02a909b72b1a"/>ca 800 S monatlich <lb xml:id="uuid_336ab2ee-0d1d-4063-aab2-ee0d1db06304"/><rs type="person" ref="#pmb53682">Bruder</rs> 17 Jahre <lb xml:id="uuid_22a966c1-b970-44c2-a966-c1b970c4c2ae"/>wiederholt wegen
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000139-006-000-wit01" facs="#D_000139-006-000-facs001"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000139-006-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.M">Manuskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date type="sortDate" when-iso="1929-11-13" subtype="produced">13. November 1929
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000139-006-000-wit01">Protokoll</term>
+            </keywords>
+            <classCode source="D_000139-006-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.PKL">D.J.PKL</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-04-12" who="#JK"/>
+         <change type="typography" when-iso="2021-04-12" who="#JK"/>
+         <change type="references" when-iso="2021-04-12" who="#JK"/>
+         <change type="structure" when-iso="2021-04-12" who="#JK"/>
+         <change when-iso="2020-10-08T14:07:43.857Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T14:09:16.993Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 466720. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000139-006-000-facs001">
+      <surfaceGrp xml:id="D_000139-006-000-facs001-l001">
+         <surface xml:id="D_000139-006-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559021/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface></surfaceGrp>
+      <surfaceGrp xml:id="D_000139-006-000-facs001-l002">
+         <surface xml:id="D_000139-006-000-facs001-l002-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559024/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000139-006-000_p001" facs="#D_000139-006-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_650daea8-4fbf-4c4b-b42d-fd769096d7fa">
+            <lb xml:id="uuid_1dbb853b-c863-437e-98f2-9cb8cea8f42e"/><note type="paratext" resp="law-firm"><rs type="person" ref="#pmb11988">Kraus</rs> – <rs type="institution" ref="#pmb29320">N. Wr. Journal</rs></note>
+         </p>
+         <p xml:id="uuid_6f94b639-e2ae-4a6f-80d8-4c186aa52815">
+            <lb xml:id="uuid_5676d460-af1b-4344-a53c-c9709795940a"/>13./XI. 1929<lb xml:id="uuid_a9ed0e27-fc96-4db0-81d0-6f46c5a9e959"/>Dr. <rs type="person" ref="#pmb36371">Desiderius Papp</rs>.<lb xml:id="uuid_2f832a14-1ef7-4e5d-95d4-831729ccc547"/><rs type="person" ref="#pmb53676">Dr Max</rs> [und] <rs type="person" ref="#pmb53677">Charlotte</rs>
+            <lb xml:id="uuid_3dcdc798-cd49-43c6-9353-1230a0aedf49"/>21.5.1895<lb xml:id="uuid_6768be8a-3296-4153-a6ed-3f8553975425"/><rs type="place" ref="#pmb43567">Oedenburg</rs>
+            <lb xml:id="uuid_e351164d-7e39-4f99-a5ad-7254f3c5ab82"/><rs type="place" ref="#pmb49163">Eisenstadt</rs>
+            <lb xml:id="uuid_a47c4f2c-d5e4-4585-bdd1-a8cdc96b95df"/>mosaisch<lb xml:id="uuid_8fbf2313-8069-4a15-8a40-9c882ef85834"/>ledig<lb xml:id="uuid_04483884-983e-418e-89e5-bb16010c2bb4"/>Verantwortlicher Redakteur
+                des „<rs type="institution" ref="#pmb29320">Neuen Wiener Journals</rs>“<lb xml:id="uuid_2fc522c3-8353-4316-9270-63d4a04a32b3"/><rs type="place" subtype="address" ref="#pmb52635">Wien V Zeinelhofgasse 12</rs>
+            <lb xml:id="uuid_c816f554-baef-47e3-a213-fc6c8a7930a8"/>Universität<lb xml:id="uuid_1549a71b-dd74-4466-9bea-fbff3710414d"/>ca 800 S monatlich<lb xml:id="uuid_3fc887f0-82bc-4d1a-b5b7-6587e4097080"/><rs type="person" ref="#pmb53682">Bruder</rs> 17 Jahre<lb xml:id="uuid_85e09093-1ce5-44e1-acb4-896b4eaebf19"/>wiederholt wegen
                 Pressedelikten </p>
-            <p xml:id="uuid_90c586d8-42a2-414a-b2f0-236588d7e777">
-                <lb xml:id="uuid_d17cac13-5f14-4df4-bcac-135f14adf466"/>Ich nehme zur Kenntnis, daß
-                gegen mich <lb xml:id="uuid_040197b7-2127-420a-8197-b72127c20aae"/>wegen Vergehens
-                gegen die Sicherheit der Ehre die <lb xml:id="uuid_ec6ad4ce-29f7-4ea2-aad4-ce29f76ea2e5"/>Voruntersuchungeingeleitet
-                wird. <lb xml:id="uuid_15285691-cb8b-400d-a856-91cb8b100df1"/>Ich bekenne mich nicht
-                schuldig. </p>
-            <p xml:id="uuid_e737c59c-35ca-46d3-b6e6-d0035782743d">
-                <lb xml:id="uuid_a6e127a5-ec6a-4f98-a127-a5ec6a4f987d"/>Die in den <rs type="work" ref="#pmb53653">Nummern 12.858</rs> u. <rs type="work" ref="#pmb53665">12.861 <lb xml:id="uuid_ffcae02e-e6f9-4e6d-8ae0-2ee6f95e6d4c"/>des „N.Wr.J.“</rs> vom
-                8. u. 11. September 1929 er<lb xml:id="uuid_3ebc5742-6907-4682-bc57-426907c6823d" break="no"/>schienene Aufsatz mit der Überschrift „Genoßen <lb xml:id="uuid_f8c22ee3-0976-452a-822e-e30976052a42"/>unter sich“ habe ich nicht
-                verfaßt und kenne <lb xml:id="uuid_845ec3ff-d48b-41e5-9ec3-ffd48b41e5f5"/>auch nicht
-                den <rs type="person">Verfaßer</rs>. </p>
-            <p xml:id="uuid_adc22f90-7fa9-4496-96ff-f37f43709d97">
-                <lb xml:id="uuid_e7b80a3d-dd4f-4278-b80a-3ddd4ff27807"/>Diese Artikel habe ich vor
-                der Drucklegung <lb xml:id="uuid_6ca922c9-26a3-44f3-a922-c926a324f359"/>nicht
-                gelesen und sie nicht in Kenntnis ihres In<lb xml:id="uuid_5fd6bddd-070c-4738-96bd-dd070ce738e1" break="no"/>haltes zur
-                Drucklegung befördert. Zu der in Frage <lb xml:id="uuid_39c99fd7-639e-49d3-899f-d7639e79d399"/>kommenden Zeit habe ich den
-                Dienst eines ver<lb xml:id="uuid_ee86af99-a3ff-4712-86af-99a3ff371217" break="no"/>antwortlichen Schriftleiters versehen, infolge Arbeits<lb xml:id="uuid_997de3fc-9092-48fb-bde3-fc9092c8fb15" break="no"/>überbürdung es
-                aber außer Acht gelaßen, dem <lb xml:id="uuid_16258e77-14ed-4ebb-a58e-7714eddebba8"/>Artikel meine Obsorge zu widmen. </p>
-            <p xml:id="uuid_c2bd4e96-4e05-4aa4-8150-adca5cf56ee8">
-                <lb xml:id="uuid_6a40aa4b-fe14-4e19-80aa-4bfe140e196b"/>Meine weitere Verantwortung
-                und einen <lb xml:id="uuid_aad103aa-497d-4148-9103-aa497dc14840"/>allfälligen
-                Wahrheitsbeweis behalte ich mir für die <lb xml:id="uuid_3645bd4a-c227-46d8-85bd-4ac227a6d83b"/>Hauptverhandlung vor. </p>
-            <pb facs="D_000139-006-000.xml-facs001-l001-p002" n="2"/>
-            <p xml:id="uuid_c965e6aa-49f9-4c11-8265-0bdc1e0885a1">
-                <lb xml:id="uuid_ef0eff99-7eeb-4dcc-8eff-997eebddcc74"/>[Steno]</p>
-        </body>
-    <back><listPerson><person xml:id="pmb11988">
+         <p xml:id="uuid_e5feeaa9-d2b1-4221-86e2-837c5f014a73">
+            <lb xml:id="uuid_89cca5c7-bcbe-4b59-af09-783260c77f9f"/>Ich nehme zur Kenntnis, daß
+            gegen mich<lb xml:id="uuid_3658bacb-349a-4444-a2f3-d1678ba76512"/>wegen Vergehens gegen
+            die Sicherheit der Ehre die<lb xml:id="uuid_98361754-96c0-46dc-a648-0f181efb99b9"/>Voruntersuchung eingeleitet wird.<lb xml:id="uuid_8df62009-465a-4bb0-ab8c-18a01b34844b"/>Ich bekenne mich nicht schuldig. </p>
+         <p xml:id="uuid_fac116f2-08e3-4886-8fd1-de3fa526ef0c">
+            <lb xml:id="uuid_a9c0f2e3-31a1-4481-9bae-d164c0785317"/>Die in den <rs type="work" ref="#pmb53653" subtype="pmb">Nummern 12.858</rs> u. <rs type="work" ref="#pmb53665" subtype="pmb">12.861<lb xml:id="uuid_0cfc76e9-ae29-4088-8f87-6c7c437ec956"/>des
+                    „N.Wr.J.“</rs> vom 8. u. 11. September 1929 er<lb xml:id="uuid_79d10ce7-c9d6-417e-82f1-8a2bb08badcc" break="no"/>schienene Aufsatz
+                mit der Überschrift „Genoßen<lb xml:id="uuid_9d3d0806-7cdd-4595-b253-f3e25c51d240"/>unter sich“ habe ich nicht verfaßt und kenne<lb xml:id="uuid_9fbc9516-3d73-40c6-9cfc-7210cc7e542c"/>auch nicht den <rs type="person">Verfaßer</rs>. </p>
+         <p xml:id="uuid_b8173205-f726-4848-b08a-2b72f1487419">
+            <lb xml:id="uuid_bb9758d6-a033-408b-a5c3-6492fa5ab32f"/>Diese <rs type="work" subtype="pmb">Artikel</rs> habe ich vor der Drucklegung<lb xml:id="uuid_d30c263c-b681-4171-b8c5-a3c5449a6d23"/>nicht gelesen und sie nicht in
+            Kenntnis ihres In<lb xml:id="uuid_e72ceeec-8964-43c8-9201-ccfd0ae5f062" break="no"/>haltes zur Drucklegung befördert. Zu der in Frage<lb xml:id="uuid_5af5667f-58e8-486b-bfae-7b5ea2bcf3b9"/>kommenden Zeit habe ich den
+            Dienst eines ver<lb xml:id="uuid_f05a77cb-5c42-446c-abd3-31b31b2e1d75" break="no"/>antwortlichen Schriftleiters versehen, infolge Arbeits<lb xml:id="uuid_f2d0af28-6889-4d47-af8f-41901a0ae87b" break="no"/>überbürdung es aber
+            außer Acht gelaßen, dem<lb xml:id="uuid_34a579c5-09b4-4b13-bf78-9c9c01bb71c4"/><rs type="work" subtype="pmb">Artikel</rs> meine Obsorge zu widmen. </p>
+         <p xml:id="uuid_cbef7367-21e1-4b3d-bee6-db0af530c5ee">
+            <lb xml:id="uuid_b5772925-b5c2-4bde-8fcf-5a472daca0b7"/>Meine weitere Verantwortung
+                und einen<lb xml:id="uuid_11e9ad9e-d38a-4d7d-a93d-70ab681f9057"/>allfälligen
+                Wahrheitsbeweis behalte ich mir für die<lb xml:id="uuid_eb87c807-0a4c-40b3-9bfc-4b59e0441f88"/>Hauptverhandlung vor. </p>
+         <pb xml:id="D_000139-006-000_p002" facs="#D_000139-006-000-facs001-l002-p002" n="2"/>
+         <p xml:id="uuid_c0ab42d2-04cb-4069-93b3-14c96d81803b">
+            <lb xml:id="uuid_9d2fe103-122e-4339-90b8-8a115c2e26b3"/>[Steno] </p>
+      </body>
+   <back><listPerson><person xml:id="pmb53682">
+  <persName>
+      <forename>?</forename>
+      <surname>Papp</surname>
+  </persName>
+
+
+
+
+  <sex value="male"/>
+
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/53682/</idno>
+
+
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>139.6 Protokoll der Zeugenvernehmung von Desiderius Papp</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-006-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb11988">
   <persName>
       <forename>Karl</forename>
       <surname>Kraus</surname>
@@ -142,13 +176,29 @@
     <date when-iso="1874-04-28">28.04.1874</date>
   
   
-      <settlement key="pmb41660">
-        <placeName type="pref">Jičín</placeName>
+    <settlement key="pmb41660">
+      <placeName type="pref">Jičín</placeName>
+    
+      <placeName type="alternative-name">Gitschin</placeName>
+    
+      <placeName type="alternative-name">Jičín</placeName>
+    
+      <placeName type="legacy-name">Jičín</placeName>
+    
+      <placeName type="legacy-name-merge">Jitschin</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4440310-0</placeName>
+    
+    
+      <location><geo>50,43723 15,35162</geo></location>
+    
+    
+      <idno type="URL">http://sws.geonames.org/3074204/</idno>
       
-        <location><geo>50,43723 15,35162</geo></location>
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/41660</idno>
       
-      </settlement>
-      
+    </settlement>
+    
        
   </birth>  
 
@@ -160,6 +210,29 @@
       <settlement key="pmb50">
         <placeName type="pref">Wien</placeName>
         
+        <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+        
+        <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+        
+        <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+        
+        <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+        
+      
         <location><geo>48,2066 16,37341</geo></location>
       
       </settlement>
@@ -239,6 +312,32 @@
     
 </affiliation>
 
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb60573">Karl Kraus-Gesellschaft</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/60573/</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb37159">Jahoda &amp; Siegel (Druckerei)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37159/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37159</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb87755">Max Goldschmidt (Büro für Zeitungsausschnitte)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/87755/</idno>
+    
+</affiliation>
+
 
 <listEvent>
     
@@ -275,7 +374,33 @@
 
 
 
-</person><person xml:id="pmb36371">
+</person><person xml:id="pmb53677">
+  <persName>
+      <forename>Charlotte</forename>
+      <surname>Papp</surname>
+  </persName>
+
+
+
+
+  <sex value="female"/>
+
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/53677/</idno>
+
+
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>139.6 Protokoll der Zeugenvernehmung von Desiderius Papp</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-006-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb36371">
   <persName>
       <forename>Desiderius</forename>
       <surname>Papp</surname>
@@ -288,13 +413,41 @@
     <date when-iso="1895-05-21">21.05.1895</date>
   
   
-      <settlement key="pmb43567">
-        <placeName type="pref">Sopron</placeName>
+    <settlement key="pmb43567">
+      <placeName type="pref">Sopron</placeName>
+    
+      <placeName type="alternative-name">Scarbantia</placeName>
+    
+      <placeName type="alternative-name">Sopron</placeName>
+    
+      <placeName type="alternative-name">Sopron</placeName>
+    
+      <placeName type="legacy-name">Sopron</placeName>
+    
+      <placeName type="legacy-name-merge">Sopron</placeName>
+    
+      <placeName type="legacy-name-merge">Ödenburg Sopron</placeName>
+    
+      <placeName type="namensvariante">Ödenburg</placeName>
+    
+    
+      <location><geo>47,68501 16,59049</geo></location>
+    
+    
+      <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/5999/</idno>
       
-        <location><geo>47,68501 16,59049</geo></location>
+      <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/25406/</idno>
       
-      </settlement>
+      <idno type="URL">https://d-nb.info/gnd/4075578-2</idno>
       
+      <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43567/</idno>
+      
+      <idno type="URL">https://sws.geonames.org/3045190/</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/43567</idno>
+      
+    </settlement>
+    
        
   </birth>  
 
@@ -306,6 +459,19 @@
       <settlement key="pmb54042">
         <placeName type="pref">Buenos Aires</placeName>
         
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/5302/</idno>
+        
+        <idno type="URL">https://d-nb.info/gnd/4008756-6</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/5302</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36370</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/54042/</idno>
+        
+        <idno type="URL">https://sws.geonames.org/3435910/</idno>
+        
+      
         <location><geo>-34,61315 -58,37723</geo></location>
       
       </settlement>
@@ -351,47 +517,7 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Neues Wiener Journal (verantw. Red.
-                    Desiderius Papp) wegen § 23, 24 Pr. G. (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000065-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Originalmappe Oskar Samek - Akt 65</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000065-004-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Aktenvermerk Oskar Samek - Akt 65</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000065-004-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Originalmappe Oskar Samek - Akt 81</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000081-002-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Neues Wiener Journal (verantw. Red.
-                    Desiderius Papp) wegen §§ 23, 24 Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rückscheine</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-002-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien (G. Z. U 223/29, Richter: Christoph
-                    Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Anmeldung der Berufung des Privatanklägers</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Neues Wiener Journal (verantw. Red.
-                    Desiderius Papp) wegen §§ 23, 24 Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien (G. Z. U 223/29, Richter: Christoph
-                    Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ausführung der Berufung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Mitteilung] des Strafbezirksgerichts I Wien an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zurücknahme der Berufung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>B. [Beschluss] des Landesgerichts für Strafsachen I Wien (G. Z. 14 Bl 985/29,
-                    Josef Schaupp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. 14 Bl 985/29,
-                    Josef Schaupp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Desider Friedmann an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Empfangsschein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-016-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Desider Friedmann an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Empfangsschein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-017-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Desider Friedmann an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Aktenvermerk Oskar Samek - Akt 132</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-020-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000138-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Antrag] auf Einleitung von Voruntersuchungen gegen Papp und unbekannte Täter
-                    wegen Ehrenbeleidigung begangen durch die Presse (Landesgericht für Strafsachen
-                    Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Abtretung eines Aktes an das Strafbezirksgericht I zur Bestrafung
-                    des Beschuldigten, Desiderius Papp, nach § 30 Pr. G. (Landesgericht für
-                    Strafsachen I Wien G. Z. 26 Vr 6699/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. 26 Vr 6699/29,
-                    Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der Zeugenvernehmung von Desiderius Papp</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Verständigung des Landesgerichts für Strafsachen I Wien (G. Z. 26 Vr 6699/29,
-                    Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien (G. Z. 1 U 456/29, Richter: Christoph
-                    Höflmayr, Verteidiger: Robert Brunner)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000140-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Originalmappe Oskar Samek - Akt 140</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000140-001-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Aktenvermerk Oskar Samek - Akt 140</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000140-001-002.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb53682">
-  <persName>
-      <forename>?</forename>
-      <surname>Papp</surname>
-  </persName>
-
-
-
-
-  <sex value="male"/>
-
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/53682/</idno>
-
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der Zeugenvernehmung von Desiderius Papp</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-006-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb53676">
+<listEvent><event type="mentioned"><p>erwähnt in <title>65.2 Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000065-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>65.3 Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000065-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>65.4 Privatanklage von Karl Kraus gegen Neues Wiener Journal (verantw. Red. Desiderius Papp) wegen §§ 23, 24 Pr.G. (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000065-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>81.2 Brief Samek an Neues Wiener Journal</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000081-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>86.3 Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000086-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>119.2 Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000119-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.1 Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.2 Privatanklage von Karl Kraus gegen Neues Wiener Journal (verantw. Red. Desiderius Papp) wegen §§ 23, 24 Pr.G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.4 Urteil des Strafbezirksgerichts I Wien (G.Z. 1 U 223/29, Richter: Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.6 Anmeldung der Berufung des Privatanklägers</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.7 Privatanklage von Karl Kraus gegen Neues Wiener Journal (verantw. Red. Desiderius Papp) wegen §§ 23, 24 Pr.G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.9 Urteil des Strafbezirksgerichts I Wien (G.Z. 1 U 231/29, Richter: Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.10 Ausführung der Berufung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.11 Mitteilung des Strafbezirksgerichts I Wien an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.13 Zurücknahme der Berufung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.14 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. 14 Bl 985/29, Josef Schaupp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.15 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. 14 Bl 985/29, Josef Schaupp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.16 Brief RA Desider Friedmann an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.17 Brief RA Desider Friedmann an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.20 Brief RA Desider Friedmann an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>137.2 Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000137-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>138.2 Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000138-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.1 Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.2 Antrag auf Einleitung von Voruntersuchungen gegen Papp und unbekannte Täter wegen Ehrenbeleidigung begangen durch die Presse (Landesgericht für Strafsachen Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.3 Postdirektion für Wien, Niederösterreich und Burgenland an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.4 Antrag auf Abtretung eines Aktes an das Strafbezirksgericht I zur Bestrafung des Beschuldigten, Desiderius Papp, nach § 30 Pr.G. (Landesgericht für Strafsachen I Wien G.Z. 26 Vr 6699/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.5 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. 26 Vr 6699/29, Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.6 Protokoll der Zeugenvernehmung von Desiderius Papp</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.7 Verständigung des Landesgerichts für Strafsachen I Wien (G.Z. 26 Vr 6699/29, Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.9 Urteil des Strafbezirksgerichts I Wien (G.Z. 1 U 456/29, Richter: Christoph Höflmayr, Verteidiger: Robert Brunner)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.12 Brief Samek an RA Desider Friedmann</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>140.1 Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000140-001-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb53676">
   <persName>
       <forename>Max</forename>
       <surname>Papp</surname>
@@ -417,22 +543,78 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der Zeugenvernehmung von Desiderius Papp</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-006-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb53677">
-  <persName>
-      <forename>Charlotte</forename>
-      <surname>Papp</surname>
-  </persName>
+<listEvent><event type="mentioned"><p>erwähnt in <title>139.6 Protokoll der Zeugenvernehmung von Desiderius Papp</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-006-000.xml"/></linkGrp></event></listEvent></person></listPerson><listBibl><bibl xml:id="pmb53665">
+  <title type="main">Neues Wiener Journal, 11.9.1929</title>
+
+  <title type="bibliografische_angabe">Neues Wiener Journal, Nr. 12861, 11.9.1929</title>
+
+  <title type="uri_anno">https://anno.onb.ac.at/cgi-content/anno?aid=nwj&amp;datum=19290911&amp;zoom=33</title>
 
 
 
 
-  <sex value="female"/>
+<date when-iso="1929-09-11">1929-09-11</date>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/53665/</idno>
+
+
+<note type="collections">
+  
+  <bibl type="collections" n="5">legalkraus</bibl>
+  
+</note>
 
 
 
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/53677/</idno>
+  <note type="work_kind">Publikationsorgan &gt;&gt; Tageszeitung</note>
 
 
+<listEvent><event type="mentioned"><p>erwähnt in <title>138.2 Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000138-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.2 Antrag auf Einleitung von Voruntersuchungen gegen Papp und unbekannte Täter wegen Ehrenbeleidigung begangen durch die Presse (Landesgericht für Strafsachen Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.4 Antrag auf Abtretung eines Aktes an das Strafbezirksgericht I zur Bestrafung des Beschuldigten, Desiderius Papp, nach § 30 Pr.G. (Landesgericht für Strafsachen I Wien G.Z. 26 Vr 6699/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.5 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. 26 Vr 6699/29, Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.6 Protokoll der Zeugenvernehmung von Desiderius Papp</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.9 Urteil des Strafbezirksgerichts I Wien (G.Z. 1 U 456/29, Richter: Christoph Höflmayr, Verteidiger: Robert Brunner)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-009-000.xml"/></linkGrp></event></listEvent></bibl><bibl xml:id="pmb53653">
+  <title type="main">Neues Wiener Journal, 8.9.1929</title>
+
+  <title type="bibliografische_angabe">Neues Wiener Journal, Nr. 12858, 8.9.1929</title>
+
+  <title type="uri_anno">https://anno.onb.ac.at/cgi-content/anno?aid=nwj&amp;datum=19290908&amp;zoom=33</title>
+
+
+
+
+<date when-iso="1929-09-08">1929-09-08</date>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/53653/</idno>
+
+
+<note type="collections">
+  
+  <bibl type="collections" n="5">legalkraus</bibl>
+  
+</note>
+
+
+
+  <note type="work_kind">Publikationsorgan &gt;&gt; Tageszeitung</note>
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>137.2 Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000137-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.2 Antrag auf Einleitung von Voruntersuchungen gegen Papp und unbekannte Täter wegen Ehrenbeleidigung begangen durch die Presse (Landesgericht für Strafsachen Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.4 Antrag auf Abtretung eines Aktes an das Strafbezirksgericht I zur Bestrafung des Beschuldigten, Desiderius Papp, nach § 30 Pr.G. (Landesgericht für Strafsachen I Wien G.Z. 26 Vr 6699/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.5 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. 26 Vr 6699/29, Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.6 Protokoll der Zeugenvernehmung von Desiderius Papp</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.9 Urteil des Strafbezirksgerichts I Wien (G.Z. 1 U 456/29, Richter: Christoph Höflmayr, Verteidiger: Robert Brunner)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-009-000.xml"/></linkGrp></event></listEvent></bibl></listBibl><listPlace><place xml:id="pmb52635">
+  <placeName>Zeinlhofergasse</placeName>
+
+  <placeName type="namensvariante">Zeinelhofergasse</placeName>
+
+
+<location type="coords">
+  <geo>48,194847419877014 16,35752152704257</geo>
+</location>
+
+
+<location type="located_in_place">
+  <placeName key="pmb55">V., Margareten</placeName>
+  <geo>48,18646 16,35491</geo>
+</location>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52635/</idno>
 
 
 <listBibl>
@@ -443,7 +625,7 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der Zeugenvernehmung von Desiderius Papp</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-006-000.xml"/></linkGrp></event></listEvent></person></listPerson><listPlace><place xml:id="pmb43567">
+<listEvent><event type="mentioned"><p>erwähnt in <title>65.4 Privatanklage von Karl Kraus gegen Neues Wiener Journal (verantw. Red. Desiderius Papp) wegen §§ 23, 24 Pr.G. (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000065-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.5 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. 26 Vr 6699/29, Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.6 Protokoll der Zeugenvernehmung von Desiderius Papp</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>183.4 Brief Samek an Peter Lorre</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000183-004-000.xml"/></linkGrp></event></listEvent></place><place xml:id="pmb43567">
   <placeName>Sopron</placeName>
 
   <placeName type="alternative-name">Scarbantia</placeName>
@@ -497,7 +679,7 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der Zeugenvernehmung von Desiderius Papp</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-006-000.xml"/></linkGrp></event></listEvent></place><place xml:id="pmb49163">
+<listEvent><event type="mentioned"><p>erwähnt in <title>139.6 Protokoll der Zeugenvernehmung von Desiderius Papp</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-006-000.xml"/></linkGrp></event></listEvent></place><place xml:id="pmb49163">
   <placeName>Eisenstadt</placeName>
 
   <placeName type="alternative-name">Eisenstadt</placeName>
@@ -539,37 +721,7 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der Zeugenvernehmung von Desiderius Papp</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-006-000.xml"/></linkGrp></event></listEvent></place><place xml:id="pmb52635">
-  <placeName>Zeinlhofergasse</placeName>
-
-  <placeName type="namensvariante">Zeinelhofergasse</placeName>
-
-
-<location type="coords">
-  <geo>48,194847419877014 16,35752152704257</geo>
-</location>
-
-
-<location type="located_in_place">
-  <placeName key="pmb55">V., Margareten</placeName>
-  <geo>48,18646 16,35491</geo>
-</location>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52635/</idno>
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Neues Wiener Journal (verantw. Red.
-                    Desiderius Papp) wegen § 23, 24 Pr. G. (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000065-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Aktenvermerk Oskar Samek - Akt 65</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000065-004-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. 26 Vr 6699/29,
-                    Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der Zeugenvernehmung von Desiderius Papp</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-006-000.xml"/></linkGrp></event></listEvent></place></listPlace><listOrg><org xml:id="pmb29320">
+<listEvent><event type="mentioned"><p>erwähnt in <title>139.6 Protokoll der Zeugenvernehmung von Desiderius Papp</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-006-000.xml"/></linkGrp></event></listEvent></place></listPlace><listOrg><org xml:id="pmb29320">
   <orgName>Neues Wiener Journal</orgName>
 
   <orgName type="uri_anno">http://anno.onb.ac.at/info/nwj_info.htm</orgName>
@@ -582,7 +734,9 @@
   <placeName key="pmb50">Wien</placeName>
   <geo>48,2066 16,37341</geo>
   
-  <note type="IDNO" subtype="geonames">https://www.geonames.org/2761369</note>
+  <note type="IDNO" subtype="geonames">https://sws.geonames.org/2761369/</note>
+  
+  <note type="IDNO" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</note>
   
   <note type="IDNO" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</note>
   
@@ -592,9 +746,15 @@
   
   <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/50</note>
   
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/2316</note>
+  
   <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/20954</note>
   
   <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</note>
+  
+  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</note>
+  
+  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</note>
   
 </location>
 
@@ -607,6 +767,14 @@
   <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/1270</note>
   
   <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1270</note>
+  
+</location>
+
+<location type="located_in_place">
+  <placeName key="pmb52670">Biberstraße</placeName>
+  <geo>48,209725072054226 16,381223898207065</geo>
+  
+  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52670/</note>
   
 </location>
 
@@ -630,22 +798,5 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Neues Wiener Journal (verantw. Red.
-                    Desiderius Papp) wegen § 23, 24 Pr. G. (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000065-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Originalmappe Oskar Samek - Akt 65</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000065-004-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Aktenvermerk Oskar Samek - Akt 65</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000065-004-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Neues Wiener Journal (verantw. Red.
-                    Desiderius Papp) wegen §§ 23, 24 Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rückscheine</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-002-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien (G. Z. U 223/29, Richter: Christoph
-                    Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Anmeldung der Berufung des Privatanklägers</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Neues Wiener Journal (verantw. Red.
-                    Desiderius Papp) wegen §§ 23, 24 Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien (G. Z. U 223/29, Richter: Christoph
-                    Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ausführung der Berufung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Mitteilung] des Strafbezirksgerichts I Wien an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zurücknahme der Berufung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>B. [Beschluss] des Landesgerichts für Strafsachen I Wien (G. Z. 14 Bl 985/29,
-                    Josef Schaupp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. 14 Bl 985/29,
-                    Josef Schaupp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Desider Friedmann an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Empfangsschein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-016-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Desider Friedmann an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Empfangsschein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-017-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Desider Friedmann an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Aktenvermerk Oskar Samek - Akt 132</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-020-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Antrag] auf Einleitung von Voruntersuchungen gegen Papp und unbekannte Täter
-                    wegen Ehrenbeleidigung begangen durch die Presse (Landesgericht für Strafsachen
-                    Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Abtretung eines Aktes an das Strafbezirksgericht I zur Bestrafung
-                    des Beschuldigten, Desiderius Papp, nach § 30 Pr. G. (Landesgericht für
-                    Strafsachen I Wien G. Z. 26 Vr 6699/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. 26 Vr 6699/29,
-                    Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der Zeugenvernehmung von Desiderius Papp</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Verständigung des Landesgerichts für Strafsachen I Wien (G. Z. 26 Vr 6699/29,
-                    Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien (G. Z. 1 U 456/29, Richter: Christoph
-                    Höflmayr, Verteidiger: Robert Brunner)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Notizzettel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-010-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Willy Katz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000168-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Neues Wiener Journal (verantw. Red. Hans
-                    Tabarelli) wegen Ehrenbeleidigung begangen durch die Presse</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Rolf Nürnberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien (G. Z. 5 U 87/32, Richter:
-                    Landesgerichtsrat […] Standhartinger, Verteidiger: Eduard Pachtmann)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Anmeldung der Berufung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ausführung der Berufung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Desider Friedmann</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Desider Friedmann an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Neues Wiener Journal an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Aktenvermerk Oskar Samek - Akt 174</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-014-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien (G. Z. U 588/33, Richter:
-                    Landesgerichtsrat […] Standhartinger, Verteidiger: Herbert Schreuer)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000185-011-000.xml"/></linkGrp></event></listEvent></org></listOrg></back></text>
+<listEvent><event type="mentioned"><p>erwähnt in <title>1.2 Brief Samek an Neues Wiener Journal (verantw. Red. Willibald Riedl)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000001-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>65.2 Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000065-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>65.4 Privatanklage von Karl Kraus gegen Neues Wiener Journal (verantw. Red. Desiderius Papp) wegen §§ 23, 24 Pr.G. (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000065-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>81.2 Brief Samek an Neues Wiener Journal</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000081-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>86.3 Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000086-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>104.2 Brief Samek an Konzert-Direktion Herm. Wolff &amp; Jules Sachs G.m.b.H.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000104-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>104.3 Brief Konzert-Direktion Herm. Wolff &amp; Jules Sachs G.m.b.H an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000104-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.2 Privatanklage von Karl Kraus gegen Neues Wiener Journal (verantw. Red. Desiderius Papp) wegen §§ 23, 24 Pr.G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.4 Urteil des Strafbezirksgerichts I Wien (G.Z. 1 U 223/29, Richter: Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.6 Anmeldung der Berufung des Privatanklägers</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.7 Privatanklage von Karl Kraus gegen Neues Wiener Journal (verantw. Red. Desiderius Papp) wegen §§ 23, 24 Pr.G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.9 Urteil des Strafbezirksgerichts I Wien (G.Z. 1 U 231/29, Richter: Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.10 Ausführung der Berufung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.11 Mitteilung des Strafbezirksgerichts I Wien an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.13 Zurücknahme der Berufung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.14 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. 14 Bl 985/29, Josef Schaupp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.15 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. 14 Bl 985/29, Josef Schaupp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.16 Brief RA Desider Friedmann an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.17 Brief RA Desider Friedmann an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>132.20 Brief RA Desider Friedmann an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>138.2 Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000138-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.1 Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.2 Antrag auf Einleitung von Voruntersuchungen gegen Papp und unbekannte Täter wegen Ehrenbeleidigung begangen durch die Presse (Landesgericht für Strafsachen Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.3 Postdirektion für Wien, Niederösterreich und Burgenland an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.4 Antrag auf Abtretung eines Aktes an das Strafbezirksgericht I zur Bestrafung des Beschuldigten, Desiderius Papp, nach § 30 Pr.G. (Landesgericht für Strafsachen I Wien G.Z. 26 Vr 6699/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.5 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. 26 Vr 6699/29, Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.6 Protokoll der Zeugenvernehmung von Desiderius Papp</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.7 Verständigung des Landesgerichts für Strafsachen I Wien (G.Z. 26 Vr 6699/29, Ivan Schima)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.9 Urteil des Strafbezirksgerichts I Wien (G.Z. 1 U 456/29, Richter: Christoph Höflmayr, Verteidiger: Robert Brunner)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.12 Brief Samek an RA Desider Friedmann</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>147.15 Antrag auf Einleitung von Vorerhebungen gegen den Beschuldigten und gegen unbekannte Täter wegen Ehrenbeleidigung begangen durch die Presse (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000147-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>168.11 Brief Samek an RA Willy Katz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000168-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>168.13 Schriftsatz in Sachen Kraus ./. Landsberg (RA Willy Katz an das Amtsgericht Berlin-Mitte, G.Z. Q. 47/32)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000168-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>174.2 Privatanklage von Karl Kraus gegen Neues Wiener Journal (verantw. Red. Hans Tabarelli) wegen Ehrenbeleidigung begangen durch die Presse</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>174.4 Brief Samek an Rolf Nürnberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>174.5 Brief Samek an Rolf Nürnberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>174.6 Urteil des Strafbezirksgerichts I Wien (G.Z. 5 U 87/32, Richter: Landesgerichtsrat […] Standhartinger, Verteidiger: Eduard Pachtmann)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>174.7 Anmeldung der Berufung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>174.8 Ausführung der Berufung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>174.11 Brief Samek an RA Desider Friedmann</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>174.12 Brief RA Desider Friedmann an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>174.14 Brief Neues Wiener Journal an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>185.11 Urteil des Strafbezirksgerichts I Wien (G.Z. U 588/33, Richter: Landesgerichtsrat Standhartinger, Verteidiger: Herbert Schreuer)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000185-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>196.101 Brief Samek an RA Felix Gallia</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-101-000.xml"/></linkGrp></event></listEvent></org></listOrg></back></text>
 </TEI>

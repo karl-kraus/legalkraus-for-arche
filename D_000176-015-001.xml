@@ -1,345 +1,106 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000176-015-001.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-015-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-016-000.xml">
-<teiHeader><!-- LU: entspricht alles (außer Titel und IDs) 176.15.0 -> ggf. korrigieren -->
-        <fileDesc>
-            <titleStmt>
-                <title>Rückschein</title>
-                <editor ref="#pmbIL">Isabel Langkabel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher/>
-                <availability default="false">
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000176-015-001.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4365</idno>
-                <idno type="ID" subtype="transkribus">349100</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000176">Karl
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-016-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-015-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000176-015-001.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>176.15 Rückschein</title>
+            <editor ref="#pmbIL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                  Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000176-015-001.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4365</idno>
+            <idno subtype="transkribus" type="ID">349100</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000176" type="collection">Karl
                     Kraus ca. Städtische Bühnen Essen</title>
-            </seriesStmt>
-            <sourceDesc default="false">
-                <listWit>
-                    <witness xml:id="D_000176-015-001-wit01" facs=""/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-10-09T14:32:15.76Z" who="#IB" status="draft">created by
-                API</change>
-            <change when-iso="2021-09-06" who="#LU">Replaced Text with Transcription of Transkribus
-                Document 349100.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000176-015-001-facs001">
-        <surfaceGrp xml:id="D_000176-015-001-facs001-l001">
-            <surface xml:id="D_000176-015-001-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000195_16.jpg" source="krausonline"/>
-            </surface>
-            <surface xml:id="D_000176-015-001-facs001-l001-p002" type="verso">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000196_15.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <facsimile ana="furtherwitnesses">
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000197_17.jpg" source="krausonline"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000198_17.jpg" source="krausonline"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000199_17.jpg" source="krausonline"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000200_18.jpg" source="krausonline"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000201_16.jpg" source="krausonline"/>
-        </surface>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="" n="1"/>
-            <p xml:id="uuid_6ccf47d5-f514-4095-a2a7-8a858f87706d"><!--#IL Vertrag edieren?--><lb xml:id="uuid_d84f05b5-c47d-49d9-bf6c-250d3120f95b"/>Nr. 2228 168 <lb xml:id="uuid_0ce68202-8a33-4b8b-9b7a-6bd2c35e0541"/>Ges. am 21. August 1931. <lb xml:id="uuid_70d3e6db-2bd4-493e-b09a-8c8fe2bb4c5a"/>An die <lb xml:id="uuid_5d1bd836-a85f-4216-92c0-abba026be2eb"/>Universal-Edition A. G. <lb xml:id="uuid_f7fb81d5-ad20-475e-b89f-4a6ac6b7685b"/>Wien I. <lb xml:id="uuid_2e78c098-75cc-4962-b1a9-25c0d1481a27"/>Karlsplatz 6 </p>
-            <p xml:id="uuid_46be9f4a-3a19-4f2e-9282-de920e6e14af"><lb xml:id="uuid_56754f73-ed70-4e91-839b-f4df6011bcdf"/>Zwischen Ihnen als Verleger
-                einerseits und der Intendanz der Städtischen <lb xml:id="uuid_95969178-57d8-49bf-b907-102033317d9d"/>Bühnen in Essen als
-                Bühnenunternehmer <lb xml:id="uuid_ad3be57a-5d69-4515-b2f0-46e89ee73c2f"/>(nachstehend Bühnenunternehmer genannt) anderseits ist folgende Abmachung
-                getroffen worden: <lb xml:id="uuid_61ac348a-3734-4dcc-8efe-db3ee327c5a6"/>§ 1.
-                Aufführungspflicht. Der Bühnenuntemehmer verpflichtet sich, das nachgenannte Werk am
-                nachgenannten <lb xml:id="uuid_d578057a-0618-400f-888f-2f0a9e8ae2cf"/>Theater in der
-                nachgenannten Stadt zur Aufführung zu bringen. <lb xml:id="uuid_576b5997-7657-4a19-b5c5-14e3fe0cff7a"/>Es herrscht Einverständnis
-                darüber, daß die Verbreitung der Vorstellungen nachgenannten Werkes durch Radio, <lb xml:id="uuid_5ca628c0-9add-4b44-8a43-0f92e71ce419"/>Telephon oder sonstige
-                technische Mittel, mögen sie bestehen oder erst erfunden werden, ohne vorher
-                eingeholte schriftliche <lb xml:id="uuid_e22a8930-d558-43b3-95f5-b955544fbe27"/>Erlaubnis des Verlages unzulässig ist.</p>
-            <p xml:id="uuid_03690a68-5c51-4179-ab72-895aa3f08587"><lb xml:id="uuid_388237ff-d31a-471f-937c-fa9e235549e5"/>8 2. Aufführungstermin. Der
-                Bühnenunternehmer verpflichtet sich, das nachgenannte Werk als Abendvorstellung <lb xml:id="uuid_b98b4141-544d-41e5-be2b-bba0755cae7a"/>in dem nachgenannten Orte
-                bis spätestens am 31. Januar 1932 <lb xml:id="uuid_0ae4dc36-9cf5-402e-884d-5b28a30f1301"/>zur ersten Aufführung zu
-                bringen, jedoch nicht vor.-. und nicht in <lb xml:id="uuid_90426eaa-9dc3-4c62-b4ad-9a92cfabf571"/>der Zeit vom 10. bis 22.
-                Dezember. Nachmittagsvorstellungen dürfen erst stattfinden, a) wenn .. Abendvor¬ <lb xml:id="uuid_1584fbf5-3506-4960-900b-3b6126cf5c84"/>stellungen stattgefunden
-                haben, b) wenn die Einnahmen der letzten.Abendvorstellungen weniger als. <lb xml:id="uuid_89af17f7-a769-4474-b89f-cd3bcd6ee921"/>... betragen.</p>
-            <p xml:id="uuid_52573384-6c10-4963-8b38-2b504c959eeb"><lb xml:id="uuid_c46bf545-03da-4819-ac6b-bb0023728397"/>8 3. Übertragung des
-                Aufführungsrechtes. Sie übertragen, berechtigt durch den mit dem Urheber
-                geschlossenen <lb xml:id="uuid_13fe34ab-74dc-4d17-9bff-1e3b815432ae"/>Vertrag, dem
-                Bühnenunternehmer a/rrtorrtlfomifftrtTTimiprn^r^^ das Recht zur bühnenmäßigen <lb xml:id="uuid_58614588-d538-4d7b-8d69-dac459a50c1c"/>Aufführung in deutscher /./
-                Sprache des Werkes —. <lb xml:id="uuid_f45c9315-4aa9-4234-b3c8-cee6f0786f52"/>„Madame L’Archiduc“ Opera buffa in drei Akten von Jacques Offenbach <lb xml:id="uuid_69c55863-962b-4d3a-9d34-ab1686763827"/>in der Bearbeitung von Karl
-                <rs type="person" ref="#pmb11988">Kraus</rs>
-                <lb xml:id="uuid_cbdf1e51-6824-4dd9-9e68-6e8be80cef00"/>an den Städtischen Bühnen
-                Essen/Ruhr <lb xml:id="uuid_c5958e51-dc6b-438f-8f92-8d4c20dcfcfe"/>Durch die
-                Übertragung des Rechts der bühnenmäßigen Aufführung des Werkes wird das Recht des
-                Urhebers bezw. <lb xml:id="uuid_bdfedeff-7d84-4013-9930-16f901f41141"/>Verlegers auf
-                die Verwertung des Werkes als Film und Tonfilm auch während der Dauer dieser
-                Abmachung nicht berührt. <lb xml:id="uuid_cd366935-96ef-4e8d-87e7-a1d82083df4e"/>§
-                4. Urheberanteil. Der Bühnenunternehmer zahlt an Sie als Gegenleistung für die
-                Überlassung des obgenannten <lb xml:id="uuid_1e86797d-62e1-420f-916a-dfd4f1667860"/>7 sieben <lb xml:id="uuid_2d1ead29-55e4-44bb-9e8c-f4d4a32fb85e"/>Werkes von der
-                Roheinnähme einen Urheberanteil von .°/0, in Worten ........:.Prozent. <lb xml:id="uuid_ec318637-edf9-41ba-8bd2-d0bd97a559cb"/>Hievon gelten 5,6% als
-                Aufführungstantieme, 1,4% als Materialtantieme. Der Bühnenunternehmer verpflichtet
-                sich, auf <lb xml:id="uuid_e2ebfc9c-97a5-45d1-8c57-50145d6a959a"/>Wunsch die
-                Kassenrapporte amtlich beglaubigen zu lassen. <lb xml:id="uuid_638ae322-ce0c-44b7-a414-0ed8c4d58acb"/>§5. Material. Bei
-                Vertragsabschluß zahlt der Bühnenuntemehmer für die mietweise Überlassung des Musik-
-                <lb xml:id="uuid_6b071ef4-c23c-4f4f-ae9b-5de7e99af6d4"/>materials M 650.–– <lb xml:id="uuid_31f3dad8-256e-4b26-bca5-42a528d9a93d"/>in Worten
-                sechshundertfünfzig Mark <lb xml:id="uuid_a406e6f7-1123-45c4-a1fe-3b48888c5087"/>Die
-                Rücksendung hat an die Firma Universal-Edition A.G., WTen—Leipzig, zu erfolgen. Sie
-                sind zur Lieferung von Auf¬ <lb xml:id="uuid_aa33d591-5f2d-424d-9fb4-9285359e4c5a"/>führungsmaterial nicht verpflichtet.</p>
-            <p xml:id="uuid_bf7792bf-eb1d-4610-a3bc-b046ef91acf1">
-                <lb xml:id="uuid_8bb478ef-e675-4b99-8715-295aa20fcda4"/>8 6. Materiallieferung, a)
-                Der Verlag verpflichtet sich, das Material bis. <lb xml:id="uuid_ad6efb96-6871-4a3a-9c8a-502d46d9ee04"/>zu liefern, b) der Verlag
-                erklärt, das Material nicht zu liefern. <lb xml:id="uuid_5b2d109b-e7db-4e65-828e-d97f8c76bdc9"/>Der Bühnenunternehmer
-                verpflichtet sich, das komplette Aufführungsmaterial, soferne es weder zu Proben
-                noch zu <lb xml:id="uuid_bdc84f33-4e87-4585-a792-5f57414867eb"/>Aufführungen
-                benötigt wird, der Universal-Edition A. G, Wien, franko und kostenlos zwecks
-                Vervielfältigung zur Verfügung <lb xml:id="uuid_7d2e5b56-1918-4cf8-8245-0bb9ab276fae"/>zu stellen. </p>
-            <p xml:id="uuid_67bc7063-e4db-4800-b413-5ac9652cd5e1"><lb xml:id="uuid_e7d24df7-a4c3-4a31-8957-4d940cc994fe"/>8 7. Abrechnung und Zahlung.
-                Die genau spezifizierte Abrechnung und Zahlung der sich aus § 4 ergebenden <lb xml:id="uuid_1cdf5491-a194-4aec-8a92-a9237ef20b22"/>Beträge erfolgt pünktlich
-                und portofrei monatlich, und zwar spätestens bis zum 10., über die Aufführungen des
-                vorherge¬ <lb xml:id="uuid_51f8ac74-dfaf-4690-bcfa-4779beb5735b"/>gangenen Monats an
-                die Universal-Edition A. G., Wien, I. Karlsplatz 6.</p>
-            <pb facs="" n="2"/>
-            <p xml:id="uuid_dfac2531-f7bd-4b43-baf7-c2241d95087a">
-                <lb xml:id="uuid_c792ca71-718e-4f09-ab85-feebdf9a5faf"/>8 8. Dauer der Abmachung.
-                Diese Abmachung ist für die Zeit vom Abschluß bis 31. Juli 1932 <lb xml:id="uuid_9c4c10af-1361-4b69-bb33-a2af47cac6cd"/>abgeschlossen. </p>
-            <p xml:id="uuid_096a12d8-e163-4300-933f-dae9eec356d8"><lb xml:id="uuid_1e4bea40-a56d-4a77-be5c-71e9881dee8c"/>8 9. Abschluß. Die durch
-                Übersendung vorliegenden Entwurfes gemachte Offerte ist freibleibend für den Verlag,
-                <lb xml:id="uuid_368ad233-610e-4ca2-b312-912499db7647"/>bis sich die Abmachung
-                mit der Unterschrift des Verlages in der Hand des Biihnenuntemehmers befindet. Es
-                genügt aber <lb xml:id="uuid_3a0c2750-4081-4d40-9197-dd79c4dbcac7"/>auch eine
-                telegraphische Bestätigung (vergl. § 4 des Tarifvertrages).</p>
-            <p xml:id="uuid_bdb83161-1cad-437a-973a-30501fa63667"><lb xml:id="uuid_c4062c64-e03b-452b-a1cf-ad4cf7efe234"/>8 10. Konventionalstrafe.
-                Falls einer der beiden Teile eine Bestimmung dieser Abmachung gröblich verletzt,
-                insbe¬ <lb xml:id="uuid_ff36a0c8-71b8-43af-8423-e398692c0d91"/>sondere wenn der
-                Bühnenunternehmer die Erstaufführung nicht innerhalb der in § 2 vereinbarten Frist
-                bewirkt oder die in <lb xml:id="uuid_ee211e25-21aa-47cb-a809-b7e2290b7b2f"/>den §§
-                4, 5 und 7 festgelegten Verpflichtungen oder wenn der Verlag die in § 6 vorgesehene
-                Lieferungspflicht nicht erfüllt, <lb xml:id="uuid_eca798f8-d520-4e08-92f5-8d3c48ab18e3"/>hat der ^vertpagsuntreue
-                Teil dem anderen eine keiner richterlichen Mäßigung unterliegende Konventionalstrafe
-                <lb xml:id="uuid_c9b39ebc-f04e-445f-b0ed-08ad8a9c248f"/>von M 650.–– zu
-                bezahlen, ohne daß die Pflicht zur Erfüllung der Abmachung erlischt. Wird der in § 2
-                vor¬ <lb xml:id="uuid_cb6ce94a-c727-4ab2-8e12-b7cba62b569c"/>gesehene
-                Erstaufführungstermin oder der in § 6 vorgesehene Lieferungstermin des Materials
-                nicht eingehalten, so hat der <lb xml:id="uuid_299fdad4-0dc5-4cd9-919d-11b04dfec996"/>Verlag bezw. der Bühnenunternehmer das Recht, unbeschadet seiner sonstigen
-                Ansprüche aus dieser Abmachung, die <lb xml:id="uuid_0a7a9e0f-4371-4e50-8b8c-701562b4b42f"/>Abmachung mit sofortiger
-                Wirkung zu kündigen. </p>
-            <p xml:id="uuid_0c179803-b1e9-4b6e-8377-3fed486ae5ba"><lb xml:id="uuid_e8280d43-8e53-4cb5-afae-65824f418657"/>8 11. Verzugsschaden. Jede
-                der Parteien haftet für den von ihr durch nicht ordnungsmäßige Erfüllung der <lb xml:id="uuid_058872f6-fbfa-401c-b392-529ca9e66b56"/>Abmachung verursachten
-                Verzugsschaden, insbesondere der Bühnenunternehmer für den Verzugsschaden, der sich
-                daraus <lb xml:id="uuid_c0bd8381-a74d-4bdd-965a-9ed62a803f0c"/>ergibt, daß er nicht
-                rechtzeitig aufführt und der Verleger, wenn er nicht rechtzeitig liefert.</p>
-            <p xml:id="uuid_906de039-1989-453c-bfe6-f9d51fc831fd"><lb xml:id="uuid_289d42a3-e7a5-4f7e-992f-2221fe403e4f"/>8 12. Sicherheit (Kaution).
-                Der Bühnenunternehmer hinterlegt bei Abschluß dieser Abmachung bei Ihnen einen <lb xml:id="uuid_b4e776ab-1006-4034-bb12-1f921bf6a483"/>unverzinslichen Betrag von
-                ... als Sicherheit für Ihre sämtlichen Forderungen an <lb xml:id="uuid_a881978f-1caa-4a72-a98c-35c152a82d77"/>den Bühnenunternehmer aus
-                dieser und anderen Abmachungen. Diese Kaution wird erst nach Rückgabe aller
-                gemieteten <lb xml:id="uuid_1e3edc16-dcc8-4c5a-b175-474d51ec83b6"/>Bücher und
-                Materiale und der Beendigung aller mit Ihnen getroffenen Abmachungen, und zwar in
-                jener Höhe zurück¬ <lb xml:id="uuid_6be34aac-a4f3-40ba-a7ee-1f6657db0ef0"/>gezahlt,
-                in der sie nach vorangegangener Deckung aller aus welchen Titeln immer
-                entspringenden Forderungen des <lb xml:id="uuid_c70b27ea-e876-46d4-818d-620ae90b0aad"/>Verlages verbleiben wird. </p>
-            <p xml:id="uuid_a00d8765-d9cd-4e94-a2fc-169cb89b7dd3"><lb xml:id="uuid_f0b9bcb8-d552-4676-85c9-bcf4b84c62b4"/>8 13. Bühnenspielplan. Der
-                Bühnenunternehmer ist verpflichtet, gemäß § 3, Ziffer 5, der „Allgemeinen
-                Bestimmungen <lb xml:id="uuid_bdca92a0-4187-47ea-93fd-f9064252e3c9"/>für den
-                Geschäftsverkehr“ seinen Spielplan im „Deutschen Buhnenspielplan“ zu
-                veröffentlichen.</p>
-            <p xml:id="uuid_159fffc8-7aca-445e-9590-d160168e1593"><lb xml:id="uuid_76826be1-960e-4614-9705-75f6a590659e"/>8 14. Verbandszugehörigkeit.
-                Sie erklären, daß Sie der Vereinigung der Bühnen Verleger angehören — der Bühnen¬
-                <lb xml:id="uuid_6bc40c3b-82d4-4ee7-b83d-3009a05be1c6"/>unternehmer erklärt, daß
-                er dem Deutschen Bühnenverein angehört. Unwahre Angaben einer der Parteien hierüber
-                <lb xml:id="uuid_de48e835-e4ac-4e5a-9d0f-232d7604feb1"/>berechtigen den anderen
-                Teil, diese Abmachung ohne Einhaltung einer Kündigungsfrist aufzuheben und die in §
-                10 fest¬ <lb xml:id="uuid_ba75bb4b-97d9-42c2-9e4f-2663f3d132f7"/>gesetzte
-                Konventionalstrafe zu fordern, ohne daß weitere Schadenersatzansprüche hiedurch
-                aufgehoben werden. <lb xml:id="uuid_95c24260-a218-463e-84a3-8370583dff54"/>Die
-                zwischen dem Deutschen Bühnen verein, dem Verbände Deutscher Bühnenschriftsteller
-                und Bühnenkomponisten <lb xml:id="uuid_9b6a6d36-d736-458a-b721-019a8c6c2940"/>e. V.
-                und der Vereinigung der Bühnenverleger vereinbarten „Allgemeinen Bestimmungen für
-                den Geschäftsverkehr“ bilden <lb xml:id="uuid_d2f6bf30-3775-41d8-b296-66820c229c29"/>einen wesentlichen Bestandteil dieser Abmachung. Die Parteien erklären durch ihre
-                Unterschrift, daß ihnen diese Bestim¬ <lb xml:id="uuid_ac76e0df-5893-4344-8931-a07518e37986"/>mungen bekannt sind.</p>
-            <p xml:id="uuid_25685ffa-0e23-427a-8794-6c21bee783dc"><lb xml:id="uuid_ff649ae2-941c-4a1d-baee-24e48fabf387"/>813. Textbuchverkauf. Der
-                Bühnenunternehmer ist verpflichtet, dafür Sorge zu tragen, daß für die Aufführung
-                <lb xml:id="uuid_6b742233-7b3e-42a6-b419-28e7358b9c9e"/>rechtzeitig Textbücher
-                bestellt und von den Billeteuren zum offiziellen Ladenpreis zum Verkauf angeboten
-                werden.</p>
-            <p xml:id="uuid_b9bf5cd6-9349-409f-b158-aa6a985d7978"><lb xml:id="uuid_33ce2c1c-ebbc-4c5d-b446-9568d8c95818"/>8 16. Mithaftung. Für alle
-                Verpflichtungen des Bühnenunternehmers aus dieser Abmachung haftet der mitunter¬ <lb xml:id="uuid_c4c19302-aea3-44a6-9c7d-eff0c054dab2"/>zeichnete .-. als
-                Gesamtschuldner, der sich auch der Schiedsgerichtsbarkeit der <lb xml:id="uuid_17531b87-bfac-41b3-99c9-5c8baba3e891"/>kartellierten Verbände
-                unterwirft. </p>
-            <p xml:id="uuid_f99e48a2-6a44-4944-b2fc-86cde5bc48d3"><lb xml:id="uuid_68db369c-d625-454a-a6fb-cc8b4db68d88"/>8 17. Gerichtsstand. Als
-                ausschließlicher Gerichtsstand ist vereinbart (vergl. § 9, Ziffer 1, Absatz 2, des
-                Tarif¬ <lb xml:id="uuid_ad79d793-f6b8-4289-821a-2641ef831484"/>vertrages). </p>
-            <p xml:id="uuid_9b9b35dd-8257-4eb0-b359-ad351dcf27ba"><lb xml:id="uuid_c43a1fe7-0574-4c55-975f-a7bd4390d0c9"/>§ 18. Ferner wurde
-                vereinbart: Die Bühnenleitung hat bis 31. Januar 1932 <lb xml:id="uuid_574af261-8f85-4f4f-bb06-a2c671c40844"/>das Erstaufführungsrecht des
-                Werkes für das ganze Rheinland. <lb xml:id="uuid_233d1bab-d243-4cb9-8225-6a174cdb93aa"/>Unterschrift des
-                Bühnenunternehmers: </p>
-            <p xml:id="uuid_5727cc87-b25a-48f0-937e-558c999b0b84"><lb xml:id="uuid_2e60cbd1-1a00-496a-9168-675861ffd733"/>Unterschrift des Verlages:.
-                <lb xml:id="uuid_3923026b-5ba8-437c-bed7-3b500a937900"/>Essen, am 12. Nov.
-                1931</p>
-            <p xml:id="uuid_24dc8fd1-585b-40a4-bab6-ecf176c473f1"><lb xml:id="uuid_aa1f6f03-7067-4bac-b6c1-c6a35057270d"/>der Oberbürgermeister <lb xml:id="uuid_228145c5-a783-4592-bc0b-3028b06f8456"/>[Unterschrift]</p>
-            <p xml:id="uuid_598a16d6-8c5e-47c8-a4f7-42ff1f633982"><lb xml:id="uuid_bd7991c2-e626-42e0-9c1b-b0ad11a0f5c5"/>Beigeordneter
-                [Unterschrift]</p>
-        </body>
-    <back><listPerson><person xml:id="pmb11988">
-  <persName>
-      <forename>Karl</forename>
-      <surname>Kraus</surname>
-  </persName>
-
-  <persName type="pseudonym">Berdach J.</persName>
-
-
-  <birth>
-    <date when-iso="1874-04-28">28.04.1874</date>
-  
-  
-      <settlement key="pmb41660">
-        <placeName type="pref">Jičín</placeName>
-      
-        <location><geo>50,43723 15,35162</geo></location>
-      
-      </settlement>
-      
-       
-  </birth>  
-
-
-  <death>
-    <date when-iso="1936-06-12">12.06.1936</date>
-      
-      
-      <settlement key="pmb50">
-        <placeName type="pref">Wien</placeName>
-        
-        <location><geo>48,2066 16,37341</geo></location>
-      
-      </settlement>
-      
-      
-  </death>
-
-
-  <sex value="male"/>
-
-
-  <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
-
-  <occupation key="237">Publizist/Publizistin</occupation>
-
-
-  <idno type="URL" subtype="astb">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17108</idno>
-
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118566288</idno>
-
-  <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11988</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/11988</idno>
-
-  <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11988</idno>
-
-
-<affiliation>
-    <term key="1182">arbeitet für</term>
-    <orgName key="pmb29308">Die Fackel</orgName>
-    
-    <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29308</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/29308</idno>
-    
-    <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29308</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1153">in Relation zu</term>
-    <orgName key="pmb50728">Buchhandlung Richard Lányi</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/50728/</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1409">ist Eigentümer*in von</term>
-    <orgName key="pmb43724">Verlag Die Fackel (Wien)</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43724/</idno>
-    
-    <idno type="URL">https://d-nb.info/gnd/16063972-4</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/43724</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1153">in Relation zu</term>
-    <orgName key="pmb36757">Amtsgericht Hamburg</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36757/</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36757</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1153">in Relation zu</term>
-    <orgName key="pmb36828">Landgericht Hamburg</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36828/</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36828</idno>
-    
-</affiliation>
-
-
-<listEvent>
-    
-    <event key="40436" when-iso="1893-01-14">
-        <desc n="1256">ist Arbeitskraft bei</desc>
-        <label>Aufführung von Die Räuber, 14.1.1893</label>
-        
-        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/40436/</idno>
-        
-        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/40436</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000176-015-001-facs001" xml:id="D_000176-015-001-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000176-015-001-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.D">Druck</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-05-30">30. Mai 1932</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000176-015-001-wit01">Rückschein</term>
+            </keywords>
+            <classCode source="D_000176-015-001-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.RKS">D.K.RKS</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-09T14:32:15.76Z" who="#IB">created by API </change>
+         <change when-iso="2021-09-06" who="#LU">Replaced Text with Transcription of Transkribus
+                Document 349100. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000176-015-001-facs001">
+      <surfaceGrp xml:id="D_000176-015-001-facs001-l001">
+         <surface xml:id="D_000176-015-001-facs001-l001-p001" type="recto">
             
-    </event>
-    
-    <event key="42714" when-iso="1905-05-29">
-        <desc n="1256">ist Arbeitskraft bei</desc>
-        <label>Geschlossene Aufführung Die Büchse der Pandora, 29.5.1905</label>
-        
-        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/42714/</idno>
-        
-        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/42714</idno>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543886/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000176-015-001-facs001-l001-p002" type="verso">
             
-    </event>
-    
-</listEvent>
-
-
-<listBibl>
-    
-    <bibl type="collections" n="3">Manuell angelegt</bibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-</person></listPerson></back></text>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543887/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

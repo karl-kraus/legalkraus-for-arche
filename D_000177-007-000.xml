@@ -1,145 +1,107 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000177-007-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000177-006-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000177-008-000.xml">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Brief Emil Franzel an Oskar Pollak</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher/>
-                <availability default="false">
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000177-007-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4403</idno>
-                <idno type="ID" subtype="transkribus">349140</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000177">Unterlagen zu einer den Prozess Pisk – Kraus betreffenden Kontroverse zwischen
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000177-008-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000177-006-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000177-007-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>177.7 Brief Emil Franzel an Oskar Pollak</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                  Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000177-007-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4403</idno>
+            <idno subtype="transkribus" type="ID">349140</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000177" type="collection">Unterlagen zu einer den Prozess Pisk – Kraus betreffenden Kontroverse zwischen
                     Emil Franzel und Oskar Pollak</title>
-            </seriesStmt>
-            <sourceDesc default="false">
-                <listWit>
-                    <witness xml:id="D_000177-007-000-wit01" facs="D_000177-007-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-10-09T14:41:09.172Z" who="#IB" status="draft">created by
-                API</change>
-            <change when-iso="2021-09-06" who="#LU">Replaced Text with Transcription of Transkribus
-                Document 452043.</change>
-            <change when-iso="2021-11-29" type="header_facsimile" who="#JK"/>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000177-007-000.xml-facs001">
-        <surfaceGrp xml:id="D_000177-007-000.xml-facs001-l001">
-            <surface xml:id="D_000177-007-000.xml-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/zph-1545_177_7_0001.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <facsimile type="further-witnesses"><surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/zph-1545_177_7_0002.jpg" source="krausonline"/>
-        </surface></facsimile>
-    <text>
-        <body>
-            <pb facs="D_000177-007-000.xml-facs001-l001-p001" n="1"/>
-            <!--<lb xml:id="uuid_07238fd6-79f2-4e9b-8d08-a912a872c18e"/>Franzel <lb
-                xml:id="uuid_e4fc9903-7d4a-468c-85c0-ddd50c238d92"/>25. Juli 1932 <lb
-                xml:id="uuid_2145887c-b141-41f8-a22d-8375ed3aa803"/>Herrn <lb
-                xml:id="uuid_c65f79c7-4120-48e8-b25e-708257fa9a62"/>Dr. <rs type="person" ref="#pmb39331">Oskar Pollak</rs>, Chefredakteur
-                <lb xml:id="uuid_33f7f0a2-5c61-486c-92fb-3477b0772ad0"/>WIEN <lb
-                xml:id="uuid_a75a1096-b733-43bf-bfba-1bb4c8d97c50"/>Werter Genosse, <lb
-                xml:id="uuid_8c4911fe-c3f3-4a6c-a42a-fee1757e305e"/>Sie haben in einem Brief an die
-            Arbeiter-Sängerzeitung in <lb xml:id="uuid_e37de2f8-6893-4fb7-86a0-10fd255c3c71"
-            />Teplitz, datiert vom 15. Juli d.J., den Sie mir in Abschrift zugehen <lb
-                xml:id="uuid_08f10351-060f-45d1-8d51-804a5166390b"/>liessen, geschrieben: <lb
-                xml:id="uuid_9020e821-fe9b-4fd3-b7b1-750b7fe3badd"/>Wir wissen nicht, welche
-            Legitimation der Genosse <lb xml:id="uuid_bb7b867e-6cf2-4175-a4ec-cde49d76725f"/>Franzel
-            hat, sich zum Sittenrichter über die Mitarbei- <lb
-                xml:id="uuid_c0563952-3345-4417-9b48-f4ac95621f84"/>ter Ihres Blattes aufzuwerfen,
-            verwahren uns aber jeden- <lb xml:id="uuid_312e9577-dcca-418e-85e3-f11a2648dfba"/>falls
-            dagegen, dass er dieses Recht gegenüber Mitarbei- <lb
-                xml:id="uuid_7a344093-5374-41be-9c29-1e529fe89ad6"/>tern der Arbeiter-Zeitung in
-            Anspruch nehme, da ihn <lb xml:id="uuid_6ed3b64c-5cea-452d-a09d-7afbd21a0cb5"/>nicht
-            Parteiinteressen leiten, sondern lediglich das <lb
-                xml:id="uuid_a57c8a0e-4259-438c-aaa3-a0a6dfd8bd31"/>persönliche Interesse, sich bei
-            Herrn Karl Kraus <lb xml:id="uuid_28f59e7d-d4d0-45a2-a99f-f9720dce70d4"/>beliebt zu
-            machen. <lb xml:id="uuid_6926b3da-876d-4827-b4a6-e83e877263db"/>Zur Sache selbst
-            begnügen wir uns mit der Feststel- <lb
-                xml:id="uuid_05623835-008c-47c1-94de-58590894f839"/>lung, dass die von Genossen
-            Franzel neuerlich erhobene <lb xml:id="uuid_f2992c4c-c0f6-459b-8479-04072c0b7b65"
-            />Beschuldigung gegen Genossen Pisk, dass er in der <lb
-                xml:id="uuid_5c332a44-c444-4d77-aa2f-db06f5f5a566"/>Berliner Börsenzeitung anders
-            schreibt als über die <lb xml:id="uuid_af3b8d90-671b-473d-b82d-71617d9b4f6b"/>gleichen
-            Veranstaltungen in sozialistischen Blättern, <lb
-                xml:id="uuid_de8741eb-d5ab-445e-a6c7-aab45db3fb31"/>im Prozess Pisk – Karl Kraus als
-            unwahr erwiesen wurde <lb xml:id="uuid_72a78d4b-265b-4270-8747-7c83a5d549d6"/>und ihre
-            Wiederholung daher eine besondere Unanständig- <lb
-                xml:id="uuid_7c102c6d-6fc5-433b-b0cf-ad52c921be00"/>keit ist. <lb
-                xml:id="uuid_93a7eeba-70ee-4066-a2b5-d59454a5e349"/>Die Feststellung, mit der Sie
-            sich – ob gutgläubig oder im <lb xml:id="uuid_ca83c2f8-4dfd-42a4-a49d-09765c6e77be"
-            />Bewusstsein, unwahre Behauptungen des Herrn Pisk zu übernehmen, bleibe <lb
-                xml:id="uuid_77e6fa1b-bdce-4185-8940-13f56e43461b"/>vorläufig dahingestellt – hier
-            begnügen, ist unwahr. Zur näheren Begrün- <lb
-                xml:id="uuid_f7de9f1d-a0b6-474f-b498-98d4e789b8d9"/>dung dieser meiner Feststellung
-            lege ich diesem Schreiben die Kopie <lb
-                xml:id="uuid_d11528ca-9aa5-491b-a2a3-a699540622dc"/>eines Briefes bei, den ich an
-            Dr. Pisk gerichtet habe. <lb xml:id="uuid_fb9b7765-afd6-4749-bc80-0f42d5110e24"/>Unwahr
-            ist aber auch Ihre Behauptung, dass Friedrich Auster- <lb
-                xml:id="uuid_600eeafe-2ee9-4cf7-a015-0cc740bff7e7"/>litz das Verhältnis Pisks zur
-            Berliner Börsenzeitung „in einer <lb xml:id="uuid_0e439bdd-3328-495a-adef-f73dd44c6e54"
-            />öffentlichen Auseinandersetzung mit Karl Kraus öffentlich verteidigt“ <lb
-                xml:id="uuid_bc588e1d-eb13-4f2a-9483-c0f6cbbb0385"/>habe. In der Auseinandersetzung,
-            auf die Sie anspielen, konnte die <lb xml:id="uuid_cb9eb7c7-ef5d-443d-a6a8-a1c8f2dea5f6"
-            />Causa Pisk schon deshalb gar nicht vorkommen, weil sie erst eineinhalb <lb
-                xml:id="uuid_f820271a-6255-4286-b2ff-e563db45f5dc"/>Jahre später zur Diskussion
-            gestellt wurde und recht eigentlich <lb
-                xml:id="uuid_47a4784e-f6a3-4a26-934c-9baa42e01335"/>ihren Ursprung in jener
-            Auseinandersetzung und in dem Motiv Verklungen <lb
-                xml:id="uuid_ad4d8895-822c-4b4c-b51c-64b37f1f3b96"/>und vertan hatte, zu dessen
-            Rechtfertigung Pisk ausgezogen ist. Ich <lb
-                xml:id="uuid_4c40cf02-8880-4bc9-a165-e1c715505fdd"/>lasse es aber auch in diesem
-            Falle dahingestellt sein, ob Sie wissentlich <lb
-                xml:id="uuid_fdcde78b-4261-4996-b9a2-03401a9eb751"/>eine Unwahrheit behauptet haben
-            oder ob Ihnen ein Gedächtnisfehler <lb
-                xml:id="uuid_6631ba41-f10f-46be-a454-5b46de0608f1"/>unterlaufen ist. Ich möchte
-            Ihnen nur zeigen, mit welcher Leichtfertig- <lb
-                xml:id="uuid_cf7fbe1b-c969-45c8-96ea-987d51d94976"/>keit Sie auf jeden Fall
-            vorgegangen sind, als Sie gegen mich die <lb
-                xml:id="uuid_0f173013-b758-4abd-83cb-c24f8024375d"/>moralische Invektive, dass ich
-            nur Privatinteressen, nämlich: mich <lb
-                xml:id="uuid_edbe8ca5-04d8-4265-89f6-e5444d31dfeb"/>bei Herrn Karl Kraus beliebt zu
-            machen, vertrete und die auch <lb xml:id="uuid_6eaec9b7-9a30-4538-b5ad-d4e7fd92c55f"
-            />strafrechtlich als Ehrenbeleidigung zu qualifizierende Behauptung <lb
-                xml:id="uuid_97f673cd-32b2-42c2-b454-6938ee699c9b"/>erhoben haben, ich hätte durch
-            Wiederholung einer im Prozess widerlegten <lb
-                xml:id="uuid_7f91b3ad-174e-4ffb-b17d-12427a936fb3"/>Behauptung „eine besondere
-            Unanständigkeit“ begangen. <lb xml:id="uuid_2d3e10da-b50a-4f39-a462-219e787d6dc0"/>Ich
-            bin nicht gesonnen, diese Beleidigung auf mir sitzen <lb
-                xml:id="uuid_0e96bbad-f9d6-4be9-a514-ddb02ee9394c"/>zu lassen und fordere Sie auf,
-            in einem Schreiben an die Arbeiter-Sänger- <lb
-                xml:id="uuid_b5290021-34a3-401c-a565-53531b8893ae"/>Zeitung, von dem ich eine Kopie
-            für mich erbitte, Ihre Aeusserung als <lb
-                xml:id="uuid_4a2c5426-472a-468d-a112-b72d3b67cdd2"/>unbegründet zurückzunehmen. Ich
-            überlasse es dabei Ihrem Gewissen als <lb
-                xml:id="uuid_9ccdafc7-f0a1-4517-9010-48ab09896fe7"/>Mann und als Sozialist, ob Sie
-            auch die andere Beschimpfung, dass ich <lb
-                xml:id="uuid_4268731b-f38a-4ce3-be1a-bdbe2d96b900"/>nicht Partei-Interessen, sondern
-            mein persönliches Interesse vertrete, <lb
-                xml:id="uuid_028c726d-d7c1-428a-a807-419913a778f4"/>wenn ich im Sinne der Beschlüsse
-            meines Parteivorstandes handle, <lb xml:id="uuid_43382527-a063-4917-883b-6640d49ef945"
-            />zurücknehmen oder sie wider Ihre bessere Ueberzeugung aufrechterhalten <lb
-                xml:id="uuid_785fdf10-7767-41e4-a0b0-6836b2d37392"/>wollen. Sollten Sie meiner
-            Aufforderung nicht entsprechen, so müsste <lb
-                xml:id="uuid_f1767db1-2ebe-4186-a475-c83dd5ce1bb6"/>ich meinen Parteivorstand um die
-            Liquidierung der Sache ersuchen und <lb
-                xml:id="uuid_b292effb-b3e4-4882-8b9f-8d1f8a4842a7"/>falls auch dieser Weg ungangbar
-            wäre / da er statutarisch nicht vorgesehen <lb
-                xml:id="uuid_81db7c3a-f701-4c13-a7bc-e48075401fb4"/>ist, müsste ich eben
-            gerichtliche Schritte unternehmen. -->
-        </body>
-    <back/></text>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000177-007-000-facs001" xml:id="D_000177-007-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000177-007-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-07-25">25. Juli 1932
+           </date>
+         </creation>
+         <textClass>
+            <keywords>
+               <term source="D_000176-044-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000176-044-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-09T14:41:09.172Z" who="#IB">created by API </change>
+         <change when-iso="2021-09-06" who="#LU" status="draft">Replaced Text with Transcription
+                of Transkribus Document 452043. </change>
+         <change type="header_facsimile" when-iso="2021-11-29" who="#JK" status="draft"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000177-007-000-facs001">
+      <surfaceGrp xml:id="D_000177-007-000-facs001-l001">
+         <surface type="recto" xml:id="D_000177-007-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543909/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543911/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

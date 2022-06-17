@@ -1,125 +1,102 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000073-003-002.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000073-002-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000074-001-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Aktenvermerk Oskar Samek - Akt 73</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000073-003-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2691</idno>
-                <idno type="ID" subtype="transkribus">222085</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000073">Korrespondenz mit Liesl Spielmann betr. eines Artikels in Die Stunde</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000073-003-002-wit01" facs=""/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation><date type="sortDate" subtype="produced" when-iso=""/>
-                <date source="krausonline">20.08.1926</date>
-            </creation>
-            <langUsage><language ident="de">Deutsch</language></langUsage>
-            <textClass>
-                <keywords>
-                    <term>Brief</term>
-                </keywords>
-                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.K.BRF</classCode>
-            </textClass>
-            <particDesc/>
-            <correspDesc>
-                <correspAction type="sent">
-                    <rs type="person" ref="">Oskar Samek</rs>
-                </correspAction>
-                <correspAction type="received">
-                    <rs type="person" ref="">Liesl Spielmann</rs>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-10-07T14:33:36.241Z" who="#IB">created by API</change>
-            <change when-iso="2020-10-07T14:34:26.948Z" who="#IB">Replaced Text with Transcription of Transkribus Document 222085.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000390_8.jpg" source="krausonline"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000392_4.jpg" source="krausonline"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000393_7.jpg" source="krausonline"/>
-        </surface>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="" n="1"/>
-            <lb xml:id="uuid_4bf88af4-8c04-4192-b88a-f48c04819253"/>Wien, am 20. August 1926
-<lb xml:id="uuid_78055e50-8b71-44b9-855e-508b7164b924"/>Betr: Kraus – Stunde (Ang. Nagel)
-<lb xml:id="uuid_390abb4a-fadb-4820-8abb-4afadb2820a0"/>Wohlgeb.
-<lb xml:id="uuid_c84241ad-5a64-407f-8241-ad5a64807f01"/>Fr. Liesl Spielmann
-<lb xml:id="uuid_a27a51ff-230c-47b7-ba51-ff230cc7b70d"/>Wien XVI.
-<lb xml:id="uuid_90424665-8f15-4903-8246-658f151903f2"/>Koppstrasse 3
-<lb xml:id="uuid_d005b971-faae-47b0-85b9-71faaee7b0b1"/>Euer Wohlgeboren!
-<lb xml:id="uuid_7d45e4ca-4459-4411-85e4-ca445974119b"/>Durch die Menge Arbeit welche die Affaire Bekessy ver-
-<lb xml:id="uuid_059068b1-1c60-460e-9068-b11c60660e42"/>ursachte und die erforderte, dass zuerst diejenigen Angelegen-
-<lb xml:id="uuid_6644ab36-d89b-4ce7-84ab-36d89bece71c"/>heiten erledigt werden bei denen die Aussicht einer strafrecht-
-<lb xml:id="uuid_9d7bed0d-32a7-42ea-bbed-0d32a7a2eab0"/>lichen Behandlung bestand, wurde der von Ihnen mitgeteilte Fall
-<lb xml:id="uuid_99eddbda-ac12-4f0d-addb-daac127f0da6"/>in den Hintergrund gedrängt. Es ist aber nunmehr notwendig auch
-<lb xml:id="uuid_d6fd8234-5861-47ff-bd82-34586157ff4b"/>diese Fälle zu beachten und ich ersuche Sie in Hinblick auf
-<lb xml:id="uuid_16e1f672-7e68-4a50-a1f6-727e680a50a1"/>Ihr Schreiben vom 18.IV.1925 mich an einem der nächsten Nach-
-<lb xml:id="uuid_3e52cc8d-1b63-40cf-92cc-8d1b6370cf42"/>mittage, womöglich nach vorheriger telefonischer Ankündigung
-<lb xml:id="uuid_e2139dd8-fc0a-43e6-939d-d8fc0a83e6c0"/>zwischen ½4 und ½6 Uhr (Samstag ausgenommen) zu besuchen.
-<lb xml:id="uuid_2fe92822-4d4c-4d09-a928-224d4ccd09c0"/>Ich zeichne
-<lb xml:id="uuid_b2d83129-396a-4b9f-9831-29396aab9f3f"/>hochachtungsvoll
-<lb xml:id="uuid_56af59d3-5292-42f3-af59-d3529252f371"/>rekomm. Dr. Samek
-<pb facs="" n="2"/>
-            <lb xml:id="uuid_cb9032c7-b92f-4d0c-9032-c7b92f0d0c78"/>Wohlgeb.
-<lb xml:id="uuid_89e55b35-ed51-4da6-a55b-35ed51ada6fb"/>Fr. Liesl Spielmann
-<lb xml:id="uuid_dccd4dc9-6219-45b5-8d4d-c9621925b532"/>12 August 21/VIII [Unterschrift]
-<lb xml:id="uuid_bb1bd9a9-235f-4cab-9bd9-a9235fbcabcb"/>UNBEHOBEN-UNBESTELLBAR RETOUR
-<lb xml:id="uuid_a10ecac2-9989-4379-8eca-c299898379f6"/>rekomm.
-</body>
-    <back/></text>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000074-001-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000073-003-001.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000073-003-002.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>73.3 Aktenvermerk Oskar Samek – Akt 73</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000073-003-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2691</idno>
+            <idno subtype="transkribus" type="ID">222085</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000073" type="collection">Korrespondenz mit Liesl Spielmann betr. eines Artikels in Die Stunde</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000073-003-002-facs001" xml:id="D_000073-003-002-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000073-003-002-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date notBefore-iso="1926-08-20" subtype="produced" type="sortDate">20. August 1926
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000073-003-002-wit01">Aktenvermerk</term>
+            </keywords>
+            <classCode source="D_000073-003-002-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.AKV">D.J.AKV</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-10-07T14:33:36.241Z" who="#IB" status="draft">created by
+                API</change>
+         <change when-iso="2020-10-07T14:34:26.948Z" who="#IB" status="draft">Replaced Text with
+                Transcription of Transkribus Document 222085. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000073-003-002-facs001">
+      <surfaceGrp xml:id="D_000073-003-002-facs001-l001">
+         <surface type="recto" xml:id="D_000073-003-002-facs001-l001-p001">
+            <graphic source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553678/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

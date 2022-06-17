@@ -1,177 +1,397 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000023-008-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-007-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-010-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Zeugnis der Budapester Notariatskammer, beglaubigte Übersetzung aus dem
-                    Ungarischen</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthyanystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000023-008-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/1816</idno>
-                <idno type="ID" subtype="transkribus">178880</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000023">Karl
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-009-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-007-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000023-008-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>23.8 Zeugnis der Budapester Notariatskammer, beglaubigte Übersetzung aus dem Ungarischen</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000023-008-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1816</idno>
+            <idno subtype="transkribus" type="ID">178880</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000023" type="collection">Karl
                     Kraus ca. Die Stunde</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000023-008-000-wit01" facs="D_000023-008-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date type="sortDate" when-iso="1925-11-02" subtype="produced">2. November
-                    1925</date>
-            </creation>
-            <langUsage>
-                <language ident="de">Deutsch</language>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term>Zeugnis</term>
-                </keywords>
-            </textClass>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change type="intertexts" when-iso="2021-10-12" who="#JK"/>
-            <change type="typography" when-iso="2021-10-12" who="#JK"/>
-            <change type="references" when-iso="2021-10-12" who="#JK"/>
-            <change type="structure" when-iso="2021-10-12" who="#JK"/>
-            <change when-iso="2020-02-05T14:17:43.166Z" who="#IB">created by API</change>
-            <change when-iso="2020-02-05T14:24:48.182Z" who="#JM">Checked Images
-                Wienbibliothek</change>
-            <change when-iso="2020-02-05T14:24:49.387Z" who="#JM">Checked Images
-                Wienbibliothek</change>
-            <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
-                of Transkribus Document 178880.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000023-008-000-facs001">
-        <surfaceGrp xml:id="D_000023-008-000-facs001-l001">
-            <surface xml:id="D_000023-008-000-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000072_7.jpg" source="krausonline"/>
-                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541401/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-                <graphic url="ZPH_1545-1/023_026/00000072.jpg" source="scans"/>
-            </surface>
-            <surface xml:id="D_000023-008-000-facs001-l001-p002" type="verso">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000073_7.jpg" source="krausonline"/>
-                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541402/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-                <graphic url="ZPH_1545-1/023_026/00000073.jpg" source="scans"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="D_000023-008-000-facs001-l001-p001" n="1"/>
-            <p xml:id="uuid_58a47ed3-1cde-4fda-a870-6f6dd59200ee">
-                <lb xml:id="uuid_e175126a-6a45-46bb-b512-6a6a4536bb9e"/>Beglaubigte Uebersetzung aus
-                dem Ungarischen <lb xml:id="uuid_af8d916e-5ddf-4c77-8d91-6e5ddfdc7760"/>Gesch. ZI.
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000023-008-000-facs001" xml:id="D_000023-008-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000023-008-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1925-11-02">2. November 1925
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-12" who="#JK"/>
+         <change type="typography" when-iso="2021-10-12" who="#JK"/>
+         <change type="references" when-iso="2021-10-12" who="#JK"/>
+         <change type="structure" when-iso="2021-10-12" who="#JK"/>
+         <change when-iso="2020-02-05T14:17:43.166Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-05T14:24:48.182Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-05T14:24:49.387Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 178880. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000023-008-000-facs001">
+      <surfaceGrp xml:id="D_000023-008-000-facs001-l001">
+         <surface type="recto" xml:id="D_000023-008-000-facs001-l001-p001">
+            
+            <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541401/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000023-008-000-facs001-l001-p002">
+            
+            <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541402/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000023-008-000_p001" facs="#D_000023-008-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_bb056cf6-59a0-4d40-8845-31563d13274c">
+            <lb xml:id="uuid_5852e1dc-fe79-44a9-ac28-ebb0099adb25"/>Beglaubigte Uebersetzung aus
+                dem Ungarischen<lb xml:id="uuid_f57a0327-6e3e-4803-9fd5-d1bee25bbcf6"/>Gesch. ZI.
                 918/1925 </p>
-            <p xml:id="uuid_4c193e69-53e0-408c-bc01-bf58c2e3994e">
-                <lb xml:id="uuid_d383e2e4-e898-4fa2-83e2-e4e8980fa262"/><hi rend="spaced">Zeugnis</hi>. </p>
-            <p xml:id="uuid_b87088e6-4b18-419f-afe4-1246646b266d">
-                <lb xml:id="uuid_f7366bae-d6ac-492a-b66b-aed6acb92a54"/>Ich Dr. <rs type="person" ref="#pmb52126">Zoltan Sümeghi</rs> als von der <rs type="institution" ref="#pmb36948">Budapester Notariatskammer</rs>
-                <lb xml:id="uuid_f870398b-8063-4148-b039-8b8063514883"/>bestellter Substitut des
-                Budapester Notars Dr. <rs type="person" ref="#pmb52129">Ladislaus Sümeghi</rs>
-                <lb xml:id="uuid_b8bc58f7-eccf-4e5b-bc58-f7eccf8e5bed"/>bestätige die Richtigkeit
-                der im nachfolgenden Protokolle wört<lb xml:id="uuid_cc5023d3-96e1-4d17-9023-d396e1bd177d" break="no"/>lich
-                niedergelegten Tatumstände. </p>
-            <p xml:id="uuid_4ed5f826-f2ed-4f37-8789-56367a93a926">
-                <lb xml:id="uuid_2b601af0-a1d8-4c09-a01a-f0a1d86c09a3"/><hi rend="spaced">Protokoll</hi>. <lb xml:id="uuid_7dd07f7a-4581-41cc-907f-7a458181cc7d"/>aufgenommen von mir Dr. <rs type="person" ref="#pmb52126">Zoltan Sümeghi</rs> als von
-                der <rs type="institution" ref="#pmb36948">Notariatskammer</rs>
-                <lb xml:id="uuid_75041b96-4fbe-4ac7-841b-964fbe3ac7b1"/>bestellter Substitut des
-                Budapester königlichen Notars Dr. <rs type="person" ref="#pmb52129">Ladis<lb xml:id="uuid_62850dd0-a49a-4235-850d-d0a49a323594" break="no"/>laus
-                    Sümeghi</rs> am 2. (zweiten) November 1925 (neunzehnhundertzwanzig<lb xml:id="uuid_756de0a0-02d1-4e6b-ade0-a002d14e6bc7" break="no"/>fünf). Es
-                erscheint vor mir der mir persönlich bekannte Dr. <rs type="person" ref="#pmb39166">Miksa <lb xml:id="uuid_ce1521f0-47d9-46a4-9521-f047d936a405"/>(Anmerkung des
-                    Dolmetschers zu Deutsch Max) Rosenberg</rs> Advokat in <lb xml:id="uuid_e4c29f74-6caa-4687-829f-746caa1687b0"/><rs type="place" ref="#pmb43471">Budapest</rs>, wohnt in <rs type="place" ref="#pmb52064">VII.
-                    Rákóczystrasse 70</rs>, legt mir vor einen Auszug <lb xml:id="uuid_41f6feab-7a72-428a-b6fe-ab7a72128a5f"/>ddto 2. November 1925 aus
-                dem von der <rs type="institution" ref="#pmb52076">Budapester Advokatenkammer</rs>
-                <lb xml:id="uuid_ef490393-d860-4f3d-8903-93d8605f3ddd"/>geführten <rs type="work" ref="#pmbD_000023-007-000">Verzeichnis der „Anwälte“</rs> welches Verzeichnis
-                beglaubigt <lb xml:id="uuid_24862759-618e-4158-8627-59618ea158e9"/>ist und ersucht
-                mich um die Feststellung, von welchem Datum nach <lb xml:id="uuid_b37ee0ea-8b5b-4c66-bee0-ea8b5b8c66b7"/>diesem Auszuge sein
-                Advokatendiplom ist, weiters, wann er nach <lb xml:id="uuid_ebc69586-917d-4a92-8695-86917dfa9265"/>diesem Auszuge als
-                praktizierender Advokat eingetragen wurde und <lb xml:id="uuid_057f17eb-3f92-4bb7-bf17-eb3f920bb72a"/>schliesslich, dass er nach
-                diesem Auszuge seit seiner Eintragung <lb xml:id="uuid_ba4c78dc-eb80-4c02-8c78-dceb80cc020d"/>bis zum heutigen Tage
-                niemals suspendiert war und ständig die <lb xml:id="uuid_0e5b82b5-9e24-45ef-9b82-b59e2405ef91"/>Advokatenpraxis ausgeübt
-                hat. Nach Verlesung hat die Partei <lb xml:id="uuid_221f13c9-0d19-4da2-9f13-c90d19fda282"/>dieses Protokoll vor mir
-                eigenhändig genehmigt und gefertigt. </p>
-            <p xml:id="uuid_037b6dec-d901-4e5a-b63a-2e8582a56c3b">
-                <lb xml:id="uuid_db6f02d9-bff7-4efd-af02-d9bff77efdcb"/>Datum wie oben. <lb xml:id="uuid_0624a460-f8d5-4a25-a4a4-60f8d59a25d0"/>Dr. <rs type="person" ref="#pmb39166">Miksa Rosenberg</rs> m.p. Dr. <rs type="person" ref="#pmb52126">Soltan Sümeghi</rs> m.p. als von der kgl. <lb xml:id="uuid_34c22e12-12c0-4907-822e-1212c01907c4"/><rs type="institution" ref="#pmb36948">Notarskammer</rs> bestellter Substitut des Budapester Notars Dr.
-                    <lb xml:id="uuid_948363f7-04da-4de5-8363-f704da9de5cd"/><rs type="person" ref="#pmb52129">Lazlo Sümeghi</rs>. L.S. <lb xml:id="uuid_87670dd6-61be-4c51-a70d-d661bedc517e"/>Auf Grund des obigen
-                Ersuchens habe ich den oben beschriebenen, <lb xml:id="uuid_d098c7ab-e864-4740-98c7-abe86447403c"/>von der <rs type="institution" ref="#pmb52076">Budapester Advokatenkammer</rs> vom 2. November
-                1925 ausge<lb xml:id="uuid_77e264b8-7536-4587-a264-b87536158785" break="no"/>stellten amtlichen Auszug des <rs type="work" ref="#pmbD_000023-007-000">Verzeichnisses der „Anwälte“</rs>
-                <pb facs="D_000023-008-000-facs001-l001-p002" n="2"/>
-                <lb xml:id="uuid_355015e8-b9e6-46ac-9015-e8b9e646aca7"/>Einsicht genommen und auf
-                Grund desselben festgestellt, dass das <lb xml:id="uuid_e2ac0b9c-fca4-4431-ac0b-9cfca45431cd"/>Advokatendiplom des Dr. <rs type="person" ref="#pmb39166">Miksa
-                    Rosenberg</rs>, Advokat in <rs type="place" ref="#pmb43471">Budapest</rs>, wohnt
-                    <lb xml:id="uuid_c7bf3182-b818-44e5-bf31-82b818c4e532"/>in <rs type="place" ref="#pmb52064">VII Rákóczystrasse 70</rs> von 25. / fünfundzwanzigsten / Oktober
-                des <lb xml:id="uuid_ae329acb-d83c-4a37-b29a-cbd83cea374f"/>Jahres 1913 /
-                Neunzehnhundertdreizehn / datiert ist, dass er weiters <lb xml:id="uuid_233ff1d6-6d88-4885-bff1-d66d88e88533"/>als praktizierender Advokat
-                am 30. Oktober 1912 / neunzehnhundert<lb xml:id="uuid_82e39316-ceae-4789-a393-16ceaee78995" break="no"/>dreizehn / zur
-                Zahl 4457/1913 in das Verzeichnis der <rs type="institution" ref="#pmb52076">Budapester
-                        <lb xml:id="uuid_cf75228d-806b-4250-b522-8d806b125018"/>Advokatenkammer</rs>
-                eingetragen wurde und dass er schliesslich vom <lb xml:id="uuid_d37666f4-8d83-46f5-b666-f48d83f6f547"/>Tage der Eintragung an bis
-                zum heutigen Tage, sohin bis <lb xml:id="uuid_a7b64239-b29c-450e-b642-39b29c350e21"/>2. November 1925 von der Ausübung der Advokatenpraxis niemals <lb xml:id="uuid_6296c2f2-2a6b-4d0f-96c2-f22a6bbd0f18"/>suspendiert war und sohin
-                von der Eintragung bis zum heu<lb xml:id="uuid_4ecb0695-72cb-41fd-8b06-9572cb91fdd6" break="no"/>tigen Tage
-                ständig die Advokatenpraxis ausgeübt hat. </p>
-            <p xml:id="uuid_e0e0b52f-e94e-4dd3-b16e-c3bc9940799d">
-                <lb xml:id="uuid_c3f74222-acf4-49d1-b742-22acf4f9d117"/>Datum wie oben. <lb xml:id="uuid_e6902f27-1917-4271-902f-271917f271cf"/>Dr. <rs type="person" ref="#pmb52126">Zoltan Sümeghi</rs> m.p. als von der kgl. Kammer bestellter
-                Substitut <lb xml:id="uuid_608545cd-38bc-41d3-8545-cd38bc21d3e2"/>des königlichen
-                Notars in <rs type="place" ref="#pmb43471">Budapest</rs> Dr. <rs type="person" ref="#pmb52129">Lazlo Sümeghi</rs> L.S. <lb xml:id="uuid_084896bd-b874-4c58-8896-bdb874cc58f4"/>Zur Bekräftigung meine
-                eigenhändige Unterschrift und das <lb xml:id="uuid_11fc688b-e5a8-445d-bc68-8be5a8c45dc9"/>Amtssiegel des von mir <rs type="person" ref="#pmb52129">vertretenen kgl. Notars</rs>. </p>
-            <p xml:id="uuid_80af22d8-8326-4d13-b466-20ded5a88b78">
-                <lb xml:id="uuid_a9f0aeaa-30e7-4b21-b0ae-aa30e7ab2189"/><rs type="place" ref="#pmb43471">Budapest</rs> den zweiten November des Jahres 1925 / Eintausend<lb xml:id="uuid_b9e29a27-f8f4-4dff-a29a-27f8f48dffea" break="no"/>neunhundertzwanzigfünf. </p>
-            <p xml:id="uuid_1ff2b163-b392-4f19-882a-0998a4273066">
-                <lb xml:id="uuid_7763ffc3-e52c-495b-a3ff-c3e52c395b61"/>L.S <lb xml:id="uuid_c168b7e7-89db-491f-a8b7-e789db591f0a"/>des kgl. Notars <lb xml:id="uuid_fdb30ef6-4176-470a-b30e-f64176270abf"/>Dr. <rs type="person" ref="#pmb52129">Ladislaus Sümeghi</rs> Dr. <rs type="person" ref="#pmb52126">Zoltan
-                    Sümeghi</rs> m.p. <lb xml:id="uuid_e5e3ec6c-b6d9-47b2-a3ec-6cb6d9e7b2bf"/>als
-                mit Beschluss Zahl der <rs type="institution" ref="#pmb36948">Notars<lb xml:id="uuid_f63af143-bac3-492c-baf1-43bac3e92c9b" break="no"/>kammer
-                    Budapest</rs> (Anmerkung des <lb xml:id="uuid_dbb0bd76-e3db-4b16-b0bd-76e3db3b1679"/>Dolmetschers: Zahl
-                unleserlich) <lb xml:id="uuid_3146e084-eb29-47bd-86e0-84eb2957bd7d"/>bestellter
-                Substitut des königl. <lb xml:id="uuid_d5f80fd8-b6c5-4db8-b80f-d8b6c51db844"/>Notars
-                Dr. <rs type="person" ref="#pmb52129">Ladislaus Sümeghi</rs>. </p>
-        </body>
-    <back><listPlace><place xml:id="pmb43471">
+         <p xml:id="uuid_e71457ac-9a0c-4567-bb08-3a3ba5993083">
+            <lb xml:id="uuid_7ac2eb88-14ff-482e-acd0-7340bb0e5280"/><hi rend="spaced">Zeugni</hi>s. </p>
+         <p xml:id="uuid_632f1bf0-063b-4ff1-a034-8c341bd57bef">
+            <lb xml:id="uuid_27e14b0e-15f5-4344-a27c-38d6f11e08d4"/>Ich Dr. <rs ref="#pmb52126" type="person">Zoltan Sümeghi</rs> als von der <rs ref="#pmb36948" type="institution">Budapester Notariatskammer</rs>
+            <lb xml:id="uuid_840fcba8-130e-40e1-9583-61a7326f3c7f"/>bestellter Substitut des
+                Budapester Notars Dr. <rs ref="#pmb52129" type="person">Ladislaus Sümeghi</rs>
+            <lb xml:id="uuid_403dd7cf-4de4-4161-9cc7-4939ff50ff53"/>bestätige die Richtigkeit
+                der im nachfolgenden Protokolle wört<lb break="no" xml:id="uuid_2cc02412-799f-4770-aa0e-a27b26d85fb7"/>lich niedergelegten
+                Tatumstände. </p>
+         <p xml:id="uuid_2eb61d79-b5ab-4cd2-9dcf-50a9194544b9">
+            <lb xml:id="uuid_449855fb-0847-48a2-9fdc-dd7ca6090c60"/><hi rend="spaced">Protokol</hi>l.<lb xml:id="uuid_bd7f41d1-60b8-4ffb-b36c-e453bb033b6c"/>aufgenommen
+            von mir Dr. <rs ref="#pmb52126" type="person">Zoltan Sümeghi</rs> als von der <rs ref="#pmb36948" type="institution">Notariatskammer</rs>
+            <lb xml:id="uuid_6e1c83ba-ecd4-4129-9bcd-cd04886a340e"/>bestellter Substitut des
+            Budapester königlichen Notars Dr. <rs ref="#pmb52129" type="person">Ladis<lb break="no" xml:id="uuid_c2ed85a0-f143-4ecb-a356-ef00f97023c7"/>laus Sümeghi</rs> am 2.
+            (zweiten) November 1925 (neunzehnhundertzwanzig<lb break="no" xml:id="uuid_f099d5f5-1b76-4e79-be22-ac14c8d51375"/>fünf). Es erscheint vor mir der
+            mir persönlich bekannte Dr. <rs ref="#pmb39166" type="person">Miksa<lb xml:id="uuid_3f656db5-4bd9-4576-b008-63cbe98b95ba"/>(Anmerkung
+               des Dolmetschers zu Deutsch Max) Rosenberg</rs> Advokat in<lb xml:id="uuid_17773240-2330-4f1c-847d-4325e3c7529d"/><rs ref="#pmb43471" type="place">Budapest</rs>, wohnt in <rs ref="#pmb52064" type="place">VII. Rákóczystrasse 70</rs>,
+            legt mir vor einen Auszug<lb xml:id="uuid_454f09fe-55b0-4859-81e9-394c30b97bd8"/>ddto 2.
+            November 1925 aus dem von der <rs ref="#pmb52076" type="institution">Budapester
+               Advokatenkammer</rs>
+            <lb xml:id="uuid_33b1ee51-7e6c-42f0-af95-402807be0505"/>geführten <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-007-000" type="work" subtype="legal-doc">Verzeichnis der „Anwälte“</rs> welches Verzeichnis beglaubigt<lb xml:id="uuid_13f16a07-e1a7-4d58-825b-563f38a0140b"/>ist und ersucht mich um die
+            Feststellung, von welchem Datum nach<lb xml:id="uuid_573cb9d3-f0b0-435f-997e-3fe324eb8428"/>diesem Auszuge sein
+            Advokatendiplom ist, weiters, wann er nach<lb xml:id="uuid_f3b13979-c4de-43bd-b1e6-0a01627c8756"/>diesem Auszuge als
+            praktizierender Advokat eingetragen wurde und<lb xml:id="uuid_713f1f91-282d-4a02-8667-3535f74a6cfb"/>schliesslich, dass er nach diesem
+            Auszuge seit seiner Eintragung<lb xml:id="uuid_064c2075-77af-4232-b9e8-95fed065ff4f"/>bis zum heutigen Tage niemals suspendiert war und ständig die<lb xml:id="uuid_1d1252a7-6daf-426f-a198-a010642dce35"/>Advokatenpraxis ausgeübt hat.
+            Nach Verlesung hat die Partei<lb xml:id="uuid_1485982c-491c-473e-a08b-16414f7a2c18"/>dieses Protokoll vor mir eigenhändig genehmigt und gefertigt. </p>
+         <p xml:id="uuid_83583a44-e039-45cf-85ea-06ccbdab2f10">
+            <lb xml:id="uuid_b3eca536-aabe-4486-b107-c83c156a7c2b"/>Datum wie oben.<lb xml:id="uuid_f55120f5-0cb0-4a90-9969-148c47f109ad"/>Dr. <rs ref="#pmb39166" type="person">Miksa
+                    Rosenberg</rs> m.p. Dr. <rs ref="#pmb52126" type="person">Soltan Sümeghi</rs> m.p.
+                als von der kgl.<lb xml:id="uuid_d95af6c4-7323-4f94-8acf-2eb1bf365744"/><rs ref="#pmb36948" type="institution">Notarskammer</rs> bestellter Substitut des
+                Budapester Notars Dr.<lb xml:id="uuid_a2e37dbd-dfe6-4f75-aba7-afb926053a22"/><rs ref="#pmb52129" type="person">Lazlo Sümeghi</rs>. L.S.<lb xml:id="uuid_750d6f6c-e7a5-4fa7-8c0e-a464092ddca4"/>Auf Grund des obigen
+                Ersuchens habe ich den oben beschriebenen,<lb xml:id="uuid_4192639a-61b4-475e-9f8c-91bc3e60fe99"/>von der <rs ref="#pmb52076" type="institution">Budapester Advokatenkammer</rs> vom 2. November 1925 ausge<lb break="no" xml:id="uuid_aa3b6544-36e0-4954-922b-3a5672eb028c"/>stellten
+                amtlichen Auszug des <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-007-000" type="work" subtype="legal-doc">Verzeichnisses der „Anwälte“</rs>
+            <pb xml:id="D_000023-008-000_p002" facs="#D_000023-008-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_85b2c557-dccb-4588-b2b2-4fc042f69345"/>Einsicht genommen und
+                auf Grund desselben festgestellt, dass das<lb xml:id="uuid_621265ff-3843-4744-bce8-961775aa293c"/>Advokatendiplom des Dr. <rs ref="#pmb39166" type="person">Miksa
+                    Rosenberg</rs>, Advokat in <rs ref="#pmb43471" type="place">Budapest</rs>, wohnt<lb xml:id="uuid_a63f81f5-6dac-42db-9872-6e951620047c"/>in <rs ref="#pmb52064" type="place">VII Rákóczystrasse 70</rs> von 25. / fünfundzwanzigsten / Oktober
+                    des<lb xml:id="uuid_ceba578d-00a7-4a2a-89ca-6dcafc989ef2"/>Jahres 1913 /
+                Neunzehnhundertdreizehn / datiert ist, dass er weiters<lb xml:id="uuid_3c8cbc4d-7a8d-4bda-a562-49b62cdbb9f9"/>als praktizierender Advokat
+                am 30. Oktober 1912 / neunzehnhundert<lb break="no" xml:id="uuid_496edd06-6634-4344-8318-c98050abdbfd"/>dreizehn / zur Zahl
+                4457/1913 in das Verzeichnis der <rs ref="#pmb52076" type="institution">Budapester<lb xml:id="uuid_67b6d94c-4a06-4e7a-99d3-344009ac0563"/>Advokatenkammer</rs>
+                eingetragen wurde und dass er schliesslich vom<lb xml:id="uuid_36f9af5c-25ed-468b-b5c6-b5e8dd302fc8"/>Tage der Eintragung an bis
+                zum heutigen Tage, sohin bis<lb xml:id="uuid_dfa719cf-a80e-437e-85e9-29f705e13444"/>2. November 1925 von der Ausübung der Advokatenpraxis niemals<lb xml:id="uuid_39660802-f9a9-4b26-b75d-7676ea82b671"/>suspendiert war und sohin
+                von der Eintragung bis zum heu<lb break="no" xml:id="uuid_b8ad4091-1424-4dcc-9ca6-5de73ff2be64"/>tigen Tage ständig die
+                Advokatenpraxis ausgeübt hat. </p>
+         <p xml:id="uuid_4deafa71-0ad2-49ee-a8d8-0d1435265e33">
+            <lb xml:id="uuid_10ef5d0e-79b8-42c6-9642-0b6da8a0b16c"/>Datum wie oben.<lb xml:id="uuid_4ecee7fa-d06f-4c19-aeb7-e443c513befb"/>Dr. <rs ref="#pmb52126" type="person">Zoltan Sümeghi</rs> m.p. als von der kgl. Kammer bestellter
+                    Substitut<lb xml:id="uuid_decacb56-4287-40b2-a587-283216f53d9b"/>des königlichen
+                Notars in <rs ref="#pmb43471" type="place">Budapest</rs> Dr. <rs ref="#pmb52129" type="person">Lazlo Sümeghi</rs> L.S.<lb xml:id="uuid_5a180f05-986c-4390-989c-5618b1d86377"/>Zur Bekräftigung meine
+                eigenhändige Unterschrift und das<lb xml:id="uuid_c2f68668-1f05-4a58-a628-75bda1134550"/>Amtssiegel des von mir <rs ref="#pmb52129" type="person">vertretenen kgl. Notars</rs>. </p>
+         <p xml:id="uuid_1d579bff-fcbc-42ff-bc44-544ad6f34a7c">
+            <lb xml:id="uuid_5c1606ee-fa48-4570-86dc-45436fe2fcc0"/><rs ref="#pmb43471" type="place">Budapest</rs> den zweiten November des Jahres 1925 / Eintausend<lb break="no" xml:id="uuid_b445b426-f4bd-4269-9003-2da7787b8365"/>neunhundertzwanzigfünf. </p>
+         <p xml:id="uuid_39b7e5a9-274c-4524-b3a3-3f710dd88b8c">
+            <lb xml:id="uuid_d4c3f8a9-5f9d-49af-85a7-94bbbc92473f"/>L.S<lb xml:id="uuid_4d9d4153-13eb-4a02-bd00-b58272e0904c"/>des kgl. Notars<lb xml:id="uuid_cbdd5347-c6a5-46be-b320-0cae7df6baec"/>Dr. <rs ref="#pmb52129" type="person">Ladislaus Sümeghi</rs> Dr. <rs ref="#pmb52126" type="person">Zoltan
+                    Sümeghi</rs> m.p.<lb xml:id="uuid_29e5b0e3-7e65-4fc8-9222-3df03fa1813b"/>als mit
+                Beschluss Zahl der <rs ref="#pmb36948" type="institution">Notars<lb break="no" xml:id="uuid_8f6737c9-d3fb-49b4-8024-c92b0da2536e"/>kammer Budapest</rs>
+                (Anmerkung des<lb xml:id="uuid_e300ad03-66a1-4a8a-9e35-2cd3487f626c"/>Dolmetschers:
+                Zahl unleserlich)<lb xml:id="uuid_3ce501f2-3577-4d9e-a11a-a29efaffa365"/>bestellter
+                Substitut des königl.<lb xml:id="uuid_7f65f22a-ed87-4136-bff5-ceb449a45fc0"/>Notars
+                Dr. <rs ref="#pmb52129" type="person">Ladislaus Sümeghi</rs>. </p>
+      </body>
+   <back><listPerson><person xml:id="pmb52129">
+  <persName>
+      <forename>Lazlo</forename>
+      <surname>Sümeghi</surname>
+  </persName>
+
+  <persName type="namensvariante">Ladislaus Sümeghi</persName>
+
+
+
+
+  <sex value="male"/>
+
+
+  <occupation key="106">Rechtsanwalt/Rechtsanwältin</occupation>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52129/</idno>
+
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb52076">Advokatenkammer Budapest</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52076/</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb36948">Budapester Notariatskammer</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36948/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36948</idno>
+    
+</affiliation>
+
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>23.8 Zeugnis der Budapester Notariatskammer, beglaubigte Übersetzung aus dem Ungarischen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-008-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb52126">
+  <persName>
+      <forename>Zoltan</forename>
+      <surname>Sümeghi</surname>
+  </persName>
+
+  <persName type="namensvariante">Soltan Sümeghi</persName>
+
+
+
+
+  <sex value="male"/>
+
+
+  <occupation key="106">Rechtsanwalt/Rechtsanwältin</occupation>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52126/</idno>
+
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb52076">Advokatenkammer Budapest</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52076/</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb36948">Budapester Notariatskammer</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36948/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36948</idno>
+    
+</affiliation>
+
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>23.8 Zeugnis der Budapester Notariatskammer, beglaubigte Übersetzung aus dem Ungarischen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-008-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb39166">
+  <persName>
+      <forename>Miksa</forename>
+      <surname>Rosenberg</surname>
+  </persName>
+
+  <persName type="uri_worklink">https://www.geni.com/people/Miksa-Rosenberg/6000000078133341261</persName>
+
+
+  <birth>
+    <date>zwischen 1838 und 1898</date>
+  
+  
+    <settlement key="pmb43471">
+      <placeName type="pref">Budapest</placeName>
+    
+      <placeName type="legacy-name-merge">Buda</placeName>
+    
+      <placeName type="legacy-uri-merge">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/17152/</placeName>
+    
+      <placeName type="legacy-name-merge">Budapest</placeName>
+    
+      <placeName type="legacy-uri-merge">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/6940/</placeName>
+    
+      <placeName type="alternative-name">Buda</placeName>
+    
+      <placeName type="legacy-name-merge">Budapest</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4008684-7</placeName>
+    
+      <placeName type="alternative-name">Budapest</placeName>
+    
+      <placeName type="alternative-name">Budapest</placeName>
+    
+      <placeName type="legacy-name-merge">Budapest</placeName>
+    
+      <placeName type="legacy-name-merge">Budapest</placeName>
+    
+    
+      <location><geo>47,49835 19,04045</geo></location>
+    
+    
+      <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1781</idno>
+      
+      <idno type="URL" subtype="geonames">http://sws.geonames.org/3054638/</idno>
+      
+      <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb464</idno>
+      
+      <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43471/</idno>
+      
+      <idno type="URL">https://sws.geonames.org/3054643/</idno>
+      
+      <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43797/</idno>
+      
+      <idno type="URL">https://d-nb.info/gnd/4008684-7</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/43471</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/43797</idno>
+      
+      <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb43471</idno>
+      
+    </settlement>
+    
+       
+  </birth>  
+
+
+  <death>
+    <date when-iso="1930-12-09">09.12.1930</date>
+      
+      
+      <settlement key="pmb43471">
+        <placeName type="pref">Budapest</placeName>
+        
+        <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1781</idno>
+        
+        <idno type="URL" subtype="geonames">http://sws.geonames.org/3054638/</idno>
+        
+        <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb464</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43471/</idno>
+        
+        <idno type="URL">https://sws.geonames.org/3054643/</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43797/</idno>
+        
+        <idno type="URL">https://d-nb.info/gnd/4008684-7</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/43471</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/43797</idno>
+        
+        <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb43471</idno>
+        
+      
+        <location><geo>47,49835 19,04045</geo></location>
+      
+      </settlement>
+      
+      
+  </death>
+
+
+  <sex value="male"/>
+
+
+  <occupation key="106">Rechtsanwalt/Rechtsanwältin</occupation>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/39166/</idno>
+
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/39166</idno>
+
+
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>23.3 Brief Samek an Die Stunde (verantw. Red. Fritz Kaufmann)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.4 Brief Samek an RA Miksa Rosenberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.5 Brief RA Miksa Rosenberg an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.6 Brief RA Miksa Rosenberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.8 Zeugnis der Budapester Notariatskammer, beglaubigte Übersetzung aus dem Ungarischen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.9 Brief RA Miksa Rosenberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.10 Antrag von Karl Kraus auf Einleitung der Voruntersuchung gegen Emmerich Békessy, Fritz Kaufmann und weitere unbekannte Täter wegen Ehrenbeleidigung [sowie] Antrag auf Vornahme einer Hausdurchsuchung (Landesgericht für Strafsachen I Wien, G.Z. XXVI 7288/25)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.11 Brief Samek an RA Miksa Rosenberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.16 Vernehmung des Beschuldigten [Protokoll der neuerlichen Einvernahme Kaufmanns]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.19 Antrag auf Abtretung des Aktes an das Strafbezirksgericht I Wien und Antragstellung auf Bestrafung des Beschuldigten gemäß § 30 Pr. G. ferner Vorlage des Aktes an die Staatsanwaltschaft Wien wegen eventuellen Einschreitens nach demselben § (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.23 Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G. Z. U I 14/26, Richter: Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.24 [Ansuchen] des Strafbezirksgerichts I Wien an das Kgl. Strafbezirksgericht Budapest</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.25 Protokoll der Zeugenaussage Max Rosenbergs</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.26 Antrag auf Richtigstellung des Verhandlungsprotokolls (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-026-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.27 Beschluss des Strafbezirksgerichts I Wien (G.Z. U I 14/26, Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-027-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.28 Brief Samek an RA Miksa Rosenberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.29 Protokoll [der Zeugenaussage Geza Békefis (Korrespondent für Die Stunde in Budapest)]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-029-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.30 Protokoll der Zeugenaussagen mehrere Budapester Gerichtsbeamten</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-030-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.34 Zeugenvernehmungsprotokoll von Imre Falus beim Strafbezirksgericht Budapest</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-034-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.39 Antrag auf Ablehnung des verhandelnden Richters (Strafbezirksgerichts I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.41 Beschluss der Ratskammer des Landesgerichts für Strafsachen Wien I (Präs. 6705)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-041-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.43 Urteil des Strafbezirksgerichts I Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-043-000.xml"/></linkGrp></event></listEvent></person></listPerson><listPlace><place xml:id="pmb43471">
   <placeName>Budapest</placeName>
 
   <placeName type="legacy-name-merge">Buda</placeName>
@@ -241,21 +461,7 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Protokolle der Zeugeneinvernahmen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Konvolut von Protokollen der Zeugenaussagen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der Zeugenvernehmung von Wilhelm Willinger(Fotograf)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Konzept eines Anklageplädoyers]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zeugnis der Budapester Notariatskammer, beglaubigte Übersetzung aus dem
-                    Ungarischen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag von Karl Kraus auf Einleitung der Voruntersuchung gegen Emmerich
-                    Békessy, Fritz Kaufmann und weitere unbekannte Täter wegen Ehrenbeleidigung
-                    [sowie] Antrag auf Vornahme einer Hausdurchsuchung (Landesgericht für
-                    Strafsachen I Wien, G. Z. XXVI 7288/25)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. Vr. XXVI 7288/25,
-                    Alois Moyzisch)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vernehmung des Beschuldigten [Protokoll der Einvernahme Békessys]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vernehmung des Beschuldigten [Protokoll der neuerlichen Einvernahme
-                    Kaufmanns]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G.
-                    Z. UI 14/26, Richter: Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll [der Zeugenaussage Max Rosenbergs]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll [der Zeugenaussage Geza Békefis (Korrespondent für Die Stunde in
-                    Budapest)]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-029-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll [der Zeugenaussagen mehrere Budapester Gerichtsbeamten]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-030-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zeugenvernehmungsprotokoll [von Imre Falus beim Strafbezirksgericht
-                    Budapest]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-034-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf abgesonderte Führung eines Strafverfahrens (Landesgerichts für
-                    Strafsachen Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-043-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. UI 224/26, Robert
-                    Schneeweiß)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-044-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokolle der Zeugenvernehmungen (Strafbezirksgericht I Wien, G. Z. U XII
-                    71/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Ladislaus Faragó</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Ladislaus Faragó</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Karl Peyer</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Albert Klein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Emmerich Békessy an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000108-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz [Erwiderung] in Sachen Die Fackel ./. Mosse (RA Botho Laserstein
-                    an das Amtsgerichts Berlin-Mitte, G. Z. 25C 135/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000113-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I in Wien, G. Z.4 U 114/30, Landesgerichtsrat Leopold Wenger)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Egon Schwelb</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Strafbezirksgerichts I Wien (für G. Z. U 588/33 und G. Z. U
-                    614/33, Landesgerichtsrat […] Standhartinger)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000186-010-000.xml"/></linkGrp></event></listEvent></place><place xml:id="pmb52064">
+<listEvent><event type="mentioned"><p>erwähnt in <title>13.8 Protokolle der Zeugeneinvernahmen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.11 Konvolut von Protokollen der Zeugenaussagen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.14 Protokoll der Zeugenvernehmung von Wilhelm Willinger (Fotograf)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.19 Konzept eines Anklageplädoyers</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>17.5 Protokoll der fortgesetzten Hauptverhandlung (Strafbezirksgericht I Wien, G.Z. U I 223/25, Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000017-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.3 Brief Samek an Die Stunde (verantw. Red. Fritz Kaufmann)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.4 Brief Samek an RA Miksa Rosenberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.5 Brief RA Miksa Rosenberg an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.6 Brief RA Miksa Rosenberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.8 Zeugnis der Budapester Notariatskammer, beglaubigte Übersetzung aus dem Ungarischen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.9 Brief RA Miksa Rosenberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.10 Antrag von Karl Kraus auf Einleitung der Voruntersuchung gegen Emmerich Békessy, Fritz Kaufmann und weitere unbekannte Täter wegen Ehrenbeleidigung [sowie] Antrag auf Vornahme einer Hausdurchsuchung (Landesgericht für Strafsachen I Wien, G.Z. XXVI 7288/25)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.11 Brief Samek an RA Miksa Rosenberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.12 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. Vr. XXVI 7288/25, Alois Moyzisch)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.15 Vernehmung des Beschuldigten [Protokoll der Einvernahme Békessys]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.16 Vernehmung des Beschuldigten [Protokoll der neuerlichen Einvernahme Kaufmanns]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.23 Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G. Z. U I 14/26, Richter: Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.25 Protokoll der Zeugenaussage Max Rosenbergs</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.28 Brief Samek an RA Miksa Rosenberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.29 Protokoll [der Zeugenaussage Geza Békefis (Korrespondent für Die Stunde in Budapest)]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-029-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.30 Protokoll der Zeugenaussagen mehrere Budapester Gerichtsbeamten</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-030-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.34 Zeugenvernehmungsprotokoll von Imre Falus beim Strafbezirksgericht Budapest</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-034-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.36 Antrag auf abgesonderte Führung eines Strafverfahrens (Landesgerichts für Strafsachen Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.43 Urteil des Strafbezirksgerichts I Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-043-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.44 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. U I 224/26, Robert Schneeweiß)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-044-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>25.3 Protokolle der Zeugenvernehmungen (Strafbezirksgericht I Wien, G.Z. U XII 71/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>42.2 Brief Samek an Ladislaus Faragó</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>42.3 Brief Ladislaus Faragó an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>42.4 Brief Samek an Ladislaus Faragó</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>42.7 Brief Ladislaus Radvany an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>42.9 Brief Samek an Ladislaus Radvany</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>42.10 Brief Samek an Karl Peyer</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>42.11 Brief Samek an Albert Klein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>108.1 Brief Emmerich Békessy an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000108-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>113.8 Schriftsatz [Erwiderung] in Sachen Die Fackel ./. Mosse (RA Botho Laserstein an das Amtsgerichts Berlin-Mitte, G.Z. 25C 135/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000113-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>134.39 Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I in Wien, G.Z. 4 U 114/30, Landesgerichtsrat Leopold Wenger)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>178.6 Brief Samek an RA Egon Schwelb</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>186.10 Beschluss des Strafbezirksgerichts I Wien (für G.Z. U 588/33 und G.Z. U 614/33, Landesgerichtsrat […] Standhartinger)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000186-010-000.xml"/></linkGrp></event></listEvent></place><place xml:id="pmb52064">
   <placeName>Rákóczi út</placeName>
 
   <placeName type="namensvariante">Rakoczi ut</placeName>
@@ -285,163 +491,39 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Zeugnis der Budapester Notariatskammer, beglaubigte Übersetzung aus dem
-                    Ungarischen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag von Karl Kraus auf Einleitung der Voruntersuchung gegen Emmerich
-                    Békessy, Fritz Kaufmann und weitere unbekannte Täter wegen Ehrenbeleidigung
-                    [sowie] Antrag auf Vornahme einer Hausdurchsuchung (Landesgericht für
-                    Strafsachen I Wien, G. Z. XXVI 7288/25)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Abtretung des Aktes an das Strafbezirksgericht I Wien und
-                    Antragstellung auf Bestrafung des Beschuldigten gemäß § 30 Pr. G. ferner Vorlage
-                    des Aktes an die Staatsanwaltschaft Wien wegen eventuellen Einschreitens nach
-                    demselben § (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G.
-                    Z. UI 14/26, Richter: Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Ansuchen] des Strafbezirksgerichts I Wien an das Kgl. Strafbezirksgericht
-                    Budapest</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll [der Zeugenaussage Max Rosenbergs]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-025-000.xml"/></linkGrp></event></listEvent></place></listPlace><listPerson><person xml:id="pmb52126">
-  <persName>
-      <forename>Zoltan</forename>
-      <surname>Sümeghi</surname>
-  </persName>
-
-  <persName type="namensvariante">Soltan Sümeghi</persName>
+<listEvent><event type="mentioned"><p>erwähnt in <title>23.4 Brief Samek an RA Miksa Rosenberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.8 Zeugnis der Budapester Notariatskammer, beglaubigte Übersetzung aus dem Ungarischen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.10 Antrag von Karl Kraus auf Einleitung der Voruntersuchung gegen Emmerich Békessy, Fritz Kaufmann und weitere unbekannte Täter wegen Ehrenbeleidigung [sowie] Antrag auf Vornahme einer Hausdurchsuchung (Landesgericht für Strafsachen I Wien, G.Z. XXVI 7288/25)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.19 Antrag auf Abtretung des Aktes an das Strafbezirksgericht I Wien und Antragstellung auf Bestrafung des Beschuldigten gemäß § 30 Pr. G. ferner Vorlage des Aktes an die Staatsanwaltschaft Wien wegen eventuellen Einschreitens nach demselben § (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.23 Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G. Z. U I 14/26, Richter: Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.24 [Ansuchen] des Strafbezirksgerichts I Wien an das Kgl. Strafbezirksgericht Budapest</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.25 Protokoll der Zeugenaussage Max Rosenbergs</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.26 Antrag auf Richtigstellung des Verhandlungsprotokolls (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-026-000.xml"/></linkGrp></event></listEvent></place></listPlace><listOrg><org xml:id="pmb52076">
+  <orgName>Advokatenkammer Budapest</orgName>
 
 
 
-
-  <sex value="male"/>
-
-
-  <occupation key="106">Rechtsanwalt/Rechtsanwältin</occupation>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52126/</idno>
-
-
-<affiliation>
-    <term key="1153">in Relation zu</term>
-    <orgName key="pmb52076">Advokatenkammer Budapest</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52076/</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1153">in Relation zu</term>
-    <orgName key="pmb36948">Budapester Notariatskammer</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36948/</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36948</idno>
-    
-</affiliation>
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Zeugnis der Budapester Notariatskammer, beglaubigte Übersetzung aus dem
-                    Ungarischen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-008-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb52129">
-  <persName>
-      <forename>Lazlo</forename>
-      <surname>Sümeghi</surname>
-  </persName>
-
-  <persName type="namensvariante">Ladislaus Sümeghi</persName>
-
-
-
-
-  <sex value="male"/>
-
-
-  <occupation key="106">Rechtsanwalt/Rechtsanwältin</occupation>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52129/</idno>
-
-
-<affiliation>
-    <term key="1153">in Relation zu</term>
-    <orgName key="pmb52076">Advokatenkammer Budapest</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52076/</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1153">in Relation zu</term>
-    <orgName key="pmb36948">Budapester Notariatskammer</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36948/</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36948</idno>
-    
-</affiliation>
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Zeugnis der Budapester Notariatskammer, beglaubigte Übersetzung aus dem
-                    Ungarischen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-008-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb39166">
-  <persName>
-      <forename>Miksa</forename>
-      <surname>Rosenberg</surname>
-  </persName>
-
-  <persName type="uri_worklink">https://www.geni.com/people/Miksa-Rosenberg/6000000078133341261</persName>
-
-
-  <birth>
-    <date>zwischen 1838 und 1898</date>
+<location type="located_in_place">
+  <placeName key="pmb43471">Budapest</placeName>
+  <geo>47,49835 19,04045</geo>
   
+  <note type="IDNO" subtype="wikidata">https://www.wikidata.org/wiki/Q1781</note>
   
-      <settlement key="pmb43471">
-        <placeName type="pref">Budapest</placeName>
-      
-        <location><geo>47,49835 19,04045</geo></location>
-      
-      </settlement>
-      
-       
-  </birth>  
+  <note type="IDNO" subtype="geonames">http://sws.geonames.org/3054638/</note>
+  
+  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb464</note>
+  
+  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43471/</note>
+  
+  <note type="IDNO">https://sws.geonames.org/3054643/</note>
+  
+  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43797/</note>
+  
+  <note type="IDNO">https://d-nb.info/gnd/4008684-7</note>
+  
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/43471</note>
+  
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/43797</note>
+  
+  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb43471</note>
+  
+</location>
 
 
-  <death>
-    <date when-iso="1930-12-09">09.12.1930</date>
-      
-      
-      <settlement key="pmb43471">
-        <placeName type="pref">Budapest</placeName>
-        
-        <location><geo>47,49835 19,04045</geo></location>
-      
-      </settlement>
-      
-      
-  </death>
-
-
-  <sex value="male"/>
-
-
-  <occupation key="106">Rechtsanwalt/Rechtsanwältin</occupation>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/39166/</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/39166</idno>
-
-
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52076/</idno>
 
 
 <listBibl>
@@ -452,22 +534,7 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Zeugnis der Budapester Notariatskammer, beglaubigte Übersetzung aus dem
-                    Ungarischen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag von Karl Kraus auf Einleitung der Voruntersuchung gegen Emmerich
-                    Békessy, Fritz Kaufmann und weitere unbekannte Täter wegen Ehrenbeleidigung
-                    [sowie] Antrag auf Vornahme einer Hausdurchsuchung (Landesgericht für
-                    Strafsachen I Wien, G. Z. XXVI 7288/25)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vernehmung des Beschuldigten [Protokoll der neuerlichen Einvernahme
-                    Kaufmanns]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Abtretung des Aktes an das Strafbezirksgericht I Wien und
-                    Antragstellung auf Bestrafung des Beschuldigten gemäß § 30 Pr. G. ferner Vorlage
-                    des Aktes an die Staatsanwaltschaft Wien wegen eventuellen Einschreitens nach
-                    demselben § (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G.
-                    Z. UI 14/26, Richter: Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Ansuchen] des Strafbezirksgerichts I Wien an das Kgl. Strafbezirksgericht
-                    Budapest</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll [der Zeugenaussage Max Rosenbergs]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Strafbezirksgerichts I Wien (G. Z. UI 14/26, Christoph
-                    Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-027-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll [der Zeugenaussage Geza Békefis (Korrespondent für Die Stunde in
-                    Budapest)]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-029-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll [der Zeugenaussagen mehrere Budapester Gerichtsbeamten]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-030-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zeugenvernehmungsprotokoll [von Imre Falus beim Strafbezirksgericht
-                    Budapest]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-034-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Ablehnung des verhandelnden Richters (Strafbezirksgerichts I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss der Ratskammer des Landesgerichts für Strafsachen Wien I (Präs.
-                    6705)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-041-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-043-000.xml"/></linkGrp></event></listEvent></person></listPerson><listOrg><org xml:id="pmb36948">
+<listEvent><event type="mentioned"><p>erwähnt in <title>23.6 Brief RA Miksa Rosenberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.8 Zeugnis der Budapester Notariatskammer, beglaubigte Übersetzung aus dem Ungarischen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.9 Brief RA Miksa Rosenberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.11 Brief Samek an RA Miksa Rosenberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-011-000.xml"/></linkGrp></event></listEvent></org><org xml:id="pmb36948">
   <orgName>Budapester Notariatskammer</orgName>
 
 
@@ -512,50 +579,5 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Zeugnis der Budapester Notariatskammer, beglaubigte Übersetzung aus dem
-                    Ungarischen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-008-000.xml"/></linkGrp></event></listEvent></org><org xml:id="pmb52076">
-  <orgName>Advokatenkammer Budapest</orgName>
-
-
-
-<location type="located_in_place">
-  <placeName key="pmb43471">Budapest</placeName>
-  <geo>47,49835 19,04045</geo>
-  
-  <note type="IDNO" subtype="wikidata">https://www.wikidata.org/wiki/Q1781</note>
-  
-  <note type="IDNO" subtype="geonames">http://sws.geonames.org/3054638/</note>
-  
-  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb464</note>
-  
-  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43471/</note>
-  
-  <note type="IDNO">https://sws.geonames.org/3054643/</note>
-  
-  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43797/</note>
-  
-  <note type="IDNO">https://d-nb.info/gnd/4008684-7</note>
-  
-  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/43471</note>
-  
-  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/43797</note>
-  
-  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb43471</note>
-  
-</location>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52076/</idno>
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Zeugnis der Budapester Notariatskammer, beglaubigte Übersetzung aus dem
-                    Ungarischen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-008-000.xml"/></linkGrp></event></listEvent></org></listOrg></back></text>
+<listEvent><event type="mentioned"><p>erwähnt in <title>23.8 Zeugnis der Budapester Notariatskammer, beglaubigte Übersetzung aus dem Ungarischen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-008-000.xml"/></linkGrp></event></listEvent></org></listOrg></back></text>
 </TEI>

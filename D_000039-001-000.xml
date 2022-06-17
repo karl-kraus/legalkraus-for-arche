@@ -1,163 +1,108 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000039-001-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000038-004-002.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000039-002-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Zeitungsartikel aus: Wiener Allgemeine Zeitung</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000039-001-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2095</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000039">Karl Kraus ca. Wiener Allgemeine Zeitung</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000039-001-000-wit01" facs="D_000039-001-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date type="sortDate" when-iso="1925-12-11" subtype="produced">11. Dezember 1925</date> 
-            </creation>
-            <langUsage> <language ident="de">Deutsch</language> </langUsage>
-            <textClass>
-                <keywords>
-                    <term>Zeitungsartikel</term>
-                </keywords>
-            </textClass>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-02-11T08:39:47.578Z" who="#IB">created by API</change>
-            <change when-iso="2020-02-11T08:41:54.969Z" who="#JM">Checked Images
-                Wienbibliothek</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000046_14.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548730/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-2/036_046/00000046.jpg" source="scans"/>
-        </surface>
-    </facsimile>
-    <text>
-        <div xml:id="uuid_f5730cc0-dc0d-442f-b30c-c0dc0d642f92" part="N" org="uniform" sample="complete">
-            <p xml:id="uuid_78fc99fa-183b-496c-bc99-fa183b196c89">Karl Kraus-Rummel im Favoritner
-                Arbeiterheim</p>
-            <p xml:id="uuid_8cbac9ae-d5e0-43a9-bac9-aed5e013a999">Heftige Angriffe gegen die
-                Kunststelle</p>
-            <p xml:id="uuid_c7c2c711-e27c-4d53-82c7-11e27c4d5323">Der Herausgeber der „Fackel“, Herr
-                Karl Kraus, hielt gestern auf Einladung der Favoritner Arbeiterorganisationen im
-                Favoritner Arbeiterheim einen Vortragsabend, der zu einem großen Skandal ausartete.
-                Kraus las, nachdem er Lassales [!] Rede über die Presse vortrug, aus eigenen
-                Schriften, wie immer, und erntete mit diesen Beifall beim Publikum. Aber eben dieses
-                Publikum, das ihm</p>
-            <p xml:id="uuid_fdb6b4bf-daa3-4ea7-b6b4-bfdaa37ea73f">zuerst begeistert zujubelte, wurde
-                für ihn ein Verhängnis. Diesmal bestand mindestens die Hälfte des Publikums aus
-                schlichten Arbeitern, für die Krausens gewählte Sprache und durchaus nicht einfachen
-                Sätze, die ja genügend bekannt sind, ein sozusagen geistiges Hoch-Deutseh bedeuten,
-                dem sie nicht folgen können und das sie nicht restlos verstehen. Und dieser Umstand
-                war der eigentliche Grund des ausgebrochenen Skandals.</p>
-            <p xml:id="uuid_79e6e32b-d237-4b32-a6e3-2bd2372b323f">Kraus wurde bei seinem Erscheinen
-                am Podium herzlich empfangen und besonders von seiner voll und ganz anwesenden
-                Wiener Gemeinde gefeiert. Er las insbesondere seine bekannten Aufsätze gegen Krieg,
-                Kriegsgreuel, Monarchie usw., die beim Publikum begeistert aufgenommen wurden.</p>
-            <p xml:id="uuid_de018f71-0338-4471-818f-7103384471bd">Es war schon glücklich der größte
-                Teil des Vortragsabends vorbei und nach einer Pause sollte der letzte Teil, und zwar
-                eine <hi rend="bold">„Nachfeier zum Republikfest“</hi> absolviert werden. Dies
-                bestand aus einer Rede Krausens, die er in seiner gewohnten Art vortrug,
-                beziehungsweise vorlas, die aber mit ihren verzwickten Sätzen und Redewendungen für
-                das Publikum stellenweise nicht so restlos verständlich war, wie etwa die
-                dramatischen Schilderungen der Kriegsgreuel und der Mißstände in der alten
-                Monarchie.</p>
-            <p xml:id="uuid_6d677cf2-b254-402b-a77c-f2b254602b38">Er richtete, nachdem er über
-                Republik und Monarchie gesprochen, <hi rend="bold">heftige An</hi>
-                <hi rend="bold">griffe gegen die sozialdemokratische Kunststelle und gegen deren
-                    verdienstvol</hi>
-                <hi rend="bold">len Leiter Dr. Bach.</hi> Er führte aus, daß die Kunststelle außer
-                den Arbeiter- Symphoniekonzerten nichts, beziehungsweise nur Schädliches geleistet
-                habe. Er protestierte dagegen, daß statt unter den Arbeitern wahre Kunst, so zum
-                Beispiel Shakespeare zu popularisieren, ihnen, als Gipfelpunkt der Kunst,
-                Operettenaufführungen geboten werden. Es war hier bereits eine gewisse Nervosität
-                unter den anwesenden Arbeitervertrauensmännern der Favoritener Organisation
-                bemerkbar. In seinen weiteren Ausführungen sprach Kraus das Wort aus:
-                „hineinzuschmarotzen“…</p>
-            <p xml:id="uuid_5bc086c5-c927-47e4-8086-c5c92737e433">Da brach der Skandal los. Ein
-                Vertrauensmann hat diesen Satz so verstanden, daß Kraus behaupte, die
-                sozialistischen Führer wären Schmarotzer, sprang auf und schrie mit Stentorstimme:
-                <hi rend="bold">„Das lassen wir uns aber doch nicht mehr bieten! Wir lassen
-                    unsere Führer nicht beschimpfen! In unserem eigenen Heim unsere Führer zu
-                    beschimpfen, das ist doch zu viel!“</hi> Kraus stand totenbleich am Podium und
-                einige Minuten lang herrschte Totenstille. Daraufhin wollte Kraus seinen Vortrag
-                fortsetzen, der Zwischenrufer wurde aber bereits rasend und schrie ununterbrochen
-                Schimpfworte gegen das Podium hin: <hi rend="bold">„Eine Frechheit! Hinaus mit ihm!
-                    Eine Schande! In unserem eigenen Heim! Hinaus! Hinaus!“</hi> Da raffte sich aber
-                die Gemeinde Krausens und auch ein Teil der Arbeiter auf, und bereitete dem zittemd,
-                aber seine äußerliche Ruhe bewahrend dastehenden Kraus stürmische Ovationen.</p>
-            <p xml:id="uuid_11da4a4f-e456-479d-9a4a-4fe456f79d09">Die Massenpsychose war aber
-                bereits entfesselt und das Publikum stand bereits in zwei Lager gespalten da.
-                Ohrenbetäubender Krawall brach los. Schreien, Zischen, Pfeifen, ein Tumult entstand
-                und es schien einige Sekunden lang, daß die zwei Lager sich auf einander stürzen
-                wollen. Der rasende Zwischenrufer wurde aber aus dem Saale hinausgedrängt und in dem
-                wilden Toben und in dem Durcheinander wurde der eiserne Vorhang schnell
-                heruntergelas</p>
-            <p xml:id="uuid_486fc9b7-a21a-429e-afc9-b7a21a029e45">sen. Es war dies dringend
-                notwendig, denn schon wollten einige Vertrauensmänner das Podium stürmen und Kraus
-                insultieren. Das Toben, der Lärm dauerte aber weiter, einige wollten sprechen,
-                wurden aber nicht angehört. Der höllische Lärm dauerte eine halbe Stunde lang. Jetzt
-                begannen Friedensverhandlungen zwischen den zwei Lagern. Ein Kraus—Verehrer schrie
-                bereits in den Zuschauerraum: <hi rend="bold">„Es kommt eine Ehrenerklärung für Karl
-                    Kraus!“</hi> Dann aber drang ein wilder Lärm von der Bühne zum Publikum. Die
-                Stentorstimme Kraus’ wurde hörbar, er verteidigte sich gegen die Vertrauensmänner,
-                die ihn zur Verantwortung zogen. Das Publikum wurde wieder höchst unruhig, viele
-                verließen ﬂuchtartig den Saal. Endlich ging der Vorhang doch wieder auf und es
-                erschien am Podium Hugo Schulz, der verantwortliche Redakteur der
-                „Arbeiter-Zeitung“, der zufällig anwesend war und der auch die Schlichtung der
-                Affäre herbeigeführt hatte. Er führte aus, daß eigentlich bloß ein Mißverständnis
-                vorliege und er bitte, man möge Kraus ruhig anhören. So konnte dann Kraus seinen
-                Vortrag beenden. Seine Gemeinde blieb noch eine halbe Stunde nach dem Vortrag im
-                Saale und feierte ihn. Der stürmische Abend dürfte noch weitere Folgen in der
-                Favoritner Organisation und in der Kunststelle nach sich ziehen. E. G.</p>
-        </div>
-    <back/></text>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000039-002-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000038-004-002.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000039-001-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>39.1 Zeitungsartikel aus: Wiener Allgemeine Zeitung</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000039-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2095</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000039" type="collection">Karl
+                    Kraus ca. Wiener Allgemeine Zeitung</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000039-001-000-facs001" xml:id="D_000039-001-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000039-001-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.D">Druck</objectType>
+                  </ab>
+                  <ab type="materiality">
+                     <objectType source="D_000039-001-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP">Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1925-12-11">11. Dezember 1925
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000039-001-000-wit01">Zeitungsartikel</term>
+            </keywords>
+            <classCode source="D_000039-001-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.P.ZTA">D.P.ZTA</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header-facsimile" when-iso="2022-01-17" who="#JK" status="draft"/>
+         <change when-iso="2020-02-11T08:39:47.578Z" who="#IB" status="draft">created by
+                API</change>
+         <change when-iso="2020-02-11T08:41:54.969Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000039-001-000-facs001">
+      <surfaceGrp xml:id="D_000039-001-000-facs001-l001">
+         <surface type="recto" xml:id="D_000039-001-000-facs001-l001-p001">
+            
+            <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548730/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

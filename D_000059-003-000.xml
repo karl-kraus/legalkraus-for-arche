@@ -1,116 +1,143 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000059-003-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000059-002-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000059-004-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Anklageschrift von Emmerich Békessy, Ernst Ely und Ladislaus Frank gegen Ernst Spitz (Landesgericht für Strafsachen I Wien (G. Z. Vr XXVI 2108/26)</title>
-                <editor ref=""/>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000059-003-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2378</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000059">Akten und Korrespondenzen zu den Prozessen Die Stunde ca. Ernst Spitz</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000059-003-000-wit01" facs=""/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation><date type="sortDate" subtype="produced" when-iso=""/></creation>
-            <langUsage><language ident="de">Deutsch</language></langUsage>
-            <textClass/>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-02-17T09:20:43.958Z" who="#IB">created by API</change>
-            <change when-iso="2020-02-17T09:35:36.661Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-17T09:35:38.307Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-17T09:35:39.972Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-17T09:35:41.811Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-17T09:35:43.635Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-17T09:35:45.3Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-17T09:35:47.675Z" who="#JM">Checked Images Wienbibliothek</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000204_21.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551406/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-4/59_61/00000204.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000206_20.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551408/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-4/59_61/00000206.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000208_21.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551410/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-4/59_61/00000208.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000210_19.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551412/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-4/59_61/00000210.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000212_18.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551414/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-4/59_61/00000212.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000214_20.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551416/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-4/59_61/00000214.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000216_20.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551418/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-4/59_61/00000216.jpg" source="scans"/>
-        </surface>
-    </facsimile>
-    <text>
-        <div xml:id="uuid_86cca7b9-af98-402d-8ca7-b9af98f02d27" part="N" org="uniform" sample="complete"> <p xml:id="uuid_09f72f3d-f071-4896-b72f-3df0716896a6">[…] Ernst Spitz war vor seinem Eintritt in den Redaktionsverband der „Stunde“ als Reporter der „Roten Fahne“ und später des „Abends“ tätig. In keiner der genannten Redaktionen konnte er festen Fuss fassen und war, da er auch mit seiner Familie zerfallen war, gegen Ende des Jahres 1924 über Empfehlung einer mit dem Chefredakteur der Stunde Karl Tschuppik bekannten Dame als Externist zur Stunde gekommen. Besonders warm setzte sich für seine Aufnahme und späterhin auch für die Besserung seiner Bezüge der von ihm in der inkriminierten Broschüre so schmählich verleumdete und verhöhnte Privatankläger Ernst Ely ein. Spitz arbeitete für den sogenannten lokalen Teil des Blattes. Für dasselbe Ressort war in der „Stunde“ auch seit längerem der P. A. Dr. Ladislaus Frank tätig. So kam es, dass, da Dr. Frank infolge seiner übergeordneten Stellung gelegentlich Reportagen des Beschuldigten korrigierte oder überhaupt als unverwendbar zurückwies‚ andererseits die persönliche Annäherung des Spitz als unerwünscht ablehnte, Spitz einen immer heftiger werdenden Groll gegen Dr. Frank empfand, dem er endlich die Zügel schiessen zu können glaubte, als er gelegentlich einer Erkundung über einen lokalen Fall von seiten eines Anwaltes Herrn Dr. Hugo Zörnlaib erfuhr, dass von Letzterem nach Erscheinen eines Dr. Zörnlaib angreifenden Artikels aus der Feder des Dr. Frank von dem damaligen Rechtsvertreter des Dr. Zörnlaib, Herrn Dr. Formanek angeblich für Dr. Frank ein Cadeau verlangt worden sei. Spitz teilte dies einem Redaktionskollegen mit, welcher ihm riet, den Betriebsrat der Stunde hievon zu verständigen. Der Betriebsrat erstattete hierüber dem Herausgeber der „Stunde“ Emmerich Bekessy Bericht und es wurde von Letzterem sofort die genaue Erhebung und Klarstellung des Sachverhaltes durch welchen der von allen Kollegen als besonders integrerer Journalist gekannte Dr. Frank in einen schimpﬂichen Verdacht geraten war, an. Den Erhebungen wurde Spitz zugezogen, und konnte sich so überzeugen, dass der gegen Dr. Frank erhobene Verdacht durchaus ungerechtfertigt war.  sah dies auch ein und erbot sich, Dr. Frank um Entschuldigung zu bitten. Dr. Frank lehnte aber die Annahme einer solchen Entschuldigung ab. Offenbar erbittert über diese Abfuhr wiederholte Spitz seine (durch die Untersuchung des Betriebsrates bereits widerlegten) Verdächtigungen gegen Dr. Frank und fügte auch solche gegen den zweiten Privatankläger Ernst Ely hiezu. Als ihm dies vorgehalten wurde, fing er zu weinen an, beteuerte dass er dies nicht im bösen Sinne gemeint habe, leugnete anfänglich auch und sah sich schliesslich, da er von mehreren Zeugen der Verleumdungen und Verhöhnungen seiner ihm übergeordneten Kollegen im Redaktionsverband überwiesen wurde, veranlasst, selbst um seine Entlassung zu bitten. Er erklärte, er sehe ein, „etwas Wahnsinniges getan zu haben“ man möge es ihm jedoch nicht entgelten lassen und ihm bei seinem weiteren Fortkommen nicht behinderlich sein. Chefredakteur Bekessy nahm sein Ansuchen um Entlassung an und erklärte, er sei bereit, dem Spitz, da er völlig mittellos sei, einen dreimonatlichen Gehalt zu bezahlen, wenn er die formale Erledigung der durch seine unwahren Mitteilungen und Behauptungen heraufbeschworenen Untersuchung, zu der er sich aus eigenem bereit erklärt hatte, mit dem Anwalte des Verlages durch eine der Wahrheit entsprechende loyale Erklärung be</p> <p xml:id="uuid_5a6da8d0-b7fd-4e26-ada8-d0b7fd7e260d">sorgt haben würde. Spitz erschien aber entgegen seiner Zusage nicht beim Anwalte des Verlages, sondern entsandte seinen Rechtsfreund zu demselben. Dieser besprach mit dem Verlagsanwalte die abzufassende Erklärung und nahm den in seiner Gegenwart diktierten Entwurf einer solchen Erklärung mit sich. In der Folge weigerte sich Spitz die ihm vorgelegte Erklärung zu unterfertigen, worauf ihm der Verlagsanwalt mitteilte, dass die in Aussicht genommene Unterstützung angesichts seiner völlig veränderten, die ursprüngliche Reue über seine Verleumdungen geradezu in Hohn verwandelte Haltung, nicht mehr empfohlen werden konnte. Da ein rechtlicher Anspruch des Spitz nicht bestand, wurde auch von einer weiteren Zahlung Abstand genommen. </p>
-            <p xml:id="uuid_25acefcf-47f4-489c-acef-cf47f4189c12">Aus Zorn hierüber veröffentlichte Spitz die Broschüre „Bekessys Revolver“ in welcher er nicht nur gegen Dr. Frank die durch die Untersuchung längst widerlegten schimpﬂichen Verdächtigungen ausspricht, sondern gleichzeitig sein Mütchen an dem Herausgeber Emmerich Bekessy und an Ernst Ely, dessen Fürsprache er die Aufnahme in den Redaktionsverband zu danken hat sein Mütchen kühlt. Der Beschuldigte gibt zu, die Broschüre selbst verfasst und zum Drucke befördert zu haben. Da die inkriminierten Verleumdungen, Verdächtigungen, Schmähungen und Beschimpfungen durch den Druck erfolgten, ist der Beschuldigte zum Beweis der Wahrheit seiner Angaben verpﬂichtet und wird sich nicht hinter dem sogenannten guten Glauben verkriechen können. Einen Wahrheitsbeweis für seine Behauptungen hat Spitz im Laufe der Voruntersuchung nicht angeboten.</p>
-        </div>
-    <back/></text>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000059-004-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000059-002-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000059-003-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>59.3 Anklageschrift von Emmerich Békessy, Ernst Ely und Ladislaus Frank gegen Ernst Spitz (Landesgericht für Strafsachen I Wien (G.Z. Vr XXVI 2108/26)</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000059-003-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2378</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000059" type="collection">Akten
+                    und Korrespondenzen zu den Prozessen Die Stunde ca. Ernst Spitz</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="none" xml:id="D_000059-003-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000059-003-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date/>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000059-003-000-wit01">Anklageschrift</term>
+            </keywords>
+            <classCode source="D_000059-003-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.AKS">D.J.AKS</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-02-17T09:20:43.958Z" who="#IB">created by
+                API</change>
+         <change status="draft" when-iso="2020-02-17T09:35:36.661Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-17T09:35:38.307Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-17T09:35:39.972Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-17T09:35:41.811Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-17T09:35:43.635Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-17T09:35:45.3Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-17T09:35:47.675Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551406/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551408/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551410/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551412/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551414/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551416/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551418/full/full/0/default.jpg"/>
+         
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

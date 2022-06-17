@@ -1,80 +1,98 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000193-001-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000192-028-001.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-006-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Zeitungsartikel aus: Sozialdemokrat, Nr. 185</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000193-001-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4732</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000193">Karl Kraus ca. Sozialdemokrat (Prag)</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000193-001-000-wit01" facs="D_000193-001-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation> <date type="sortDate" when-iso="1934-08-10" subtype="produced">10. August 1934</date> 
-            </creation>
-            <langUsage> <language ident="de">Deutsch</language> </langUsage>
-            <textClass>
-                <keywords>
-                    <term>Zeitungsartikel</term>
-                </keywords>
-            </textClass>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-10-12T07:56:29.816Z" who="#IB">created by API</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-<!--        JK keine Faksimiles auf KKO-->
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-002-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000192-028-044.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000193-001-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>193.1 Zeitungsartikel aus: Sozialdemokrat, Nr. 185</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000193-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4732</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000193" type="collection">Karl
+                    Kraus ca. Sozialdemokrat (Prag)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000193-001-000-facs001" xml:id="D_000193-001-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000193-001-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.D">Druck</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1934-08-10">10. August
+                    1934</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000193-001-000-wit01">Zeitungsartikel</term>
+            </keywords>
+            <classCode source="D_000193-001-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.P.ZTA">D.P.ZTA</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-12T07:56:29.816Z" who="#IB">created by
+                API</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545919/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
     </facsimile>
-    <text>
-        <div xml:id="uuid_63805a87-e1e9-47ea-805a-87e1e947ea4e" part="N" org="uniform" sample="complete">
-            <p xml:id="uuid_9543af64-747a-417f-83af-64747af17f39">Nach langer Pause ist in Wien ein Heft der „Fackel“ erschienen. <hi rend="spaced">Karl Kraus</hi> erklärt darin, warum er zu Hitler geschwiegen hat. Er begnügt sich aber nicht damit, sein Schweigen zu motivieren, sondern nimmt sehr laut für den Austrofascismus Partei, der ihm als der wirksamste und einzige Schutz gegen Hitler erscheint. In diesem Zusammenhang leistet sich Karl Kraus, an dem leider seine 60 Jahre nicht spurlos vorübergegangen zu sein scheinen, wilde und zugleich läppische Ausfälle gegen den Marxismus und die Sozialdemokratie. Den Aufstand der Wiener Schutzbündler sieht er als eine verbrecherische Störung der Dollfußpolitik an und obendrein kann er es den Arbeitern nicht verzeihen, daß sie ihm den elektrischen Strom abgeschnitten haben! In seiner Begeisterung für das Regime der Heimwehrstrolche versteigt er sich dazu, einen ausgewachsenen Zuchthäusler über Lassalle zu stellen. Von dem Kämpfer und Satiriker Karl Kraus ist auch stilistisch in dem wüsten Gestrüpp dieser „Fackel“ nicht mehr viel zu erkennen. E ist ein Verfall, der in der Tiefe des Absturzes wohl dem Gerhart Hauptmann übertrifft. Der leitende Gedanke ist einfach die kurzsichtige Erwägung, </p> <p xml:id="uuid_3560c8fd-cdde-48b1-a0c8-fdcdde68b11c">these ins Positive beschränken müsse, wäre die Fassung des Berichtigungsschreibens, wenn der Text der Berichtigung selbst wirksam sein sollte, ausserordentlich schwierig. Zum Beispiel: „Es ist unrichtig, dass ich es den Arbeitern nicht verzeihen kann, dass sie mir den elektrischen Strom abgeschnitten haben. Richtig ist, dass in dem in der Notiz besprochenen Artikel der „Fackel“ bemerkt wurde, dass am 12. Februar 11 Uhr Vorm. in der Minute, da wir den letzten Korrekturstrich anbrachten, derselbe Typus, der gefragt hatte, warum die Fackel nicht erscheint, uns das Licht abgedreht hat.“ Diese Form der Berichtigung wäre unwirksam, weil für einen Leser, der weder die Fackel noch den berichtigten Artikel oder nur diesen gelesen hat, unverständlich. Aehnlich wäre es mit der Berichtigung der anderen Behauptungen, deren Berichtigung Herr Kraus gewünscht hat. Mit Rücksicht darauf habe ich Bedenken, die von Herrn Kraus gewünschten Berichtigungen zu verlangen und bitte Sie, mir hierüber sowie über die Klagsentwürfe Ihre Meinung bekanntgeben zu wollen […] </p>
-        </div>
-    <back/></text>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

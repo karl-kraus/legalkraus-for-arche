@@ -1,79 +1,111 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000177-009-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000177-008-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000177-010-000.xml">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Brief Samek an Emil Franzel</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher/>
-                <availability default="false">
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000177-009-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4405</idno>
-                <idno type="ID" subtype="transkribus">349144</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000177">Unterlagen zu einer den Prozess Pisk – Kraus betreffenden Kontroverse zwischen
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000177-010-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000177-008-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000177-009-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>177.9 Brief Samek an Emil Franzel</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                  Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000177-009-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4405</idno>
+            <idno subtype="transkribus" type="ID">349144</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000177" type="collection">Unterlagen zu einer den Prozess Pisk – Kraus betreffenden Kontroverse zwischen
                     Emil Franzel und Oskar Pollak</title>
-            </seriesStmt>
-            <sourceDesc default="false">
-                <listWit>
-                    <witness xml:id="D_000177-009-000-wit01" facs="D_000177-009-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-10-09T14:41:09.172Z" who="#IB" status="draft">created by
-                API</change>
-            <change when-iso="2021-09-06" who="#LU">Replaced Text with Transcription of Transkribus
-                Document 349144.</change>
-            <change when-iso="2021-11-29" type="header_facsimile" who="#JK"/>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000177-009-000.xml-facs001">
-        <surfaceGrp xml:id="D_000177-009-000.xml-facs001-l001">
-            <surface xml:id="D_000177-009-000.xml-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000039_13.jpg" source="krausonline"/>
-            </surface>
-            <surface xml:id="D_000177-009-000.xml-facs001-l001-p002" type="verso">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000040_18.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <facsimile type="further-witnesses"><surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000041_12.jpg" source="krausonline"/>
-        </surface></facsimile>
-    <text>
-        <body>
-            <pb facs="D_000177-009-000.xml-facs001-l001-p001" n="1"/>
-            <!--<lb xml:id="uuid_3e657d00-6aee-4268-8bd3-f48cbcb5a743"/>1. August 1932. <lb
-                xml:id="uuid_8e6ad0dc-1e1d-4edf-bc5a-32a0d2cfafe4"/>Dr.S/Fa. <lb
-                xml:id="uuid_f61463e4-1a27-4310-8a12-0b9fac6736ca"/>Betrifft: Kraus – Dr. Pisk. <lb
-                xml:id="uuid_9a54fde1-eba2-44bc-a82e-4437e4060434"/>Herrn <lb
-                xml:id="uuid_12c7d684-46eb-474e-943b-920d8b09cf5b"/>Dr. <rs type="person" ref="#pmb38144">Emil Franzel</rs> <lb
-                xml:id="uuid_c3675fea-748b-4b67-93b4-8bed715c473b"/><rs type="place" ref="#pmb652">Prag</rs> II. <lb
-                xml:id="uuid_4b176059-0599-4b6c-a147-924339a3c347"/>Nekazanka 18. <lb
-                xml:id="uuid_7701419a-b0c9-4a90-a635-226ea283f79a"/>Sehr geehrter Herr Doktor! <lb
-                xml:id="uuid_6496a5a8-32af-4f7e-82ef-8c18d1d74d11"/>Ich danke Ihnen vielmals für
-            Ihre Zuschrift, <lb xml:id="uuid_d8fb7eb8-b7f3-4c38-874e-3010867c989c"/>möchte Sie aber
-            nur darauf aufmerksam machen, dass Sie zur Ein- <lb
-                xml:id="uuid_63a514d7-aa70-4130-b9b9-6dcad9d3a4b3"/>bringung der
-            Ehrenbeleidigungsklage gegen Dr. <rs type="person" ref="#pmb39331">Oskar Pollak</rs> <lb
-                xml:id="uuid_35268146-6efa-4824-92da-415d306a81dd"/>in Vormerkung nehmen müssen,
-            dass jede Ehrenbeleidigungsklage <lb xml:id="uuid_b0d17090-d8cc-42b4-87d4-c58d8b7d6a64"
-            />in Oesterreich sechs Wochen nach dem Tage, an welchem die <lb
-                xml:id="uuid_302c19be-d21c-4277-8830-a7ecd3f3a848"/>Beleidigung dem Beleidigten zur
-            Kenntnis gekommen ist, ein- <lb xml:id="uuid_df06bc1d-cdc1-42dd-b7b1-e7309c88eae0"
-            />gebracht werden muss, und dass überdies die Tat nach drei <lb
-                xml:id="uuid_3b139408-6984-455c-8b5b-717df57ace97"/>Monaten verjährt. <lb
-                xml:id="uuid_75ec2bde-abc7-47f2-97c1-72231257c760"/>Ich zeichne, Sie bestens
-            grüssend, <lb xml:id="uuid_2a8d40b7-5d30-4867-a618-6b3bc0f3b5dd"/>hochachtungsvoll -->
-            <pb facs="D_000177-009-000.xml-facs001-l001-p002" n="2"/>
-            <!--<lb xml:id="uuid_a05f00bc-803c-4b49-a514-1f667490743c"/>Betr. Kraus – Dr. Pisk <lb
-                xml:id="uuid_7fa419c4-d24b-46f2-95d1-4b0693dc8309"/>exp. 1.8.1932. -->
-        </body>
-    <back/></text>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000177-009-000-facs001" xml:id="D_000177-009-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000177-009-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-08-01">1. August 1932
+           </date>
+         </creation>
+         <textClass>
+            <keywords>
+               <term source="D_000176-044-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000176-044-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-09T14:41:09.172Z" who="#IB">created by API </change>
+         <change when-iso="2021-09-06" who="#LU" status="draft">Replaced Text with Transcription
+                of Transkribus Document 349144. </change>
+         <change type="header_facsimile" when-iso="2021-11-29" who="#JK" status="draft"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000177-009-000-facs001">
+      <surfaceGrp xml:id="D_000177-009-000-facs001-l001">
+         <surface type="recto" xml:id="D_000177-009-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543928/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000177-009-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543929/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543930/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

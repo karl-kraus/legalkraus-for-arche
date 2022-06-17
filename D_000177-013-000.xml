@@ -1,71 +1,105 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000177-013-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000177-012-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000177-014-000.xml">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Brief Kanzlei Samek an Emil Franzel</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher/>
-                <availability default="false">
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000177-013-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4409</idno>
-                <idno type="ID" subtype="transkribus">349151</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000177">Unterlagen zu einer den Prozess Pisk – Kraus betreffenden Kontroverse zwischen
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000177-014-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000177-012-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000177-013-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>177.13 Brief Kanzlei Samek an Emil Franzel</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                  Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000177-013-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4409</idno>
+            <idno subtype="transkribus" type="ID">349151</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000177" type="collection">Unterlagen zu einer den Prozess Pisk – Kraus betreffenden Kontroverse zwischen
                     Emil Franzel und Oskar Pollak</title>
-            </seriesStmt>
-            <sourceDesc default="false">
-                <listWit>
-                    <witness xml:id="D_000177-013-000-wit01" facs="D_000177-013-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-10-09T14:41:09.172Z" who="#IB" status="draft">created by
-                API</change>
-            <change when-iso="2021-09-06" who="#LU">Replaced Text with Transcription of Transkribus
-                Document 349151.</change>
-            <change when-iso="2021-11-29" type="header_facsimile" who="#JK"/>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000177-013-000.xml-facs001">
-        <surfaceGrp xml:id="D_000177-013-000.xml-facs001-l001">
-            <surface xml:id="D_000177-013-000.xml-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000069_17.jpg" source="krausonline"/>
-            </surface>
-            <surface xml:id="D_000177-013-000.xml-facs001-l001-p002" type="verso">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000070_18.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="D_000177-013-000.xml-facs001-l001-p001" n="1"/>
-            <!--<lb xml:id="uuid_6d106a4a-a42b-46a8-90dd-7cb3b71c9154"/>16. August 1932. <lb
-                xml:id="uuid_1e008c7f-9e13-4b64-addc-3555fb94ae92"/>Dr.M/Fa. <lb
-                xml:id="uuid_71ad215c-cc84-4204-b5e7-cadc51f5f681"/>Betrifft: Kraus – Dr. Pisk. <lb
-                xml:id="uuid_0d901e86-1f19-47d9-aa52-44fd76e0a067"/>Herrn <lb
-                xml:id="uuid_3088d658-bdd9-4cb0-996a-1a5669f56b08"/>Dr. E. Franzel <lb
-                xml:id="uuid_fd6e50fd-5255-4db0-b510-46f693940d5e"/>Teplitz-Schönau. <lb
-                xml:id="uuid_c1fb1546-ce22-48bb-8411-3a9640893d3e"/>Fichtestrasse 1891 <lb
-                xml:id="uuid_524472e7-9029-4aa2-96f0-c3c205e3b8ff"/>Sehr geehrter Herr Doktor! <lb
-                xml:id="uuid_bcc12582-892f-40a6-acd9-c7469fd5e02b"/>In Vertretung des Herrn Dr.
-            Samek, der sich <lb xml:id="uuid_cfb9b2e5-6b4e-4490-9f13-4003781ca05a"/>derzeit auf
-            Urlaub befindet, bestätige ich Ihr geschätztes <lb
-                xml:id="uuid_8b61e0dc-f338-48b7-b905-17d2d3b502da"/>Schreiben vom 12. August 1932
-            samt Beilage. Herr Dr. Samek, <lb xml:id="uuid_ec0afd51-23bc-4622-ab0a-4f86eb47cbec"
-            />der am 25. August 1932 zurückkehrt, wird Ihr Schreiben selbst <lb
-                xml:id="uuid_dcc4ea0c-7b86-464c-9b59-fdc68e76331a"/>beantworten. <lb
-                xml:id="uuid_95098283-0fc1-46e8-b137-4bb26e585186"/>Mit vorzüglicher Hochachtung-->
-            <pb facs="D_000177-013-000.xml-facs001-l001-p002" n="2"/>
-            <!--<lb xml:id="uuid_6d6f1b10-1ba0-4615-922f-d48d9e06b239"/>[Unterschrift] <lb
-                xml:id="uuid_3633fae1-54fa-4293-8959-dbd888c96db0"/>Betr. Kraus – Dr. Pisk <lb
-                xml:id="uuid_7e240105-b5fe-48a4-97ea-0e2597a4caf8"/>exp. 16.8.1932. -->
-        </body>
-    <back/></text>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000177-013-000-facs001" xml:id="D_000177-013-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000177-013-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-08-16">16. August 1932
+           </date>
+         </creation>
+         <textClass>
+            <keywords>
+               <term source="D_000176-044-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000176-044-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-09T14:41:09.172Z" who="#IB">created by API </change>
+         <change when-iso="2021-09-06" who="#LU" status="draft">Replaced Text with Transcription
+                of Transkribus Document 349151. </change>
+         <change type="header_facsimile" when-iso="2021-11-29" who="#JK" status="draft"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000177-013-000-facs001">
+      <surfaceGrp xml:id="D_000177-013-000-facs001-l001">
+         <surface type="recto" xml:id="D_000177-013-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543958/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000177-013-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543959/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

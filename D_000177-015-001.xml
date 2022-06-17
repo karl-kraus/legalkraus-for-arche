@@ -1,101 +1,105 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000177-015-001.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000177-015-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-001-000.xml">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Notiz</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher/>
-                <availability default="false">
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000177-015-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/</idno>
-                <idno type="ID" subtype="transkribus">349153</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000177">Unterlagen zu einer den Prozess Pisk – Kraus betreffenden Kontroverse zwischen
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-001-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000177-015-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000177-015-001.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>177.15 Notiz</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                  Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000177-015-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/</idno>
+            <idno subtype="transkribus" type="ID">349153</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000177" type="collection">Unterlagen zu einer den Prozess Pisk – Kraus betreffenden Kontroverse zwischen
                     Emil Franzel und Oskar Pollak</title>
-            </seriesStmt>
-            <sourceDesc default="false">
-                <listWit>
-                    <witness xml:id="D_000177-015-001-wit01" facs="D_000177-015-001-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-10-09T14:41:09.172Z" who="#IB" status="draft">created by
-                API</change>
-            <change when-iso="2021-09-06" who="#LU">Replaced Text with Transcription of Transkribus
-                Document 349153.</change>
-            <change when-iso="2021-11-29" type="header_facsimile" who="#JK"/>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000177-015-001.xml-facs001">
-        <surfaceGrp xml:id="D_000177-015-001.xml-facs001-l001">
-            <surface xml:id="D_000177-015-001.xml-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000083_19.jpg" source="krausonline"/>
-            </surface>
-            <surface xml:id="D_000177-015-001.xml-facs001-l001-p002" type="verso">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000084_18.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="D_000177-015-001.xml-facs001-l001-p001" n="1"/>
-            <!--<lb xml:id="uuid_bbcc5639-5255-4ba8-9a64-1d3f16da5362"/>30.III.32 SPD <lb
-                xml:id="uuid_4d62edab-a0da-4aad-9d4e-7f07f73e2488"/>breite Masse Mensch einzufangen,
-            ohne die ja bekanntermassen keine Partei <lb
-                xml:id="uuid_3f867c77-9389-4624-aeed-f72bc375d946"/>zur Macht gelangen kann. Hätten
-            Sie in Ihrer Partei nicht die veraltete These <lb
-                xml:id="uuid_082f5af5-5faa-4fef-88f0-0a84dbbfc923"/>von-der Wiedereinrichtung der
-            Monarchie aufgestellt, wäre die NSDAP heute nur <lb
-                xml:id="uuid_b4b67899-f909-46ef-8842-9d3ba69370f1"/>halb so stark und machtig.“ <lb
-                xml:id="uuid_dbb4a54f-237b-4775-947f-4ef0b80ab1e5"/>Das sind in wenigen Zeilen eine
-            ganze Menge der reizendsten Geständnisse. <lb
-                xml:id="uuid_2719f0b6-8846-4d6d-b92c-c2b8267f952a"/>Die Spiessbürger, die den
-            Nationalsozialisten nachlaufen, wissen nun, dass <lb
-                xml:id="uuid_21f5d756-47c1-48e4-84c5-64d44253f662"/>sie dort nur als die untere
-            breite Masse Mensch angesehen werden. Was es aber <lb
-                xml:id="uuid_c0c03882-98d0-49db-8601-e27a17f453f7"/>mit dem angeblichen Sozialismus
-            der Nazis auf sich hat, ist in diesem Briefe <lb
-                xml:id="uuid_175cc697-7dd5-4b5c-a699-305c818aa8d1"/>unübertrefflicher Klarheit und
-            Einfachheit dargelegt. Wenn zwei sich streiten <lb
-                xml:id="uuid_e50d207f-61df-4dac-8e0b-2cd2d891aec6"/>erfährt eben der Dritte die
-            Wahrheit! <lb xml:id="uuid_aa8c0e8f-de57-4274-ae77-3e33f9462c0b"/>Feinde! <lb
-                xml:id="uuid_334d6564-f4db-406d-996b-709fff4a1c2a"/>Eines von den verkappten
-            Naziblättern, die „Berliner Börsen-Zeitung“, die <lb
-                xml:id="uuid_ac27ef1e-0d8d-4ca1-9d9e-d59f0ca2ab3e"/>von Hass gegen die
-            Sozialdemokratie wie gegen alles, was in Deutschland frei- <lb
-                xml:id="uuid_7679a0d9-aea2-4930-9b28-1667e541f316"/>heitlich gesinnt ist,
-            giftgeschwollen ist, veröffentlicht einen Aufsatz „Der <lb
-                xml:id="uuid_fbf40ffb-09d7-4079-b6e1-61faef74bbfc"/>Feind im Land“. Sie erblickt den
-            Feind im Land in der gesamten modernen Lite- <lb
-                xml:id="uuid_7f20fb1e-0913-45a1-b55b-5d8086b56656"/>ratur, und sie stellt die Träger
-            der bekanntesten Namen als Feinde des deut- <lb
-                xml:id="uuid_001fa03d-1fd6-49b4-bc3f-564e11dbd3fc"/>schen Volkes hin. In ihrem
-            Katalog der Feinde im Lande finden wir Arnold <lb
-                xml:id="uuid_d9f348d2-f600-4aea-a73a-4d394117ee4d"/>Zweig, Alfred Kerr, Döblin,
-            Edleff Köppen, Thomas Mann, Emil Ludwig, Remarque, <lb
-                xml:id="uuid_a09c97a6-ef2f-43ed-83d3-598d202f9dc8"/>Ernst Gläser, Lion Feuchtwanger
-            und andere. Es ist ein ganz stattlicher Kata- <lb
-                xml:id="uuid_2adde7d8-2fbd-4f66-9fab-53b103d2bbbc"/>log, der da auf gestellt worden
-            ist. <lb xml:id="uuid_6caa7dee-2e9f-4ccf-9bcb-2c9773913a4c"/>Es hat keinen Zweck, sich
-            mit dieser Hetze sachlich auseinanderzusetzen. <lb
-                xml:id="uuid_9b4eae73-3667-4484-bfa4-a3d3e43f103f"/>Es genügt einfach die Frage zu
-            stellen: Wo ist denn der Katalog der Leute, <lb
-                xml:id="uuid_7cadac1f-ada2-41b8-a64f-8312e6ce906a"/>die Ihr in Anspruch nehmt und
-            der auch nur entfernt das gleiche kulturelle <lb
-                xml:id="uuid_4ac3cbac-a35a-4b36-b667-4a90f58947b1"/>Gewicht haben könnte wie die
-            Reihe der von Euch gehassten Köpfe? <lb
-                xml:id="uuid_4a88a156-ffce-4d96-88e3-5a203de0a597"/>Die Reaktion hat noch immer den
-            Geist gehasst! Hier ist eine neue Be[stä] <lb
-                xml:id="uuid_53f1e9f9-0262-49fc-84b7-20df00816108"/>tigung für diesen Satz.-->
-            <pb facs="D_000177-015-001.xml-facs001-l001-p002" n="2"/>
-            <!--<lb xml:id="uuid_283589bc-302f-41b7-8409-5877796bf30c"/>Kraus – Dr. Pisk -->
-        </body>
-    <back/></text>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000177-015-001-facs001" xml:id="D_000177-015-001-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000177-015-001-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" notBefore-iso="1932-03-30">30. März 1932
+           </date>
+         </creation>
+         <textClass>
+            <keywords>
+               <term source="D_000176-044-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000176-044-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-09T14:41:09.172Z" who="#IB">created by API </change>
+         <change when-iso="2021-09-06" who="#LU" status="draft">Replaced Text with Transcription
+                of Transkribus Document 349153. </change>
+         <change type="header_facsimile" when-iso="2021-11-29" who="#JK" status="draft"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000177-015-001-facs001">
+      <surfaceGrp xml:id="D_000177-015-001-facs001-l001">
+         <surface type="recto" xml:id="D_000177-015-001-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543972/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000177-015-001-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543973/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

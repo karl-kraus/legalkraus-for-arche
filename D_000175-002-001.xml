@@ -1,111 +1,335 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000175-002-001.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-002-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-005-000.xml">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Notiz (Abschrift) aus Egon Friedells Kulturgeschichte der Neuzeit</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000175-002-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/</idno>
-                <idno type="ID" subtype="transkribus">349070</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000175">Karl
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-003-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-002-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000175-002-001.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>175.2 Notiz (Abschrift) aus Egon Friedells Kulturgeschichte der Neuzeit</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000175-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/</idno>
+            <idno subtype="transkribus" type="ID">349070</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000175" type="collection">Karl
                     Kraus ca. Wiener Mittags-Zeitung</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000175-002-001-wit01" facs="D_000175-002-001-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date type="sortDate" when-iso="1932-02-12" subtype="produced">12. Februar
-                    1932</date>
-            </creation>
-            <langUsage>
-                <language ident="de">Deutsch</language>
-            </langUsage>
-            <textClass/>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change type="intertexts" when-iso="2021-05-07" who="#JK"/>
-            <change type="typography" when-iso="2021-05-07" who="#JK"/>
-            <change type="references" when-iso="2021-05-07" who="#JK"/>
-            <change type="structure" when-iso="2021-05-07" who="#JK"/>
-            <change when-iso="2020-10-09T14:17:32.589Z" who="#IB">created by API</change>
-            <change when-iso="2020-10-09T14:23:25.871Z" who="#IB">Replaced Text with Transcription
-                of Transkribus Document 349070.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000175-002-001.xml-facs001">
-        <surfaceGrp xml:id="D_000175-002-001.xml-facs001-l001">
-            <surface xml:id="D_000175-002-001.xml-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000008_24.jpg" source="krausonline"/>
-            </surface>
-            <surface xml:id="D_000175-002-001.xml-facs001-l001-p002" type="verso">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000009_18.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="D_000175-002-001.xml-facs001-l001-p001" n="1"/>
-            <p xml:id="uuid_15c2f62b-bf61-42dd-87bb-f9fd4a0bc841"><lb xml:id="uuid_819fc59f-9435-476e-9fc5-9f9435e76e0a"/><rs type="person" ref="#pmb2771">Egon Friedell</rs>, <rs type="work" ref="#pmb32624">Kulturgeschichte der Neuzeit</rs>
-                <lb xml:id="uuid_e6d6fa5a-277e-490b-96fa-5a277ee90be9"/>(<rs type="institution" ref="#pmb55416">C.H. Beck</rs>, <rs type="place" ref="#pmb55416">München</rs>) <lb xml:id="uuid_33e2c89a-1d28-4f22-a2c8-9a1d283f22ce"/>Band I S. 169 </p>
-            <p xml:id="uuid_62396609-62a8-4afe-8431-603dea570483"><lb xml:id="uuid_5472b817-88d8-40c4-b2b8-1788d8b0c400"/><quote xml:id="uuid_a4e5078e-38ad-4039-b3da-0afae57b6799" source="#32624">Und <rs type="person" ref="#pmb11988">Karl Kraus</rs>
-                    hat unsere Zeit in einem Werk <lb xml:id="uuid_d57d61a5-562a-4c3f-bd61-a5562abc3f12"/>von fanatischer
-                    Phantastik und übermenschlichem <lb xml:id="uuid_f408bb3c-1b1f-4629-88bb-3c1b1fd629e5"/>Pinselstrich, das ihre
-                    Züge für immer aufbewahren wird, ebenfalls <lb xml:id="uuid_ebfc25f4-b130-4955-bc25-f4b130b955d7"/>apokalyptisch gesehen
-                    als die „<rs type="work" ref="#pmb32544">letzten Tage der Menschheit</rs>“. Aber
-                    die <lb xml:id="uuid_2261f2a7-980a-46f6-a1f2-a7980a96f60e"/>Welt geht nicht
-                    unter, sooft es der Mensch auch geglaubt <lb xml:id="uuid_b3118152-297b-4f03-9181-52297b4f03e3"/>hat, und solche
-                    Stimmungen pflegen zumeist das gerade <lb xml:id="uuid_687a6d45-0224-450b-ba6d-450224b50b23"/>Gegenteil anzukündigen:
-                    einen Weltaufgang, das <lb xml:id="uuid_1fc17378-3539-45d7-8173-78353915d71b"/>Emporsteigen einer neuen Art, die Welt zu begreifen und <lb xml:id="uuid_6660786d-2671-4da1-a078-6d26713da172"/>zu sehen.</quote>
-            </p>
-            <pb facs="D_000175-002-001.xml-facs001-l001-p002" n="2"/>
-        </body>
-    <back><listPerson><person xml:id="pmb11988">
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000175-002-001-facs001" xml:id="D_000175-002-001-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000175-002-001-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.M">Manuskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-02-12">12. Februar 1932
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000175-002-001-wit01">Notiz</term>
+            </keywords>
+            <classCode source="D_000175-002-001-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.NOT">D.J.NOT</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-05-07" who="#JK" status="draft"/>
+         <change type="typography" when-iso="2021-05-07" who="#JK" status="draft"/>
+         <change type="references" when-iso="2021-05-07" who="#JK" status="draft"/>
+         <change type="structure" when-iso="2021-05-07" who="#JK" status="draft"/>
+         <change when-iso="2020-10-09T14:17:32.589Z" who="#IB" status="draft">created by
+                API</change>
+         <change when-iso="2020-10-09T14:23:25.871Z" who="#IB" status="draft">Replaced Text with
+                Transcription of Transkribus Document 349070. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000175-002-001-facs001">
+      <surfaceGrp xml:id="D_000175-002-001-facs001-l001">
+         <surface type="recto" xml:id="D_000175-002-001-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543579/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000175-002-001-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543580/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000175-002-001_p001" facs="#D_000175-002-001-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_983183ae-006f-4695-9b5a-192de6821846">
+            <lb xml:id="uuid_6bc3f4e9-24a7-4e54-bd50-3490a1761efd"/><rs ref="#pmb2771" type="person">Egon Friedell</rs>,
+                    <rs ref="#pmb32624" type="work" subtype="pmb">Kulturgeschichte der Neuzeit</rs>
+            <lb xml:id="uuid_4b37b166-2360-47bd-88f4-0d92b8fd482e"/>(<rs ref="#pmb55416" type="institution">C.H. Beck</rs>, <rs ref="#pmb55416" type="place">München</rs>)<lb xml:id="uuid_61b453f5-189f-4e61-b569-9bae6607ce85"/>Band I S.
+                169 </p>
+         <p xml:id="uuid_67d0d38b-d4dd-44f6-a8e5-f1f2130ceb37">
+            <lb xml:id="uuid_020eb3b3-8d99-4846-a2c0-fa31a5f6cadf"/><quote source="#32624" xml:id="uuid_50b295c0-59d6-4005-be8b-4c1f3f8ba4bb">Und <rs ref="#pmb11988" type="person">Karl Kraus</rs>
+                    hat unsere Zeit in einem Werk<lb xml:id="uuid_22d58a11-eaf3-405a-a3f5-5b0a451b3fc0"/>von fanatischer
+                    Phantastik und übermenschlichem<lb xml:id="uuid_2b8ce565-2d19-49ea-a0fa-5ca11d552f88"/>Pinselstrich, das ihre
+                    Züge für immer aufbewahren wird, ebenfalls<lb xml:id="uuid_7d86f6c0-521e-4ce2-969b-f7763644583a"/>apokalyptisch gesehen
+                    als die „<rs ref="#pmb32544" type="work" subtype="pmb">letzten Tage der
+                        Menschheit</rs>“. Aber die<lb xml:id="uuid_5dc107c2-2876-4001-a699-3399eac01625"/>Welt geht nicht unter,
+                    sooft es der Mensch auch geglaubt<lb xml:id="uuid_809d7f8a-d434-4871-b4bf-0bc88161274b"/>hat, und solche
+                    Stimmungen pflegen zumeist das gerade<lb xml:id="uuid_26c93612-650c-4594-890b-00aca199f861"/>Gegenteil anzukündigen:
+                    einen Weltaufgang, das<lb xml:id="uuid_275e91de-9eb3-4b4f-9d55-0891b10b72c8"/>Emporsteigen einer neuen Art, die Welt zu begreifen und<lb xml:id="uuid_77aa3dd5-50cf-469c-9a0b-2fbec2f5c60e"/>zu sehen.</quote>
+         </p>
+      </body>
+   <back><listPerson><person xml:id="pmb2771">
+  <persName>
+      <forename>Egon</forename>
+      <surname>Friedell</surname>
+  </persName>
+
+  <persName type="geburtsname_nachname">Friedmann</persName>
+
+  <persName type="namensvariante">Egon Friedell</persName>
+
+  <persName type="legacy-name-merge">Friedell, Egon</persName>
+
+
+  <birth>
+    <date when-iso="1878-01-21">21.01.1878</date>
+  
+  
+    <settlement key="pmb50">
+      <placeName type="pref">Wien</placeName>
+    
+      <placeName type="alternative-name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Bécs</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Land Wien</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Vídeň</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Wenia</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Beč</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Vindobona (Wien)</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-name-merge">Vindobona</placeName>
+    
+      <placeName type="alternative-name">Vienna</placeName>
+    
+      <placeName type="legacy-name-merge">Wien?</placeName>
+    
+      <placeName type="alternative-name">Vienna</placeName>
+    
+      <placeName type="legacy-name-merge">Vienna</placeName>
+    
+      <placeName type="legacy-name-merge">Vienna</placeName>
+    
+    
+      <location><geo>48,2066 16,37341</geo></location>
+    
+    
+      <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+      
+      <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+      
+      <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+      
+      <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+      
+      <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+      
+      <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+      
+      <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+      
+      <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+      
+    </settlement>
+    
+       
+  </birth>  
+
+
+  <death>
+    <date when-iso="1938-03-16">16.03.1938</date>
+      
+      
+      <settlement key="pmb50">
+        <placeName type="pref">Wien</placeName>
+        
+        <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+        
+        <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+        
+        <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+        
+        <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+        
+      
+        <location><geo>48,2066 16,37341</geo></location>
+      
+      </settlement>
+      
+      
+  </death>
+
+
+  <sex value="male"/>
+
+
+  <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+
+  <occupation key="99">Journalist/Journalistin</occupation>
+
+  <occupation key="195">Philosoph/Philosophin &gt;&gt; Kulturphilosoph/Kulturphilosophin</occupation>
+
+
+  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118535560</idno>
+
+  <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2771</idno>
+
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2771</idno>
+
+  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15210</idno>
+
+  <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2771</idno>
+
+
+<affiliation>
+    <term key="1182">arbeitet für</term>
+    <orgName key="pmb55506">Nachtlicht</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/55506/</idno>
+    
+</affiliation>
+
+<affiliation notBefore-iso="1921-01-01" when-iso="1921-07-02" notAfter-iso="1921-12-31">
+    <term key="1182">arbeitet für</term>
+    <orgName key="pmb29320">Neues Wiener Journal</orgName>
+    
+    <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29320</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/29320</idno>
+    
+    <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29320</idno>
+    
+</affiliation>
+
+
+<listEvent>
+    
+    <event key="42714" when-iso="1905-05-29">
+        <desc n="1256">ist Arbeitskraft bei</desc>
+        <label>Geschlossene Aufführung Die Büchse der Pandora, 29.5.1905</label>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/42714/</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/42714</idno>
+            
+    </event>
+    
+</listEvent>
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>74.1 Brief Samek an Egon Friedell</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000074-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>74.3 Brief Egon Friedell an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000074-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.2 Privatanklage von Karl Kraus gegen Wiener Mittags-Zeitung (verantw. Red. Karl Mautner) wegen Ehrenbeleidigung begangen durch die Presse und Antrag auf Vornahme einer Hausdurchsuchung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.2 Notiz (Abschrift) aus Egon Friedells Kulturgeschichte der Neuzeit</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-002-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.3 Brief Samek an Egon Friedell</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.4 Brief Egon Friedell an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.5 Beschluss des Strafbezirksgerichts I Wien (G.Z. 5 U 86/32, Johann Powalatz)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.9 Erklärung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-009-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.13 Brief Samek an RA Kurt Schreiber</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>178.4 Übersetzung der Beweisanträge des Privatanklägers Anton Kuh in der Sache gegen Dr. Emil Strauss</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-004-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb11988">
   <persName>
       <forename>Karl</forename>
       <surname>Kraus</surname>
@@ -118,13 +342,29 @@
     <date when-iso="1874-04-28">28.04.1874</date>
   
   
-      <settlement key="pmb41660">
-        <placeName type="pref">Jičín</placeName>
+    <settlement key="pmb41660">
+      <placeName type="pref">Jičín</placeName>
+    
+      <placeName type="alternative-name">Gitschin</placeName>
+    
+      <placeName type="alternative-name">Jičín</placeName>
+    
+      <placeName type="legacy-name">Jičín</placeName>
+    
+      <placeName type="legacy-name-merge">Jitschin</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4440310-0</placeName>
+    
+    
+      <location><geo>50,43723 15,35162</geo></location>
+    
+    
+      <idno type="URL">http://sws.geonames.org/3074204/</idno>
       
-        <location><geo>50,43723 15,35162</geo></location>
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/41660</idno>
       
-      </settlement>
-      
+    </settlement>
+    
        
   </birth>  
 
@@ -136,6 +376,29 @@
       <settlement key="pmb50">
         <placeName type="pref">Wien</placeName>
         
+        <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+        
+        <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+        
+        <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+        
+        <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+        
+      
         <location><geo>48,2066 16,37341</geo></location>
       
       </settlement>
@@ -215,6 +478,32 @@
     
 </affiliation>
 
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb60573">Karl Kraus-Gesellschaft</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/60573/</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb37159">Jahoda &amp; Siegel (Druckerei)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37159/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37159</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb87755">Max Goldschmidt (Büro für Zeitungsausschnitte)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/87755/</idno>
+    
+</affiliation>
+
 
 <listEvent>
     
@@ -251,7 +540,71 @@
 
 
 
-</person></listPerson><listOrg><org xml:id="pmb55416">
+</person></listPerson><listBibl><bibl xml:id="pmb32544">
+  <title type="main">Die letzten Tage der Menschheit</title>
+
+
+
+  <author key="person__11988">Kraus, Karl</author>
+
+  <author key="person__51630">Münzer, Jan</author>
+
+
+
+
+<date notBefore-iso="1919-01-01" when-iso="1919-07-02" notAfter-iso="1919-12-31">1919</date>
+
+
+  <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb32544</idno>
+
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/32544</idno>
+
+  <idno type="URL">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32544.html</idno>
+
+
+<note type="collections">
+  
+  <bibl type="collections" n="5">legalkraus</bibl>
+  
+</note>
+
+
+
+  <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>1.2 Brief Samek an Neues Wiener Journal (verantw. Red. Willibald Riedl)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000001-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>3.1 Brief Samek an Der Tag (verantw. Red. Hugo Bettauer)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000003-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>68.44 Schriftsatz in Sachen Kraus ./. Kerr (Alfred Kerr an das Amtsgericht Charlottenburg, G.Z. B.2 27)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-044-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>68.62 Schriftsatz in Sachen Kraus ./. Kerr (Kraus an das Amtsgericht Charlottenburg, G.Z. B.2 27)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-062-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>68.74 Schriftsatz in Sachen Kraus ./. Kerr (Alfred Kerr an das Amtsgericht Charlottenburg, G.Z. B.2 27)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-074-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>70.10 Schriftsatz in Sachen Kerr ./. Kraus (RA Botho Laserstein an das Landgericht I Berlin, G.Z. Q 164/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>72.12 [Abhandlung] von Hans Loewe</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000072-012-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>97.2 Brief Samek an Die Stunde (verantw. Red. Marc Siegelberg)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000097-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.9 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.10 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.11 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>99.12 Brief RA Max Hirschberg an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>134.4 Zeugenaussage von Fritz Löwy</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>134.42 Brief Karl Jaray an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-042-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>142.1 Brief Th. Knaur Nachf-Verlag [Adalbert Droemer] an Richard Lányi</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>142.2 Brief Th. Knaur Nachf. Verlag [Adalbert Droemer] an Richard Lányi</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>142.3 Brief Samek an Th. Knaur Nachf. Verlag</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>142.4 Brief Th. Knaur Nachf. Verlag [Adalbert Droemer] an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>142.6 Brief Samek an Th. Knaur Nachf. Verlag</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>142.7 Brief Th. Knaur Nachf. Verlag [Adalbert Droemer] an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>142.9 Brief Heinrich Fischer an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>142.10 Klage von Karl Kraus gegen Th. Knaur Nachf. Verlag wegen Veröffentlichung und Zahlung eines Betrages von Mark 10.000</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>142.15 Klagebeantwortung (RA Alfred Seiller an das Handelsgericht Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>142.18 Entwurf eines vorbereitenden Schriftsatzes (von Kraus verfasst und geschrieben)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>142.19 Vorbereitender Schriftsatz der klagenden Partei (Samek an das Handelsgericht Wien I, G.Z. 1 Cg 110/30)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>142.32 Antrag Samek an das Handelsgericht Wien I, G.Z. 1 Cg 110/30/1</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-032-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>142.33 Brief Samek an RA Alfred Seiller</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-033-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>145.1 Brief Samek an RA Max Hirschberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000145-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>145.6 Brief RA H.H. Bernstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000145-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>145.8 Brief Samek an RA H.H. Bernstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000145-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>145.9 Brief RA H.H. Bernstein an Stadttheater Augsburg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000145-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.2 Privatanklage von Karl Kraus gegen Wiener Mittags-Zeitung (verantw. Red. Karl Mautner) wegen Ehrenbeleidigung begangen durch die Presse und Antrag auf Vornahme einer Hausdurchsuchung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.2 Notiz (Abschrift) aus Egon Friedells Kulturgeschichte der Neuzeit</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-002-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>185.1 Antrag auf Vorerhebungen und Vornahme einer Hausdurchsuchung (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000185-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.16 Entwurf einer Berichtigung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.23 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.26 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-026-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.36 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.40 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-040-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.95 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-095-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.99 Urteil (Übersetzung) des Zivilbezirksgerichts Prag-Ost (G.Z. C VIII 1411/34-8, Richter: Georg Bouzek, Verteidiger: Sigmund Stein)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-099-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.8 Strafanzeige gegen Sozialdemokrat (verantw. Red. Emil Strauss) wegen des Vergehens der Nachrede und Verleumdung (eingebracht von Karl Kraus beim Strafkreisgericht Prag)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.17 Entwurf der Satisfaktionserklärung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.19 Übersetzung [Schriftsatz in Sachen Kraus ca. Sozialdemokrat] (RA Egon Schwelb [an das Strafkreisgericht Prag])</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.23 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.32 Artikel „Karl Kraus – sechzig Jahre“ von Emil Franzel [aus: Der Sozialdemokrat, 1934]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-032-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.48 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-048-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.55 Äußerung [Schriftsatz in Sachen Kraus ca. Strauss] (Kraus und Samek an das Obergericht in Prag)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-055-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.125 Brief Verlag Die Fackel an Der Kampf (Schriftleitung Otto Bauer)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-125-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>196.30 Brief Samek an RA Robert Herrmann und RA Felix Gallia</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-030-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>196.60 Brief RA Felix Gallia an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-060-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>196.61 Übersetzung der Durchführung des Wahrheitsbeweises resp. des entschuldbaren Irrtums von Josef Schramek und Hugo Sonnenschein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-061-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>196.75 Brief RA Felix Gallia an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-075-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>196.84 Äußerung des Privatklägers zum Schriftsatz der Angeklagten vom 18. Februar 1936</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-084-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>196.90 Protokoll der Zeugeneinvernahme von Karl Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-090-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>196.97 Brief RA Felix Gallia an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-097-000.xml"/></linkGrp></event></listEvent></bibl><bibl xml:id="pmb32624">
+  <title type="main">Die Kulturgeschichte der Neuzeit</title>
+
+
+
+  <author key="person__2771">Friedell, Egon</author>
+
+
+
+
+<date notBefore-iso="1927-01-01" when-iso="1927-07-02" notAfter-iso="1927-12-31">1927</date>
+
+
+  <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb32624</idno>
+
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/32624</idno>
+
+  <idno type="URL">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32624.html</idno>
+
+
+<note type="collections">
+  
+  <bibl type="collections" n="5">legalkraus</bibl>
+  
+</note>
+
+
+
+  <note type="work_kind">Geschichtswerk</note>
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>175.2 Privatanklage von Karl Kraus gegen Wiener Mittags-Zeitung (verantw. Red. Karl Mautner) wegen Ehrenbeleidigung begangen durch die Presse und Antrag auf Vornahme einer Hausdurchsuchung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.2 Notiz (Abschrift) aus Egon Friedells Kulturgeschichte der Neuzeit</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-002-001.xml"/></linkGrp></event></listEvent></bibl></listBibl><listOrg><org xml:id="pmb55416">
   <orgName>C.H. Beck</orgName>
 
 
@@ -284,7 +637,5 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Wiener Mittags-Zeitung (verantw. Red. Karl
-                    Mautner) wegen Ehrenbeleidigung begangen durch die Presse und Antrag auf
-                    Vornahme einer Hausdurchsuchung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Notiz (Abschrift) aus Egon Friedells Kulturgeschichte der Neuzeit</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-002-001.xml"/></linkGrp></event></listEvent></org></listOrg></back></text>
+<listEvent><event type="mentioned"><p>erwähnt in <title>175.2 Privatanklage von Karl Kraus gegen Wiener Mittags-Zeitung (verantw. Red. Karl Mautner) wegen Ehrenbeleidigung begangen durch die Presse und Antrag auf Vornahme einer Hausdurchsuchung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.2 Notiz (Abschrift) aus Egon Friedells Kulturgeschichte der Neuzeit</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-002-001.xml"/></linkGrp></event></listEvent></org></listOrg></back></text>
 </TEI>

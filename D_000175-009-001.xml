@@ -1,107 +1,408 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000175-009-001.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-007-001.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-010-000.xml">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Erklärung</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000175-009-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4341</idno>
-                <idno type="ID" subtype="transkribus">349077</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000175">Karl
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-010-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-009-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000175-009-001.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>175.9 Erklärung</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000175-009-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4341</idno>
+            <idno subtype="transkribus" type="ID">349077</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000175" type="collection">Karl
                     Kraus ca. Wiener Mittags-Zeitung</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000175-009-001-wit01" facs="D_000175-009-001-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date type="sortDate" when-iso="1932-03-07" subtype="produced">7. März 1932</date>
-            </creation>
-            <langUsage>
-                <language ident="de">Deutsch</language>
-            </langUsage>
-            <textClass/>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change type="intertexts" when-iso="2021-05-07" who="#JK"/>
-            <change type="typography" when-iso="2021-05-07" who="#JK"/>
-            <change type="references" when-iso="2021-05-07" who="#JK"/>
-            <change type="structure" when-iso="2021-05-07" who="#JK"/>
-            <change when-iso="2020-10-09T14:17:32.589Z" who="#IB">created by API</change>
-            <change when-iso="2020-10-09T14:23:25.871Z" who="#IB">Replaced Text with Transcription
-                of Transkribus Document 349077.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000175-009-001.xml-facs001">
-        <surfaceGrp xml:id="D_000175-009-001.xml-facs001-l001">
-            <surface xml:id="D_000175-009-001.xml-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000093_19.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="D_000175-009-001.xml-facs001-l001-p001" n="1"/>
-            <p xml:id="uuid_0e196c9e-c725-4aa7-9a0d-01b0039320f3"><lb xml:id="uuid_b20820ab-b58a-46e9-8820-abb58a06e9b8"/><hi rend="spaced">Erklärung</hi>. </p>
-            <p xml:id="uuid_f6e5e8cc-3bf6-4a62-915e-a545d0a6cf06"><lb xml:id="uuid_df94b4b2-aca2-405d-94b4-b2aca2005d47"/>Wir haben an dieser Stelle
-                eine Anekdote <lb xml:id="uuid_6e2eaff3-7b52-425c-aeaf-f37b52625cdf"/>veröffentlicht, die ein angebliches Gespräch des Schrift<lb xml:id="uuid_8e8d1a9f-7091-4320-8d1a-9f70919320da" break="no"/>stellers <rs type="person" ref="#pmb2771">Egon Friedell</rs>
-                mit <rs type="person" ref="#pmb11988"><hi rend="spaced">Karl Kraus</hi></rs> zum Gegen<lb xml:id="uuid_ad7ee13b-9019-4e68-bee1-3b90197e689f" break="no"/>stand hatte, das
-                in Wahrheit niemals stattgefunden hat und <lb xml:id="uuid_cdcde645-bf01-41ab-8de6-45bf0191abdf"/>dessen Inhalt in keiner
-                Weise einem realen Sachverhalt ent<lb xml:id="uuid_abd8cc78-1610-49dc-98cc-78161019dc90" break="no"/>spricht. Die
-                Aufnahme der Anekdote war nur infolge der Ver<lb xml:id="uuid_bbcfa458-c26f-4bf8-8fa4-58c26f2bf802" break="no"/>nachlässigung der
-                pflichtgemässen Obsorge möglich, und wir <lb xml:id="uuid_63e81917-aafb-47aa-a819-17aafba7aaff"/>erklären, dass wir den
-                Vorfall auf das Tiefste bedauern. <lb xml:id="uuid_bccadfde-d5c7-4b58-8adf-ded5c73b5853"/>Wir haben zum Ausdruck
-                dieses Bedauerns uns bereit erklärt, <lb xml:id="uuid_e4f73c94-27f1-44f7-b73c-9427f124f754"/>den Betrag von S 300.–– für
-                das <rs type="institution" ref="#pmb36935">Blinden-Erziehungs-Institut</rs>
-                <lb xml:id="uuid_1f896950-10fe-4109-8969-5010fed109a8"/>in <rs type="place" subtype="address" ref="#pmb1238">Wien II., Wittelsbachstrasse Nr. 5</rs> zur
-                Anschaffung eines <lb xml:id="uuid_84ad7cb5-5473-4734-ad7c-b554733734c8"/>Radiogerätes für die Zöglinge zu erlegen. </p>
-        </body>
-    <back><listPerson><person xml:id="pmb11988">
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000175-009-001-facs001" xml:id="D_000175-009-001-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000175-009-001-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-03-07">7. März 1932</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000175-009-001-wit01">Erklärung (jur.)</term>
+            </keywords>
+            <classCode source="D_000175-009-001-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.ERK">D.J.ERK</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-05-07" who="#JK"/>
+         <change type="typography" when-iso="2021-05-07" who="#JK"/>
+         <change type="references" when-iso="2021-05-07" who="#JK"/>
+         <change type="structure" when-iso="2021-05-07" who="#JK"/>
+         <change when-iso="2020-10-09T14:17:32.589Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-09T14:23:25.871Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 349077. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000175-009-001-facs001">
+      <surfaceGrp xml:id="D_000175-009-001-facs001-l001">
+         <surface type="recto" xml:id="D_000175-009-001-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543664/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000175-009-001_p001" facs="#D_000175-009-001-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_20942f3c-d936-433b-a232-81893a79323a">
+            <lb xml:id="uuid_82765140-e8d9-413a-8b5b-f855598a8f13"/><hi rend="spaced">Erklärung</hi>. </p>
+         <p xml:id="uuid_b373fbfb-0702-458a-85bf-1c8e6633bd78">
+            <lb xml:id="uuid_f504b1f6-b8aa-49c3-8379-798c33fecef0"/>Wir haben an dieser Stelle eine
+               Anekdote<lb xml:id="uuid_ef50eb53-c910-428e-8f06-127ddcb28f32"/>veröffentlicht, die
+            ein angebliches Gespräch des Schrift<lb break="no" xml:id="uuid_89f762bb-3353-411e-81c9-9a609f30812d"/>stellers <rs ref="#pmb2771" type="person">Egon Friedell</rs> mit
+               <rs ref="#pmb11988" type="person"><hi rend="spaced">Karl Kraus</hi></rs> zum Gegen<lb break="no" xml:id="uuid_b26a2538-3f55-4643-93e0-69c9e11979c2"/>stand hatte, das in Wahrheit
+            niemals stattgefunden hat und<lb xml:id="uuid_d4b366b9-0992-42e1-9e9a-696818e5c102"/>dessen Inhalt in keiner Weise einem realen Sachverhalt ent<lb break="no" xml:id="uuid_d8ce68fa-96dd-4955-a226-1fa84efb9c02"/>spricht. Die Aufnahme der <rs type="work" subtype="legal-doc">Anekdote</rs> war nur infolge der Ver<lb break="no" xml:id="uuid_e15ca0cb-a676-4a25-a9dd-42b46e2895d4"/>nachlässigung der pflichtgemässen
+            Obsorge möglich, und wir<lb xml:id="uuid_1864f871-0a6d-4479-8cb0-e40f124734ab"/>erklären, dass wir den Vorfall auf das Tiefste bedauern.<lb xml:id="uuid_558d18c9-ab60-4c76-bb81-2febda6b8df9"/>Wir haben zum Ausdruck dieses
+            Bedauerns uns bereit erklärt,<lb xml:id="uuid_644a58c8-92f5-4ca0-9f49-7d465b2573c0"/>den
+            Betrag von S 300.– für das <rs ref="#pmb36935" type="institution">Blinden-Erziehungs-Institut</rs>
+            <lb xml:id="uuid_319e236f-491a-488e-bbab-134f4d22c9a2"/>in <rs ref="#pmb1238" subtype="address" type="place">Wien II., Wittelsbachstrasse Nr. 5</rs> zur
+            Anschaffung eines<lb xml:id="uuid_2a91b15e-79d2-4091-be0a-0c08234e0a5b"/>Radiogerätes
+            für die Zöglinge zu erlegen. </p>
+      </body>
+   <back><listOrg><org xml:id="pmb36935">
+  <orgName>Blinden-Erziehungs-Institut Wien</orgName>
+
+  <orgName type="uri_wien-geschichte-wiki">https://www.geschichtewiki.wien.gv.at/Blindeninstitut</orgName>
+
+
+
+<location type="located_in_place">
+  <placeName key="pmb52">II., Leopoldstadt</placeName>
+  <geo>48,21667 16,4</geo>
+  
+  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb410</note>
+  
+  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb52</note>
+  
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/52</note>
+  
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/410</note>
+  
+  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/44238/</note>
+  
+  <note type="IDNO">https://sws.geonames.org/2772614/</note>
+  
+  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb52</note>
+  
+</location>
+
+<location type="located_in_place">
+  <placeName key="pmb1238">Wittelsbachstraße</placeName>
+  <geo>48,20635 16,39925</geo>
+  
+  <note type="IDNO" subtype="wienwiki">https://pmb.acdh.oeaw.ac.at/entities:Wittelsbachstraße</note>
+  
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/1238</note>
+  
+  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1238</note>
+  
+</location>
+
+<location type="located_in_place">
+  <placeName key="pmb50">Wien</placeName>
+  <geo>48,2066 16,37341</geo>
+  
+  <note type="IDNO" subtype="geonames">https://sws.geonames.org/2761369/</note>
+  
+  <note type="IDNO" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</note>
+  
+  <note type="IDNO" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</note>
+  
+  <note type="IDNO">https://d-nb.info/gnd/4066009-6</note>
+  
+  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</note>
+  
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/50</note>
+  
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/2316</note>
+  
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/20954</note>
+  
+  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</note>
+  
+  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</note>
+  
+  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</note>
+  
+</location>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36935/</idno>
+
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36935</idno>
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>175.7 Brief Josef Bartosch an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.9 Erklärung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-009-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.12 Brief Direktion des Blinden-Erziehungs-Instituts Wien II an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.14 Brief Direktion des Blinden-Erziehungs-Instituts Wien II an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-014-000.xml"/></linkGrp></event></listEvent></org></listOrg><listPerson><person xml:id="pmb2771">
+  <persName>
+      <forename>Egon</forename>
+      <surname>Friedell</surname>
+  </persName>
+
+  <persName type="geburtsname_nachname">Friedmann</persName>
+
+  <persName type="namensvariante">Egon Friedell</persName>
+
+  <persName type="legacy-name-merge">Friedell, Egon</persName>
+
+
+  <birth>
+    <date when-iso="1878-01-21">21.01.1878</date>
+  
+  
+    <settlement key="pmb50">
+      <placeName type="pref">Wien</placeName>
+    
+      <placeName type="alternative-name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Bécs</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Land Wien</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Vídeň</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Wenia</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Beč</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Vindobona (Wien)</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-name-merge">Vindobona</placeName>
+    
+      <placeName type="alternative-name">Vienna</placeName>
+    
+      <placeName type="legacy-name-merge">Wien?</placeName>
+    
+      <placeName type="alternative-name">Vienna</placeName>
+    
+      <placeName type="legacy-name-merge">Vienna</placeName>
+    
+      <placeName type="legacy-name-merge">Vienna</placeName>
+    
+    
+      <location><geo>48,2066 16,37341</geo></location>
+    
+    
+      <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+      
+      <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+      
+      <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+      
+      <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+      
+      <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+      
+      <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+      
+      <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+      
+      <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+      
+    </settlement>
+    
+       
+  </birth>  
+
+
+  <death>
+    <date when-iso="1938-03-16">16.03.1938</date>
+      
+      
+      <settlement key="pmb50">
+        <placeName type="pref">Wien</placeName>
+        
+        <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+        
+        <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+        
+        <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+        
+        <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+        
+      
+        <location><geo>48,2066 16,37341</geo></location>
+      
+      </settlement>
+      
+      
+  </death>
+
+
+  <sex value="male"/>
+
+
+  <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+
+  <occupation key="99">Journalist/Journalistin</occupation>
+
+  <occupation key="195">Philosoph/Philosophin &gt;&gt; Kulturphilosoph/Kulturphilosophin</occupation>
+
+
+  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118535560</idno>
+
+  <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2771</idno>
+
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2771</idno>
+
+  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15210</idno>
+
+  <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2771</idno>
+
+
+<affiliation>
+    <term key="1182">arbeitet für</term>
+    <orgName key="pmb55506">Nachtlicht</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/55506/</idno>
+    
+</affiliation>
+
+<affiliation notBefore-iso="1921-01-01" when-iso="1921-07-02" notAfter-iso="1921-12-31">
+    <term key="1182">arbeitet für</term>
+    <orgName key="pmb29320">Neues Wiener Journal</orgName>
+    
+    <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29320</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/29320</idno>
+    
+    <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29320</idno>
+    
+</affiliation>
+
+
+<listEvent>
+    
+    <event key="42714" when-iso="1905-05-29">
+        <desc n="1256">ist Arbeitskraft bei</desc>
+        <label>Geschlossene Aufführung Die Büchse der Pandora, 29.5.1905</label>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/42714/</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/42714</idno>
+            
+    </event>
+    
+</listEvent>
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>74.1 Brief Samek an Egon Friedell</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000074-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>74.3 Brief Egon Friedell an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000074-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.2 Privatanklage von Karl Kraus gegen Wiener Mittags-Zeitung (verantw. Red. Karl Mautner) wegen Ehrenbeleidigung begangen durch die Presse und Antrag auf Vornahme einer Hausdurchsuchung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.2 Notiz (Abschrift) aus Egon Friedells Kulturgeschichte der Neuzeit</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-002-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.3 Brief Samek an Egon Friedell</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.4 Brief Egon Friedell an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.5 Beschluss des Strafbezirksgerichts I Wien (G.Z. 5 U 86/32, Johann Powalatz)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.9 Erklärung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-009-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.13 Brief Samek an RA Kurt Schreiber</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>178.4 Übersetzung der Beweisanträge des Privatanklägers Anton Kuh in der Sache gegen Dr. Emil Strauss</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-004-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb11988">
   <persName>
       <forename>Karl</forename>
       <surname>Kraus</surname>
@@ -114,13 +415,29 @@
     <date when-iso="1874-04-28">28.04.1874</date>
   
   
-      <settlement key="pmb41660">
-        <placeName type="pref">Jičín</placeName>
+    <settlement key="pmb41660">
+      <placeName type="pref">Jičín</placeName>
+    
+      <placeName type="alternative-name">Gitschin</placeName>
+    
+      <placeName type="alternative-name">Jičín</placeName>
+    
+      <placeName type="legacy-name">Jičín</placeName>
+    
+      <placeName type="legacy-name-merge">Jitschin</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4440310-0</placeName>
+    
+    
+      <location><geo>50,43723 15,35162</geo></location>
+    
+    
+      <idno type="URL">http://sws.geonames.org/3074204/</idno>
       
-        <location><geo>50,43723 15,35162</geo></location>
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/41660</idno>
       
-      </settlement>
-      
+    </settlement>
+    
        
   </birth>  
 
@@ -132,6 +449,29 @@
       <settlement key="pmb50">
         <placeName type="pref">Wien</placeName>
         
+        <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+        
+        <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+        
+        <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+        
+        <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+        
+      
         <location><geo>48,2066 16,37341</geo></location>
       
       </settlement>
@@ -211,6 +551,32 @@
     
 </affiliation>
 
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb60573">Karl Kraus-Gesellschaft</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/60573/</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb37159">Jahoda &amp; Siegel (Druckerei)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37159/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37159</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb87755">Max Goldschmidt (Büro für Zeitungsausschnitte)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/87755/</idno>
+    
+</affiliation>
+
 
 <listEvent>
     
@@ -247,60 +613,7 @@
 
 
 
-</person></listPerson><listOrg><org xml:id="pmb36935">
-  <orgName>Blinden-Erziehungs-Institut Wien</orgName>
-
-  <orgName type="uri_wien-geschichte-wiki">https://www.geschichtewiki.wien.gv.at/Blindeninstitut</orgName>
-
-
-
-<location type="located_in_place">
-  <placeName key="pmb52">II., Leopoldstadt</placeName>
-  <geo>48,21667 16,4</geo>
-  
-  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb410</note>
-  
-  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb52</note>
-  
-  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/52</note>
-  
-  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/410</note>
-  
-  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/44238/</note>
-  
-  <note type="IDNO">https://sws.geonames.org/2772614/</note>
-  
-  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb52</note>
-  
-</location>
-
-<location type="located_in_place">
-  <placeName key="pmb1238">Wittelsbachstraße</placeName>
-  <geo>48,20635 16,39925</geo>
-  
-  <note type="IDNO" subtype="wienwiki">https://pmb.acdh.oeaw.ac.at/entities:Wittelsbachstraße</note>
-  
-  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/1238</note>
-  
-  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1238</note>
-  
-</location>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36935/</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36935</idno>
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Erklärung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-009-001.xml"/></linkGrp></event></listEvent></org></listOrg><listPlace><place xml:id="pmb1238">
+</person></listPerson><listPlace><place xml:id="pmb1238">
   <placeName>Wittelsbachstraße</placeName>
 
 
@@ -334,5 +647,5 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Erklärung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-009-001.xml"/></linkGrp></event></listEvent></place></listPlace></back></text>
+<listEvent><event type="mentioned"><p>erwähnt in <title>175.7 Brief Josef Bartosch an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.9 Erklärung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-009-001.xml"/></linkGrp></event></listEvent></place></listPlace></back></text>
 </TEI>

@@ -1,110 +1,102 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000177-002-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000177-001-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000177-003-000.xml">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Brief Arbeiter-Zeitung (Oskar Pollak) an die Schriftleitung der
-                    „Arbeiter-Sängerzeitung“ (Teplitz-Schönau)</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher/>
-                <availability default="false">
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000177-002-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4398</idno>
-                <idno type="ID" subtype="transkribus">349135</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000177">Unterlagen zu einer den Prozess Pisk – Kraus betreffenden Kontroverse zwischen
-                    Emil Franzel und Oskar Pollak</title>
-            </seriesStmt>
-            <sourceDesc default="false">
-                <listWit>
-                    <witness xml:id="D_000177-002-000-wit01" facs="D_000177-002-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-10-09T14:41:09.172Z" who="#IB" status="draft">created by
-                API</change>
-            <change when-iso="2021-09-06" who="#LU">Replaced Text with Transcription of Transkribus
-                Document 349135.</change>
-            <change when-iso="2021-11-29" type="header_facsimile" who="#JK"/>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000177-002-000.xml-facs001">
-        <surfaceGrp xml:id="D_000177-002-000.xml-facs001-l001">
-            <surface xml:id="D_000177-002-000.xml-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000004_23.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="D_000177-002-000.xml-facs001-l001-p001" n="1"/>
-            <!--<lb xml:id="uuid_9ba32331-7bc9-4093-8908-956da046fa81"/>Abschrift <lb
-                xml:id="uuid_f714bc89-e57d-4b39-a246-0b415750d821"/>Arbeiter-Zeitung Wien, am 15.
-            Juli 1932 <lb xml:id="uuid_a13a540a-4d2b-4183-a587-9302b8e53ae2"/>Dr.P/F <lb
-                xml:id="uuid_90093406-7c1d-4a5b-a23c-a2d1d75c56a2"/>An die Zentralstelle für das
-            Bildungswesen der deutschen sozialdemokra- <lb
-                xml:id="uuid_0fc3f120-f73f-4307-b371-482297181913"/>tischen Arbeiterpartei in der
-            Tschechoslowakei, Prag LL. <lb xml:id="uuid_3f6fb0a2-0562-4eb3-8ba3-ce8cb57c718d"/>Werte
-            Genossen, Wir übermitteln Ihnen beiliegend die Abschrift eines <lb
-                xml:id="uuid_6a425c8d-6a2e-440a-8b85-522c256526ae"/>Briefes, den wir an die
-            Arbeiter-Sänger-Zeitung in Teplitz-Schönau gerich- <lb
-                xml:id="uuid_a7a2841c-43b4-49fa-bf4d-574f7cc23de6"/>tet haben. Mit Parteigruss
-            f.d.Red. Pollak <lb xml:id="uuid_0b05ef98-95c4-4604-ac56-05651e0a3caa"/>Beilage <lb
-                xml:id="uuid_0d774c60-e4f1-4ab1-8621-b4cd4d21607a"/>Dr.P/F. An die Schriftleitung
-            der Arbeiter-Sänger-Zeitung, Teplitz-Schttnau <lb
-                xml:id="uuid_8a9e8b2c-83ba-4b98-adad-6e165e7c06ca"/>Werte Genossen, <lb
-                xml:id="uuid_4adf7ac9-b767-4d69-b3fa-9f190579ca99"/>Das Mitglied unserer Redaktion
-            Genosse Dr. Paul A. Pisk macht uns <lb
-                xml:id="uuid_b28933d7-57ff-4891-93ba-31cf2bd68da2"/>Mitteilung von einem Schreiben,
-            das Genosse Dr. Franzel an Sie gerichtet <lb
-                xml:id="uuid_4e4fe037-df8a-4d7a-9dcd-70ee282108d6"/>hat und das sich mit der Person
-            des Genossen Dr. Pisk beschäftigt. <lb
-                xml:id="uuid_283b7fc9-fbff-493e-af47-73ea556294bb"/>##Böhm_start##Wir wissen nicht,
-            welche Legitimation der Genosse Franzel hat, sich <lb
-                xml:id="uuid_b2b233be-5cf1-40df-9741-42c120b9f979"/>zum Sittenrichter über die
-            Mitarbeiter Ihres Blattes aufzuwerfen, verwahren <lb
-                xml:id="uuid_c36af1de-0570-4d89-9cf5-033dee8e7f33"/>uns aber jedenfalls dagegen,
-            dass er dieses Recht gegenüber Mitarbeitern <lb
-                xml:id="uuid_8413fd90-a655-4c0a-8c71-4e5f409ec28f"/>der Arbeiter-Zeitung in Anspruch
-            nehme, da ihn nicht Parteiinteressen <lb
-                xml:id="uuid_c50be8b0-bbfc-4add-9da6-920e02631288"/>leiten, sondern lediglich das
-            persönliche Interesse, sich bei Herrn Karl Kraus <lb
-                xml:id="uuid_1d5db6a3-2e8d-4786-9acf-c86ad53b74c3"/>beliebt zu machen. <lb
-                xml:id="uuid_99e5c491-5f5a-41aa-81ae-417c26a864f1"/>Zur Sache selbst begnügen wir
-            uns mit der Feststellung, dass die <lb
-                xml:id="uuid_98de2079-7976-42e0-963d-823041e8d216"/>von Genossen Franzel neuerlich
-            erhobene Beschuldigung gegen Genossen Pisk, <lb
-                xml:id="uuid_517c907f-3e32-4690-8e56-4ae2ef8539cd"/>dass er in der Berliner
-            Börsenzeitung anders schreibt als über die <lb
-                xml:id="uuid_a64670b8-724b-4365-b7c0-c07453443ea1"/>gleichen Veranstaltungen in
-            sozialistischen Blättern, im Prozess Pisk – <lb
-                xml:id="uuid_86a3b27f-ce97-4e8c-94a8-5104e72752e5"/>Karl Kraus als unwahr erwiesen
-            wurde und ihre Wiederholung daher eine <lb
-                xml:id="uuid_222ff3c9-377b-48a1-90ce-a482bc04018a"/>besondere Unanständigkeit ist.
-                <lb xml:id="uuid_0a58ca74-bd48-4ae2-aa5a-e4e12583a2a8"/>Was das Verhältnis des
-            Genossen Pisk zur Berliner Börsen-Zeitung <lb
-                xml:id="uuid_bd912aec-25aa-40f7-abb2-5a40294c378b"/>und zur Arbeiter-Zeitung
-            anlangt, so dürfte es dem Genossen Franzel bekannt <lb
-                xml:id="uuid_22204125-9055-48e6-994d-af5789240ad6"/>sein, dass dieses Verhältnis von
-            dem verstorbenen Chefredakteur der Arbeiter <lb
-                xml:id="uuid_80947c9c-d7e5-4da7-bb40-b9a267cf1088"/>Zeitung, Genossen Austerlitz,
-            dessen moralische Autorität in journalistischen <lb
-                xml:id="uuid_63c7d1a4-9e9c-4aaf-986c-a9a4286e550e"/>Fragen wohl selbst von Genossen
-            Franzel nicht bestritten werden dürfte, <lb
-                xml:id="uuid_946e0d5b-9d22-4f15-b77b-9b3c3ba11ec2"/>nicht nur gebilligt, sondern in
-            einer öffentlichen Auseinandersetzung mit <lb
-                xml:id="uuid_91b25a51-997c-452e-b8ba-e04819d6b0f6"/>Karl Kraus öffentlich verteidigt
-            worden ist.##Böhm_ende## <lb xml:id="uuid_117e497d-e2fd-4ca8-8dbf-490051182506"/>Mit
-            Parteigruss f.d.Red. <lb xml:id="uuid_0ab35622-5337-4f35-aea1-7073278f9024"/>P.S. Eine
-            Abschrift dieses Briefes geht an die Zentralstelle für das <lb
-                xml:id="uuid_607ec693-4972-4e5c-9bba-a941aa762d4b"/>Bildungswesen der deutschen
-            sozialistischen Arbeiterpartei.-->
-        </body>
-    <back/></text>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000177-003-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000177-001-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000177-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>177.2 Brief Arbeiter-Zeitung (Oskar Pollak) an die Schriftleitung der „Arbeiter-Sängerzeitung“ (Teplitz-Schönau)</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                  Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000177-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4398</idno>
+            <idno subtype="transkribus" type="ID">349135</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000177" type="collection">Unterlagen
+               zu einer den Prozess Pisk – Kraus betreffenden Kontroverse zwischen Emil Franzel und
+               Oskar Pollak</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000177-002-000-facs001" xml:id="D_000177-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000177-002-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-07-15">15. Juli 1932
+           </date>
+         </creation>
+         <textClass>
+            <keywords>
+               <term source="D_000176-044-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000176-044-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-09T14:41:09.172Z" who="#IB">created by API </change>
+         <change when-iso="2021-09-06" who="#LU" status="draft">Replaced Text with Transcription
+                of Transkribus Document 349135. </change>
+         <change type="header_facsimile" when-iso="2021-11-29" who="#JK" status="draft"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000177-002-000-facs001">
+      <surfaceGrp xml:id="D_000177-002-000-facs001-l001">
+         <surface type="recto" xml:id="D_000177-002-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543893/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

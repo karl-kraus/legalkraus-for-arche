@@ -1,133 +1,187 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000089-010-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-009-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-011-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Protokoll [der neuerlichen Einvernahme Nirensteins]</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthyanystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000089-010-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2856</idno>
-                <idno type="ID" subtype="transkribus">230899</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000089">Karl
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-011-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-009-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000089-010-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>89.10 Protokoll der neuerlichen Einvernahme Nirensteins</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000089-010-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2856</idno>
+            <idno subtype="transkribus" type="ID">230899</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000089" type="collection">Karl
                     Kraus ca. Der Weltspiegel</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000089-010-000-wit01" facs="D_000089-010-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date type="sortDate" when-iso="1928-01-26" subtype="produced">26. Januar
-                    1928</date>
-            </creation>
-            <langUsage>
-                <language ident="de">Deutsch</language>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term>Protokoll</term>
-                </keywords>
-                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.J.PKL</classCode>
-            </textClass>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change type="intertexts" when-iso="2021-02-25" who="#JK"/>
-            <change type="typography" when-iso="2021-02-25" who="#JK"/>
-            <change type="references" when-iso="2021-02-25" who="#JK"/>
-            <change type="structure" when-iso="2021-02-25" who="#JK"/>
-            <change when-iso="2020-10-08T11:46:00.376Z" who="#IB">created by API</change>
-            <change when-iso="2020-10-08T11:47:17.4Z" who="#IB">Replaced Text with Transcription of
-                Transkribus Document 230899.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000089-010-000-facs001">
-        <surfaceGrp xml:id="D_000089-010-000-facs001-l001">
-            <surface xml:id="D_000089-010-000-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000149_28.jpg" source="krausonline"/>
-                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554400/full/full/0/default.jpg" source="wienbibliothek"/>
-                <graphic url="ZPH_1545-6/86_91/00000149.jpg" source="scans"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="D_000089-010-000-facs001-l001-p001" n="1"/>
-            <p xml:id="uuid_f2093f81-7f20-4d29-9386-2df0145fa38a">
-                <lb xml:id="uuid_d5bc55c9-ccbb-4839-bc55-c9ccbbd8391e"/>Fortgesetzt am 26.I.1928. </p>
-            <p xml:id="uuid_304499d4-2afe-4eae-a183-2777a057f153">
-                <lb xml:id="uuid_da7db9a4-3ed2-4500-bdb9-a43ed2d50014"/>Nach Vorhalt der Aussagen
-                    <rs type="person" ref="#pmb52908">Dr. Schneider</rs>
-                <lb xml:id="uuid_2250b666-382a-4bc1-90b6-66382a8bc1a9"/>und <rs type="person" ref="#pmb52926">Ribbentrop</rs>: </p>
-            <p xml:id="uuid_255cc7c6-d27b-4acb-bfda-8fa4324770f0">
-                <lb xml:id="uuid_87082f5f-9b79-4308-882f-5f9b79d308aa"/>Die Angaben der letzteren
-                sind un<lb xml:id="uuid_d6f16c85-9b18-4821-b16c-859b187821f5" break="no"/>richtig;
-                ich habe ihr niemals die Erlaubnis gegeben, <lb xml:id="uuid_6f5f4aab-a222-4ffc-9f4a-aba222bffcf5"/>die Fotografieporträts von
-                    <rs type="person" ref="#pmb11988">Karl Kraus</rs>
-                zu fotografieren, <lb xml:id="uuid_26cfd89c-ca44-4fa2-8fd8-9cca440fa265"/>geschweige
-                denn zu veröffentlichen. Ich kann mich über<lb xml:id="uuid_0a7ae196-3baa-4a8d-bae1-963baa2a8dd0" break="no"/>haupt an sie
-                selbst nicht erinnern, sondern nur an <lb xml:id="uuid_461b7482-2791-47ca-9b74-82279187ca44"/>ihre Schwester <rs type="person" ref="#pmb52954">Frau Ratz</rs>, <rs type="place" subtype="address" ref="#pmb52958">IV. Favoritenstrasse 46</rs>, <lb xml:id="uuid_3245cdfe-0f4d-4632-85cd-fe0f4d06326b"/>sowie an deren <rs type="person" ref="#pmb39346">Mann</rs>, die mir durch eine <rs type="person">Bekannte</rs> empfohlen <lb xml:id="uuid_5d3fd5e7-5fe2-4ab2-bfd5-e75fe21ab238"/>waren. </p>
-            <p xml:id="uuid_af49afb5-b03d-4ccb-836d-23c37b1e81fa">
-                <lb xml:id="uuid_5f1c01b3-943b-42f7-9c01-b3943b62f725"/>Ich habe den beiden das
-                Fotografieren <lb xml:id="uuid_1ed84b28-88ed-4b3c-984b-2888edeb3c81"/>einer Anzahl
-                von mir bezeichneter Fotografien gestattet <lb xml:id="uuid_043f157f-9c09-44cc-bf15-7f9c0934cc50"/>und sowohl dem Ehepaar Ratz,
-                als auch sämtlichen an<lb xml:id="uuid_2b36d5d5-c771-4bc7-b6d5-d5c7718bc73c" break="no"/>deren Fotografen gegenüber, die in der Ausstellung <lb xml:id="uuid_afb70a7b-c23e-481b-b70a-7bc23e381bee"/>fotografieren wollten,
-                betont, dass ich die Erlaubnis <lb xml:id="uuid_ab9f0466-05d1-4da2-9f04-6605d10da2f3"/>zum Fotografieren von
-                Porträts oder Aktfotografien <lb xml:id="uuid_bb721e72-52f4-4676-b21e-7252f48676cc"/>nicht geben kann. Die <rs type="person" ref="#pmb52954">Ratz</rs> hat sich zweitesmal
-                mit <lb xml:id="uuid_daf7e132-6a4d-4658-b7e1-326a4d36583c"/>einer <rs type="person">Dame</rs> bei mir eingefunden und erklärt, dass <lb xml:id="uuid_bcc61762-3f1d-4f38-8617-623f1dcf382d"/>die ersten Aufnahmen nicht
-                gelungen seien. Darauf habe <lb xml:id="uuid_12da4afc-d696-4922-9a4a-fcd6965922c9"/>ich die Wiederholung der ersten Aufnahmen gestattet. <lb xml:id="uuid_e53c1ec6-7b09-41b6-bc1e-c67b0951b641"/>Bei dieser Gelegenheit soll
-                nun, wie mir <rs type="person" ref="#pmb39346">Herr Ratz</rs>
-                <lb xml:id="uuid_9f0a0dd2-ac8d-47f4-8a0d-d2ac8df7f410"/>mitteilt, diese Dame (<rs type="person" ref="#pmb52926">Frl. Ribbentop</rs>) die inkriminierten <lb xml:id="uuid_a8a3de9e-8a7e-4da3-a3de-9e8a7e5da3db"/>Aufnahmen gemacht haben. </p>
-            <p xml:id="uuid_1bb48cf1-cfbb-4966-ac5e-545e50beb9cf">
-                <lb xml:id="uuid_517530e7-b0ca-4dc1-b530-e7b0caddc12e"/>Für die Richtigkeit dieser
-                Angaben <lb xml:id="uuid_5b882e60-a569-44de-882e-60a56924de90"/>kann ich jederzeit
-                Zeugen führen. </p>
-            <p xml:id="uuid_b3b2cbea-b029-452e-af46-df85f4b5abd3">
-                <lb xml:id="uuid_4730abd0-f758-44d6-b0ab-d0f75824d627"/><rs type="person" ref="#pmb21979">Otto Nierenstein</rs> m.p. <lb xml:id="uuid_d489b070-9d1a-42cb-89b0-709d1a42cb40"/>unlU. </p>
-        </body>
-    <back><listPerson><person xml:id="pmb11988">
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000089-010-000-facs001" xml:id="D_000089-010-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000089-010-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1928-01-26">26. Januar 1928
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000089-010-000-wit01">Protokoll</term>
+            </keywords>
+            <classCode source="D_000089-010-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.PKL">D.J.PKL</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-02-25" who="#JK"/>
+         <change type="typography" when-iso="2021-02-25" who="#JK"/>
+         <change type="references" when-iso="2021-02-25" who="#JK"/>
+         <change type="structure" when-iso="2021-02-25" who="#JK"/>
+         <change when-iso="2020-10-08T11:46:00.376Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T11:47:17.4Z" who="#IB">Replaced Text with Transcription of
+                Transkribus Document 230899. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000089-010-000-facs001">
+      <surfaceGrp xml:id="D_000089-010-000-facs001-l001">
+         <surface type="recto" xml:id="D_000089-010-000-facs001-l001-p001">
+            
+            <graphic source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554400/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000089-010-000_p001" facs="#D_000089-010-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_bf6217c2-edf2-4b6a-b897-f17ee724adc1">
+            <lb xml:id="uuid_9a4da27f-83ee-469b-869b-85cd6958693a"/>Fortgesetzt am 26.I.1928. </p>
+         <p xml:id="uuid_f08bcb2c-e14f-4f42-b108-ebfa3fb44a95">
+            <lb xml:id="uuid_a2796e5c-8f65-4ad0-836d-d25203fa4110"/>Nach Vorhalt der Aussagen
+                    <rs ref="#pmb52908" type="person">Dr. Schneider</rs>
+            <lb xml:id="uuid_68f08498-0fb8-477e-9fd5-e7cf2b3a3ae0"/>und <rs ref="#pmb52926" type="person">Ribbentrop</rs>: </p>
+         <p xml:id="uuid_eee48d0b-66d2-4a8b-a853-28be639419b4">
+            <lb xml:id="uuid_07c3b8a5-7fe7-46a8-9acd-19f2a43fbb1a"/>Die Angaben der letzteren
+                sind un<lb break="no" xml:id="uuid_fed3ee75-ad87-4ab5-9b88-5d6308f74bf4"/>richtig;
+                ich habe ihr niemals die Erlaubnis gegeben,<lb xml:id="uuid_a1638a9a-4128-4fd7-9d63-12152d5f8c2f"/>die Fotografieporträts von
+                    <rs ref="#pmb11988" type="person">Karl Kraus</rs>
+                zu fotografieren,<lb xml:id="uuid_ec616c69-af76-49b8-b2d2-356276eab6a2"/>geschweige
+                denn zu veröffentlichen. Ich kann mich über<lb break="no" xml:id="uuid_af19bc38-5fca-45ce-9593-7e6666dc0a00"/>haupt an sie selbst nicht
+                erinnern, sondern nur an<lb xml:id="uuid_aa5d7c13-b7a2-4acb-8143-d210e85ed567"/>ihre
+                Schwester <rs ref="#pmb52954" type="person">Frau Ratz</rs>, <rs ref="#pmb52958" subtype="address" type="place">IV. Favoritenstrasse 46</rs>,<lb xml:id="uuid_de8ef153-4e01-42df-929d-8ca554a96c61"/>sowie an deren <rs ref="#pmb39346" type="person">Mann</rs>, die mir durch eine <rs type="person">Bekannte</rs> empfohlen<lb xml:id="uuid_b28cbe5a-9e04-49ec-9f8e-26d53d8ea5a4"/>waren. </p>
+         <p xml:id="uuid_bc65d8b0-3ac3-4c9c-926e-c2e973824f3b">
+            <lb xml:id="uuid_1401b102-27cb-4d46-8eb7-ee0d6b334001"/>Ich habe den beiden das
+               Fotografieren<lb xml:id="uuid_87d74821-3f83-488f-ad37-db6253d94a59"/>einer Anzahl von
+            mir bezeichneter Fotografien gestattet<lb xml:id="uuid_46a792cc-e4d7-4c0e-bf0e-431eeb535bfa"/>und sowohl dem Ehepaar Ratz, als
+            auch sämtlichen an<lb break="no" xml:id="uuid_3451741c-3ded-4b18-930a-9b8315dc36f5"/>deren Fotografen gegenüber, die in der Ausstellung<lb xml:id="uuid_61872352-52f1-4a1a-b1d9-d7605e19807f"/>fotografieren wollten, betont,
+            dass ich die Erlaubnis<lb xml:id="uuid_8ea7f7f2-1985-4754-8647-546ec0508d43"/>zum
+            Fotografieren von Porträts oder Aktfotografien<lb xml:id="uuid_7dbb0776-4e73-4c6b-aaed-9ed5521cf0d7"/>nicht geben kann. Die <rs ref="#pmb52954" type="person">Ratz</rs> hat sich zweitesmal mit<lb xml:id="uuid_68ce1128-cc6f-4bc2-a6aa-d8dcf47935de"/>einer <rs type="person" ref="#pmb52926">Dame</rs> bei mir eingefunden und erklärt, dass<lb xml:id="uuid_16ad927d-b149-4cfa-94f8-3ed100b55e8b"/>die ersten Aufnahmen nicht
+            gelungen seien. Darauf habe<lb xml:id="uuid_6824067f-596b-478e-8553-7bcc8bd85462"/>ich
+            die Wiederholung der ersten Aufnahmen gestattet.<lb xml:id="uuid_61af348f-8de2-4a43-9587-8f057cf83950"/>Bei dieser Gelegenheit soll nun,
+            wie mir <rs ref="#pmb39346" type="person">Herr Ratz</rs>
+            <lb xml:id="uuid_c1afaa13-b677-4b0b-b158-04db3a26d433"/>mitteilt, diese Dame (<rs ref="#pmb52926" type="person">Frl. Ribbentop</rs>) die inkriminierten<lb xml:id="uuid_3a4e45cb-4798-4f9a-ade2-8096b09df2c9"/>Aufnahmen gemacht haben. </p>
+         <p xml:id="uuid_fcb9609d-e0cb-402a-889a-fc38ee3d86ef">
+            <lb xml:id="uuid_454ee75a-7df6-45d0-8f82-a33bb0bd8644"/>Für die Richtigkeit dieser
+                    Angaben<lb xml:id="uuid_147fb8b5-ae86-461c-8a0a-e2f08b1eefc0"/>kann ich
+                jederzeit Zeugen führen. </p>
+         <p xml:id="uuid_6b65f7dd-6d89-4b9e-9b91-6729b9076b1c">
+            <lb xml:id="uuid_7c7ed529-0ef3-4474-aff6-51acbaf030a2"/>unlU. <rs ref="#pmb21979" type="person">Otto
+                    Nierenstein</rs> m.p. </p>
+      </body>
+   <back><listPerson><person xml:id="pmb52908">
+  <persName>
+      <forename>Otto</forename>
+      <surname>Schneider</surname>
+  </persName>
+
+  <persName type="legacy-name-merge">Schneider, Otto</persName>
+
+
+
+
+  <sex value="male"/>
+
+
+  <occupation key="99">Journalist/Journalistin</occupation>
+
+  <occupation key="173">Redakteur/Redakteurin</occupation>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43659/</idno>
+
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/43659</idno>
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52908/</idno>
+
+
+<affiliation>
+    <term key="1182">arbeitet für</term>
+    <orgName key="pmb37558">Der Weltspiegel</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37558/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37558</idno>
+    
+</affiliation>
+
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>89.3 Antrag auf Einleitung von Vorerhebungen gegen Otto Nirenstein und weitere unbekannte Täter wegen § 45 Abs. 4 Urh.G. (Strafbezirksgericht Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>89.6 Ersuchen an das zuständige Amtsgericht in Berlin</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>89.8 Brief Redaktion des Berliner Tageblatt / Redaktion Weltspiegel an die Gerichtschreiberei des Amtsgerichts Berlin-Mitte</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>89.9 Protokoll [der Zeugenaussagen Otto Schneiders und Edith Ribbentrops beim Amtsgericht Berlin-Charlottenburg]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>89.10 Protokoll der neuerlichen Einvernahme Nirensteins</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-010-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb11988">
   <persName>
       <forename>Karl</forename>
       <surname>Kraus</surname>
@@ -140,13 +194,29 @@
     <date when-iso="1874-04-28">28.04.1874</date>
   
   
-      <settlement key="pmb41660">
-        <placeName type="pref">Jičín</placeName>
+    <settlement key="pmb41660">
+      <placeName type="pref">Jičín</placeName>
+    
+      <placeName type="alternative-name">Gitschin</placeName>
+    
+      <placeName type="alternative-name">Jičín</placeName>
+    
+      <placeName type="legacy-name">Jičín</placeName>
+    
+      <placeName type="legacy-name-merge">Jitschin</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4440310-0</placeName>
+    
+    
+      <location><geo>50,43723 15,35162</geo></location>
+    
+    
+      <idno type="URL">http://sws.geonames.org/3074204/</idno>
       
-        <location><geo>50,43723 15,35162</geo></location>
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/41660</idno>
       
-      </settlement>
-      
+    </settlement>
+    
        
   </birth>  
 
@@ -158,6 +228,29 @@
       <settlement key="pmb50">
         <placeName type="pref">Wien</placeName>
         
+        <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+        
+        <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+        
+        <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+        
+        <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+        
+      
         <location><geo>48,2066 16,37341</geo></location>
       
       </settlement>
@@ -237,6 +330,32 @@
     
 </affiliation>
 
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb60573">Karl Kraus-Gesellschaft</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/60573/</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb37159">Jahoda &amp; Siegel (Druckerei)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37159/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37159</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb87755">Max Goldschmidt (Büro für Zeitungsausschnitte)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/87755/</idno>
+    
+</affiliation>
+
 
 <listEvent>
     
@@ -273,7 +392,170 @@
 
 
 
-</person><person xml:id="pmb21979">
+</person><person xml:id="pmb52954">
+  <persName>
+      <forename>?</forename>
+      <surname>Ratz</surname>
+  </persName>
+
+
+
+
+  <sex value="female"/>
+
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52954/</idno>
+
+
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>89.10 Protokoll der neuerlichen Einvernahme Nirensteins</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-010-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb39346">
+  <persName>
+      <forename>Erwin</forename>
+      <surname>Ratz</surname>
+  </persName>
+
+  <persName type="uri_gnd">http://d-nb.info/gnd/119388936</persName>
+
+  <persName type="uri_wikipedia">https://de.wikipedia.org/wiki/Erwin_Ratz</persName>
+
+
+  <birth>
+    <date when-iso="1898-12-22">22.12.1898</date>
+  
+  
+    <settlement key="pmb860">
+      <placeName type="pref">Graz</placeName>
+    
+      <placeName type="alternative-name">Grätz (Graz)</placeName>
+    
+      <placeName type="legacy-name-merge">Graz</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4021912-4</placeName>
+    
+      <placeName type="legacy-name-merge">Graz</placeName>
+    
+    
+      <location><geo>47,06667 15,43333</geo></location>
+    
+    
+      <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q13298</idno>
+      
+      <idno type="URL" subtype="geonames">http://sws.geonames.org/2778058/</idno>
+      
+      <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb860</idno>
+      
+      <idno type="URL">http://sws.geonames.org/7871499/</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/860</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/42858</idno>
+      
+      <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb860</idno>
+      
+    </settlement>
+    
+       
+  </birth>  
+
+
+  <death>
+    <date when-iso="1973-12-12">12.12.1973</date>
+      
+      
+      <settlement key="pmb50">
+        <placeName type="pref">Wien</placeName>
+        
+        <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+        
+        <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+        
+        <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+        
+        <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+        
+      
+        <location><geo>48,2066 16,37341</geo></location>
+      
+      </settlement>
+      
+      
+  </death>
+
+
+  <sex value="male"/>
+
+
+  <occupation key="158">Wissenschaftler/Wissenschaftlerin &gt;&gt; Musikwissenschaftler/Musikwissenschaftlerin</occupation>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/39346/</idno>
+
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/39346</idno>
+
+
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>89.10 Protokoll der neuerlichen Einvernahme Nirensteins</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>89.12 Brief Erwin Ratz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>89.13 Brief Otto Nirenstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-013-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb52926">
+  <persName>
+      <forename>Edith</forename>
+      <surname>Ribbentrop</surname>
+  </persName>
+
+
+
+
+  <sex value="female"/>
+
+
+  <occupation key="99">Journalist/Journalistin</occupation>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52926/</idno>
+
+
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>89.9 Protokoll [der Zeugenaussagen Otto Schneiders und Edith Ribbentrops beim Amtsgericht Berlin-Charlottenburg]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>89.10 Protokoll der neuerlichen Einvernahme Nirensteins</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>89.12 Brief Erwin Ratz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-012-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb21979">
   <persName>
       <forename>Otto</forename>
       <surname>Nirenstein</surname>
@@ -288,13 +570,89 @@
     <date when-iso="1894-04-01">01.04.1894</date>
   
   
-      <settlement key="pmb50">
-        <placeName type="pref">Wien</placeName>
+    <settlement key="pmb50">
+      <placeName type="pref">Wien</placeName>
+    
+      <placeName type="alternative-name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Bécs</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Land Wien</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Vídeň</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Wenia</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Beč</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Vindobona (Wien)</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-name-merge">Vindobona</placeName>
+    
+      <placeName type="alternative-name">Vienna</placeName>
+    
+      <placeName type="legacy-name-merge">Wien?</placeName>
+    
+      <placeName type="alternative-name">Vienna</placeName>
+    
+      <placeName type="legacy-name-merge">Vienna</placeName>
+    
+      <placeName type="legacy-name-merge">Vienna</placeName>
+    
+    
+      <location><geo>48,2066 16,37341</geo></location>
+    
+    
+      <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
       
-        <location><geo>48,2066 16,37341</geo></location>
+      <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
       
-      </settlement>
+      <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
       
+      <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+      
+      <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+      
+      <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+      
+      <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+      
+      <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+      
+    </settlement>
+    
        
   </birth>  
 
@@ -306,6 +664,17 @@
       <settlement key="pmb44053">
         <placeName type="pref">New York City</placeName>
         
+        <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb5199</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/5199</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/44053/</idno>
+        
+        <idno type="URL">https://sws.geonames.org/5128581/</idno>
+        
+        <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44053</idno>
+        
+      
         <location><geo>40,71427 -74,00597</geo></location>
       
       </settlement>
@@ -345,169 +714,7 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Brief Samek an Otto Nirenstein (Kunsthändler und Verleger)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung von Vorerhebungen gegen Otto Nirenstein und weitere
-                    unbekannte Täter wegen § 45 Abs. 4 Urh. G. (Strafbezirksgericht Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Otto Nirenstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vernehmung des Beschuldigten [Protokoll der Einvernahme Nirensteins]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Ersuchen] an das zuständige Amtsgericht in Berlin</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Redaktion des Berliner Tageblatt/Redaktion Weltspiegel an die
-                    Gerichtschreiberei des Amtsgerichts Berlin-Mitte</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll [der Zeugenaussagen Otto Schneiders und Edith Ribbentrops beim
-                    Amtsgericht Berlin-Charlottenburg]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll [der neuerlichen Einvernahme Nirensteins]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Verständigung] des Strafbezirksgerichts I Wien (G. Z. 12 U 1208/27, Karl
-                    Korst)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Otto Nirenstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Aktenvermerk Oskar Samek - Akt 89</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-013-002.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb39346">
-  <persName>
-      <forename>Erwin</forename>
-      <surname>Ratz</surname>
-  </persName>
-
-  <persName type="uri_gnd">http://d-nb.info/gnd/119388936</persName>
-
-  <persName type="uri_wikipedia">https://de.wikipedia.org/wiki/Erwin_Ratz</persName>
-
-
-  <birth>
-    <date when-iso="1898-12-22">22.12.1898</date>
-  
-  
-      <settlement key="pmb860">
-        <placeName type="pref">Graz</placeName>
-      
-        <location><geo>47,06667 15,43333</geo></location>
-      
-      </settlement>
-      
-       
-  </birth>  
-
-
-  <death>
-    <date when-iso="1973-12-12">12.12.1973</date>
-      
-      
-      <settlement key="pmb50">
-        <placeName type="pref">Wien</placeName>
-        
-        <location><geo>48,2066 16,37341</geo></location>
-      
-      </settlement>
-      
-      
-  </death>
-
-
-  <sex value="male"/>
-
-
-  <occupation key="158">Wissenschaftler/Wissenschaftlerin &gt;&gt; Musikwissenschaftler/Musikwissenschaftlerin</occupation>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/39346/</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/39346</idno>
-
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll [der neuerlichen Einvernahme Nirensteins]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Erwin Ratz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Otto Nirenstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Aktenvermerk Oskar Samek - Akt 89</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-013-002.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb52954">
-  <persName>
-      <forename>?</forename>
-      <surname>Ratz</surname>
-  </persName>
-
-
-
-
-  <sex value="female"/>
-
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52954/</idno>
-
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll [der neuerlichen Einvernahme Nirensteins]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-010-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb52926">
-  <persName>
-      <forename>Edith</forename>
-      <surname>Ribbentrop</surname>
-  </persName>
-
-
-
-
-  <sex value="female"/>
-
-
-  <occupation key="99">Journalist/Journalistin</occupation>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52926/</idno>
-
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll [der Zeugenaussagen Otto Schneiders und Edith Ribbentrops beim
-                    Amtsgericht Berlin-Charlottenburg]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll [der neuerlichen Einvernahme Nirensteins]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Erwin Ratz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-012-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb52908">
-  <persName>
-      <forename>Otto</forename>
-      <surname>Schneider</surname>
-  </persName>
-
-
-
-
-  <sex value="male"/>
-
-
-  <occupation key="173">Redakteur/Redakteurin</occupation>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52908/</idno>
-
-
-<affiliation>
-    <term key="1182">arbeitet für</term>
-    <orgName key="pmb37558">Der Weltspiegel</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37558/</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37558</idno>
-    
-</affiliation>
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung von Vorerhebungen gegen Otto Nirenstein und weitere
-                    unbekannte Täter wegen § 45 Abs. 4 Urh. G. (Strafbezirksgericht Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Ersuchen] an das zuständige Amtsgericht in Berlin</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Redaktion des Berliner Tageblatt/Redaktion Weltspiegel an die
-                    Gerichtschreiberei des Amtsgerichts Berlin-Mitte</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll [der Zeugenaussagen Otto Schneiders und Edith Ribbentrops beim
-                    Amtsgericht Berlin-Charlottenburg]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll [der neuerlichen Einvernahme Nirensteins]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-010-000.xml"/></linkGrp></event></listEvent></person></listPerson><listPlace><place xml:id="pmb52958">
+<listEvent><event type="mentioned"><p>erwähnt in <title>89.2 Brief Samek an Otto Nirenstein (Kunsthändler und Verleger)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>89.3 Antrag auf Einleitung von Vorerhebungen gegen Otto Nirenstein und weitere unbekannte Täter wegen § 45 Abs. 4 Urh.G. (Strafbezirksgericht Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>89.4 Brief Otto Nirenstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>89.5 Vernehmung des Beschuldigten [Protokoll der Einvernahme Nirensteins]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>89.6 Ersuchen an das zuständige Amtsgericht in Berlin</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>89.7 Brief Redaktion des Berliner Tageblatt / Redaktion Weltspiegel an die Gerichtschreiberei des Amtsgerichts Berlin-Mitte</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>89.9 Protokoll [der Zeugenaussagen Otto Schneiders und Edith Ribbentrops beim Amtsgericht Berlin-Charlottenburg]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>89.10 Protokoll der neuerlichen Einvernahme Nirensteins</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>89.11 Verständigung des Strafbezirksgerichts I Wien (G.Z. 12 U 1208/27, Karl Korst)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>89.13 Brief Otto Nirenstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-013-000.xml"/></linkGrp></event></listEvent></person></listPerson><listPlace><place xml:id="pmb52958">
   <placeName>Favoritenstraße</placeName>
 
 
@@ -533,5 +740,5 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll [der neuerlichen Einvernahme Nirensteins]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-010-000.xml"/></linkGrp></event></listEvent></place></listPlace></back></text>
+<listEvent><event type="mentioned"><p>erwähnt in <title>89.10 Protokoll der neuerlichen Einvernahme Nirensteins</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-010-000.xml"/></linkGrp></event></listEvent></place></listPlace></back></text>
 </TEI>

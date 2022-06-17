@@ -1,87 +1,104 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000034-008-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-007-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-009-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Zeitungsartikel aus: Die Stunde</title>
-                <editor ref="#pmbIL">Isabel Langkabel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000034-008-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2003</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000034">Karl Kraus ca. Anton Kuh</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000034-008-000-wit01" facs=""/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation><date type="sortDate" subtype="produced" when-iso=""/></creation>
-            <langUsage>
-                <language ident="de">Deutsch</language>
-            </langUsage>
-            <textClass/>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-02-10T12:09:43.929Z" who="#IB">created by API</change>
-            <change when-iso="2020-02-10T12:17:01.602Z" who="#JM">Checked Images Wienbibliothek</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000058_9.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548328/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-2/033_035/00000058.jpg" source="scans"/>
-        </surface>
-    </facsimile>
-    <text><back/></text>
-    <!-- 
-    <div xml:id="uuid_748e0aeb-d851-4b84-8e0a-ebd8516b848c">
-            <p xml:id="uuid_870b1e89-9806-4ec2-8b1e-8998063ec2a7">Sittlichkeit und Kriminalität oder Privatdetektivinstitut „Ethos“</p>
-            <p xml:id="uuid_fcb49bae-7fbe-4887-b49b-ae7fbe488706">Am Samstag hätte die Verhandlung über die Klage sein sollen, die Karl Kraus gegen mich wegen meines vorjährigen Vertrages angestrengt hat. Sie entfiel, weil der Angeklagte Kuh durch Unpäßlichkeit am persönlichen Erscheinen verhindert war (und darüber ein ärztliches Zeugnis erbrachte).</p> <p xml:id="uuid_74877b5d-11b6-4728-877b-5d11b61728d1">Der Klageanwalt Dr. Szamek rief vor Gericht aus: „Ich werde kontrollieren lassen, ob Herr Kuh krank ist!“ Die folgenden Tage bis gestern waren von meiner wie von seiner Seite restlos durch diese Kontrolle ausgefüllt.</p>
-            <p xml:id="uuid_bf340d76-d190-48c0-b40d-76d190c8c06b">Ich wollte zuerst, als ich im Laufe des Samstags und Sonntags bis spät in die Nacht hinein ununterbrochen und von Viertelstunde zu Viertelstunde telephonisch mystifiziert wurde, — die unglaublichen Sherlok Holmesisch verwickelten Irreführungen kann ich hier nicht detailliert wiedergeben — kaum glauben, daß diese mühevollen Foppereien von der Hand des Karl Kraus und seines Anwalts gesegnet seien; daß hier ein Freiwilligenkorps enragierter Jüngels in Wettbewerb getreten sei, um sich den Kraus-Orden am Bande der Sittlichkeitsmedaille für die Feststellung zu verdienen, ob ich faktisch im Bett liege oder nicht.</p>
-            <p xml:id="uuid_d43322d3-312b-4838-b322-d3312bd8384e">Am Montag aber war es klar: Dr. Szamek ließ es sich nicht verdrießen‚ über den Umweg eines Bankdirektors — wie schaffen sie das nur, diese Priffigen, wie halten sie das alles so haarklein in Evidenz?! — einen meiner Bekannten persönlich anzurufen, ob er geneigt wäre, als Zeuge zu bekunden, daß ich mich Samstag abends in der oder jener Bar aufgehalten hätte (es war die gleiche, in die man mich hinzulocken versuchte). Nun — ist dieser heilige Eifer, diese detektivische Müh-Entfaltung nicht kostbar? Sieht man hinter dieser gymnasiastenhaften Kinderei nicht den fanatischen Beweis-Geier, wie ihm die Lippen nach „Eruierung“ lechzen, der ganz großen ethischen Sache zuliebe? Erkennt man hier nicht die ganze Methode des Materialsammelns und Ausschnuppens wieder, die den treffenden und genialen „Fackel“-Anspielungen zu Grunde liegt? Spürt man nicht, wie er in diesen Wonnen des Stelligmachens, Nachweisens, Herauskriegens, aufgeht, als gälte es eine Vorladung vors jüngste Gericht? Ich hatte drei Tage lang das Gefühl, in die Werkstatt eines „Fackel“-Artikels zu blicken; so nämlich sehen die konkreten Vorarbeiten aus, die der geistigen Schöpfung vorangehen. Herr Karl Kraus hätte, um seinem ethischen Drang schrankenloser zu leben, doch ein Polizeikommissär werden müssen. Indessen sei hier zu seiner Beruhigung und zu weiterer Mühsals-Ersparnis in aller Form mitgeteilt, daß ich diesmal noch mit dem Leben davon gekommen bin und nicht mehr zu Bett liege.</p>
-            <p xml:id="uuid_829d0c2e-9279-46c7-9d0c-2e927936c76c">Anton Kuh.</p>
-        </div>
-        -->
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-009-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-007-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000034-008-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>34.8 Zeitungsartikel aus: Die Stunde</title>
+            <editor ref="#pmbIL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000034-008-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2003</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000034" type="collection">Karl
+                    Kraus ca. Anton Kuh</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000034-008-000-facs001" xml:id="D_000034-008-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000034-008-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.D">Druck</objectType>
+                     <objectType source="D_000034-008-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP">Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" notBefore-iso="1926-06-09">9. Juni 1926</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000034-008-000-wit01">Zeitungsartikel</term>
+            </keywords>
+            <classCode source="D_000034-008-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.P.ZTA">D.P.ZTA</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-02-10T12:09:43.929Z" who="#IB">created by
+                API</change>
+         <change status="draft" when-iso="2020-02-10T12:17:01.602Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000034-008-000-facs001">
+      <surfaceGrp xml:id="D_000034-008-000-facs001-l001">
+         <surface xml:id="D_000034-008-000-facs001-l001-p001" type="recto">
+            
+            <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548328/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

@@ -1,101 +1,132 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000060-002-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000060-001-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000060-003-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>[Text der berichtigenden Erklärung]</title>
-                <editor ref="#pmbIL">Isabel Langkabel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000060-002-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2418</idno>
-                <idno type="ID" subtype="transkribus">200664</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000060">Karl Kraus ca. Wiener Allgemeine Zeitung</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000060-002-000-wit01" facs=""/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation><date type="sortDate" subtype="produced" when-iso=""/></creation>
-            <langUsage>
-                <language ident="de">Deutsch</language>
-            </langUsage>
-            <textClass/>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-02-18T10:00:26.01Z" who="#IB">created by API</change>
-            <change when-iso="2020-02-18T10:03:24.093Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-18T10:03:25.668Z" who="#JM">Checked Images Wienbibliothek</change>
-        <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of Transkribus Document 200664.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000389_5.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551591/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-4/59_61/00000389.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000391_4.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551593/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-4/59_61/00000391.jpg" source="scans"/>
-        </surface>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="" n="1"/>
-            <p xml:id="uuid_3af9a1e1-f235-4927-a39f-6d68da29eb8d">
-                <lb xml:id="uuid_3b4ddd8f-4a66-4a7c-8ddd-8f4a66da7c53"/>Wir stellen fest, dass die
-                Veröffentlichung des <lb xml:id="uuid_373c3cb0-50ae-4651-bc3c-b050aeb65172"/>Programmes der Blaubartvorlesung von <rs type="person" ref="#pmb11988">Karl Kraus</rs>, die Nach-<lb xml:id="uuid_978a6788-2055-4249-8a67-8820550249f4"/>bildung der Ansichtskarte
-                mit dem Porträt des Herrn <rs type="person" ref="#pmb11988">Karl <lb xml:id="uuid_62f3afa7-284a-4b8b-b3af-a7284a7b8bab"/>Kraus</rs> von <rs type="person" ref="#pmb52934">Kokoschka</rs>, erschienen im <rs type="institution" ref="#pmb50728">Verlage R. Lanyi</rs> und der <lb xml:id="uuid_5d43d0f0-d7e5-4ca8-83d0-f0d7e59ca8e9"/>Nachdruck des <rs type="work" ref="https://fackel.oeaw.ac.at/f/049,0u1">Artikels aus Nummer 49 der
-                    „Fackel“</rs> aus dem <lb xml:id="uuid_56458868-c7fa-40c2-8588-68c7fa40c245"/>Jahre 1900 ohne Zustimmung der berechtigten Personen erfolgt <lb xml:id="uuid_611a756e-c6d9-4552-9a75-6ec6d94552d7"/>ist.</p>
-            <p xml:id="uuid_92789156-c957-4b6d-af83-ea0f7961c9ef">
-                <lb xml:id="uuid_436fc910-a865-4a79-afc9-10a865da79ac"/>Wir haben als Entgelt für
-                die Publikation in den <lb xml:id="uuid_0532d83c-b630-4431-b2d8-3cb630c43141"/>beiden letzten Fällen S 500.– zu Gunsten des Kinderwohlfahrts-<lb xml:id="uuid_a6f4b402-c4dc-4bf2-b4b4-02c4dccbf2c6"/>zweckes, dem der Verkauf der
-                Ansichtskarte gewidmet ist, und <lb xml:id="uuid_85327cbf-a313-44cc-b27c-bfa31314cc3e"/>der Blindenfürsorge erlegt. </p>
-        </body>
-    <back><listPerson><person xml:id="pmb11988">
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000060-003-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000060-001-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000060-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>60.2 Text der berichtigenden Erklärung</title>
+            <editor ref="#pmbIL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000060-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2418</idno>
+            <idno subtype="transkribus" type="ID">200664</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000060" type="collection">Karl
+                    Kraus ca. Wiener Allgemeine Zeitung</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000060-002-000-facs001" xml:id="D_000060-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000060-002-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1926-02-24">24. Februar
+                    1926</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000060-002-000-wit01">Erklärung (jur.)</term>
+            </keywords>
+            <classCode source="D_000060-002-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.ERK">D.J.ERK</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-11-25" who="#IL"/>
+         <change type="header_facsimile" when-iso="2022-01-31" who="#IL"/>
+         <change type="structure" when-iso="2020-11-18" who="#IL"/>
+         <change type="references" when-iso="2020-11-22" who="#IL"/>
+         <change type="typography" when-iso="2022-01-17" who="#IL"/>
+         <change when-iso="2020-02-18T10:00:26.01Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-18T10:03:24.093Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-02-18T10:03:25.668Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 200664. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000060-002-000-facs001">
+      <surfaceGrp xml:id="D_000060-002-000-facs001-l001">
+         <surface xml:id="D_000060-002-000-facs001-l001-p001" type="recto">
+            
+            <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551591/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551593/full/full/0/default.jpg"/>
+         
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000060-002-000_p001" facs="#D_000060-002-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_13647442-1c5a-4680-aeca-0121bc6517ed">
+            <lb xml:id="uuid_66939e18-5fc0-480a-b213-8feead9c46b8"/>Wir stellen fest, dass die
+            Veröffentlichung des<lb xml:id="uuid_9f5b671d-9b93-4cdf-8ac4-055407656014"/>Programmes
+            der Blaubartvorlesung von <rs ref="#pmb11988" type="person">Karl Kraus</rs>, die Nach<lb xml:id="uuid_a38eeac8-a12b-4e63-a714-b58c912faf03" break="no"/>bildung der
+            Ansichtskarte mit dem Porträt des Herrn <rs ref="#pmb11988" type="person">Karl<lb xml:id="uuid_f9760a4e-9e46-418c-993f-dcde8b50a284"/>Kraus</rs> von <rs ref="#pmb52934" type="person">Kokoschka</rs>, erschienen im <rs ref="#pmb50728" type="institution">Verlage R. Lanyi</rs> und der<lb xml:id="uuid_e18c0e23-08ed-49bb-8031-f97f51ad1c22"/>Nachdruck des Artikels aus <rs ref="https://fackel.oeaw.ac.at/f/049,0u1" type="work" subtype="fackel">Nummer 49 der
+               „Fackel“</rs> aus dem<lb xml:id="uuid_9c6b6e4e-c36a-4b2d-9ee3-79c2cfd1fe2c"/>Jahre
+            1900 ohne Zustimmung der berechtigten Personen erfolgt<lb xml:id="uuid_c75c3351-6a25-4d00-a02b-dfef1e6181d2"/>ist.</p>
+         <p xml:id="uuid_5224f9d1-28b5-43d5-9e11-9819ffc8c7e3">
+            <lb xml:id="uuid_f68a8ce5-4442-4107-82a2-1071c4274362"/>Wir haben als Entgelt für die
+            Publikation in den<lb xml:id="uuid_a323f36b-6c8a-498c-907b-1fe32a28f7c8"/>beiden letzten
+            Fällen S 500.– zu Gunsten des Kinderwohlfahrts<lb xml:id="uuid_f8d2dbbe-8e1d-40df-ad34-aa3a59bb4f53" break="no"/>zweckes, dem der
+            Verkauf der Ansichtskarte gewidmet ist, und<lb xml:id="uuid_88518214-99c3-40f0-b7fb-5854140e9e59"/>der Blindenfürsorge erlegt.</p>
+      </body>
+   <back><listPerson><person xml:id="pmb11988">
   <persName>
       <forename>Karl</forename>
       <surname>Kraus</surname>
@@ -108,13 +139,29 @@
     <date when-iso="1874-04-28">28.04.1874</date>
   
   
-      <settlement key="pmb41660">
-        <placeName type="pref">Jičín</placeName>
+    <settlement key="pmb41660">
+      <placeName type="pref">Jičín</placeName>
+    
+      <placeName type="alternative-name">Gitschin</placeName>
+    
+      <placeName type="alternative-name">Jičín</placeName>
+    
+      <placeName type="legacy-name">Jičín</placeName>
+    
+      <placeName type="legacy-name-merge">Jitschin</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4440310-0</placeName>
+    
+    
+      <location><geo>50,43723 15,35162</geo></location>
+    
+    
+      <idno type="URL">http://sws.geonames.org/3074204/</idno>
       
-        <location><geo>50,43723 15,35162</geo></location>
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/41660</idno>
       
-      </settlement>
-      
+    </settlement>
+    
        
   </birth>  
 
@@ -126,6 +173,29 @@
       <settlement key="pmb50">
         <placeName type="pref">Wien</placeName>
         
+        <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+        
+        <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+        
+        <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+        
+        <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+        
+      
         <location><geo>48,2066 16,37341</geo></location>
       
       </settlement>
@@ -205,6 +275,32 @@
     
 </affiliation>
 
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb60573">Karl Kraus-Gesellschaft</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/60573/</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb37159">Jahoda &amp; Siegel (Druckerei)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37159/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37159</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb87755">Max Goldschmidt (Büro für Zeitungsausschnitte)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/87755/</idno>
+    
+</affiliation>
+
 
 <listEvent>
     
@@ -241,7 +337,32 @@
 
 
 
-</person></listPerson><listOrg><org xml:id="pmb50728">
+</person></listPerson><listBibl><bibl xml:id="pmb52934">
+  <title type="main">Kölner Woche</title>
+
+
+
+  <author key="person__39304">Peltzer, Hans</author>
+
+
+
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52934/</idno>
+
+
+<note type="collections">
+  
+  <bibl type="collections" n="5">legalkraus</bibl>
+  
+</note>
+
+
+
+  <note type="work_kind">Publikationsorgan &gt;&gt; Zeitschrift &gt;&gt; Wochenschrift</note>
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>60.2 Text der berichtigenden Erklärung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000060-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>62.2 Brief Samek an Kölner Woche (verantw. Red. Michael Becker)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000062-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>62.3 Brief RA Johannes Zilkens und RA Heinrich Breuer an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000062-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>62.4 Brief Samek an Bürgermeisteramt in Köln am Rhein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000062-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>62.5 Brief Ober-Bürgermeister (Städtisches Presseamt) an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000062-005-000.xml"/></linkGrp></event></listEvent></bibl></listBibl><listOrg><org xml:id="pmb50728">
   <orgName>Buchhandlung Richard Lányi</orgName>
 
 
@@ -292,7 +413,5 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Konvolut von Protokollen der Zeugenaussagen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Wiener Allgemeine Zeitung (verantw. Red. [Ludwig Ullmann])</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000060-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Text der berichtigenden Erklärung]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000060-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Zeugenaussage] von Fritz Löwy</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Th. Knaur Nachf-Verlag [Adalbert Droemer] an Richard Lányi</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Th. Knaur Nachf- Verlag an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Entwurf eines vorbereitenden Schriftsatzes] von Karl Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Entwurf eines vorbereitenden Schriftsatzes] (von Kraus verfasst und
-                    geschrieben)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vorbereitender Schriftsatz der klagenden Partei (Samek an das Handelsgericht
-                    Wien I, G. Z. Cg 110/30/1)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-019-000.xml"/></linkGrp></event></listEvent></org></listOrg></back></text>
+<listEvent><event type="mentioned"><p>erwähnt in <title>10.4 Brief Verlag Die Fackel an Direktion der Robert-Bühnen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000010-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>10.7 Brief Samek an Siegfried Geyer</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000010-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>10.8 Klage von Karl Kraus gegen Eugen Robert wegen 9716.100.- K.s.Ng. (Bezirksgericht Josefstadt, G.Z. C X 891/24)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000010-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.11 Konvolut von Protokollen der Zeugenaussagen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>60.1 Brief Samek an Wiener Allgemeine Zeitung (verantw. Red. Ludwig Ullmann)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000060-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>60.2 Text der berichtigenden Erklärung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000060-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>134.4 Zeugenaussage von Fritz Löwy</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>142.1 Brief Th. Knaur Nachf-Verlag [Adalbert Droemer] an Richard Lányi</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>142.4 Brief Th. Knaur Nachf. Verlag [Adalbert Droemer] an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>142.18 Entwurf eines vorbereitenden Schriftsatzes (von Kraus verfasst und geschrieben)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>142.19 Vorbereitender Schriftsatz der klagenden Partei (Samek an das Handelsgericht Wien I, G.Z. 1 Cg 110/30)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>151.5 Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000151-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>151.7 Brief Die Neue Truppe an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000151-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>151.8 Brief RA Botho Laserstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000151-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>173.36 Brief Universal-Edition an Buchhandlung Richard Lanyi</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>173.39 Brief Verlag Die Fackel an Universal-Edition</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>195.53 Brief Samek an RA Johann Turnovsky</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000195-053-000.xml"/></linkGrp></event></listEvent></org></listOrg></back></text>
 </TEI>

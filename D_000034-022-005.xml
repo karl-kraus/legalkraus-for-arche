@@ -1,180 +1,514 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000034-022-005.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-022-004.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-001-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Beschluss des Strafbezirksgericht I Wien (G. Z. U VI 1734/25)</title>
-                <editor ref="#pmbIL">Isabel Langkabel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000034-022-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2022</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref=""/>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000034-022-005-wit01" facs=""/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation><date type="sortDate" subtype="produced" when-iso=""/></creation>
-            <langUsage><language ident="de">Deutsch</language></langUsage>
-            <textClass/>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-02-10T12:10:54.29Z" who="#IB">created by API</change>
-            <change when-iso="2020-02-10T12:41:51.969Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-10T12:42:04.591Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-10T12:42:14.532Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-10T12:42:30.72Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-10T12:42:41.328Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-10T12:42:55.544Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-10T12:43:08.632Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-10T12:43:19.728Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-10T12:43:29.72Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-10T12:43:42.192Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-10T12:43:58.429Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-10T12:44:16.556Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-10T12:44:48.299Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-10T12:46:00.912Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-10T12:46:30.764Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-10T12:46:57.646Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-10T12:47:08.123Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-10T12:47:22.827Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-10T12:47:39.874Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-10T12:48:03.01Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-10T12:48:31.141Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-10T12:48:44.773Z" who="#JM">Checked Images Wienbibliothek</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000145_11.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548415/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000147_11.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548417/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000149_9.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548419/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000151_9.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548421/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000153_12.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548423/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000155_10.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548425/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000157_8.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548427/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000159_11.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548429/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000161_12.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548431/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000163_12.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548433/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000165_12.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548435/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000167_12.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548437/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000169_12.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548439/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000171_10.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548441/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000173_13.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548443/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000175_13.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548445/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000177_13.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548447/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000179_14.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548449/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000181_14.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548451/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000183_11.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548453/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000185_10.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548455/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000187_11.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548457/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-        </surface>
-    </facsimile>
-    <text><back/></text>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-001-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-022-004.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000034-022-005.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>34.22 Beschluss des Strafbezirksgericht I Wien (G.Z. U VI 1734/25)</title>
+            <editor ref="#pmbIL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000034-022-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2022</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000034" type="collection">Karl Kraus
+               ca. Anton Kuh</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000034-022-005-facs001" xml:id="D_000034-022-005-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000034-022-005-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.M">Manuskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1926-01-22">22. Januar 1926</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000034-022-005-wit01">Beschluss</term>
+            </keywords>
+            <classCode source="D_000034-022-005-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.BSS">D.J.BSS</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-02-10T12:10:54.29Z" who="#IB">created by API</change>
+         <change status="draft" when-iso="2020-02-10T12:41:51.969Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-10T12:42:04.591Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-10T12:42:14.532Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-10T12:42:30.72Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-10T12:42:41.328Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-10T12:42:55.544Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-10T12:43:08.632Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-10T12:43:19.728Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-10T12:43:29.72Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-10T12:43:42.192Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-10T12:43:58.429Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-10T12:44:16.556Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-10T12:44:48.299Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-10T12:46:00.912Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-10T12:46:30.764Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-10T12:46:57.646Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-10T12:47:08.123Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-10T12:47:22.827Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-10T12:47:39.874Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-10T12:48:03.01Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-10T12:48:31.141Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change status="draft" when-iso="2020-02-10T12:48:44.773Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000034-022-005-facs001">
+      <surfaceGrp xml:id="D_000034-022-005-facs001-l001">
+         <surface xml:id="D_000034-022-005-facs001-l001-p001">
+            <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548513/full/full/0/default.jpg"/>
+         </surface>
+         <surface xml:id="D_000034-022-005-facs001-l001-p002">
+            <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548514/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000034-022-005_p001" facs="#D_000034-022-005-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_224308c7-1a18-4a75-a7f6-c7b86c1aefd1"><lb xml:id="uuid_806faa56-e5fa-4a7c-95c6-16216644e82b"/>U IV 1734/25</p>
+         <p xml:id="uuid_7fe40d0b-b977-46f3-bd4f-073af7e42ab6"><lb xml:id="uuid_3439ff2f-f706-4775-8eeb-ea7ed53d0693"/>B </p>
+         <p xml:id="uuid_3eaf3b51-d838-48f7-a787-adb622c5b61d"><lb xml:id="uuid_10df5e55-29ef-4c0a-a503-7d5a1acdc2df"/>In der Strafsache <rs type="person" ref="#pmb11988">Karl Kraus</rs> gegen <rs type="person" ref="#pmb8363">Anton Kuh</rs>
+            <lb xml:id="uuid_d04758a3-0ab6-4077-ab7e-25db691cf5cd"/>wegen Ehrenbeleidigung an Sie
+            gerichtete Ladung <lb xml:id="uuid_313faa64-9556-47b8-bd3b-c045127f25c5"/>zu der auf den
+            11. Februar 1926 anberaumten Gericht<lb xml:id="uuid_78b90d1c-ff22-450e-b05f-561268f3a43c" break="no"/>verhandlung zu
+            erscheinen wird widerrufen, da die <lb xml:id="uuid_6160395c-808d-4a68-b1d2-5bcfb6215ebf"/>Verhandlung nicht
+            stattfindet.</p>
+         <p xml:id="uuid_beb88a31-1a5a-4a32-ac11-b5bb1b0de6fe"><lb xml:id="uuid_7c8b1c1b-bd04-435a-b5f4-27f19ca813d5"/>22/1.1926 [<rs type="person">Unterschrift</rs>]</p>
+         <pb xml:id="D_000034-022-005_p002" facs="#D_000034-022-005-facs001-l001-p002" n="2"/>
+         <p xml:id="uuid_6ef423f9-63dd-429c-bbdb-48481b907756">
+            <lb xml:id="uuid_58dfc59d-4e18-41fc-a687-2eba282cc3bd"/><note type="paratext" resp="law-firm"><rs type="person" ref="#pmb11988">Kraus</rs> – <rs type="person" ref="#pmb8363">Kuh</rs> E.B. <lb xml:id="uuid_d27445f6-7459-480c-ab56-ef5eb4744425"/>28.I.26</note>
+         </p>
+      </body>
+   <back><listPerson><person xml:id="pmb11988">
+  <persName>
+      <forename>Karl</forename>
+      <surname>Kraus</surname>
+  </persName>
+
+  <persName type="pseudonym">Berdach J.</persName>
+
+
+  <birth>
+    <date when-iso="1874-04-28">28.04.1874</date>
+  
+  
+    <settlement key="pmb41660">
+      <placeName type="pref">Jičín</placeName>
+    
+      <placeName type="alternative-name">Gitschin</placeName>
+    
+      <placeName type="alternative-name">Jičín</placeName>
+    
+      <placeName type="legacy-name">Jičín</placeName>
+    
+      <placeName type="legacy-name-merge">Jitschin</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4440310-0</placeName>
+    
+    
+      <location><geo>50,43723 15,35162</geo></location>
+    
+    
+      <idno type="URL">http://sws.geonames.org/3074204/</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/41660</idno>
+      
+    </settlement>
+    
+       
+  </birth>  
+
+
+  <death>
+    <date when-iso="1936-06-12">12.06.1936</date>
+      
+      
+      <settlement key="pmb50">
+        <placeName type="pref">Wien</placeName>
+        
+        <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+        
+        <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+        
+        <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+        
+        <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+        
+      
+        <location><geo>48,2066 16,37341</geo></location>
+      
+      </settlement>
+      
+      
+  </death>
+
+
+  <sex value="male"/>
+
+
+  <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+
+  <occupation key="237">Publizist/Publizistin</occupation>
+
+
+  <idno type="URL" subtype="astb">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17108</idno>
+
+  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118566288</idno>
+
+  <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11988</idno>
+
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/11988</idno>
+
+  <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11988</idno>
+
+
+<affiliation>
+    <term key="1182">arbeitet für</term>
+    <orgName key="pmb29308">Die Fackel</orgName>
+    
+    <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29308</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/29308</idno>
+    
+    <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29308</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb50728">Buchhandlung Richard Lányi</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/50728/</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1409">ist Eigentümer*in von</term>
+    <orgName key="pmb43724">Verlag Die Fackel (Wien)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43724/</idno>
+    
+    <idno type="URL">https://d-nb.info/gnd/16063972-4</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/43724</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb36757">Amtsgericht Hamburg</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36757/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36757</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb36828">Landgericht Hamburg</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36828/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36828</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb60573">Karl Kraus-Gesellschaft</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/60573/</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb37159">Jahoda &amp; Siegel (Druckerei)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37159/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37159</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb87755">Max Goldschmidt (Büro für Zeitungsausschnitte)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/87755/</idno>
+    
+</affiliation>
+
+
+<listEvent>
+    
+    <event key="40436" when-iso="1893-01-14">
+        <desc n="1256">ist Arbeitskraft bei</desc>
+        <label>Aufführung von Die Räuber, 14.1.1893</label>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/40436/</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/40436</idno>
+            
+    </event>
+    
+    <event key="42714" when-iso="1905-05-29">
+        <desc n="1256">ist Arbeitskraft bei</desc>
+        <label>Geschlossene Aufführung Die Büchse der Pandora, 29.5.1905</label>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/42714/</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/42714</idno>
+            
+    </event>
+    
+</listEvent>
+
+
+<listBibl>
+    
+    <bibl type="collections" n="3">Manuell angelegt</bibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+</person><person xml:id="pmb8363">
+  <persName>
+      <forename>Anton</forename>
+      <surname>Kuh</surname>
+  </persName>
+
+
+  <birth>
+    <date when-iso="1890-07-12">12.07.1890</date>
+  
+  
+    <settlement key="pmb50">
+      <placeName type="pref">Wien</placeName>
+    
+      <placeName type="alternative-name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Bécs</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Land Wien</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Vídeň</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Wenia</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Beč</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+    
+      <placeName type="alternative-name">Vindobona (Wien)</placeName>
+    
+      <placeName type="legacy-name-merge">Wien</placeName>
+    
+      <placeName type="legacy-name-merge">Vindobona</placeName>
+    
+      <placeName type="alternative-name">Vienna</placeName>
+    
+      <placeName type="legacy-name-merge">Wien?</placeName>
+    
+      <placeName type="alternative-name">Vienna</placeName>
+    
+      <placeName type="legacy-name-merge">Vienna</placeName>
+    
+      <placeName type="legacy-name-merge">Vienna</placeName>
+    
+    
+      <location><geo>48,2066 16,37341</geo></location>
+    
+    
+      <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+      
+      <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+      
+      <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+      
+      <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+      
+      <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+      
+      <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+      
+      <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+      
+      <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+      
+    </settlement>
+    
+       
+  </birth>  
+
+
+  <death>
+    <date when-iso="1941-01-18">18.01.1941</date>
+      
+      
+      <settlement key="pmb44053">
+        <placeName type="pref">New York City</placeName>
+        
+        <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb5199</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/5199</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/44053/</idno>
+        
+        <idno type="URL">https://sws.geonames.org/5128581/</idno>
+        
+        <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44053</idno>
+        
+      
+        <location><geo>40,71427 -74,00597</geo></location>
+      
+      </settlement>
+      
+      
+  </death>
+
+
+  <sex value="male"/>
+
+
+  <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+
+
+  <idno type="URL" subtype="astb">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17179</idno>
+
+  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/119302616</idno>
+
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/8363</idno>
+
+
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>13.7 Antrag auf Einvernehmung bestimmter Personen als Beschuldigte und Zeugen (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>13.8 Protokolle der Zeugeneinvernahmen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>13.9 Beschluss des Strafbezirksgericht I Wien (G.Z. U IV 3305/25, Karl Adam Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>13.14 Beschluss des Strafbezirksgerichts I Wien (G.Z. U IV 3305/25, Karl Adam Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.8 Antrag auf weitere Einvernahmen (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.11 Konvolut von Protokollen der Zeugenaussagen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.13 Antrag auf Ergänzung der Voruntersuchung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.20 Vorlage der Anklageschrift gegen Fritz Kaufmann</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.22 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. Vr XXVI/4093/25, Franz Wetz)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.24 Beschwerde gegen den Beschluss vom 25. Juni 1926</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.25 Beschluss des Oberlandesgerichts Wien (G.Z. Bs. 911/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.2 Privatanklage von Karl Kraus gegen Die Stunde (verantw. Red. Fritz Kaufmann) und Anton Kuh wegen Übertretung des § 496 St.G. (Ehrenbeleidigung)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.4 Brief Samek an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.7 Privatanklage von Karl Kraus gegen Die Stunde (verantw. Red. Fritz Kaufmann) und Anton Kuh wegen Übertretung des § 496 St.G. (Ehrenbeleidigung) begangen durch die Presse</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.9 Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G.Z. U I 286/25, Richter: Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.10 Urteil des Strafbezirksgerichts I Wien (G.Z. U I 286/25, Richter: Christoph Höflmayr, Verteidiger: Friedrich Schnepp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.12 Brief Samek an Johann Treulich</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-012-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.13 Beschluss des Strafbezirksgerichts I Wien (G.Z. U I 286/25, Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.14 Brief Gustav Harpner / Leopold Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.16 Berufungsausführung des Privatanklägers</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.18 Antrag auf Ergänzung resp. Richtigstellung des Verhandlungsprotokolls [vom 21.1.1926] (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.20 Brief Samek an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.21 Protokoll der Berufungsverhandlung (Landesgericht für Strafsachen I Wien, G.Z. Bl. XV 176/26, Richter: Franz Gottfried)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.23 Antrag des Privatanklägers auf Anberaumung der Hauptverhandlung vom 27.3.1926 (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.24 Beschluss des Strafbezirksgerichts I Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.26 Beschluss des Strafbezirksgerichts I Wien (G.Z. U I 286/25/10, Karl Adam Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-026-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.27 Antrag auf Anberaumung einer Hauptverhandlung (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-027-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.28 Antrag gemäß § 57 St. P.O. (Strafbezirksgerichts I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.30 Urteil des Strafbezirksgerichts I Wien (Richter: Karl Adam Fryda, Verteidiger: Friedrich Schnepp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-030-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.34 Brief Franz Kornheisl (RA in Steyr) an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-034-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.35 Brief Samek an RA Franz Kornheisl</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-035-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.36 Brief Samek an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.38 Beschluss des Strafbezirksgerichts I Wien (G.Z. U I 286/25/10, Karl Adam Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-038-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.39 Beschluss des Landesgerichts für Strafsachen I Wien (G.Z. Bl. XV 580/26, Robert Schneeweiß)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.40 Gesuch um Fahrnis- und Forderungsexekution (Exekutionsgericht Wien, G.Z. EXV 8659/26, Otto Hauke)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-040-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.41 Brief Theater in der Josefstadt an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-041-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.42 Beschluss des Exekutionsgerichts Wien (G.Z. EXV 8659/26, Otto Hauke)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-042-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>20.1 Privatanklage von Karl Kraus gegen Die Stunde (verantw. Red. Fritz Kaufmann) wegen §§ 24, 43 Pr.G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000020-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>20.5 Ausdehnung der Privatanklage</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000020-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>25.2 Antrag auf Einleitung von Voruntersuchungen gegen Marc Siegelberg und weitere unbekannte Täter wegen Übertretung des § 45 Urheberrechtsgesetz (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>25.3 Protokolle der Zeugenvernehmungen (Strafbezirksgericht I Wien, G.Z. U XII 71/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>26.1 Antrag auf Einleitung der Voruntersuchung gegen unbekannte Täter wegen Ehrenbeleidigung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000026-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>27.3 Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, Karl Adam Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>27.5 Antrag auf Anberaumung einer Hauptverhandlung, eventuell neuerliche Einvernahme des Zeugen Tschuppik im Erhebungswege und Antrag auf Ladung weiterer Zeugen zur Hauptverhandlung (Strafbezirksgericht I Wien, G.Z. U XII 1761/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>27.6 Zeugenprotokoll Karl Tschuppik</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>34.1 Klage von Karl Kraus gegen Anton Kuh wegen Ehrenbeleidigung (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>34.3 Brief Samek an das Gemeinde-Vermittlungsamt Wien III (G.Z. I043/25)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>34.5 Brief Samek an Verlag die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>34.6 Antrag auf sofortige Anberaumung einer Hauptverhandlung, vorläufige Festnahme des Beschuldigten, und Verhängung der Verwahrungshaft über denselben bis zur Hauptverhandlung und Antrag auf Abgabe dieses Aktes an den staatsanwaltschaftlichen Funktionär zur Kenntnisnahme (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>34.7 Beschluss des Strafbezirksgerichts I Wien (G.Z. U IV 570/26, Julius Benesch)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>34.9 Ergänzende Anträge des Privatanklägers</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>34.11 Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G.Z. U IV 570/26, Julius Benesch)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>34.12 Urteil des Strafbezirksgerichts I Wien (G.Z. U IV 570/26, Richter: Julius Benesch, Verteidiger: Friedrich Schnepp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>34.13 Anmeldung der Berufung gegen das Urteil</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>34.14 Berufungsausführung von Anton Kuh</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>34.16 Urteil des Landesgerichts für Strafsachen I Wien (G.Z. Bl XIV 903/26, Vorsitz: Franz Haller)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>34.18 Beschluss des Strafbezirksgericht I Wien (G.Z. U VI 570/26, Julius Benesch)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>34.19 Adressenbekanntgabe an das Strafbezirksgericht I Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>34.21 Beschwerde gegen den Kostenbestimmungsbeschluss vom 21. September 1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>34.22 Beschluss des Strafbezirksgericht I Wien (G.Z. U VI 1734/25)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-022-004.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>34.22 Beschluss des Strafbezirksgericht I Wien (G.Z. U VI 1734/25)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-022-005.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.2 Beschwerde gegen den Zahlungsauftrag vom 17.10.1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.3 Gesuch um Forderungsexekution an das Exekutionsgericht Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.4 Gesuch um Fahrnisexekution an das Exekutionsgericht in Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.5 Beschluss des Exekutionsgerichts Wien I (G.Z. 15 E 811/28/2, Hohenecker)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.7 Antrag auf neuerlichen Vollzug der Fahrnisexekution (Exekutionsgericht Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.8 Mitteilung des Zentral-Tax- und Gebührenbemessungsamtes in Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.9 Brief Konzertdirektion Gutmann (Hugo Knepler) an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.11 Gesuch um Forderungsexekution</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.12 Gesuch um Forderungsexekution</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.13 Überweisungsbeschluss des Exekutionsgerichts Wien und Auftrag an den Drittschuldner zur Äußerung (G.Z. 15 E 7378/28, Moritz Josef Czescher)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.14 Brief Konzertdirektion Gutmann (Hugo Knepler) an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.14 Brief Konzertdirektion Gutmann (Hugo Knepler) an Anton Kuh</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-014-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.15 Brief Samek an Konzertdirektion Gutmann (Hugo Knepler)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.16 Brief Konzertdirektion Gutmann (Hugo Knepler) an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.17 Brief Samek an Konzertdirektion Gutmann (Hugo Knepler)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.18 Brief Konzertdirektion Gutmann (Hugo Knepler) an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.19 Brief Samek an Konzertdirektion Gutmann (Hugo Knepler)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.20 Brief Konzertdirektion Gutmann (Hugo Knepler) an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.21 Brief Konzertdirektion Gutmann (Hugo Knepler) an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.22 Brief Samek an Konzertdirektion Gutmann (Hugo Knepler)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.23 Brief Konzertdirektion Gutmann (Hugo Knepler) an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.24 Brief Konzertdirektion Gutmann (Hugo Knepler) an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.25 Brief Samek an RA Willy Katz (Berlin)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.26 Brief Samek an RA Willy Katz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-026-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.27 Brief RA Willy Katz an Samek [+ Brief RA Willy Katz an Verlag Die Fackel]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-027-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.28 Klage wegen Forderung (Amtsgericht Berlin-Mitte, G.Z. C. 513/32)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.29 Brief RA Willy Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-029-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.30 Brief RA Willy Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-030-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.31 Brief Samek an RA Willy Katz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-031-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.32 Brief RA Willy Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-032-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.33 Postkarte RA Willy Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-033-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.34 Brief RA Willy Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-034-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.35 Brief RA Willy Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-035-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.36 Schriftsatz in Sachen Kraus gegen Kuh (RA Kurt Berger an das Amtsgericht Berlin-Mitte, G.Z. C.513/32)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.37 Brief Samek an RA Willy Katz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-037-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.38 Brief RA Willy Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-038-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.39 Brief RA Willy Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.40 Brief Samek an RA Willy Katz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-040-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.41 Brief RA Willy Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-041-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.43 Brief RA Willy Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-043-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.44 Brief Samek an RA Willy Katz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-044-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.45 Brief Samek an RA Willy Katz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-045-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.46 Brief RA Willy Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-046-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.47 Brief RA Willy Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-047-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.48 Brief Samek an RA Willy Katz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-048-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.49 Brief RA Willy Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-049-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.50 Brief Eugen Robert (Deutsches Künstlertheater/Robertbühnen) an Obergerichtsvollzieher Ringe (Berlin)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-050-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.51 Brief Samek an RA Willy Katz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-051-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.52 Brief RA Willy Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-052-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.53 Brief Samek an RA Willy Katz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-053-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.54 Brief RA Willy Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-054-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.55 Brief Samek an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-055-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.56 Brief Samek an RA Willy Katz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-056-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>35.57 Brief RA Willy Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-057-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>36.1 Brief Samek an Der Tag (verantw. Red. Josef Koller)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000036-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>36.2 Brief Samek an Neues Wiener Tagblatt (verantw. Red. Oskar Hirt)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000036-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>36.3 Brief Samek an Tages-Post (verantw. Red. Franz Weichselbaumer)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000036-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>36.4 Brief Samek an Neues Wiener Tagblatt (verantw. Red. Oskar Hirt)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000036-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>61.1 Brief Samek an Arbeiter-Zeitung (verantw. Red. Hugo Schulz)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000061-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>63.1 Umschläge des Fotoateliers Joël Heinzelmann (Berlin) an den Verlag Die Fackel bzw. an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000063-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>63.3 Disziplinaranzeige gegen unbekannte Täter von Karl Kraus an die Post- und Telegraphen-Direktion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000063-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>63.4 Postdirektion für Wien, Niederösterreich und Burgenland an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000063-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>74.1 Brief Samek an Egon Friedell</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000074-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>74.2 Abschrift der Novellette aus Der Querschnitt von Heinrich Fischer</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000074-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>74.3 Brief Egon Friedell an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000074-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>75.1 Brief Gina Kaus an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000075-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>125.78 Brief RA Willy Katz an Oskar Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-078-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>174.2 Privatanklage von Karl Kraus gegen Neues Wiener Journal (verantw. Red. Hans Tabarelli) wegen Ehrenbeleidigung begangen durch die Presse</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>174.4 Brief Samek an Rolf Nürnberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>178.1 Brief RA Egon Schwelb (Prag) an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>178.2 Brief Samek an RA Egon Schwelb</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>178.3 Brief RA Egon Schwelb an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>178.4 Übersetzung der Beweisanträge des Privatanklägers Anton Kuh in der Sache gegen Dr. Emil Strauss</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>178.5 Brief RA Egon Schwelb an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>178.6 Brief Samek an RA Egon Schwelb</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.89 Beweisanträge (Übersetzung) Marie Schnierer</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-089-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.95 Brief RA Johann Turnovsky an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-095-000.xml"/></linkGrp></event></listEvent></person></listPerson></back></text>
 </TEI>

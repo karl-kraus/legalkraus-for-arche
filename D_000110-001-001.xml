@@ -1,333 +1,108 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000110-001-001.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000109-014-004.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000110-003-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Zeitungsartikel aus: Prager Presse</title>
-                <editor ref=""/>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000110-001-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/</idno>
-                <idno type="ID" subtype="transkribus">425492</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000110">Karl Kraus ca. Prager Presse</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000110-001-001-wit01" facs=""/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation><date type="sortDate" subtype="produced" when-iso=""/></creation>
-            <langUsage><language ident="de">Deutsch</language></langUsage>
-            <textClass/>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-07-22T07:07:41.665Z" who="#IB">created by API</change>
-        <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of Transkribus Document 425492.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000153_35.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555705/full/full/0/default.jpg" source="wienbibliothek"/>
-            <graphic url="ZPH_1545-7/106_111/00000153.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000154_30.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555706/full/full/0/default.jpg" source="wienbibliothek"/>
-            <graphic url="ZPH_1545-7/106_111/00000154.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000155_33.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555707/full/full/0/default.jpg" source="wienbibliothek"/>
-            <graphic url="ZPH_1545-7/106_111/00000155.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000151_38.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555703/full/full/0/default.jpg" source="wienbibliothek"/>
-            <graphic url="ZPH_1545-7/106_111/00000151.jpg" source="scans"/>
-        </surface>
-        <surface type="">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000152_37.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555704/full/full/0/default.jpg" source="wienbibliothek"/>
-            <graphic url="ZPH_1545-7/106_111/00000152.jpg" source="scans"/>
-        </surface>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="" n="1"/>
-            <lb xml:id="uuid_c7d78b2a-9682-4347-978b-2a9682c34793"/>[Dr.]S./Fa. 18. September 1928
-<lb xml:id="uuid_c3157cff-04a8-43ee-957c-ff04a863ee55"/>Betrifft: Kraus – <rs type="institution" ref="#pmb29194">Prager Presse</rs>.
-<lb xml:id="uuid_147fa3b9-50f1-4458-bfa3-b950f1b458f7"/>An den
-<lb xml:id="uuid_13b4acdc-d8a1-4214-b4ac-dcd8a16214b5"/>verantwortlichen Redakteur der ‚<rs type="institution" ref="#pmb29194">Prager Presse</rs>‘
-<lb xml:id="uuid_9dc2687a-10a6-461a-8268-7a10a6961ace"/>Prag.
-<lb xml:id="uuid_d9b12357-ffb5-4933-b123-57ffb5d933e6"/>Im Vollmachtsnamen des Herrn <rs type="person" ref="#pmb11988">Karl Kraus</rs>
-<lb xml:id="uuid_9e3cf538-c718-4a5a-bcf5-38c7180a5a82"/>ersuche ich Sie, ohne mich auf das Pressgesetz zu berufen, die von
-<lb xml:id="uuid_de06b458-400d-4c76-86b4-58400d0c769a"/>Ihnen am 4. September 1928 veröffentlichte Wiener Meldung „Karl
-<lb xml:id="uuid_c5f3922f-7c8b-4c7c-b392-2f7c8bdc7ce5"/>Kraus versus AIfred Kerr“, die offenbar dem ‚Neuen Wiener Tag-
-<lb xml:id="uuid_76d491f7-0346-4e56-9491-f703463e568c"/>blatt‘ vom 3. September 1928 entnommen ist, in geeigneter Weise
-<lb xml:id="uuid_bb6f2492-d8e7-456a-af24-92d8e7556a64"/>dahin zu berichtigen, dass <rs type="person" ref="#pmb11988">Karl Kraus</rs> weder am 2. September 1928
-<lb xml:id="uuid_1eb905d6-93b9-4de3-b905-d693b96de347"/>noch je zuvor also überhaupt keine Vorlesung im Neuen Theater
-<lb xml:id="uuid_e5e4b9ae-ed7a-4195-a4b9-aeed7a31953b"/>am Zoo gehalten hat.
-<lb xml:id="uuid_c106b559-649d-4f61-86b5-59649d4f6125"/>Ich möchte bei dieser Gelegenheit an Sie
-<lb xml:id="uuid_7a185d9f-6eae-4ad8-985d-9f6eae5ad862"/>auch das Ersuchen richten, bei allen Meldungen, die Sie in Wiener
-<lb xml:id="uuid_c72354e5-35ac-46ab-a354-e535ac26ab8a"/>Blättern finden und die sich auf die Person des Herrn <rs type="person" ref="#pmb11988">Karl Kraus</rs>
-<lb xml:id="uuid_7f7389ae-c116-4c5c-b389-aec116fc5cc2"/>beziehen, vorsichtig zu sein und sie ohne vorherige Information
-<lb xml:id="uuid_d09a0fe5-c2d8-4ef5-9a0f-e5c2d88ef523"/>nicht zu übernehmen, da wie sich bereits in einem früheren und
-<lb xml:id="uuid_358e391e-2254-489c-8e39-1e2254789c29"/>auch im jetzigen Falle herausgestellt hat, solche Nachrichten vom
-<lb xml:id="uuid_d89668a0-41bf-44ba-9668-a041bf34ba17"/>Grund aus erlogen sind.
-<lb xml:id="uuid_6e12485a-1d7e-4f6b-9248-5a1d7ebf6b18"/>Ich füge schliesslich noch die Bitte bei, mir
-<lb xml:id="uuid_9dfa4c2d-0cfb-4d1c-ba4c-2d0cfbbd1c79"/>sobald als möglich ein Belegexemplar der erschienenen Richtigstel-
-<lb xml:id="uuid_66edffd6-bfb4-44e2-adff-d6bfb4c4e205"/>lung zuzusenden.
-<lb xml:id="uuid_ab0791d3-5f98-4295-8791-d35f9882956c"/>Mit vorzüglicher Hochachtung
-<lb xml:id="uuid_1c4d17e0-3d48-472f-8d17-e03d48672fbd"/>Rekommandiert
-<pb facs="" n="2"/>
-            <lb xml:id="uuid_83b0bd79-b54e-4fbc-b0bd-79b54e9fbcd7"/>Betr. Kraus – <rs type="institution" ref="#pmb29194">Prager Presse</rs>
-<lb xml:id="uuid_641fabea-b1e2-4473-9fab-eab1e26473e6"/>exp. am 18.9.1928
-</body>
-    <back><listPerson><person xml:id="pmb11988">
-  <persName>
-      <forename>Karl</forename>
-      <surname>Kraus</surname>
-  </persName>
-
-  <persName type="pseudonym">Berdach J.</persName>
-
-
-  <birth>
-    <date when-iso="1874-04-28">28.04.1874</date>
-  
-  
-      <settlement key="pmb41660">
-        <placeName type="pref">Jičín</placeName>
-      
-        <location><geo>50,43723 15,35162</geo></location>
-      
-      </settlement>
-      
-       
-  </birth>  
-
-
-  <death>
-    <date when-iso="1936-06-12">12.06.1936</date>
-      
-      
-      <settlement key="pmb50">
-        <placeName type="pref">Wien</placeName>
-        
-        <location><geo>48,2066 16,37341</geo></location>
-      
-      </settlement>
-      
-      
-  </death>
-
-
-  <sex value="male"/>
-
-
-  <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
-
-  <occupation key="237">Publizist/Publizistin</occupation>
-
-
-  <idno type="URL" subtype="astb">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17108</idno>
-
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118566288</idno>
-
-  <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11988</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/11988</idno>
-
-  <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11988</idno>
-
-
-<affiliation>
-    <term key="1182">arbeitet für</term>
-    <orgName key="pmb29308">Die Fackel</orgName>
-    
-    <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29308</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/29308</idno>
-    
-    <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29308</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1153">in Relation zu</term>
-    <orgName key="pmb50728">Buchhandlung Richard Lányi</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/50728/</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1409">ist Eigentümer*in von</term>
-    <orgName key="pmb43724">Verlag Die Fackel (Wien)</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43724/</idno>
-    
-    <idno type="URL">https://d-nb.info/gnd/16063972-4</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/43724</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1153">in Relation zu</term>
-    <orgName key="pmb36757">Amtsgericht Hamburg</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36757/</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36757</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1153">in Relation zu</term>
-    <orgName key="pmb36828">Landgericht Hamburg</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36828/</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36828</idno>
-    
-</affiliation>
-
-
-<listEvent>
-    
-    <event key="40436" when-iso="1893-01-14">
-        <desc n="1256">ist Arbeitskraft bei</desc>
-        <label>Aufführung von Die Räuber, 14.1.1893</label>
-        
-        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/40436/</idno>
-        
-        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/40436</idno>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000110-002-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000110-001-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000110-001-001.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>110.1 Zeitungsartikel aus: Prager Presse</title>
+            <editor ref="#pmbIL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000110-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/</idno>
+            <idno subtype="transkribus" type="ID">425492</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000110" type="collection">Karl
+                    Kraus ca. Prager Presse</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000110-001-001-facs001" xml:id="D_000110-001-001-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000110-001-001-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.D">Druck</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1928-09-04">4. September 1928</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000110-001-001-wit01">Zeitungsartikel</term>
+            </keywords>
+            <classCode source="D_000110-001-001-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.P.ZTA">D.P.ZTA</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-07-22T07:07:41.665Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 425492. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000110-001-001-facs001">
+      <surfaceGrp xml:id="D_000110-001-001-facs001-l001">
+         <surface xml:id="D_000110-001-001-facs001-l001-p001" type="recto">
             
-    </event>
-    
-    <event key="42714" when-iso="1905-05-29">
-        <desc n="1256">ist Arbeitskraft bei</desc>
-        <label>Geschlossene Aufführung Die Büchse der Pandora, 29.5.1905</label>
-        
-        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/42714/</idno>
-        
-        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/42714</idno>
+            <graphic source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555703/full/full/0/default.jpg"/>
             
-    </event>
-    
-</listEvent>
-
-
-<listBibl>
-    
-    <bibl type="collections" n="3">Manuell angelegt</bibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-</person></listPerson><listOrg><org xml:id="pmb29194">
-  <orgName>Prager Presse</orgName>
-
-  <orgName type="uri_wikipedia">https://de.wikipedia.org/wiki/Prager_Presse</orgName>
-
-
-
-<location type="located_in_place">
-  <placeName key="pmb652">Prag</placeName>
-  <geo>50,08333 14,46667</geo>
-  
-  <note type="IDNO" subtype="geonames">http://sws.geonames.org/3067695/</note>
-  
-  <note type="IDNO" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/7313/</note>
-  
-  <note type="IDNO" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/22214/</note>
-  
-  <note type="IDNO" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/26227/</note>
-  
-  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb652</note>
-  
-  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43722/</note>
-  
-  <note type="IDNO">https://d-nb.info/gnd/4076310-9</note>
-  
-  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/652</note>
-  
-  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/7313</note>
-  
-  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/22214</note>
-  
-  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/26227</note>
-  
-  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/43722</note>
-  
-  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb652</note>
-  
-</location>
-
-
-  <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29194</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/29194</idno>
-
-
-<listBibl>
-    
-    <bibl type="collections" n="1">ASBW</bibl>
-    
-    <bibl type="collections" n="2">Erster Import</bibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Brief Samek an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000030-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an die Redaktion der Prager Presse</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000038-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Berichtigung] an die Redaktion der Prager Presse</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000038-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zeitungsartikel aus: Prager Presse</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000110-001-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Landgerichts I Berlin (G. Z. 10. P. 299./29., Vorsitz: […]
-                    Paulus)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-081-000.xml"/></linkGrp></event></listEvent></org></listOrg></back></text>
+         </surface>
+         <surface xml:id="D_000110-001-001-facs001-l001-p002" type="verso">
+            
+            <graphic source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555704/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

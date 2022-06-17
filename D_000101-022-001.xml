@@ -1,182 +1,169 @@
 <?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000101-022-001.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-002.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Information von Max Blatt</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/</idno>
-                <idno type="ID" subtype="transkribus">235699</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000101">Anzeige gegen die Fackel-Kolporteure</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000101-022-001-wit01" facs="D_000101-022-001-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation> <date type="sortDate" when-iso="1929-01-02" subtype="produced">2. Januar 1929</date> </creation>
-            <langUsage> <language ident="de">Deutsch</language> </langUsage>
-            <textClass/>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change type="intertexts" when-iso="2021-11-03" who="#JK"/>
-            <change type="typography" when-iso="2021-11-03" who="#JK"/>
-            <change type="references" when-iso="2021-11-03" who="#JK"/>
-            <change type="structure" when-iso="2021-11-03" who="#JK"/>
-            <change when-iso="2020-07-17T11:01:13.556Z" who="#IB">created by API</change>
-            <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
-                of Transkribus Document 235699.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000101-022-001-facs001">
-        <surfaceGrp xml:id="D_000101-022-001-facs001-l001">
-            <surface xml:id="D_000101-022-001-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000296_28.jpg" source="krausonline"/>
-                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555239/full/full/0/default.jpg" source="wienbibliothek"/>
-            </surface>
-            <surface xml:id="D_000101-022-001-facs001-l001-p002" type="verso">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000297_27.jpg" source="krausonline"/>
-                <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555240/full/full/0/default.jpg" source="wienbibliothek"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="D_000101-022-001-facs001-l001-p001" n="1"/>
-            <p xml:id="uuid_04114928-00a9-47c7-982a-736bb6b05097">
-                <lb xml:id="uuid_06fa307a-bddd-44d2-ba30-7abdddb4d2a2"/><hi rend="spaced">Information</hi>
-                <lb xml:id="uuid_abf638c9-be16-42f7-b638-c9be1692f795"/>aufgenommen mit Herrn <rs type="person" ref="#pmb51562">Max Blatt</rs>
-                <rs type="place" subtype="address" ref="#pmb1262">Wien VI. Linke Wienzeile <lb xml:id="uuid_a79d8c19-be08-4c7c-9d8c-19be087c7c3c"/>134</rs> am 2.1.1929. </p>
-            <p xml:id="uuid_276d2b5e-1dfc-48e3-bcec-113c74029ec3">
-                <lb xml:id="uuid_ae812aa1-946a-4341-812a-a1946a934177"/>Ich habe am 5. August 1928
-                mit <rs type="person" ref="#pmb51545">Gen.M. <lb xml:id="uuid_f6f8cc94-1c0e-40f7-b8cc-941c0ee0f757"/>Babad</rs> das <rs type="work" ref="#pmb53123">Schoberlied</rs> kolportiert. Nach einiger Zeit wurden
-                wir <lb xml:id="uuid_98dc9343-231d-4349-9c93-43231d034903"/>verhaftet. Zuerst führte
-                man uns in die Wachstube <rs type="place" ref="#pmb53086">Böcklinstrasse</rs>
-                <lb xml:id="uuid_86ec6b24-db25-4015-ac6b-24db25901561"/>und von dort in das <rs type="institution" ref="#pmb53089">Polizeikommisariat Prater</rs>. Auf der dortigen
-                    <lb xml:id="uuid_59e577e4-8f6d-48c5-a577-e48f6df8c5b2"/>Wachstube wurden wir von
-                dem <rs type="person" ref="#pmb53090">Leiter</rs> mit den Worten angeredet: <lb xml:id="uuid_e2148153-413e-4733-9481-53413ef7339b"/>Wir sollten uns schämen ein
-                solches Spottlied über unseren <lb xml:id="uuid_14128f7d-8d90-4ae1-928f-7d8d907ae13d"/><rs type="person" ref="#pmb24444">Polizeipräsidenten</rs> zu verbreiten, vor dem die ganze Welt den
-                Hut <lb xml:id="uuid_2d775ba7-6918-45f5-b75b-a76918f5f56d"/>zieht. Er sagte, wenn
-                wir dies in Rumänien, Bulgarien, Ungarn <lb xml:id="uuid_64e67474-188d-4853-a674-74188db853f2"/>täten, wären wir schon
-                längst am Galgen. Wir sollten so etwas in <lb xml:id="uuid_2bdce3d1-06c0-4a2d-9ce3-d106c00a2d91"/>Russland oder Palästina
-                versuchen. Er sagte auch, dass es uns <lb xml:id="uuid_53bed774-1790-40c4-bed7-74179000c4c0"/>am 15. Juli wahrscheinlich
-                zu gut gegangen sei. Die weiteren <lb xml:id="uuid_475b6e7e-b6f3-45bd-9b6e-7eb6f395bd94"/>Worte die <rs type="person" ref="#pmb51545">Babad</rs> angibt: „<q type="spoken" who="#53090">Wir hätten Euch alle ausrotten sollen, <lb xml:id="uuid_2dc64af8-d74b-4181-864a-f8d74b1181ab"/>dann hätten wir endlich
-                    einmal von Euch Ruhe. Wenn es aber <lb xml:id="uuid_863cb8b5-67a8-4aa6-bcb8-b567a89aa662"/>noch einmal zu einem 15.
-                    Juli kommen sollte, dann werden wir <lb xml:id="uuid_84cd4404-0eb6-4ab1-8d44-040eb63ab15c"/>es schon anders
-                    machen</q>“ habe ich nicht gehört. Wenigstens kann <lb xml:id="uuid_73531469-fc25-442d-9314-69fc25342d8f"/>ich mich nicht erinnern, sie
-                gehört zu haben. Dagegen habe ich <lb xml:id="uuid_79ccfab9-2b86-4892-8cfa-b92b86689295"/>gehört, das <rs type="person" ref="#pmb51545">Babad</rs> mit dem
-                    <rs type="person" ref="#pmb53090">Leiter</rs> der Wachstube eine Auseinan<lb xml:id="uuid_8dd1c65d-253a-4904-91c6-5d253a2904d4" break="no"/>dersetzung wegen
-                    <rs type="person" ref="#pmb11988">Kraus</rs> und
-                    <rs type="person" ref="#pmb24444">Schober</rs> hatte, auch dass der <rs type="person" ref="#pmb53090">Leiter</rs>
-                <lb xml:id="uuid_75367e48-f1c3-416e-b67e-48f1c3716e6d"/>der Wachstube Miene machte
-                ihm eine Ohrfeige zu geben. Er hatte <lb xml:id="uuid_10f30489-9587-48d7-b304-89958748d716"/>die Hand schon erhoben. </p>
-            <p xml:id="uuid_dd89010a-d327-4131-a17a-760bb360e713">
-                <lb xml:id="uuid_368297c3-2582-4ed7-8297-c32582eed7f0"/>Ich ging dann auch zum
-                Festplatz zurück und <lb xml:id="uuid_3e678f15-cb20-4651-a78f-15cb209651dc"/>habe
-                anderen Kolporteuren beim kolportieren geholfen. Davon, <lb xml:id="uuid_c9013031-121e-4b2b-8130-31121e0b2b90"/>dass ein Funktionär die
-                Kolporteure aufforderte die Kolportage <lb xml:id="uuid_99f6bf68-f864-4ccd-b6bf-68f864eccdc9"/>einzustellen, ist mir nur
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>101.22 Information von Max Blatt</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml</idno>
+            <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/ </idno>
+            <idno type="ID" subtype="transkribus">235699</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000101">Anzeige gegen die Fackel-Kolporteure</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000101-022-001-wit01" facs="#D_000101-022-001-facs001"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000101-022-001-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date type="sortDate" when-iso="1929-01-02" subtype="produced">2. Januar 1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000101-022-001-wit01">Information</term>
+            </keywords>
+            <classCode source="D_000101-022-001-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.INF">D.J.INF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-11-03" who="#JK"/>
+         <change type="typography" when-iso="2021-11-03" who="#JK"/>
+         <change type="references" when-iso="2021-11-03" who="#JK"/>
+         <change type="structure" when-iso="2021-11-03" who="#JK"/>
+         <change when-iso="2020-07-17T11:01:13.556Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 235699. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000101-022-001-facs001">
+      <surfaceGrp xml:id="D_000101-022-001-facs001-l001">
+         <surface xml:id="D_000101-022-001-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555239/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000101-022-001-facs001-l001-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555240/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000101-022-001_p001" facs="#D_000101-022-001-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_c91f5d50-73ac-4161-8728-4e6f1ba39d66">
+            <lb xml:id="uuid_b034b491-9698-44d4-8d55-3e2e16371027"/><hi rend="spaced">Information</hi>
+            <lb xml:id="uuid_b2a98842-0e02-444c-b26b-40b5c5f47789"/>aufgenommen mit Herrn <rs type="person" ref="#pmb51562">Max Blatt</rs>
+            <rs type="place" subtype="address" ref="#pmb1262">Wien VI. Linke Wienzeile<lb xml:id="uuid_a31224f9-482f-42d3-81a7-2f0a10a91a35"/>134</rs> am 2.1.1929. </p>
+         <p xml:id="uuid_7492dc5f-48da-4b8d-9444-e64b7a47d9b1">
+            <lb xml:id="uuid_c98cafb9-52ce-41e8-b962-6867d2a3cf85"/>Ich habe am 5. August 1928 mit
+               <rs type="person" ref="#pmb51545">Gen.M.<lb xml:id="uuid_e8c6542a-a486-4bcd-8bac-485d58aceb84"/>Babad</rs> das <rs type="work" ref="#pmb53123" subtype="pmb">Schoberlied</rs> kolportiert. Nach einiger Zeit wurden
+               wir<lb xml:id="uuid_38d9d865-1b27-451e-8ff5-0f1bcaa08506"/>verhaftet. Zuerst führte
+            man uns in die Wachstube <rs type="place" ref="#pmb53086">Böcklinstrasse</rs>
+            <lb xml:id="uuid_b25a83dd-63f0-478f-96c9-0e1fa4ce8332"/>und von dort in das <rs type="institution" ref="#pmb53089">Polizeikommisariat Prater</rs>. Auf der dortigen<lb xml:id="uuid_5fcf3c20-c6fd-4fd6-98c8-64364c31553a"/>Wachstube wurden wir von dem <rs type="person" ref="#pmb53090">Leiter</rs> mit den Worten angeredet:<lb xml:id="uuid_d5e4d005-a1bc-4338-ba3f-4ec2984d2afb"/>Wir sollten uns schämen ein
+            solches <rs type="work" subtype="pmb" ref="#pmb53123">Spottlied</rs> über unseren<lb xml:id="uuid_d7bb5c3c-1cfa-48a1-8de7-77da0dfd5e2b"/><rs type="person" ref="#pmb24444">Polizeipräsidenten</rs> zu verbreiten, vor dem die ganze Welt den Hut<lb xml:id="uuid_f67fc40e-acf2-4072-9a0c-30c764f4a96d"/>zieht. Er sagte, wenn wir dies in
+            Rumänien, Bulgarien, Ungarn<lb xml:id="uuid_6a1ed0da-2569-4d2d-b2b3-aea2b218f90f"/>täten, wären wir schon längst am Galgen. Wir sollten so etwas in<lb xml:id="uuid_603e0dec-dc98-4859-aa65-32582d442ce9"/>Russland oder Palästina
+            versuchen. Er sagte auch, dass es uns<lb xml:id="uuid_3ad1f18a-b096-42c6-a8f3-9d6cfeaaa3d0"/>am 15. Juli wahrscheinlich zu gut
+            gegangen sei. Die weiteren<lb xml:id="uuid_01403593-a11b-4c36-84a4-822611c629fc"/>Worte
+            die <rs type="person" ref="#pmb51545">Babad</rs> angibt:
+               „<q type="spoken" who="#53090">Wir hätten Euch alle ausrotten sollen,<lb xml:id="uuid_e2179909-6749-4864-b0b3-953050c955b2"/>dann hätten wir endlich einmal
+               von Euch Ruhe. Wenn es aber<lb xml:id="uuid_15eb2ee5-8e92-45bd-94ef-6d1ea833c5a5"/>noch einmal zu einem 15. Juli kommen sollte, dann werden wir<lb xml:id="uuid_e942848e-0695-460f-b6bf-403f18598c5b"/>es schon anders machen</q>“
+            habe ich nicht gehört. Wenigstens kann<lb xml:id="uuid_5641e453-3c86-4513-af1f-d545732936ba"/>ich mich nicht erinnern, sie
+            gehört zu haben. Dagegen habe ich<lb xml:id="uuid_cc98d16a-7258-4456-8283-6dce246b5032"/>gehört, das <rs type="person" ref="#pmb51545">Babad</rs> mit dem <rs type="person" ref="#pmb53090">Leiter</rs> der Wachstube eine
+               Auseinan<lb xml:id="uuid_73878414-437e-4e27-b6da-e1ad072072e4" break="no"/>dersetzung
+            wegen <rs type="person" ref="#pmb11988">Kraus</rs> und
+               <rs type="person" ref="#pmb24444">Schober</rs> hatte, auch dass der <rs type="person" ref="#pmb53090">Leiter</rs>
+            <lb xml:id="uuid_b9daefb8-b82a-4044-804c-dee361d8a421"/>der Wachstube Miene machte ihm
+            eine Ohrfeige zu geben. Er hatte<lb xml:id="uuid_57acfca4-225a-4f87-9c36-2532f40bb99d"/>die Hand schon erhoben. </p>
+         <p xml:id="uuid_29a9ace3-5cd4-4ff1-a28f-e96ca6a16f58">
+            <lb xml:id="uuid_35916f30-cf95-4ed4-9bb7-e6063e64b8c8"/>Ich ging dann auch zum
+                Festplatz zurück und<lb xml:id="uuid_da407514-01f2-4044-a47f-6dd510687664"/>habe
+                anderen Kolporteuren beim kolportieren geholfen. Davon,<lb xml:id="uuid_0ce5d77e-5d2a-44fc-ad0b-f9bd305bc61a"/>dass ein Funktionär die
+                Kolporteure aufforderte die Kolportage<lb xml:id="uuid_d387b9d7-9fbe-4766-a14b-8b1adb129ce3"/>einzustellen, ist mir nur
                 durch <rs type="person" ref="#pmb51713">Hugo
-                    Rosenbaum</rs> bekannt. Ich <lb xml:id="uuid_f1cd8958-eb93-46f4-8d89-58eb9306f442"/>selbst habe nichts gesehen. </p>
-            <pb facs="D_000101-022-001-facs001-l001-p002" n="2"/>
-            <p xml:id="uuid_4afdd8d5-eff0-44b9-a4ae-8a3889e48fa3">
-                <lb xml:id="uuid_45234f5c-7581-4f8b-a34f-5c75815f8bc3"/><note type="paratext" resp="law-firm"><rs type="person" ref="#pmb11988">Kraus</rs> – Sonderausgabe</note>
-            </p>
-        </body>
-    <back><listPerson><person xml:id="pmb24444">
+                    Rosenbaum</rs> bekannt. Ich<lb xml:id="uuid_0fb563b4-980a-47cd-9d87-f98cb4e50142"/>selbst habe nichts gesehen. </p>
+         <pb xml:id="D_000101-022-001_p002" facs="#D_000101-022-001-facs001-l001-p002" n="2"/>
+         <p xml:id="uuid_c3602fa6-4783-4bf0-9431-a3fad17255d2">
+            <lb xml:id="uuid_85f5ee5b-ad7c-4366-abd5-4aeaa8b07bd9"/><note type="paratext" resp="law-firm"><rs type="person" ref="#pmb11988">Kraus</rs> – <rs type="work" subtype="pmb" ref="#pmb53123">Sonderausgabe</rs>
+            </note>
+         </p>
+      </body>
+   <back><listPerson><person xml:id="pmb53090">
   <persName>
-      <forename>Johannes</forename>
-      <surname>Schober</surname>
+      <forename>?</forename>
+      <surname>[Polizeikommissär]</surname>
   </persName>
 
 
-  <birth>
-    <date when-iso="1874-11-14">14.11.1874</date>
-  
-  
-      <settlement key="pmb45193">
-        <placeName type="pref">Perg</placeName>
-      
-        <location><geo>48,25 14,63333</geo></location>
-      
-      </settlement>
-      
-       
-  </birth>  
-
-
-  <death>
-    <date when-iso="1932-08-19">19.08.1932</date>
-      
-      
-      <settlement key="pmb662">
-        <placeName type="pref">Baden bei Wien</placeName>
-        
-        <location><geo>48,00543 16,23264</geo></location>
-      
-      </settlement>
-      
-      
-  </death>
 
 
   <sex value="male"/>
 
 
-  <occupation key="95">Politiker/Politikerin</occupation>
-
-  <occupation key="1300">Politiker/Politikerin &gt;&gt; Bundeskanzler/Bundeskanzlerin</occupation>
-
-  <occupation key="1303">Polizeibeamter/Polizeibeamtin &gt;&gt; Polizeipräsident/Polizeipräsidentin</occupation>
+  <occupation key="645">Polizeibeamter/Polizeibeamtin</occupation>
 
 
-  <idno type="URL" subtype="astb">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19835</idno>
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/53090/</idno>
 
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/24444</idno>
 
+<affiliation>
+    <term key="1182">arbeitet für</term>
+    <orgName key="pmb53089">Polizeikommissariat Prater Ausstellungsstraße</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/53089/</idno>
+    
+</affiliation>
 
 
 
@@ -188,20 +175,7 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Brief Hans Loewe an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000072-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Neues Wiener Abendblatt (verantw. Red. Oskar Hirth)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000091-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G.
-                    Z. UI 403/27, Richter: Landesgerichtsrat Robert Kramer; Verteidiger: Josef
-                    Geiringer)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000091-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief K. F. [Unbekannt] an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000095-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Nachricht der Staatsanwaltschaft Wien I an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000095-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Johann Schober wegen Ehrenbeleidigung
-                    (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000100-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an die Redaktion des Prager Tagblatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000100-001-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G. Z. 1U 337/28, Richter: Karl Korst)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000100-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien (Richter: Karl Korst)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000100-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Indizien [Notizen zur Beweisführung]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000100-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Aussageprotokoll] von Max Babad</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz [Antrag] in Sachen Die Fackel ./. Mosse (RA Fritz Cohn an das
-                    Amtsgerichts Berlin-Mitte, G. Z. 25C 135/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000113-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz [Erwiderung] in Sachen Die Fackel ./. Mosse (RA Botho Laserstein
-                    an das Amtsgerichts Berlin-Mitte, G. Z. 25C 135/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000113-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Berichtigungstext]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000128-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rückschein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000128-002-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Aktenvermerk Oskar Samek - Akt 128</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000128-002-003.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Antrag] auf Einleitung von Voruntersuchungen gegen Papp und unbekannte Täter
-                    wegen Ehrenbeleidigung begangen durch die Presse (Landesgericht für Strafsachen
-                    Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien (G. Z. 1 U 456/29, Richter: Christoph
-                    Höflmayr, Verteidiger: Robert Brunner)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000140-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Aktenvermerk Oskar Samek - Akt 140</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000140-001-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Die Gegenwart (verantw. Red. Friedrich Wondré)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000172-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rückschein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000172-003-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Erhebung der Privatanklage von Karl Kraus gegen Österreichisches Abendblatt
-                    (verantw. Red. Alfred Kinast) wegen Ehrenbeleidigung begangen durch die
-                    Presse</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000185-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien (G. Z. U 588/33, Richter:
-                    Landesgerichtsrat […] Standhartinger, Verteidiger: Herbert Schreuer)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000185-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beweisanträge (Übersetzung) Marie Schnierer</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-089-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Entwurf] zur Äußerung und den Beweisanträge Maries Schnierers</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-090-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Entwurf zu der Äußerung zu dem Beweisantrage in der Strafangelegenheit Karl
-                    Kraus ca: Gegen-Angriff</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-091-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Entwurf] eines Schriftsatzes in Sachen Kraus ca. Sozialdemokrat (RA Johann
-                    Turnovsky [an das Strafkreisgericht Prag])</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-034-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Erklärung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-119-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Protokoll der Zeugeneinvernahme von Karl Kraus]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-090-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb11988">
+<listEvent><event type="mentioned"><p>erwähnt in <title>101.2 [Aussageprotokoll] von Max Babad</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.11 Brief Samek an Karl Kaiser</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.16 Brief Österreichische Rote Hilfe an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-016-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Strafanzeige gegen unbekannte Täter</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-002.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb11988">
   <persName>
       <forename>Karl</forename>
       <surname>Kraus</surname>
@@ -214,13 +188,29 @@
     <date when-iso="1874-04-28">28.04.1874</date>
   
   
-      <settlement key="pmb41660">
-        <placeName type="pref">Jičín</placeName>
+    <settlement key="pmb41660">
+      <placeName type="pref">Jičín</placeName>
+    
+      <placeName type="alternative-name">Gitschin</placeName>
+    
+      <placeName type="alternative-name">Jičín</placeName>
+    
+      <placeName type="legacy-name">Jičín</placeName>
+    
+      <placeName type="legacy-name-merge">Jitschin</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4440310-0</placeName>
+    
+    
+      <location><geo>50,43723 15,35162</geo></location>
+    
+    
+      <idno type="URL">http://sws.geonames.org/3074204/</idno>
       
-        <location><geo>50,43723 15,35162</geo></location>
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/41660</idno>
       
-      </settlement>
-      
+    </settlement>
+    
        
   </birth>  
 
@@ -232,6 +222,29 @@
       <settlement key="pmb50">
         <placeName type="pref">Wien</placeName>
         
+        <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+        
+        <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+        
+        <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+        
+        <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+        
+      
         <location><geo>48,2066 16,37341</geo></location>
       
       </settlement>
@@ -311,6 +324,32 @@
     
 </affiliation>
 
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb60573">Karl Kraus-Gesellschaft</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/60573/</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb37159">Jahoda &amp; Siegel (Druckerei)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37159/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37159</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb87755">Max Goldschmidt (Büro für Zeitungsausschnitte)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/87755/</idno>
+    
+</affiliation>
+
 
 <listEvent>
     
@@ -347,37 +386,7 @@
 
 
 
-</person><person xml:id="pmb51713">
-  <persName>
-      <forename>Hugo</forename>
-      <surname>Rosenberg</surname>
-  </persName>
-
-
-
-
-  <sex value="male"/>
-
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/51713/</idno>
-
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Straferkenntnis der Bundes-Polizeidirektion Wien gegen Hugo Rosenberg;
-                    Umschlag</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Umschlag</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-004-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen das Straferkenntnis vom 1928 durch Hugo Rosenberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>14 Bestätigungen [über Beschlagnahmung] und Liste</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-016-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ersatzanspruch von Karl Kraus und 5 Kolporteuren an die
-                    Bundespolizeidirektion Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bescheid der Bundes-Polizeidirektion in Wien [an Samek] (G. Z. P.B.
-                    691/1/1928)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen den Bescheid vom 1928</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen den Bescheid der Bundes-Polizeidirektion vom 1928 (G. Z. P.B.
-                    115/2) respektive den Bescheid der Wiener Landesregierung vom 1929</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bescheid des Bundeskanzleramtes (G. Z. 139099 – 9.)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-025-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb51562">
+</person><person xml:id="pmb51562">
   <persName>
       <forename>Max</forename>
       <surname>Blatt</surname>
@@ -405,35 +414,82 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Straferkenntnis der Bundes-Polizeidirektion Wien gegen Max Blatt (G. Z. 674
-                    Pst 57)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen das Straferkenntnis vom 1928 durch Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ersatzanspruch von Karl Kraus und 5 Kolporteuren an die
-                    Bundespolizeidirektion Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bescheid der Bundes-Polizeidirektion in Wien [an Samek] (G. Z. P.B.
-                    691/1/1928)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen den Bescheid vom 1928</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Strafanzeige gegen unbekannte Täter</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen den Bescheid der Bundes-Polizeidirektion vom 1928 (G. Z. P.B.
-                    115/2) respektive den Bescheid der Wiener Landesregierung vom 1929</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bescheid des Bundeskanzleramtes (G. Z. 139099 – 9.)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-025-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb53090">
+<listEvent><event type="mentioned"><p>erwähnt in <title>101.6 Straferkenntnis der Bundes-Polizeidirektion Wien gegen Max Blatt (G.Z. 674 Pst 57)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.7 Berufung gegen das Straferkenntnis vom 11. August 1928 durch Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.19 Brief der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 674/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.20 Ersatzanspruch von Karl Kraus und 5 Kolporteuren an die Bundespolizeidirektion Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.21 Bescheid der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 691/1/1928)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Berufung gegen den Bescheid vom 30. November 1928</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Strafanzeige gegen unbekannte Täter</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.24 Berufung gegen den Bescheid der Bundes-Polizeidirektion vom 24. Mai 1928 (G.Z. P.B. 115/2) bzw. den Bescheid der Wiener Landesregierung vom 5. April 1929</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.25 Bescheid des Bundeskanzleramtes (G.Z. 139099 – 9.)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-025-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb24444">
   <persName>
-      <forename>?</forename>
-      <surname>[Polizeikommissär]</surname>
+      <forename>Johannes</forename>
+      <surname>Schober</surname>
   </persName>
 
+  <persName type="uri_wikipedia">https://en.wikipedia.org/wiki/Johannes_Schober</persName>
 
+
+  <birth>
+    <date when-iso="1874-11-14">14.11.1874</date>
+  
+  
+    <settlement key="pmb45193">
+      <placeName type="pref">Perg</placeName>
+    
+      <placeName type="legacy-name">Perg, Oberösterreich</placeName>
+    
+    
+      <location><geo>48,25 14,63333</geo></location>
+    
+    
+      <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/24445/</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/24445</idno>
+      
+      <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/45193/</idno>
+      
+      <idno type="URL">https://sws.geonames.org/2769105/</idno>
+      
+    </settlement>
+    
+       
+  </birth>  
+
+
+  <death>
+    <date when-iso="1932-08-19">19.08.1932</date>
+      
+      
+      <settlement key="pmb662">
+        <placeName type="pref">Baden bei Wien</placeName>
+        
+        <idno type="URL" subtype="geonames">http://sws.geonames.org/2782067/</idno>
+        
+        <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q486450</idno>
+        
+        <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb662</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/662</idno>
+        
+        <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb662</idno>
+        
+      
+        <location><geo>48,00543 16,23264</geo></location>
+      
+      </settlement>
+      
+      
+  </death>
 
 
   <sex value="male"/>
 
 
-  <occupation key="645">Polizeibeamter/Polizeibeamtin</occupation>
+  <occupation key="95">Politiker/Politikerin</occupation>
+
+  <occupation key="1300">Politiker/Politikerin &gt;&gt; Bundeskanzler/Bundeskanzlerin</occupation>
+
+  <occupation key="1303">Polizeibeamter/Polizeibeamtin &gt;&gt; Polizeipräsident/Polizeipräsidentin</occupation>
 
 
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/53090/</idno>
+  <idno type="URL" subtype="astb">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19835</idno>
 
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/24444</idno>
 
-<affiliation>
-    <term key="1182">arbeitet für</term>
-    <orgName key="pmb53089">Polizeikommissariat Prater Ausstellungsstraße</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/53089/</idno>
-    
-</affiliation>
 
 
 
@@ -445,7 +501,7 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>[Aussageprotokoll] von Max Babad</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Strafanzeige gegen unbekannte Täter</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-002.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb51545">
+<listEvent><event type="mentioned"><p>erwähnt in <title>72.8 Bericht von Hans Loewe</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000072-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>72.12 Brief Hans Loewe an Redaktion Der österreichische Volkswirt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000072-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>72.12 Brief Hans Loewe an Hermann Swoboda</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000072-012-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>72.12 [Abhandlung] von Hans Loewe</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000072-012-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>72.15 Brief Hans Loewe an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000072-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>91.2 Brief Samek an Neues Wiener Abendblatt (verantw. Red. Oskar Hirth)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000091-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>91.5 Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G.Z. U I 403/27, Richter: Landesgerichtsrat Robert Kramer; Verteidiger: Josef Geiringer)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000091-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>92.2 Brief Samek an Reichspost (verantw. Red. Karl Schiffleitner)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000092-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>93.2 Brief Samek an Wiener Neueste Nachrichten (verantw. Red. Ernst Holzmann)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000093-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>94.1 Brief Samek an RA Erwin Grünbaum (Teschen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000094-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>94.2 Brief Samek an RA Josef Schornstein (Mährisch Ostrau)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000094-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>94.3 Brief RA Erwin Grünbaum an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000094-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>94.4 Brief Samek an RA Erwin Grünbaum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000094-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>94.5 Brief RA Josef Schornstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000094-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>94.6 Brief RA Erwin Grünbaum an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000094-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>95.1 Brief K.F. an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000095-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>95.3 Nachricht der Staatsanwaltschaft Wien I an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000095-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>100.1 Privatanklage von Karl Kraus gegen Johann Schober wegen Ehrenbeleidigung (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000100-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>100.1 Brief Samek an die Redaktion des Prager Tagblatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000100-001-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>100.3 Brief Samek an Gemeinde-Vermittlungsamt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000100-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>100.5 „Zulässig“</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000100-005-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>100.6 Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G.Z. 1 U 337/28, Richter: Karl Korst)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000100-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>100.7 Urteil des Strafbezirksgerichts I Wien (Richter: Karl Korst)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000100-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>100.9 Brief Samek an RA Adolf Bachrach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000100-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>100.10 Brief RA Adolf Bachrach an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000100-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>100.11 Brief Österreichische Rote Hilfe an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000100-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>100.12 Brief Samek an Österreichische Rote Hilfe</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000100-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>100.13 Indizien [Notizen zur Beweisführung]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000100-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.2 [Aussageprotokoll] von Max Babad</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.16 Brief Österreichische Rote Hilfe an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-016-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>108.1 Brief Emmerich Békessy an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000108-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>113.7 Schriftsatz [Antrag] in Sachen Die Fackel ./. Mosse (RA Fritz Cohn an das Amtsgerichts Berlin-Mitte, G.Z. 25C 135/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000113-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>113.8 Schriftsatz [Erwiderung] in Sachen Die Fackel ./. Mosse (RA Botho Laserstein an das Amtsgerichts Berlin-Mitte, G.Z. 25C 135/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000113-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>128.2 Berichtigungstext</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000128-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>137.2 Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000137-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>138.2 Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000138-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.1 Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.2 Antrag auf Einleitung von Voruntersuchungen gegen Papp und unbekannte Täter wegen Ehrenbeleidigung begangen durch die Presse (Landesgericht für Strafsachen Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>139.9 Urteil des Strafbezirksgerichts I Wien (G.Z. 1 U 456/29, Richter: Christoph Höflmayr, Verteidiger: Robert Brunner)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000139-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>140.1 Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000140-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>172.3 Brief Samek an Die Gegenwart (verantw. Red. Friedrich Wondré)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000172-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>185.1 Antrag auf Vorerhebungen und Vornahme einer Hausdurchsuchung (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000185-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>185.7 Erhebung der Privatanklage von Karl Kraus gegen Österreichisches Abendblatt (verantw. Red. Alfred Kinast) wegen Ehrenbeleidigung begangen durch die Presse</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000185-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>185.11 Urteil des Strafbezirksgerichts I Wien (G.Z. U 588/33, Richter: Landesgerichtsrat Standhartinger, Verteidiger: Herbert Schreuer)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000185-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.89 Beweisanträge (Übersetzung) Marie Schnierer</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-089-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.90 Entwurf zur Äußerung und zu den Beweisanträgen Maries Schnierers</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-090-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>189.91 Entwurf zu der Äußerung zu dem Beweisantrage in der Strafangelegenheit Karl Kraus ca: Gegen-Angriff</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-091-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.19 Übersetzung [Schriftsatz in Sachen Kraus ca. Sozialdemokrat] (RA Egon Schwelb [an das Strafkreisgericht Prag])</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.32 Artikel „Karl Kraus – sechzig Jahre“ von Emil Franzel [aus: Der Sozialdemokrat, 1934]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-032-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.34 Entwurf eines Schriftsatzes in Sachen Kraus ca. Sozialdemokrat (RA Johann Turnovsky an das Strafkreisgericht Prag)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-034-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.55 Äußerung [Schriftsatz in Sachen Kraus ca. Strauss] (Kraus und Samek an das Obergericht in Prag)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-055-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.111 Brief Samek an Prager Tagblatt (verantw. Red. Harry Klepetar)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-111-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.119 Erklärung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-119-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.125 Brief Verlag Die Fackel an Der Kampf (Schriftleitung Otto Bauer)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-125-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>193.130 Brief Samek an Prager Tagblatt (verantw. Red. Harry Klepetar)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-130-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>196.60 Brief RA Felix Gallia an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-060-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>196.84 Äußerung des Privatklägers zum Schriftsatz der Angeklagten vom 18. Februar 1936</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-084-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>196.90 Protokoll der Zeugeneinvernahme von Karl Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-090-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb51545">
   <persName>
       <forename>Max</forename>
       <surname>Babad</surname>
@@ -473,11 +529,33 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Straferkenntnis der Bundes-Polizeidirektion Wien gegen Max Babad (G. Z. 674
-                    Pst 57)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Aussageprotokoll] von Max Babad</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen das Straferkenntnis vom 1928 durch Max Babad</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ersatzanspruch von Karl Kraus und 5 Kolporteuren an die
-                    Bundespolizeidirektion Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bescheid der Bundes-Polizeidirektion in Wien [an Samek] (G. Z. P.B.
-                    691/1/1928)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen den Bescheid vom 1928</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Strafanzeige gegen unbekannte Täter</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen den Bescheid der Bundes-Polizeidirektion vom 1928 (G. Z. P.B.
-                    115/2) respektive den Bescheid der Wiener Landesregierung vom 1929</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bescheid des Bundeskanzleramtes (G. Z. 139099 – 9.)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-025-000.xml"/></linkGrp></event></listEvent></person></listPerson><listOrg><org xml:id="pmb53089">
+<listEvent><event type="mentioned"><p>erwähnt in <title>101.1 Straferkenntnis der Bundes-Polizeidirektion Wien gegen Max Babad (G.Z. 674 Pst 57)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.2 [Aussageprotokoll] von Max Babad</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.3 Berufung gegen das Straferkenntnis vom 11. August 1928 durch Max Babad</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.16 Brief Österreichische Rote Hilfe an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-016-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.19 Brief der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 674/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.20 Ersatzanspruch von Karl Kraus und 5 Kolporteuren an die Bundespolizeidirektion Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.21 Bescheid der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 691/1/1928)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Berufung gegen den Bescheid vom 30. November 1928</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Strafanzeige gegen unbekannte Täter</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.24 Berufung gegen den Bescheid der Bundes-Polizeidirektion vom 24. Mai 1928 (G.Z. P.B. 115/2) bzw. den Bescheid der Wiener Landesregierung vom 5. April 1929</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.25 Bescheid des Bundeskanzleramtes (G.Z. 139099 – 9.)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-025-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb51713">
+  <persName>
+      <forename>Hugo</forename>
+      <surname>Rosenberg</surname>
+  </persName>
+
+
+
+
+  <sex value="male"/>
+
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/51713/</idno>
+
+
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>101.4 Straferkenntnis der Bundes-Polizeidirektion Wien gegen Hugo Rosenberg; Umschlag</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.5 Berufung gegen das Straferkenntnis vom 11. August 1928 durch Hugo Rosenberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.16 14 Bestätigungen über Beschlagnahmung und Liste</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-016-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.19 Brief der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 674/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.20 Ersatzanspruch von Karl Kraus und 5 Kolporteuren an die Bundespolizeidirektion Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.21 Bescheid der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 691/1/1928)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Berufung gegen den Bescheid vom 30. November 1928</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.24 Berufung gegen den Bescheid der Bundes-Polizeidirektion vom 24. Mai 1928 (G.Z. P.B. 115/2) bzw. den Bescheid der Wiener Landesregierung vom 5. April 1929</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.25 Bescheid des Bundeskanzleramtes (G.Z. 139099 – 9.)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-025-000.xml"/></linkGrp></event></listEvent></person></listPerson><listOrg><org xml:id="pmb53089">
   <orgName>Polizeikommissariat Prater Ausstellungsstraße</orgName>
 
 
@@ -494,8 +572,7 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>[Aussageprotokoll] von Max Babad</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Rückstellung von beschlagnahmten Exemplaren der Sonderausgabe der
-                    Fackel Nr. (Kraus an die Polizeidirektion Wien, Pressbüro)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Strafanzeige gegen unbekannte Täter</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-002.xml"/></linkGrp></event></listEvent></org></listOrg><listPlace><place xml:id="pmb1262">
+<listEvent><event type="mentioned"><p>erwähnt in <title>101.2 [Aussageprotokoll] von Max Babad</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.11 Brief Samek an Karl Kaiser</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.16 Brief Österreichische Rote Hilfe an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-016-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.17 Antrag auf Rückstellung von beschlagnahmten Exemplaren der Sonderausgabe der Fackel Nr. 1 (Kraus an die Polizeidirektion Wien, Pressbüro)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Strafanzeige gegen unbekannte Täter</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-002.xml"/></linkGrp></event></listEvent></org></listOrg><listPlace><place xml:id="pmb1262">
   <placeName>Linke Wienzeile</placeName>
 
   <placeName type="namensvariante">Ufergasse</placeName>
@@ -538,21 +615,7 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Antrag auf Einvernehmung [bestimmter Personen] als Beschuldigte und Zeugen
-                    (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokolle der Zeugeneinvernahmen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Ergänzung der Voruntersuchung (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Konvolut von Protokollen der Zeugenaussagen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der Zeugenvernehmung von Wilhelm Willinger(Fotograf)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag von Karl Kraus auf Einleitung der Voruntersuchung gegen Emmerich
-                    Békessy, Fritz Kaufmann und weitere unbekannte Täter wegen Ehrenbeleidigung
-                    [sowie] Antrag auf Vornahme einer Hausdurchsuchung (Landesgericht für
-                    Strafsachen I Wien, G. Z. XXVI 7288/25)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vernehmung des Beschuldigten [Protokoll der Einvernahme Békessys]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bitte um Kostenbestimmung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-046-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde gegen den Kostenbestimmungsbeschluss vom 31.01.1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-048-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung von Voruntersuchungen gegen Marc Siegelberg und weitere
-                    unbekannte Täter wegen Übertretung des § 45 Urheberrechtsgesetz
-                    (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokolle der Zeugenvernehmungen (Strafbezirksgericht I Wien, G. Z. U XII
-                    71/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung der Voruntersuchung gegen unbekannte Täter wegen
-                    Ehrenbeleidigung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000026-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beweisanträge [der klagenden Partei] (Landesgericht für Strafsachen I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Straferkenntnis der Bundes-Polizeidirektion Wien gegen Max Blatt (G. Z. 674
-                    Pst 57)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung gegen das Straferkenntnis vom 1928 durch Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Strafanzeige gegen unbekannte Täter</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I in Wien, G. Z.4 U 114/30, Landesgerichtsrat Leopold Wenger)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage Richard Smetana gegen Karl Kraus wegen Übertretung gegen die
-                    Sicherheit der Ehre</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000190-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Durchführung der gegenständlichen Ehrenbeleidigungsklage und der
-                    von Herrn Karl Kraus gegen Herrn Dr. Richard Smetana hg. eingebrachten Klage
-                    wegen Ehrenbeleidigung durch denselben Richter und zur gleichen Stunde
-                    (Strafbezirksgerichts I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000190-007-000.xml"/></linkGrp></event></listEvent></place><place xml:id="pmb53086">
+<listEvent><event type="mentioned"><p>erwähnt in <title>13.7 Antrag auf Einvernehmung bestimmter Personen als Beschuldigte und Zeugen (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>13.8 Protokolle der Zeugeneinvernahmen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>13.15 Antrag auf Ergänzung der Voruntersuchung (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.11 Konvolut von Protokollen der Zeugenaussagen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>15.14 Protokoll der Zeugenvernehmung von Wilhelm Willinger (Fotograf)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>17.5 Protokoll der fortgesetzten Hauptverhandlung (Strafbezirksgericht I Wien, G.Z. U I 223/25, Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000017-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>19.40 Gesuch um Fahrnis- und Forderungsexekution (Exekutionsgericht Wien, G.Z. EXV 8659/26, Otto Hauke)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-040-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.10 Antrag von Karl Kraus auf Einleitung der Voruntersuchung gegen Emmerich Békessy, Fritz Kaufmann und weitere unbekannte Täter wegen Ehrenbeleidigung [sowie] Antrag auf Vornahme einer Hausdurchsuchung (Landesgericht für Strafsachen I Wien, G.Z. XXVI 7288/25)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.15 Vernehmung des Beschuldigten [Protokoll der Einvernahme Békessys]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.46 Bitte um Kostenbestimmung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-046-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>23.48 Beschwerde gegen den Kostenbestimmungsbeschluss vom 31.1.1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-048-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>25.2 Antrag auf Einleitung von Voruntersuchungen gegen Marc Siegelberg und weitere unbekannte Täter wegen Übertretung des § 45 Urheberrechtsgesetz (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>25.3 Protokolle der Zeugenvernehmungen (Strafbezirksgericht I Wien, G.Z. U XII 71/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>26.1 Antrag auf Einleitung der Voruntersuchung gegen unbekannte Täter wegen Ehrenbeleidigung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000026-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>67.20 Beweisanträge der klagenden Partei (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.6 Straferkenntnis der Bundes-Polizeidirektion Wien gegen Max Blatt (G.Z. 674 Pst 57)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.7 Berufung gegen das Straferkenntnis vom 11. August 1928 durch Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Strafanzeige gegen unbekannte Täter</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>134.23 Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I in Wien, G.Z. 4 U 114/30, Landesgerichtsrat Leopold Wenger)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>134.39 Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I in Wien, G.Z. 4 U 114/30, Landesgerichtsrat Leopold Wenger)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>190.1 Privatanklage Richard Smetana gegen Karl Kraus wegen Übertretung gegen die Sicherheit der Ehre</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000190-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>190.7 Antrag auf Durchführung der gegenständlichen Ehrenbeleidigungsklage und der von Herrn Karl Kraus gegen Herrn Dr. Richard Smetana hg. eingebrachten Klage wegen Ehrenbeleidigung durch denselben Richter und zur gleichen Stunde (Strafbezirksgerichts I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000190-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>190.14 Vertagungsansuchen von Karl Kraus (Strafbezirksgerichts I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000190-014-001.xml"/></linkGrp></event></listEvent></place><place xml:id="pmb53086">
   <placeName>Böcklinstraße</placeName>
 
 
@@ -578,5 +641,32 @@
 
 
 
-<listEvent><event type="mentioned"><p>erwähnt in <title>Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Umschlag</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-007-001.xml"/></linkGrp></event></listEvent></place></listPlace></back></text>
+<listEvent><event type="mentioned"><p>erwähnt in <title>101.22 Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>175.7 Brief Josef Bartosch an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-007-000.xml"/></linkGrp></event></listEvent></place></listPlace><listBibl><bibl xml:id="pmb53123">
+  <title type="main">Sonderausgabe der Fackel, Nr. 1 (= Schoberlied)</title>
+
+
+
+  <author key="person__11988">Kraus, Karl</author>
+
+
+
+
+<date notBefore-iso="1928-01-01" when-iso="1928-07-01" notAfter-iso="1928-12-31">1928</date>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/53123/</idno>
+
+
+<note type="collections">
+  
+  <bibl type="collections" n="5">legalkraus</bibl>
+  
+</note>
+
+
+
+  <note type="work_kind">Publikationsorgan &gt;&gt; Zeitschrift</note>
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>101.5 Berufung gegen das Straferkenntnis vom 11. August 1928 durch Hugo Rosenberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.6 Straferkenntnis der Bundes-Polizeidirektion Wien gegen Max Blatt (G.Z. 674 Pst 57)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.7 Berufung gegen das Straferkenntnis vom 11. August 1928 durch Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.8 Straferkenntnis der Bundes-Polizeidirektion Wien gegen Karl Kaiser (G.Z. 685 und 685/Pst 53)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.9 [Aussageprotokolle] von Karl Kaiser und Gustav Heinzmann</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.10 Berufung gegen das Straferkenntnis vom 18. August 1928 durch Karl Kaiser</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.11 Brief Samek an Karl Kaiser</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.13 Straferkenntnis der Bundes-Polizeidirektion Wien gegen Robert Schützenhofer (G.Z. 628 Pst 118); Umschlag</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.14 [Aussageprotokoll] von Robert Schützenhofer</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.15 Berufung gegen das Straferkenntnis vom 19. August 1928 durch Robert Schützenhofer</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.16 Brief Österreichische Rote Hilfe an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-016-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.16 14 Bestätigungen über Beschlagnahmung und Liste</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-016-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.17 Antrag auf Rückstellung von beschlagnahmten Exemplaren der Sonderausgabe der Fackel Nr. 1 (Kraus an die Polizeidirektion Wien, Pressbüro)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.18 Brief der Bundes-Polizeidirektion in Wien an Kraus (G.Z. P.B. 691)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.19 Brief der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 674/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.19 [Aktenvermerk] zum Bescheid P.B. 674/3/28,</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-019-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.20 Ersatzanspruch von Karl Kraus und 5 Kolporteuren an die Bundespolizeidirektion Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.21 Bescheid der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 691/1/1928)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Berufung gegen den Bescheid vom 30. November 1928</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Information von Max Blatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.22 Strafanzeige gegen unbekannte Täter</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-022-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.23 Berufungsbescheid der Bundes-Polizeidirektion in Wien an Samek (G.Z. P.B. 115/2)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.24 Berufung gegen den Bescheid der Bundes-Polizeidirektion vom 24. Mai 1928 (G.Z. P.B. 115/2) bzw. den Bescheid der Wiener Landesregierung vom 5. April 1929</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>101.25 Bescheid des Bundeskanzleramtes (G.Z. 139099 – 9.)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000101-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>137.2 Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000137-002-000.xml"/></linkGrp></event></listEvent></bibl></listBibl></back></text>
 </TEI>

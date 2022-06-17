@@ -1,987 +1,122 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000027-005-001.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-005-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-006-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Anfrage beim Zentralmeldeamt über Karl Adler</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000027-005-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/</idno>
-                <idno type="ID" subtype="transkribus">183227</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000027">Karl Kraus ca. Die Stunde</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000027-005-001-wit01" facs="D_000027-005-001-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation> <date type="sortDate" when-iso="1927-04-07" subtype="produced">7. April 1927</date> </creation>
-            <langUsage> <language ident="de">Deutsch</language> </langUsage>
-            <textClass/>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change type="intertexts" when-iso="2021-10-13" who="#JK"/>
-            <change type="typography" when-iso="2021-10-13" who="#JK"/>
-            <change type="references" when-iso="2021-10-13" who="#JK"/>
-            <change type="structure" when-iso="2021-10-13" who="#JK"/>
-            <change when-iso="2020-02-06T08:51:08.04Z" who="#IB">created by API</change>
-            <change when-iso="2020-02-06T09:10:35.716Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-06T09:10:37.075Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-06T09:10:38.418Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-06T09:10:40.075Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-06T09:10:41.907Z" who="#JM">Checked Images Wienbibliothek</change>
-            <change when-iso="2020-02-06T09:10:43.731Z" who="#JM">Checked Images Wienbibliothek</change>
-        <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of Transkribus Document 183227.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surfaceGrp><surface type="recto">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000030_7.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2547873/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-2/027_032/00000030.jpg" source="scans"/>
-        </surface>
-            <surface type="verso">
-            <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000031_8.jpg" source="krausonline"/>
-            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2547874/full/full/0/default.jpg" source="wienbibliothek" ana="status:checked"/>
-            <graphic url="ZPH_1545-2/027_032/00000031.jpg" source="scans"/>
-        </surface></surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="" n="1"/>
-            <lb xml:id="uuid_e3536753-097f-48b3-9367-53097f58b3b4"/>U XII 1761/26
-<lb xml:id="uuid_907eeb20-8723-4028-beeb-208723802861"/>[Stempel] 7. APR. 1927
-<lb xml:id="uuid_e7758f14-1192-4146-b58f-1411928146a0"/>An das
-<lb xml:id="uuid_c193b0de-3e59-47a8-93b0-de3e59d7a880"/>Strafbezirksgericht I,
-<lb xml:id="uuid_00c796b7-61c4-468a-8796-b761c4b68aac"/>Wien.
-<lb xml:id="uuid_11eba325-ff53-461e-aba3-25ff53f61e16"/>Privatankläger: <rs type="person" ref="#pmb11988">Karl Kraus</rs>, Schriftsteller in
-<lb xml:id="uuid_abc89ab6-cc71-4988-889a-b6cc71b9883d"/>Wien, III. Hintere Zollamtsstrasse 3
-<lb xml:id="uuid_cf720fcd-70af-4469-b20f-cd70afa46917"/>durch:
-<lb xml:id="uuid_8bdc21a9-a54c-402e-9c21-a9a54c902ea5"/>Beschuldigter: <rs type="person" ref="#pmb38106">Ernst Ely</rs>, Redakteur der „Stunde“,
-<lb xml:id="uuid_196d5c9e-0737-4b15-ad5c-9e07373b1557"/>Wien, IV. Kühnplatz 4
-<lb xml:id="uuid_aad2e8ff-a6dd-4750-92e8-ffa6dd07500f"/>wegen § 45 Abs. 4 U.G. 1 fach
-<lb xml:id="uuid_ef191f71-60df-4c79-991f-7160dfec7983"/>Antrag auf Anberaumung einer Hauptverhandlung,
-<lb xml:id="uuid_55489f1f-f9d6-4371-889f-1ff9d6f37150"/>eventuell neuerliche Einvernahme des Zeugen
-<lb xml:id="uuid_6b0072a8-c244-415e-8072-a8c244915e74"/>Tschuppik im Erhebungswege, und Antrag auf
-<lb xml:id="uuid_27453509-3e78-4b06-8535-093e787b0650"/>Ladung weiterer Zeugen zur Hauptverhandlung.
-<pb facs="" n="2"/>
-            <lb xml:id="uuid_0eaf7ae0-33e6-48e2-af7a-e033e608e25d"/>Ich habe in Erfahrung gebracht, dass der
-<lb xml:id="uuid_411a920a-115b-48fe-9a92-0a115b38fea8"/>Zeuge <rs type="person" ref="#pmb38292">Karl Tschuppik</rs> sich derzeit für einige Tage in Wien
-<lb xml:id="uuid_d98562e8-4a96-462c-8562-e84a96462ce9"/>aufhält und im Hotel Bristol, Neues Haus, Wien, I. Kärnt-
-<lb xml:id="uuid_9569ab2d-c270-48c8-a9ab-2dc27078c8e8"/>nerring 1/7 wohnt. Es wäre daher die Möglichkeit gegeben,
-<lb xml:id="uuid_632802ec-a79f-4a96-a802-eca79f3a96c2"/>diesen Zeugen dem Gerichte unmittelbar vorzuführen, wenn
-<lb xml:id="uuid_0dc756f1-425c-4170-8756-f1425c117017"/>die Hauptverhandlung für einen der nächsten Tage anbe-
-<lb xml:id="uuid_d9ff761a-23ff-494d-bf76-1a23ffa94dcf"/>raumt würde.
-<lb xml:id="uuid_b9fe5403-482f-4601-be54-03482f460101"/>Ich beantrage daher die Anberaumung einer
-<lb xml:id="uuid_8300cefe-9738-4b52-80ce-fe97387b5215"/>solchen Hauptverhandlung.
-<lb xml:id="uuid_42394ba3-e182-4623-b94b-a3e18266231c"/>Für den Fall, als es die Geschäftseintei-
-<lb xml:id="uuid_8ba19def-b8e6-4706-a19d-efb8e6c7062e"/>lung des Gerichtes nicht zulässt, eine Hauptverhandlung
-<lb xml:id="uuid_d4d1f7ba-7a5e-4091-91f7-ba7a5e70913b"/>anzuberaumen, beantrage ich den Zeugen Tschuppik wenig-
-<lb xml:id="uuid_c67d0a68-e62c-465f-bd0a-68e62c865fd6"/>stens im Erhebungswege vor dem Wiener Gerichte zu ver-
-<lb xml:id="uuid_b05fea4f-1ed1-4a82-9fea-4f1ed1da8204"/>nehmen. Hiebei bitte ich, den Zeugen über Folgendes zu
-<lb xml:id="uuid_111b7c38-851e-4aeb-9b7c-38851e9aeb10"/>befragen:
-<lb xml:id="uuid_44df048c-5af6-4a27-9f04-8c5af69a27c2"/>1.) ob er mit anderen Redaktionsmitgliedern über den
-<lb xml:id="uuid_6fb9c427-4977-45c4-b9c4-27497715c4a3"/>inkriminierten Artikel gesprochen hat und wer ihm
-<lb xml:id="uuid_0b47560d-68ee-4919-8756-0d68ee991985"/>als Verfasser genannt wurde.
-<lb xml:id="uuid_4cf9f829-a097-44d8-b9f8-29a097c4d8a9"/>2.) Wer nach seiner Ansicht ausser dem Beschuldigten Ely
-<lb xml:id="uuid_9a58810a-55e1-4e4a-9881-0a55e16e4ab3"/>als Verfasser in Betracht käme.
-<lb xml:id="uuid_578120ad-d978-4768-8120-add978776865"/>3.) Wem der Verfasser das Manuskript zur Drucklegung
-<lb xml:id="uuid_fc81b0b0-8107-4073-81b0-b0810750731c"/>übergeben musste.
-<lb xml:id="uuid_07b2e02a-8732-4f84-b2e0-2a8732ef843a"/>4.) Wenn es selbst möglich wäre, dass das Manuskript ein
-<lb xml:id="uuid_05a276db-5d36-41c1-a276-db5d3681c1ae"/>Kolaborat mehrerer Redakteure wäre, ob es nach seiner
-<lb xml:id="uuid_e49b005c-4bc7-4a32-9b00-5c4bc7da32b1"/>Ansicht nicht ausgeschlossen sei, dass der Beschuldig-
-<lb xml:id="uuid_54381cec-f45d-4017-b81c-ecf45d801760"/>te Ely daran nicht teil hatte.
-<lb xml:id="uuid_693738f2-9711-4d7e-b738-f29711cd7efd"/>5.) Ob vorher oder nachher von dem Brief Liebknechts in
-<lb xml:id="uuid_4244e0fc-6b1f-467a-84e0-fc6b1fa67abc"/>einer Redaktionskonferenz oder im Verkehr mit den
-<lb xml:id="uuid_0d6fcb55-1121-491a-afcb-551121691a58"/>Redakteuren die Rede war.
-<pb facs="" n="3"/>
-            <lb xml:id="uuid_26f942f7-0436-4ef2-b942-f704368ef201"/>6.) Da Zeuge Tschuppik sich zu erinnern geglaubt hatte, dass
-<lb xml:id="uuid_7c4ca057-b85a-433e-8ca0-57b85a433e6b"/>der abgedruckte Brief in der Zeitschrift des Herrn Karl
-<lb xml:id="uuid_2d465b84-1e03-4d83-865b-841e038d8323"/>Adler erschienen war, dies aber nicht richtig ist und
-<lb xml:id="uuid_11ee8e69-b6d8-49a8-ae8e-69b6d8d9a898"/>die Erinnerungstäuschung, die hier vorliegt, nur die
-<lb xml:id="uuid_bc13a04f-ef8e-4823-93a0-4fef8e982313"/>Annahme zulässt, dass in seiner Gegenwart von einem
-<lb xml:id="uuid_66326e02-e53f-4f10-b26e-02e53faf10c0"/>Zusammenhang dieses Briefes mit Herrn <rs type="person" ref="#pmb36740">Karl Adler</rs> ge-
-<lb xml:id="uuid_c202ded3-0c42-4b46-82de-d30c423b4687"/>sprochen wurde: ob dem Zeugen Tschuppik bekannt ist,
-<lb xml:id="uuid_5c800ad1-9cae-46eb-800a-d19caee6ebbe"/>auf welchem Wege der Brief zur „Stunde“ gelangt ist.
-<lb xml:id="uuid_b27270ad-b063-476c-b270-adb063876c9d"/>7.) Welche Redakteure der „Stunde“ mit der Polemik gegen
-<lb xml:id="uuid_f4a3b33b-ce1e-4e54-a3b3-3bce1ebe5485"/>Kraus betraut waren.
-<lb xml:id="uuid_8f9c02f5-a701-4d5b-9c02-f5a7013d5b81"/>8.) Wie sich der Zeuge zu der Erklärung des Angeklagten
-<lb xml:id="uuid_8931ed17-ac2c-4440-b1ed-17ac2cc440fd"/>Ely äussert, niemals etwas mit einer Polemik mit
-<lb xml:id="uuid_9c7f20ba-0686-4384-bf20-ba06867384cd"/>Material und mit Briefen des Herrn <rs type="person" ref="#pmb11988">Karl Kraus</rs> zu tun
-<lb xml:id="uuid_41064b1d-d3e6-4c9a-864b-1dd3e69c9a5f"/>gehabt zu haben, ja sich gegen eine solchgeartete Ak-
-<lb xml:id="uuid_cabc4df4-cba7-4389-bc4d-f4cba7e38960"/>tion entschieden ausgesprochen zu haben. Ob dem Zeugen
-<lb xml:id="uuid_08665ddf-1dd9-4ecb-a65d-df1dd92ecbb8"/>bekannt ist, dass der Beschuldigte Ely die Bearbeitung
-<lb xml:id="uuid_c00bbf5d-4d72-497a-8bbf-5d4d72e97ae1"/>von Material bekam.
-<lb xml:id="uuid_013b060e-bbf9-4baa-bb06-0ebbf95baa20"/>9.) Wem der Zeuge Tschuppik, wenn auch in einem viel spä-
-<lb xml:id="uuid_0ecab3b0-bb59-4050-8ab3-b0bb595050c1"/>teren Zeitpunkte, die Täterschaft Ely’s bezw. seinen
-<lb xml:id="uuid_67b6bfd8-0adf-4488-b6bf-d80adf348809"/>Anteil an der Angriffsaktion zur Entkräftung der Vor-
-<lb xml:id="uuid_6aab84cf-fc6c-42a1-ab84-cffc6cd2a114"/>gaben Ely’s, dass er nichts mit den Sachen zu tun hatte,
-<lb xml:id="uuid_4711ef4a-bf19-4cf0-91ef-4abf199cf051"/>mitgeteilt hat. Insbesondere ob der Zeuge nicht anderen
-<lb xml:id="uuid_be0069c6-76d2-483c-8069-c676d2183c0d"/>Leuten, etwa Herrn <rs type="person" ref="#pmb7399">Siegfried Geyer</rs>, Bela Reinitz eine
-<lb xml:id="uuid_fdb41def-baa8-4f57-b41d-efbaa8cf57c9"/>Mitteilung in der Richtung gemacht hat, wonach Herr
-<lb xml:id="uuid_816e4314-838b-4cf0-ae43-14838b6cf0fa"/>Ely, der nach dem Besitzwechsel der „Stunde“ sich als
-<lb xml:id="uuid_851fa24f-b9a5-449f-9fa2-4fb9a5949f9c"/>deren unbeschriebenes Blatt präsentieren wollte, der
-<lb xml:id="uuid_d111f1dc-9106-4636-91f1-dc9106c636cb"/>eigentliche Rädelsführer, Arrangeur und aktive Mitwir-
-<lb xml:id="uuid_12d0aa97-d3de-48ef-90aa-97d3dee8ef10"/>kende der Kampagne gewesen sei.
-<lb xml:id="uuid_0c72e0db-127f-48b5-b2e0-db127fd8b5c9"/>Da es doch ganz unglaublich ist, dass sämt-
-<lb xml:id="uuid_15eafefb-618a-4612-aafe-fb618af6120a"/>liche Redakteure der „Stunde" an der Veröffentlichung
-<pb facs="" n="4"/>
-            <lb xml:id="uuid_947d8027-6c6c-47db-bd80-276c6c17db1a"/>weder mitgewirkt haben, noch über die Täterschaft auszu-
-<lb xml:id="uuid_78b345b5-da1b-479f-b345-b5da1b079f62"/>sagen wissen, bitte ich zu der nächsten Hauptverhandlung
-<lb xml:id="uuid_c9239bae-53b4-4273-a39b-ae53b4527347"/>die gesamte Redaktion der „Stunde“ bis auf die wenigen,
-<lb xml:id="uuid_45edac0e-5640-44e9-adac-0e564034e944"/>welche vermöge ihrer Tätigkeit in einem bestimmten Res-
-<lb xml:id="uuid_2f3bcb51-bb07-4919-bbcb-51bb07c91972"/>sort kaum als Zeugen in Betracht kommen und auch andere
-<lb xml:id="uuid_9368b7b1-159a-4823-a8b7-b1159a0823aa"/>Aussenstehende, die mit der Sache zu tun gehabt haben,
-<lb xml:id="uuid_cc83fee7-ab14-444f-83fe-e7ab14244f17"/>als Zeugen zu laden und zu vernehmen und zwar.
-<lb xml:id="uuid_d25d6bb1-4c80-46cf-9d6b-b14c80b6cfe6"/>1.) Dr. Marc Siegelberg, Wien, VII. Neustiftgasse 47
-<lb xml:id="uuid_1578c6ee-7684-48a0-b8c6-ee768488a012"/>2.) <rs type="person" ref="#pmb8363">Anton Kuh</rs>, Wien, III. Hotel Beatrix, Beatrixgasse 1
-<lb xml:id="uuid_a00fb09c-0cec-4724-8fb0-9c0cecf72419"/>3.) Dr. Eugen Lazar, Wien, IX. Peregringasse 3
-<lb xml:id="uuid_83bdfe55-c9c4-4ee9-bdfe-55c9c45ee96c"/>4.) Dr. Desider Szilaghi, Wien, III. Reisnerstrasse 5
-<lb xml:id="uuid_1f1143d6-a892-4c70-9143-d6a8925c70a3"/>5.) Ludwig Hoffenreich, Wien, XVIII. Sautergasse 56
-<lb xml:id="uuid_14dd649b-b22a-4a7d-9d64-9bb22aca7ddc"/>6.) Leopoldine Greis, Wien, IX. Dietrichsteingasse 56
-<lb xml:id="uuid_d74e2b87-e22c-499c-8e2b-87e22c099c6b"/>7.) Dr. <rs type="person" ref="#pmb50431">Fritz Kaufmann</rs>, Wien, VIII. Piaristengasse 56
-<lb xml:id="uuid_67219833-8b89-44e5-a198-338b8914e5d4"/>8.) Bela Köhalmy, Wien, XVIII. Währingerstrasse 121
-<lb xml:id="uuid_c3138979-5c5f-44eb-9389-795c5fc4ebd3"/>9.) Erich Krünes, Wien, XIII. Wickenburggasse 10
-<lb xml:id="uuid_b0f9b4eb-3e5f-4d2b-b9b4-eb3e5f9d2b78"/>10.) Dr. Ernst Brody, Wien, IX. Canisiusgasse 8 (Stunde)
-<lb xml:id="uuid_a706f603-51fb-4356-86f6-0351fb43568e"/>11.) Christine Kainz, " " " " "
-<lb xml:id="uuid_d69978d7-1d40-4e17-9978-d71d401e1757"/>12.) Frau N. Haas, Stenotypistin, " " "
-<lb xml:id="uuid_d6ad182f-87ae-4430-ad18-2f87ae94300e"/>13.) Frau N. Fischer, " " " " "
-<lb xml:id="uuid_71c12a67-e125-4f8a-812a-67e1255f8a74"/>14.) Dr. Leo Margitai, Wien, IX. Pramergasse 1
-<lb xml:id="uuid_6d12e36f-dc82-42ac-92e3-6fdc8202ac01"/>15.) Alfred Weiss, Wien, IX. Canisiusgasse 8 (Stunde)
-<lb xml:id="uuid_0844bdf7-cea1-4319-84bd-f7cea1131900"/>16.) Erich Walter Czech, " " " "
-<lb xml:id="uuid_9e005799-611c-413e-8057-99611c113e83"/>17.) Dr. Ladislaus Frank, " " " "
-<lb xml:id="uuid_9c064499-3ba0-4fbd-8644-993ba0bfbdc5"/>18.) Dr. Josef Szekely " " " "
-<lb xml:id="uuid_0cec1af8-f9ce-4daf-ac1a-f8f9ce0dafa1"/>19.) Billi Wilder (Samuel Wild) " " "
-<lb xml:id="uuid_36b9a12e-ef2a-4011-b9a1-2eef2a9011f7"/>20.) Maximilian Reich, " " "
-<lb xml:id="uuid_11d5df98-38a5-46c5-95df-9838a5e6c579"/>21.) <rs type="person" ref="#pmb7399">Siegfried Geyer</rs>, Wien, IV. Theresianumgasse 23
-<lb xml:id="uuid_cbaf8167-c04f-496c-af81-67c04fb96cea"/>22.) <rs type="person" ref="#pmb38716">Ernst Spitz</rs>, Wien, IX. Rossauergasse 5 Tür 9
-<lb xml:id="uuid_8071babc-c1fa-4018-b1ba-bcc1fa901839"/>23.) Dr. Friedrich Adler,
-<lb xml:id="uuid_81458e14-081a-4477-858e-14081a7477b0"/>24.) <rs type="person" ref="#pmb36740">Karl Adler</rs>, Wien, VII. Zollergasse 14, I. Stiege I/11
-<lb xml:id="uuid_5440e3e1-030e-4aa1-80e3-e1030ecaa198"/>
-            <rs type="person" ref="#pmb11988">Karl Kraus</rs>.
-</body>
-    <back><listPerson><person xml:id="pmb11988">
-  <persName>
-      <forename>Karl</forename>
-      <surname>Kraus</surname>
-  </persName>
-
-  <persName type="pseudonym">Berdach J.</persName>
-
-
-  <birth>
-    <date when-iso="1874-04-28">28.04.1874</date>
-  
-  
-      <settlement key="pmb41660">
-        <placeName type="pref">Jičín</placeName>
-      
-        <location><geo>50,43723 15,35162</geo></location>
-      
-      </settlement>
-      
-       
-  </birth>  
-
-
-  <death>
-    <date when-iso="1936-06-12">12.06.1936</date>
-      
-      
-      <settlement key="pmb50">
-        <placeName type="pref">Wien</placeName>
-        
-        <location><geo>48,2066 16,37341</geo></location>
-      
-      </settlement>
-      
-      
-  </death>
-
-
-  <sex value="male"/>
-
-
-  <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
-
-  <occupation key="237">Publizist/Publizistin</occupation>
-
-
-  <idno type="URL" subtype="astb">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17108</idno>
-
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118566288</idno>
-
-  <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11988</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/11988</idno>
-
-  <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11988</idno>
-
-
-<affiliation>
-    <term key="1182">arbeitet für</term>
-    <orgName key="pmb29308">Die Fackel</orgName>
-    
-    <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29308</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/29308</idno>
-    
-    <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29308</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1153">in Relation zu</term>
-    <orgName key="pmb50728">Buchhandlung Richard Lányi</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/50728/</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1409">ist Eigentümer*in von</term>
-    <orgName key="pmb43724">Verlag Die Fackel (Wien)</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43724/</idno>
-    
-    <idno type="URL">https://d-nb.info/gnd/16063972-4</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/43724</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1153">in Relation zu</term>
-    <orgName key="pmb36757">Amtsgericht Hamburg</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36757/</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36757</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1153">in Relation zu</term>
-    <orgName key="pmb36828">Landgericht Hamburg</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36828/</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36828</idno>
-    
-</affiliation>
-
-
-<listEvent>
-    
-    <event key="40436" when-iso="1893-01-14">
-        <desc n="1256">ist Arbeitskraft bei</desc>
-        <label>Aufführung von Die Räuber, 14.1.1893</label>
-        
-        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/40436/</idno>
-        
-        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/40436</idno>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-006-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-005-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000027-005-001.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>27.5 Anfrage beim Zentralmeldeamt über Karl Adler</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000027-005-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/</idno>
+            <idno subtype="transkribus" type="ID">183227</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000027" type="collection">Karl
+                    Kraus ca. Die Stunde</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000027-005-001-facs001" xml:id="D_000027-005-001-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000027-005-001-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.D">Druck</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-04-07">7. April 1927</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000027-005-001-wit01">Anfrage</term>
+            </keywords>
+            <classCode source="D_000027-005-001-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.ANF">D.J.ANF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header-facsimile" when-iso="2022-01-13" who="#JK" status="draft"/>
+         <change when-iso="2020-02-06T08:51:08.04Z" who="#IB" status="draft">created by
+                API</change>
+         <change when-iso="2020-02-06T09:10:35.716Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+         <change when-iso="2020-02-06T09:10:37.075Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+         <change when-iso="2020-02-06T09:10:38.418Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+         <change when-iso="2020-02-06T09:10:40.075Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+         <change when-iso="2020-02-06T09:10:41.907Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+         <change when-iso="2020-02-06T09:10:43.731Z" who="#JM" status="draft">Checked Images
+                Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB" status="draft">Replaced Text with
+                Transcription of Transkribus Document 183227. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000027-005-001-facs001">
+      <surfaceGrp xml:id="D_000027-005-001-facs001-l001">
+         <surface type="recto" xml:id="D_000027-005-001-facs001-l001-p001">
             
-    </event>
-    
-    <event key="42714" when-iso="1905-05-29">
-        <desc n="1256">ist Arbeitskraft bei</desc>
-        <label>Geschlossene Aufführung Die Büchse der Pandora, 29.5.1905</label>
-        
-        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/42714/</idno>
-        
-        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/42714</idno>
+            <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2547873/full/full/0/default.jpg"/>
             
-    </event>
-    
-</listEvent>
-
-
-<listBibl>
-    
-    <bibl type="collections" n="3">Manuell angelegt</bibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-</person><person xml:id="pmb50431">
-  <persName>
-      <forename>Fritz</forename>
-      <surname>Kaufmann</surname>
-  </persName>
-
-
-  <birth>
-    <date when-iso="1896-08-16">1896-08-16</date>
-   
-  </birth>  
-
-
-
-  <sex value="male"/>
-
-
-  <occupation key="99">Journalist/Journalistin</occupation>
-
-  <occupation key="117">Redakteur/Redakteurin &gt;&gt; Chefredakteur/Chefredakteurin</occupation>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/50431/</idno>
-
-
-<affiliation>
-    <term key="1182">arbeitet für</term>
-    <orgName key="pmb29470">Die Stunde</orgName>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/29470</idno>
-    
-</affiliation>
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G.
-                    Z. UI 109/25, Richter: Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000012-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Anmeldung der Berufung des Privatanklägers</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000012-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G.
-                    Z. UI 110/25, Richter: Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000014-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag von Karl Kraus und Richard Lányi auf Einleitung von Voruntersuchungen
-                    gegen unbekannte Täter wegen Vergehens gegen § 44 und 45 des
-                    Urheberrechtsgesetzes (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokolle der Vernehmung von Fritz Kaufmann und Anton Sztranyak</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der Vernehmung von Ferdinand Hofbauer (Klischeefirma)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Ergänzung der Voruntersuchung (Landesgericht für Strafsachen I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Konvolut von Protokollen der Zeugenaussagen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Ergänzung der Voruntersuchung (Landesgericht für Strafsachen I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der Zeugenvernehmung von Wilhelm Willinger(Fotograf)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. Vr XXVI/4093/25, Franz Wetz)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Konzept eines Anklageplädoyers]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vorlage der Anklageschrift gegen Fritz Kaufmann</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. Vr XXVI/4093/25,
-                    Franz Wetz)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde gegen den Beschluss vom 25.06.1926</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Oberlandesgerichts Wien (G. Z. Bs. 911/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vorlage der Anklageschrift nach ordnungsgemässer Stempelung derselben</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-026-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Landesgerichtgs für Strafsachen I Wien (G. Z. Vr VI/4093/25 als
-                    Schöffengericht; Vorsitz: […] Czerny)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Die Stunde (verantw. Red. Fritz Kaufmann)
-                    wegen § 24 Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000016-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ausdehnung der Privatanklage und Antrag auf Anberaumung einer
-                    Hauptverhandlung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000016-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ausdehnung der Privatanklage wegen § 24 Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000016-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ausdehnung der Privatanklage von Karl Kraus gegen Fritz Kaufmann wegen § 24
-                    Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000016-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Die Stunde (verantw. Red. Ernst Ely) wegen
-                    § 24 Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000017-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung(Strafbezirksgericht I Wien, G. Z.
-                    UI 223/25, Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000017-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien (G. Z. UI 223/25, Christoph
-                    Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000017-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Die Stunde (verantw. Red. Robert
-                    Klebinder) wegen § 24 Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000018-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zurücknahme der Privatanklage</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000018-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien (G. Z. UI 286/25, Richter: Christoph
-                    Höflmayr, Verteidiger: Friedrich Schnepp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag des Privatanklägers [auf Anberaumung der Hauptverhandlung vom
-                    27.03.1926] (Strafbezirksgerichts I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Anberaumung einer Hauptverhandlung (Strafbezirksgerichts I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-027-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag gemäß § 57 St. P.O. (Strafbezirksgerichts I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Strafbezirksgerichts I Wien (G. Z. UI 286/25/10, Karl Adam
-                    Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-038-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. Bl. XV 580/26,
-                    Robert Schneeweiß)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Die Stunde (verantw. Red. Fritz Kaufmann)
-                    wegen §§ 24, 43 Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000020-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bitte um Vertagung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000020-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Beschluss] des Strafbezirksgerichts I Wien (G. Z. UI 237/26, Karl Adam
-                    Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000020-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ausdehnung der Privatanklage</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000020-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien (Karl Adam Fryda, Rat des
-                    Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000020-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Anmeldung der Berufung des Privatanklägers</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000020-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Landesgerichts für Strafsachen I Wien (G. Z. Bl. XV 905/26,
-                    Vorsitz: Franz Gottfried)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000020-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Bitte] um Einleitung einer Nichtigkeitsbeschwerde zur Wahrung des Gesetzes
-                    gemäß § 292 St. P. O. (Brief Samek an Generalprokuratur)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000020-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag von Karl Kraus auf Einleitung der Voruntersuchung gegen Emmerich
-                    Békessy, Fritz Kaufmann und weitere unbekannte Täter wegen Ehrenbeleidigung
-                    [sowie] Antrag auf Vornahme einer Hausdurchsuchung (Landesgericht für
-                    Strafsachen I Wien, G. Z. XXVI 7288/25)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. Vr. XXVI 7288/25,
-                    Alois Moyzisch)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll [der Einvernahme Békessys und Kaufmanns]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vernehmung des Beschuldigten [Protokoll der Einvernahme Békessys]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vernehmung des Beschuldigten [Protokoll der neuerlichen Einvernahme
-                    Kaufmanns]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Abtretung des Aktes an das Strafbezirksgericht I Wien und
-                    Antragstellung auf Bestrafung des Beschuldigten gemäß § 30 Pr. G. ferner Vorlage
-                    des Aktes an die Staatsanwaltschaft Wien wegen eventuellen Einschreitens nach
-                    demselben § (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G.
-                    Z. UI 14/26, Richter: Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Ansuchen] des Strafbezirksgerichts I Wien an das Kgl. Strafbezirksgericht
-                    Budapest</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll [der Zeugenaussage Max Rosenbergs]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Strafbezirksgerichts I Wien (G. Z. UI 14/26, Christoph
-                    Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-027-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll [der Zeugenaussage Geza Békefis (Korrespondent für Die Stunde in
-                    Budapest)]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-029-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zeugenvernehmungsprotokoll [von Imre Falus beim Strafbezirksgericht
-                    Budapest]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-034-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf abgesonderte Führung eines Strafverfahrens (Landesgerichts für
-                    Strafsachen Wien I)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Ablehnung des verhandelnden Richters (Strafbezirksgerichts I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Ablehnung des verhandelnden Richters (Strafbezirksgerichts I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-040-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss der Ratskammer des Landesgerichts für Strafsachen Wien I (Präs.
-                    6705)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-041-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-043-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. UI 224/26, Robert
-                    Schneeweiß)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-044-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bitte um Zustellung einer Ausfertigung des Urteils erster Instanz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-045-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Bitte um Kostenbestimmung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-046-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde gegen den Kostenbestimmungsbeschluss vom 31.01.1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-048-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Strafbezirksgerichts I Wien (G. Z. UI 224/26, Christoph
-                    Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-049-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde gegen den Beschluss vom 28.03.1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-050-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. UI 224/26, Ludwig
-                    Altmann, Präsident des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-051-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Bitte um] Einleitung einer Nichtigkeitsbeschwerde zur Wahrung des Gesetzes
-                    (Brief Samek an Generalprokuratur)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-052-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Bitte um] auf Einleitung einer Nichtigkeitsbeschwerde zur Wahrung des
-                    Gesetzes</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-053-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Strafbezirksgerichts I Wien (G. Z. UI 224/26, Christoph
-                    Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-055-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen „Die Stunde“ (verantw. Red. Fritz
-                    Kaufmann) wegen § 43 und § 24, Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000024-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ausdehnung der Privatanklage</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000024-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ausdehnung der Privatanklage</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000024-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ausdehnung der Privatanklage</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000024-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ausdehnung der Privatanklage</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000024-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ausdehnung der Privatanklage</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000024-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Strafbezirksgerichts I Wien (G. Z. UI 13/27, Christoph
-                    Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000024-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Originalmappe Oskar Samek - Akt 24</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000024-012-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung von Voruntersuchungen gegen Marc Siegelberg und weitere
-                    unbekannte Täter wegen Übertretung des § 45 Urheberrechtsgesetz
-                    (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokolle der Zeugenvernehmungen (Strafbezirksgericht I Wien, G. Z. U XII
-                    71/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung der Voruntersuchung gegen unbekannte Täter wegen
-                    Ehrenbeleidigung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000026-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, Karl
-                    Adam Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Anberaumung einer Hauptverhandlung, eventuell neuerliche
-                    Einvernahme des Zeugen Tschuppik im Erhebungswege und Antrag auf Ladung weiterer
-                    Zeugen zur Hauptverhandlung (Strafbezirksgericht I Wien, G. Z. U XII
-                    1761/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Anfrage beim Zentralmeldeamt über Karl Adler</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-005-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Kronos-Verlag an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000046-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zeitungsartikel aus: Arbeiter-Zeitung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000061-001-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Originalmappe Oskar Samek - Akt 61</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000061-001-002.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb38292">
-  <persName>
-      <forename>Karl</forename>
-      <surname>Tschuppik</surname>
-  </persName>
-
-  <persName type="uri_wikipedia">https://de.wikipedia.org/wiki/Karl_Tschuppik</persName>
-
-  <persName type="loschen">X</persName>
-
-
-  <birth>
-    <date when-iso="1876-07-26">26.07.1876</date>
-  
-  
-      <settlement key="pmb38295">
-        <placeName type="pref">Mělník</placeName>
-      
-        <location><geo>50,3505 14,47411</geo></location>
-      
-      </settlement>
-      
-       
-  </birth>  
-
-
-  <death>
-    <date when-iso="1937-07-22">22.07.1937</date>
-      
-      
-      <settlement key="pmb50">
-        <placeName type="pref">Wien</placeName>
-        
-        <location><geo>48,2066 16,37341</geo></location>
-      
-      </settlement>
-      
-      
-  </death>
-
-
-  <sex value="male"/>
-
-
-  <occupation key="99">Journalist/Journalistin</occupation>
-
-  <occupation key="119">Herausgeber/Herausgeberin</occupation>
-
-  <occupation key="237">Publizist/Publizistin</occupation>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/38292/</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/38292</idno>
-
-  <idno type="URL">http://d-nb.info/gnd/11928636X</idno>
-
-
-<affiliation>
-    <term key="1182">arbeitet für</term>
-    <orgName key="pmb29470">Die Stunde</orgName>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/29470</idno>
-    
-</affiliation>
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Antrag auf Einvernehmung [bestimmter Personen] als Beschuldigte und Zeugen
-                    (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokolle der Zeugeneinvernahmen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der Zeugeneinvernahme von Adalbert Sipos</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Ergänzung der Voruntersuchung (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf weitere Einvernahmen (Landesgericht für Strafsachen I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Konvolut von Protokollen der Zeugenaussagen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Konzept eines Anklageplädoyers]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung von Voruntersuchungen gegen Marc Siegelberg und weitere
-                    unbekannte Täter wegen Übertretung des § 45 Urheberrechtsgesetz
-                    (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung der Voruntersuchung gegen unbekannte Täter wegen
-                    Ehrenbeleidigung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000026-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Die Stunde (Redakteur Ernst Ely) wegen §
-                    48 Urh. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der Zeugenvernehmung von Eugen Lazar, Marc Siegelberg, Ernst Ely
-                    und Karl Tschuppik (G. Z. U XII 71/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, Karl
-                    Adam Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>B. [Beschluss] an das Amtsgericht Berlin-Mitte</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Anberaumung einer Hauptverhandlung, eventuell neuerliche
-                    Einvernahme des Zeugen Tschuppik im Erhebungswege und Antrag auf Ladung weiterer
-                    Zeugen zur Hauptverhandlung (Strafbezirksgericht I Wien, G. Z. U XII
-                    1761/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Anfrage beim Zentralmeldeamt über Karl Adler</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-005-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zeugenprotokoll Karl Tschuppik</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Strafanzeige gegen Karl Tschuppik wegen des Verdachtes des Verbrechens der
-                    falschen Zeugenaussage nach § 199 a St. G. (eingebracht von Karl Kraus bei der
-                    Staatsanwaltschaft beim Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G.
-                    Z. U IV 570/26, Julius Benesch)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Übersetzung der Beweisanträge des Privatanklägers Anton Kuh in der Sache
-                    gegen Dr. Emil Strauss</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-004-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb36740">
-  <persName>
-      <forename>Karl</forename>
-      <surname>Adler</surname>
-  </persName>
-
-  <persName type="uri_wien-geschichte-wiki">https://www.geschichtewiki.wien.gv.at/Karl_Adler</persName>
-
-
-  <birth>
-    <date when-iso="1885-06-08">08.06.1885</date>
-  
-  
-      <settlement key="pmb50">
-        <placeName type="pref">Wien</placeName>
-      
-        <location><geo>48,2066 16,37341</geo></location>
-      
-      </settlement>
-      
-       
-  </birth>  
-
-
-  <death>
-    <date when-iso="1942-12-07">07.12.1942</date>
-      
-      
-      <settlement key="pmb36744">
-        <placeName type="pref">Neuilly-sur-Marne</placeName>
-        
-        <location><geo>48,85373 2,54903</geo></location>
-      
-      </settlement>
-      
-      
-  </death>
-
-
-  <sex value="male"/>
-
-
-  <occupation key="99">Journalist/Journalistin</occupation>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36740/</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36740</idno>
-
-
-<affiliation>
-    <term key="1182">arbeitet für</term>
-    <orgName key="pmb37521">Der Querulant</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37521/</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37521</idno>
-    
-</affiliation>
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="3">Manuell angelegt</bibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung von Voruntersuchungen gegen Marc Siegelberg und weitere
-                    unbekannte Täter wegen Übertretung des § 45 Urheberrechtsgesetz
-                    (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der Zeugenvernehmung von Eugen Lazar, Marc Siegelberg, Ernst Ely
-                    und Karl Tschuppik (G. Z. U XII 71/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, Karl
-                    Adam Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Anberaumung einer Hauptverhandlung, eventuell neuerliche
-                    Einvernahme des Zeugen Tschuppik im Erhebungswege und Antrag auf Ladung weiterer
-                    Zeugen zur Hauptverhandlung (Strafbezirksgericht I Wien, G. Z. U XII
-                    1761/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Anfrage beim Zentralmeldeamt über Karl Adler</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-005-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zeugenprotokoll Karl Tschuppik</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Strafanzeige gegen Karl Tschuppik wegen des Verdachtes des Verbrechens der
-                    falschen Zeugenaussage nach § 199 a St. G. (eingebracht von Karl Kraus bei der
-                    Staatsanwaltschaft beim Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-007-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb38106">
-  <persName>
-      <forename>Ernst</forename>
-      <surname>Ely</surname>
-  </persName>
-
-
-  <birth>
-    <date when-iso="1877-01-01">1877</date>
-   
-  </birth>  
-
-
-  <death>
-    <date when-iso="1944-01-24">9.1947</date>
-      
-      
-      <settlement key="pmb484">
-        <placeName type="pref">Zürich</placeName>
-        
-        <location><geo>47,37174 8,54226</geo></location>
-      
-      </settlement>
-      
-      
-  </death>
-
-
-  <sex value="male"/>
-
-
-  <occupation key="173">Redakteur/Redakteurin</occupation>
-
-  <occupation key="1283">Anzeigenakquireur/Anzeigenakquireuse</occupation>
-
-
-  <idno type="URL">https://d-nb.info/gnd/12608646X</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/38106</idno>
-
-
-<affiliation>
-    <term key="1182">arbeitet für</term>
-    <orgName key="pmb29470">Die Stunde</orgName>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/29470</idno>
-    
-</affiliation>
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="2">Erster Import</bibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Antrag auf Einvernehmung [bestimmter Personen] als Beschuldigte und Zeugen
-                    (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokolle der Zeugeneinvernahmen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beweisantrag der Privatankläger (Landesgericht für Strafsachen I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Konvolut von Protokollen der Zeugenaussagen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Die Stunde (verantw. Red. Ernst Ely) wegen
-                    § 24 Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000017-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung(Strafbezirksgericht I Wien, G. Z.
-                    UI 223/25, Christoph Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000017-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien (G. Z. UI 223/25, Christoph
-                    Höflmayr)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000017-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufung [des Privatanklägers gegen das Urteil vom 07.10.1925 wegen des
-                    Ausspruches über die Strafe]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000017-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zurücknahme der Berufung gegen die Strafe und Vorlage des
-                    Kostenverzeichnisses</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000017-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Die Stunde (verantw. Red. Robert
-                    Klebinder) wegen § 24 Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000018-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Ablehnung des verhandelnden Richters (Strafbezirksgerichts I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss der Ratskammer des Landesgerichts für Strafsachen Wien I (Präs.
-                    6705)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-041-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung von Voruntersuchungen gegen Marc Siegelberg und weitere
-                    unbekannte Täter wegen Übertretung des § 45 Urheberrechtsgesetz
-                    (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokolle der Zeugenvernehmungen (Strafbezirksgericht I Wien, G. Z. U XII
-                    71/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung der Voruntersuchung gegen unbekannte Täter wegen
-                    Ehrenbeleidigung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000026-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Die Stunde (Redakteur Ernst Ely) wegen §
-                    48 Urh. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der Zeugenvernehmung von Eugen Lazar, Marc Siegelberg, Ernst Ely
-                    und Karl Tschuppik (G. Z. U XII 71/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, Karl
-                    Adam Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>B. [Beschluss] an das Amtsgericht Berlin-Mitte</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Anberaumung einer Hauptverhandlung, eventuell neuerliche
-                    Einvernahme des Zeugen Tschuppik im Erhebungswege und Antrag auf Ladung weiterer
-                    Zeugen zur Hauptverhandlung (Strafbezirksgericht I Wien, G. Z. U XII
-                    1761/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Anfrage beim Zentralmeldeamt über Karl Adler</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-005-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zeugenprotokoll Karl Tschuppik</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Strafanzeige gegen Karl Tschuppik wegen des Verdachtes des Verbrechens der
-                    falschen Zeugenaussage nach § 199 a St. G. (eingebracht von Karl Kraus bei der
-                    Staatsanwaltschaft beim Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Strafbezirksgerichts I Wien (G. Z. U XII 1761/26, Karl Adam
-                    Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde gegen den Beschluss vom 1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. U XII
-                    1761/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Strafbezirksgerichts I Wien (G. Z. U XII 1761/26, Karl
-                    Korst)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde gegen den Beschluss vom 27. Oktober 1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. U XII 1761/26,
-                    Robert Schneeweiß)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Bitte] um Einleitung einer Nichtigkeitsbeschwerde zur Wahrung des Gesetzes
-                    (an die Generalprokuratur Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Erklärung über Die Stunde</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Originalmappe Oskar Samek - Akt 27</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-022-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Aktenvermerk Oskar Samek - Akt 27</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-022-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Kronos-Verlag an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G.
-                    Z. U IV 570/26, Julius Benesch)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-011-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb7399">
-  <persName>
-      <forename>Siegfried</forename>
-      <surname>Geyer</surname>
-  </persName>
-
-  <persName type="namensvariante">Florian</persName>
-
-  <persName type="geburtsname_nachname">Geyerhahn</persName>
-
-  <persName type="uri_gnd">http://d-nb.info/gnd/1032807512</persName>
-
-  <persName type="uri_wikipedia">https://de.wikipedia.org/wiki/Siegfried_Geyer</persName>
-
-
-  <birth>
-    <date when-iso="1883-01-23">23.01.1883</date>
-  
-  
-      <settlement key="pmb50037">
-        <placeName type="pref">Marchegg</placeName>
-      
-        <location><geo>48,26217 16,91045</geo></location>
-      
-      </settlement>
-      
-       
-  </birth>  
-
-
-  <death>
-    <date>Anfang 1945</date>
-      
-      
-      <settlement key="pmb35512">
-        <placeName type="pref">Ungarn</placeName>
-        
-        <location><geo>47,0 20,0</geo></location>
-      
-      </settlement>
-      
-      
-  </death>
-
-
-  <sex value="male"/>
-
-
-  <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
-
-  <occupation key="99">Journalist/Journalistin</occupation>
-
-  <occupation key="103">Theaterleiter/Theaterleiterin</occupation>
-
-  <occupation key="115">Dramaturg/Dramaturgin</occupation>
-
-
-  <idno type="URL" subtype="astb">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15415</idno>
-
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1032807512</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/7399</idno>
-
-
-<affiliation>
-    <term key="1182">arbeitet für</term>
-    <orgName key="pmb37214">Neue Wiener Bühne</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37214/</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37214</idno>
-    
-    <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb37214</idno>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/60476/</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1182">arbeitet für</term>
-    <orgName key="pmb37179">Kammerspiele Wien</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37179/</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37179</idno>
-    
-</affiliation>
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Versäumungsurteil des Bezirkgerichts Josefstadt (G. Z. C X 891/24,
-                    Landesgerichtsrat Daniel Schwarzwald)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000010-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung von Voruntersuchungen gegen Marc Siegelberg und weitere
-                    unbekannte Täter wegen Übertretung des § 45 Urheberrechtsgesetz
-                    (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Anberaumung einer Hauptverhandlung, eventuell neuerliche
-                    Einvernahme des Zeugen Tschuppik im Erhebungswege und Antrag auf Ladung weiterer
-                    Zeugen zur Hauptverhandlung (Strafbezirksgericht I Wien, G. Z. U XII
-                    1761/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Anfrage beim Zentralmeldeamt über Karl Adler</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-005-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zeugenprotokoll Karl Tschuppik</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Originalmappe Oskar Samek - Akt 115</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000115-007-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Aktenvermerk Oskar Samek - Akt 115</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000115-007-002.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb8363">
-  <persName>
-      <forename>Anton</forename>
-      <surname>Kuh</surname>
-  </persName>
-
-
-  <birth>
-    <date when-iso="1890-07-12">12.07.1890</date>
-  
-  
-      <settlement key="pmb50">
-        <placeName type="pref">Wien</placeName>
-      
-        <location><geo>48,2066 16,37341</geo></location>
-      
-      </settlement>
-      
-       
-  </birth>  
-
-
-  <death>
-    <date when-iso="1941-01-18">18.01.1941</date>
-      
-      
-      <settlement key="pmb44053">
-        <placeName type="pref">New York City</placeName>
-        
-        <location><geo>40,71427 -74,00597</geo></location>
-      
-      </settlement>
-      
-      
-  </death>
-
-
-  <sex value="male"/>
-
-
-  <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
-
-
-  <idno type="URL" subtype="astb">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17179</idno>
-
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/119302616</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/8363</idno>
-
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Antrag auf Einvernehmung [bestimmter Personen] als Beschuldigte und Zeugen
-                    (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokolle der Zeugeneinvernahmen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Beschluss] des Strafbezirksgericht I Wien (G. Z. U IV 3305/25, Karl Adam
-                    Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>B. [Beschluss] des Strafbezirksgericht I Wien (G. Z. U IV 3305/25, Karl Adam
-                    Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000013-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf weitere Einvernahmen (Landesgericht für Strafsachen I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Konvolut von Protokollen der Zeugenaussagen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Ergänzung der Voruntersuchung (Landesgericht für Strafsachen I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Vorlage der Anklageschrift gegen Fritz Kaufmann</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. Vr XXVI/4093/25,
-                    Franz Wetz)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde gegen den Beschluss vom 25.06.1926</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Oberlandesgerichts Wien (G. Z. Bs. 911/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000015-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien (G. Z. UI 286/25, Richter: Christoph
-                    Höflmayr, Verteidiger: Friedrich Schnepp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag des Privatanklägers [auf Anberaumung der Hauptverhandlung vom
-                    27.03.1926] (Strafbezirksgerichts I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>B. [Beschluss] des Strafbezirksgerichts I Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Strafbezirksgerichts I Wien (G. Z. UI 286/25/10, Karl Adam
-                    Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-026-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Anberaumung einer Hauptverhandlung (Strafbezirksgerichts I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-027-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag gemäß § 57 St. P.O. (Strafbezirksgerichts I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Strafbezirksgerichts I Wien (G. Z. UI 286/25/10, Karl Adam
-                    Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-038-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landesgerichts für Strafsachen I Wien (G. Z. Bl. XV 580/26,
-                    Robert Schneeweiß)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Exekutionsgerichts Wien (G. Z. EXV 8659/26, Otto Hauke)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-042-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Privatanklage von Karl Kraus gegen Die Stunde (verantw. Red. Fritz Kaufmann)
-                    wegen §§ 24, 43 Pr. G.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000020-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ausdehnung der Privatanklage</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000020-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung von Voruntersuchungen gegen Marc Siegelberg und weitere
-                    unbekannte Täter wegen Übertretung des § 45 Urheberrechtsgesetz
-                    (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokolle der Zeugenvernehmungen (Strafbezirksgericht I Wien, G. Z. U XII
-                    71/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung der Voruntersuchung gegen unbekannte Täter wegen
-                    Ehrenbeleidigung (Landesgericht für Strafsachen I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000026-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, Karl
-                    Adam Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Anberaumung einer Hauptverhandlung, eventuell neuerliche
-                    Einvernahme des Zeugen Tschuppik im Erhebungswege und Antrag auf Ladung weiterer
-                    Zeugen zur Hauptverhandlung (Strafbezirksgericht I Wien, G. Z. U XII
-                    1761/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Anfrage beim Zentralmeldeamt über Karl Adler</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-005-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zeugenprotokoll Karl Tschuppik</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Klage von Karl Kraus gegen Anton Kuh wegen Ehrenbeleidigung
-                    (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an das Gemeinde-Vermittlungsamt Wien III (G. Z. I043/25)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf sofortige Anberaumung einer Hauptverhandlung, vorläufige Festnahme
-                    des Beschuldigten, und Verhängung der Verwahrungshaft über denselben bis zur
-                    Hauptverhandlung und Antrag auf Abgabe dieses Aktes an den
-                    staatsanwaltschaftlichen Funktionär zur Kenntnisnahme (Strafbezirksgericht I
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Verlag die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Strafbezirksgerichts I Wien (G. Z. U IV 570/26, Julius
-                    Benesch)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Ergänzende Anträge des Privatanklägers</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, G.
-                    Z. U IV 570/26, Julius Benesch)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Strafbezirksgerichts I Wien (G. Z. U IV 570/26, Richter: Julius
-                    Benesch, Verteidiger: Friedrich Schnepp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Anmeldung der Berufung [gegen das Urteil]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berufungsausführung [von Anton Kuh]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Landesgerichts für Strafsachen I Wien (G. Z. Bl XIV 903/26,
-                    Vorsitz: Franz Haller)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>B. [Beschluss] des Strafbezirksgericht I Wien (G. Z. U VI 570/26, Julius
-                    Benesch)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Adressenbekanntgabe an das Strafbezirksgericht I Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde gegen den Kostenbestimmungsbeschluss vom 1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschwerde gegen den Zahlungsauftrag vom 1927</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Gesuch um Forderungsexekution an das Exekutionsgericht Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Gesuch um Fahrnisexekution an das Exekutionsgericht in Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Exekutionsgerichts Wien I (G. Z. 15 E 811/28/2, [...]
-                    Hohenecker)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf neuerlichen Vollzug der Fahrnisexekution (Exekutionsgericht
-                    Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Mitteilung] des Zentral-Tax und Gebührenbemessungsamtes in Wien</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Gesuch um Forderungsexekution</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Gesuch um Forderungsexekution</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Überweisungsbeschluss des Exekutionsgerichts Wien und Auftrag an den
-                    Drittschuldner zur Äußerung (G. Z. 15 E 7378/28, Moritz Josef Czescher)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Abrechnung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-018-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Abrechnung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-024-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Klage wegen Forderung (Amtsgericht Berlin-Mitte, G. Z. C. 513/32)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in Sachen Kraus gegen Kuh (RA Kurt Berger an das Amtsgericht
-                    Berlin-Mitte, G. Z. C.513/32)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Der Tag (verantw. Red. Josef Koller)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000036-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Neues Wiener Tagblatt (verantw. Red. Oskar Hirt)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000036-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Tages-Post (verantw. Red. Franz Weichselbaumer)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000036-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Neues Wiener Tagblatt (verantw. Red. Oskar Hirt)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000036-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Protokoll] Lyonel Dunin</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000047-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Stunde – Békessy [von Anton Kuh?]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000048-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Liste der Zeitungen, Zeitungsausschnitte, Zeitschriften</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000048-009-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Die Karriere des aus einem Handelsreisenden Zeitungsredakteur gewordenen… [Dossier über Békessy]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000048-009-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Originalumschlag Oskar Samek - Akt 48</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000048-009-003.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Aktenvermerk Oskar Samek - Akt 48</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000048-009-004.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Zeitungsartikel aus: Arbeiter-Zeitung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000061-001-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Originalmappe Oskar Samek - Akt 61</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000061-001-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Umschläge des Fotoateliers Joël Heinzelmann (Berlin) an den Verlag Die Fackel
-                    bzw. an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000063-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Disziplinaranzeige gegen unbekannte Täter von Karl Kraus an die Post- und
-                    Telegraphen-Direktion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000063-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Postdirektion für Wien, Niederösterreich und Burgenland an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000063-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Originalmappe Oskar Samek - Akt 63</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000063-004-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Originalumschlag Oskar Samek - Akt 63</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000063-004-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Aktenvermerk Oskar Samek - Akt 63</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000063-004-003.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Egon Friedell</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000074-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Abschrift der Novellette aus Der Querschnitt [von Heinrich Fischer]</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000074-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Rolf Nürnberg</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Egon Schwelb (Prag) an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Egon Schwelb</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Übersetzung der Beweisanträge des Privatanklägers Anton Kuh in der Sache
-                    gegen Dr. Emil Strauss</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Egon Schwelb an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Egon Schwelb</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beweisanträge (Übersetzung) Marie Schnierer</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-089-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb38716">
-  <persName>
-      <forename>Ernst</forename>
-      <surname>Spitz</surname>
-  </persName>
-
-  <persName type="uri_wikipedia">https://de.wikipedia.org/wiki/Ernst_Spitz</persName>
-
-  <persName type="uri_gnd">http://d-nb.info/gnd/126968764</persName>
-
-
-  <birth>
-    <date when-iso="1902-06-27">27.06.1902</date>
-  
-  
-      <settlement key="pmb44632">
-        <placeName type="pref">Brasov</placeName>
-      
-        <location><geo>45,64861 25,60613</geo></location>
-      
-      </settlement>
-      
-       
-  </birth>  
-
-
-  <death>
-    <date when-iso="1940-06-22">22.06.1940</date>
-      
-      
-      <settlement key="pmb5117">
-        <placeName type="pref">Konzentrationslager Buchenwald</placeName>
-        
-        <location><geo>51,022143 11,249046</geo></location>
-      
-      </settlement>
-      
-      
-  </death>
-
-
-  <sex value="male"/>
-
-
-  <occupation key="99">Journalist/Journalistin</occupation>
-
-  <occupation key="727">Schriftsteller/Schriftstellerin &gt;&gt; Dramatiker/Dramatikerin</occupation>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/38716/</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/38716</idno>
-
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Beschluss der Ratskammer des Landesgerichts für Strafsachen Wien I (Präs.
-                    6705)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-041-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Einleitung von Voruntersuchungen gegen Marc Siegelberg und weitere
-                    unbekannte Täter wegen Übertretung des § 45 Urheberrechtsgesetz
-                    (Strafbezirksgericht I Wien)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000025-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der öffentlichen Hauptverhandlung (Strafbezirksgericht I Wien, Karl
-                    Adam Fryda, Rat des Landesgerichts für Strafsachen)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Anberaumung einer Hauptverhandlung, eventuell neuerliche
-                    Einvernahme des Zeugen Tschuppik im Erhebungswege und Antrag auf Ladung weiterer
-                    Zeugen zur Hauptverhandlung (Strafbezirksgericht I Wien, G. Z. U XII
-                    1761/26)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Anfrage beim Zentralmeldeamt über Karl Adler</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000027-005-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Albert Klein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Albert Klein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Egon Schwelb</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-002-000.xml"/></linkGrp></event></listEvent></person></listPerson></back></text>
+         </surface>
+         <surface type="verso" xml:id="D_000027-005-001-facs001-l001-p002">
+            
+            <graphic ana="status:checked" source="wienbibliothek" url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2547874/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

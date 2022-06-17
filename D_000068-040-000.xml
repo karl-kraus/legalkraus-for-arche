@@ -1,208 +1,218 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000068-040-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-034-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-045-000.xml">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Abschrift aus der Morgenausgabe des Berliner Tageblattes von Sonnabend, den
-                    April 1926 (Erinnerung an Paris von Alfred Kerr)</title>
-                <editor ref="#pmbAR">Alexandra Rausch</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name full="yes" instant="false">Austrian Centre for Digital Humanities and
-                        Cultural Heritage, Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name full="yes" instant="false">Ludwig Boltzmann Institut für Digital
-                        History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name full="yes" instant="false">Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date instant="false">2021</date>
-                <availability default="false">
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000068-040-000.xml</idno>
-                <idno type="URL" subtype="krausonline">https://www.kraus.wienbibliothek.at/content/abschrift-aus-der-morgenausgabe-des-berliner-tageblattes-von-sonnabend-den-24-april-1926</idno>
-            </publicationStmt>
-            <seriesStmt default="false">
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000068">Karl
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-041-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-039-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000068-040-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>68.40 Abschrift aus der Morgenausgabe des Berliner Tageblattes von Sonnabend, den 24. April 1926 (Erinnerung an Paris von Alfred Kerr)</title>
+            <editor ref="#pmbAR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000068-040-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/abschrift-aus-der-morgenausgabe-des-berliner-tageblattes-von-sonnabend-den-24-april-1926
+                </idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000068" type="collection">Karl
                     Kraus ca. Alfred Kerr</title>
-            </seriesStmt>
-            <sourceDesc default="false">
-                <listWit>
-                    <witness xml:id="D_000068-040-000-wit01" facs="#D_000068-040-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date type="sortDate" notBefore-iso="1926-04-24" subtype="produced" instant="false"/>
-            </creation>
-            <langUsage default="false">
-                <language ident="de">Deutsch</language>
-            </langUsage>
-            <textClass default="false">
-                <keywords>
-                    <term/>
-                </keywords>
-                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/"/>
-            </textClass>
-            <particDesc default="false"/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2021-09-13" resp="#LU" status="draft">created XML Document</change>
-            <change type="header_facsimile" when-iso="2021-12-07" who="#AR" status="draft"/>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000068-040-000.xml-facs001">
-        <surfaceGrp xml:id="D_000068-040-000.xml-facs001-l001">
-            <surface xml:id="D_000068-040-000.xml-facs001-l001-p001" type="recto">
-                <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000283_20.jpg" source="wienbibliothek"/>
-            </surface>
-            <surface xml:id="D_000068-040-000.xml-facs001-l001-p002" type="verso">
-                <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000284_19.jpg" source="wienbibliothek"/>
-            </surface>
-        </surfaceGrp>
-        <surfaceGrp xml:id="D_000068-040-000.xml-facs001-l002">
-            <surface xml:id="D_000068-040-000.xml-facs001-l002-p003" type="recto">
-                <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000285_21.jpg" source="wienbibliothek"/>
-            </surface>
-            <surface xml:id="D_000068-040-000.xml-facs001-l002-p004" type="verso">
-                <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000286_18.jpg" source="wienbibliothek"/>
-            </surface>
-        </surfaceGrp>
-        <surfaceGrp xml:id="D_000068-040-000.xml-facs001-l003">
-            <surface xml:id="D_000068-040-000.xml-facs001-l003-p005" type="recto">
-                <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000287_18.jpg" source="wienbibliothek"/>
-            </surface>
-            <surface xml:id="D_000068-040-000.xml-facs001-l003-p006" type="verso">
-                <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000288_22.jpg" source="wienbibliothek"/>
-            </surface>
-        </surfaceGrp>
-        <surfaceGrp xml:id="D_000068-040-000.xml-facs001-l004">
-            <surface xml:id="D_000068-040-000.xml-facs001-l004-p007" type="recto">
-                <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000289_20.jpg" source="wienbibliothek"/>
-            </surface>
-            <surface xml:id="D_000068-040-000.xml-facs001-l004-p008" type="verso">
-                <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000290_22.jpg" source="wienbibliothek"/>
-            </surface>
-        </surfaceGrp>
-        <surfaceGrp xml:id="D_000068-040-000.xml-facs001-l005">
-            <surface xml:id="D_000068-040-000.xml-facs001-l005-p009" type="recto">
-                <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000291_18.jpg" source="wienbibliothek"/>
-            </surface>
-            <surface xml:id="D_000068-040-000.xml-facs001-l005-p010" type="verso">
-                <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000292_18.jpg" source="wienbibliothek"/>
-            </surface>
-        </surfaceGrp>
-        <surfaceGrp xml:id="D_000068-040-000.xml-facs001-l006">
-            <surface xml:id="D_000068-040-000.xml-facs001-l006-p011" type="recto">
-                <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000293_20.jpg" source="wienbibliothek"/>
-            </surface>
-            <surface xml:id="D_000068-040-000.xml-facs001-l006-p012" type="verso">
-                <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000294_18.jpg" source="wienbibliothek"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <facsimile type="further-witnesses">
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000295_17.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000296_18.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000297_17.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000298_18.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000299_18.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000300_22.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000301_18.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000302_23.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000303_19.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000304_18.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000305_18.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000306_18.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000307_20.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000308_19.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000309_19.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000310_19.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000311_18.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000312_15.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000313_18.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000314_17.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000315_19.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000316_15.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000317_14.jpg" source="wienbibliothek"/>
-        </surface>
-        <surface type="">
-            <graphic url="https://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000318_14.jpg" source="wienbibliothek"/>
-        </surface>
-    </facsimile>
-    <text>
-        <body/>
-    <back/></text>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000068-040-000-facs001" xml:id="D_000068-040-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000068-040-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date notBefore-iso="1926-04-24" subtype="produced" type="sortDate">24. April 1926</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000068-040-000-wit01">Zeitungsartikel</term>
+            </keywords>
+            <classCode source="D_000068-040-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.P.ZTA">D.P.ZTA</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" status="draft" when-iso="2021-09-13">created XML Document</change>
+         <change status="draft" type="header_facsimile" when-iso="2021-12-07" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000068-040-000-facs001">
+      <surfaceGrp xml:id="D_000068-040-000-facs001-l001">
+         <surface type="recto" xml:id="D_000068-040-000-facs001-l001-p001">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552319/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000068-040-000-facs001-l001-p002">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552320/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000068-040-000-facs001-l002">
+         <surface type="recto" xml:id="D_000068-040-000-facs001-l002-p003">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552321/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000068-040-000-facs001-l002-p004">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552322/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000068-040-000-facs001-l003">
+         <surface type="recto" xml:id="D_000068-040-000-facs001-l003-p005">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552323/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000068-040-000-facs001-l003-p006">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552324/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000068-040-000-facs001-l004">
+         <surface type="recto" xml:id="D_000068-040-000-facs001-l004-p007">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552325/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000068-040-000-facs001-l004-p008">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552326/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000068-040-000-facs001-l005">
+         <surface type="recto" xml:id="D_000068-040-000-facs001-l005-p009">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552327/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000068-040-000-facs001-l005-p010">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552328/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000068-040-000-facs001-l006">
+         <surface type="recto" xml:id="D_000068-040-000-facs001-l006-p011">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552329/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000068-040-000-facs001-l006-p012">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552330/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552331/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552332/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552333/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552334/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552335/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552336/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552337/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552338/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552339/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552340/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552341/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552342/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552343/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552344/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552345/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552346/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552347/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552348/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552349/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552350/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552351/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552352/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552353/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552354/full/full/0/default.jpg" source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

@@ -1,128 +1,856 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000130-047-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-046-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-048-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Brief RA E. Lion an RA Werner Bintz</title>
-                <editor ref=""/>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000130-047-000.xml</idno>
-                <idno type="URL" subtype="krausonline">https://www.kraus.wienbibliothek.at/content/brief-ra-e-lion-ra-werner-bintz</idno>
-                <idno type="ID" subtype="transkribus">403041</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000130">Karl Kraus ca. Hamburger Nachrichten</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000130-047-000-wit01" facs="#D_000130-047-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation><date type="sortDate" subtype="produced" when-iso=""/>
-                <date source="krausonline">05.02.1930</date>
-            </creation>
-            <langUsage>
-                <language ident="de">Deutsch</language>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term/>
-                </keywords>
-                <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/"/>
-            </textClass>
-            <particDesc/>
-            <correspDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2021-09-13" resp="#LU">created XML Document</change>
-            <change when-iso="2021-09-13" resp="#LU">Replaced Text with Transcription of Transkribus
-                Document 403041.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000130-047-000-facs001"><!-- surfaces, graphics -->
-        <surface type="">
-            <graphic url="" source="wienbibliothek"/>
-        </surface>
-    </facsimile>
-    <text>
-        <body><!-- lb uuids -->
-            <pb facs="" n="1"/>
-                <lb/>5. Februar 1930.
-                <lb/>– N.
-                <lb/>Herrn Rechtsanwalt
-                <lb/>Dr. Bintz,
-                <lb/>Hamburg.
-                <lb/>Hermannstr. 10–13.
-                <lb/>Kraus ./. Hbg. Nachrichten
-                <lb/>Ich beziehe mich auf meinen vorläufigen Be-
-                <lb/>scheid vom 3. ds.Mts. und erhalte heute die Nachricht, dass
-                <lb/>mein Mandant mit dem gerichtlichen Vergleichsvorschlag in der
-                <lb/>abgeänderten Fassung Ihres Briefs vom 22. Januar einverstanden
-                <lb/>ist. Für diesen Entschluss ist bestimmend die Erwägung, dass
-                <lb/>Herr Dr. Albrecht sein Bedauern über seine unzutreffende Be-
-                <lb/>richterstattung Herrn Kraus gegenüber schriftlich zum Ausdruck
-                <lb/>gebracht, dass die Zeitung eine Berichtigung abgedruckt hat
-                <lb/>und dass in beiden Prozessverfahren die Unrichtigkeit der be-
-                <lb/>anstandeten Behauptung von Ihren Mandanten zugegeben worden
-                <lb/>ist, endlich auch der Hinweis des Gerichts, dass eine redak-
-                <lb/>tionelle Notiz nach rechtskräftigem Abschluss des Verfahrens
-                <lb/>sehr spät kommen würde.
-                <lb/>Der Vergleich geht also dahin:
-                <lb/>Der Kläger nimmt die Zivilklage gegen Herrn Schabbel
-                <lb/>und Herrn Dr. Hartmeyer und den Strafantrag gegen Herrn
-                <lb/>Schabbel zurück und verzichtet auf weitere Erklärungen in der
-                <lb/>Zeitung. Jede Partei trägt in beiden Verfahren die Kosten
-                <lb/>ihres Anwalts; die Gerichtskosten beider Verfahren werden ge-
-                <lb/>teilt. Die Herren Schabbel und Dr. Hartmeyer zahlen RM 100.–
-            <pb facs="" n="2"/>
-                <lb/>als Beitrag zu den Kosten des Klägers.
-                <lb/>Die halben Gerichtskosten des Zivilverfahrens
-                <lb/>betragen RM 25.–, die halben Gerichtskosten des Strafver-
-                <lb/>fahrens RM 19.–
-                <lb/>Ich überreiche Ihnen zu treuen Händen zwei Er-
-                <lb/>klärungen an die Gerichte und bitte Sie, falls Sie mit mir
-                <lb/>einig sind, diese Erklärungen gegenzuzeichnen und einzu-
-                <lb/>reichen.
-                <lb/>Hochachtungsvoll
-        </body>
-    <back/></text>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-048-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-046-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000130-047-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>130.47 Brief RA E. Lion an RA Werner Bintz</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000130-047-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/brief-ra-e-lion-ra-werner-bintz </idno>
+            <idno subtype="transkribus" type="ID">403041</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000130" type="collection">Karl
+                    Kraus ca. Hamburger Nachrichten</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000130-047-000-facs001" xml:id="D_000130-047-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000130-047-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#pmb51612">Dr. E. Lion</persName>
+               <address>
+                  <street corresp="#55816">Gänsemarkt 62</street>
+                  <settlement ref="#pmb506">Hamburg 36</settlement>
+               </address>
+               <date when-iso="1930-02-05">5. Februar 1930</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#pmb55866">Herrn Rechtsanwalt | Dr. Bintz</persName>
+               <address>
+                  <street corresp="#64007">Hermannstr. 10–12</street>
+                  <settlement ref="#pmb506">Hamburg</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus ./. Hbg. Nachrichten</note>
+               <note type="dictation">-N.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1930-02-05">5. Februar
+                    1930</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000130-047-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000130-047-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" when-iso="2021-09-13">created XML Document</change>
+         <change resp="#LU" when-iso="2021-09-13">Replaced Text with Transcription of Transkribus
+                Document 403041. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000130-047-000-facs001">
+      <surfaceGrp xml:id="D_000130-047-000-facs001-l001">
+         <surface xml:id="D_000130-047-000-facs001-l001-p001" type="recto">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558029/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000130-047-000-facs001-l002">
+         <surface xml:id="D_000130-047-000-facs001-l002-p002" type="recto">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558031/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000130-047-000-facs001-l002-p003" type="verso">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558032/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000130-047-000_p001" facs="#D_000130-047-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_2627fb94-5a91-4c47-8f0d-3fcad2221e42">
+            <lb xml:id="uuid_88d1b40e-4ec2-41a1-85be-4cdc6b245058"/>Ich beziehe mich auf meinen
+            vorläufigen <rs type="work">Be<lb xml:id="uuid_0ad81011-8d9e-403f-85f2-56b4ebc34e30" break="no"/>scheid vom 3. ds.Mts.</rs> und erhalte heute die Nachricht, dass<lb xml:id="uuid_d274e5ee-6102-40e2-a805-1142f2d57341"/>mein <rs type="person" ref="#pmb11988">Mandant</rs> mit dem gerichtlichen Vergleichsvorschlag in der<lb xml:id="uuid_8eb4b8f2-c953-4120-a20f-7913cec38928"/>abgeänderten Fassung Ihres <rs type="work">Briefs vom 22. Januar</rs> einverstanden<lb xml:id="uuid_f245906a-33aa-4c48-9616-651b90b3ba80"/>ist. Für diesen Entschluss ist
+            bestimmend die Erwägung, dass<lb xml:id="uuid_02433d7d-3f3e-408e-8df2-cda81b31d0af"/>Herr <rs type="person" ref="#pmb55848">Dr. Albrecht</rs> sein Bedauern über seine
+            unzutreffende Be<lb xml:id="uuid_a78f203b-c6eb-4bb8-be11-aa03784bbba1" break="no"/>richterstattung <rs type="person" ref="#pmb11988">Herrn Kraus</rs> gegenüber schriftlich
+            zum Ausdruck<lb xml:id="uuid_055a3419-5904-4a17-8acc-57568ebb855a"/>gebracht, dass die
+               <rs type="institution" ref="#pmb37346">Zeitung</rs>
+            eine Berichtigung abgedruckt hat<lb xml:id="uuid_5c40168a-1066-4673-8e98-064e64a74f57"/>und dass in beiden Prozessverfahren die Unrichtigkeit der be<lb xml:id="uuid_bba8e490-7395-44c6-949d-27029e26c8e5" break="no"/>anstandeten Behauptung
+            von Ihren Mandanten zugegeben worden<lb xml:id="uuid_3ce1de9c-1a64-41aa-9580-779c0be53aa5"/>ist, endlich auch der Hinweis des
+               <rs type="institution" ref="#pmb36828">Gerichts</rs>, dass eine redak<lb xml:id="uuid_9f2cfdbd-feec-497b-8b39-4fc01a8850af" break="no"/>tionelle Notiz nach
+            rechtskräftigem Abschluss des Verfahrens<lb xml:id="uuid_12147f3d-a621-4160-a2c8-4e7d95dfaf39"/>sehr spät kommen würde. </p>
+         <p xml:id="uuid_6868a285-0e11-4b67-99ff-dc860ee52131">
+            <lb xml:id="uuid_b549032d-d4aa-4f6a-a31b-d498dad9bade"/>Der Vergleich geht also
+                dahin: </p>
+         <p xml:id="uuid_7c8480a8-9c15-42ee-b616-89bf56800e26">
+            <lb xml:id="uuid_a1b2b94e-6894-4d5d-8e5e-d48d55e74ece"/>Der <rs type="person" ref="#pmb11988">Kläger</rs> nimmt die Zivilklage gegen <rs type="person" ref="#pmb43675">Herrn Schabbel</rs>
+            <lb xml:id="uuid_bb638c8b-6092-4382-83f0-9f02bee98ac9"/>und Herrn <rs type="person" ref="#pmb38360">Dr. Hartmeyer</rs> und den Strafantrag gegen <rs type="person" ref="#pmb43675">Herrn<lb xml:id="uuid_22140319-0bc2-430c-b4f4-5cb40ecae4ad"/>Schabbel</rs> zurück und
+                verzichtet auf weitere Erklärungen in der<lb xml:id="uuid_cce923d6-be66-4ba2-8e27-fa918fc37d0f"/><rs type="institution" ref="#pmb37346">Zeitung</rs>. Jede Partei trägt
+                in beiden Verfahren die Kosten<lb xml:id="uuid_f0d850b0-bbda-4031-ba98-dfd1f9fa8734"/>ihres Anwalts; die Gerichtskosten beider Verfahren werden ge<lb xml:id="uuid_2c5bf9f2-1e41-46c0-adef-3d2cc4d623be" break="no"/>teilt. Die <rs type="person" ref="#pmb43675">Herren
+                    Schabbel</rs> und <rs type="person" ref="#pmb38360">Dr. Hartmeyer</rs> zahlen RM
+                100.– <pb xml:id="D_000130-047-000_p002" facs="#D_000130-047-000-facs001-l002-p002" n="2"/>
+            <lb xml:id="uuid_f1bb6ada-d71f-486d-a1ae-c6533d71996b"/>als Beitrag zu
+                den Kosten des <rs type="person" ref="#pmb11988">Klägers</rs>. </p>
+         <p xml:id="uuid_4be5bcf2-840b-4f2a-84d6-cd3a4e671293">
+            <lb xml:id="uuid_3655f744-9ade-4212-b47b-abbe62d2ac95"/>Die halben Gerichtskosten
+                des Zivilverfahrens<lb xml:id="uuid_510b9dc4-b733-49ab-bf96-43103e7d3ee6"/>betragen
+                RM 25.–, die halben Gerichtskosten des Strafver<lb xml:id="uuid_569c3ce9-a22e-4c12-9045-67369798167b" break="no"/>fahrens RM 19.– </p>
+         <p xml:id="uuid_1e14202c-92e9-4d45-806b-425f1c9f5a8b">
+            <lb xml:id="uuid_8ddbd565-8129-4b26-b3d7-c55786c096be"/>Ich überreiche Ihnen zu
+                treuen Händen zwei Er<lb xml:id="uuid_7af5833d-115b-4985-9ed3-5d0f8e0d5c8e" break="no"/>klärungen an die Gerichte und bitte Sie, falls Sie mit mir<lb xml:id="uuid_65253746-cc65-41ef-965e-27b81065616a"/>einig sind, diese
+                Erklärungen gegenzuzeichnen und einzu<lb xml:id="uuid_08fa9807-c63f-40de-a5db-d4e4c4388def" break="no"/>reichen. </p>
+         <p xml:id="uuid_69df64ce-7410-4e36-8316-82d610d698e9">
+            <lb xml:id="uuid_4e44d9d9-4c29-4623-8bde-6d61c66fee8b"/>Hochachtungsvoll </p>
+         <pb xml:id="D_000130-047-000_p003" facs="#D_000130-047-000-facs001-l002-p003" n="3"/>
+         <p xml:id="uuid_19444eae-c512-4ed3-8118-7f29c59141e1">
+            <lb xml:id="uuid_b4e904a2-eaf8-4016-8ee9-4b7ce8932961"/><note type="paratext" resp="law-firm"><rs type="person" ref="#pmb11988">Kraus</rs>
+               <lb xml:id="uuid_eeec6753-4106-44c3-8a4f-825ff6bb2f35"/><rs type="institution" ref="#pmb37346">Hamburger Nach<lb xml:id="uuid_b21b053b-6c65-42d6-a607-51321fe9fe62" break="no"/>richten</rs> II</note>
+         </p>
+      </body>
+   <back><listPerson><person xml:id="pmb43675">
+  <persName>
+      <forename>Otto</forename>
+      <surname>Schabbel</surname>
+  </persName>
+
+
+  <birth>
+    <date when-iso="1888-04-06">06.04.1888</date>
+  
+  
+    <settlement key="pmb56120">
+      <placeName type="pref">Rostock</placeName>
+    
+      <placeName type="alternative-name">Rostock</placeName>
+    
+      <placeName type="alternative-name">Rostock</placeName>
+    
+      <placeName type="legacy-name-merge">Rostock</placeName>
+    
+    
+      <location><geo>54,0887 12,14049</geo></location>
+    
+    
+      <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/5008/</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/5008</idno>
+      
+      <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/56120/</idno>
+      
+      <idno type="URL">https://sws.geonames.org/2844588/</idno>
+      
+    </settlement>
+    
+       
+  </birth>  
+
+
+
+  <sex value="male"/>
+
+
+  <occupation key="99">Journalist/Journalistin</occupation>
+
+  <occupation key="100">Kritiker/Kritikerin</occupation>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43675/</idno>
+
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/43675</idno>
+
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb36757">Amtsgericht Hamburg</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36757/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36757</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1182">arbeitet für</term>
+    <orgName key="pmb37346">Hamburger Nachrichten</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37346/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37346</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb36828">Landgericht Hamburg</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36828/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36828</idno>
+    
+</affiliation>
+
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>130.6 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.9 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.11 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.12 Klage von Karl Kraus gegen 1.) den Schriftleiter Otto Schnabbel, 2.) den Zeitungsverleger Hermann Hartmeyer, Streitgegenstand: 2000</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.13 Privatanklage von Karl Kraus gegen Otto Schnabbel (RA E. Lion an das Amtsgericht Hamburg)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.14 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.15 Brief Otto Schabbel an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.16 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.19 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.20 Brief Otto Schabbel an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.22 Brief Verlag Die Fackel an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.24 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.25 Postkarte RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.30 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-030-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.31 Schriftsatz in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA Werner Bintz an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-031-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.33 Schriftsatz [Replik] in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA E. Lion an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-033-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.34 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-034-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.36 Schriftsatz in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA E. Lion an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.37 Schriftsatz in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA Werner Bintz an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-037-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.38 Urteil des Amtsgericht Hamburg (15. P. No. 69/29, Richter: […] Buhl)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-038-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.40 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-040-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.41 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-041-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.42 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-042-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.44 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-044-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.47 Brief RA E. Lion an RA Werner Bintz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-047-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb11988">
+  <persName>
+      <forename>Karl</forename>
+      <surname>Kraus</surname>
+  </persName>
+
+  <persName type="pseudonym">Berdach J.</persName>
+
+
+  <birth>
+    <date when-iso="1874-04-28">28.04.1874</date>
+  
+  
+    <settlement key="pmb41660">
+      <placeName type="pref">Jičín</placeName>
+    
+      <placeName type="alternative-name">Gitschin</placeName>
+    
+      <placeName type="alternative-name">Jičín</placeName>
+    
+      <placeName type="legacy-name">Jičín</placeName>
+    
+      <placeName type="legacy-name-merge">Jitschin</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4440310-0</placeName>
+    
+    
+      <location><geo>50,43723 15,35162</geo></location>
+    
+    
+      <idno type="URL">http://sws.geonames.org/3074204/</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/41660</idno>
+      
+    </settlement>
+    
+       
+  </birth>  
+
+
+  <death>
+    <date when-iso="1936-06-12">12.06.1936</date>
+      
+      
+      <settlement key="pmb50">
+        <placeName type="pref">Wien</placeName>
+        
+        <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+        
+        <idno type="URL" subtype="apis-default">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+        
+        <idno type="URL">https://d-nb.info/gnd/4066009-6</idno>
+        
+        <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+        
+        <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+        
+      
+        <location><geo>48,2066 16,37341</geo></location>
+      
+      </settlement>
+      
+      
+  </death>
+
+
+  <sex value="male"/>
+
+
+  <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+
+  <occupation key="237">Publizist/Publizistin</occupation>
+
+
+  <idno type="URL" subtype="astb">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17108</idno>
+
+  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118566288</idno>
+
+  <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11988</idno>
+
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/11988</idno>
+
+  <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11988</idno>
+
+
+<affiliation>
+    <term key="1182">arbeitet für</term>
+    <orgName key="pmb29308">Die Fackel</orgName>
+    
+    <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29308</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/29308</idno>
+    
+    <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29308</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb50728">Buchhandlung Richard Lányi</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/50728/</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1409">ist Eigentümer*in von</term>
+    <orgName key="pmb43724">Verlag Die Fackel (Wien)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43724/</idno>
+    
+    <idno type="URL">https://d-nb.info/gnd/16063972-4</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/43724</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb36757">Amtsgericht Hamburg</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36757/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36757</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb36828">Landgericht Hamburg</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36828/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36828</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb60573">Karl Kraus-Gesellschaft</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/60573/</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb37159">Jahoda &amp; Siegel (Druckerei)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37159/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37159</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb87755">Max Goldschmidt (Büro für Zeitungsausschnitte)</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/87755/</idno>
+    
+</affiliation>
+
+
+<listEvent>
+    
+    <event key="40436" when-iso="1893-01-14">
+        <desc n="1256">ist Arbeitskraft bei</desc>
+        <label>Aufführung von Die Räuber, 14.1.1893</label>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/40436/</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/40436</idno>
+            
+    </event>
+    
+    <event key="42714" when-iso="1905-05-29">
+        <desc n="1256">ist Arbeitskraft bei</desc>
+        <label>Geschlossene Aufführung Die Büchse der Pandora, 29.5.1905</label>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/42714/</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/42714</idno>
+            
+    </event>
+    
+</listEvent>
+
+
+<listBibl>
+    
+    <bibl type="collections" n="3">Manuell angelegt</bibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+</person><person xml:id="pmb38360">
+  <persName>
+      <forename>Hermann</forename>
+      <surname>Hartmeyer</surname>
+  </persName>
+
+  <persName type="geburtsname_vorname-nachname">Hermann Alfred Viktor Hartmeyer</persName>
+
+  <persName type="uri_gnd">http://d-nb.info/gnd/1047031434</persName>
+
+  <persName type="uri_wikipedia">https://de.wikipedia.org/wiki/Hermann_Hartmeyer</persName>
+
+
+  <birth>
+    <date when-iso="1875-08-26">26.08.1875</date>
+  
+  
+    <settlement key="pmb506">
+      <placeName type="pref">Hamburg</placeName>
+    
+      <placeName type="loschen">Hamburgisches Staatsgebiet</placeName>
+    
+      <placeName type="loschen">Hamburg</placeName>
+    
+      <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4023118-5</placeName>
+    
+      <placeName type="legacy-name-merge">Hamburg</placeName>
+    
+    
+      <location><geo>53,57532 10,01534</geo></location>
+    
+    
+      <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1055</idno>
+      
+      <idno type="URL" subtype="geonames">http://sws.geonames.org/2911298/</idno>
+      
+      <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb506</idno>
+      
+      <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/506</idno>
+      
+      <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/44883/</idno>
+      
+      <idno type="URL">https://d-nb.info/gnd/4023118-5</idno>
+      
+      <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb506</idno>
+      
+    </settlement>
+    
+       
+  </birth>  
+
+
+  <death>
+    <date when-iso="1965-06-23">23.06.1965</date>
+      
+      
+      <settlement key="pmb506">
+        <placeName type="pref">Hamburg</placeName>
+        
+        <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1055</idno>
+        
+        <idno type="URL" subtype="geonames">http://sws.geonames.org/2911298/</idno>
+        
+        <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb506</idno>
+        
+        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/506</idno>
+        
+        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/44883/</idno>
+        
+        <idno type="URL">https://d-nb.info/gnd/4023118-5</idno>
+        
+        <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb506</idno>
+        
+      
+        <location><geo>53,57532 10,01534</geo></location>
+      
+      </settlement>
+      
+      
+  </death>
+
+
+  <sex value="male"/>
+
+
+  <occupation key="600">Zeitungsverleger/Zeitungsverlegerin</occupation>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/38360/</idno>
+
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/38360</idno>
+
+
+<affiliation>
+    <term key="1182">arbeitet für</term>
+    <orgName key="pmb37346">Hamburger Nachrichten</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37346/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37346</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb36828">Landgericht Hamburg</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36828/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36828</idno>
+    
+</affiliation>
+
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>130.6 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.10 Strafantrag</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-010-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.12 Klage von Karl Kraus gegen 1.) den Schriftleiter Otto Schnabbel, 2.) den Zeitungsverleger Hermann Hartmeyer, Streitgegenstand: 2000</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.15 Brief Otto Schabbel an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.20 Brief Otto Schabbel an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.31 Schriftsatz in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA Werner Bintz an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-031-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.33 Schriftsatz [Replik] in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA E. Lion an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-033-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.36 Schriftsatz in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA E. Lion an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.37 Schriftsatz in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA Werner Bintz an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-037-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.40 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-040-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.41 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-041-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.47 Brief RA E. Lion an RA Werner Bintz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-047-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb51612">
+  <persName>
+      <forename>E.</forename>
+      <surname>Lion</surname>
+  </persName>
+
+
+
+
+  <sex value="male"/>
+
+
+  <occupation key="106">Rechtsanwalt/Rechtsanwältin</occupation>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/51612/</idno>
+
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb36757">Amtsgericht Hamburg</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36757/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36757</idno>
+    
+</affiliation>
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb36828">Landgericht Hamburg</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36828/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36828</idno>
+    
+</affiliation>
+
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>130.1 Brief RA E. Lion an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.2 Brief RA E. Lion an Hamburger Nachrichten</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.4 Brief RA E. Lion an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.5 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.6 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.7 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.8 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.9 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.10 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.11 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.12 Klage von Karl Kraus gegen 1.) den Schriftleiter Otto Schnabbel, 2.) den Zeitungsverleger Hermann Hartmeyer, Streitgegenstand: 2000</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.13 Privatanklage von Karl Kraus gegen Otto Schnabbel (RA E. Lion an das Amtsgericht Hamburg)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.14 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.15 Brief Otto Schabbel an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.16 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.17 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.18 Brief RA H. Wahnschaff an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.19 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.20 Brief Otto Schabbel an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.21 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.22 Brief Verlag Die Fackel an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.23 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.24 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.25 Postkarte RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.26 Postkarte RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-026-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.27 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-027-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.28 Brief RA E. Lion an Hamburger Nachrichten (RA Werner Bintz)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.29 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-029-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.30 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-030-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.31 Schriftsatz in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA Werner Bintz an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-031-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.32 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-032-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.34 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-034-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.35 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-035-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.36 Schriftsatz in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA E. Lion an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.37 Schriftsatz in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA Werner Bintz an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-037-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.38 Urteil des Amtsgericht Hamburg (15. P. No. 69/29, Richter: […] Buhl)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-038-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.39 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.40 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-040-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.41 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-041-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.42 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-042-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.43 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-043-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.44 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-044-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.45 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-045-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.46 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-046-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.47 Brief RA E. Lion an RA Werner Bintz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-047-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.48 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-048-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb55848">
+  <persName>
+      <forename>Egon Erich</forename>
+      <surname>Albrecht</surname>
+  </persName>
+
+
+
+
+  <sex value="male"/>
+
+
+  <occupation key="1316">Autor/Autorin</occupation>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/55848/</idno>
+
+
+<affiliation>
+    <term key="1182">arbeitet für</term>
+    <orgName key="pmb37346">Hamburger Nachrichten</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37346/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37346</idno>
+    
+</affiliation>
+
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>130.15 Brief Otto Schabbel an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.20 Brief Otto Schabbel an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.22 Brief Verlag Die Fackel an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.24 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.25 Postkarte RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.27 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-027-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.31 Schriftsatz in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA Werner Bintz an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-031-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.37 Schriftsatz in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA Werner Bintz an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-037-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.38 Urteil des Amtsgericht Hamburg (15. P. No. 69/29, Richter: […] Buhl)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-038-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.40 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-040-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.42 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-042-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.44 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-044-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.47 Brief RA E. Lion an RA Werner Bintz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-047-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb55866">
+  <persName>
+      <forename>Werner</forename>
+      <surname>Bintz</surname>
+  </persName>
+
+
+
+
+  <sex value="male"/>
+
+
+  <occupation key="106">Rechtsanwalt/Rechtsanwältin</occupation>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/55866/</idno>
+
+
+<affiliation>
+    <term key="1153">in Relation zu</term>
+    <orgName key="pmb36828">Landgericht Hamburg</orgName>
+    
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36828/</idno>
+    
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36828</idno>
+    
+</affiliation>
+
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>130.26 Postkarte RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-026-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.27 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-027-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.28 Brief RA E. Lion an Hamburger Nachrichten (RA Werner Bintz)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.31 Schriftsatz in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA Werner Bintz an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-031-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.33 Schriftsatz [Replik] in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA E. Lion an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-033-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.36 Schriftsatz in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA E. Lion an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.37 Schriftsatz in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA Werner Bintz an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-037-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.40 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-040-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.42 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-042-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.46 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-046-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.47 Brief RA E. Lion an RA Werner Bintz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-047-000.xml"/></linkGrp></event></listEvent></person></listPerson><listOrg><org xml:id="pmb36828">
+  <orgName>Landgericht Hamburg</orgName>
+
+  <orgName type="uri_wikipedia">https://de.wikipedia.org/wiki/Landgericht_Hamburg</orgName>
+
+
+
+<location type="located_in_place">
+  <placeName key="pmb506">Hamburg</placeName>
+  <geo>53,57532 10,01534</geo>
+  
+  <note type="IDNO" subtype="wikidata">https://www.wikidata.org/wiki/Q1055</note>
+  
+  <note type="IDNO" subtype="geonames">http://sws.geonames.org/2911298/</note>
+  
+  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb506</note>
+  
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/506</note>
+  
+  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/44883/</note>
+  
+  <note type="IDNO">https://d-nb.info/gnd/4023118-5</note>
+  
+  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb506</note>
+  
+</location>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36828/</idno>
+
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36828</idno>
+
+
+<listBibl>
+    
+    <bibl type="collections" n="3">Manuell angelegt</bibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>130.12 Klage von Karl Kraus gegen 1.) den Schriftleiter Otto Schnabbel, 2.) den Zeitungsverleger Hermann Hartmeyer, Streitgegenstand: 2000</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.15 Brief Otto Schabbel an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.31 Schriftsatz in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA Werner Bintz an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-031-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.32 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-032-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.33 Schriftsatz [Replik] in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA E. Lion an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-033-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.36 Schriftsatz in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA E. Lion an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.37 Schriftsatz in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA Werner Bintz an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-037-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.40 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-040-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.42 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-042-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.44 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-044-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.47 Brief RA E. Lion an RA Werner Bintz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-047-000.xml"/></linkGrp></event></listEvent></org><org xml:id="pmb37346">
+  <orgName>Hamburger Nachrichten</orgName>
+
+  <orgName type="uri_wikipedia">https://de.wikipedia.org/wiki/Hamburger_Nachrichten</orgName>
+
+
+
+<location type="located_in_place">
+  <placeName key="pmb506">Hamburg</placeName>
+  <geo>53,57532 10,01534</geo>
+  
+  <note type="IDNO" subtype="wikidata">https://www.wikidata.org/wiki/Q1055</note>
+  
+  <note type="IDNO" subtype="geonames">http://sws.geonames.org/2911298/</note>
+  
+  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb506</note>
+  
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/506</note>
+  
+  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/44883/</note>
+  
+  <note type="IDNO">https://d-nb.info/gnd/4023118-5</note>
+  
+  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb506</note>
+  
+</location>
+
+<location type="located_in_place">
+  <placeName key="pmb55809">Speersort</placeName>
+  
+  
+  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/55809/</note>
+  
+</location>
+
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37346/</idno>
+
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37346</idno>
+
+
+<listBibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>70.16 Brief RA Botho Laserstein an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>114.1 Brief RA Botho Laserstein an Hamburger Nachrichten</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000114-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>114.2 Brief RA Botho Laserstein an Hamburger Nachrichten</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000114-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.1 Brief RA E. Lion an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.2 Brief RA E. Lion an Hamburger Nachrichten</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.4 Brief RA E. Lion an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.5 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.6 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.7 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.8 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.9 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.10 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.10 Strafantrag</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-010-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.11 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.12 Klage von Karl Kraus gegen 1.) den Schriftleiter Otto Schnabbel, 2.) den Zeitungsverleger Hermann Hartmeyer, Streitgegenstand: 2000</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.13 Privatanklage von Karl Kraus gegen Otto Schnabbel (RA E. Lion an das Amtsgericht Hamburg)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.14 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.15 Brief Otto Schabbel an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.16 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.17 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.18 Brief RA H. Wahnschaff an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.19 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.20 Brief Otto Schabbel an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.21 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.22 Brief Verlag Die Fackel an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.23 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.24 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.25 Postkarte RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.26 Postkarte RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-026-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.27 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-027-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.28 Brief RA E. Lion an Hamburger Nachrichten (RA Werner Bintz)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.29 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-029-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.30 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-030-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.31 Schriftsatz in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA Werner Bintz an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-031-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.32 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-032-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.33 Schriftsatz [Replik] in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA E. Lion an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-033-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.34 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-034-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.35 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-035-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.36 Schriftsatz in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA E. Lion an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.38 Urteil des Amtsgericht Hamburg (15. P. No. 69/29, Richter: […] Buhl)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-038-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.40 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-040-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.41 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-041-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.42 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-042-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.43 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-043-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.44 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-044-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.45 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-045-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.46 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-046-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.47 Brief RA E. Lion an RA Werner Bintz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-047-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.48 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-048-000.xml"/></linkGrp></event></listEvent></org></listOrg><listPlace><place xml:id="pmb506">
+  <placeName>Hamburg</placeName>
+
+  <placeName type="loschen">Hamburgisches Staatsgebiet</placeName>
+
+  <placeName type="loschen">Hamburg</placeName>
+
+  <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4023118-5</placeName>
+
+  <placeName type="legacy-name-merge">Hamburg</placeName>
+
+
+<location type="coords">
+  <geo>53,57532 10,01534</geo>
+</location>
+
+
+
+  <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1055</idno>
+
+  <idno type="URL" subtype="geonames">http://sws.geonames.org/2911298/</idno>
+
+  <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb506</idno>
+
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/506</idno>
+
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/44883/</idno>
+
+  <idno type="URL">https://d-nb.info/gnd/4023118-5</idno>
+
+  <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb506</idno>
+
+
+<listBibl>
+    
+    <bibl type="collections" n="1">ASBW</bibl>
+    
+    <bibl type="collections" n="2">Erster Import</bibl>
+    
+    <bibl type="collections" n="5">legalkraus</bibl>
+    
+</listBibl>
+
+
+
+<listEvent><event type="mentioned"><p>erwähnt in <title>68.74 Schriftsatz in Sachen Kraus ./. Kerr (Alfred Kerr an das Amtsgericht Charlottenburg, G.Z. B.2 27)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-074-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>75.5 Brief Justizrat Viktor Fraenkl an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000075-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>75.6 Brief Samek an Justizrat Viktor Fraenkl</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000075-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>75.9 Brief Justizrat Viktor Fraenkl an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000075-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>83.2 Brief Samek an Hamburger Fremdenblatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000083-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>83.3 Brief Hamburger Fremdenblatt an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000083-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>83.5 Brief Samek an Hamburger Fremdenblatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000083-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>83.6 Brief Samek an Hamburger Fremdenblatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000083-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>83.7 Brief Hamburger Fremdenblatt an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000083-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>83.8 Honorarbeleg des Hamburger Fremdenblatt für Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000083-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>83.9 Brief Samek an Hamburger Fremdenblatt</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000083-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>83.10 Brief Hamburger Fremdenblatt an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000083-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>114.1 Brief RA Botho Laserstein an Hamburger Nachrichten</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000114-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>114.2 Brief RA Botho Laserstein an Hamburger Nachrichten</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000114-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>125.9 Brief Paul Verhoeven an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>125.110 Vertrauliche Nachrichten der Zentralstelle der Bühnen-Autoren und –Verleger Nr. 2/32</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-110-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.1 Brief RA E. Lion an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.2 Brief RA E. Lion an Hamburger Nachrichten</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.4 Brief RA E. Lion an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.5 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.6 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.7 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.8 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.9 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.10 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.11 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.12 Klage von Karl Kraus gegen 1.) den Schriftleiter Otto Schnabbel, 2.) den Zeitungsverleger Hermann Hartmeyer, Streitgegenstand: 2000</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.13 Privatanklage von Karl Kraus gegen Otto Schnabbel (RA E. Lion an das Amtsgericht Hamburg)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.14 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.15 Brief Otto Schabbel an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.16 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.17 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.18 Brief RA H. Wahnschaff an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.19 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.20 Brief Otto Schabbel an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.21 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.23 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-023-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.24 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.25 Postkarte RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-025-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.26 Postkarte RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-026-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.27 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-027-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.28 Brief RA E. Lion an Hamburger Nachrichten (RA Werner Bintz)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.29 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-029-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.30 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-030-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.31 Schriftsatz in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA Werner Bintz an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-031-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.32 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-032-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.34 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-034-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.35 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-035-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.37 Schriftsatz in Sachen Karl Kraus gegen Otto Schabbel, Hermann Hartmeyer (RA Werner Bintz an das Landgericht Hamburg, Z. XI 566/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-037-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.38 Urteil des Amtsgericht Hamburg (15. P. No. 69/29, Richter: […] Buhl)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-038-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.39 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.40 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-040-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.41 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-041-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.42 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-042-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.43 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-043-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.44 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-044-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.45 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-045-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.46 Brief RA E. Lion an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-046-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.47 Brief RA E. Lion an RA Werner Bintz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-047-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>130.48 Brief Samek an RA E. Lion</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-048-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>137.2 Brief Samek an Neues Wiener Journal (verantw. Red. Desiderius Papp)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000137-002-000.xml"/></linkGrp></event></listEvent></place></listPlace></back></text>
 </TEI>

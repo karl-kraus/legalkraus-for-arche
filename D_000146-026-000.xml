@@ -1,454 +1,107 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000146-026-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-025-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-027-000.xml">
-<teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>[Kostenfestsetzung] des Landgerichts III Berlin</title>
-                <editor ref="#pmbAR">Alexandra Rausch</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name full="yes" instant="false">Austrian Centre for Digital Humanities and
-                        Cultural Heritage, Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name full="yes" instant="false">Ludwig Boltzmann Institut für Digital
-                        History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name full="yes" instant="false">Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date instant="false">2021</date>
-                <availability default="false">
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000146-026-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4000</idno>
-                <idno type="ID" subtype="transkribus">290691</idno>
-            </publicationStmt>
-            <seriesStmt default="false">
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000146">Karl
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-027-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-025-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000146-026-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>146.26 [Kostenfestsetzung] des Landgerichts III Berlin</title>
+            <editor ref="#pmbAR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000146-026-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4000</idno>
+            <idno subtype="transkribus" type="ID">290691</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000146" type="collection">Karl
                     Kraus ca. Ernst Josef Aufricht (Theater am Schiffbauerdamm, Berlin)</title>
-            </seriesStmt>
-            <sourceDesc default="false">
-                <listWit>
-                    <witness xml:id="D_000146-026-000-wit01" facs="#D_000146-026-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date type="sortDate" when-iso="1931-03-23" subtype="produced" instant="false">23.
-                    März 1931</date>
-            </creation>
-            <langUsage default="false">
-                <language ident="de">Deutsch</language>
-            </langUsage>
-            <textClass default="false"/>
-            <particDesc default="false"/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-10-08T15:09:21.182Z" who="#IB" status="draft">created by
-                API</change>
-            <change when-iso="2020-10-08T15:14:40.771Z" who="#IB" status="draft">Replaced Text with
-                Transcription of Transkribus Document 290691.</change>
-            <change type="header" when-iso="2021-08-13" who="#AR" status="draft"/>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000146-026-000-facs001">
-        <surfaceGrp xml:id="D_000146-026-000-facs001-l001">
-            <surface xml:id="D_000146-026-000-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000153_20.jpg" source="krausonline"/>
-            </surface>
-            <surface xml:id="D_000146-026-000-facs001-l001-p002" type="verso">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000154_14.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <pb n="1" facs="#D_000146-026-000-facs001-l001-p001"/>
-            <lb xml:id="uuid_76932cdd-49a4-43d1-932c-dd49a483d1d1"/>3.0.2007.31/3 <lb xml:id="uuid_b978b185-2ec5-4d4a-b8b1-852ec5dd4af5"/>des Schriftstellers <rs type="person" ref="#pmb11988">Karl Kraus</rs>, Wien
-            III. Hintere Zoll- <lb xml:id="uuid_d88c3d47-41f2-4fe9-8c3d-4741f26fe964"/>amtsstr. 3,
-                <lb xml:id="uuid_cc5faa8d-48f6-4285-9faa-8d48f6a285e4"/>Klägers, <lb xml:id="uuid_1c97ca66-529b-4e0c-97ca-66529b2e0c41"/>– Prozeßbevollmächtigte:
-            Rechtsanwalte Dr. <rs type="person" ref="#pmb38969">Botho
-                Laserstein</rs> u. Gerhard <lb xml:id="uuid_213ae526-56d8-4367-bae5-2656d8f36787"/>Badrian in Berlin NO 18, Landsberger Allee 55 <lb xml:id="uuid_1d8eda55-fbbd-4e16-8eda-55fbbd6e16a0"/>gegen den Theaterdirektor <rs type="person" ref="#pmb37761">Ernst Josef
-                Aufricht</rs> in Berlin <lb xml:id="uuid_4d3eb758-7952-49a0-beb7-58795249a022"/>W.,
-            Landauer Str. 4, <lb xml:id="uuid_76d58fbd-4dc9-4433-958f-bd4dc9a4330f"/>Beklagten, <lb xml:id="uuid_896e4e33-d9ee-4c17-ae4e-33d9ee9c1796"/>werden die von dem Beklagten <lb xml:id="uuid_bb58c6b3-12da-4892-98c6-b312da489281"/>an den Kläger <lb xml:id="uuid_bd65437e-240f-4463-a543-7e240f2463da"/>Landgerichts III <lb xml:id="uuid_4e4798a7-61d9-40bb-8798-a761d920bb44"/>in Berlin vom 2. März 1931 <lb xml:id="uuid_33ff3ad0-010f-4e24-bf3a-d0010f2e2449"/>zu erstattenden – in der Anlage
-            berechneten – Kosten auf 213 RM 75 Rpf <lb xml:id="uuid_97aae685-1ff8-4c26-aae6-851ff8ac2685"/>(in Worten: zweihundertdreizehn
-            75/100 Reichsmark) <lb xml:id="uuid_037f5bef-d7c6-4268-bf5b-efd7c652688f"/>B.-Charlottenburg, den 13. März 1931 <lb xml:id="uuid_6263077d-61aa-4fc7-a307-7d61aa5fc722"/>(gez.) Hohn, Justizinspektor <lb xml:id="uuid_b432f97e-7a35-491a-b2f9-7e7a35b91ae0"/>Berlin-Charlottenburg, den 23.
-            März 1931 <lb xml:id="uuid_2a9205eb-5262-4942-9205-eb5262a94283"/>[Unterschrift] <lb xml:id="uuid_56405851-6f69-4d1f-8058-516f69dd1fb4"/>Justizangestellter <lb xml:id="uuid_bd259bda-0994-4b5b-a59b-da09943b5bac"/>als Urkundsbeamter der
-            Geschäftsstelle des Landgerichts. III <pb n="2" facs="#D_000146-026-000-facs001-l001-p002"/>
-            <lb xml:id="uuid_2706348a-b7a6-48e7-8634-8ab7a658e7c4"/>Mk. 46,10 (Sechsundvierzig
-            10/100) <lb xml:id="uuid_22d7ec10-1473-46c0-97ec-10147326c02c"/>sind auf diesen
-            Schuldtitel zur Hebung <lb xml:id="uuid_bd956462-4f13-4827-9564-624f13782737"/>gelangt
-                <lb xml:id="uuid_2f36aba2-360f-4c8f-b6ab-a2360f5c8fea"/>Berlin-Steglitz, 16. Juni
-            31. <lb xml:id="uuid_636e07b8-3ba8-4624-ae07-b83ba8a624b2"/>[Unterschrift] <lb xml:id="uuid_a5938703-1a72-4280-9387-031a72828096"/>Ger.Vollz. <lb xml:id="uuid_6d70de45-68d1-47c3-b0de-4568d197c343"/>Vorstehende Ausfertigung wird
-            dem Kläger <lb xml:id="uuid_ef72008d-e197-4bf6-b200-8de1973bf690"/>fertigung des
-            Beschlusses dem Beklagten <lb xml:id="uuid_3ee4316b-9890-4c26-a431-6b98906c263d"/>am 25.
-            III. 1931 <lb xml:id="uuid_2f22f1b9-7f16-4a89-a2f1-b97f162a89e0"/>Charlottenburg, den
-            27.III.1931 <lb xml:id="uuid_949c3de2-c5c8-4c49-9c3d-e2c5c84c4939"/>[Unterschrift],
-            [Unterschrift] </body>
-    <back><listPerson><person xml:id="pmb11988">
-  <persName>
-      <forename>Karl</forename>
-      <surname>Kraus</surname>
-  </persName>
-
-  <persName type="pseudonym">Berdach J.</persName>
-
-
-  <birth>
-    <date when-iso="1874-04-28">28.04.1874</date>
-  
-  
-      <settlement key="pmb41660">
-        <placeName type="pref">Jičín</placeName>
-      
-        <location><geo>50,43723 15,35162</geo></location>
-      
-      </settlement>
-      
-       
-  </birth>  
-
-
-  <death>
-    <date when-iso="1936-06-12">12.06.1936</date>
-      
-      
-      <settlement key="pmb50">
-        <placeName type="pref">Wien</placeName>
-        
-        <location><geo>48,2066 16,37341</geo></location>
-      
-      </settlement>
-      
-      
-  </death>
-
-
-  <sex value="male"/>
-
-
-  <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
-
-  <occupation key="237">Publizist/Publizistin</occupation>
-
-
-  <idno type="URL" subtype="astb">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17108</idno>
-
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118566288</idno>
-
-  <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11988</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/11988</idno>
-
-  <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11988</idno>
-
-
-<affiliation>
-    <term key="1182">arbeitet für</term>
-    <orgName key="pmb29308">Die Fackel</orgName>
-    
-    <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29308</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/29308</idno>
-    
-    <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29308</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1153">in Relation zu</term>
-    <orgName key="pmb50728">Buchhandlung Richard Lányi</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/50728/</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1409">ist Eigentümer*in von</term>
-    <orgName key="pmb43724">Verlag Die Fackel (Wien)</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43724/</idno>
-    
-    <idno type="URL">https://d-nb.info/gnd/16063972-4</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/43724</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1153">in Relation zu</term>
-    <orgName key="pmb36757">Amtsgericht Hamburg</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36757/</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36757</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1153">in Relation zu</term>
-    <orgName key="pmb36828">Landgericht Hamburg</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36828/</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36828</idno>
-    
-</affiliation>
-
-
-<listEvent>
-    
-    <event key="40436" when-iso="1893-01-14">
-        <desc n="1256">ist Arbeitskraft bei</desc>
-        <label>Aufführung von Die Räuber, 14.1.1893</label>
-        
-        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/40436/</idno>
-        
-        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/40436</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000146-026-000-facs001" xml:id="D_000146-026-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000146-026-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.D">Druck</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-03-23">23. März 1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000146-026-000-wit01">Kostenfestsetzung</term>
+            </keywords>
+            <classCode source="D_000146-026-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.KFS">D.J.KFS</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-08T15:09:21.182Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-08T15:14:40.771Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 290691. </change>
+         <change status="draft" type="header" when-iso="2021-08-13" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000146-026-000-facs001">
+      <surfaceGrp xml:id="D_000146-026-000-facs001-l001">
+         <surface type="recto" xml:id="D_000146-026-000-facs001-l001-p001">
             
-    </event>
-    
-    <event key="42714" when-iso="1905-05-29">
-        <desc n="1256">ist Arbeitskraft bei</desc>
-        <label>Geschlossene Aufführung Die Büchse der Pandora, 29.5.1905</label>
-        
-        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/42714/</idno>
-        
-        <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/42714</idno>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542222/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000146-026-000-facs001-l001-p002">
             
-    </event>
-    
-</listEvent>
-
-
-<listBibl>
-    
-    <bibl type="collections" n="3">Manuell angelegt</bibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-</person><person xml:id="pmb38969">
-  <persName>
-      <forename>Botho</forename>
-      <surname>Laserstein</surname>
-  </persName>
-
-  <persName type="uri_gnd">http://d-nb.info/gnd/119035197</persName>
-
-  <persName type="uri_wikipedia">https://de.wikipedia.org/wiki/Botho_Laserstein</persName>
-
-
-  <birth>
-    <date when-iso="1901-07-31">31.07.1901</date>
-  
-  
-      <settlement key="pmb49582">
-        <placeName type="pref">Chemnitz</placeName>
-      
-        <location><geo>50,8357 12,92922</geo></location>
-      
-      </settlement>
-      
-       
-  </birth>  
-
-
-  <death>
-    <date when-iso="1955-03-09">09.03.1955</date>
-      
-      
-      <settlement key="pmb863">
-        <placeName type="pref">Düsseldorf</placeName>
-        
-        <location><geo>51,22172 6,77616</geo></location>
-      
-      </settlement>
-      
-      
-  </death>
-
-
-  <sex value="male"/>
-
-
-  <occupation key="106">Rechtsanwalt/Rechtsanwältin</occupation>
-
-  <occupation key="160">Richter/Richterin</occupation>
-
-  <occupation key="237">Publizist/Publizistin</occupation>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/38969/</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/38969</idno>
-
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>Widerspruchsschrift</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in Sachen Kerr ./. Kraus (RA Botho Laserstein an das Landgericht I Berlin, G. Z. Q 164/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Landgerichts I Berlin (G. Z. Q 164/28; Richter: Landgerichtsdirektor […] Weigert, Anklagevertreter: Wenzel Goldbaum, Verteidiger: Botho Laserstein)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-029-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-031-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-034-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-035-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-040-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Kampfausschuss gegen die Zensur an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-041-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-047-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-049-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-051-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-054-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-056-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-058-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Verlag Die Fackel an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-007-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in Sachen Kraus ./. Wolff (RA Botho Laserstein an das Amtsgericht
-                    Berlin-Mitte, G. Z. 149 B 709/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Amtsgerichts Berlin-Mitte (G. Z. 149 B 709/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Radiogramm RA Botho Laserstein an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in der Privatklagesache Kraus ./. Wolff (RA Otto Landsberg an das
-                    Amtsgericht Berlin-Mitte, G. Z. 149 B 709/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Verlag Die Fackel an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in Sachen Kraus ./. Wolff (RA Botho Laserstein an das Amtsgericht
-                    Berlin-Mitte, G. Z. 149 B 709/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in Sachen Kraus ./. Wolff (RA Otto Landsberg an das Amtsgericht
-                    Berlin-Mitte, G. Z. 149 B 709/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-019-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in Sachen Kraus ./. Wolff (RA Otto Landsberg an das Amtsgericht
-                    Berlin-Mitte, G. Z. 149 B 709/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Rolf Nürnberg an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Rolf Nürnberg an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-026-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz [Berufung] in Sachen Kraus ./. Wolff (RA Botho Laserstein an das
-                    Amtsgericht Berlin-Mitte, G. Z. 149 B 709/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Elfride Schmaltz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-030-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-031-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-033-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-034-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-035-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-036-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag von RA Botho Laserstein an das Landgericht I Berlin</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-037-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-038-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-039-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-040-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in Sachen Kraus ./. Wolff (RA Botho Laserstein an das Landgericht
-                    I Berlin, G. Z. P. / )</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-041-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Oberstaatsanwaltschaft Landgericht I Berlin an RA Botho
-                    Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-044-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-045-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Telegramm RA Botho Laserstein an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-046-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-047-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Verlag Die Fackel an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-049-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-050-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Willy Katz an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-051-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Elfride Schmaltz an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-052-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Elfride Schmaltz an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-055-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Elfride Schmaltz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-056-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Elfride Schmaltz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-057-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Willy Katz an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-058-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Willy Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-060-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Willy Katz an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-062-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-063-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Willy Katz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-064-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-065-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Willy Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-067-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-068-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-069-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Willy Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-070-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Willy Katz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-071-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Willy Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-072-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-073-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-074-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Willy Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-075-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Willy Katz an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-078-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-079-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-080-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Klage von Verlag Die Fackel gegen Verlag Rudolf Mosse (Amtsgericht
-                    Berlin-Mitte)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000113-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz [Erwiderung] in Sachen Die Fackel ./. Mosse (RA Botho Laserstein
-                    an das Amtsgerichts Berlin-Mitte, G. Z. 25C 135/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000113-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Beschluss] des Amtsgerichts Berlin-Mitte (G. Z. 25C 135/28)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000113-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Originalmappe Oskar Samek - Akt 113</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000113-013-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Hamburger Nachrichten</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000114-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Hamburger Nachrichten</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000114-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Berichtigung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000114-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000122-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000122-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000122-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000122-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000122-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000122-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000122-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Aktenvermerk Oskar Samek - Akt 122</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000122-022-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Strafanzeige gegen Tagebuch (verantw. Red. Josef Bernstein) wegen § 19
-                    Reichspressgesetz (eingebracht von Botho Laserstein beim Generalstaatsanwalt
-                    Landgericht I Berlin)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000131-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in Sachen Die Fackel ./. Die Volksbühne (RA Botho Laserstein an
-                    das Landgericht I. Berlin, G. Z. 0.549/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000136-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in Sachen Die Fackel ./. Die Volksbühne (RA Botho Laserstein an
-                    das Landgericht I. Berlin, G. Z. 0.549/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000136-017-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in Sachen Die Fackel ./. Die Volksbühne (RA Botho Laserstein an
-                    das Landgericht I. Berlin, G. Z. 0.549/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000136-020-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in Sachen Die Fackel ./. Die Volksbühne (RA Botho Laserstein an
-                    das Landgericht I. Berlin, G. Z. 0.549/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000136-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in Sachen Die Fackel ./. Die Volksbühne (RA Botho Laserstein an
-                    das Landgericht I. Berlin, G. Z. 0.549/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000136-022-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Landgerichts I Berlin (G. Z. 0.549/29, Vorsitz:
-                    Landgerichtsdirektor […] Weigert)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000136-024-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in Sachen Kraus ./. Berliner Lokalanzeiger (RA Botho Laserstein
-                    an den Generalstaatsanwalt beim Landgericht I Berlin, G. Z. 1 J.
-                    1209/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000141-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Klage von Karl Kraus gegen Ernst Josef Aufricht wegen 2753,45 RM (RA Botho
-                    Laserstein an das Landgericht III Berlin)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Landgerichts I Berlin (G. Z. 3.0.2007. 31/2., Vorsitz:
-                    Landesgerichtsrat […] Püschel)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Kostenfestsetzung] des Landgerichts III Berlin</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-026-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Abschrift des Auftrags zur Zwangsvollstreckung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-027-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Gustav Schoeps an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Umschlag</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-028-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Eidesstattliche Versicherungen von Margot Aufricht, Emma Schoeps und Gustav
-                    Schoeps</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-029-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz [Antrag] in Sachen Kraus ./. Aufricht (RA Botho Laserstein an das
-                    Amtsgerichts Berlin-Mitte)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-037-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in Sachen Kraus ./. Aufricht (RA Botho Laserstein an das
-                    Amtsgerichts Berlin-Charlottenburg, G. Z. M. 4060/31)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-040-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in Zwangsvollstreckungssachen Kraus ./. Aufricht (RA Gustav
-                    Schoeps an das Amtsgericht Berlin-Charlottenburg, G. Z. 19. M. 4060/31)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-045-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Amtsgerichts Berlin-Charlottenburg (G. Z. 15.M. 1844/31, […]
-                    Kirchhoff)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-047-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landgerichts III Berlin (G. Z. 2. T. 3158. 31, […] Skopnik und
-                    […] Schwing)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-051-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Mitteilung] des Generalstaatsanwalts (Landgericht I Berlin)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000156-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000156-004-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Originalmappe Oskar Samek - Akt 156</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000156-004-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Willy Katz, siehe 165.1</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000164-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Willy Katz, siehe 164.3.</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000165-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Telegramm RA Botho Laserstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000166-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Telegramm RA Botho Laserstein an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000166-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000166-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000166-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000166-005-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Karl Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000166-006-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Antrag auf Erlass einer einstweiligen Verfügung (an das Landgericht I
-                    Berlin)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000166-008-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Kurt Rosenfeld an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000166-009-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Karl Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000166-010-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Samek</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000166-011-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000166-012-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Verlag Die Fackel an Ruth Seydewitz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000166-014-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Kurt Rosenfeld an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000166-015-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Verlag Die Fackel</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000166-016-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in Sachen Kraus ./. Landsberg (RA Willy Katz an das Amtsgericht
-                    Berlin-Mitte, G. Z. 148 B 808/31)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000168-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in Sachen Kraus ./. Landsberg (RA Otto Landsberg an das
-                    Amtsgericht Berlin-Mitte, G. Z. 148 B 808/31)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000168-003-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Willy Katz</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000168-004-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Botho Laserstein an Kraus</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000170-001-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000170-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief Samek an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000170-003-000.xml"/></linkGrp></event></listEvent></person><person xml:id="pmb37761">
-  <persName>
-      <forename>Ernst Josef</forename>
-      <surname>Aufricht</surname>
-  </persName>
-
-  <persName type="uri_gnd">http://d-nb.info/gnd/118651064</persName>
-
-  <persName type="uri_wikipedia">https://de.wikipedia.org/wiki/Ernst_Josef_Aufricht</persName>
-
-
-  <birth>
-    <date when-iso="1898-08-31">31.08.1898</date>
-  
-  
-      <settlement key="pmb37763">
-        <placeName type="pref">Beuthen</placeName>
-      
-        <location><geo>50,34802 18,93282</geo></location>
-      
-      </settlement>
-      
-       
-  </birth>  
-
-
-  <death>
-    <date when-iso="1971-07-24">24.07.1971</date>
-      
-      
-      <settlement key="pmb56147">
-        <placeName type="pref">Cannes</placeName>
-        
-        <location><geo>43,55135 7,01275</geo></location>
-      
-      </settlement>
-      
-      
-  </death>
-
-
-  <sex value="male"/>
-
-
-  <occupation key="104">Regisseur/Regisseurin</occupation>
-
-  <occupation key="105">Schauspieler/Schauspielerin</occupation>
-
-  <occupation key="715">Theaterdirektor/Theaterdirektorin</occupation>
-
-
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37761/</idno>
-
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37761</idno>
-
-
-<affiliation>
-    <term key="1182">arbeitet für</term>
-    <orgName key="pmb37011">Theater am Schiffbauerdamm</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37011/</idno>
-    
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37011</idno>
-    
-</affiliation>
-
-<affiliation>
-    <term key="1153">in Relation zu</term>
-    <orgName key="pmb57633">Neue Theaterbetriebes-G.m.b.H.</orgName>
-    
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/57633/</idno>
-    
-</affiliation>
-
-
-
-<listBibl>
-    
-    <bibl type="collections" n="5">legalkraus</bibl>
-    
-</listBibl>
-
-
-
-<listEvent><event type="mentioned"><p>erwähnt in <title>[Zahlungsverpflichtung] an Herrn Karl Kraus von Berthold Viertel, Ludwig Münz und Ernst Josef Aufricht</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000098-002-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in Sachen Die Fackel ./. Die Volksbühne (RA Walter Alexander
-                    Abelsdorff an das Landgericht I. Berlin, G. Z. 0.549/29)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000136-013-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Klage von Karl Kraus gegen Ernst Josef Aufricht wegen 2753,45 RM (RA Botho
-                    Laserstein an das Landgericht III Berlin)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-018-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Urteil des Landgerichts I Berlin (G. Z. 3.0.2007. 31/2., Vorsitz:
-                    Landesgerichtsrat […] Püschel)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-021-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Kostenfestsetzung] des Landgerichts III Berlin</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-026-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Abschrift des Auftrags zur Zwangsvollstreckung</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-027-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Brief RA Gustav Schoeps an RA Botho Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-028-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Umschlag</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-028-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Eidesstattliche Versicherungen von Margot Aufricht, Emma Schoeps und Gustav
-                    Schoeps</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-029-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz [Antrag] in Sachen Kraus ./. Aufricht (RA Botho Laserstein an das
-                    Amtsgerichts Berlin-Mitte)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-037-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in Sachen Kraus ./. Aufricht (RA Botho Laserstein an das
-                    Amtsgerichts Berlin-Charlottenburg, G. Z. M. 4060/31)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-040-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Beschluss] des Amtsgerichts Berlin-Charlottenburg (G. Z. 19.M.
-                    4060/31)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-041-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>[Protokoll] des Offenbarungseides von Ernst Josef Aufricht (Amtsgerichts
-                    Berlin-Charlottenburg, G. Z. M. 4060/31, Richter: Egel)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-042-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Umschlag</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-042-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Schriftsatz in Zwangsvollstreckungssachen Kraus ./. Aufricht (RA Gustav
-                    Schoeps an das Amtsgericht Berlin-Charlottenburg, G. Z. 19. M. 4060/31)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-045-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Eidesstattliche Versicherung von Ernst Josef Aufricht</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-046-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Amtsgerichts Berlin-Charlottenburg (G. Z. 15.M. 1844/31, […]
-                    Kirchhoff)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-047-000.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Mitteilung des Amtsgerichts Berlin-Charlottenburg an RA Botho
-                    Laserstein</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-047-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Beschluss des Landgerichts III Berlin (G. Z. 2. T. 3158. 31, […] Skopnik und
-                    […] Schwing)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-051-000.xml"/></linkGrp></event></listEvent></person></listPerson></back></text>
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542223/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

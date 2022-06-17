@@ -1,441 +1,137 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000177-008-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000177-007-000.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000177-009-000.xml">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Brief Emil Franzel an Paul A. Pisk</title>
-                <editor ref="#pmbJK">Johannes Knüchel</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher/>
-                <availability default="false">
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000177-008-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4404</idno>
-                <idno type="ID" subtype="transkribus">349141</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000177">Unterlagen zu einer den Prozess Pisk – Kraus betreffenden Kontroverse zwischen
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000177-009-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000177-007-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000177-008-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>177.8 Brief Emil Franzel an Paul A. Pisk</title>
+            <editor ref="#pmbJK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                  Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000177-008-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4404</idno>
+            <idno subtype="transkribus" type="ID">349141</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000177" type="collection">Unterlagen zu einer den Prozess Pisk – Kraus betreffenden Kontroverse zwischen
                     Emil Franzel und Oskar Pollak</title>
-            </seriesStmt>
-            <sourceDesc default="false">
-                <listWit>
-                    <witness xml:id="D_000177-008-000-wit01" facs="D_000177-008-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-10-09T14:41:09.172Z" who="#IB" status="draft">created by
-                API</change>
-            <change when-iso="2021-09-06" who="#LU">Replaced Text with Transcription of Transkribus
-                Document 349141.</change>
-            <change when-iso="2021-11-29" type="header_facsimile" who="#JK"/>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000177-008-000.xml-facs001">
-        <surfaceGrp xml:id="D_000177-008-000.xml-facs001-l001">
-            <surface xml:id="D_000177-008-000.xml-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/zph-1545_177_7_0003.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-        <surfaceGrp xml:id="D_000177-008-000.xml-facs001-l002">
-            <surface xml:id="D_000177-008-000.xml-facs001-l002-p002" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/zph-1545_177_7_0004.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-        <surfaceGrp xml:id="D_000177-008-000.xml-facs001-l003">
-            <surface xml:id="D_000177-008-000.xml-facs001-l003-p003" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/zph-1545_177_7_0005.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-        <surfaceGrp xml:id="D_000177-008-000.xml-facs001-l004">
-            <surface xml:id="D_000177-008-000.xml-facs001-l004-p004" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/zph-1545_177_7_0006.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-        <surfaceGrp xml:id="D_000177-008-000.xml-facs001-l005">
-            <surface xml:id="D_000177-008-000.xml-facs001-l005-p005" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/zph-1545_177_7_0007.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-        <surfaceGrp xml:id="D_000177-008-000.xml-facs001-l006">
-            <surface xml:id="D_000177-008-000.xml-facs001-l006-p006" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/zph-1545_177_7_0008.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-        <surfaceGrp xml:id="D_000177-008-000.xml-facs001-l007">
-            <surface xml:id="D_000177-008-000.xml-facs001-l007-p007" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/zph-1545_177_7_0009.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="D_000177-008-000.xml-facs001-l001-p001" n="1"/>
-            <!--<lb xml:id="uuid_31a2f73d-babd-49b5-8de9-8b203a70c691"/>Dr. <rs type="person" ref="#pmb38144">Emil Franzel</rs> <rs type="place" ref="#pmb652">Prag</rs>, 25. Juli
-            1932 <lb xml:id="uuid_1367dc0d-119b-47ad-8b97-659a79542d94"/>Herrn <lb
-                xml:id="uuid_b679d0f5-e22d-43ac-8aa8-2445e6cd89cf"/>Dr. Paul A. Pisk <lb
-                xml:id="uuid_835e555e-b3f0-438a-9d84-63d6b4521210"/>Wien IV. <lb
-                xml:id="uuid_3f35d728-202c-461f-a4b4-021d33db0d46"/>Schleifmühlgasse 19/16 <lb
-                xml:id="uuid_ab12ae71-c608-4d38-966d-11b7b6429bc7"/>Ich habe selbstverständlich
-            nicht das geringste dagegen, dass Sie <lb
-                xml:id="uuid_efc3b394-e625-4952-8865-d3257fba976b"/>von einem angeblichen Recht,
-            mein Schreiben an die Arbeiter-Sängerzeitung <lb
-                xml:id="uuid_02a17121-316e-4792-8aab-88dc824fd53f"/>zu benützen, wenngleich dieses
-            Recht nicht Ihnen, sondern dem Adressaten <lb
-                xml:id="uuid_3bea0f31-ee34-41fe-92e2-286678a8fb56"/>eingeräumt worden war, den
-            Gebrauch gemacht haben, das Schreiben an die <lb
-                xml:id="uuid_3db63f4b-b383-48d2-8a93-033c0a284dd2"/>entsprechende Parteiinstanz
-            weiterzuleiten. Da ich aber nicht annehmen <lb
-                xml:id="uuid_dac9bc5a-8d6a-4bc2-a622-32fe91d08ffa"/>kann, dass Sie meinen Wunsch,
-            auch dieses Schreiben, in dem ich mich un- <lb
-                xml:id="uuid_dcf39aa6-3870-44aa-9dbd-649e1fb5697e"/>mittelbar an Sie wende, an die
-            betreffende Parteiinstanz weiterzuleiten, <lb
-                xml:id="uuid_baf93c35-d3bc-4d66-aedc-dcf1a42bd73b"/>nachkommen werden, will ich dies
-            selbst besorgen, um zu erproben, ob es <lb
-                xml:id="uuid_9af451b3-ec12-4492-944a-58d0421dc1c0"/>Ihnen auf die Dauer gelingen
-            könnte, die Partei mit der Darstellung einer <lb
-                xml:id="uuid_6f6b06b3-414a-40c2-a751-08ad712b177b"/>Wirksamkeit hinters Licht zu
-            führen, deren Skandal offenkundig ist. <lb
-                xml:id="uuid_5dba0390-2e62-4e1c-9c56-167db15c713b"/>##Böhm_start##Ich habe, wie Sie
-            schreiben, „Anwürfe“ gegen Sie erhoben und diese, <lb
-                xml:id="uuid_27cfab8c-3531-418a-82ae-3cfc7e0455ec"/>wie Ihnen scheint, aus
-            „durchsichtigen Gründen“ an die Schriftleitung der <lb
-                xml:id="uuid_87d1b08c-c1d3-4457-a2df-fbcd37890236"/>Teplitzer
-            Arbeiter-Sängerzeitung, statt an die sozialdemokratische Partei <lb
-                xml:id="uuid_aeb5a87d-16a4-49cf-b8e7-9b58fa0757cb"/>in Wien gerichtet. Warum
-            Beschuldigungen, deren Inhalt Sie zur Hälfte doch <lb
-                xml:id="uuid_c27ab4e1-3fcb-4ff1-bc03-27470ff4ed92"/>selbst als der Wahrheit
-            entsprechend anerkennen, zur andern Hälfte mit un- <lb
-                xml:id="uuid_179fe915-92f9-4eb2-b798-c66b1f6e1ac0"/>tauglichen Mitteln als
-            wahrheitswidrig hinzustellen suchen, „Anwürfe“ heis- <lb
-                xml:id="uuid_07e7534c-de85-4bcf-843f-8d1f8691938c"/>sen sollen, ist mir so wenig
-            verständlich wie die Unterschiebung „durch- <lb
-                xml:id="uuid_7293da15-9cc1-4c52-bd88-862e6ca955c8"/>sichtiger Motive“, wo es sich um
-            die klar zutage liegende und keiner wei- <lb
-                xml:id="uuid_0127b4cb-889d-4492-918b-9bb509ecb1ab"/>teren Deutung bedürfende Mission
-            eines Mitgliedes und verantwortlichen <lb
-                xml:id="uuid_32ebb864-d51e-4b63-913f-755e7501799f"/>Funktionärs der DSAP in der
-            tschechoslovakischen Republik handelte, einer <lb
-                xml:id="uuid_875a933f-9855-4f50-9eeb-24619fea1644"/>im Bereich dieser Partei
-            liegenden sozialdemokratischen Redaktion, die von <lb
-                xml:id="uuid_58bbfa89-20c8-456e-9ee4-0449500407fd"/>Ihrem Wirken anscheinend keine
-            hinreichende Kenntnis besass, diese zu ver- <lb
-                xml:id="uuid_c66ba3db-2d34-4369-9cc1-a60817106d26"/>mitteln. Dabei stützte ich mich
-            auf die Beschlüsse und die Praxis des Par- -->
-            <pb facs="D_000177-008-000.xml-facs001-l002-p002" n="2"/>
-            <!--<lb xml:id="uuid_600c03c8-a64a-474a-827f-34a373b5d7fa"/>II. <lb
-                xml:id="uuid_2b67a489-15df-4737-92a2-6cf42ed64a0c"/>teivorstandes der deutschen
-            Sozialdemokratie in der Tschechoslovakei, <lb
-                xml:id="uuid_9478806c-e4df-484a-b9fd-4bc3e8c1c08b"/>der in Uebereinstimmung mit der
-            allgemeinen und politischen Moral kon- <lb
-                xml:id="uuid_bb0d9b6b-a9c9-49e9-a560-94fe59fc7c99"/>sequent auf dem Standpunkt
-            steht, dass die Mitarbeit eines Sozialdemo- <lb
-                xml:id="uuid_08f31fd8-2709-4c99-8aa3-4f41c5c6209b"/>kraten an einem bürgerlichen
-            Blatt, mag er Journalist, Pauschalist, oder <lb
-                xml:id="uuid_1e78e35a-f20f-4b5a-bcda-6e558c945085"/>was immer sein, wenn er nur
-            Genosse ist, gegen die Parteigrundsätze ver- <lb
-                xml:id="uuid_d2f1609f-8d3d-4111-92f1-2f9eb713539f"/>stösst. Der Parteivorstand hat
-            weder von dem Begriff der bürgerlichen <lb
-                xml:id="uuid_75c58e1b-94d2-41d4-95d5-7e5ba269c2ba"/>Presse noch von dem des
-            Genossen, dem er die Mitarbeit an ihr verwehrt, <lb
-                xml:id="uuid_b6dd6a80-75d6-4f69-bdb8-55ff49c50c2b"/>jemals eine Ausnahme gemacht und
-            ich glaube nicht, dass er sie etwa für <lb
-                xml:id="uuid_35f46661-f30e-41e8-9e63-943d47c975f2"/>ein ausgesprochenes
-            Hakenkreuzlerblatt machen würde. Hatte ich hier eine <lb
-                xml:id="uuid_6fa22b34-3788-4be8-9677-53d3e6984c80"/>parteigenössische und
-            moralische, wenn Sie wollen, sogar eine amtliche <lb
-                xml:id="uuid_d4ac3d42-13ef-475e-ad41-2768dd734cc8"/>Mission zu erfüllen, so war es
-            andererseits nicht meine Aufgabe, Ihre Hal- <lb
-                xml:id="uuid_832fef0d-ecac-45f4-a7ce-6142c23191ef"/>tung als Sozialdemokrat vor der
-            sozialdemokratischen Partei in Wien zu <lb
-                xml:id="uuid_f67077fc-501c-411c-b930-32965b8236c5"/>erörtern; die Redaktion der
-            Arbeiter-Zeitung verwahrt sich ja auch in ei- <lb
-                xml:id="uuid_6a8d55b4-4640-4f9f-80cb-8dcf6aa55905"/>nem, mir inzwischen zur Kenntnis
-            gelangten Schreiben dagegen, dass ich den <lb
-                xml:id="uuid_6c78796d-a788-4f46-9b89-ac9210188022"/>„Sittenrichter“ über Mitglieder
-            ihrer Redaktion spiele##Böhm_ende##. <lb
-                xml:id="uuid_19a3f99b-596e-449e-bd2c-38c06224a73f"/>Ganz recht haben Sie dagegen mit
-            der Behauptung, dass meine An- <lb xml:id="uuid_05191cbc-d574-41b5-a7f9-edb776d8b8dc"
-            />würfe gegen Sie dieselben sind, die Herr Karl Kraus in einem Prozess, den <lb
-                xml:id="uuid_ff279703-b1b3-4c01-ad7e-e8d1400ebc09"/>Sie gegen ihn wegen
-            Ehrenbeleidigung geführt haben, erhoben hatte. Rich- <lb
-                xml:id="uuid_fa2e55ec-1fdc-4623-aebc-0a83fb8a0ee6"/>tig ist auch, dass Herr Karl
-            Kraus der sozialdemokratischen Partei nicht <lb
-                xml:id="uuid_d0beb81e-bdab-4a0d-b262-2281e78b39b2"/>angehört, nicht einzusehen aber
-            ist, warum jemand, der ausserhalb der So- <lb
-                xml:id="uuid_920dbaeb-aaeb-4087-b191-4b96a08fc844"/>zialdemokratie steht, das Greuel
-            der gleichzeitigen Wirksamkeit für ihr <lb
-                xml:id="uuid_bf9c5c1a-5862-4278-a09a-b7eb717b3e92"/>Blatt und für ein
-            Hakenkreuzlerblatt nicht ermessen könnte, und vollends <lb
-                xml:id="uuid_454e3fd6-bcf1-451e-abf3-4f6c3ec0509e"/>wäre wohl jedem andern eher als
-            Karl Kraus die moralische Kapazität zu <lb
-                xml:id="uuid_2d885935-6770-419f-9f89-47dc88a92b30"/>solchem Urteil abzusprechen. Ich
-            brauche Sie wohl nicht erst daran zu er- <lb
-                xml:id="uuid_b23ce4cb-1bb7-49bb-8684-58dfda24a474"/>innern, dass die
-            Arbeiter-Zeitung ehedem Karl Kraus, der damals so wenig <lb
-                xml:id="uuid_00e838e1-7269-443a-9d6d-6ec26e8af595"/>wie heute in der
-            sozialdemokratischen Partei organisiert war, ein morali- <lb
-                xml:id="uuid_4e4fbc85-d14c-4d19-beda-3bb35950a404"/>sches Richteramt gerade in
-            Fragen der publizistischen Sauberkeit zugebil- <lb
-                xml:id="uuid_cea511ae-a33a-4934-89f1-fa299021959e"/>ligt und dass der leider
-            verstorbene Chefredakteur der Arbeiter-Zeitung <lb
-                xml:id="uuid_d913218f-9d1a-46fb-9b0a-8d1d4f7b6037"/>in einer Polemik gegen den
-            nunmehrigen Chefredakteur jenes Urteil über -->
-            <pb facs="D_000177-008-000.xml-facs001-l003-p003" n="3"/>
-            <!--<lb xml:id="uuid_b3471213-bbe5-42ec-a6f0-b02b3c6370cb"/>III. <lb
-                xml:id="uuid_5e39185c-72f5-46cc-b7e9-7726b187129a"/>Karl Kraus erhärtet und für
-            jeden Sozialisten einwandfrei begründet <lb
-                xml:id="uuid_0d124ead-b58f-46a1-8a3e-a6d54b7fc99b"/>hat / wohingegen es unwahr ist,
-            dass <rs type="person" ref="#pmb37781">Friedrich Austerlitz</rs> je Ihre Mit- <lb
-                xml:id="uuid_b3b6859c-7566-45c8-9eb7-487fbc0e8cd1"/>arbeit an der Berliner
-            Börsen-Zeitung öffentlich gebilligt hat /. <lb
-                xml:id="uuid_91955f82-7974-433d-bce4-981896347aca"/>Um Ihnen aber auch am
-            entgegengesetzten Beispiel zu zeigen, dass <lb
-                xml:id="uuid_a215d6e1-1ee9-4e08-bfe0-2b80ed4031ce"/>man ausserhalb einer Partei
-            stehen und für das moralische Verhalten <lb
-                xml:id="uuid_bb3d45db-d614-42bd-87b0-301393ed3704"/>ihrer Mitglieder dennoch
-            Verständnis, oder vielmehr Empörung aufbrin- <lb
-                xml:id="uuid_82dd827e-c227-4032-92c6-ec48258a62a4"/>gen kann, will ich Ihnen, da wir
-            nun einmal in einer so bedeutsamen <lb
-                xml:id="uuid_f7d20407-5480-4c51-ae6d-e6c0420b3a91"/>prinzipiellen Auseinandersetzung
-            begriffen sind, berichten, dass ich <lb
-                xml:id="uuid_adaeeb3f-827f-4b55-b482-97eddcf505e5"/>wiederholt den
-            nationalsozialistischen Redakteur Max Karg / <rs type="place" ref="#pmb49331">Aussig</rs> / <lb
-                xml:id="uuid_0a7096d2-c5f6-4c72-989a-601b343856d3"/>wegen seiner Mitarbeit an
-            liberalen Zeitungen angegriffen habe und <lb
-                xml:id="uuid_41bf12a4-b4c4-47fc-8ad1-91fd841b1fa6"/>dass es mir, als er die
-            Redaktion des Sozialdemokrat wegen dieser sehr <lb
-                xml:id="uuid_6f3310e2-96b1-4f9d-97f0-b48e46f06a55"/>scharfen Angriffe vor ein
-            Ehrengericht der Reichsgewerkschaft der deut- <lb
-                xml:id="uuid_a41f57ea-d78d-40b5-8b99-34301f37499d"/>schen Presse zitierte, gelungen
-            ist, bei dem, in seiner Mehrheit aus <lb
-                xml:id="uuid_dfda41a7-a829-45fc-8903-b61bace3b644"/>bürgerlichen Journalisten
-            bestehenden Ehrengericht Verständnis für die <lb
-                xml:id="uuid_be8298b1-8412-4100-ac6a-6c54e229354b"/>Inkompatibilität gleichzeitigen
-            Wirkens eines Parteijournalisten in <lb
-                xml:id="uuid_a7c4ecf6-8db1-4ab0-bfbb-a382728d37c1"/>anders gesinnten Blättern zu
-            finden. Diesen Kampf habe ich geführt <lb
-                xml:id="uuid_52159e42-c240-47a3-ad43-295e354e4a82"/>und moralisch gewonnen, obgleich
-            ich der nationalsozialistischen Par- <lb
-                xml:id="uuid_cb7b5603-3b67-4080-9fc4-8f7ca683fd90"/>tei überhaupt nicht angehöre.
-                <lb xml:id="uuid_acd18dc5-39de-4c2b-be98-1bf9d5579a12"/>Richtig an Ihren
-            Behauptungen ist ferner, dass Herr Karl <lb
-                xml:id="uuid_61dc28b5-d251-4ac4-b2f4-2187a6014f44"/>Kraus in diesem Prozess in
-            allen, das heisst in den zwei dafür vor- <lb
-                xml:id="uuid_d0d03475-3665-4605-8fdf-94ae418a07f1"/>läufig in Betracht kommenden
-            Instanzen verurteilt wurde. Dagegen ist <lb
-                xml:id="uuid_c4d57ecf-a4bd-4e3e-9575-5092371fc35f"/>nach zuverlässigen Informationen
-            nicht richtig, dass die von Ihnen <lb xml:id="uuid_15efc9ad-6eff-413b-95a0-afe4cf53299a"
-            />unter 1./ und 2./ behaupteten Tatsachen „aktenmässig gerichtlich fest- <lb
-                xml:id="uuid_44342e01-297c-4d0a-901c-0d76b3e0010c"/>gestellt“ worden sind. Es ist
-            unwahr, dass in den Gerichtsverhandlun- <lb
-                xml:id="uuid_f64afc46-75c4-4362-aa0c-ac1a86460e90"/>gen über den Charakter der
-            Berliner Börsen-Zeitung irgendeine Feststel- <lb
-                xml:id="uuid_2f742a49-2ebd-4fc6-a6ba-a0de73425906"/>lung, irgendeine Beweiserhebung
-            erfolgt ist und dass diese eine andere <lb
-                xml:id="uuid_539f5ec5-c85c-40a3-b2e4-b281a091d9e8"/>Kennzeichnung ergeben hat als
-            die, welche der sozialdemokratische Presse- <lb
-                xml:id="uuid_1b37a703-b648-4469-b9aa-aa6e914ab146"/>dienst, ein doch wohl
-            verlässlicher Zeuge, am 30. März dieses Jahres <lb
-                xml:id="uuid_1823bb61-a424-435d-9c6b-dfe788c7774f"/>brachte, als er unter dem Titel
-            „Feinde!“ schrieb: -->
-            <pb facs="D_000177-008-000.xml-facs001-l004-p004" n="4"/>
-            <!--<lb xml:id="uuid_da659b75-245b-4626-a6d8-bc98f6b7564c"/>IV. <lb
-                xml:id="uuid_7168a744-ec78-4cfe-9c69-a2e447970273"/>„Eines von den verkappten
-            Naziblättern; die Berliner <lb xml:id="uuid_8e9f6a44-0551-4941-8d54-4d7bb85d60cc"
-            />Börsen-Zeitung, die von Hass gegen die Sozialdemokratie <lb
-                xml:id="uuid_bb2052d1-a0bb-4c56-846c-63e0e5094394"/>wie gegen alles, was in
-            Deutschland freiheitlich gesinnt <lb xml:id="uuid_443107fa-6fb0-42e9-9409-bef2d67ba13a"
-            />ist, giftgeschwollen ist …“ <lb xml:id="uuid_d0c59774-4d57-446f-bb2a-969cb1e8c1b6"/>In
-            diesem Prozess hat lediglich der Anwalt des Klägers wahrheits- <lb
-                xml:id="uuid_b5990272-f315-4804-b1d2-e77f026f1f40"/>widrig vorgebracht, bei der
-            Berliner Börsen-Zeitung handle es sich um ein <lb
-                xml:id="uuid_3c6054dc-fb15-43ce-9fdc-59b5b26bdb8f"/>gewöhnliches bürgerliches Blatt,
-            also ähnlich wie Sie argumentiert, wenn <lb
-                xml:id="uuid_edda5700-5b77-47e4-b9e0-daf211881dc8"/>Sie schreiben „… die ein im
-            Privatbesitz befindliches Blatt und nicht <lb
-                xml:id="uuid_0f89c653-6c03-4d81-ac6b-5bc4e6e93ffb"/>im Besitz irgendeiner
-            politischen Partei ist“. Diese Behauptungen neh- <lb
-                xml:id="uuid_e4463c99-ef3d-4b28-b2fa-53f7e982571c"/>men sich umso sonderbarer aus,
-            wenn man sie mit einem am 30. Juni er- <lb
-                xml:id="uuid_e43967ab-7451-4570-810f-0f264ba424fc"/>schienenen Artikel der
-            Arbeiter-Zeitung vergleicht, in dem es heisst: <lb
-                xml:id="uuid_44d94772-6833-4111-95b5-c8bae4648750"/>Hitlers Wirtschaftsführer. <lb
-                xml:id="uuid_44c449b9-d574-47e3-845f-a1d6d477ea96"/>Vertrauensmann der
-            Pleiteindustrie und Todfeind der Gewerk- <lb
-                xml:id="uuid_eeee4903-7eb3-441b-9963-47085bb8d88e"/>schaften. <lb
-                xml:id="uuid_54e22949-0b80-4cb6-b2fb-e0c405db5594"/>Das dritte Reich hat eine neue
-            Akquisition gemacht, Hitler <lb xml:id="uuid_2e52f8e1-1cf6-42d1-916f-62b0e3c4e47a"/>hat
-            geruht, einen Generalwirtschaftsberater für die NSDAP <lb
-                xml:id="uuid_68930c07-e4b6-48d8-8f70-996debafcdea"/>zu ernennen. Auf wen ist die
-            Wahl gefallen? Auf einen Vertrau- <lb xml:id="uuid_ccad4076-fc29-4ca8-ac9b-a01d40f04c8c"
-            />ensmann der Arbeiter, wie es sich für eine Arbeiterpartei ziem- <lb
-                xml:id="uuid_f8a4dcdb-b6b9-4add-b6d4-95c7d39d6bba"/>te? O nein, Herr Walter Funk,
-            der neue Wirtschaftsfachmann <lb xml:id="uuid_9f67548f-35a6-4609-a565-d5c8f6e8c59f"/>der
-            Nazi, war bis vor kurzem Chefredakteur der scharf finanz- <lb
-                xml:id="uuid_20d46a32-ff6e-4c57-a496-3b0704308769"/>kapitalistischen „Berliner
-            Börsenzeitung“ / des Standartblat- <lb
-                xml:id="uuid_b56f97f8-4148-4402-8852-615547be6fe4"/>tes für das raffende
-            Judenkapital in Deutschland / … <lb xml:id="uuid_0c8d0053-70b9-42ba-9805-3f0d1f99c21d"
-            />Ich weiss nicht, ob der Redaktion der Arbeiter-Zeitung, als sie die- <lb
-                xml:id="uuid_fc621978-5336-4cbe-b42d-9c9b695f83ed"/>se Einschaltung veranlasste,
-            oder den Lesern, als sie sich über Hitlers <lb
-                xml:id="uuid_31bbbd80-c264-43bf-94fd-c90c191fedda"/>Beziehungen zu dem scharf
-            finanzkapitalistischen Blatt moralisch und klas- <lb
-                xml:id="uuid_8c426d38-04ef-47f2-9fb6-88c3a15e90b1"/>senkämpferisch entrüsteten, das
-            Faktum vor Augen stand, dass ein Sozial- <lb
-                xml:id="uuid_49d79d28-7def-4553-b253-6874b0e504bd"/>demokrat den Wirtschaftsführer
-            und designierten Finanzminister des Hitler <lb
-                xml:id="uuid_77e67192-e99d-4b44-8380-9d79bb5eee6d"/>zum Chefredakteur hat und von
-            dem Standartblatt des raffenden Judenkapi- <lb
-                xml:id="uuid_24bd2a49-3b95-43fb-b6fa-d3606f847071"/>tals einen Teil seines
-            Einkommens bezieht. / Die Börsen-Zeitung, die in -->
-            <pb facs="D_000177-008-000.xml-facs001-l005-p005" n="5"/>
-            <!--<lb xml:id="uuid_82096214-8bdb-4652-a5bd-c96e847f9b5f"/>V. <lb
-                xml:id="uuid_5e3e6ea0-d012-4314-aa69-98a7113cd7cc"/>diesem Punkte wahrscheinlich mit
-            dem Börsencourier verwechselt wurde, <lb
-                xml:id="uuid_e540b782-ac0d-4fbc-b72b-fa2ba792c59c"/>steht allerdings weniger dem
-            jüdischen als dem völkischen, auf jeden Fall <lb
-                xml:id="uuid_5c3cabd0-2d54-43e3-a725-0dd69f4c73bb"/>aber dem raffenden Kapital
-            nahe./ <lb xml:id="uuid_005a82f8-2459-4a3d-ac4b-eed7b6bb6c30"/>Kommen wir aber auf den
-            Prozess und Ihre irreführenden Behauptungen <lb
-                xml:id="uuid_cf64c8fc-d65c-47fb-b0f3-834610a65515"/>zurück! Keine Spur davon, dass
-            die Verurteilung erfolgt wäre, weil die <lb
-                xml:id="uuid_2cb4c217-6765-43f5-a1e1-1ead7ba9cc85"/>Kennzeichnung des Berliner
-            Blattes als unberechtigt festgestellt wurde, <lb
-                xml:id="uuid_9c16a730-ef9b-44fb-9cf0-bb70f0aed593"/>und dass dergleichen gleichsam
-            „in den Akten sei“. Ueber das Kaliber des <lb
-                xml:id="uuid_f5b37b5f-d467-4c7a-b47d-24fc82d0ecfb"/>Blattes wurde kein Beweis
-            abgeführt, das Gericht hat bloss gesagt, dass <lb
-                xml:id="uuid_bb14801b-5799-42f2-a064-6ce8b5ddedfb"/>die musikkritische Tätigkeit für
-            zwei politisch verschiedene Blätter mit <lb
-                xml:id="uuid_1ee43dec-1b88-4374-9a31-4bcb83ceec82"/>dem Begriff, den es für
-            „Schlieferltum“ annimmt, nicht kongruent sei, <lb
-                xml:id="uuid_296d1e67-e8d1-41a8-b93c-df882ca4c3e9"/>ohne im geringsten auf einen
-            Beweis über das Blatt und über die Mitarbeit <lb
-                xml:id="uuid_8e8c452d-99c8-49c9-ae0b-dbfb9baf22e7"/>eines Sozialdemokraten an einem
-            solchen Blatt einzugehen. Nichts derglei- <lb
-                xml:id="uuid_854d05b0-b4c4-4eeb-be0c-318fcf0d7a2a"/>chen steht in den Akten und die
-            ausdrückliche Feststellung, dass Sie „in <lb
-                xml:id="uuid_2b3b42b8-7786-4723-a27b-256155d309fc"/>keinem einzigen Falle in der
-            Berliner Börsenzeitung über die gleichen Ver- <lb
-                xml:id="uuid_4db80452-9b3e-4292-a493-c87fa36c33a0"/>anstaltungen anders geschrieben
-            haben als in der sozialistischen Presse“ <lb
-                xml:id="uuid_a6901f92-9a06-4894-84dc-a25091eda421"/>ist daher ebenfalls nicht vor
-            Gericht, sondern lediglich von der klägeri- <lb
-                xml:id="uuid_3fef7c2d-619c-43cb-a100-6134fe5c61a4"/>schen Seite gemacht worden. <lb
-                xml:id="uuid_1366f027-d99b-4cd7-93bb-c025f2f8d60e"/>Was das Stück von Eisler
-            betrifft, das Sie „angeblich in <rs type="place" ref="#pmb168">Berlin</rs> <lb
-                xml:id="uuid_c073b655-72c4-48df-8bd3-06e84aa48657"/>nicht besprochen haben sollen“,
-            so ist es wahr, dass Sie es in <rs type="place" ref="#pmb168">Berlin</rs> <lb
-                xml:id="uuid_9ad2776a-92c4-4087-a32c-9dbe93392df1"/>nicht besprochen haben. Es wäre
-            wohl auch nicht gut möglich gewesen, es <lb
-                xml:id="uuid_4c92e999-4899-4bbd-b9f2-da6691a4c456"/>in der Berliner Börsen-Zeitung
-            in derselben Art zu besprechen wie in der <lb
-                xml:id="uuid_79f7b1eb-f0d2-4f70-8262-cbc592aa7e25"/>Arbeiter-Zeitung, weil man wohl
-            annehmen kann, dass dieses Hakenkreuzler- <lb
-                xml:id="uuid_7e11f166-ec88-4892-92f3-cbc4134d7901"/>blatt dem Lob revolutionärer
-            Rhythmen nicht Raum gegeben und dem ehernen <lb
-                xml:id="uuid_7d4f7140-887c-48eb-83e5-e6238bd396ff"/>Tritt der Arbeiterbataillione
-            seine, der Propagierung des Dritten Reiches <lb
-                xml:id="uuid_2e86360e-169f-46d6-8496-0a7b1013456c"/>vorbehaltenen Spalten nicht
-            geöffnet hätte. Nun haben Sie die Stirn zu be- <lb
-                xml:id="uuid_6feaead7-9d35-4b47-8c8d-3f233feb2ca3"/>haupten, dass die Komposition
-            von Eisler in <rs type="place" ref="#pmb168">Berlin</rs> schon bekannt und daher <lb
-                xml:id="uuid_89d0106f-01f8-4eb0-bc5e-f4137c87cf7b"/>schon vorher durch den dortigen
-            Referenten rezensiert worden sei; deshalb <lb
-                xml:id="uuid_19f4f6a3-a5d4-4582-8bf6-cba6d52ed0f9"/>nur hätten Sie die Rezension –
-            und wie man ergänzen müsste: merkwürdiger- <lb
-                xml:id="uuid_affea710-5594-4650-8ccf-a7b0b6bb34a6"/>weise auch den Hinweis auf
-            dieses Faktum – unterlassen. Sie werden freilich <lb
-                xml:id="uuid_50a908ff-1715-4781-aa98-843ab75d7e8a"/>das Datum als ein der Wiener
-            Aufführung vorangehenden und die Kritik über -->
-            <pb facs="D_000177-008-000.xml-facs001-l006-p006" n="6"/>
-            <!--<lb xml:id="uuid_33362937-04d3-4986-ad4a-f606f87590bb"/>VI. <lb
-                xml:id="uuid_9a1ca64a-7b19-4fcf-ba39-a28685a859bf"/>die Berliner Aufführung niemals
-            vorweisen können. Denn die Berliner Auf- <lb
-                xml:id="uuid_c09f4443-56d3-4b8b-a2b1-337395329923"/>führung, über die vor Ihrer
-            unvollständigen Kritik der Wiener Aufführung <lb
-                xml:id="uuid_983acd51-dc09-4f98-b39b-f50279dbbe76"/>bereits referiert gewesen sein
-            soll, hat am 30. November 1929, also cirka <lb
-                xml:id="uuid_272b0989-4a62-4875-9619-1814bceddee3"/>drei Wochen nach der Wiener
-            Aufführung stattgefunden und ein Referat, auf <lb
-                xml:id="uuid_92aac1dc-9e84-46b4-ab1f-b060b140d0a9"/>welches Sie sich zur Erklärung
-            Ihres Schweigens zu berufen wagen, hätte <lb
-                xml:id="uuid_b1df63e4-b7a3-4d73-9439-f3724e035f75"/>infolgedessen unmöglich vorher,
-            sondern nur nachher erscheinen können, <lb
-                xml:id="uuid_81e63c1d-c94a-40bf-9518-d500e3372c8d"/>ist aber auch nachher nicht
-            auffindbar. <lb xml:id="uuid_75cfd211-19bb-4d22-9522-390ebe3d583f"/>Wenn Sie behaupten,
-            dass „die Anschuldigungen des Herrn Kraus vom <lb
-                xml:id="uuid_f52156b7-cc90-4775-95c8-76ffb65f5273"/>Gericht in keinem einzigen
-            Punkte als stichhältig / stichhaltig / ange- <lb
-                xml:id="uuid_bf2a48fd-9c47-4d63-9791-09f40b8b1c9a"/>sehen wurden“, so wiederhole
-            ich, dass der Teil der Anschuldigungen, den <lb
-                xml:id="uuid_aaadf2f5-03c1-4e20-843a-84012b487939"/>ich mir zu eigen gemacht habe
-            und zu eigen mache: der sich auf ihre Mit- <lb
-                xml:id="uuid_d05a4ef1-0a19-4e2b-aac7-99e159e4c288"/>arbeit an einem
-            Hakenkreuzlerblatt bezieht, nicht Gegenstand eines Beweis- <lb
-                xml:id="uuid_8c4147f1-0017-4226-983c-d546e3f53be7"/>verfahrens gewesen ist. Wer aber
-            den Fall nicht kennt und bloss Ihren an <lb
-                xml:id="uuid_00ab48f8-3059-4742-a980-f0ce8986f0b7"/>mich gerichteten Brief liest,
-            müsste glauben, dass es sich in diesem Pro- <lb
-                xml:id="uuid_da552077-8f66-4a2c-ae13-4608ad8810d2"/>zess ganz konkret nur um den
-            Vorwurf Ihrer Mitarbeit an einem Hakenkreuz- <lb
-                xml:id="uuid_4a448c30-0301-4551-b0a5-0233184bb427"/>lerblatt gehandelt habe und dass
-            eben dieser Vorwurf nicht bewiesen wer- <lb
-                xml:id="uuid_68cea4e7-fdfb-45c5-8000-f2bfd662b64d"/>den konnte. Dieser Gedankengang
-            wäre nach Ansicht des Gerichtes wohl kein <lb
-                xml:id="uuid_e3226b65-c4ec-40d7-9295-f371cfc069ce"/>Beweis für „Schlieferltum“, aber
-            ich behaupte, dass er der Wahrhaftigkeit <lb
-                xml:id="uuid_5684175d-3bce-4fdf-b254-4ffe45ce2eed"/>widerspricht. Sie haben gelogen.
-            Gelogen mit der mir vorgebrachten Be- <lb
-                xml:id="uuid_e32d01ed-0846-4649-ab13-411d26655f5b"/>hauptung, dass der Grund Ihres
-            Verzichtes: für das Hakenkreuzlerblatt <lb
-                xml:id="uuid_df4c61b9-b5d8-40ce-9296-754821be542d"/>nicht den ehernen Tritt der
-            Arbeiterbataillone und den revolutionären Rhythmus <lb
-                xml:id="uuid_8ca51112-b7d8-4421-80cf-44d6e0aa6201"/>aus der Eislerschen Musik
-            herauszuhören, in der Tatsache gelegen sei, dass <lb
-                xml:id="uuid_873f62c1-fedb-48ba-88aa-bd90165b15f0"/>in <rs type="place" ref="#pmb168">Berlin</rs> darüber bereits
-            referiert wurde. Gelogen mit der Angabe, dass <lb
-                xml:id="uuid_0a02947b-c6ab-4f3b-856a-dc5673835341"/>derlei im prozess „aktenmässig
-            festgestellt“ wurde. Gelogen im Prozess, <lb
-                xml:id="uuid_c08c3af0-586c-4df0-9048-e8a13f7781eb"/>wenn Sie es da vorgebracht haben
-            oder vorbringen liessen. ##Böhm_start##Sie haben, so- <lb
-                xml:id="uuid_f0fcc320-b174-4be6-af35-e95ccddcac74"/>wohl im Prozess, wie vor mir,
-            spekulierend auf die Täuschungskraft von <lb
-                xml:id="uuid_f7462858-982c-425c-9a2c-ad228ec099a4"/>Behauptungen vor einem Forum,
-            das sie schon nicht nachprüfen wird, gelo- <lb
-                xml:id="uuid_5eafc749-8f9d-4f38-aa2f-cda91d9fca11"/>gen. Vielleicht aber
-            entschliesst sich die Ihnen vorgesetzte Parteibehör- <lb
-                xml:id="uuid_97daac85-d361-49c2-83f1-a3507dd94d23"/>de, die selbstverständlich
-            allein darüber zu entscheiden hat, ob Ihre -->
-            <pb facs="D_000177-008-000.xml-facs001-l007-p007" n="7"/>
-            <!--<lb xml:id="uuid_c63049e9-6766-4102-a4aa-19454d1a0108"/>[V]II. <lb
-                xml:id="uuid_92b65494-b4f5-4e85-81ab-73fe5dc7daba"/>Stellung im proletarischen
-            Schrifttum zweifelhaft ist oder nicht, so wie <lb
-                xml:id="uuid_98d8ce1e-d227-4a9b-b84b-b8fe9705ee19"/>die mir vorgesetzte
-            Parteibehörde darüber zu entscheiden hat, ob ich zu <lb
-                xml:id="uuid_640012ea-d62c-4685-b994-ed04ac02fb5c"/>Recht und im Sinne ihrer
-            Beschlüsse die Arbeiter-Sängerzeitung über Sie <lb
-                xml:id="uuid_449fee73-b6e7-4c33-aa3e-67a08a6a550e"/>aufgeklärt habe, vielleicht also
-            entschliesst sich Ihre vorgesetzte Behör- <lb
-                xml:id="uuid_a5026855-120b-48fb-9523-3c3cb4587777"/>de, nachdem sie ein wenig
-            voreilig Ihren Gedankengang übernommen, Ihre <lb
-                xml:id="uuid_bce6bd5d-2d8a-4cad-bf31-4b3067a35b06"/>Haltung gerechtfertigt und mich,
-            weil ich anderer Meinung zu sein mir heraus- <lb
-                xml:id="uuid_bbed8131-2905-42ea-a61b-ed7784976955"/>nahm, der Unanständigkeit und
-            der Verfolgung reiner Privatinteressen ge- <lb
-                xml:id="uuid_8db39e30-6685-48a1-b920-6de5d49451c6"/>ziehen hat, den Fall nun doch
-            noch zu überprüfen. Ihrer Wirksamkeit im Be- <lb
-                xml:id="uuid_49dfcc79-25dc-4bba-b87f-8b7ca9888778"/>reiche meiner Partei werde ich
-            mich jedenfalls, wie immer man in Wien über <lb
-                xml:id="uuid_0a498946-314c-4d3c-96dc-2d07a8817791"/>Ihren Fall denken mag, gestützt
-            auf die Beschlüsse meines Parteivorstandes, <lb
-                xml:id="uuid_b88165ee-e356-4357-a95d-ac63d41f2c73"/>auch weiter
-            widersetzen.##Böhm_ende## <lb xml:id="uuid_b903192b-3f90-422f-88d8-9d185ed2223a"
-            />Hochachtungsvoll -->
-        </body>
-    <back/></text>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000177-008-000-facs001" xml:id="D_000177-008-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000177-008-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-07-25">25. Juli 1932
+           </date>
+         </creation>
+         <textClass>
+            <keywords>
+               <term source="D_000176-044-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000176-044-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-09T14:41:09.172Z" who="#IB">created by API </change>
+         <change when-iso="2021-09-06" who="#LU" status="draft">Replaced Text with Transcription
+                of Transkribus Document 349141. </change>
+         <change type="header_facsimile" when-iso="2021-11-29" who="#JK" status="draft"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000177-008-000-facs001">
+      <surfaceGrp xml:id="D_000177-008-000-facs001-l001">
+         <surface type="recto" xml:id="D_000177-008-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2978024/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000177-008-000-facs001-l002">
+         <surface type="recto" xml:id="D_000177-008-000-facs001-l002-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2978025/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000177-008-000-facs001-l003">
+         <surface type="recto" xml:id="D_000177-008-000-facs001-l003-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2978026/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000177-008-000-facs001-l004">
+         <surface type="recto" xml:id="D_000177-008-000-facs001-l004-p004">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2978027/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000177-008-000-facs001-l005">
+         <surface type="recto" xml:id="D_000177-008-000-facs001-l005-p005">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2978028/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000177-008-000-facs001-l006">
+         <surface type="recto" xml:id="D_000177-008-000-facs001-l006-p006">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2978029/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000177-008-000-facs001-l007">
+         <surface type="recto" xml:id="D_000177-008-000-facs001-l007-p007">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2978030/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>

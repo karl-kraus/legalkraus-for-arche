@@ -1,278 +1,113 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000147-001-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-054-003.xml" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000147-002-001.xml">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Zeitungsartikel aus: Der Wiener Tag, Nr. 2767</title>
-                <editor ref="#pmbSH">Susanna Hufsky</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
-                        Österreichische Akademie der Wissenschaften</name>
-                    <address>
-                        <street>Sonnenfelsgasse 19</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Ludwig Boltzmann Institut für Digital History</name>
-                    <address>
-                        <street>Hofburg, Batthianystiege</street>
-                        <postCode>1010</postCode>
-                        <settlement>Wien</settlement>
-                        <country>Österreich</country>
-                    </address>
-                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
-                </publisher>
-                <publisher>
-                    <name>Wienbibliothek im Rathaus</name>
-                    <address>
-                        <street>Friedrich-Schmidt-Platz 1</street>
-                        <postCode>1010</postCode>
-                        <country>Wien</country>
-                        <settlement>Österreich</settlement>
-                    </address>
-                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
-                </publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>2021</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
-                        Namensnennung 4.0 International Lizenz</licence>
-                </availability>
-                <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000147-001-000.xml</idno>
-                <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4030</idno>
-                <idno type="ID" subtype="transkribus">292773</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000147">Karl
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000147-002-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-054-004.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000147-001-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>147.1 Zeitungsartikel aus: Der Wiener Tag, Nr. 2767</title>
+            <editor ref="#pmbSH">Susanna Hufsky</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000147-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4030</idno>
+            <idno subtype="transkribus" type="ID">292773</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000147" type="collection">Karl
                     Kraus ca. Der Wiener Tag</title>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="D_000147-001-000-wit01" facs="D_000147-001-000-facs001"/>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date type="sortDate" when-iso="1930-12-05" subtype="produced">5. Dezember
-                    1930</date>
-            </creation>
-            <langUsage>
-                <language ident="de">Deutsch</language>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term>Zeitungsartikel</term>
-                </keywords>
-            </textClass>
-            <particDesc/>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change when-iso="2020-10-08T15:15:37.263Z" who="#IB">created by API</change>
-            <change when-iso="2020-10-08T15:17:06.86Z" who="#IB">Replaced Text with Transcription of
-                Transkribus Document 292773.</change>
-            <change type="structure" when-iso="2021-07-13"/>
-            <change type="references" when-iso="2021-07-13"/>
-            <change type="typography" when-iso="2021-07-13"/>
-            <change type="intertexts" when-iso="2021-07-13"/>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile xml:id="D_000147-001-000.xml-facs001">
-        <surfaceGrp xml:id="D_000147-001-000.xml-facs001-l001">
-            <surface xml:id="D_000147-001-000.xml-facs001-l001-p001" type="recto">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000002_36.jpg" source="krausonline"/>
-            </surface>
-            <surface xml:id="D_000147-001-000.xml-facs001-l001-p002" type="verso">
-                <graphic url="http://www.kraus.wienbibliothek.at/sites/biographeme.com/files/images/object/00000003_27.jpg" source="krausonline"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <pb facs="D_000147-001-000.xml-facs001-l001-p001" n="1"/>
-            <pb facs="D_000147-001-000.xml-facs001-l001-p002" n="2"/>
-            <!--<p xml:id="uuid_b67aeb00-68a8-4f32-9e71-3975bbd11369">
-                <lb xml:id="uuid_7858d49f-a6b7-4f44-98d4-9fa6b7df44e4"/>
-                <rs type="person" ref="#pmb11988">Karl Kraus</rs> zu
-                fünfhundert <lb xml:id="uuid_dc7097a9-b319-475a-b097-a9b319575a13"/>Schilling
-                verurteilt. </p>
-            <p xml:id="uuid_21bc3d4f-ae4a-4b20-967b-b26d23655577">
-                <lb xml:id="uuid_1084c910-e81d-46dd-84c9-10e81d76ddc0"/>Wegen Beleidigung des
-                Musikkritikers Dr. Pisk. </p>
-            <p xml:id="uuid_482946ce-e7fe-488d-96e5-224bc22b0fe5">
-                <lb xml:id="uuid_93acb563-736c-4000-acb5-63736cd0006b"/>Vor dem LGR. Dr. Wenger
-                    (Straf<lb xml:id="uuid_2c07256e-4835-4a14-8725-6e4835ba1415" break="no"
-                />berirksgericht l) gelangte gestern eine Ehren<lb
-                    xml:id="uuid_1ed36632-5403-45b5-9366-32540355b5fe" break="no"/>beleidigungsklage
-                zum Abschlusse, die der <lb xml:id="uuid_e919adb3-0578-490b-99ad-b30578690b1f"
-                />Musikkritiker der „Arbeiter-Zeitung“ Doktor <lb
-                    xml:id="uuid_3e9dcac8-a963-403d-9dca-c8a963303de4"/>Paul Amadäus Pisk gegen den
-                Herausgeber <lb xml:id="uuid_547202e3-a128-487d-b202-e3a128087d79"/>der „Fackel“,
-                den Schriftsteller <rs type="person" ref="#pmb11988"
-                    >Karl Kraus</rs>, <lb xml:id="uuid_e3ca1a93-b577-4109-8a1a-93b5770109d5"/>vor
-                Jahresfrist angestrengt hatte. Nach Inhalt <lb
-                    xml:id="uuid_99789c1e-73d6-4f33-b89c-1e73d63f33a1"/>der durch Dr. Robert Pisk
-                vertretenen Klage <lb xml:id="uuid_432a6cf1-fb6d-44b7-aa6c-f1fb6df4b780"/>hatte <rs
-                    type="person" ref="#pmb11988">Karl Kraus</rs> im
-                Juni 1929 einen Vor<lb xml:id="uuid_2c9cf184-14b2-4a01-9cf1-8414b2fa01f9" break="no"
-                />tragszyklus über vier Operetten Offenbachs <lb
-                    xml:id="uuid_3aa73678-7d19-47ce-a736-787d19e7ceb2"/>gehalten. Am 7. Juni hatte
-                Kraus die Operette <lb xml:id="uuid_619eb1b1-df6f-4851-9eb1-b1df6ff8514c"
-                />„Blaubart“ zum Vortrag gebracht. Er hatte <lb
-                    xml:id="uuid_ce679ba7-649d-4948-a79b-a7649d6948a4"/>dem Höflingslied des Grafen
-                Oskar mehrere <lb xml:id="uuid_901bc0ce-2d4a-4970-9bc0-ce2d4a59703e"/>aktuelle
-                Zeitstrophen angefügt, von denen <lb
-                    xml:id="uuid_391b2e7f-6986-4146-9b2e-7f6986d1468a"/>nach Inhalt der Klage sich
-                eine Strophe gegen <lb xml:id="uuid_c179e6b5-3f94-4ad7-b9e6-b53f946ad728"/>die
-                sozialdemokratische Presse richtete. Nach <lb
-                    xml:id="uuid_a410e212-3968-4af6-90e2-1239681af605"/>dieser Strophe soll Kraus
-                aufgehört haben, zu <lb xml:id="uuid_a9277379-64d3-4133-a773-7964d391330b"/>singen,
-                einen Zettel zur Hand genommen und <lb
-                    xml:id="uuid_3365a0e0-f38b-401e-a5a0-e0f38b901ea3"/>zum Publikum gewendet gesagt
-                haben: </p>
-            <p xml:id="uuid_e3610018-cdfd-4da2-a82e-db31e0edd67c">
-                <lb xml:id="uuid_e8d28a1d-971f-4b92-928a-1d971f9b92fd"/>„Aber in einigen Tagen wird
-                ein anderer <lb xml:id="uuid_8f1c71fc-b495-4a1f-9c71-fcb4951a1f11"/>Wind aus dem
-                Zentralorgan wehen, denn ein <lb xml:id="uuid_78dbb02d-e79d-4f46-9bb0-2de79d6f460c"
-                />Vertreter des Zentralorgans, ein Schlie<lb
-                    xml:id="uuid_dd2d07ef-3d80-4a28-ad07-ef3d80ba289f" break="no"/>ferl ist hier im
-                Saale anwesend und wird <lb xml:id="uuid_edd29b67-d45a-43f6-929b-67d45a83f65a"/>die
-                Leser dahin aufklären, daß ich nicht musi<lb
-                    xml:id="uuid_7ac045ba-5c74-4643-8045-ba5c74d643a7" break="no"/>kalisch bin und
-                nicht singen kann. Mit ein <lb xml:id="uuid_e9ee8bac-bc7b-467e-ae8b-acbc7b067e6e"
-                />paar Slezaks nehme ich es aller<lb
-                    xml:id="uuid_4feb7306-4f36-45b4-ab73-064f36d5b487" break="no"/>dings noch auf,
-                aber ich singe nicht <lb xml:id="uuid_523b0219-73f5-47f9-bb02-1973f537f957"/>David
-                Bach, sondern Offenbach.“ </p>
-            <p xml:id="uuid_94b1cf90-c6f9-42ad-8cf0-c2035bb5c9f8">
-                <lb xml:id="uuid_92282900-6016-47a4-a829-00601617a403"/>Kraus soll dann den Ausdruck
-                Schlieferl <lb xml:id="uuid_73d87eaa-2d8c-40d1-987e-aa2d8cb0d152"/>wiederholt
-                gebraucht und auch in einer <lb xml:id="uuid_47146e27-f3cf-4a1a-946e-27f3cfaa1a04"
-                />zweiten Vorlesung über Offenbach-Operetten <lb
-                    xml:id="uuid_26183ac5-e43e-4a8e-983a-c5e43eca8e45"/>am 10. Juni wiederholt
-                haben. </p>
-            <p xml:id="uuid_652c28e9-78d7-4b74-9a05-6f2cea243ebe">
-                <lb xml:id="uuid_0c2b25fa-c116-4527-ab25-fac1163527d9"/>In der Zeit zwischen dem
-                ersten und <lb xml:id="uuid_6afe9bda-ba7a-4bbe-be9b-daba7a8bbe1a"/>zweiten Vortrag
-                hatte der Musikkritiker Doktor <lb
-                    xml:id="uuid_367824cf-1d13-4f73-b824-cf1d135f7398"/>Pisk in der
-                „Arbeiter-Zeitung“ ein Referat <lb
-                    xml:id="uuid_4f1dc275-5dd1-4f5e-9dc2-755dd11f5e7f"/>über den Vortrag des <rs
-                    type="person" ref="#pmb11988">Karl Kraus</rs> vom
-                    <lb xml:id="uuid_a4d9846b-bfb7-43d8-9984-6bbfb783d8f6"/>7. Juni erstattet. </p>
-            <p xml:id="uuid_7aa5beae-e2bb-4fac-a36d-3ed5ad14b001">
-                <lb xml:id="uuid_1ea35503-08c0-47f9-a355-0308c097f9e4"/>In der Vorlesung vom 10.
-                Juni soll nun <lb xml:id="uuid_5e402691-02d6-4be2-8026-9102d66be223"/>
-                <rs type="person" ref="#pmb11988">Karl Kraus</rs>,
-                mit dem Artikel der „Arbeiter-<lb xml:id="uuid_b3d628ae-0c02-4736-9628-ae0c02b73685"
-                    break="no"/>Zeitung“ in der Hand, einleitend gesagt haben: <lb
-                    xml:id="uuid_d560c950-ebf6-4b5c-a0c9-50ebf6bb5c15"/>„Das Schlieferl schreibt.“ </p>
-            <p xml:id="uuid_6d2aa167-1f95-4f6a-ab84-fc6929497ef3">
-                <lb xml:id="uuid_d4778b76-0465-4b85-b78b-760465bb857c"/>Weiters soll Kraus in diesem
-                Vortrage von <lb xml:id="uuid_80d6a4e0-527c-4dc9-96a4-e0527c7dc93d"/>Schlieferl- und
-                Tinterlpraktiken, von einer <lb xml:id="uuid_f07f1cdf-e2a6-4961-bf1c-dfe2a6896102"
-                />Correpetite und von einem kümmerlichen <lb
-                    xml:id="uuid_e99cb465-c928-4d2d-9cb4-65c928dd2da5"/>Schönberg-Schüler gesprochen
-                haben. Der <lb xml:id="uuid_5ffde51d-7a95-4118-bde5-1d7a955118f6"/>Musikkritiker Dr.
-                Pisk führte in seiner <lb xml:id="uuid_0bd929cc-745d-4b8b-9929-cc745d2b8b63"/>Klage
-                des näheren aus, daß sowohl mit dem <lb
-                    xml:id="uuid_86638196-9ba8-44f8-a381-969ba8c4f838"/>Ausdruck Schlieferl als auch
-                mit den anderen <lb xml:id="uuid_165672a7-875b-42ed-9672-a7875bb2ed93"
-                />beschimpfenden Ausdrücken <rs type="person"
-                    ref="#pmb11988">Karl Kraus</rs> ihn <lb
-                    xml:id="uuid_491316d9-9544-4520-9316-d9954455206f"/>gemeint habe und ihn treffen
-                wollte. </p>
-            <p xml:id="uuid_9730776f-b826-4c5d-a704-58a42919eabb">
-                <lb xml:id="uuid_cd63c260-3a23-4989-a3c2-603a23398993"/>Über diese Klage waren
-                wiederholt Verhand<lb xml:id="uuid_339afec3-6762-4b65-9afe-c36762db65aa" break="no"
-                />lungen angeordnet, zu denen <rs type="person"
-                    ref="#pmb11988">Karl Kraus</rs> nicht <lb
-                    xml:id="uuid_4e5c4029-2e52-4fe8-9c40-292e527fe849"/>erschienen war. In der
-                gestern zu Ende geführ<lb xml:id="uuid_cc5eb500-b17c-4fed-9eb5-00b17c1fedce"
-                    break="no"/>ten Verhandlung intervenierte als Verteidiger <lb
-                    xml:id="uuid_4b940399-b5c9-41c7-9403-99b5c931c752"/>des nicht erschienenen <rs
-                    type="person" ref="#pmb11988">Karl Kraus</rs>,
-                dem jedoch <lb xml:id="uuid_b113174f-84d4-43fa-9317-4f84d4d3faa9"/>die Vorladung
-                zugestellt worden war, Doktor <lb xml:id="uuid_86464ffa-1faf-4c7f-864f-fa1faf9c7f51"
-                />Oskar Szamek. Er erklärte, daß <rs type="person"
-                    ref="#pmb11988">Karl Kraus</rs>
-                <lb xml:id="uuid_4c98f0c8-3014-4882-98f0-c83014c8822f"/>die Äußerungen, wie sie
-                inkrimimert sind, nicht <lb xml:id="uuid_c0b6260c-1e67-41eb-b626-0c1e6711ebc9"
-                />gemacht habe, daß Kraus in dem Vortrage am <lb
-                    xml:id="uuid_f2c3fa26-8b98-4b4a-83fa-268b98db4a5c"/>7. Juni zwar den Ausdruck
-                „Schlieferl“ ge<lb xml:id="uuid_de5da4ef-4c8a-49f2-9da4-ef4c8a99f2ae" break="no"
-                />braucht habe, jedoch sei es, zumal auch kein <lb
-                    xml:id="uuid_e08bb432-000c-4df2-8bb4-32000c1df2a6"/>Name genannt wurde, nicht
-                erkennbar gewesen, <lb xml:id="uuid_2f12c607-e920-433e-92c6-07e920d33e42"/>daß
-                dieser Ausdruck sich auf den Privatkläger <lb
-                    xml:id="uuid_c7011288-6db4-422c-8112-886db4c22c71"/>beziehen müsse. Er wurden
-                zur Feststellung <lb xml:id="uuid_6dc6d2a1-85a2-4ab7-86d2-a185a2dab7fe"/>des
-                objektiven Tatbestandes eine Reihe von <lb
-                    xml:id="uuid_18209c8d-a160-4c89-a09c-8da160cc8901"/>beiden Parteien beantragter
-                Zeugen ver<lb xml:id="uuid_eb38caca-6be8-442c-b8ca-ca6be8542cd3" break="no"/>nommen.
-                Die vom Kläger geführten Zeugen <lb
-                    xml:id="uuid_223dc15d-bce6-4308-bdc1-5dbce6630864"/>bestätigten im wesentlichen
-                den Inhalt der <lb xml:id="uuid_3fce9e30-d1bc-4b2c-8e9e-30d1bc0b2c3f"/>Klage,
-                während mehrere von der Verteidigung <lb
-                    xml:id="uuid_1439d0d1-851d-40ab-b9d0-d1851d40ab52"/>geführte Anhänger des
-                „Fackel“-Kraus zum <lb xml:id="uuid_0350bf64-ed50-47a3-90bf-64ed5037a3ea"/>großen
-                Teile die Darstellung der Verteidigung <lb
-                    xml:id="uuid_aa981704-8320-4e99-9817-0483200e996d"/>bestätigten. </p>
-            <p xml:id="uuid_af5618bb-d630-4d2f-ae18-1248e1234e38">
-                <lb xml:id="uuid_6c691440-a67e-4ff5-a914-40a67e9ff5fd"/>Der Verteidiger bot
-                schließlich für den Aus<lb xml:id="uuid_67c20f0b-6ac2-452a-820f-0b6ac2f52a5e"
-                    break="no"/>druck „Schlieferl“, der als Schmähung und <lb
-                    xml:id="uuid_c7dbbab7-174a-481f-9bba-b7174a081fac"/>nicht als Beschimpfung
-                anzusehen sei, einen <lb xml:id="uuid_243485fb-f5a2-4112-b485-fbf5a2e1122e"
-                />Wahrheitsbeweis an. Er führte aus, daß der <lb
-                    xml:id="uuid_b6e5aa61-7b56-4d90-a5aa-617b569d9044"/>Privatkläger über den
-                Vortrag des Karl <lb xml:id="uuid_b9efd7f3-944f-4166-afd7-f3944f316676"/>Kraus eine
-                Kritik geschrieben habe, die nicht <lb
-                    xml:id="uuid_0ec0365d-b8b7-41ea-8036-5db8b791ea49"/>sachlich gehalten war,
-                sondern aus Liebe<lb xml:id="uuid_afe86aae-0d6a-4d84-a86a-ae0d6a1d84fd" break="no"
-                />dienerei zu dem Blatte, bei dem er angestellt <lb
-                    xml:id="uuid_10bb3856-288c-4f04-bb38-56288cbf0450"/>sei, persönlich gehalten
-                war. Weiters stellte der <lb xml:id="uuid_d1acd87c-1414-450b-acd8-7c1414e50b98"
-                />Verteidiger unter Beweis, daß der Privat<lb
-                    xml:id="uuid_78a76127-f639-4a20-a761-27f6396a200f" break="no"/>kläger als
-                Mitarbeiter einer sozialdemokrati<lb
-                    xml:id="uuid_801dcabd-7cb2-4e15-9dca-bd7cb28e15ac" break="no"/>schen Zeitung
-                auch für die „Berliner Börse-<lb xml:id="uuid_d9eafb50-33c3-4dda-aafb-5033c36dda0c"
-                    break="no"/>Zeitung“, eine bürgerliche, mehr rechts <lb
-                    xml:id="uuid_809c776e-ad91-47a5-9c77-6ead91c7a5ba"/>stehende Zeitung schreibe.
-                Der Vertreter des <lb xml:id="uuid_1d8119c0-bb53-4ab6-8119-c0bb538ab625"/>Klägers
-                sprach sich gegen die Zulassung der für <lb
-                    xml:id="uuid_77de20cf-916e-4cd5-9e20-cf916e7cd59a"/>den vorliegenden Fall
-                unerheblichen Beweise <lb xml:id="uuid_4cb8f699-543d-4261-b8f6-99543de261a5"/>aus,
-                betonte, daß die Politik mit der Kunst <lb
-                    xml:id="uuid_38b00bdd-97f3-4a3c-b00b-dd97f36a3ca1"/>nichts zu tun habe. </p>
-            <p xml:id="uuid_394327f5-c45f-43ab-a15d-e7b15a5a48b7">
-                <lb xml:id="uuid_8c72f54e-9fff-4b4a-b2f5-4e9fffdb4af9"/>Der Richter lehnte auch die
-                angebotenen <lb xml:id="uuid_ee07a2c8-20a8-45f5-87a2-c820a8c5f5fa"/>Beweise als
-                nicht schlüssig ab und verurteilte <lb
-                    xml:id="uuid_3b94c5e5-a3fe-437e-94c5-e5a3fee37e36"/>
-                <rs type="person" ref="#pmb11988">Karl Kraus</rs>
-                wegen Ehrenbeleidigung in <lb xml:id="uuid_cfc0de23-4c5c-495d-80de-234c5c695d31"
-                />vollem Umfange der Klage zu einer Geldstrafe <lb
-                    xml:id="uuid_380a2458-14c4-4566-8a24-5814c4c566fc"/>von 500 Schilling, eventuell
-                zu einer <lb xml:id="uuid_e482def5-c19a-4649-82de-f5c19a964989"/>Woche Arrest. Als
-                erschwerend wurde ins<lb xml:id="uuid_fe2eca03-5c80-4767-aeca-035c80e7677a"
-                    break="no"/>besondere der Umstand angenommen, daß der <lb
-                    xml:id="uuid_7746e021-e13c-47be-86e0-21e13c97bec5"/>Privatkläger als
-                Musikkritiker eine öffentliche <lb
-                    xml:id="uuid_6657d124-a20f-41ff-97d1-24a20f21ffc5"/>Stellung bekleide und in
-                dieser Eigenschaft <lb xml:id="uuid_d872880d-8737-44b7-b288-0d873734b733"/>schwer
-                beleidigt wurde. Das Urteil wird dem <lb
-                    xml:id="uuid_c293dea9-e285-4c28-93de-a9e2854c28a7"/>
-                <rs type="person" ref="#pmb11988">Karl Kraus</rs>,
-                der sich derzeit in Berlin befindet, <lb
-                    xml:id="uuid_0ea0dbac-3d35-48e0-a0db-ac3d35e8e01f"/>nach seiner Rückkehr nach
-                Wien zugestellt <lb xml:id="uuid_971f743f-5d13-488e-9f74-3f5d13588ec0"/>werden.</p>-->
-        </body>
-    <back/></text>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000147-001-000-facs001" xml:id="D_000147-001-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000147-001-000-wit01" ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.D">Druck</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1930-12-05">5. Dezember 1930
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000147-001-000-wit01">Zeitungsartikel</term>
+            </keywords>
+            <classCode source="D_000147-001-000-wit01" scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.P.ZTA">D.P.ZTA</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header-facsimile" when-iso="2022-01-13" who="#JK" status="draft"/>
+         <change when-iso="2020-10-08T15:15:37.263Z" who="#IB" status="draft">created by
+                API</change>
+         <change when-iso="2020-10-08T15:17:06.86Z" who="#IB" status="draft">Replaced Text with
+                Transcription of Transkribus Document 292773. </change>
+         <change type="structure" when-iso="2021-07-13" status="draft"/>
+         <change type="references" when-iso="2021-07-13" status="draft"/>
+         <change type="typography" when-iso="2021-07-13" status="draft"/>
+         <change type="intertexts" when-iso="2021-07-13" status="draft"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000147-001-000-facs001">
+      <surfaceGrp xml:id="D_000147-001-000-facs001-l001">
+         <surface type="recto" xml:id="D_000147-001-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542346/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000147-001-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542347/full/full/0/default.jpg" source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="no-transcription">
+            <ab>Keine Transkription vorhanden.</ab>
+         </div>
+      </body>
+   <back/></text>
 </TEI>
