@@ -169,100 +169,102 @@ def yield_cases(files):
             case['doc_objs'].append(item)
         yield case
 
-print("writing case index part I")
-with open('cases-index.json', 'w', encoding='utf-8') as f:
-    f.write('{"cases": [')
-    for i, x in tqdm(enumerate(yield_cases(files)), total=len(files)):
-        json.dump(x, f, ensure_ascii=False)
-        if int(i)+1 != len(files):
-            f.write(', ')
-    f.write(']}')
 
-with open('./cases-index.json', 'r', encoding='utf-8') as f:
-    data = json.load(f)
+if __name__ == "__main__":
+    print("writing case index part I")
+    with open('cases-index.json', 'w', encoding='utf-8') as f:
+        f.write('{"cases": [')
+        for i, x in tqdm(enumerate(yield_cases(files)), total=len(files)):
+            json.dump(x, f, ensure_ascii=False)
+            if int(i)+1 != len(files):
+                f.write(', ')
+        f.write(']}')
 
-class_codes = {}
-keywords = set()
-persons = {}
-roles = {}
-orgs = {}
-org_roles = {}
-for x in data['cases']:
-    keywords.update(x['keywords'])
-    for a in x['actors']:
-        persons[a['id']] = a['title']
-        roles[a['role_id']] = a['role_label']
-    for a in x['org_actor']:
-        orgs[a['id']] = a['title']
-        org_roles[a['role_id']] = a['role_label']
+    with open('./cases-index.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
 
-data['roles'] = roles
-data['org_roles'] = org_roles
-data['keywords'] = list(keywords)
-data['persons'] = persons
-data['orgs'] = orgs
+    class_codes = {}
+    keywords = set()
+    persons = {}
+    roles = {}
+    orgs = {}
+    org_roles = {}
+    for x in data['cases']:
+        keywords.update(x['keywords'])
+        for a in x['actors']:
+            persons[a['id']] = a['title']
+            roles[a['role_id']] = a['role_label']
+        for a in x['org_actor']:
+            orgs[a['id']] = a['title']
+            org_roles[a['role_id']] = a['role_label']
 
-with open('./cases-index.json', 'w', encoding='utf-8') as f:
-    json.dump(data, f, ensure_ascii=False)
+    data['roles'] = roles
+    data['org_roles'] = org_roles
+    data['keywords'] = list(keywords)
+    data['persons'] = persons
+    data['orgs'] = orgs
 
-with open('./cases-index.json', 'r', encoding='utf-8') as f:
-    data = json.load(f)
+    with open('./cases-index.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False)
 
-print("writing case index part II")
+    with open('./cases-index.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
 
-failed = []
-for case in tqdm(data['cases'], total=len(data['cases'])):
-    persons = dict()
-    places = dict()
-    orgs = dict()
-    works = dict()
-    subjects = set()
-    class_codes = set()
-    materiality = dict()
-    hands = set()
-    for d in case['docs']:
-        try:
-            doc = TeiReader(f"./data/editions/{d}")
-        except:
-            failed.append(d)
-            continue
-        for ent in doc.any_xpath('.//tei:back/tei:listPerson/tei:person'):
-            xml_id = ent.attrib["{http://www.w3.org/XML/1998/namespace}id"]
-            title = ent.xpath('./*[1]')[0]
-            norm_title =  ''.join(title.itertext()).strip()
-            persons[xml_id] = " ".join(norm_title.split())
-        for ent in doc.any_xpath('.//tei:back/tei:listPlace/tei:place'):
-            xml_id = ent.attrib["{http://www.w3.org/XML/1998/namespace}id"]
-            title = ent.xpath('./*[1]')[0]
-            norm_title =  ''.join(title.itertext()).strip()
-            places[xml_id] = " ".join(norm_title.split())
-        for ent in doc.any_xpath('.//tei:back/tei:listOrg/tei:org'):
-            xml_id = ent.attrib["{http://www.w3.org/XML/1998/namespace}id"]
-            title = ent.xpath('./*[1]')[0]
-            norm_title =  ''.join(title.itertext()).strip()
-            orgs[xml_id] = " ".join(norm_title.split())
-        for ent in doc.any_xpath('.//tei:back/tei:listBibl/tei:bibl'):
-            xml_id = ent.attrib["{http://www.w3.org/XML/1998/namespace}id"]
-            title = ent.xpath('./*[1]')[0]
-            norm_title =  ''.join(title.itertext()).strip()
-            works[xml_id] = " ".join(norm_title.split())
-        for x in doc.any_xpath('.//tei:keywords/tei:term'):
-            subjects.add(x.text)
-        for x in doc.any_xpath('.//tei:textClass/tei:classCode'):
-            class_codes.add(x.text)
-        for x in doc.any_xpath('.//tei:ab[@type="materiality"]/tei:objectType'):
-            materiality[x.attrib['ref']] = " ".join(x.text.split())
-        for x in doc.any_xpath('.//tei:handNote/@scribeRef'):
-            if len(x) > 3:
-                hands.add(x.replace('#', 'pmb'))
-    case['men_pers'] = persons
-    case['men_pl'] = places
-    case['men_orgs'] = orgs
-    case['men_works'] = works
-    case['men_subjects'] = list(subjects)
-    case['men_class_codes'] = list(class_codes)
-    case['hands'] = list(hands)
-    case['materiality'] = materiality
+    print("writing case index part II")
 
-with open('./cases-index.json', 'w', encoding='utf-8') as f:
-    json.dump(data, f, ensure_ascii=False)
+    failed = []
+    for case in tqdm(data['cases'], total=len(data['cases'])):
+        persons = dict()
+        places = dict()
+        orgs = dict()
+        works = dict()
+        subjects = set()
+        class_codes = set()
+        materiality = dict()
+        hands = set()
+        for d in case['docs']:
+            try:
+                doc = TeiReader(f"./data/editions/{d}")
+            except:
+                failed.append(d)
+                continue
+            for ent in doc.any_xpath('.//tei:back/tei:listPerson/tei:person'):
+                xml_id = ent.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+                title = ent.xpath('./*[1]')[0]
+                norm_title =  ''.join(title.itertext()).strip()
+                persons[xml_id] = " ".join(norm_title.split())
+            for ent in doc.any_xpath('.//tei:back/tei:listPlace/tei:place'):
+                xml_id = ent.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+                title = ent.xpath('./*[1]')[0]
+                norm_title =  ''.join(title.itertext()).strip()
+                places[xml_id] = " ".join(norm_title.split())
+            for ent in doc.any_xpath('.//tei:back/tei:listOrg/tei:org'):
+                xml_id = ent.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+                title = ent.xpath('./*[1]')[0]
+                norm_title =  ''.join(title.itertext()).strip()
+                orgs[xml_id] = " ".join(norm_title.split())
+            for ent in doc.any_xpath('.//tei:back/tei:listBibl/tei:bibl'):
+                xml_id = ent.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+                title = ent.xpath('./*[1]')[0]
+                norm_title =  ''.join(title.itertext()).strip()
+                works[xml_id] = " ".join(norm_title.split())
+            for x in doc.any_xpath('.//tei:keywords/tei:term'):
+                subjects.add(x.text)
+            for x in doc.any_xpath('.//tei:textClass/tei:classCode'):
+                class_codes.add(x.text)
+            for x in doc.any_xpath('.//tei:ab[@type="materiality"]/tei:objectType'):
+                materiality[x.attrib['ref']] = " ".join(x.text.split())
+            for x in doc.any_xpath('.//tei:handNote/@scribeRef'):
+                if len(x) > 3:
+                    hands.add(x.replace('#', 'pmb'))
+        case['men_pers'] = persons
+        case['men_pl'] = places
+        case['men_orgs'] = orgs
+        case['men_works'] = works
+        case['men_subjects'] = list(subjects)
+        case['men_class_codes'] = list(class_codes)
+        case['hands'] = list(hands)
+        case['materiality'] = materiality
+
+    with open('./cases-index.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False)

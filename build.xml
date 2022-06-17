@@ -2,7 +2,6 @@
 <project basedir="." name="tei2html">
     <property name="index" value="./data/meta/about.xml"/>
     <property name="target" value="./html"/>
-    <property name="target_xml" value="./html/xml-view"/>
     <delete>
         <fileset dir="${target}" includes="*.html"/>
         <fileset dir="${target}" includes="*.rdf"/>
@@ -32,7 +31,7 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <!-- <xslt in="./data/indices/listperson.xml" out="${target}/listperson.html" style="./xslt/listperson.xsl">
+    <xslt in="./data/indices/listperson.xml" out="${target}/listperson.html" style="./xslt/listperson.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
@@ -43,19 +42,11 @@
     <xslt in="./data/indices/listorg.xml" out="${target}/listorg.html" style="./xslt/listorg.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt> -->
-    <xslt in="./data/meta/arche_constants.rdf" out="${target}/arche-cols.rdf" style="./xslt/arche-cols.xsl">
+    </xslt>
+    <xslt in="./data/indices/listperson.xml" out="${target}/beacon.txt" style="./xslt/beacon.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt in="./data/meta/arche_constants.rdf" out="${target}/arche.rdf" style="./xslt/arche.xsl">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt>
-    <!-- <xslt in="./data/indices/listperson.xml" out="${target}/beacon.txt" style="./xslt/beacon.xsl">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt> -->
     <replace dir="${target}" value="">
         <include name="*.html"/>
         <replacetoken> xmlns=""</replacetoken>
