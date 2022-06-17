@@ -21,7 +21,7 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
-                    <div class="container-fluid">
+                    <div class="container-lg">
                         <div class="card">
                             <div class="card-header">
                                 <h1><xsl:value-of select="$doc_title"/></h1>
@@ -33,7 +33,10 @@
                                             <div id="stats-container"></div>
                                             <div id="searchbox"></div>
                                             <div id="clear-refinements"></div>
+                                            <ul id="current-refinements"></ul>
                                             
+                                            
+                                            <hr/>
                                             <h4>Personen</h4>
                                             <div id="refinement-list-persons"></div>
                                             <h4>Orte</h4>
@@ -46,9 +49,13 @@
                                             <div id="refinement-list-keywords"></div>
                                             <h4>Materialien</h4>
                                             <div id="refinement-list-materials"></div>
+                                            <h4>Jahr</h4>
+                                            <div id="range-input"></div>
                                             
                                         </div>
                                         <div class="col-md-8">
+                                            <h4>Datum</h4>
+                                            
                                             <div id="hits"></div>
                                             <div id="pagination"></div>
                                         </div>

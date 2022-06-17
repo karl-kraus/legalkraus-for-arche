@@ -86,9 +86,23 @@ search.addWidgets([
         container: '#pagination',
         padding: 2,
     }),
+
     instantsearch.widgets.clearRefinements({
         container: '#clear-refinements',
-    })
+    }),
+
+    instantsearch.widgets.currentRefinements({
+        container: '#current-refinements',
+    }),
+      
+
+    instantsearch.widgets.rangeInput({
+        container: '#range-input',
+        attribute: 'year',
+        step: 10,
+        pips: true,
+    }),
+      
 
 
 ]);

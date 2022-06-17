@@ -7,7 +7,7 @@ import typesense
 from typesense.api_call import ObjectNotFound
 from acdh_tei_pyutils.tei import TeiReader
 from tqdm import tqdm
-from create_case_index import date_from_tei
+from create_case_index import date_from_doc
 
 
 files = glob.glob('./data/editions/*.xml')
@@ -51,7 +51,14 @@ current_schema = {
         {
             'name': 'date',
             'type': 'int64',
-            'optional': True
+            'optional': True,
+            'facet': True,
+        },
+        {
+            'name': 'year',
+            'type': 'int32',
+            'optional': True,
+            'facet': True,
         },
         {
             'name': 'persons',
@@ -102,11 +109,15 @@ for x in tqdm(files, total=len(files)):
     record['id'] = os.path.split(x)[-1].replace('.xml', '')
     record['rec_id'] = os.path.split(x)[-1]
     record['title'] = " ".join(" ".join(doc.any_xpath('.//tei:titleStmt/tei:title[1]//text()')).split())
-    date_str = date_from_tei(doc,'1800-01-01' )
+    date_str = date_from_doc(doc,'1920-01-01')
+    try:
+        record['year'] = int(date_str[:4])
+    except ValueError:
+        pass
     try:
         ts = ciso8601.parse_datetime(date_str)
     except ValueError:
-        ts = ciso8601.parse_datetime('1800-01-01')
+        ts = ciso8601.parse_datetime('1920-01-01')
 
     record['date'] = int(time.mktime(ts.timetuple()))
     record['persons'] = [
@@ -131,5 +142,4 @@ for x in tqdm(files, total=len(files)):
     records.append(record)
 
 make_index = client.collections['legalkraus'].documents.import_(records)
-# print(make_index)
 print('done with indexing')

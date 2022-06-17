@@ -49,6 +49,25 @@ def date_from_tei(path_to_file, default=""):
         return default
     return date.strip()
 
+
+def date_from_doc(doc, default=""):
+    """
+    Tries to extract some iso-date from the passed in doc
+
+    :param doc: a TeiReader object
+    :param default: str; a default value to be returned in case no useful date could be found
+    """
+    try:
+        date_el = doc.any_xpath('.//tei:creation/tei:date')[0]
+    except IndexError:
+        return default
+    date_attr = date_el.attrib.items()
+    try:
+        date = [x[1] for x in date_attr if is_date(x[1])][0]
+    except IndexError:
+        return default
+    return date.strip()
+
 def yield_cases(files):
     faulty = []
     class_codes = {}
