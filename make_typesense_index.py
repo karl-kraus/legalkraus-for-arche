@@ -102,6 +102,7 @@ for x in tqdm(files, total=len(files)):
     body = doc.any_xpath('.//tei:body')[0]
     record['id'] = os.path.split(x)[-1].replace('.xml', '')
     cfts_record['id'] = record['id']
+    cfts_record['resolver'] = f"https://acdh-oeaw.github.io/kraus-static/{record['id']}.html"
     record['rec_id'] = os.path.split(x)[-1]
     cfts_record['rec_id'] = record['rec_id']
     record['title'] = " ".join(" ".join(doc.any_xpath('.//tei:titleStmt/tei:title[1]//text()')).split())
