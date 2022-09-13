@@ -7,10 +7,8 @@ rm -rf ./data/indices && mkdir -p ./data/indices
 find -path "*objects/D_*.xml" -exec cp -prv '{}' './data/editions' ';'
 rm -rf ./data-*
 
-wget -O downloaded_data --header "PRIVATE-TOKEN: ${GITLAB_TOKEN}" https://gitlab.com/api/v4/projects/13601493/repository/archive?path=indices
-tar -xf downloaded_data && rm downloaded_data
-find -path "*indices/list*.xml" -exec cp -prv '{}' './data/indices' ';'
-rm -rf ./data-*
+echo "fetch indices"
+python download_index_files.py
 
 echo "get cases TEIs"
 ./cases.sh
