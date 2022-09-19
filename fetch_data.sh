@@ -45,23 +45,27 @@ add-attributes -g "./data/editions/*.xml" -b "https://id.acdh.oeaw.ac.at/legalkr
 add-attributes -g "./data/indices/*.xml" -b "https://id.acdh.oeaw.ac.at/legalkraus"
 add-attributes -g "./data/cases_tei/*.xml" -b "https://id.acdh.oeaw.ac.at/legalkraus"
 
-# echo "update Fackel Register"
-# python fackel_register.py
+echo "update Fackel Register"
+python fackel_register.py
 
-# echo "update listlegal.xml"
-# python listlegal.py
+echo "update listlegal.xml"
+python listlegal.py
 
-# echo "denormalize indices in objects"
-# denormalize-indices -f "./data/editions/D_*.xml" -i "./data/indices/*.xml" -m ".//*[@ref]/@ref" -x ".//tei:titleStmt/tei:title[1]/text()" -b pmb11988
+echo "denormalize indices in objects"
+denormalize-indices -f "./data/editions/D_*.xml" -i "./data/indices/*.xml" -m ".//*[@ref]/@ref" -x ".//tei:titleStmt/tei:title[1]/text()" -b pmb11988
 
-# echo "denormalize indices in cases"
-# denormalize-indices -f "./data/cases_tei/C_*.xml" -i "./data/indices/*.xml" -m ".//*[@ref]/@ref" -x ".//tei:titleStmt/tei:title[1]/text()" -b pmb11988
+echo "denormalize indices in cases"
+denormalize-indices -f "./data/cases_tei/C_*.xml" -i "./data/indices/*.xml" -m ".//*[@ref]/@ref" -x ".//tei:titleStmt/tei:title[1]/text()" -b pmb11988
 
-# # echo "create cases-index.json"
-# # python create_case_index.py
+echo "remove listEvent from back elements"
+python rm_listevent.py
 
-# # echo "and now to Boehm"
-# # ./boehm.sh
+echo "create cases-index.json"
+python create_case_index.py
 
-# echo "make typesense index"
-# python make_typesense_index.py
+
+# echo "and now to Boehm"
+# ./boehm.sh
+
+echo "make typesense index"
+python make_typesense_index.py
