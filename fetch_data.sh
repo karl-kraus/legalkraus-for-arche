@@ -2,17 +2,21 @@
 
 rm -rf main.zip
 rm -rf legalkraus-data-main
+wget https://github.com/karl-kraus/legalkraus-data/archive/refs/heads/main.zip
+unzip main
 rm -rf ./data/editions
 rm -rf ./data/indices
 rm -rf ./data/cases_tei
-wget https://github.com/karl-kraus/legalkraus-data/archive/refs/heads/main.zip
-unzip main
-
 mv ./legalkraus-data-main/collections ./data/cases_tei
 mv ./legalkraus-data-main/objects ./data/editions
 mv ./legalkraus-data-main/indices ./data/indices
 rm -rf main.zip
 rm -rf legalkraus-data-main
+rm -rf main.zip && rm -rf ./boehm-retro-main
+wget https://github.com/karl-kraus/boehm-retro/archive/refs/heads/main.zip
+unzip main
+mv ./boehm-retro-main/data/editions ./boehm_tei
+rm -rf main.zip && rm -rf ./boehm-retro-main
 find ./data/cases_tei/ -type f -name "C_*.xml"  -print0 | xargs -0 sed -i 's@ref target="https://id.acdh.oeaw.ac.at/D_@ref target="https://id.acdh.oeaw.ac.at/legalkraus/D_@g'
 
 echo "fetch indices"
@@ -62,10 +66,6 @@ python rm_listevent.py
 
 echo "create cases-index.json"
 python create_case_index.py
-
-
-# echo "and now to Boehm"
-# ./boehm.sh
 
 echo "make typesense index"
 python make_typesense_index.py
