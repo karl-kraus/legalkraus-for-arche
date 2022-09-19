@@ -1,22 +1,23 @@
-# bin/bash
+#!/bin/bash
 
-wget -O downloaded_data --header "PRIVATE-TOKEN: ${GITLAB_TOKEN}" https://gitlab.com/api/v4/projects/13601493/repository/archive?path=objects
-tar -xf downloaded_data && rm downloaded_data
-rm -rf ./data/editions && mkdir -p ./data/editions
-rm -rf ./data/indices && mkdir -p ./data/indices
-find -path "*objects/D_*.xml" -exec cp -prv '{}' './data/editions' ';'
-rm -rf ./data-*
+rm -rf main.zip
+rm -rf legalkraus-data-main
+rm -rf ./data/editions
+rm -rf ./data/indices
+rm -rf ./data/cases_tei
+wget https://github.com/karl-kraus/legalkraus-data/archive/refs/heads/main.zip
+unzip main
 
-wget -O downloaded_data --header "PRIVATE-TOKEN: ${GITLAB_TOKEN}" https://gitlab.com/api/v4/projects/13601493/repository/archive?path=indices
-tar -xf downloaded_data && rm downloaded_data
-find -path "*indices/list*.xml" -exec cp -prv '{}' './data/indices' ';'
-rm -rf ./data-*
+mv ./legalkraus-data-main/collections ./data/cases_tei
+mv ./legalkraus-data-main/objects ./data/editions
+mv ./legalkraus-data-main/indices ./data/indices
+rm -rf main.zip
+rm -rf legalkraus-data-main
+find ./data/cases_tei/ -type f -name "C_*.xml"  -print0 | xargs -0 sed -i 's@ref target="https://id.acdh.oeaw.ac.at/D_@ref target="https://id.acdh.oeaw.ac.at/legalkraus/D_@g'
 
 echo "fetch indices"
 python download_index_files.py
 
-echo "get cases TEIs"
-./cases.sh
 
 echo "delete files without revisionDesc status='done'"
 find ./data/editions/ -type f -name "D_*.xml" -print0 | xargs --null grep -Z -L 'revisionDesc status="done"' | xargs --null rm
@@ -44,23 +45,23 @@ add-attributes -g "./data/editions/*.xml" -b "https://id.acdh.oeaw.ac.at/legalkr
 add-attributes -g "./data/indices/*.xml" -b "https://id.acdh.oeaw.ac.at/legalkraus"
 add-attributes -g "./data/cases_tei/*.xml" -b "https://id.acdh.oeaw.ac.at/legalkraus"
 
-echo "update Fackel Register"
-python fackel_register.py
+# echo "update Fackel Register"
+# python fackel_register.py
 
-echo "update listlegal.xml"
-python listlegal.py
+# echo "update listlegal.xml"
+# python listlegal.py
 
-echo "denormalize indices in objects"
-denormalize-indices -f "./data/editions/D_*.xml" -i "./data/indices/*.xml" -m ".//*[@ref]/@ref" -x ".//tei:titleStmt/tei:title[1]/text()" -b pmb11988
+# echo "denormalize indices in objects"
+# denormalize-indices -f "./data/editions/D_*.xml" -i "./data/indices/*.xml" -m ".//*[@ref]/@ref" -x ".//tei:titleStmt/tei:title[1]/text()" -b pmb11988
 
-echo "denormalize indices in cases"
-denormalize-indices -f "./data/cases_tei/C_*.xml" -i "./data/indices/*.xml" -m ".//*[@ref]/@ref" -x ".//tei:titleStmt/tei:title[1]/text()" -b pmb11988
+# echo "denormalize indices in cases"
+# denormalize-indices -f "./data/cases_tei/C_*.xml" -i "./data/indices/*.xml" -m ".//*[@ref]/@ref" -x ".//tei:titleStmt/tei:title[1]/text()" -b pmb11988
 
-# echo "create cases-index.json"
-# python create_case_index.py
+# # echo "create cases-index.json"
+# # python create_case_index.py
 
-# echo "and now to Boehm"
-# ./boehm.sh
+# # echo "and now to Boehm"
+# # ./boehm.sh
 
-echo "make typesense index"
-python make_typesense_index.py
+# echo "make typesense index"
+# python make_typesense_index.py
