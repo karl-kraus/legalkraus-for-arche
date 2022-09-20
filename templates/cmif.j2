@@ -35,7 +35,7 @@ Wissenschaftliche Edition hg. v. Johannes Knüchel und Isabel Langkabel, auf Gru
                 </correspAction>
                 <correspAction type="received">{% if x.receiver_pmb %}{% if x.type_y == 'person' %}
                     <persName {% if x.gnd_y %} ref="{{ x.gnd_y }}" {% else %} ref="{{ x.receiver_pmb }}"{% endif %}>{{ x.name_y }}</persName>{% else %}{% endif %}
-                    <orgName {% if x.gnd_y %} ref="{{ x.gnd_y }}" {% else %} ref="{{ x.receiver_pmb }}"{% endif %}>{{ x.name_y }}</orgName>{% endif %}{% if x.place_id_y %}}
+                    <orgName {% if x.gnd_y %} ref="{{ x.gnd_y }}" {% else %} ref="{{ x.receiver_pmb }}"{% endif %}>{{ x.name_y }}</orgName>{% endif %}{% if x.place_id_y %}
                     <placeName {% if x.geonames_y %} ref="{{ x.geonames_y }}" {% else %} ref="{{ x.place_id_y }}"{% endif %}>{{ x.place_name_y }}</placeName>{% endif %}
                 </correspAction>
             </correspDesc>{% endif %}

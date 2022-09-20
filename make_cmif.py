@@ -9,6 +9,7 @@ from acdh_tei_pyutils.tei import TeiReader
 
 files = sorted(glob.glob('./data/editions/*.xml'))
 CUT_OFF = len(files)
+CMIF = './data/indices/cmif.xml'
 # CUT_OFF = 300
 
 def fix_hashtag(pmb_id):
@@ -113,7 +114,7 @@ for x in doc.any_xpath('.//tei:org[@xml:id]'):
         name = x.xpath('./tei:orgName', namespaces=doc.nsmap)[0].text
     except:
         name = 'unbekannt'
-    item['name'] = name
+    item['name'] = name.replace('&', '&amp;')
     items.append(item)
 df_persons = pd.DataFrame(items)
 df = df.merge(df_persons, how='left', left_on='sender_pmb', right_on='id')
@@ -128,7 +129,7 @@ for x in doc.any_xpath('.//tei:place[@xml:id]'):
         name = x.xpath('./tei:placeName', namespaces=doc.nsmap)[0].text
     except:
         name = 'unbekannt'
-    item['place_name'] = name
+    item['place_name'] = name.replace('&', '&amp;')
     gnd = None
     for idno in x.xpath('./tei:idno', namespaces=doc.nsmap):
         if 'geonames.org' in idno.text:
@@ -149,7 +150,7 @@ data = []
 for i, row in df.iterrows():
     data.append(dict(row))
 
-with open(f'./data/indices/cmif.xml', 'w') as f:
+with open(CMIF, 'w') as f:
     f.write(
         template.render(
             {
@@ -158,3 +159,6 @@ with open(f'./data/indices/cmif.xml', 'w') as f:
             }
         )
     )
+
+doc = TeiReader(CMIF)
+doc.tree_to_file(CMIF)
