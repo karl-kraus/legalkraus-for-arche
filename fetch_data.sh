@@ -66,6 +66,3 @@ python rm_listevent.py
 
 echo "create cases-index.json"
 python create_case_index.py
-
-echo "make typesense index"
-python make_typesense_index.py

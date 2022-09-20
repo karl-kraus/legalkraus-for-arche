@@ -25,6 +25,9 @@ jobs:
         GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
       run: |
         ./fetch_data.sh
+    - name: Make Typesense Index
+      run: |
+        python make_typesense_index.py
     - name: Build
       run: |
         ant
