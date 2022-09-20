@@ -26,7 +26,7 @@ Wissenschaftliche Edition hg. v. Johannes Knüchel und Isabel Langkabel, auf Gru
         </fileDesc>
         <profileDesc>
 {% for x in data %}{% if x.id_x %}
-        <correspDesc ref="{{ x.id_x}}" source="#legal-kraus-cmif">
+        <correspDesc ref="https://karl-kraus.github.io/kraus-static/{{ x.id_x}}" source="#legal-kraus-cmif">
                 <correspAction type="sent">{% if x.sender_pmb %}{% if x.type_x == 'person' %}
                     <persName {% if x.gnd_x %} ref="{{ x.gnd_x }}" {% else %} ref="{{ x.sender_pmb }}"{% endif %}>{{ x.name_x }}</persName>{% else %}
                     <orgName {% if x.gnd_x %} ref="{{ x.gnd_x }}" {% else %} ref="{{ x.sender_pmb }}"{% endif %}>{{ x.name_x }}</orgName>{% endif %}{% endif %}{% if x.place_id_x %}
