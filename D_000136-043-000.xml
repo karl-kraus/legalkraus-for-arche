@@ -148,7 +148,68 @@
          <p xml:id="uuid_8e10ab7d-62a2-417b-ad77-05650094eb37">
             <lb xml:id="uuid_d5fc0292-76c5-4e64-a336-4d203c89baae"/><note type="paratext" resp="law-firm"><rs ref="#pmb11988" type="person">Kraus</rs> – <rs ref="#pmb36940" type="institution">Volksbühne</rs><lb xml:id="uuid_e5eeca10-d714-4d0c-a66a-4d7914337af9"/>24. JULI 1931</note></p>
       </body>
-   <back><listPerson><person xml:id="pmb11988">
+   <back><listOrg><org xml:id="pmb36940">
+  <orgName>Volksbühne Berlin</orgName>
+  <orgName type="uri_wikipedia">https://de.wikipedia.org/wiki/Volksbühne_Berlin</orgName>
+  <orgName type="alternative-name">Theater am Bülowplatz</orgName>
+  <orgName type="alternative-name">Theater am Rosa-Luxemburg-Platz</orgName>
+  <desc type="entity_type">Theater</desc>
+  <desc type="entity_type_id">1012</desc>
+<location type="located_in_place">
+  <placeName key="pmb36737">Mitte</placeName>
+  <geo>52.516669 13.366669</geo>
+  <note type="IDNO">https://d-nb.info/gnd/4248938-6</note>
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/36737</note>
+  <note type="IDNO" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/orte/pmb36737</note>
+</location>
+<location type="located_in_place">
+  <placeName key="pmb168">Berlin</placeName>
+  <geo>52.52437 13.41053</geo>
+  <note type="IDNO" subtype="geonames">http://sws.geonames.org/2950159/</note>
+  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb168</note>
+  <note type="IDNO">https://d-nb.info/gnd/4005728-8</note>
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/168</note>
+  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</note>
+  <note type="IDNO" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/orte/pmb168</note>
+  <note type="IDNO">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</note>
+</location>
+<location type="located_in_place">
+  <placeName key="pmb59769">Rosa-Luxemburg-Platz</placeName>
+  <geo>52.526389 13.411389</geo>
+  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/59769/</note>
+  <note type="IDNO" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/orte/pmb59769</note>
+</location>
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36940/</idno>
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36940</idno>
+  <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36940</idno>
+  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/institutionen/pmb36940</idno>
+<listBibl>
+    <bibl type="collections" n="5">legalkraus</bibl>
+</listBibl>
+<note type="apis_dates">
+<date notBefore-iso="1890-01-01" when-iso="1890-07-02">1890</date>
+</note>
+</org></listOrg><listPerson><person xml:id="pmb52922">
+  <persName>
+      <forename>Gerhard</forename>
+      <surname>Badrian</surname>
+  </persName>
+  <sex value="male"/>
+  <occupation key="106">Rechtsanwalt/Rechtsanwältin</occupation>
+  <occupation key="160">Richter/Richterin</occupation>
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52922/</idno>
+  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/personen/pmb52922</idno>
+<affiliation>
+    <term key="1182">arbeitet für</term>
+    <orgName key="pmb36362">Amtsgericht Berlin-Charlottenburg</orgName>
+    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36362/</idno>
+    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36362</idno>
+    <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/institutionen/pmb36362</idno>
+</affiliation>
+<listBibl>
+    <bibl type="collections" n="5">legalkraus</bibl>
+</listBibl>
+</person><person xml:id="pmb11988">
   <persName>
       <forename>Karl</forename>
       <surname>Kraus</surname>
@@ -236,26 +297,6 @@
     <bibl type="collections" n="3">Manuell angelegt</bibl>
     <bibl type="collections" n="5">legalkraus</bibl>
 </listBibl>
-</person><person xml:id="pmb52922">
-  <persName>
-      <forename>Gerhard</forename>
-      <surname>Badrian</surname>
-  </persName>
-  <sex value="male"/>
-  <occupation key="106">Rechtsanwalt/Rechtsanwältin</occupation>
-  <occupation key="160">Richter/Richterin</occupation>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52922/</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/personen/pmb52922</idno>
-<affiliation>
-    <term key="1182">arbeitet für</term>
-    <orgName key="pmb36362">Amtsgericht Berlin-Charlottenburg</orgName>
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36362/</idno>
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36362</idno>
-    <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/institutionen/pmb36362</idno>
-</affiliation>
-<listBibl>
-    <bibl type="collections" n="5">legalkraus</bibl>
-</listBibl>
 </person><person xml:id="pmb51592">
   <persName>
       <forename>Otto</forename>
@@ -268,48 +309,7 @@
 <listBibl>
     <bibl type="collections" n="5">legalkraus</bibl>
 </listBibl>
-</person></listPerson><listOrg><org xml:id="pmb36940">
-  <orgName>Volksbühne Berlin</orgName>
-  <orgName type="uri_wikipedia">https://de.wikipedia.org/wiki/Volksbühne_Berlin</orgName>
-  <orgName type="alternative-name">Theater am Bülowplatz</orgName>
-  <orgName type="alternative-name">Theater am Rosa-Luxemburg-Platz</orgName>
-  <desc type="entity_type">Theater</desc>
-  <desc type="entity_type_id">1012</desc>
-<location type="located_in_place">
-  <placeName key="pmb36737">Mitte</placeName>
-  <geo>52.516669 13.366669</geo>
-  <note type="IDNO">https://d-nb.info/gnd/4248938-6</note>
-  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/36737</note>
-  <note type="IDNO" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/orte/pmb36737</note>
-</location>
-<location type="located_in_place">
-  <placeName key="pmb168">Berlin</placeName>
-  <geo>52.52437 13.41053</geo>
-  <note type="IDNO" subtype="geonames">http://sws.geonames.org/2950159/</note>
-  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb168</note>
-  <note type="IDNO">https://d-nb.info/gnd/4005728-8</note>
-  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/168</note>
-  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</note>
-  <note type="IDNO" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/orte/pmb168</note>
-  <note type="IDNO">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</note>
-</location>
-<location type="located_in_place">
-  <placeName key="pmb59769">Rosa-Luxemburg-Platz</placeName>
-  <geo>52.526389 13.411389</geo>
-  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/59769/</note>
-  <note type="IDNO" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/orte/pmb59769</note>
-</location>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36940/</idno>
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36940</idno>
-  <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36940</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/institutionen/pmb36940</idno>
-<listBibl>
-    <bibl type="collections" n="5">legalkraus</bibl>
-</listBibl>
-<note type="apis_dates">
-<date notBefore-iso="1890-01-01" when-iso="1890-07-02">1890</date>
-</note>
-</org></listOrg><listPlace><place xml:id="pmb168">
+</person></listPerson><listPlace><place xml:id="pmb168">
   <placeName>Berlin</placeName>
   <placeName type="alternative-name">Berlin</placeName>
   <placeName type="legacy-name-merge">Berlin</placeName>

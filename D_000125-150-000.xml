@@ -152,7 +152,23 @@
             <lb xml:id="uuid_da54ce29-05d7-455c-8ce8-ad80a3f061e3"/><rs ref="#pmb43661" type="person">Ihle-Popper, Peter</rs> 4.3. <rs ref="#pmb50" type="place">Wien</rs>
                 geb. ist jetzt nachträglich<lb xml:id="uuid_fafe36e9-d5d2-403e-9fd2-05647bbf22ce"/>als am 28.5.33 nach <rs ref="#pmb50" type="place">Wien</rs> verzogen abgemeldet. </p>
       </body>
-   <back><listPlace><place xml:id="pmb50">
+   <back><listPlace><place xml:id="pmb57402">
+  <placeName>Brandenburgische Straße</placeName>
+  <desc type="entity_type">Straße (K.STR)</desc>
+  <desc type="entity_type_id">26</desc>
+<location type="coords">
+  <geo>52.49245409067205 13.311675783017682</geo>
+</location>
+<location type="located_in_place">
+  <placeName key="pmb168">Berlin</placeName>
+  <geo>52.52437 13.41053</geo>
+</location>
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/57402/</idno>
+  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/orte/pmb57402</idno>
+<listBibl>
+    <bibl type="collections" n="5">legalkraus</bibl>
+</listBibl>
+</place><place xml:id="pmb50">
   <placeName>Wien</placeName>
   <placeName type="alternative-name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
   <placeName type="legacy-name-merge">Wien</placeName>
@@ -248,23 +264,37 @@
     <bibl type="collections" n="2">Erster Import</bibl>
     <bibl type="collections" n="5">legalkraus</bibl>
 </listBibl>
-</place><place xml:id="pmb57402">
-  <placeName>Brandenburgische Straße</placeName>
-  <desc type="entity_type">Straße (K.STR)</desc>
-  <desc type="entity_type_id">26</desc>
-<location type="coords">
-  <geo>52.49245409067205 13.311675783017682</geo>
-</location>
-<location type="located_in_place">
-  <placeName key="pmb168">Berlin</placeName>
-  <geo>52.52437 13.41053</geo>
-</location>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/57402/</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/orte/pmb57402</idno>
+</place></listPlace><listPerson><person xml:id="pmb43661">
+  <persName>
+      <forename>Peter</forename>
+      <surname>Ihle</surname>
+  </persName>
+  <persName type="geburtsname_nachname">Illing</persName>
+  <persName type="uri_gnd">https://d-nb.info/gnd/130187348</persName>
+  <birth>
+    <date when-iso="1900-03-04">04.03.1900</date>
+      <settlement key="pmb50">
+        <placeName type="pref">Wien</placeName>
+        <location><geo>48.2066 16.37341</geo></location>
+      </settlement>
+  </birth>  
+  <death>
+    <date when-iso="1966-10-29">29.10.1966</date>
+      <settlement key="pmb224">
+        <placeName type="pref">London</placeName>
+        <location><geo>51.50853 -0.12574</geo></location>
+      </settlement>
+  </death>
+  <sex value="male"/>
+  <occupation key="105">Schauspieler/Schauspielerin</occupation>
+  <occupation key="715">Theaterdirektor/Theaterdirektorin</occupation>
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43661/</idno>
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/43661</idno>
+  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/personen/pmb43661</idno>
 <listBibl>
     <bibl type="collections" n="5">legalkraus</bibl>
 </listBibl>
-</place></listPlace><listOrg><org xml:id="pmb50733">
+</person></listPerson><listOrg><org xml:id="pmb50733">
   <orgName>Einwohner-Melde-Amt (Polizeibehörde Berlin)</orgName>
   <desc type="entity_type">Polizeibehörde</desc>
   <desc type="entity_type_id">1240</desc>
@@ -308,35 +338,5 @@
 <listBibl>
     <bibl type="collections" n="5">legalkraus</bibl>
 </listBibl>
-</org></listOrg><listPerson><person xml:id="pmb43661">
-  <persName>
-      <forename>Peter</forename>
-      <surname>Ihle</surname>
-  </persName>
-  <persName type="geburtsname_nachname">Illing</persName>
-  <persName type="uri_gnd">https://d-nb.info/gnd/130187348</persName>
-  <birth>
-    <date when-iso="1900-03-04">04.03.1900</date>
-      <settlement key="pmb50">
-        <placeName type="pref">Wien</placeName>
-        <location><geo>48.2066 16.37341</geo></location>
-      </settlement>
-  </birth>  
-  <death>
-    <date when-iso="1966-10-29">29.10.1966</date>
-      <settlement key="pmb224">
-        <placeName type="pref">London</placeName>
-        <location><geo>51.50853 -0.12574</geo></location>
-      </settlement>
-  </death>
-  <sex value="male"/>
-  <occupation key="105">Schauspieler/Schauspielerin</occupation>
-  <occupation key="715">Theaterdirektor/Theaterdirektorin</occupation>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43661/</idno>
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/43661</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/personen/pmb43661</idno>
-<listBibl>
-    <bibl type="collections" n="5">legalkraus</bibl>
-</listBibl>
-</person></listPerson></back></text>
+</org></listOrg></back></text>
 </TEI>
