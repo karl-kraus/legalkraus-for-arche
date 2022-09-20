@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus/indices" xml:id="cmif.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="label">Correspondence Metadata Interchange Format für: Karl Kraus: Rechtsakten der Kanzlei Oskar Samek.
+Wissenschaftliche Edition</title>
+                <editor>Johannes Knüchel, Isabel Langkabel und Peter Andorfer</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.kraus.wienbibliothek.at/">Karl Kraus: Rechtsakten der Kanzlei Oskar Samek.
+Wissenschaftliche Edition hg. v. Johannes Knüchel und Isabel Langkabel, auf Grundlage der Vorarbeiten Katharina Pragers, unter Mitarbeit von Laura Untner, Andrea Ortner, Ingo Börner und Vanessa Hannesschläger (Wien 2022) </ref>
+                </publisher>
+                <date when="{{ date }}"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+                </availability>
+                <idno type="url">cmif.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="legal-kraus-cmif" type="online">Karl Kraus: Rechtsakten der Kanzlei Oskar Samek.
+Wissenschaftliche Edition hg. v. Johannes Knüchel und Isabel Langkabel, auf Grundlage der Vorarbeiten Katharina Pragers, unter Mitarbeit von Laura Untner, Andrea Ortner, Ingo Börner und Vanessa Hannesschläger (Wien 2022) <ref target="https://karl-kraus.github.io/kraus-static">https://karl-kraus.github.io/kraus-static</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+{% for x in data %}{% if x.id_x %}
+        <correspDesc ref="{{ x.id_x}}" source="#legal-kraus-cmif">
+                <correspAction type="sent">{% if x.sender_pmb %}{% if x.type_x == 'person' %}
+                    <persName {% if x.gnd_x %} ref="{{ x.gnd_x }}" {% else %} ref="{{ x.sender_pmb }}"{% endif %}>{{ x.name_x }}</persName>{% else %}
+                    <orgName {% if x.gnd_x %} ref="{{ x.gnd_x }}" {% else %} ref="{{ x.sender_pmb }}"{% endif %}>{{ x.name_x }}</orgName>{% endif %}{% endif %}{% if x.place_id_x %}
+                    <placeName {% if x.geonames_x %} ref="{{ x.geonames_x }}" {% else %} ref="{{ x.place_id_x }}"{% endif %}>{{ x.place_name_x }}</placeName>{% endif %}
+                    {% if x.sent_date %}<date when="{{ x.sent_date }}">{{ x.sent_date_str }}</date>{% endif %}
+                </correspAction>
+                <correspAction type="received">{% if x.receiver_pmb %}{% if x.type_y == 'person' %}
+                    <persName {% if x.gnd_y %} ref="{{ x.gnd_y }}" {% else %} ref="{{ x.receiver_pmb }}"{% endif %}>{{ x.name_y }}</persName>{% else %}{% endif %}
+                    <orgName {% if x.gnd_y %} ref="{{ x.gnd_y }}" {% else %} ref="{{ x.receiver_pmb }}"{% endif %}>{{ x.name_y }}</orgName>{% endif %}{% if x.place_id_y %}}
+                    <placeName {% if x.geonames_y %} ref="{{ x.geonames_y }}" {% else %} ref="{{ x.place_id_y }}"{% endif %}>{{ x.place_name_y }}</placeName>{% endif %}
+                </correspAction>
+            </correspDesc>{% endif %}
+{% endfor %}
+        </profileDesc>
+        </teiHeader>
+    <text>
+        <body>
+            <p>some text</p>
+        </body>
+    </text>
+</TEI>

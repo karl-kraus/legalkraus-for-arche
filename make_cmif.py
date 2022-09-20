@@ -1,10 +1,22 @@
 import pandas as pd
 import os
-from tqdm import tqdm
+import jinja2
 import glob
+
+from tqdm import tqdm
+from datetime import date
 from acdh_tei_pyutils.tei import TeiReader
+
 files = sorted(glob.glob('./data/editions/*.xml'))
 CUT_OFF = len(files)
+# CUT_OFF = 300
+
+def fix_hashtag(pmb_id):
+    if pmb_id.startswith('#'):
+        return pmb_id
+    else:
+        f"#{pmb_id}"
+
 letters = []
 for x in tqdm(files[:CUT_OFF], total=CUT_OFF):
     _, tail = os.path.split(x)
@@ -13,39 +25,41 @@ for x in tqdm(files[:CUT_OFF], total=CUT_OFF):
     except:
         continue
     try:
-        sender_pmb = doc.any_xpath('.//tei:correspAction[@type="sent"]/tei:*/@ref')[0]
+        sender_pmb = doc.any_xpath('.//tei:correspAction[1]/tei:*/@ref')[0]
     except:
         continue
     try:
-        sender_place_pmb = doc.any_xpath('.//tei:correspAction[@type="sent"]//tei:settlement/@ref')[0]
+        sender_place_pmb = doc.any_xpath('.//tei:correspAction[1]//tei:settlement/@ref')[0]
     except:
         continue
     try:
-        receiver_pmb = doc.any_xpath('.//tei:correspAction[@type="received"]/tei:*/@ref')[0]
+        receiver_pmb = doc.any_xpath('.//tei:correspAction[2]/tei:*/@ref')[0]
     except:
         receiver_pmb = 'unbekannt'
     try:
-        receiver_place_pmb = doc.any_xpath('.//tei:correspAction[@type="received"]//tei:settlement/@ref')[0]
+        receiver_place_pmb = doc.any_xpath('.//tei:correspAction[2]//tei:settlement/@ref')[0]
     except:
         receiver_place_pmb = 'unbekannt'
     try:
-        sent_date = doc.any_xpath('.//tei:creation/tei:date')[0]
+        sent_date = doc.any_xpath('.//tei:date[@type="sortDate"]')[0]
     except IndexError:
         sent_date = None
     if sent_date is not None:
         try:
+            sent_date_str = sent_date.text
             sent_date = sent_date.attrib['when-iso']
         except:
             sent_date = None
+            sent_date_str = 'unbekannt'
             
     item = {
-        'id': tail,
-        'sender_pmb': sender_pmb,
-        'sender_place_pmb': sender_place_pmb,
-        'receiver_pmb': receiver_pmb,
-        'receiver_place_pmb': receiver_place_pmb,
-        'sent_date': sent_date
-        
+        'id': tail.replace('.xml', '.html'),
+        'sender_pmb': fix_hashtag(sender_pmb),
+        'sender_place_pmb': fix_hashtag(sender_place_pmb),
+        'receiver_pmb': fix_hashtag(receiver_pmb),
+        'receiver_place_pmb': fix_hashtag(receiver_place_pmb),
+        'sent_date': sent_date,
+        'sent_date_str': sent_date_str
     }
     letters.append(item)
 
@@ -125,4 +139,22 @@ for x in doc.any_xpath('.//tei:place[@xml:id]'):
 places_df = pd.DataFrame(items)
 df = df.merge(places_df, how='left', left_on='sender_place_pmb', right_on='place_id')
 df = df.merge(places_df, how='left', left_on='receiver_place_pmb', right_on='place_id')
+df.fillna('', inplace=True)
 df.to_csv('main.csv', index=False)
+
+templateLoader = jinja2.FileSystemLoader(searchpath=".")
+templateEnv = jinja2.Environment(loader=templateLoader)
+template = templateEnv.get_template('./templates/cmif.j2')
+data = []
+for i, row in df.iterrows():
+    data.append(dict(row))
+
+with open(f'./data/indices/cmif.xml', 'w') as f:
+    f.write(
+        template.render(
+            {
+                "data": data,
+                "date": f"{date.today()}"
+            }
+        )
+    )

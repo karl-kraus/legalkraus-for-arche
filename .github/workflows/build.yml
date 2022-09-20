@@ -28,6 +28,9 @@ jobs:
     - name: Make Typesense Index
       run: |
         python make_typesense_index.py
+    - name: Make CMIF
+      run: |
+        python make_cmif.py
     - name: Build
       run: |
         ant
