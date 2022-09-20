@@ -8,18 +8,18 @@
     </delete>
     <delete dir="${target}/static-search"/>
  
-    <xslt in="./data/meta/arche_constants.rdf" style="./xslt/arche-top.xsl" out="${target}/arche-top.rdf">
+    <!-- <xslt in="./data/meta/arche_constants.rdf" style="./xslt/arche-top.xsl" out="${target}/arche-top.rdf">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt>
+    </xslt> -->
     <xslt in="./data/meta/arche_constants.rdf" style="./xslt/arche-cases.xsl" out="${target}/arche-cases.rdf" >
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt in="./data/meta/arche_constants.rdf" style="./xslt/arche-boehm.xsl" out="${target}/arche-boehm.rdf">
+    <!-- <xslt in="./data/meta/arche_constants.rdf" style="./xslt/arche-boehm.xsl" out="${target}/arche-boehm.rdf">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt>
+    </xslt> -->
     <xslt in="./data/meta/arche_constants.rdf" style="./xslt/arche.xsl" out="${target}/arche.rdf">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
@@ -28,10 +28,10 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt in="./data/meta/arche_constants.rdf" style="./xslt/arche-indices.xsl" out="${target}/arche-indices.rdf">
+    <!-- <xslt in="./data/meta/arche_constants.rdf" style="./xslt/arche-indices.xsl" out="${target}/arche-indices.rdf">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt>
+    </xslt> -->
     <replace dir="${target}" value="">
         <include name="*.html"/>
         <replacetoken> xmlns=""</replacetoken>

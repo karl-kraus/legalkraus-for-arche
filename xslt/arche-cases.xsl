@@ -24,7 +24,7 @@
 
 <!--copy static ARCHE MD -->
         <rdf:RDF xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#">       
-            <acdh:TopCollection>
+            <!-- <acdh:TopCollection>
                 <xsl:attribute name="rdf:about">
                     <xsl:value-of select=".//acdh:TopCollection/@rdf:about"/>
                 </xsl:attribute>
@@ -32,13 +32,13 @@
                 <xsl:for-each select=".//node()[parent::acdh:TopCollection]">
                     <xsl:copy-of select="."/>
                 </xsl:for-each>
-            </acdh:TopCollection>
+            </acdh:TopCollection> -->
             
             
-            <xsl:for-each select=".//node()[parent::acdh:MetaAgents]">
+            <!-- <xsl:for-each select=".//node()[parent::acdh:MetaAgents]">
                 <xsl:copy-of select="."/>
-            </xsl:for-each>
-            <xsl:for-each select=".//acdh:Collection">
+            </xsl:for-each> -->
+            <!-- <xsl:for-each select=".//acdh:Collection">
                 <acdh:Collection>
                     <xsl:attribute name="rdf:about"><xsl:value-of select="@rdf:about"/></xsl:attribute>
                     <xsl:copy-of select="$constants"/>
@@ -46,7 +46,7 @@
                         <xsl:copy-of select="."/>
                     </xsl:for-each>
                 </acdh:Collection>
-            </xsl:for-each>
+            </xsl:for-each> -->
 <!-- case-collection MD and case-tei-md -->
             <xsl:for-each select="collection('../data/cases_tei')//tei:TEI">
                 <xsl:variable name="caseId">
