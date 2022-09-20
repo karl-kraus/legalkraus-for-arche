@@ -138,7 +138,35 @@
          <p xml:id="uuid_a1eaebce-f30b-484a-862c-2068d945ed46"><lb xml:id="uuid_17b8b612-5715-4a74-bcd0-8cd421df3b75"/><rs ref="#pmb39640" type="place">Kassel</rs>, den 10. November 1929 <rs ref="#pmb43645" type="person">Hanna Schwarz</rs> m.p.
          </p>
       </body>
-   <back><listPerson><person xml:id="pmb43645">
+   <back><listPerson><person xml:id="pmb9131">
+  <persName>
+      <forename>Jacques</forename>
+      <surname>Offenbach</surname>
+  </persName>
+  <birth>
+    <date when-iso="1819-06-20">20.06.1819</date>
+      <settlement key="pmb145">
+        <placeName type="pref">Köln</placeName>
+        <location><geo>50.93835 6.95427</geo></location>
+      </settlement>
+  </birth>  
+  <death>
+    <date when-iso="1880-10-05">05.10.1880</date>
+      <settlement key="pmb182">
+        <placeName type="pref">Paris</placeName>
+        <location><geo>48.85341 2.3488</geo></location>
+      </settlement>
+  </death>
+  <sex value="male"/>
+  <occupation key="129">Komponist/Komponistin</occupation>
+  <idno type="URL" subtype="astb">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18529</idno>
+  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118589598</idno>
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/9131</idno>
+  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/personen/pmb9131</idno>
+<listBibl>
+    <bibl type="collections" n="5">legalkraus</bibl>
+</listBibl>
+</person><person xml:id="pmb43645">
   <persName>
       <forename>Irene Hanna</forename>
       <surname>Pisk</surname>
@@ -170,34 +198,6 @@
     <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/57911/</idno>
     <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/institutionen/pmb57911</idno>
 </affiliation>
-<listBibl>
-    <bibl type="collections" n="5">legalkraus</bibl>
-</listBibl>
-</person><person xml:id="pmb9131">
-  <persName>
-      <forename>Jacques</forename>
-      <surname>Offenbach</surname>
-  </persName>
-  <birth>
-    <date when-iso="1819-06-20">20.06.1819</date>
-      <settlement key="pmb145">
-        <placeName type="pref">Köln</placeName>
-        <location><geo>50.93835 6.95427</geo></location>
-      </settlement>
-  </birth>  
-  <death>
-    <date when-iso="1880-10-05">05.10.1880</date>
-      <settlement key="pmb182">
-        <placeName type="pref">Paris</placeName>
-        <location><geo>48.85341 2.3488</geo></location>
-      </settlement>
-  </death>
-  <sex value="male"/>
-  <occupation key="129">Komponist/Komponistin</occupation>
-  <idno type="URL" subtype="astb">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18529</idno>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118589598</idno>
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/9131</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/personen/pmb9131</idno>
 <listBibl>
     <bibl type="collections" n="5">legalkraus</bibl>
 </listBibl>
@@ -387,6 +387,28 @@
     <bibl type="collections" n="5">legalkraus</bibl>
     <bibl type="collections" n="7">Default import collection</bibl>
 </listBibl>
+</place><place xml:id="pmb564">
+  <placeName>Eschenbachgasse</placeName>
+  <desc type="entity_type">Straße (K.STR)</desc>
+  <desc type="entity_type_id">26</desc>
+<location type="coords">
+  <geo>48.202671930842 16.363603741066</geo>
+</location>
+<location type="located_in_place">
+  <placeName key="pmb51">I., Innere Stadt</placeName>
+  <geo>48.20769 16.37049</geo>
+</location>
+  <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb564</idno>
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/564</idno>
+  <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb564</idno>
+  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/orte/pmb564</idno>
+  <idno type="URL">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb564.html</idno>
+<listBibl>
+    <bibl type="collections" n="1">ASBW</bibl>
+    <bibl type="collections" n="2">Erster Import</bibl>
+    <bibl type="collections" n="5">legalkraus</bibl>
+    <bibl type="collections" n="9">schnitzlerplace-no-goenames</bibl>
+</listBibl>
 </place><place xml:id="pmb39640">
   <placeName>Kassel</placeName>
   <placeName type="legacy-name-merge">Kassel</placeName>
@@ -409,28 +431,6 @@
 <listBibl>
     <bibl type="collections" n="2">Erster Import</bibl>
     <bibl type="collections" n="5">legalkraus</bibl>
-</listBibl>
-</place><place xml:id="pmb564">
-  <placeName>Eschenbachgasse</placeName>
-  <desc type="entity_type">Straße (K.STR)</desc>
-  <desc type="entity_type_id">26</desc>
-<location type="coords">
-  <geo>48.202671930842 16.363603741066</geo>
-</location>
-<location type="located_in_place">
-  <placeName key="pmb51">I., Innere Stadt</placeName>
-  <geo>48.20769 16.37049</geo>
-</location>
-  <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb564</idno>
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/564</idno>
-  <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb564</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/orte/pmb564</idno>
-  <idno type="URL">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb564.html</idno>
-<listBibl>
-    <bibl type="collections" n="1">ASBW</bibl>
-    <bibl type="collections" n="2">Erster Import</bibl>
-    <bibl type="collections" n="5">legalkraus</bibl>
-    <bibl type="collections" n="9">schnitzlerplace-no-goenames</bibl>
 </listBibl>
 </place></listPlace><listOrg><org xml:id="pmb57911">
   <orgName>Staatliches Theater (Kassel)</orgName>

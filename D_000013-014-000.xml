@@ -133,7 +133,35 @@
                <lb xml:id="uuid_9c16f00f-65cd-4316-9ddd-7567f93445b7"/><rs type="person" ref="#pmb11988">Kraus</rs> – <rs type="person" ref="#pmb8363">Kuh</rs>. U.H.<lb xml:id="uuid_ace95150-be77-420d-9fa6-0c2112487d0b"/>16.III.26 </note>
          </p>
       </body>
-   <back><listPerson><person xml:id="pmb38909">
+   <back><listOrg><org xml:id="pmb29470">
+  <orgName>Die Stunde</orgName>
+  <orgName type="uri_anno">http://anno.onb.ac.at/info/std_info.htm</orgName>
+  <orgName type="uri_wikipedia">https://de.wikipedia.org/wiki/Die_Stunde</orgName>
+  <desc type="entity_type">Tageszeitungsredaktion</desc>
+  <desc type="entity_type_id">972</desc>
+<location type="located_in_place">
+  <placeName key="pmb59">IX., Alsergrund</placeName>
+  <geo>48.22387 16.35641</geo>
+  <note type="IDNO" subtype="geonames">http://sws.geonames.org/2782729/</note>
+  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb59</note>
+  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/59</note>
+  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb59</note>
+  <note type="IDNO" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/orte/pmb59</note>
+</location>
+<location type="located_in_place">
+  <placeName key="pmb50643">Canisiusgasse</placeName>
+  <geo>48.228159 16.353186</geo>
+  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/50643/</note>
+  <note type="IDNO" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/orte/pmb50643</note>
+</location>
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/29470</idno>
+  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/institutionen/pmb29470</idno>
+<listBibl>
+    <bibl type="collections" n="1">ASBW</bibl>
+    <bibl type="collections" n="2">Erster Import</bibl>
+    <bibl type="collections" n="5">legalkraus</bibl>
+</listBibl>
+</org></listOrg><listPerson><person xml:id="pmb38909">
   <persName>
       <forename>Oskar</forename>
       <surname>Samek</surname>
@@ -174,37 +202,6 @@
     <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/55576/</idno>
     <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/institutionen/pmb55576</idno>
 </affiliation>
-<listBibl>
-    <bibl type="collections" n="5">legalkraus</bibl>
-</listBibl>
-</person><person xml:id="pmb38265">
-  <persName>
-      <forename>Marie</forename>
-      <surname>Turnowsky</surname>
-  </persName>
-  <persName type="uri_gnd">http://d-nb.info/gnd/1019237260</persName>
-  <persName type="geburtsname_vorname-nachname">Marie Kraus</persName>
-  <persName type="alternative-name">Kraus, Marie</persName>
-  <persName type="legacy-name-merge">Turnowsky, Marie</persName>
-  <persName type="legacy-uri-merge">http://d-nb.info/gnd/1019237260</persName>
-  <birth>
-    <date when-iso="1875-12-12">12.12.1875</date>
-      <settlement key="pmb41660">
-        <placeName type="pref">Jičín</placeName>
-        <location><geo>50.43723 15.35162</geo></location>
-      </settlement>
-  </birth>  
-  <death>
-    <date when-iso="1933-03-14">14.03.1933</date>
-      <settlement key="pmb50">
-        <placeName type="pref">Wien</placeName>
-        <location><geo>48.2066 16.37341</geo></location>
-      </settlement>
-  </death>
-  <sex value="female"/>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/38265/</idno>
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/38265</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/personen/pmb38265</idno>
 <listBibl>
     <bibl type="collections" n="5">legalkraus</bibl>
 </listBibl>
@@ -296,6 +293,37 @@
     <bibl type="collections" n="3">Manuell angelegt</bibl>
     <bibl type="collections" n="5">legalkraus</bibl>
 </listBibl>
+</person><person xml:id="pmb38265">
+  <persName>
+      <forename>Marie</forename>
+      <surname>Turnowsky</surname>
+  </persName>
+  <persName type="uri_gnd">http://d-nb.info/gnd/1019237260</persName>
+  <persName type="geburtsname_vorname-nachname">Marie Kraus</persName>
+  <persName type="alternative-name">Kraus, Marie</persName>
+  <persName type="legacy-name-merge">Turnowsky, Marie</persName>
+  <persName type="legacy-uri-merge">http://d-nb.info/gnd/1019237260</persName>
+  <birth>
+    <date when-iso="1875-12-12">12.12.1875</date>
+      <settlement key="pmb41660">
+        <placeName type="pref">Jičín</placeName>
+        <location><geo>50.43723 15.35162</geo></location>
+      </settlement>
+  </birth>  
+  <death>
+    <date when-iso="1933-03-14">14.03.1933</date>
+      <settlement key="pmb50">
+        <placeName type="pref">Wien</placeName>
+        <location><geo>48.2066 16.37341</geo></location>
+      </settlement>
+  </death>
+  <sex value="female"/>
+  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/38265/</idno>
+  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/38265</idno>
+  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/personen/pmb38265</idno>
+<listBibl>
+    <bibl type="collections" n="5">legalkraus</bibl>
+</listBibl>
 </person><person xml:id="pmb8363">
   <persName>
       <forename>Anton</forename>
@@ -324,35 +352,7 @@
 <listBibl>
     <bibl type="collections" n="5">legalkraus</bibl>
 </listBibl>
-</person></listPerson><listOrg><org xml:id="pmb29470">
-  <orgName>Die Stunde</orgName>
-  <orgName type="uri_anno">http://anno.onb.ac.at/info/std_info.htm</orgName>
-  <orgName type="uri_wikipedia">https://de.wikipedia.org/wiki/Die_Stunde</orgName>
-  <desc type="entity_type">Tageszeitungsredaktion</desc>
-  <desc type="entity_type_id">972</desc>
-<location type="located_in_place">
-  <placeName key="pmb59">IX., Alsergrund</placeName>
-  <geo>48.22387 16.35641</geo>
-  <note type="IDNO" subtype="geonames">http://sws.geonames.org/2782729/</note>
-  <note type="IDNO">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb59</note>
-  <note type="IDNO">https://pmb.acdh.oeaw.ac.at/entity/59</note>
-  <note type="IDNO" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb59</note>
-  <note type="IDNO" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/orte/pmb59</note>
-</location>
-<location type="located_in_place">
-  <placeName key="pmb50643">Canisiusgasse</placeName>
-  <geo>48.228159 16.353186</geo>
-  <note type="IDNO" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/50643/</note>
-  <note type="IDNO" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/orte/pmb50643</note>
-</location>
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/29470</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/institutionen/pmb29470</idno>
-<listBibl>
-    <bibl type="collections" n="1">ASBW</bibl>
-    <bibl type="collections" n="2">Erster Import</bibl>
-    <bibl type="collections" n="5">legalkraus</bibl>
-</listBibl>
-</org></listOrg><listPlace><place xml:id="pmb50493">
+</person></listPerson><listPlace><place xml:id="pmb50493">
   <placeName>Schottenring</placeName>
   <desc type="entity_type">Straße (K.STR)</desc>
   <desc type="entity_type_id">26</desc>
