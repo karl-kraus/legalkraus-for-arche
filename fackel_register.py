@@ -1,4 +1,5 @@
 import glob
+import json
 import collections
 import pandas as pd
 from acdh_tei_pyutils.tei import TeiReader
@@ -13,9 +14,9 @@ df[['p_from', 'p_to']] = df['pages'].str.split('–', 1, expand=True)
 
 def full_idno(row):
     if not pd.isna(row['p_from']):
-        corresp = f"{row['idno']},{int(row['p_from']):03}"
+        corresp = f"{row['idno'].strip()},{int(row['p_from']):03}"
     else:
-        corresp = f"{row['idno']}"
+        corresp = f"{row['idno'].strip()}"
     return "".join(corresp.split())
 
 df['corresp'] = df.apply (lambda row: full_idno(row), axis=1)
@@ -27,9 +28,9 @@ list_bibl_node = fackel_doc.any_xpath('.//tei:listBibl')[0]
 for i, row in df.iterrows():
     bibl = ET.Element("{http://www.tei-c.org/ns/1.0}bibl")
     if not pd.isna(row['p_to']):
-        corresp = f"{row['idno']},{int(row['p_to']):03}"
+        corresp = f"{row['idno'].strip()},{int(row['p_to']):03}"
     else:
-        corresp = f"{row['idno']}"
+        corresp = f"{row['idno'].strip()}"
     bibl.attrib['corresp'] = row['corresp']
     bibl.attrib['type'] = 'fackel'
     title = ET.Element("{http://www.tei-c.org/ns/1.0}title")
@@ -71,9 +72,11 @@ for i, row in df.iterrows():
 
 new_df = df[~df["idno"].str.contains(',')]
 new_df[['p_to', 'p_from']] = new_df[['p_to', 'p_from']].astype('int')
+new_df.to_csv('hansi.csv', index=False)
 files = glob.glob('./data/editions/D_*.xml')
 idnos = set(df['idno'].values)
 fackel_refs = defaultdict(set)
+no_match = set()
 for x in files:
     try:
         doc = TeiReader(x)
@@ -91,12 +94,15 @@ for x in files:
             if ref in idnos:
                 match = ref
             else:
-                "NO MATCH"
+                match = "NO MATCH"
+                no_match.add(ref)
         try:
             fackel_refs[match].add(f"{title}|{xml_id}__{ref}")
         except:
-            pass
+            continue
+print(f"no matches for: {no_match}")
 ref_lookup = collections.OrderedDict(sorted(fackel_refs.items()))
+
 
 for x in fackel_doc.any_xpath('.//tei:bibl'):
     corresp = x.attrib['corresp']
