@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000190-019-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000190-017-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000190-018-000.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000190-019-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000190-017-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000190-018-000.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -139,16 +139,49 @@
          <p xml:id="uuid_5c61e6b1-7466-4d97-80b3-9947009f7c16"><lb xml:id="uuid_4c74b759-2d6a-4d0f-8bc7-00e321026b1a"/><note hand="#D_000190-018-000-hand01">übernommen</note><lb xml:id="uuid_4f5db4ba-5ef5-4c5e-b501-16642e34317c"/>[<rs type="person">Unterschrift</rs>]<lb xml:id="uuid_1c458da6-37d7-467b-b9ec-806404ac4cba"/><note hand="#D_000190-018-000-hand01">11./4.34.</note>
          </p>
       </body>
-   <back><listPerson><person xml:id="pmb38909">
+   <back><listPerson><person xml:id="pmb38593">
+  <persName>
+      <forename>Siegfried</forename>
+      <surname>Kantor</surname>
+  </persName>
+  <birth>
+    <date when-iso="1881-03-18">18.03.1881</date>
+      <settlement key="pmb833">
+        <placeName type="pref">Brünn</placeName>
+        <location><geo>49.19522 16.60796</geo></location>
+      </settlement>
+  </birth>  
+  <death>
+    <date when-iso="1957-01-01">1957</date>
+      <settlement key="pmb7589">
+        <placeName type="pref">Forest Hills</placeName>
+        <location><geo>40.715 -73.845</geo></location>
+      </settlement>
+  </death>
+  <sex value="male"/>
+  <occupation key="106">Rechtsanwalt/Rechtsanwältin</occupation>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/38593/</idno>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38593</idno>
+  <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb38593</idno>
+<affiliation>
+    <term key="1182">arbeitet für</term>
+    <orgName key="pmb36927">Wiener Rechtsanwaltskammer</orgName>
+    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36927/</idno>
+    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36927</idno>
+    <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/institutionen/pmb36927</idno>
+</affiliation>
+<listBibl>
+    <bibl type="collections" n="5">legalkraus</bibl>
+</listBibl>
+</person><person xml:id="pmb38909">
   <persName>
       <forename>Oskar</forename>
       <surname>Samek</surname>
   </persName>
-  <persName type="uri_gnd">http://d-nb.info/gnd/1026890527</persName>
-  <persName type="namensvariante">Samek, Oskar Jitzak</persName>
-  <persName type="namensvariante">Sameck</persName>
-  <persName type="namensvariante">Samesch</persName>
-  <persName type="namensvariante">Szamek</persName>
+  <persName type="person_namensvariante_nachname-komma-vorname">Samek, Oskar Jitzak</persName>
+  <persName type="person_namensvariante_nachname-komma-vorname">Sameck</persName>
+  <persName type="person_namensvariante_nachname-komma-vorname">Samesch</persName>
+  <persName type="person_namensvariante_nachname-komma-vorname">Szamek</persName>
   <birth>
     <date when-iso="1889-01-02">02.01.1889</date>
       <settlement key="pmb65">
@@ -165,20 +198,22 @@
   </death>
   <sex value="male"/>
   <occupation key="106">Rechtsanwalt/Rechtsanwältin</occupation>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/38909/</idno>
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/38909</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/personen/pmb38909</idno>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/38909/</idno>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38909</idno>
+  <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb38909</idno>
+  <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp41596</idno>
+  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1026890527</idno>
 <affiliation>
-    <term key="1409">ist Eigentümer*in von</term>
+    <term key="1409">besitzt</term>
     <orgName key="pmb52930">Kanzlei Oskar Samek</orgName>
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52930/</idno>
-    <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/institutionen/pmb52930</idno>
+    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/52930/</idno>
+    <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/institutionen/pmb52930</idno>
 </affiliation>
 <affiliation>
-    <term key="1153">in Relation zu</term>
+    <term key="1153">in Bezug zu</term>
     <orgName key="pmb55576">Kuhner &amp; Co</orgName>
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/55576/</idno>
-    <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/institutionen/pmb55576</idno>
+    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/55576/</idno>
+    <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/institutionen/pmb55576</idno>
 </affiliation>
 <listBibl>
     <bibl type="collections" n="5">legalkraus</bibl>
@@ -200,89 +235,56 @@
   </death>
   <sex value="male"/>
   <occupation key="106">Rechtsanwalt/Rechtsanwältin</occupation>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37840/</idno>
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/37840</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/personen/pmb37840</idno>
-<listBibl>
-    <bibl type="collections" n="5">legalkraus</bibl>
-</listBibl>
-</person><person xml:id="pmb38593">
-  <persName>
-      <forename>Siegfried</forename>
-      <surname>Kantor</surname>
-  </persName>
-  <birth>
-    <date when-iso="1881-03-18">18.03.1881</date>
-      <settlement key="pmb833">
-        <placeName type="pref">Brünn</placeName>
-        <location><geo>49.19522 16.60796</geo></location>
-      </settlement>
-  </birth>  
-  <death>
-    <date when-iso="1957-01-01">1957</date>
-      <settlement key="pmb7589">
-        <placeName type="pref">Forest Hills</placeName>
-        <location><geo>40.715 -73.845</geo></location>
-      </settlement>
-  </death>
-  <sex value="male"/>
-  <occupation key="106">Rechtsanwalt/Rechtsanwältin</occupation>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/38593/</idno>
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/38593</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/personen/pmb38593</idno>
-<affiliation>
-    <term key="1182">arbeitet für</term>
-    <orgName key="pmb36927">Wiener Rechtsanwaltskammer</orgName>
-    <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36927/</idno>
-    <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36927</idno>
-    <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/institutionen/pmb36927</idno>
-</affiliation>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37840/</idno>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/37840</idno>
+  <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb37840</idno>
+  <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp41821</idno>
 <listBibl>
     <bibl type="collections" n="5">legalkraus</bibl>
 </listBibl>
 </person></listPerson><listBibl><bibl xml:id="pmb61366">
   <title type="main">Der Abend, 30.1.1934</title>
-  <title type="bibliografische_angabe">Der Abend, Nr. 24, 30.01.1934</title>
-  <title type="uri_anno">https://anno.onb.ac.at/cgi-content/anno?aid=abd&amp;datum=19340130&amp;zoom=33</title>
+  <title type="werk_bibliografische-angabe">Der Abend, Nr. 24, 30.01.1934</title>
+  <title type="werk_link-anno">https://anno.onb.ac.at/cgi-content/anno?aid=abd&amp;datum=19340130&amp;zoom=33</title>
 <date>1934-01-30  – 1934-01-30</date>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/61366/</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/werke/pmb61366</idno>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61366/</idno>
+  <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/werke/pmb61366</idno>
 <note type="collections">
-  <bibl type="collections" n="5">legalkraus</bibl>
-</note>
-  <note type="work_kind">Publikationsorgan &gt;&gt; Tageszeitung</note>
-</bibl><bibl xml:id="pmb36364">
-  <title type="main">Der Abend</title>
-  <title type="uri_wikipedia">https://de.wikipedia.org/wiki/Der_Abend_(Österreich)</title>
-  <author key="person__4023" role="hat-herausgegeben">Colbert, Carl</author>
-<date from-iso="1915-01-01" to-iso="1915-12-31">1915  – 1934</date>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36364/</idno>
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36364</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/werke/pmb36364</idno>
-<note type="collections">
-  <bibl type="collections" n="3">Manuell angelegt</bibl>
   <bibl type="collections" n="5">legalkraus</bibl>
 </note>
   <note type="work_kind">Publikationsorgan &gt;&gt; Tageszeitung</note>
 </bibl><bibl xml:id="pmb61370">
   <title type="main">Der Abend, 16.2.1934</title>
-  <title type="bibliografische_angabe">Der Abend, Nr. 39, 16.02.1934</title>
-  <title type="uri_anno">https://anno.onb.ac.at/cgi-content/anno?aid=abd&amp;datum=19340216&amp;zoom=33</title>
+  <title type="werk_bibliografische-angabe">Der Abend, Nr. 39, 16.02.1934</title>
+  <title type="werk_link-anno">https://anno.onb.ac.at/cgi-content/anno?aid=abd&amp;datum=19340216&amp;zoom=33</title>
 <date>1934-02-16  – 1934-02-16</date>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/61370/</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/werke/pmb61370</idno>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61370/</idno>
+  <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/werke/pmb61370</idno>
 <note type="collections">
   <bibl type="collections" n="5">legalkraus</bibl>
 </note>
   <note type="work_kind">Publikationsorgan &gt;&gt; Tageszeitung</note>
 </bibl><bibl xml:id="pmb61368">
   <title type="main">Der Abend, 7.2.1934</title>
-  <title type="bibliografische_angabe">Der Abend, Nr. 31, 07.02.1934</title>
-  <title type="uri_anno">https://anno.onb.ac.at/cgi-content/anno?aid=abd&amp;datum=19340207&amp;zoom=33</title>
+  <title type="werk_bibliografische-angabe">Der Abend, Nr. 31, 07.02.1934</title>
+  <title type="werk_link-anno">https://anno.onb.ac.at/cgi-content/anno?aid=abd&amp;datum=19340207&amp;zoom=33</title>
 <date>1934-02-07  – 1934-02-07</date>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/61368/</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/werke/pmb61368</idno>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61368/</idno>
+  <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/werke/pmb61368</idno>
 <note type="collections">
+  <bibl type="collections" n="5">legalkraus</bibl>
+</note>
+  <note type="work_kind">Publikationsorgan &gt;&gt; Tageszeitung</note>
+</bibl><bibl xml:id="pmb36364">
+  <title type="main">Der Abend</title>
+  <author key="person__4023" role="hat-herausgegeben">Colbert, Carl</author>
+<date from-iso="1915-01-01" to-iso="1915-12-31">1915  – 1934</date>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36364/</idno>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36364</idno>
+  <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/werke/pmb36364</idno>
+  <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1192062</idno>
+<note type="collections">
+  <bibl type="collections" n="3">Manuell angelegt</bibl>
   <bibl type="collections" n="5">legalkraus</bibl>
 </note>
   <note type="work_kind">Publikationsorgan &gt;&gt; Tageszeitung</note>
@@ -298,10 +300,10 @@
   <geo>48.2066 16.37341</geo>
 </location>
   <idno type="URL" subtype="geonames">http://sws.geonames.org/2779138/</idno>
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/65</idno>
-  <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb65</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/orte/pmb65</idno>
-  <idno type="URL">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb65.html</idno>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65</idno>
+  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb65</idno>
+  <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/orte/pmb65</idno>
+  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb65.html</idno>
 <listBibl>
     <bibl type="collections" n="1">ASBW</bibl>
     <bibl type="collections" n="2">Erster Import</bibl>
@@ -309,7 +311,6 @@
 </listBibl>
 </place><place xml:id="pmb51">
   <placeName>I., Innere Stadt</placeName>
-  <placeName type="uri_geonames">https://www.geonames.org/2775260/innere-stadt.html</placeName>
   <placeName type="alternative-name">Inner city</placeName>
   <placeName type="alternative-name">Wien,Innere Stadt</placeName>
   <placeName type="alternative-name">1. Wiener Gemeindebezirk</placeName>
@@ -329,14 +330,14 @@
   <geo>48.2066 16.37341</geo>
 </location>
   <idno type="URL" subtype="geonames">http://sws.geonames.org/2775259/</idno>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36789/</idno>
-  <idno type="URL">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb51</idno>
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/51</idno>
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/36789/</idno>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/51010/</idno>
-  <idno type="URL">https://sws.geonames.org/2775259/</idno>
-  <idno type="URL" subtype="schnitzler-briefeacdhoeawacat">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb51</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/orte/pmb51</idno>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36789/</idno>
+  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb51.html</idno>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51</idno>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36789/</idno>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51010/</idno>
+  <idno type="URL" subtype="geonames">https://sws.geonames.org/2775259/</idno>
+  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb51</idno>
+  <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/orte/pmb51</idno>
 <listBibl>
     <bibl type="collections" n="1">ASBW</bibl>
     <bibl type="collections" n="2">Erster Import</bibl>

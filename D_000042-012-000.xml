@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-013-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-011-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000042-012-000.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-013-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-011-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000042-012-000.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -150,12 +150,44 @@
          <p xml:id="uuid_13654389-d77b-41b5-8527-c2a11fbd9990">
             <lb xml:id="uuid_c2abc528-5d2d-4cf0-92af-e939c0b86dfa"/>Ich habe Frau <rs ref="#pmb38589" type="person">Kann</rs> versprochen,<lb xml:id="uuid_4178e2df-8a92-436f-9463-31cd596f3cf2"/>sie anzurufen, bin aber<lb xml:id="uuid_4afe3885-7fc3-47fe-869b-bc14f5e96598"/>nicht mehr dazu gekommen.<lb xml:id="uuid_879c4648-d7ce-4f1e-b403-ad2e100a76ee"/>Grüße Sie, bitte, von mir. </p>
       </body>
-   <back><listPerson><person xml:id="pmb38589">
+   <back><listPerson><person xml:id="pmb52891">
+  <persName>
+      <forename>Gisa</forename>
+      <surname>Singer</surname>
+  </persName>
+  <sex value="female"/>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/52891/</idno>
+  <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb52891</idno>
+<listBibl>
+    <bibl type="collections" n="5">legalkraus</bibl>
+</listBibl>
+</person><person xml:id="pmb52890">
+  <persName>
+      <forename>Georg</forename>
+      <surname>Singer</surname>
+  </persName>
+  <sex value="male"/>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/52890/</idno>
+  <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb52890</idno>
+<listBibl>
+    <bibl type="collections" n="5">legalkraus</bibl>
+</listBibl>
+</person><person xml:id="pmb52893">
+  <persName>
+      <forename>Regine</forename>
+      <surname>Stern</surname>
+  </persName>
+  <sex value="female"/>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/52893/</idno>
+  <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb52893</idno>
+<listBibl>
+    <bibl type="collections" n="5">legalkraus</bibl>
+</listBibl>
+</person><person xml:id="pmb38589">
   <persName>
       <forename>Helene</forename>
       <surname>Kann</surname>
   </persName>
-  <persName type="uri_gnd">http://d-nb.info/gnd/116044527</persName>
   <birth>
     <date when-iso="1877-01-01">1877</date>
       <settlement key="pmb58899">
@@ -171,9 +203,10 @@
       </settlement>
   </death>
   <sex value="female"/>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/38589/</idno>
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/38589</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/personen/pmb38589</idno>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/38589/</idno>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38589</idno>
+  <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb38589</idno>
+  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116044527</idno>
 <listBibl>
     <bibl type="collections" n="5">legalkraus</bibl>
 </listBibl>
@@ -182,7 +215,7 @@
       <forename>Viktor</forename>
       <surname>Stadler</surname>
   </persName>
-  <persName type="namensvariante">Victor</persName>
+  <persName type="person_namensvariante_nachname-komma-vorname">Victor</persName>
   <birth>
     <date when-iso="1897-06-01">01.06.1897</date>
       <settlement key="pmb628">
@@ -195,42 +228,10 @@
   </death>
   <sex value="male"/>
   <occupation key="106">Rechtsanwalt/Rechtsanwältin</occupation>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/38714/</idno>
-  <idno type="URL">https://pmb.acdh.oeaw.ac.at/entity/38714</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/personen/pmb38714</idno>
-<listBibl>
-    <bibl type="collections" n="5">legalkraus</bibl>
-</listBibl>
-</person><person xml:id="pmb52890">
-  <persName>
-      <forename>Georg</forename>
-      <surname>Singer</surname>
-  </persName>
-  <sex value="male"/>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52890/</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/personen/pmb52890</idno>
-<listBibl>
-    <bibl type="collections" n="5">legalkraus</bibl>
-</listBibl>
-</person><person xml:id="pmb52891">
-  <persName>
-      <forename>Gisa</forename>
-      <surname>Singer</surname>
-  </persName>
-  <sex value="female"/>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52891/</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/personen/pmb52891</idno>
-<listBibl>
-    <bibl type="collections" n="5">legalkraus</bibl>
-</listBibl>
-</person><person xml:id="pmb52893">
-  <persName>
-      <forename>Regine</forename>
-      <surname>Stern</surname>
-  </persName>
-  <sex value="female"/>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/52893/</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/personen/pmb52893</idno>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/38714/</idno>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38714</idno>
+  <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb38714</idno>
+  <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54925</idno>
 <listBibl>
     <bibl type="collections" n="5">legalkraus</bibl>
 </listBibl>
@@ -245,8 +246,8 @@
   <placeName key="pmb53">III., Landstraße</placeName>
   <geo>48.19811 16.39482</geo>
 </location>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/65525/</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/orte/pmb65525</idno>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65525/</idno>
+  <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/orte/pmb65525</idno>
 <listBibl>
     <bibl type="collections" n="5">legalkraus</bibl>
 </listBibl>

@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000077-003-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000077-002-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000077-002-001.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" next="https://id.acdh.oeaw.ac.at/legalkraus/D_000077-003-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000077-002-000.xml" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000077-002-001.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -114,12 +114,47 @@
                (Ein<lb xml:id="uuid_ad61bbe5-9edd-4008-b403-7f8403d059c0"/>Wettbewerb der <rs ref="#pmb60418" type="institution">Fanamet Filmgesellschaft</rs>
             <lb xml:id="uuid_887d6bdd-5d4c-49f7-a453-e46b5362bebb"/>für die Leser der <rs ref="#pmb50611" type="work" subtype="pmb">Stunde</rs>. (Ein langer <rs type="work" subtype="pmb">Artikel</rs>) </p>
       </body>
-   <back><listPerson><person xml:id="pmb60416">
+   <back><listBibl><bibl xml:id="pmb60417">
+  <title type="main">The Merry Widow</title>
+  <title type="person_namensvariante_nachname-komma-vorname">Die lustige Witwe</title>
+  <author key="person__10117" role="hat-geschaffen">Stroheim, Erich von</author>
+<date notBefore-iso="1925-01-01" when-iso="1925-07-02">1925</date>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60417/</idno>
+  <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/werke/pmb60417</idno>
+  <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q654439</idno>
+<note type="collections">
+  <bibl type="collections" n="5">legalkraus</bibl>
+</note>
+  <note type="work_kind">Film</note>
+</bibl><bibl xml:id="pmb50611">
+  <title type="main">Die Stunde</title>
+  <title type="werk_link-anno">https://anno.onb.ac.at/cgi-content/anno?aid=std</title>
+  <author key="person__37843" role="hat-herausgegeben">Békessy, Imre</author>
+<date>1923-02-02  – 1938-03-11</date>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50611/</idno>
+  <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/werke/pmb50611</idno>
+<note type="collections">
+  <bibl type="collections" n="5">legalkraus</bibl>
+</note>
+  <note type="work_kind">Publikationsorgan &gt;&gt; Tageszeitung</note>
+  <note type="references">https://de.wikipedia.org/wiki/Die_Stunde</note>
+</bibl></listBibl><listOrg><org xml:id="pmb60418">
+  <orgName>Fanamet Filmgesellschaft</orgName>
+  <desc type="entity_type">Filmproduktionsfirma</desc>
+  <desc type="entity_type_id">994</desc>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60418/</idno>
+  <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/institutionen/pmb60418</idno>
+<listBibl>
+    <bibl type="collections" n="5">legalkraus</bibl>
+</listBibl>
+<note type="apis_dates">
+<date from-iso="1925-01-01" to-iso="1925-12-31">1925  – 1927</date>
+</note>
+</org></listOrg><listPerson><person xml:id="pmb60416">
   <persName>
       <forename>Mae</forename>
       <surname>Murray</surname>
   </persName>
-  <persName type="uri_wikipedia">https://de.wikipedia.org/wiki/Mae_Murray</persName>
   <birth>
     <date when-iso="1885-05-10">1885-05-10</date>
   </birth>  
@@ -129,8 +164,9 @@
   <sex value="female"/>
   <occupation key="105">Schauspieler/Schauspielerin</occupation>
   <occupation key="190">Tänzer/Tänzerin</occupation>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/60416/</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/personen/pmb60416</idno>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60416/</idno>
+  <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb60416</idno>
+  <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q271523</idno>
 <listBibl>
     <bibl type="collections" n="5">legalkraus</bibl>
 </listBibl>
@@ -140,8 +176,8 @@
       <surname>Moreau</surname>
   </persName>
   <sex value="female"/>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/60419/</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/personen/pmb60419</idno>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60419/</idno>
+  <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb60419</idno>
 <listBibl>
     <bibl type="collections" n="5">legalkraus</bibl>
 </listBibl>
@@ -158,46 +194,10 @@
   </death>
   <sex value="male"/>
   <occupation key="396">Filmschauspieler/Filmschauspielerin</occupation>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/60420/</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/personen/pmb60420</idno>
+  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60420/</idno>
+  <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb60420</idno>
 <listBibl>
     <bibl type="collections" n="5">legalkraus</bibl>
 </listBibl>
-</person></listPerson><listOrg><org xml:id="pmb60418">
-  <orgName>Fanamet Filmgesellschaft</orgName>
-  <desc type="entity_type">Filmproduktionsfirma</desc>
-  <desc type="entity_type_id">994</desc>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/60418/</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/institutionen/pmb60418</idno>
-<listBibl>
-    <bibl type="collections" n="5">legalkraus</bibl>
-</listBibl>
-<note type="apis_dates">
-<date from-iso="1925-01-01" to-iso="1925-12-31">1925  – 1927</date>
-</note>
-</org></listOrg><listBibl><bibl xml:id="pmb50611">
-  <title type="main">Die Stunde</title>
-  <title type="uri_anno">https://anno.onb.ac.at/cgi-content/anno?aid=std</title>
-  <author key="person__37843" role="hat-herausgegeben">Békessy, Imre</author>
-<date>1923-02-02  – 1938-03-11</date>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/50611/</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/werke/pmb50611</idno>
-<note type="collections">
-  <bibl type="collections" n="5">legalkraus</bibl>
-</note>
-  <note type="work_kind">Publikationsorgan &gt;&gt; Tageszeitung</note>
-  <note type="references">https://de.wikipedia.org/wiki/Die_Stunde</note>
-</bibl><bibl xml:id="pmb60417">
-  <title type="main">The Merry Widow</title>
-  <title type="uri_wikipedia">https://de.wikipedia.org/wiki/Die_lustige_Witwe_(1925)</title>
-  <title type="namensvariante">Die lustige Witwe</title>
-  <author key="person__10117" role="hat-geschaffen">Stroheim, Erich von</author>
-<date notBefore-iso="1925-01-01" when-iso="1925-07-02">1925</date>
-  <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/60417/</idno>
-  <idno type="URL" subtype="krauswienbibliothekat">https://kraus.wienbibliothek.at/register/werke/pmb60417</idno>
-<note type="collections">
-  <bibl type="collections" n="5">legalkraus</bibl>
-</note>
-  <note type="work_kind">Film</note>
-</bibl></listBibl></back></text>
+</person></listPerson></back></text>
 </TEI>
