@@ -7,7 +7,7 @@ unzip main
 rm -rf ./data/editions
 rm -rf ./data/indices
 rm -rf ./data/cases_tei
-mv ./legalkraus-data-main/collections ./data/cases_tei
+mv ./legalkraus-data-main/old_cols ./data/cases_tei
 mv ./legalkraus-data-main/objects ./data/editions
 mv ./legalkraus-data-main/indices ./data/indices
 rm -rf main.zip
