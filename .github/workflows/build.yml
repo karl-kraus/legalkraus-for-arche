@@ -15,7 +15,7 @@ jobs:
       TYPESENSE_API_KEY: ${{secrets.TYPESENSE_API_KEY}}
     steps:
     - name: Perform Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Install Saxon, Ant and Fundament
       run: |
         apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
@@ -25,6 +25,7 @@ jobs:
         GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
       run: |
         ./fetch_data.sh
+        ./delete_schema.sh
     - name: Make Typesense Index
       run: |
         python make_typesense_index.py
