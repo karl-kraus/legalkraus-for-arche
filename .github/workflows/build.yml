@@ -32,13 +32,13 @@ jobs:
     - name: Make CMIF
       run: |
         python make_cmif.py
-    - name: Copy processed data to /karl-kraus/legalkraus-archiv
+    - name: Copy processed data to karl-kraus/legalkraus-archiv
       uses: dmnemec/copy_file_to_another_repo_action@main
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
         source_file: './data/.'
-        destination_repo: '/karl-kraus/legalkraus-archiv'
+        destination_repo: 'karl-kraus/legalkraus-archiv'
         destination_folder: 'data'
         user_email: 'peter.andorfer@oeaw.ac.at'
         user_name: 'csae8092'
