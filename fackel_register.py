@@ -25,8 +25,11 @@ fackel_doc = TeiReader(LIST_FACKEL)
 for x in fackel_doc.any_xpath('.//tei:listBibl/tei:bibl'):
     x.getparent().remove(x)
 list_bibl_node = fackel_doc.any_xpath('.//tei:listBibl')[0]
+counter = 1
 for i, row in df.iterrows():
     bibl = ET.Element("{http://www.tei-c.org/ns/1.0}bibl")
+    bibl.attrib["{http://www.w3.org/XML/1998/namespace}id"] = f"lk_fackel__{counter}"
+    counter += 1
     if not pd.isna(row['p_to']):
         corresp = f"{row['idno'].strip()},{int(row['p_to']):03}"
     else:
